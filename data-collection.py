@@ -24,7 +24,7 @@ read_split = readable.split()
 
 keys = ['LOCUS', 'DEFINITION', 'ACCESSION', 'VERSION', 'DBLINK', 'KEYWORDS', 'SOURCE',
     'ORGANISM', 'REFERENCE', 'AUTHORS', 'TITLE', 'JOURNAL', 'PUBMED', 'REFERENCE', 'AUTHORS'
-    'TITLE', 'JOURNAL', 'COMMENT', 'FEATURES', 'ORIGIN']
+    'TITLE', 'JOURNAL', 'COMMENT', 'FEATURES', 'ORIGIN'] # got these from looking at original file
 
 my_dict = {}
 key = "start" # temp
