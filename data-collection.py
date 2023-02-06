@@ -2,8 +2,6 @@
 Patricia Zito 
 Feb 5, 2022
 '''
-
-
 import Bio 
 from Bio import Entrez 
 Entrez.email = "pzito@wisc.edu"
@@ -23,25 +21,26 @@ handle.close()
 read_split = readable.split()
 
 keys = ['LOCUS', 'DEFINITION', 'ACCESSION', 'VERSION', 'DBLINK', 'KEYWORDS', 'SOURCE',
-    'ORGANISM', 'REFERENCE', 'AUTHORS', 'TITLE', 'JOURNAL', 'PUBMED', 'REFERENCE', 'AUTHORS'
+    'ORGANISM', 'REFERENCE', 'AUTHORS', 'TITLE', 'JOURNAL', 'PUBMED', 'REFERENCE', 'AUTHORS',
     'TITLE', 'JOURNAL', 'COMMENT', 'FEATURES', 'ORIGIN'] # got these from looking at original file
 
 my_dict = {}
-key = "start" # temp
+key = keys[0] # temp
 values = [] # temp 
 
 for i in range(len(read_split)):
-    if read_split[i] == keys[0]: # if this is a key 
-        if values: # if value is full 
+    if read_split[i] != keys[0]: # if it's a value 
+        values.append(read_split[i]) # accumulate 
+    else: # it's a key 
+        if len(values): # if value is full 
             my_dict[key] = values # match key and value 
-            print("MATCHED!!!!!!", key, my_dict[key])
             key = keys[0] # current key 
             keys.remove(keys[0]) # start looking for next boundary
             values = [] # restart values 
-        else: # value is empty
-            key = keys[0] # only take key
-    else: # if this is a value 
-        values.append(read_split[i]) # add it to values 
+        else: 
+            keys.remove(keys[0])
+
+
 
 
 
