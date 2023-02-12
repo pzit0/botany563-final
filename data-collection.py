@@ -85,30 +85,24 @@ read_dict['GBSeq_length'] # protein size
 read_dict['GBSeq_comment'] # assembly info, does not contain scaffold info, however
 read_dict['GBSeq_organism'] # organism 
 
-# now testing efetch the assembly through bioproject 
-# absolutely no important info 
-hand = Entrez.efetch(db = "bioproject", id = read_dict['GBSeq_project'], rettype = 'gb', retmode = 'string')
-read = hand.read()
-import xml.etree.ElementTree as ET 
-tree = ET.parse(hand)
-root = tree.getroot()
-
-# through genome 
-# omg this takes forever and it doesn't work 
-hand1 = Entrez.efetch(db = "genome", id = "12192", rettype = "gb", retmode = "string")
-read1 = hand1.read()
-
-# assembly 
-hand2 = Entrez.efetch(db = "assembly", id = "4120771", rettype = "gb", retmode = "xml")
-read2 = hand2.read()
-
-hand3 = Entrez.esummary(db = "assembly", id = "4120771", report = "full", retmode = "xml") # this worked for like a second? 
-read3 = hand3.read()
+# now for the assembly info 
 
 hand4 = Entrez.esummary(db = 'assembly', id ='4120771', report = 'full') # now this kind of works, id has to be iud, NOT genbank 
-read4 = hand4.read() # as it turns out, the dict is NOT nested inside, a bunch of random numbers literally what the fuck 
+read4 = Entrez.read(hand4) # as it turns out, the dict is NOT nested inside, a bunch of random numbers literally what the fuck 
+hand5.close()
+summary = read4['DocumentSummarySet']['DocumentSummary'][0] # very nested 
+for i in summary:
+    print(i, summary[i])
 
-Entrez.esummary()
+summary['AssemblyStatus'] # level (chromosome?)
+summary['BioSampleAccn'] # maybe check if it's the same as the fucking one as the protein dict
+summary['ContigN50'] # contigN50
+summary['ScaffoldN50'] # scaffold n50 
+summary['Busco'] # might need to parse through this though
+
+#### UP TO HERE WORKS. DO NOT TOUCH. ######
+
+
 
 
 
