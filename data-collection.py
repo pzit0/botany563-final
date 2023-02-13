@@ -101,8 +101,3 @@ summary['ScaffoldN50'] # scaffold n50
 summary['Busco'] # might need to parse through this though
 
 #### UP TO HERE WORKS. DO NOT TOUCH. ######
-
-
-
-
-
