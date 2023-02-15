@@ -8,96 +8,90 @@ import Bio
 from Bio import Entrez 
 Entrez.email = "pzito@wisc.edu"
 
-# Settings
-# KEYS FOR DICTIONARY 
-protein_keys = ['LOCUS', 'DEFINITION', 'ACCESSION', 'VERSION', 'DBLINK', 'KEYWORDS', 'SOURCE',
-        'ORGANISM', 'REFERENCE', 'AUTHORS', 'TITLE', 'JOURNAL', 'PUBMED', 'REFERENCE', 'AUTHORS',
-        'TITLE', 'JOURNAL', 'COMMENT', 'FEATURES', 'ORIGIN'] 
-assembly_keys = []
+acc1 = "TRY75264.1" # for testing, can get this from BLAST 
+acc2 = "XP_047735583.1" # for testing
+blast_res = []
 
-acc = "TRY75264.1" # for testing 
-acc1 = "PRJNA237968"
+# importing data 
 
-# Defining Functions
-def get_dict(id, database):
+# function for extracting acc numbers from blast result csv 
+def get_acc(blast_res):
     '''
-    Function that creates a dictionary containing information from genbank 
-        from an accession number 
-    Inputs: 
-        id: a string, an UID or accession number 
-    Outputs:
-        out: a dictionary containing this information 
+    This function takes in the Blast result csv file and returns a list 
+        of protein accession numbers. 
+
+    Input: blast-res (csv file)
+    Output: list of accession numbers (python list)
     '''
+    acc_lst = []
+    return acc_lst 
 
-    # protein or assembly 
-    if database == "protein":
-        keys = ['LOCUS', 'DEFINITION', 'ACCESSION', 'VERSION', 'DBLINK', 'KEYWORDS', 'SOURCE',
-        'ORGANISM', 'REFERENCE', 'AUTHORS', 'TITLE', 'JOURNAL', 'PUBMED', 'REFERENCE', 'AUTHORS',
-        'TITLE', 'JOURNAL', 'COMMENT', 'FEATURES', 'ORIGIN'] 
-    if database == "assembly":
-        assembly_keys = [] 
-
-    # acquiring handle  
-    handle = Entrez.efetch(db = database, id = acc, rettype = "gb", retmode = "text")
-    readable = handle.read()
-    handle.close()
-
-    # parsing and putting info into dict 
-    read_split = readable.split()
-    my_dict = {}
-    key = keys[0] # temp
-    values = [] # temp 
-
-    for i in range(len(read_split)):
-        if read_split[i] != keys[0]: # if it's a value 
-            values.append(read_split[i]) # accumulate 
-        else: # it's a key 
-            if len(values): # if value is full 
-                my_dict[key] = values # match key and value 
-                key = keys[0] # current key 
-                keys.remove(keys[0]) # start looking for next boundary
-                values = [] # restart values 
-            else: 
-                keys.remove(keys[0])
+# maybe write some logs here, like if not a match (protein and assembly)
+def look_ncbi(acc):
+    '''
+    This function takes in a protein ncbi accession number (possibly from your BLAST result)
+        and returns information about its protein and assembly as a dict. 
     
-    return my_dict
+    Input: Accession Number (string)
+    Output: Dict containing: species, protein accession number, protein size, protein length, 
+        assembly name, genome coverage, sequencing level, biosample accession number, contig N50,
+        scaffold N50, Busco comments. 
+    '''
+    info = dict()
 
+    # extracting info from protein link
+    prot_handle = Entrez.efetch(db = 'protein', id = acc, rettype = 'gb', retmode = 'xml')
+    prot_record = Entrez.read(prot_handle)
+    prot_handle.close()
+    protein_dict = prot_record[0] # dict is nested inside parsing object
 
-# next function: assembly = Bioproject
-# take dictionary and get_dict(assembly) 
-assembly_accession = my_dict['DBLINK'][1]
-assembly_dict = get_dict(id = assembly_accession, database = 'assembly', in_keys = assembly_keys)
+    info['species'] = protein_dict['GBSeq_organism'] # organism 
+    info['protein-accession'] = acc # accession number 
+    info['protein-sequence'] = protein_dict['GBSeq_sequence'] # protein sequence 
+    info['protein-length'] = protein_dict['GBSeq_length'] # protein size 
+    
+    assembly = protein_dict['GBSeq_comment'] # assembly info available in protein link 
+    a = assembly.split() # so it reads the words and not characters 
+    for i in range(len(a)):
+        if a[i] == "Assembly":
+            if a[i+1] == "Name":
+                assembly_term = a[i+3] # use this to search for assembly id
+        elif a[i] == "Genome":
+            if a[i+1] == "Coverage":
+                info['genome-coverage'] = a[i+3] # genome coverage 
+            
 
-# next function: extract info from dict and build dataframe 
+    # getting assembly id: 
+    # cannot use genbank accession code for obtaining assembly info, has to be the unique uid 
+    pre_assembly_handle = Entrez.esearch(db = "assembly", term = assembly_term) 
+    pre_assembly_record = Entrez.read(pre_assembly_handle)
+    pre_assembly_handle.close()
+    assembly_id = pre_assembly_record['IdList'][0] # this is the uid for the assembly 
 
-# next function: filter dataframe 
+    # extracting info from assembly link: 
+    assembly_handle = Entrez.esummary(db = 'assembly', id = assembly_id, report = 'full') 
+    assembly_record = Entrez.read(assembly_handle) 
+    assembly_handle.close()
+    assembly_dict = assembly_record['DocumentSummarySet']['DocumentSummary'][0] # very nested 
 
-# next function: import list of accession numbers -> runs everything and exports data files 
+    info['assembly-status'] = assembly_dict['AssemblyStatus'] # level (chromosome?)
+    info['contig-N50'] = assembly_dict['ContigN50'] # contigN50
+    info['scaffold-N50'] = assembly_dict['ScaffoldN50'] # scaffold n50 
+    info['busco'] = assembly_dict['Busco']# busco 
+    
+    return info 
 
-##############TESTING################
-handl = Entrez.efetch(db = "protein", id = "TRY75264.1", rettype = "gb", retmode = "xml")
-readabl = Entrez.read(handl)
-handl.close()
+# function for filtering 
+def filter(info):
+    '''
+    This function takes in a dictionary containing detailed information from a 
+        blast result row, and it filters through it. 
 
-read_dict = readabl[0] # because dict is nested inside object
-read_dict['GBSeq_sequence'] # sequence of the protein
-read_dict['GBSeq_length'] # protein size 
-read_dict['GBSeq_comment'] # assembly info, does not contain scaffold info, however
-read_dict['GBSeq_organism'] # organism 
+    Input: info (python dictionary)
+    Outputs: 
+        detailed_filtered = dataframe containing usable results and their details  
+        detailed_trash = dataframe containing discarded results and their details 
+        log = list of logs for debugging
+    '''
 
-# now for the assembly info 
-
-hand4 = Entrez.esummary(db = 'assembly', id ='4120771', report = 'full') # now this kind of works, id has to be iud, NOT genbank 
-read4 = Entrez.read(hand4) # as it turns out, the dict is NOT nested inside, a bunch of random numbers literally what the fuck 
-hand5.close()
-summary = read4['DocumentSummarySet']['DocumentSummary'][0] # very nested 
-for i in summary:
-    print(i, summary[i])
-
-summary['AssemblyStatus'] # level (chromosome?)
-summary['BioSampleAccn'] # maybe check if it's the same as the fucking one as the protein dict
-summary['ContigN50'] # contigN50
-summary['ScaffoldN50'] # scaffold n50 
-summary['Busco'] # might need to parse through this though
-
-#### UP TO HERE WORKS. DO NOT TOUCH. ######
+# writing and exporting
