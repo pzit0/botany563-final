@@ -1,4 +1,6 @@
 '''
+Collect Data from NCBI 
+
 Patricia Zito 
 Feb 5, 2023
 '''
@@ -6,25 +8,15 @@ Feb 5, 2023
 # Importing libraries
 import Bio 
 from Bio import Entrez 
+import pandas as pd
 Entrez.email = "pzito@wisc.edu"
 
 acc1 = "TRY75264.1" # for testing, can get this from BLAST 
 acc2 = "XP_047735583.1" # for testing
-blast_res = []
 
-# importing data 
-
-# function for extracting acc numbers from blast result csv 
-def get_acc(blast_res):
-    '''
-    This function takes in the Blast result csv file and returns a list 
-        of protein accession numbers. 
-
-    Input: blast-res (csv file)
-    Output: list of accession numbers (python list)
-    '''
-    acc_lst = []
-    return acc_lst 
+# importing data and testing accession numbers 
+blast_res = pd.read_csv('/Users/patriciazito/Desktop/botany563-final/2023-01-31-NHA7-HitTable.csv', )
+acc_list = blast_res.iloc[:, 1] # selects only second column containing protein accession numbers
 
 # maybe write some logs here, like if not a match (protein and assembly)
 def look_ncbi(acc):
@@ -34,8 +26,8 @@ def look_ncbi(acc):
     
     Input: Accession Number (string)
     Output: Dict containing: species, protein accession number, protein size, protein length, 
-        assembly name, genome coverage, sequencing level, biosample accession number, contig N50,
-        scaffold N50, Busco comments. 
+        assembly-name, genome coverage, sequencing level, biosample accession number, contig N50, scaffold N50, 
+        Busco comments. 
     '''
     info = dict()
 
@@ -56,6 +48,7 @@ def look_ncbi(acc):
         if a[i] == "Assembly":
             if a[i+1] == "Name":
                 assembly_term = a[i+3] # use this to search for assembly id
+                info['assembly-name'] = assembly_term
         elif a[i] == "Genome":
             if a[i+1] == "Coverage":
                 info['genome-coverage'] = a[i+3] # genome coverage 
@@ -82,16 +75,44 @@ def look_ncbi(acc):
     return info 
 
 # function for filtering 
-def filter(info):
+def filter(acc_list):
     '''
     This function takes in a dictionary containing detailed information from a 
         blast result row, and it filters through it. 
 
     Input: info (python dictionary)
     Outputs: 
-        detailed_filtered = dataframe containing usable results and their details  
-        detailed_trash = dataframe containing discarded results and their details 
+        filtered = dataframe containing usable results and their details  
+        trash = dataframe containing discarded results and their details 
         log = list of logs for debugging
     '''
+    filtered = []    
+    trash = []
+
+    trash_assemblies = []
+    min_prot_size = 300 
+    min_genome_cov = 50
+    min_contig_N50 = 1000
+    min_scaffold_N50 = 10000
+
+    for acc in acc_list: 
+        row = look_ncbi(acc)
+        print('NOW LOOKING AT ', row['species'], row['protein-accession'])
+        if row['assembly-name'] not in trash_assemblies: # if assembly not already discarded 
+            if int(row['protein-length']) >= min_prot_size: # if at least this size 
+                cov = row1['genome-coverage'].replace('x', '')
+                if float(cov) >= min_genome_cov: # if good coverage
+                    if int(row['contig-N50']) >= min_contig_N50: # if good contig N50
+                        if int(row['scaffold-N50']) >= min_scaffold_N50: # if good scaffold N50
+                            filtered.append(row, ignore_index = True)
+                            print('ADDED ', row['species'], row['protein-accession'], 'TO FILTERED')
+                            continue # go to the next item 
+        trash.append(row, ignore_index = True)
+        print(row['species'], row['protein-accession'], 'IS TRASH')
+
+    return filtered, trash
+
+
+        
 
 # writing and exporting

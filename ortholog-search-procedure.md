@@ -1,5 +1,44 @@
-# Feb 12, 2023: crying. 
-## A possible solution for issues 2 and 5: 
+# Feb 15, 2023: Pandas and local blast 
+## Thoughts on pandas
+I'm thinking of using pandas for both reading and writing the initial and final csv results. I'll have to relearn how to use 
+it, just looking at some of the tutorials, I think filtering will be MUCH easier, if I work with pandas dataframes as opposed
+to the dictionaries that I am currently using. Maybe something to work on this weekend. 
+I'll actually keep using the dictionary cuz I feel like I'm still not sure about how many columns I want, or what parameters 
+I might have to add and tweak, and so working w indexes sounds like shit.
+
+## Thoughts on BLAST+ 
+Alex asked something interesting. It'd be nice if we could use "remote" blast from our command line into the online database.
+I found some links online that might be helpful. This could maybe not only compliment well this part of the project (writing)
+a single script to obtain orthologs, but maybe it could be helpful in looking for the orthologs in that species. (Maybe write 
+another script for this). Will probably have to manually add them though. (I find it hard to think about hard parameters for 
+deciding whether it looks like a paralog or not. A real human has to look at the alignment and decide? Or maybe decide by iden-
+tity percentage, e-value, and size? Good god. That is a lot of work.)
+
+## Links for remote BLAST+ tutorials
+https://github.com/jarekbryk/localblast
+https://www.biostars.org/p/350628/
+https://widdowquinn.github.io/2018-03-06-ibioic/02-sequence_databases/03-programming_for_blast.html
+https://www.tutorialspoint.com/biopython/biopython_overview_of_blast.htm
+https://www.ncbi.nlm.nih.gov/books/NBK569856/
+
+## Summary of things to implement: 
+1. Maybe also get the accession number for the original paper (this has to checked manually)
+2. Remote python BLAST+ for paralogs? (maybe incorporate this into pipeline) -> solves issue 2 (Feb 10)
+
+
+# Feb 14, 2023: Eureka! look_ncbi() works!   
+## Progress 
+the code works. I've made into a function so it only needs an accession number and it retrieves all the information for the
+what it's going to be the columns. 
+I'll work on the other functions during the week. I've also spoken to Alex and Joye and I'll have them review the results for
+my first test dataframe (possibly solve issue 1 from Feb 10). They'll tell if this curation process is actually quality control 
+for the sequences. I know it's not perfect, but it might save a lot of time for starting. I'll just be in charge or reviewing 
+the papers (see if inbred and stuff) and looking for paralogs in that species. Even that might be automated someday, who knows. I 
+need to figure out local blast into the online database.
+
+
+# Feb 12, 2023: crying at a coffee shop on a Sunday morning.
+## A possible (bitter) solution for issues 2 and 5 (see Feb 10, 2023): 
 I'm thinking I'll collect at least these protein sequences and THEN blast them into their respective genome. 
 Which is basically what the folks at JC are doing, but I'm doing an extra whole step (this script) before that. 
 Is this unnecessary. I feel like it is. I've come too far and I'm too proud to stop. fuck my life. :( 
