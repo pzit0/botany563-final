@@ -102,14 +102,7 @@ def filter(acc_list):
     min_scaffold_N50 = 1000
 
     filtered = []    
-    trash = []
-
-    # start log information 
-    log = []
-    no_info = 0
-    bad_coverage = 0
-    small_protein = 0
-    bad_cont_scaffold = 0
+    trashed = []
     
     for acc in acc_list: 
         row_prot = prot_ncbi(acc)
@@ -124,41 +117,13 @@ def filter(acc_list):
                             filtered.append(row)
                             print(row['species'], row['protein-accession'], 'IS GOOD')
                             continue # go to the next item 
-                        else:
-                            m = str(row['species']) + str(row['protein-accession']) + 'was discarded due to low scaffold N50 score\n'
-                            log.append(m)
-                            bad_cont_scaffold += 1 
-                    else: 
-                        m = str(row['species']) + str(row['protein-accession']) + 'was discarded due to low contig N50 score\n'
-                        log.append(m)
-                        bad_cont_scaffold += 1 
-                else: 
-                    m = str(row['species']) + str(row['protein-accession']) + 'was discarded due to bad coverage\n'
-                    log.append(m)
-                    bad_coverage += 1 
-            else: 
-                m = str(row['species']) + str(row['protein-accession']) + 'was discarded due to small protein size\n'
-                log.append(m)
-                small_protein += 1 
-        else: 
-            m = str(row['species']) + str(row['protein-accession']) + 'had no assembly information\n'
-            log.append()
-            no_info += 1 
-        trash.append(row_prot['species'])
+        trashed.append(row_prot['species'])
         print(row_prot['species'], row_prot['protein-accession'], 'IS TRASH')
 
-    # log comp. 
-    log.append(print('\nA total of:', len(filtered), 'proteins were selected out of', len(acc_list)))
-    log.append(print('this is equivalent to', len(filtered)/len(acc_list), 'of the data\n'))
-    log.append(print(no_info, "or", no_info/len(trash), "were discarded because their relevant assemblly information was not found\n"))
-    log.append(print(bad_coverage, "or", bad_coverage/len(trash), "were discarded due to bad genome coverage\n"))
-    log.append(print(small_protein, "or", small_protein/len(trash), "were discarded due to small protein size\n"))
-    log.append(bad_cont_scaffold, "or", bad_cont_scaffold/len(trash), "were discarded due to small contig or scaffold size\n")
-
-    print(log[-5:])
-
-    return filtered, trash, log
+    return filtered, trashed
 
 
+for i in filtered: 
+    print(i['species'])
 
 # writing and exporting
