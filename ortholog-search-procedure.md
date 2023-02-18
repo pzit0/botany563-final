@@ -1,3 +1,31 @@
+# Feb 16, 2023: Filtering works! 
+## progress on filter(): 
+it now works! I ran the whole list of accession numbers that I got for my first blast search and it resulted in 14 good acces-
+sions. This is good, but also I had more in my previous one. I think one flaw of this program is that bc I'm looking at a par-
+ticular place (e.g. assembly) entry, if the protein annotation isn't VERY good and standard (e.g. they have the link for some-
+thing like, on bioproject, or nuccore, anywhere else but here), my code discards the protein bc it just can't find the info. 
+rip. 
+it works though. I tried implementing a log thingy for the results, but it failed me. I might tweak it again in the future. 
+I think for now I'll try getting the accession number and blast paralog thingy. 
+
+## progress2 on filter(): 
+I've installed a maybe list, where it checks whether it was either sequenced on pacbio or if it's available on refseq. I ran it 
+again and I got 74 protein entries in there. That's a lot. 
+I'll have to ask Alex if these are immediate green flags and can be added into "filtered" or if I should look and see if there's
+any other pattern that I can look and parse through. (e.g. I'd have to find other ways to get assembly information). TIRING. 
+ugh. but ok. at least it works. 
+Also. I'm thinking that if it is a paralog... maybe it should show up on this original blast result... Should we really have
+to look for other paralogs? Maybe I can finish this script as it is, and start another one to combine datasets (e.g. results from
+running this script on the blast result for paralog1, paralog2, paralogn, etc. And while checking for duplicates, also search for
+possible paralogs.
+
+## maybes 
+ok I actually just searched it up online (https://www.ncbi.nlm.nih.gov/books/NBK50679/), we can only trust that refseq sequences
+are truly good if they have been curating (i.e. their refseq status = "REVIEWED" or at leas "VALIDATED").
+link: https://www.ncbi.nlm.nih.gov/books/NBK21091/table/ch18.T.refseq_status_codes/?report=objectonly  
+Where to find this information? 
+
+
 # Feb 15, 2023: Pandas and local blast 
 ## Thoughts on pandas
 I'm thinking of using pandas for both reading and writing the initial and final csv results. I'll have to relearn how to use 
