@@ -48,9 +48,7 @@ def prot_ncbi(acc):
     else: 
         info['project-accession'] = False 
     
-    info['assembly-name'] = False # default is false 
-    info['recover'] = False # any info that makes this entry worth recovering?  
-    
+    info['assembly-name'] = False # default is false     
     if 'GBSeq_comment' in keys: # if they have this information 
         assembly = protein_dict['GBSeq_comment'] # assembly info available in protein link 
         a = assembly.split() # so it reads the words and not characters 
@@ -127,8 +125,8 @@ def filter(acc_list):
     # Setting minimum parameters 
     min_prot_size = 200
     min_genome_cov = 30
-    min_contig_N50 = 100
-    min_scaffold_N50 = 1000
+    min_contig_N50 = 1000
+    min_scaffold_N50 = 10000
     
     # starting counts for log
     passed_size = 0
@@ -276,9 +274,3 @@ res[0]['DocumentSummarySet']['DocumentSummary'][0]['RS_BioProjects'][0]['Bioproj
 
 # for res1: 
 res[1]['DocumentSummarySet']['DocumentSummary'][0]['GB_BioProjects'][0]['BioprojectAccn']
-
-## dubugging node 8 url 
-acc = acc_list[14]
-row = prot_ncbi(acc)
-ass_ncbi(row)
-row

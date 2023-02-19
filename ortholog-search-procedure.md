@@ -24,7 +24,9 @@ so when I try parse through, the same information shows up in difference places!
 ## ok I think I got it 
 Now instead of getting 14 proteins, I'm getting 30. Still have to re-implement getting genome coverage though. And I guess the 
 assembly saerch problem there's not much else I can do. I'm checking the missing ones again, (I now have 6), and I'm missing Salmon
-Louse. I don't really know the others, so I don't care much. But I'll try to fix it for this one.
+Louse. I don't really know the others, so I don't care much. But I'll try to fix it for this one. 
+it's literally bc it doesn't show up on the assembly search. fine. I guess I'll have to add those by myself. In the meantime I'll 
+try getting the original paper id and the nucl sequence? 
 
 # Feb 16, 2023: Filtering works! 
 ## progress on filter(): 
