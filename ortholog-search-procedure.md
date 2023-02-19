@@ -1,3 +1,31 @@
+# Feb 18 and 19, 2023: Quality check 1? 
+## comparison to my manual work 
+So this works, but I'm missing 8 species from my manual collection. Kind of going through which step they were filtered out, I 
+think it's either during coverage or during assembly. This is mostly because the ncbi annotation thingy doesn't seem to have a 
+clear standard on what it should and should not have. Some entries don't have a link to the assembly page, and some don't have 
+coverage information, you have to go to their bioproject or manually search for it. (SO ANNOYING). I've also tried efetching and 
+esummarying from the bioproject page but it seems like the biopython Entrez package just wasn't designed to get that information? 
+See commit for more information, but in summary, it can't read it as an xml. Downloading the information as a text doesn't provide
+any information and esummary doesn't have any info either. ugh.
+
+## A couple of things I'm thinking of implementing: 
+1. getting gene id 
+2. getting CDS sequence
+3. find original paper id on pubmed? 
+4. manually searching for assembly, but matching it with the bioproject id. 
+
+## ok I think I got #4, but god damn it it doesn't work bc of annotation again 
+so I'm searching on assemblies for the species name. (testing w the first missing result, Hyalella azteca
+Error 1: The right bioproject doesn't come up. These scientists did two bioprojects, one much better than the other. The best one
+shows up on the BLAST result, but not the second one. Sarching both through Entrez and online, the only assembly that shows up 
+is the BAD ONE. NOT THE GOOD ONE. And guess what, 4 entries come out!!! They seem to be the same thing, but with different notations
+so when I try parse through, the same information shows up in difference places!!!! :) (: :) (: 
+
+## ok I think I got it 
+Now instead of getting 14 proteins, I'm getting 30. Still have to re-implement getting genome coverage though. And I guess the 
+assembly saerch problem there's not much else I can do. I'm checking the missing ones again, (I now have 6), and I'm missing Salmon
+Louse. I don't really know the others, so I don't care much. But I'll try to fix it for this one.
+
 # Feb 16, 2023: Filtering works! 
 ## progress on filter(): 
 it now works! I ran the whole list of accession numbers that I got for my first blast search and it resulted in 14 good acces-
