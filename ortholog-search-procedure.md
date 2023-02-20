@@ -1,3 +1,15 @@
+# Feb 20, 2023: Tweaking 
+## Changes in ass_ncbi(): 
+I had to change a couple of things on this function bc it kept throwing me errors when I tried running it on my NHA1 HitTable. 
+(e.g. sometimes they had no results from the assembly search thingy -> I made another another if to check that it will have any
+results, as well as set all defaults to be False). There was another error for RSSeq I think (getting the bioproject accession
+number. I decided to just delete that. If the authors can't put the bioproject accession code on the right place then fuck it. 
+Probably not a good sequence anyways. I'd rather lose a couple of assemblies than to keep tweaking this code to fit to very ind. 
+errors that each author makes on their sequences. 
+
+I'll have to run this new code on NHA7 again though just to see if that changed a lot. I'll put all the usable data inside a data
+folder and the "old versions" of this code output into another folder called "old-runs". 
+
 # Feb 18 and 19, 2023: Quality check 1? 
 ## comparison to my manual work 
 So this works, but I'm missing 8 species from my manual collection. Kind of going through which step they were filtered out, I 
@@ -28,7 +40,10 @@ Louse. I don't really know the others, so I don't care much. But I'll try to fix
 it's literally bc it doesn't show up on the assembly search. fine. I guess I'll have to add those by myself. In the meantime I'll 
 try getting the original paper id and the nucl sequence? 
 
-run blast on a specific organism: https://www.biostars.org/p/208772/ 
+run blast on a specific organism: https://www.biostars.org/p/208772/
+
+## finished it
+hallelujah. Now onto working on my grants, homework, quizzes and next scripts. 
 
 
 ## the nucl issue. (Can't find paralogs as easily blasting DNA -> it's not a very conserved protein).

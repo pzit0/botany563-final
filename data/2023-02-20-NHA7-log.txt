@@ -1,0 +1,8 @@
+
+A total of 100 proteins were assessed
+Out of those, 24(0.24) were successfully curated and obtained
+0 were discarded due to small protein size
+42 were discarded due to me not finding its assembly information
+0 were discarded due to not having good coverage
+0 were discarded due to bad scaffold N50 scores
+34 were already checked and discarded
