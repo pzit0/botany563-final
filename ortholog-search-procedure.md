@@ -28,6 +28,18 @@ Louse. I don't really know the others, so I don't care much. But I'll try to fix
 it's literally bc it doesn't show up on the assembly search. fine. I guess I'll have to add those by myself. In the meantime I'll 
 try getting the original paper id and the nucl sequence? 
 
+run blast on a specific organism: https://www.biostars.org/p/208772/ 
+
+
+## the nucl issue. (Can't find paralogs as easily blasting DNA -> it's not a very conserved protein).
+just realized I probably will have to start all over again with the nucleotide sequence, THEN protein, THEN assembly. :( 
+But also I tried blasting it with the nucleotide sequence (excluding E affinis) and I'm getting no results. I think this really 
+is the best way to go about this. (Getting more proteins without compromising sequence quality).
+So I'm gonna finish the code as it is, I think and manually add Hyalela azteca and salmon louse individually. I think in the grand
+scheme of things I'll be getting a lot of other species to make up for losing a couple of these anyways. In the future: write script
+to combine all dataframes, remove duplicates, find remaining paralogs and get nucleotide sequences.  
+
+
 # Feb 16, 2023: Filtering works! 
 ## progress on filter(): 
 it now works! I ran the whole list of accession numbers that I got for my first blast search and it resulted in 14 good acces-

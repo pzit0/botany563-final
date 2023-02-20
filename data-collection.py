@@ -9,14 +9,17 @@ Feb 5, 2023
 import Bio 
 from Bio import Entrez 
 import pandas as pd
-Entrez.email = "pzito@wisc.edu"
 
 acc = "TRY75264.1" # for testing, can get this from BLAST 
-acc2 = "XP_047735583.1" # for testing
+acc = "XP_047735583.1" # for testing
 
 # importing data and testing accession numbers 
-blast_res = pd.read_csv('/Users/patriciazito/Desktop/botany563-final/2023-01-31-NHA7-HitTable.csv', )
+input1 = input("Name of your BLAST result csv file: ")
+input2 = input("Your wisc email: ")
+
+blast_res = pd.read_csv(input1)
 acc_list = blast_res.iloc[:, 1] # selects only second column containing protein accession numbers
+Entrez.email = input2
 
 # maybe write some logs here, like if not a match (protein and assembly)
 def prot_ncbi(acc):
@@ -56,12 +59,33 @@ def prot_ncbi(acc):
             if a[i] == "Assembly":
                 if a[i+1] == "Name":
                     info['assembly-name'] = a[i+3] # use this to search for assembly id
+            elif a[i] == "Coverage":
+                info['coverage'] = a[i+2]
+
+    info['pubmed-accession'] = False # default is false 
+    if 'GBSeq_references' in keys: # if info is avaialble 
+        if 'GBSeq_references': # get it 
+            info['pubmed-accession'] = protein_dict['GBSeq_references'][0]['GBReference_pubmed']
     
     return info 
 
 def ass_ncbi(info):
     '''
-    obtain assembly info, if possible. 
+    This function expands on an existing dictionary by extracting information from 
+        an assembly entry. It first checks to see whether there was an assembly name 
+        associated with the protein entry. If there is, it will search that name and 
+        retrieve the the assembly status, contig N50, scaffold N50, coverage, and Busco
+        comments. If there is NOT an assembly name associated with the protein, the 
+        function will search the organism on the assembly database and compare the bioproject
+        number from the protein with the results found. If it is the same, it retrieves the
+        same information. Sometimes, NCBI is not updated, and newer assemblies might not 
+        show as a potential search result. Other times, there might not have been a bioproject
+        accession number associated with either protein or assembly entries. This means there
+        is no way to check whether that assembly matches the protein. In both cases, this 
+        function will fail to parse through the assembly page, and it will discard this protein
+        from the filter process. 
+    
+    Input: info (dict) already containing information from the protein scraping process. 
     '''
 
     if info['assembly-name']: # already have an assembly name 
@@ -82,20 +106,20 @@ def ass_ncbi(info):
         #info['coverage'] = assembly_dict['Coverage']
     
     else: # did not have a name associated, have to look it up by species
-        if info['project-accession']: # if they have an accession
+        if info['project-accession']: # if they have a bioproject accession number
             search_organism = info['species']
             pre_assembly_handle = Entrez.esearch(db = "assembly", term = search_organism) 
-            pre_assembly_record = Entrez.read(pre_assembly_handle)
+            pre_assembly_record = Entrez.read(pre_assembly_handle) # contains search results 
             pre_assembly_handle.close() 
 
-            for assembly_id in pre_assembly_record['IdList']: 
+            for assembly_id in pre_assembly_record['IdList']: # for each result
                 assembly_handle = Entrez.esummary(db = 'assembly', id = assembly_id, report = 'full')
-                assembly_record = Entrez.read(assembly_handle)
+                assembly_record = Entrez.read(assembly_handle) # get summary
                 assembly_handle.close()
                 assembly_dict = assembly_record['DocumentSummarySet']['DocumentSummary'][0]
-                if assembly_dict['GB_BioProjects']: # if info's stored here 
+                if assembly_dict['GB_BioProjects']: # get bioproject accession number from search result
                     bioproject_accn = assembly_dict['GB_BioProjects'][0]['BioprojectAccn']
-                elif assembly_dict['RS_BioProjects']: # or here 
+                elif assembly_dict['RS_BioProjects']: # or here (sometimes info is placed in diff. places)
                     bioproject_accn = assembly_dict[0]['BioprojectAccn']
                 if bioproject_accn == info['project-accession']: # if the search's bioproj acc matches the protein bioproj
                     assembly_handle = Entrez.esummary(db = 'assembly', id = assembly_id, report = 'full') 
@@ -174,103 +198,4 @@ def filter(acc_list):
 
 filtered, trashed = filter(acc_list)
 
-########## DOES IT WORK? ########
-# check species 
-for i in filtered:         
-    print(i['species'])
 
-
-script_curated = [i['protein-accession'] for i in filtered]
-
-# check which ones didn't show up on my manual thingy 
-curated = pd.read_excel('/Users/patriciazito/Desktop/botany563-final/curated-orthologs.xlsx', header=0)
-curated_acc_list = curated['protein-accession']
-curated_acc_list = curated_acc_list.dropna()
-
-# check their entries
-missing = []
-for i in curated_acc_list: 
-    if i not in script_curated: 
-        prot_handle = Entrez.efetch(db = 'protein', id = i, rettype = 'gb', retmode = 'xml')
-        prot_record = Entrez.read(prot_handle)
-        prot_handle.close()
-        protein_dict = prot_record[0] 
-        missing.append(protein_dict)
-
-for i in missing: 
-    print(i['GBSeq_definition'])
-
-# check the first one 
-for key in missing[0]:
-    print(key, ":", missing[0][key])
-# might have to get information from bioproject instead 
-# also interesting, missing[0]['GBSeq_feature-table'] has GeneID
-
-##### get gene id: 
-gb_feat = missing[0]['GBSeq_feature-table'][-1]['GBFeature_quals'][-1]['GBQualifier_value']
-gene_id = str()
-for i in gb_feat:
-    if i.isdigit():
-        gene_id += i 
-
-###### get gene info (e-fetch): 
-gene_handle = Entrez.efetch(db = 'gene', id = gene_id, rettype = 'gb', retmode = 'xml')
-gene_record = Entrez.read(gene_handle)
-gene_handle.close()
-gene_dict = gene_record[0]
-for i in gene_dict:
-    print(i, ':', gene_dict[i]) 
-# does not contain sequence 
-# can get scaffold and nucl positions though 
-
-# gene info (e-summary):
-gene_handle2 = Entrez.esummary(db = 'gene', id = gene_id, report = 'full')
-gene_record2 = Entrez.read(gene_handle2)
-gene_handle2.close()
-gene_dict2 = gene_record2['DocumentSummarySet']['DocumentSummary'][0]
-gene_dict2 # nope, not useful
-
-# it the gene id the same as the nucl id? 
-
-##### see what I can get from the bioproject handle (efetch)
-project_id = missing[0]['GBSeq_project']
-pr_handle = Entrez.efetch(db = 'bioproject', id = project_id, rettype = 'gb', retmode = 'text')
-print(pr_handle.readline().strip()) # xml doesn't work for bioproject
-pr_handle.close()
-
-# bioproject handle (esummary)
-pr_handle2 = Entrez.esummary(db = 'bioproject', id = project_id, report = 'full')
-pr_record2 = Entrez.read(pr_handle2,  validate=False) # doesn't work anymore
-pr_handle2.close()
-pr_dict2 = pr_record2['DocumentSummarySet']['DocumentSummary'][0]
-pr_dict2 # nope, not useful
-
-######## trying to find assembly, other ways: 
-search_organism = missing[0]['GBSeq_organism']
-pre_assembly_handle = Entrez.esearch(db = "assembly", term = search_organism) 
-pre_assembly_record = Entrez.read(pre_assembly_handle)
-pre_assembly_handle.close()
-
-res = []
-for id in pre_assembly_record['IdList']: 
-    assembly_handle = Entrez.esummary(db = 'assembly', id = id, report = 'full')
-    assembly_record = Entrez.read(assembly_handle)
-    assembly_handle.close()
-    res.append(assembly_record)
-
-for entry in res: 
-    if entry['DocumentSummarySet']['DocumentSummary'][0]['GB_BioProjects']:
-        bioproject_accn = entry['DocumentSummarySet']['DocumentSummary'][0]['GB_BioProjects'][0]['BioprojectAccn']
-    elif entry['DocumentSummarySet']['DocumentSummary'][0]['RS_BioProjects']:
-        bioproject_accn = entry['DocumentSummarySet']['DocumentSummary'][0]['RS_BioProjects'][0]['BioprojectAccn']
-    print(bioproject_accn)
-    if bioproject_accn == project_id: 
-        print('eureka')
-    else: 
-        print('oop not this one')
-
-# for res0: 
-res[0]['DocumentSummarySet']['DocumentSummary'][0]['RS_BioProjects'][0]['BioprojectAccn']
-
-# for res1: 
-res[1]['DocumentSummarySet']['DocumentSummary'][0]['GB_BioProjects'][0]['BioprojectAccn']
