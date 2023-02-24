@@ -1,0 +1,41 @@
+# Patricia Zito 
+# 2023-Feb-21
+
+# importing data
+library(dplyr)
+library(tidyverse)
+
+setwd('/Users/patriciazito/Desktop/botany563-final/data')
+
+data1 <- read.csv("2023-02-20-NHA1-filtered.csv", header = TRUE)
+data2 <- read.csv("2023-02-20-NHA2-filtered.csv", header = TRUE)
+data3 <- read.csv("2023-02-20-NHA3-filtered.csv", header = TRUE)
+data4 <- read.csv("2023-02-20-NHA4-filtered.csv", header = TRUE)
+data5 <- read.csv("2023-02-20-NHA5-filtered.csv", header = TRUE)
+data6 <- read.csv("2023-02-20-NHA6-filtered.csv", header = TRUE)
+data7 <- read.csv("2023-02-20-NHA7-filtered.csv", header = TRUE)
+
+as_tibble(data1)
+as_tibble(data2)
+as_tibble(data3)
+as_tibble(data4)
+as_tibble(data5)
+as_tibble(data6)
+as_tibble(data7)
+
+# get accession names and sequences 
+data <- bind_rows(data1, data2, data3, data4, data5, data6, data7)
+new_fasta <- data %>% 
+  distinct(.keep_all = TRUE) %>% # remove duplicates 
+  mutate(fasta_name = paste("> ", protein.accession, ",", species)) %>% # add fasta head name
+  select(fasta_name, protein.sequence) # select colums
+
+# write new fasta file 
+output_name <- paste(Sys.Date(), "protein_sequence_orthologs.fasta", sep = "-")
+size <- dim(new_fasta)[1]
+
+for(i in 1:size){
+  seq <- paste(new_fasta$fasta_name[i], "\n", new_fasta$protein.sequence[i], "\n", "\n")
+  cat(seq)
+}
+sink()

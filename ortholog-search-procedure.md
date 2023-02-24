@@ -8,7 +8,19 @@ Probably not a good sequence anyways. I'd rather lose a couple of assemblies tha
 errors that each author makes on their sequences. 
 
 I'll have to run this new code on NHA7 again though just to see if that changed a lot. I'll put all the usable data inside a data
-folder and the "old versions" of this code output into another folder called "old-runs". 
+folder and the "old versions" of this code output into another folder called "old-runs".
+
+## Alex and Joye's comments: 
+Okay, so a few notes:
+Formatting notes: I think the contig n50 and scaffold n50 columns should be together. I also think that the columns related to the overall sequencing/assembly project should be grouped together, with the gene-specific info not interspersed.
+Having coverage number without sequencing technology information isn't super helpful imo. If possible, fetching the sequencing technology used would be really helpful for knowing what to look out for.
+It is super important to get nucleotide sequences  (the CDS specifically) for the work most of us are doing. I know that starts to massively complicate things, as there are a a number of entries that have protein entries that aren't tied to a corresponding sequence. However, most of the time (especially for decent quality entries), there is a transcript entry that is linked to the protein (on the entry in NCBI, they are hyperlinked in a standardized way).
+On the topic of nucleotide sequences, it would be awesome if we could also get the gene position. I typically record the chromosome/scaffold, start and stop position, and whether it's sense/antisense (+/-).
+Would it be possible to retain the sequences that are being discarded for missing information and just flag/highlight them for manual review? The amount of effort that each uploader includes varies very widely, as you've seen, so it would be best if we could make the final call on discarding them on our own (plus, that help us keep track of which ones we've consciously chosen not to include rather than simply missed or something).
+
+## Adjustments: 
+I'll try to implement a couple of these things and also re-do the BLAST searches already excluding E. affinis -> so hopefully 
+Ill be able to get more different species. 
 
 # Feb 18 and 19, 2023: Quality check 1? 
 ## comparison to my manual work 

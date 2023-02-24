@@ -19,9 +19,9 @@ def prot_ncbi(acc):
         and returns information about its protein and assembly as a dict. 
     
     Input: Accession Number (string)
-    Output: Dict containing: species, protein accession number, protein size, protein length, 
-        assembly-name, genome coverage, sequencing level, biosample accession number, contig N50, scaffold N50.
-            Ass: a boolean value that tells whether the script was able to obtain a satisfying assembly match
+    Output: Dict containing: species, protein accession number, protein sequence, protein size, 
+        bioproject accession number, sequencing technology, assembly name, genome refseq accession
+        number and sequence technology.
     '''
     info = dict()
 
@@ -42,14 +42,29 @@ def prot_ncbi(acc):
     else: 
         info['project-accession'] = False 
     
-    info['assembly-name'] = False # default is false     
+    # defaults 
+    info['sequencing-technology'] = False 
+    info['assembly-name'] = False     
+    info['genome_refseq'] = False 
+
     if 'GBSeq_comment' in keys: # if they have this information 
         assembly = protein_dict['GBSeq_comment'] # assembly info available in protein link 
         a = assembly.split() # so it reads the words and not characters 
+        tech = str()
         for i in range(len(a)):
             if a[i] == "Assembly":
                 if a[i+1] == "Name":
                     info['assembly-name'] = a[i+3] # use this to search for assembly id
+            if a[i] == "Technology": # this might fail, still testing 
+                for j in a[i+2:len(a)]:
+                    tech += j
+                    if j == ";":
+                        info['sequencing-technology'] = tech
+                        break
+            if a[i] == "genomic":
+                if a[i+1] == "sequence":
+                    genome_refseq = a[i+2]
+                    info['genome-refseq'] = genome_refseq.replace('(', '').replace(')', '')
 
     info['pubmed-accession'] = False # default is false 
     if 'GBSeq_references' in keys: # if info is avaialble 
@@ -60,14 +75,59 @@ def prot_ncbi(acc):
     
     return info 
 
+# debugging function 
+def show(info):
+    '''
+    Prints dictionary.
+    '''
+    for i in info: 
+        print(i, ':', info[i])
+
+# for the XP girlies 
+def alt_ass_ncbi(info):
+    '''
+    If we were unable to find its assembly, try the nucleotide database. This will 
+        extract coverage, sequencing technology, and assembly method. 
+    '''
+
+    if info['genome-refseq']: 
+        nucl_handle = Entrez.efetch(db = 'nucleotide', id = info['genome-refseq'], rettype = 'gb', retmode = 'xml')
+        nucl_record = Entrez.read(nucl_handle)
+        nucl_handle.close()
+        nucl_dict = nucl_record[0]
+
+        a = nucl_dict['GBSeq_comment'].split()
+        tech = str()
+        method = str() 
+        for i in range(len(a)): 
+            if a[i] == "Coverage": 
+                print(a[i+2])
+                #info['coverage'] = cov
+            elif a[i] == "Technology": 
+                print(a[i+2])
+                for k in a[i+2:len(a)]: 
+                        tech += k
+                        if k == ";":
+                            info['sequencing-technology'] = tech
+                            print(tech)
+                            break
+            elif a[i] == "Assembly": 
+                if a[i+1] == "Method":
+                    for m in a[i+2:len(a)]:
+                        method += m 
+                        if m == ";":
+                            info['assembly-method'] = method 
+                            print(method)
+                            break 
+
 # extract information from assembly entry
 def ass_ncbi(info):
     '''
     This function expands on an existing dictionary by extracting information from 
         an assembly entry. It first checks to see whether there was an assembly name 
         associated with the protein entry. If there is, it will search that name and 
-        retrieve the the assembly status, contig N50, scaffold N50, coverage, and Busco
-        comments. (number of scaffolds is hard, don't come for me). 
+        retrieve the the assembly status, scaffold N50, coverage.
+        (number of scaffolds is hard, don't come for me). 
         
         If there is NOT an assembly name associated with the protein, the function will 
         search the organism on the assembly database and compare the bioproject
@@ -82,11 +142,8 @@ def ass_ncbi(info):
     Input: info (dict) already containing information from the protein scraping process. 
     '''
     # default is everything is false: 
-    info['assembly-name'] = False
     info['assembly-status'] = False
-    info['contig-N50'] = False 
     info['scaffold-N50'] = False 
-    info['coverage-N50'] = False 
 
     if info['assembly-name']: # already have an assembly name 
         # getting assembly id: 
@@ -95,45 +152,40 @@ def ass_ncbi(info):
         pre_assembly_record = Entrez.read(pre_assembly_handle)
         pre_assembly_handle.close()
         if len(pre_assembly_record['IdList']): # if there are any results
-            assembly_id = pre_assembly_record['IdList'][0] # this is the uid for the assembly
-            assembly_handle = Entrez.esummary(db = 'assembly', id = assembly_id, report = 'full') 
-            assembly_record = Entrez.read(assembly_handle) 
-            assembly_handle.close()
-            assembly_dict = assembly_record['DocumentSummarySet']['DocumentSummary'][0] # very nested 
-            info['assembly-status'] = assembly_dict['AssemblyStatus'] # level (chromosome?)
-            info['contig-N50'] = assembly_dict['ContigN50'] # contigN50
-            info['scaffold-N50'] = assembly_dict['ScaffoldN50'] # scaffold n50 
-            info['coverage'] = assembly_dict['Coverage'] # coverage
+            for assembly_id in pre_assembly_record['IdList']:
+                assembly_handle = Entrez.esummary(db = 'assembly', id = assembly_id, report = 'full') 
+                assembly_record = Entrez.read(assembly_handle) 
+                assembly_handle.close()
+                assembly_dict = assembly_record['DocumentSummarySet']['DocumentSummary'][0] # very nested 
+                bioproject_accn = assembly_dict['GB_BioProjects'][0]['BioprojectAccn']
+                if bioproject_accn == info['project-accession']: # if they match 
+                    info['assembly-status'] = assembly_dict['AssemblyStatus'] # level (chromosome?)
+                    info['scaffold-N50'] = assembly_dict['ScaffoldN50'] # scaffold n50 
+                    info['coverage'] = assembly_dict['Coverage'] # coverage
+                    break 
     
-    else: # did not have a name associated, have to look it up by species
-        bioproject_accn = False # default is False
+    else: # did not have a name associated, have to look it up by project number
         if info['project-accession']: # if they have a bioproject accession number
-            search_organism = info['species']
-            pre_assembly_handle = Entrez.esearch(db = "assembly", term = search_organism) 
+            pre_assembly_handle = Entrez.esearch(db = "assembly", term = info['project-accession']) 
             pre_assembly_record = Entrez.read(pre_assembly_handle) # contains search results 
             pre_assembly_handle.close() 
-
             if len(pre_assembly_record['IdList']): # if there are any results 
                 for assembly_id in pre_assembly_record['IdList']: # for each result
+                    print("ASSEMBLY ID",assembly_id)
                     assembly_handle = Entrez.esummary(db = 'assembly', id = assembly_id, report = 'full')
                     assembly_record = Entrez.read(assembly_handle) # get summary
                     assembly_handle.close()
                     assembly_dict = assembly_record['DocumentSummarySet']['DocumentSummary'][0] # nested 
                     if assembly_dict['GB_BioProjects']: # get bioproject accession number from search result
                         bioproject_accn = assembly_dict['GB_BioProjects'][0]['BioprojectAccn']
-                    if bioproject_accn: # if we were able to find a bioproject acc # for the search result 
-                        if bioproject_accn == info['project-accession']: # if the search's bioproj acc matches the protein bioproj
-                            assembly_handle = Entrez.esummary(db = 'assembly', id = assembly_id, report = 'full') 
-                            assembly_record = Entrez.read(assembly_handle) 
-                            assembly_handle.close()
-                            assembly_dict = assembly_record['DocumentSummarySet']['DocumentSummary'][0] # very nested 
+                        print("FOUND BIOPROJECT", bioproject_accn)
+                        if bioproject_accn == info['project-accession']: # if assembly's matches the protein's
+                            print("EUREKA")
                             info['assembly-name'] = assembly_record['DocumentSummarySet']['DocumentSummary'][0]['AssemblyName']
                             info['assembly-status'] = assembly_dict['AssemblyStatus'] # level (chromosome?)
-                            info['contig-N50'] = assembly_dict['ContigN50'] # contigN50
                             info['scaffold-N50'] = assembly_dict['ScaffoldN50'] # scaffold n50
                             info['coverage'] = assembly_dict['Coverage'] # coverage
                             break # stop looking
-
 
 # filter through 
 def filter(acc_list):
@@ -150,13 +202,11 @@ def filter(acc_list):
     # Setting minimum parameters 
     min_prot_size = 200
     min_coverage = 30
-    min_scaffold_N50 = 10000
     
     # starting counts for log
     failed_size = 0
     failed_assembly = 0
     failed_coverage = 0
-    failed_scaffold = 0
     already_failed = 0
 
     # starting local vars 
@@ -167,22 +217,16 @@ def filter(acc_list):
     for acc in acc_list: 
         row = prot_ncbi(acc)
         print('ASSESSING:', row['species'], row['protein-accession'])
-        #cov = row['genome-coverage'].replace('x', '')
         if row['project-accession'] not in trashed_bioproject: 
             if float(row['protein-length']) >= min_prot_size: # if at least this size 
                 ass_ncbi(row) # get assembly info
-                if row['assembly-name']: # if assembly was successfully acquired
+                if not row['assembly-name']: # if assembly not successful 
+                    alt_ass_ncbi(row) # try again through nucleotide database 
+                if row['coverage']: # if coverage was successfully acquired
                     if float(row['coverage']) >= min_coverage: # if good coverage 
-                        if float(row['scaffold-N50']) >= min_scaffold_N50: # if good scaffold N50
-                            filtered.append(row)
-                            print(row['species'], row['protein-accession'], 'WAS ADDED TO FILTERED')
-                            continue # go to the next item
-                        else: # tell me where this failed
-                            failed_scaffold += 1 
-                            trashed.append(row) 
-                            if row['project-accession'] not in trashed_bioproject: 
-                                trashed_bioproject.append(row['project-accession'])
-                            continue
+                        filtered.append(row)
+                        print(row['species'], row['protein-accession'], 'WAS ADDED TO FILTERED')
+                        continue # go to the next item
                     else:
                         failed_coverage += 1 
                         trashed.append(row) 
@@ -211,10 +255,9 @@ def filter(acc_list):
     m3 = str(failed_size) + ' were discarded due to small protein size'
     m4 = str(failed_assembly) + ' were discarded due to me not finding its assembly information'
     m5 = str(failed_coverage) + ' were discarded due to not having good coverage'
-    m6 = str(failed_scaffold) + ' were discarded due to bad scaffold N50 scores'
-    m7 = str(already_failed) + ' were already checked and discarded'
+    m6 = str(already_failed) + ' were already checked and discarded'
     
-    log = [m1, m2, m3, m4, m5, m6, m7]
+    log = [m1, m2, m3, m4, m5, m6]
     for i in log: 
         print(i)
 
@@ -251,10 +294,10 @@ def export(filtered, trashed, log, input3):
             f.write(line)
             f.write('\n')
 
+
 # IMPORTING DATA AND USER EXPERIENCE 
 print("\nHello world! I'm a program to filter through your initial blast results for good quality paralogs :)\n")
 print('to use me, answer the following:')
-
 input1 = input("Name of your BLAST result csv file (e.g. '2023-01-31-NHA1-HitTable.csv'): ")
 input2 = input("Your wisc email (e.g. 'jdoe@wisc.edu'): ")
 input3 = input("Prefix of your output files (e.g. '2023-01-31-NHA1'): ")

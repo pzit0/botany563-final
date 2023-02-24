@@ -28,4 +28,7 @@ Possible errors/ Troubleshooting:
 6. Node8 url error: ncbi is busy. Try running this file again at another time. 
 7. Your input file (HitTable) is not under the same folder as the data-collection.py script
 
+# fasta-compiler.R 
+An R script that removes duplicates and compiles species name, protein accession number and sequences into a fasta file. The output of this script is what will be fed into the alignment programs. 
+
 
