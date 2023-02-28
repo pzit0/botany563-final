@@ -86,6 +86,10 @@ def show(info):
 # for the XP girlies 
 def alt_ass_ncbi(info):
     '''
+    Newer assemblies for proteins that have accession codes starting with "XP" don't show up 
+        on the assembly searches. But sometimes, they contain refseq accession code for their 
+        genome on the nucleotide database. 
+        
     If we were unable to find its assembly, try the nucleotide database. This will 
         extract coverage, sequencing technology, and assembly method. 
     '''

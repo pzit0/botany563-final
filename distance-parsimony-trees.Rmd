@@ -1,0 +1,29 @@
+---
+title: "Distance and Parsimony Trees"
+author: "Patricia Sayuri Zito"
+date: "2023-02-28"
+output: html_document
+---
+
+# import packages and data 
+```{r}
+library(ape)
+library(adegenet)
+library(phangorn)
+
+dna <- fasta2DNAbin("2023-02-21-alignment_orthologs.fasta")
+D <- dist.dna(dna, model = "JC69")
+tre <- nj(D)
+
+# parsimony 
+parsimony(tre, dna)
+tre.pars <- optim.parsimony(tre2, dna2)
+plot(tre.pars, cex=0.6)
+title("Parsimonious tree, Orthologs Feb 21")
+
+# distance
+tre <- ladderize(tre)
+plot(tre, cex = 0.6)
+title("Distance Tree, Orthologs Feb 21")
+```
+

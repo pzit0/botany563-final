@@ -1,0 +1,812 @@
+CLUSTAL FORMAT for T-COFFEE Version_13.45.0.4846264 [http://www.tcoffee.org] [MODE:  ], CPU=0.03 sec, SCORE=986, Nseq=2, Len=10064 
+
+MSTRG.14347.2   TCTTGTAAAATATA-----------------------------AAACC--
+NHA3-long       ATGTTTAGAATATGGACAACCCTAATTATGTTTAGAATATGGACAACCTA
+                   * ** *****                               ****  
+
+MSTRG.14347.2   ------------------------T-------------------------
+NHA3-long       ATTAAGATTAGAATATGGACAACCCTAATTATGCTTAGAACATATGGACA
+                                                                  
+
+MSTRG.14347.2   ----CAAATACA----------------------TT-AGT---TGAT---
+NHA3-long       ACCCTAATTATATTTAGAATATGGACAACCCTAATTATGTTTAGAATATG
+                     ** ** *                      **  **     **   
+
+MSTRG.14347.2   ------------------------ATAGA-AAC-----------------
+NHA3-long       GACAACCCTAATTATATTTAAAATATGGACAACCCTAATTATATTTAGAA
+                                        ** ** ***                 
+
+MSTRG.14347.2   ---------TCCTT------------------------------------
+NHA3-long       TATGGACAACCCTAATTATGTTTAGAATATGGACAACCCTAATTATATTT
+                          ***                                     
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       AGAATATGGACAACCCTAATTATGAAGAAGATGAGCTTGGTGGTACAACA
+                                                                  
+
+MSTRG.14347.2   -----ACTGT------TTAC-----------------TGCAAGTGAG---
+NHA3-long       AGAGTACTGTACGGCGCTACTCCACTATATAGGTACATGCAAGAGAAAAC
+                     *****       ***                 ****** **    
+
+MSTRG.14347.2   ----------------TAATCGT-------------------TCC-C---
+NHA3-long       AGGGGACGCAAGTTCCACACCGTACTTATTTTTCAAATCTGTTACTTAAG
+                                  * ***                   * *     
+
+MSTRG.14347.2   -------AGGTTGAG------GATTGTGCCT-------TTTGA-------
+NHA3-long       TCAAGTCTGGTTGAAATCACGGTTTGAACATTTTTTCCCCTGAAATATTC
+                        ******       * ***  * *         ***       
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       TGTAAGCTAACAAATTGTTAATATTGATAGTGCTCAAAAAAAAAGAGAAC
+                                                                  
+
+MSTRG.14347.2   ---TTTGGCCTTAATAGTTA------------------------------
+NHA3-long       TAAGGAGATCTTGATAGCAATCAAGGAATAATAGAACTAAGGAGATCTTG
+                      *  *** ****  *                              
+
+MSTRG.14347.2   --------------------------TGA-----------GCTTCA-G-A
+NHA3-long       ATAACACTCAAGGAATAATAGAACTAAGAGATCTTGATAACACTCAAGGA
+                                           **              *** * *
+
+MSTRG.14347.2   -------------------TTGATATCGATA-------------------
+NHA3-long       ATAATAGAACTAAGAGATCTTGAT------AACAATCAAGGAATAATAGA
+                                   *****      *                   
+
+MSTRG.14347.2   -------------------------------------GCTAACGAGATCG
+NHA3-long       ACTATGCAACCCTAAATCACAATCAAGGATTAATAGAACTAAGGAGATCT
+                                                      **** ****** 
+
+MSTRG.14347.2   CG-------CCCAGTGGTAGT------GGCGA------------------
+NHA3-long       TGATAACAATCAAGGAGTAATAAAGAAGGAGATCTTGATAATAATCAAGG
+                 *        * **  *** *      ** **                  
+
+MSTRG.14347.2   ------------------------TGATAGATCACTGATTG---------
+NHA3-long       ATTGATCGAACCATGGATATCTTGGTTAAAATCAATGAATAAAAGAGCTA
+                                            * **** *** *          
+
+MSTRG.14347.2   ----------TATT------------------------------------
+NHA3-long       AGGAGATCTTTATACCAATCAAGGAGTAAAAGAATGAAGGAGATCTTGAT
+                          ***                                     
+
+MSTRG.14347.2   ------CCTGTGGTTCCCTGTTTTGATAAACA------------------
+NHA3-long       AACAATCATGGAGTAA--------------CAGAACTAATGAGATCTTGA
+                      * **  **                **                  
+
+MSTRG.14347.2   -------------------GGTTGA-------------------------
+NHA3-long       TAACAATCAAGGAGTAATAGAATGAAGGAGATCTTGATAACAATCATGGA
+                                   *  ***                         
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       GTAATAGAACTAATGAGATCTTGATAACAATCAAGGAGTAGTAGCACTAG
+                                                                  
+
+MSTRG.14347.2   GGA---------TTGTGTCAAG----------------------------
+NHA3-long       GGAGTGCTTGGTAAAAGTCAAGGACTAATGGACCTTAGGAAATCTTGATA
+                ***             ******                            
+
+MSTRG.14347.2   ----------AG------AATC----------------------------
+NHA3-long       ACAATCAAGGAGTAATAGAACTAGAGATCTTGGTAACAATCAAGGAGTAA
+                          **      **                              
+
+MSTRG.14347.2   -----------CGA--TTTGTACCTGGA------------TAGA--T---
+NHA3-long       TAGAACTTAGGAGATCTTGGTAACTGCAATCAAAGAGTAATAGAACTAAG
+                            **  ** *** *** *            ****  *   
+
+MSTRG.14347.2   ------------ACGTTC-------------------------CCAGAAA
+NHA3-long       GAGGCCTTGGTAACATTCAAGGGGAAATATAAATAAGGAGATAATGGTAA
+                            ** ***                            * **
+
+MSTRG.14347.2   CTGTTATGGAGTAGT---------------------------TTGGAGT-
+NHA3-long       CAATTAAGGAGTAATAGAACTAAGGAGATCTTGGTAACAATTAAGGAGTA
+                *  *** ****** *                             ***** 
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       ATAGAACTAAGGAGATCTTGGTAACAATTAAGAAGTTATAGAATTTAGGA
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       GACCTTGGTAACATCAAAGACTTAGAATATACTTAGGAGAAGACATTAGA
+                                                                  
+
+MSTRG.14347.2   -------------------GGGACGCT-----------TTCT--------
+NHA3-long       ATATTGTTTACATTTTATTGTGACGTATTTGGACAGCTC--TGAACTAGT
+                                   * ****                *        
+
+MSTRG.14347.2   ------GAAA-GGTA-----------------------------------
+NHA3-long       TTTGTTGAAAAACAACAGCAATTTTCAGTTGTCAAGTTTTGACTTTTAAA
+                      ****    *                                   
+
+MSTRG.14347.2   --------------------------CAGCT-------TAGTGAGAGGTA
+NHA3-long       TAGTTCATGGCTTTCCTAATACATCACAGCCTCACAGCTAGTGGAATCTA
+                                          ****        *****  *  **
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       CTTTGTTTGTTTTTTGAAATGCTCAATAGAAAAAATCTGATCGAATTACA
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       TGTAAAGTCATAATTCCTCATTTACCTTCCTTTAAAATTCATAAATAATC
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       CAATTAAAGTGTTAATTGTCCTTATCTAGACGGGGCAGCAGGATTATTGG
+                                                                  
+
+MSTRG.14347.2   ----------------------------------------TTTAAACT--
+NHA3-long       CGGAGATGAAGAACCTGCTGGAACCTTTGCCATGCTCAGGTTTTAACTAG
+                                                        *** ****  
+
+MSTRG.14347.2   -------------------AATAAA-------------------------
+NHA3-long       TTTATTCTTGAAGAAGTTTAATAAAAATGTGAATTGAGTTGAGAATTTCT
+                                   ******                         
+
+MSTRG.14347.2   -----T---------------TTTCTATAT--------------------
+NHA3-long       GTAAATATTTTATACTTCTGTTTTCTATATCGAAAAATTAAAGGATTTTT
+                     *               *********                    
+
+MSTRG.14347.2   --------------------------------TCATCATTACATTG----
+NHA3-long       AAGAATTTTAGATTTACAAATGAATTCCCAAAAACCCATTAAACTGCAGA
+                                                    ***** * **    
+
+MSTRG.14347.2   ----------------ATAAG-----------------------------
+NHA3-long       ATATGAAGACTTATATACAACTTTGTAGAGGATATGAAATCCCTGAAAGA
+                                * **                              
+
+MSTRG.14347.2   ----TTTGAAGCTTCCATGATTTGTAAAAGATAATAAAGATAATAGTCCT
+NHA3-long       GGATTATGA-----------------------------------AATCCG
+                    * ***                                   * *** 
+
+MSTRG.14347.2   C--------------TGTC--CGGATCC----AAGACC------------
+NHA3-long       CTAATCAGTTGTGTCTGACCCTGGAACCGGAGAAGACCTTCTCAACTTTC
+                *              ** *   *** **    ******            
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       TCTCCTTTTACACACTCGTATTTATCATGTATCTATAAACAGAAGCAATA
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       AATGTACTTCTAAAGTGGTGACCCCAGACAACAAAAGAACCATGGCCGTA
+                                                                  
+
+MSTRG.14347.2   ------AGTT-------------------------------GATTT----
+NHA3-long       AACCTCAGCTACTCCTGGAGCTAATAAGCTAAACCTCAGCTACTCTTGGA
+                      ** *                                 * *    
+
+MSTRG.14347.2   ----------TAAA------------------------------------
+NHA3-long       GCTAATAAGCTAAACCTCAGCTACTCCTGGAGCTAATAAGCTAAACCTCA
+                          ****                                    
+
+MSTRG.14347.2   --------------------------CCCTCAAAACC-------------
+NHA3-long       TCTACTCCTGGAGCTAATAAGCTAAAC---------CTCAGCTACTCCTG
+                                          *         *             
+
+MSTRG.14347.2   -----------------------------------AGAAGAGC-------
+NHA3-long       GAGCTAATAAGCTAAAACGCAGCTACTCCTGGAGGTAATAAGCTAAACCT
+                                                     *  ***       
+
+MSTRG.14347.2   ------------------------AAACTCTC----------AGAAT--A
+NHA3-long       CAGCTACTCCTGGAGCTAATAAGCTAAATCTCAGCTACTCCTAGAATTTA
+                                         ** ****          *****  *
+
+MSTRG.14347.2   TGG----------------ACAACCC---------TAAT-----------
+NHA3-long       TGAGCTAAACTTCAAAACTTCAACCCTCAAGAAGCTAATCTGCTACACAG
+                **                  ******         ****           
+
+MSTRG.14347.2   -----TATG-----------------------------------------
+NHA3-long       TTACTCATGGAGCTAATTAGCTTCACAGCTACTCCCAGAGCTAATCAGCT
+                      ***                                         
+
+MSTRG.14347.2   AAGAAG--------------------------------------------
+NHA3-long       AAACAGATACTTCTGGAGCTATCAAACAACTCAGCTACCATCTTAACCTA
+                **  **                                            
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       CTCGTAGATATTCTGGACGCCAGTTCTCTACAGGTTGAATCTATGCCCGC
+                                                                  
+
+MSTRG.14347.2   -----------------------------ATG----------AGCT----
+NHA3-long       CTAACCTTCACTACAACAGATCTCTTTAAATGGCCACTGGCCAGCCTTAC
+                                             ***          ***     
+
+MSTRG.14347.2   -------TG--------GTG---------------------GTACA-ACA
+NHA3-long       ACAAGGTTGATCATGACGTGGGGAGGGGGCAGATCAGAAATTCACAAACA
+                       **        ***                       *** ***
+
+MSTRG.14347.2   ---AG-----AGTA--------------------------------CTGT
+NHA3-long       ACTAGTTGTGAATAATATCATCACCCGAACTCCTTCTACTCCTTTTCCGT
+                   **     * **                                * **
+
+MSTRG.14347.2   ----------ACGGCGCTA---------CTCCACT------ATAT---AG
+NHA3-long       ACACACTTACAAGGAGCTAATTATCAGTCTCGACTCTCTCTGTACTCGAG
+                          * ** ****         *** ***       **    **
+
+MSTRG.14347.2   ACG----GGGC----------------------------AGCAGGATTAT
+NHA3-long       ACTTAGGGGGGACTTCTGTAGAGGATATGAAATCCCTGAAAGAGGATTAT
+                **     ***                             *  ********
+
+MSTRG.14347.2   T-----------------------GG---------CGGAG----------
+NHA3-long       GAAATCCGCTAATCAGTTGTGTCTGACCCTGGAACCGGAGAAGACCTTCT
+                                        *          *****          
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       CAACTTTCTCTCCTTTTACACACTCGTATTTATCATGTATCTATAAACAG
+                                                                  
+
+MSTRG.14347.2   ---------ATG----------------------------------AAGA
+NHA3-long       AAGCAATAAATGTACTTCTAAAACTTATGATTTCAAAAAGTCCAAAAAGA
+                         ***                                  ****
+
+MSTRG.14347.2   ACCT----------------------------------------------
+NHA3-long       ACCTACAGACACAGATTAATTTAATGTCATCTTCTTTTTCCACAAATTAA
+                ****                                              
+
+MSTRG.14347.2   --------GCTG---GA--ACCTTT-------------------------
+NHA3-long       TGGATCCTGCTGTAGGAAAATCTTTAGGAATGCTCCAAATGAATAATTTA
+                        ****   **  * ****                         
+
+MSTRG.14347.2   ----------------------------------------GC----C---
+NHA3-long       CAGCTTTCTATATTTTGTTGATTTAAAATCAACTTTTTTTGTTGTTTATA
+                                                        *         
+
+MSTRG.14347.2   -----ATGCTCAGGAGGGGAAGCAAGCAGACGGGAACAGAAGATGACCGG
+NHA3-long       TTTTAATATTCAGGAGGGGAAGCAAGCAGACGGGAACAGAAGATGACCGG
+                     **  *****************************************
+
+MSTRG.14347.2   CCTGATTACAGAATACGAAGTGGGTCCATTGGAGGTGTATACCCTGCCCT
+NHA3-long       CCTGATTACAGAATACGAAGTGGGTCCATTGGAGGTGTATACCCTGCCCT
+                **************************************************
+
+MSTRG.14347.2   CAG-----------------------------------------------
+NHA3-long       CAGGTAGACTGAACTAGCATCTGAAAATCATCATTTTAGAAGCACTGAAA
+                ***                                               
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       ACAAGTGACTTCAACCCCAATTTCCCCAAGAGATAACCTCGCATTTCTCT
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       GGAAATTGACAATAATATTCTAAGAATCAAAAATTGCAAAATAATCAATT
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       ATGAATTCAAAATGTTCAACGATCTTATCTACGATGGAAATTTCATAATA
+                                                                  
+
+MSTRG.14347.2   --------------------------GAGGTTGAGCATACAAATGGGTTT
+NHA3-long       TTTATATAAATTGAAAATTATTTTAGGAGGTTGAGCATACAAATGGGTTT
+                                          ************************
+
+MSTRG.14347.2   ACCAGGACTACCAGTGTATGAAGAGATTGATCTGCCAGATGATAATGATG
+NHA3-long       ACCAGGACTACCAGTGTATGAAGAGATTGATCTGCCAGATGATAATGATG
+                **************************************************
+
+MSTRG.14347.2   ATAAACCTTCTAGCTTCACAGAAGAAAAGAAAAAGCCTGGAAGAGTGAAA
+NHA3-long       ATAAACCTTCTAGCTTCACAGAAGAAAAGAAAAAGCCTGGAAGAGTGAAA
+                **************************************************
+
+MSTRG.14347.2   AAGTCCTACAAAAAAATCAAAAGAGGGCTTCAGGGAAACAAGGTCACATC
+NHA3-long       AAGTCCTACAAAAAAATCAAAAGAGGGCTTCAGGGAAACAAGGTCACATC
+                **************************************************
+
+MSTRG.14347.2   CCAATTCTTCCCGCCGAAAGGTGATGTTGCAGAAAATATAACTCTTATAA
+NHA3-long       CCAATTCTTCCCGCCGAAAGGTGATGTTGCAGAAAATATAACTCTTATAA
+                **************************************************
+
+MSTRG.14347.2   TAGCAACTATAATCTTGTTCTTGATGGCTCGAGCTGTTCTGGGAACTCTA
+NHA3-long       TAGCAACTATAATCTTGTTCTTGATGGCTCGAGCTGTTCTGGGAACTCTA
+                **************************************************
+
+MSTRG.14347.2   GCAGCACCAGGAGGAACTATCTTTGCAATCTTTATACTCATTCTCTTCTC
+NHA3-long       GCAGCACCAGGAGGAACTATCTTTGCAATCTTTATACTCATTCTCTTCTC
+                **************************************************
+
+MSTRG.14347.2   ACTTATTGCTGGACAAATAGTTATCCAATGTGCAGCATTGATCACTAAAC
+NHA3-long       ACTTATTGCTGGACAAATAGTTATCCAATGTGCAGCATTGATCACTAAAC
+                **************************************************
+
+MSTRG.14347.2   TTGTTGGAGTAGACATAAAGATACCACAGCTTCTGGGAATGATGGCTGTT
+NHA3-long       TTGTTGGAGTAGACATAAAGATACCACAGCTTCTGGGAATGATGGCTGTT
+                **************************************************
+
+MSTRG.14347.2   GGGATCGCTTTAAAGAATGTTCCATACAACCAATCACAATTTAATAGTCC
+NHA3-long       GGGATCGCTTTAAAGAATGTTCCATACAACCAATCACAATTTAATAGTCC
+                **************************************************
+
+MSTRG.14347.2   TGAATGTATGAATATATCCAAATCTATTCATGACCACAGTGATATCGATG
+NHA3-long       TGAATGTATGAATATATCCAAATCTATTCATGACCACAGTGATATCGATG
+                **************************************************
+
+MSTRG.14347.2   TAAACTCTACTGAATTTGTCAATGAGTTGGGAGGTTTTAGAATAGATCCA
+NHA3-long       TAAACTCTACTGAATTTGTCAATGAGTTGGGAGGTTTTAGAATAGATCCA
+                **************************************************
+
+MSTRG.14347.2   AAGGATGTTCATATAAACCATCAGCATAGTGATATTGCAAAGAGTTTGAA
+NHA3-long       AAGGATGTTCATATAAACCATCAGCATAGTGATATTGCAAAGAGTTTGAA
+                **************************************************
+
+MSTRG.14347.2   AAATATTGATAATATAAACCTACATGGTGAGAATTCGGTAGATACTGAAA
+NHA3-long       AAATATTGATAATATAAACCTACATGGTGAGAATTCGGTAGATACTGAAA
+                **************************************************
+
+MSTRG.14347.2   ATCATCCTAACTCAGGTCCATCACATCACACAGGTGTAGAATCTATTTCA
+NHA3-long       ATCATCCTAACTCAGGTCCATCACATCACACAGGTGTAGAATCTATTTCA
+                **************************************************
+
+MSTRG.14347.2   AACAATGAAGATCATGCAGATCAGAATAAAACTGATGCATCAAAACAAGA
+NHA3-long       AACAATGAAGATCATGCAGATCAGAATAAAACTGATGCATCAAAACAAGA
+                **************************************************
+
+MSTRG.14347.2   ACCTGATAATGAAGAAAAGCATGGTTTGAACCATGTAGAGGAAAAAGAGG
+NHA3-long       ACCTGATAATGAAGAAAAGCATGGTTTGAACCATGTAGAGGAAAAAGAGG
+                **************************************************
+
+MSTRG.14347.2   TTTCTCATGACATCTCACATGACTCAAATGTTAAAACTGTTCAGCAAGAA
+NHA3-long       TTTCTCATGACATCTCACATGACTCAAATGTTAAAACTGTTCAGCAAGAA
+                **************************************************
+
+MSTRG.14347.2   AAGCATAATCATGGTGATGATCAAACAAAAGATGAACATGGTCATCATAT
+NHA3-long       AAGCATAATCATGGTGATGATCAAACAAAAGATGAACATGGTCATCATAT
+                **************************************************
+
+MSTRG.14347.2   TACTACAGAAGAGAAAGAAGAGGTAAAGCATATGCAGGTGTCTATCATGA
+NHA3-long       TACTACAGAAGAGAAAGAAGAGGTAAAGCATATGCAGGTGTCTATCATGA
+                **************************************************
+
+MSTRG.14347.2   AAGATCACAATCATACTGTTCAGCAAGAGGAGAATATCCATCATGAAAAG
+NHA3-long       AAGATCACAATCATACTGTTCAGCAAGAGGAGAATATCCATCATGAAAAG
+                **************************************************
+
+MSTRG.14347.2   GAAGTAATGAATATCCCAGTACATAGGACACCTGATAACCATCATATGAT
+NHA3-long       GAAGTAATGAATATCCCAGTACATAGGACACCTGATAACCATCATATGAT
+                **************************************************
+
+MSTRG.14347.2   TCAGCAGGAAGAGGATAGTAACAACAGTGAACATTCCCATGATGAACATA
+NHA3-long       TCAGCAGGAAGAGGATAGTAACAACAGTGAACATTCCCATGATGAACATA
+                **************************************************
+
+MSTRG.14347.2   ATCATTCTATAGTGCATGACAAGAAAGAAGAAATAAAGAATACACCAGTG
+NHA3-long       ATCATTCTATAGTGCATGACAAGAAAGAAGAAATAAAGAATACACCAGTG
+                **************************************************
+
+MSTRG.14347.2   CATTGCACACCAGATCAACATCATATGATTCAGCAGGAAGAGCATAGTAA
+NHA3-long       CATTGCACACCAGATCAACATCATATGATTCAGCAGGAAGAGCATAGTAA
+                **************************************************
+
+MSTRG.14347.2   CAACAGTGAACATTCCCATGATGAACATTACCATCATGAAATGCATGAAA
+NHA3-long       CAACAGTGAACATTCCCATGATGAACATTACCATCATGAAATGCATGAAA
+                **************************************************
+
+MSTRG.14347.2   AGAAAGAAGACATAAAGAATACACCAGTGCATATCACACCAGATCGAAAT
+NHA3-long       AGAAAGAAGACATAAAGAATACACCAGTGCATATCACACCAGATCGAAAT
+                **************************************************
+
+MSTRG.14347.2   TATACGATTCAGCAGGAAGAGGACACCAGTCGCAATGAATATTCCCATGA
+NHA3-long       TATACGATTCAGCAGGAAGAGGACACCAGTCGCAATGAATATTCCCATGA
+                **************************************************
+
+MSTRG.14347.2   TGCACAAGATGTTATTCATAAAAAGATAGAAGAAGTAAAGCATACACCAG
+NHA3-long       TGCACAAGATGTTATTCATAAAAAGATAGAAGAAGTAAAGCATACACCAG
+                **************************************************
+
+MSTRG.14347.2   TGCATACCACACCAGATCACAATAACAAGTATGAACAGCTTGTTAATAAT
+NHA3-long       TGCATACCACACCAGATCACAATAACAAGTATGAACAGCTTGTTAATAAT
+                **************************************************
+
+MSTRG.14347.2   GATAACCCAATCAATGAAACTAATATTCATAGTTTGGCCAAGGAAGAGAA
+NHA3-long       GATAACCCAATCAATGAAACTAATATTCATAGTTTGGCCAAGGAAGAGAA
+                **************************************************
+
+MSTRG.14347.2   AGATGAGGTAACCCATGTGGAGCCACATTCTCTACAAGATCATAATGACA
+NHA3-long       AGATGAGGTAACCCATGTGGAGCCACATTCTCTACAAGATCATAATGACA
+                **************************************************
+
+MSTRG.14347.2   AAAAAGTAGAACATGGCAGAAGTGATGAACAAACCAAACATAAAGATATC
+NHA3-long       AAAAAGTAGAACATGGCAGAAGTGATGAACAAACCAAACATAAAGATATC
+                **************************************************
+
+MSTRG.14347.2   CACAACCAGAATCAAGGTGAAGTAAAAAATCCAAGACAACATTTGCATAC
+NHA3-long       CACAACCAGAATCAAGGTGAAGTAAAAAATCCAAGACAACATTTGCATAC
+                **************************************************
+
+MSTRG.14347.2   CGATGGAGAAGCACAAAATCAGAACAATGAAACAGTCCATAATGAAAATA
+NHA3-long       CGATGGAGAAGCACAAAATCAGAACAATGAAACAGTCCATAATGAAAATA
+                **************************************************
+
+MSTRG.14347.2   AAATGATTTTAAACCACATGGAGGATGAAAAAAGTCAAGATTCCCGTATG
+NHA3-long       AAATGATTTTAAACCACATGGAGGATGAAAAAAGTCAAGATTCCCGTATG
+                **************************************************
+
+MSTRG.14347.2   ACACCACATAGCATATATGATCATAACGAAAAGAAAATTACCCATCAACA
+NHA3-long       ACACCACATAGCATATATGATCATAACGAAAAGAAAATTACCCATCAACA
+                **************************************************
+
+MSTRG.14347.2   AATTGATAACCTAAACAATAAACCTATCACAGAGGTATTGAATAGACCCC
+NHA3-long       AATTGATAACCTAAACAATAAACCTATCACAGAGGTATTGAATAGACCCC
+                **************************************************
+
+MSTRG.14347.2   TCAACAAAAATGAGCTTAATAACGATGTTAAAGACTCAAATGATATAAAT
+NHA3-long       TCAACAAAAATGAGCTTAATAACGATGTTAAAGACTCAAATGATATAAAT
+                **************************************************
+
+MSTRG.14347.2   GGGCAAGGTATAAGTCAACAAGAAAAGAAGGAGGCATCCCAAACCCCACA
+NHA3-long       GGGCAAGGTATAAGTCAACAAGAAAAGAAGGAGGCATCCCAAACCCCACA
+                **************************************************
+
+MSTRG.14347.2   ATATGAATCAAAGAATCAAAAAGATGAAAACGGTCATGAAATGCATCTTC
+NHA3-long       ATATGAATCAAAGAATCAAAAAGATGAAAACGGTCATGAAATGCATCTTC
+                **************************************************
+
+MSTRG.14347.2   ATGATGTAAAGAGTGACAACATAAATCAAGATAACAAAGAACAAGCATTA
+NHA3-long       ATGATGTAAAGAGTGACAACATAAATCAAGATAACAAAGAACAAGCATTA
+                **************************************************
+
+MSTRG.14347.2   GCTAACAATAACACCAAGATGAAAACTACTCCGGACGATGCAGTTTTGAA
+NHA3-long       GCTAACAATAACACCAAGATGAAAACTACTCCGGACGATGCAGTTTTGAA
+                **************************************************
+
+MSTRG.14347.2   TGGCACTGATATCTCAGAAATAGCCCAGGGTGTAACAAAACATGATGTAG
+NHA3-long       TGGCACTGATATCTCAGAAATAGCCCAGGGTGTAACAAAACATGATGTAG
+                **************************************************
+
+MSTRG.14347.2   AGGCAGCAGTCACTAAAATCTATCAACAAAATGTTCTTTACAATAGTTAT
+NHA3-long       AGGCAGCAGTCACTAAAATCTATCAACAAAATGTTCTTTACAATAGTTAT
+                **************************************************
+
+MSTRG.14347.2   GAGAAAGATGAAAGTACTACTGAAAATTCAGCAGAAGATCTAGTTGACAC
+NHA3-long       GAGAAAGATGAAAGTACTACTGAAAATTCAGCAGAAGATCTAGTTGACAC
+                **************************************************
+
+MSTRG.14347.2   AAAAATTCAGAACAGAAGTAGGCGTAGCAGTGGACATGATGAACCACAGA
+NHA3-long       AAAAATTCAGAACAGAAGTAGGCGTAGCAGTGGACATGATGAACCACAGA
+                **************************************************
+
+MSTRG.14347.2   TTTATGTTGATCCTTGTAAAAAGAGATTTATTGGAAATGATCTTGATCCT
+NHA3-long       TTTATGTTGATCCTTGTAAAAAGAGATTTATTGGAAATGATCTTGATCCT
+                **************************************************
+
+MSTRG.14347.2   CTTTTAACAAGAACACTAAGATCCATATGTCTGACAGTTATTCTACTCAT
+NHA3-long       CTTTTAACAAGAACACTAAGATCCATATGTCTGACAGTTATTCTACTCAT
+                **************************************************
+
+MSTRG.14347.2   GGCAGGTCTTGAACTTGATCCTCCTGCTCTCTGGAGACTCAAATGGATTG
+NHA3-long       GGCAGGTCTTGAACTTGATCCTCCTGCTCTCTGGAGACTCAAATGGATTG
+                **************************************************
+
+MSTRG.14347.2   TACTCAGGACAACTTTTATTCCTTGTATCATAGAAGCATTTGCAGCATCT
+NHA3-long       TACTCAGGACAACTTTTATTCCTTGTATCATAGAAGCATTTGCAGCATCT
+                **************************************************
+
+MSTRG.14347.2   TTATTTTGTTATCTGATCCTTGGTTTTCCGTTTTCTGTAGGACTTTGCTT
+NHA3-long       TTATTTTGTTATCTGATCCTTGGTTTTCCGTTTTCTGTAGGACTTTGCTT
+                **************************************************
+
+MSTRG.14347.2   TGGATTTGTTCTGTGCGGAGTATCTCCAGCTGTTATTATTCCAGGATTGG
+NHA3-long       TGGATTTGTTCTGTGCGGAGTATCTCCAGCTGTTATTATTCCAGGATTGG
+                **************************************************
+
+MSTRG.14347.2   TGAATCTTAGTCAAAGAGGATACGGAGTAAAGAAGGGAATACCAACACTT
+NHA3-long       TGAATCTTAGTCAAAGAGGATACGGAGTAAAGAAGGGAATACCAACACTT
+                **************************************************
+
+MSTRG.14347.2   GTTATCGCAACATGTTCAGCTGATGATCTTGTGGCTATTGGAGGATTTGG
+NHA3-long       GTTATCGCAACATGTTCAGCTGATGATCTTGTGGCTATTGGAGGATTTGG
+                **************************************************
+
+MSTRG.14347.2   TATTGCACTGAGTATCACATACAACCCAGATGCTCCTATTCTATCTTTAG
+NHA3-long       TATTGCACTGAGTATCACATACAACCCAGATGCTCCTATTCTATCTTTAG
+                **************************************************
+
+MSTRG.14347.2   CCTTCCATGGTCCTTCAGAAGTGATTATGGGTATTGCATTCGGAATTTTC
+NHA3-long       CCTTCCATGGTCCTTCAGAAGTGATTATGGGTATTGCATTCGGAATTTTC
+                **************************************************
+
+MSTRG.14347.2   TGGGGTTATATTTGCCAATGGTTTCCCAGCAAACAAAACCCAAATCATGT
+NHA3-long       TGGGGTTATATTTGCCAATGGTTTCCCAGCAAACAAAACCCAAATCATGT
+                **************************************************
+
+MSTRG.14347.2   CTTGTTTCGATTCATTATTCTCTTTAGCGGAGGGCTCTTTGCCTTGTTTG
+NHA3-long       CTTGTTTCGATTCATTATTCTCTTTAGCGGAGGGCTCTTTGCCTTGTTTG
+                **************************************************
+
+MSTRG.14347.2   GAGCCCATCTGATTCATTATGATGGTGCGGGTGGTCTGGCGTGTGTGATC
+NHA3-long       GAGCCCATCTGATTCATTATGATGGTGCGGGTGGTCTGGCGTGTGTGATC
+                **************************************************
+
+MSTRG.14347.2   ATGGCATTTGTTGCCTCAATTCAGTGGAGAAAAGAAGGATGGGGAGATCA
+NHA3-long       ATGGCATTTGTTGCCTCAATTCAGTGGAGAAAAGAAGGATGGGGAGATCA
+                **************************************************
+
+MSTRG.14347.2   TAATCCTATAACTGACATCTTTGGGAAAATGTGGATTATCCTTGCACCCA
+NHA3-long       TAATCCTATAACTGACATCTTTGGGAAAATGTGGATTATCCTTGCACCCA
+                **************************************************
+
+MSTRG.14347.2   TCATATTCTCTCTGATTGGAACCAACATTGTGGTTGAGAAGATGGACGGT
+NHA3-long       TCATATTCTCTCTGATTGGAACCAACATTGTGGTTGAGAAGATGGACGGT
+                **************************************************
+
+MSTRG.14347.2   GAGAGTGTTGCTCTTGGTATTGCTGTCATAGTACTCTCTATGATTGTAAG
+NHA3-long       GAGAGTGTTGCTCTTGGTATTGCTGTCATAGTACTCTCTATGATTGTAAG
+                **************************************************
+
+MSTRG.14347.2   AATGGTGTTTACCTATTTTGCTGCTGTTTGTGGAGGAATGACTGCAAAGG
+NHA3-long       AATGGTGTTTACCTATTTTGCTGCTGTTTGTGGAGGAATGACTGCAAAGG
+                **************************************************
+
+MSTRG.14347.2   AGAAAATATTTCTGTCTATATCCTGGTTACCTAAGGCAACCGTTCAAGCT
+NHA3-long       AGAAAATATTTCTGTCTATATCCTGGTTACCTAAGGCAACCGTTCAAGCT
+                **************************************************
+
+MSTRG.14347.2   GCTCTGGG------------------------------------------
+NHA3-long       GCTCTGGGTAAGTTATCATATCAATGGGACATTTTATTGTAAAGCACATT
+                ********                                          
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       ACTTTTAAAGGGACATTTTATAACAAGAAATTAAATTTTTTTTTAAGATT
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       AGGCCTTCTTCTGTTGGATATCATAGTTACGGATATACAAAAGGCCTAAT
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       GGTATATAAATAAACATATAAGAATTTTTTCAATAAGAAAAGCACGTTTC
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       ATGTAATGTTCTATCTTTAGACCTTGCAATTCTTAATTTCCTACCATTCA
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------CCCAGT
+NHA3-long       GATTTTTTTTATAATTTGTTTGATAAATAGTATTATTTTACAGGCCCAGT
+                                                            ******
+
+MSTRG.14347.2   ATTTCTGGATAATGCACTAAGAGATGGAATTACTGAGTATATTCC-----
+NHA3-long       ATTTCTGGATAATGCACTAAGAGATGGAATTACTGAGTATATTCCGGTGA
+                *********************************************     
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       GATAAAAATGTTTAGAAATATAGGGTTTTGATATTTAAAACTTCTTTTTT
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       CTTTCTTTTTTAATGTTTGTTTGATATAAAGATAAAGTATTTAAAAGTAT
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       TGTTATCTAATATGGCAAATATTTGGAAATCTATGGCATTTTTATCTAGC
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       AGAATTCATAGTTTAAAAATTCTGCAACACAAGGTTAAAGCGATATACAG
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       ATTAGAAAATTAGTTCCATTTTCTAACTTTTGTCCAAGACAATAAATAGC
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       AATGCAATTGACATAATTAATAACTTACTTTGGGACTTCATTTTTACTAT
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       ATAGGGAATAATTTTACTAGCCTAAAACTTTTATTTTCAACCTTGGGGTG
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       AAAATTTTTGAAATTTTAAACTTTGACTTTTTGATCTAGCATTGTACATC
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       ATGTTGTAAAGAAAAAAGACATTAGAAAAGTGCAGTTTGTGGCTAGTAAT
+                                                                  
+
+MSTRG.14347.2   --------------------------------------GTACGGAGAACA
+NHA3-long       CAGGTCCATTAGATAAAATTACCTTTTTAATTTTTCCAGTACGGAGAACA
+                                                      ************
+
+MSTRG.14347.2   GATACTTACGATGGCAGTCTTGTCAATTGTTGTGACTGCACCACTTGGTG
+NHA3-long       GATACTTACGATGGCAGTCTTGTCAATTGTTGTGACTGCACCACTTGGTG
+                **************************************************
+
+MSTRG.14347.2   CAATTCTAATCCTGGCTCTGGGACCTCTCCTGCTTCAAAGTGATATGGTG
+NHA3-long       CAATTCTAATCCTGGCTCTGGGACCTCTCCTGCTTCAAAGTGATATGGTG
+                **************************************************
+
+MSTRG.14347.2   GACGAGGATGATGGACAAAGGTTTGATATGGAAGAGATTGGAAGTATGGA
+NHA3-long       GACGAGGATGATGGACAAAGGTTTGATATGGAAGAGATTGGAAGTATGGA
+                **************************************************
+
+MSTRG.14347.2   GAAGGTTGATGAAGAGGATGAGGATGAAATCAAACAGCATTAAAACTAAA
+NHA3-long       GAAGGTTGATGAAGAGGATGAGGATGAAATCAAACAGCATTAAAACTAAA
+                **************************************************
+
+MSTRG.14347.2   AAAATAAACATAAGTTAATTTATCGTCTCGGCCATAATAAAAACTTTCCT
+NHA3-long       AAAATAAACATAAGTTAATTTATCGTCTCGGCCATAATAAAAACTTTCCT
+                **************************************************
+
+MSTRG.14347.2   TTAATTTTTTTTCATTATCCAAACAAGATGGATGATTCACAAACAAGATG
+NHA3-long       TTAATTTTTTTTCATTATCCAAACAAGATGGATGATTCACAAACAAGATG
+                **************************************************
+
+MSTRG.14347.2   GATAATTCACAAACAAGATGGATAATTCACGAACAATATAGATAATTAAC
+NHA3-long       GATAATTCACAAACAAGATGGATAATTCACGAACAATATAGATAATTAAC
+                **************************************************
+
+MSTRG.14347.2   GAACAAGATGGATTATTCACGAACAAGATGGATAATTCACGAACAAGATG
+NHA3-long       GAACAAGATGGATTATTCACGAACAAGATGGATAATTCACGAACAAGATG
+                **************************************************
+
+MSTRG.14347.2   GATAATTCACGAACAAGATGGATAATTCACGAACAAGATGGATAATTCAC
+NHA3-long       GATAATTCACGAACAAGATGGATAATTCACGAACAAGATGGATAATTCAC
+                **************************************************
+
+MSTRG.14347.2   GAACAAGATGGATGATTCATGAACAACAAAAATAAGATAGAAATCTTGAA
+NHA3-long       GAACAAGATGGATGATTCATGAACAACAAAAATAAGATAGAAATCTTGAA
+                **************************************************
+
+MSTRG.14347.2   AAACAGAAAGGTCCAAATACTTGCAGCTGATATCATCTAATCTATATATA
+NHA3-long       AAACAGAAAGGTCCAAATACTTGCAGCTGATATCATCTAATCTATATATA
+                **************************************************
+
+MSTRG.14347.2   AATTTGGCTTGTCTGTTTGTCTGTTTGTATCCAATAAACGTCAAAACGGC
+NHA3-long       AATTTGGCTTGTCTGTTTGTCTGTTTGTATCCAATAAACGTCAAAACGGC
+                **************************************************
+
+MSTRG.14347.2   TGAACCGATCTGGCCCAAATTTTTTGTGGCACCTCCCGTTATCCCAGGGA
+NHA3-long       TGAACCGATCTGGCCCAAATTTTTTGTGGCACCTCCCGTTATCCCAGGGA
+                **************************************************
+
+MSTRG.14347.2   AGGTTTATGAATGATAAAAATAAAAAAATGTGTTTTAAAGGTTTTTAATT
+NHA3-long       AGGTTTATGAATGATAAAAATAAAAAAATGTGTTTTAAAGGTTTTTAATT
+                **************************************************
+
+MSTRG.14347.2   TTGTAAAAAAATTTAAATTCTTAAAAATCCGCGAATTTTTTTTTTTTAAA
+NHA3-long       TTGTAAAAAAATTTAAATTCTTAAAAATCCGCGAATTTTTTTTTTTTAAA
+                **************************************************
+
+MSTRG.14347.2   TCCGCAAAATTTTTTTTTTCT-----------------------------
+NHA3-long       TCCGCAAAATTTTTTTTTTCTTTGTTTTTAAATGTAAACAAAAAGAACAT
+                *********************                             
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       GTTCACAATTTAAATAGAAGATGGGCGCGAAGCGCCCTAAACCCCTAGTT
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       ATTTTAAAAATTTGCTTTTAAAGTCCTATTCATGATTTATTATGCCTTAA
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       TTTTATAGGCGTTAGTGATATTTTAATTCAAAATATTTATAGTAATTTAT
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       TTTTTTAATACAAGTATATGATATTATTTTATCATCTTTATTTAAATAAA
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       AGAAGTTTCATAGTTATAGGCATGTTATTTCATAACTCATAGTCATATGT
+                                                                  
+
+MSTRG.14347.2   -------------TTGTTT-------------------------------
+NHA3-long       GTCATAGCTATTTTTGTTTTTGTAAAATTAACAGTTTTATTTTGAGAATA
+                             ******                               
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       AAAAAAGTGATTGTTTTTCATAAAAAAATGCTTTGAGGCATAAAATACTA
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       GAAAATTGATTTTTTTCCCATTTACAAGAAAATATCATAGTTTTAGCTAA
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       CGCTGTAAAATATCTATTATGATCCATAAAACGTTGATTTTCCAGAATAT
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       TTATGATTCAAGAAAATTCTGTTTTATGGATTATTAAAACATCTACTTTA
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       ACGCAGACATATTCAAAATACAAAATATTTATAATCAATATTTTCCAAAG
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       AGGATATTTACTTTTACAGAGTCCTCTCAAGCATATTCACTACCTTTTGC
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       ACATATATATAGACAGTGTCAGCTTTAAATTCGCGCAACACCTTGGTCTT
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       TGGTTATAACTCACTTATACTTTTTGTATAGCCTCGAATTCAAATAGAGT
+                                                                  
+
+MSTRG.14347.2   ------TTAAATGTAAAC--------------------------------
+NHA3-long       AATTGGCAAAATACTCGCAAAAATATCAGATTATCAAATGCTAAATGATC
+                        ****     *                                
+
+MSTRG.14347.2   AAAA-------------------------AG---AAC-------------
+NHA3-long       AAAAATCTTTAAATGATCAAAAAAATGTAAGCTAAACAGTTAGGACAACT
+                ****                         **   ***             
+
+MSTRG.14347.2   ----------------------ATGTTCA---------------------
+NHA3-long       ATTTTTTTTCTTCAAAAATATCATACAATTTTACGATAAAGTTAATTTTA
+                                      **                          
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       AAGTTTAAGATATTCTTTCACGCAATCTATTTTATCTTCTATCTCTTCTC
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       TTCTTTTTTCTACTCTTCTCTTCTATTATCTTCTCTTTTCCTTTCTTCGT
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       TTCTTTTTTCTTCTCCTCTATTATCTTCTCTTCTCCTTTCTTCTCTTCTC
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       TTTTCTTCTATTTGTCCTCTCTTTTTTCTTGTCTTTTCTTTTCTTCTCTT
+                                                                  
+
+MSTRG.14347.2   ---------------CAA--------------------------------
+NHA3-long       CTCTACTCTTCTGCTCTATTATCTCTTTCCTTCTCTTCCCTGATCTCATA
+                               * *                                
+
+MSTRG.14347.2   ----------------------------------TTTA------------
+NHA3-long       TCGTCTCCTCTTTGTTTTCTCTTTTTTGTTGACATTTAACCGGTTTTGAG
+                                                  ****            
+
+MSTRG.14347.2   -------------------------------------AATA---------
+NHA3-long       ATGAACAATGCAGTACGATCCGTTGTAATAAATTATAAATTGTTTATTAT
+                                                     ***          
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       TTATAAAAAAACGGCATTTCCAAAGTAATTTTGCCACAAACTCTGATTTT
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       CATATGATTTTTCTCTTATTTGGTTACATTTCTAGCTTGTAGACCTAATT
+                                                                  
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       GAAACGTAATGCGTTTGTACTCCATAATTAGGCATTTGATCATTTGGCAT
+                                                                  
+
+MSTRG.14347.2   -------------------------------------GAAGATGGGC---
+NHA3-long       TTTATATTTTGAAATTTTTCAGTGAGAGCGTGCATCCAAAGATGGGTCCC
+                                                      ********    
+
+MSTRG.14347.2   --GCGAA-------------------------------------------
+NHA3-long       ATGCGAAAATCAATGAATATTTTGCCAACTACTTCTGTAAAACTAAAACT
+                  *****                                           
+
+MSTRG.14347.2   ----GC-------------------------GCC----------------
+NHA3-long       AAAAACAAGAACTTTAATGTACAATGTTCATGTCCAGGGGTACACAAAAA
+                     *                         * *                
+
+MSTRG.14347.2   --------------------------------------------------
+NHA3-long       GTTCCAAAAGTATAGTGAGATTATAGTGCTGGTAAAATCAAAGCCCAAAC
+                                                                  
+
+MSTRG.14347.2   -------------CT------------AA---------------------
+NHA3-long       TGCAGGCCGAGTCTTGAAAATTGATTTAAAGAAATTGAGTTTTTGCCACA
+                              *            **                     
+
+MSTRG.14347.2   --------ACCC--------------------------------------
+NHA3-long       AGTTTCTAATCCCTCATCCTTATGCAACTTGACGGTGTAAACCTTTTATA
+                        * **                                      
+
+MSTRG.14347.2   -------------CTA------------G---------------------
+NHA3-long       TTTCAAATTCAAACTATTTAATCTAACAGAATTAATGATTTAAAATATCT
+                             ***            *                     
+
+MSTRG.14347.2   ----------TTAT
+NHA3-long       GAGGTCTACAACAT
+                            **
+
+
+

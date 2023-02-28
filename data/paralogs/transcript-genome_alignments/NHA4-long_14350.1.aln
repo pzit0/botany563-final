@@ -1,0 +1,804 @@
+CLUSTAL FORMAT for T-COFFEE Version_13.45.0.4846264 [http://www.tcoffee.org] [MODE:  ], CPU=0.02 sec, SCORE=987, Nseq=2, Len=9998 
+
+MSTRG.14350.1        CA------------------------------------------GA----
+NHA4-candidate-long  TCTTCATTCTAGTTGTGTGTACTTTCAGTATGTTCTTCATTCTAGTTGTG
+                                                                 *     
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TGTACTTTTAGTATGTTTTTCATTCTAGTTGTGTGTACTTTTAGTATGTT
+                                                                       
+
+MSTRG.14350.1        ------------------TA-------------------------T--T-
+NHA4-candidate-long  CTTCATTCTAGTTGTGTGTACTTTTAGTTATGTTCTTCATTCTAGTTTTG
+                                       **                         *  * 
+
+MSTRG.14350.1        ---------------------------------------------ATG--
+NHA4-candidate-long  TGTACTTTTAGTATGTTCTTCATTCTAATTGTGTGTACTTTCAGTATGTT
+                                                                  ***  
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  CTTCATTCTAATTGTGTGTACTTTTAGTATGTTCTTCATTCTAGTTGTGT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GTACTTTCAGTATGTTCTTCATTCTAATTGTGTGTACTTTTAGTATGTTC
+                                                                       
+
+MSTRG.14350.1        -----------------TA----------------------AG-------
+NHA4-candidate-long  TTCATTCTAGTTGTGTGTACTTTTAGTATGTTCTTCATTCTAGTTGTGTG
+                                      **                      **       
+
+MSTRG.14350.1        --C-------------------------TT--------------------
+NHA4-candidate-long  TACTTTTAGTTATGTTCTTCATTCTAGTTTTGTGTACTTTTAGTTGTGTT
+                       *                         **                    
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  CTTCATTCTAGTTGTGTGTACTTTTAGTTATTTTCTTATTTCTAGTTTTG
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TTCTTGCTTCTAGTTGTGTTCTTACTTCTTGTTGCGTTCTTACTTTATGG
+                                                                       
+
+MSTRG.14350.1        --TG-------------------------------AT-------------
+NHA4-candidate-long  TTTGTTCTTACTTTATGGTGTGTTCTTAATTAGAGATCTGTGTACTTTTA
+                       **                               **             
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GTTATGTTCTTAATTCTAGTTGTGTTCTTACTTCTAGTTGCGTGTTTTAC
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TTTTTGGTGTGTTCTTACTTTGTAGTGTATTCTTACGTTATGGCGTGTTC
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TTACTTTTAGTTGTATTCTTTATTCTAGTTGTGTTCTTACTTATTGTTGT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GTTCTTAGTTAAAGTTGTATTCTTACTTCTGGTGATGCTCTTACTTATAG
+                                                                       
+
+MSTRG.14350.1        ------------TTTCTA------------------------------C-
+NHA4-candidate-long  TTGTGTTCTTTATTTCTAGTTATGCTCTTAATTCTAGTTGCGTTCTTACT
+                                 ******                              * 
+
+MSTRG.14350.1        ----------------CA--------------------------------
+NHA4-candidate-long  TCTAGTTATGTACTTACAGCTAGTTGTGTGTACTTTTAGTTATGATCTTA
+                                     **                                
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  ATTCTAGGTGTGTTCTTAGTTTTTTAATTGTGTTCTTACTTCTAGTTATG
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TTCTTACTTTTAGATGTTTCTTACTAATAGTTGTGTACTTACTTCTAGTT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  ATGTTCTTTTTATGTTGTTCTATCCTAATTAGTTGTGTTCTTTATTTATA
+                                                                       
+
+MSTRG.14350.1        ---------------------------TTTGT------------------
+NHA4-candidate-long  GTTATGTTCTTAATTTTATTTATTGTTTTTGTTCCTACTTCTAGGTTTTA
+                                                *****                  
+
+MSTRG.14350.1        -------------------------T-------------A---A------
+NHA4-candidate-long  CTTGGGATGGGCATTGGGCATCTTTTAGAAATTATTTTTAACAAAAAATA
+                                              *             *   *      
+
+MSTRG.14350.1        --------------------------------AG----------------
+NHA4-candidate-long  TATCGTTTTCGTTTCAAAAAGAAAAACGCAAAAGTTTGTTTTTCGTTTCA
+                                                     **                
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  CAACGAAAAACTGAAAACATCGTATCGTTATGAAATGGAAATTTTTTTAA
+                                                                       
+
+MSTRG.14350.1        ----------------------------------------------ATTA
+NHA4-candidate-long  CGTTTTTGGTCTGAAACGATAAACGAAGATATCGTTATTTTTTTTGTTTT
+                                                                    ** 
+
+MSTRG.14350.1        AAGAG---------------------------------------------
+NHA4-candidate-long  TAGAGTTGAAATGAGTAATTTTCGTTTTGAATTTTTTAAATTTAATTAAT
+                      ****                                             
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TTATCAATCCTTTATAACTGTTTGTCTGTCTAGTTGTCTATCTGTCGCAT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GATGTCTGTCTGTTCAGATTTGGACCAAATTGTAACTGTAAAAAAAAGAT
+                                                                       
+
+MSTRG.14350.1        ------------------------------TGAAGTAG------------
+NHA4-candidate-long  TTTATTACAAAAATAACACTTTATTAAAAATCGATAAGGAAGGAATTGGT
+                                                   *  *  **            
+
+MSTRG.14350.1        --------------------------------GAT---------------
+NHA4-candidate-long  CAGAACAAAACTTAGAAATTGTGTATGAATTGGATGAAATGTTATTTGGA
+                                                     ***               
+
+MSTRG.14350.1        -------GG-----------------------------------------
+NHA4-candidate-long  AAAAAGTGGAGTAATTGTGCCTAAATCTTTACATCCTGATTGTGTAAACC
+                            **                                         
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TTTGATATTTCAAACTTACACCACTTGATGATACCAAAATGTATAGTACA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  AAATCTGGTTGTAAATATATAGGGATTAGAAAATCAGAGTTAGTGGCAAA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  AACCCATATTAAAATGAATATAAATTGTAGTGACAGTTTGTCTTGAGTAA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TTTTAAAAGTAGTTTTCCGTTTTTTTAAACATTCAGGTTTATTTGGTGAT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TAAAAGGCTCCATAAAAATCTTTACAAGGGTTGAATTTTGATACGAAAAA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  AAGAAAAATGACAATTCGAAATTTTTCATTACGACAACTTTTAAAACAAT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  CGTATATGAAATATTCCAACCCAATTTCTGTCGAACCAGAAATTTCAAAT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  CGATTTTTGAAACAGCTAGAAAGTGCCCATCCCTAGTTTTTACGTGCTAC
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  CGAATCATCTACATTAGATCTAGTAAATACTTGTTATAGCTGGTATTGTA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  CGGATTAAGATAGATGTTGGGTTCAGGGCTAAATATATTTAATCTTGATT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  ATATGAAACAATATACATATATTATACATGGCGCATTAATAATTACAAGT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TTTGCATTTAAAGAATAGAGGAACTTGTAACATGCGCAATTTGTAAAGAA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  ACATCATTGGTCAGTTGGTCAATTAAAAATAGGAAAAATCAAACCTAATG
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TTTAGGGGGGGGGGTCTGCATTTACCTACATTAAAATATAATTTGCACTT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GAAGACGGGCTTGTCATGGTAAACAGGTTTCTTGGCGTTGAGTAATTAAA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GACTTTGATTCCATAGATACGGCGATAAAAGGATAATTAGGCATATAGGG
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  ATAATTAGAGATCTATGTAGGGATTTATGGATAATTAGGCATATAGGGAT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  AATTAGAGATCTATGTAGGGATTTATGGATAATTAGGCATATAGGGATAA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TTAGAGATCTATGTAGGGATTTATGGATAATTATAGGGATTCTGTTGCGA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TTATTAGGAATGTAGGTATTTAGGACTTTGGGGCTGTGTATAGGGATGTA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GGGATAATTAAGGACGTAGTCTTTTATGGCTGTGTAGGGATGTAGGGATA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  ATTAGGGATGTAGGTATTTATGGATAAAAAGAAATGCTGTGGTGATGTAT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  AGGGATGTAGGAATGTAGGAATTGTTGCAGGAATGTAATCACTGTAGGCA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GAGATGCAGAAAACCATGAGTGTAGAATTACAGAAATTCTGGATGCAAGG
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TTGCTAAAATGTATGGTTTCAGTGCATTGGAAATTCAGAGTTCTACAGAG
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  AACCATAAGTTTAGAAGGGATGCAGAGAAATATGGATTTAGACTATATAT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  AATTTCAGGGATACAGGGATGCATGGGTTTAGAGGATACAGGGAAACGGG
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GATTCTAGGTTATATGGATATATGAATATGTGGAATACAGGGATATATGG
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GATACATGAATACAAGGGCATAGGGATATAGGTATATATACGAATACGTG
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GGATACAGGATTACAGGTGTAGAGGGATAAAGGAATATAGAGATATAGGA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TTACATGGATCAGCGGTAAGAGAATGTCAAGGATTATAGGATTTCAGAGA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TACACAATTACAGAGATTAAGGGATACATGATTACACGGATACATTACAA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  CAAATATACAGGATAACATGGATACAGGTATATAGGGGATCCAGGATAAC
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  ACGGATACTGGAAGACACGGATACAGGATAACACTGAAACAGGATAACAG
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GATTACATGGACACAGGATTACTGTAATAAGCTATGTTACTTAAGGGATA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  CACGGATAGGGAGACAGGGATTCAAGGTTCTAAAGGAGAGGGATACAAGG
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GAGCAGGATACAATATAATAAGTAATTATCTGAACCACTTAAAAACAAGT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TTCCTTTAATTCCCATAGTTTACGTTAAATAAATTCAGAATTTTACAATA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GGTAGTTTTTGCAATCAATCAAAAATTTAAAATTTTGGCTTGGAACTTTA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  AATACTTTGAAAATGTAAAAATGTTAGCATTGAATTTTTTTTTAATTTTT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GGGAATTTTCAGCACTAGAAATAATTGTAATTAATATTTGGAAATTGTAT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TGATTTAGAAATTTTCAGTGCTTGGAAATTTAAATACTTTAAGAATATTT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GGGAACTTTTAATGATCGGACCTTTAAATACTTGAATTTTTAAATATTTT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GTAAATACTTGGGAATACTTGGGAAATGCCAATGTTTAGGAAATTTAAAT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  ACTTGGGAAATGTGAATACCTAGGAATTGTAAATATGGGTTGGTAAAAAG
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TTCGGAAAGGAATTGAGTCTTAAAAAAAACAGATTTCATTAATTGACATT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TCATAAGGTCTTTAACATTGTGTTGCAAAGAAATAGGGATTATAAAATCA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GAGTTTGTGGCAAAGACTCGTAATCTTTTTTGAGTATTTGGTATATGGCA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TTTTAGTAGTTTTGAGCTAACTGTAAAAATGGTATTTTTCTAAAATATAT
+                                                                       
+
+MSTRG.14350.1        -AGGAGATGAATAACAACAACATTGAGATGGATAAATATAAACAAAGCCC
+NHA4-candidate-long  ATTTTCAGGAATAACAACAACATTGAGATGGATAAATATAAACAAAGCCC
+                           * ******************************************
+
+MSTRG.14350.1        CCCAGCGGAGACGGTCAACCCAGGATATAAAGATGAAAACAAACCGACAT
+NHA4-candidate-long  CCCAGCGGAGACGGTCAACCCAGGATATAAAGATGAAAACAAACCGACAT
+                     **************************************************
+
+MSTRG.14350.1        TTGTCAAAGCAAGAAAAACAAAACGTCTCAGGATGAGAAAATCCCTGGTG
+NHA4-candidate-long  TTGTCAAAGCAAGAAAAACAAAACGTCTCAGGATGAGAAAATCCCTGGTG
+                     **************************************************
+
+MSTRG.14350.1        AAGGTGAAACGAAACCTCCAGGCAAATAAAGTAACAACACAATTTTTTCC
+NHA4-candidate-long  AAGGTGAAACGAAACCTCCAGGCAAATAAAGTAACAACACAATTTTTTCC
+                     **************************************************
+
+MSTRG.14350.1        ACCACAAGGCGAGGTTGCCACCAACCTTACTCTAATTGTAGCAGTTATTA
+NHA4-candidate-long  ACCACAAGGCGAGGTTGCCACCAACCTTACTCTAATTGTAGCAGTTATTA
+                     **************************************************
+
+MSTRG.14350.1        TCATCTTCTTCTGTGCCCGAGCTGTCCTGGGCACAATAGCAGCTCCTGGA
+NHA4-candidate-long  TCATCTTCTTCTGTGCCCGAGCTGTCCTGGGCACAATAGCAGCTCCTGGA
+                     **************************************************
+
+MSTRG.14350.1        GGAACTATATTTGCTCTTTTTATTCTCATTCTTCTCTCACTCATTGCGGG
+NHA4-candidate-long  GGAACTATATTTGCTCTTTTTATTCTCATTCTTCTCTCACTCATTGCGGG
+                     **************************************************
+
+MSTRG.14350.1        ACAAATTGTAATACAAGTAGCTTCTTGGATATCGAAGCTTGTGGGCATAG
+NHA4-candidate-long  ACAAATTGTAATACAAGTAGCTTCTTGGATATCGAAGCTTGTGGGCATAG
+                     **************************************************
+
+MSTRG.14350.1        ATATCAAGATACCTCCTCTGCTTGGAATGATGGCTGTTGGGATTACTCTT
+NHA4-candidate-long  ATATCAAGATACCTCCTCTGCTTGGAATGATGGCTGTTGGGATTACTCTT
+                     **************************************************
+
+MSTRG.14350.1        AAAAATGTTCCTTACAACTTTGGCCAGTTTGGTAGAGCTGAGTGCATTGG
+NHA4-candidate-long  AAAAATGTTCCTTACAACTTTGGCCAGTTTGGTAGAGCTGAGTGCATTGG
+                     **************************************************
+
+MSTRG.14350.1        GAATGTTTCAGTTGAGTTTGCAGACTCTCTTCATAACTTTGAGATAAATT
+NHA4-candidate-long  GAATGTTTCAGTTGAGTTTGCAGACTCTCTTCATAACTTTGAGATAAATT
+                     **************************************************
+
+MSTRG.14350.1        CATCTGAATTTGATGAGGAACTAATGGGATTTACAGTAAAACCTTCCATC
+NHA4-candidate-long  CATCTGAATTTGATGAGGAACTAATGGGATTTACAGTAAAACCTTCCATC
+                     **************************************************
+
+MSTRG.14350.1        AGACTGCATGACATATATGGAGCTGAAGCCCAGCATTCTCTTGATCATAC
+NHA4-candidate-long  AGACTGCATGACATATATGGAGCTGAAGCCCAGCATTCTCTTGATCATAC
+                     **************************************************
+
+MSTRG.14350.1        TGTGTCTGAAAACCAGCGTATATCAAGCAATGTGGACCAACATGAAGTCT
+NHA4-candidate-long  TGTGTCTGAAAACCAGCGTATATCAAGCAATGTGGACCAACATGAAGTCT
+                     **************************************************
+
+MSTRG.14350.1        TTCCTCTAAATGATCATGAATATAATCCTAGTACGGCTGATGATACTCTG
+NHA4-candidate-long  TTCCTCTAAATGATCATGAATATAATCCTAGTACGGCTGATGATACTCTG
+                     **************************************************
+
+MSTRG.14350.1        AGCAATGTTGTTCAAAAATCTACCCCATACCAGGAACGGTTGCAGGGGAT
+NHA4-candidate-long  AGCAATGTTGTTCAAAAATCTACCCCATACCAGGAACGGTTGCAGGGGAT
+                     **************************************************
+
+MSTRG.14350.1        TATTCAGAACCATATTGACACACTGACTAAAATTGGTGAGCTTCATCAAG
+NHA4-candidate-long  TATTCAGAACCATATTGACACACTGACTAAAATTGGTGAGCTTCATCAAG
+                     **************************************************
+
+MSTRG.14350.1        AATTGACCAAACCAACTACTCCATCAGATGAAGATGTTATAGGAAGTAAG
+NHA4-candidate-long  AATTGACCAAACCAACTACTCCATCAGATGAAGATGTTATAGGAAGTAAG
+                     **************************************************
+
+MSTRG.14350.1        CATCCTAAAATGAATGTTTTTAAATCCCCCAAATGGCCAACTGACCACAG
+NHA4-candidate-long  CATCCTAAAATGAATGTTTTTAAATCCCCCAAATGGCCAACTGACCACAG
+                     **************************************************
+
+MSTRG.14350.1        TTCAGAGGAAAACATTTTAAACTTGATGGATTCAAGACATAAAAGAACCT
+NHA4-candidate-long  TTCAGAGGAAAACATTTTAAACTTGATGGATTCAAGACATAAAAGAACCT
+                     **************************************************
+
+MSTRG.14350.1        TACGTAGTGAACATGCTGAAGAAAGTACTTCACTGCCTGAGGATTCCTGT
+NHA4-candidate-long  TACGTAGTGAACATGCTGAAGAAAGTACTTCACTGCCTGAGGATTCCTGT
+                     **************************************************
+
+MSTRG.14350.1        AAGAAAAGATTCATTGGGCATGAACTTGATCCCTTGCTGTCTCGAACTCT
+NHA4-candidate-long  AAGAAAAGATTCATTGGGCATGAACTTGATCCCTTGCTGTCTCGAACTCT
+                     **************************************************
+
+MSTRG.14350.1        AAGATCCATATGTCTGACAGTTATTCTACTCATGGCAGGCCTAGAACTAG
+NHA4-candidate-long  AAGATCCATATGTCTGACAGTTATTCTACTCATGGCAGGCCTAGAACTAG
+                     **************************************************
+
+MSTRG.14350.1        ATCCTCCTGCACTCTGGAGACTTAAATGGATTGTACTCAGAACTACATTT
+NHA4-candidate-long  ATCCTCCTGCACTCTGGAGACTTAAATGGATTGTACTCAGAACTACATTT
+                     **************************************************
+
+MSTRG.14350.1        ATTCCTTGCCTTGTAGAGGCATTTGCAGCATCTTTATTTTGCTATTTGAT
+NHA4-candidate-long  ATTCCTTGCCTTGTAGAGGCATTTGCAGCATCTTTATTTTGCTATTTGAT
+                     **************************************************
+
+MSTRG.14350.1        CCTTGGATTTCCCTTTCTTCCTGGTCTATGCTTTGGATTTGTTCTCTGCG
+NHA4-candidate-long  CCTTGGATTTCCCTTTCTTCCTGGTCTATGCTTTGGATTTGTTCTCTGCG
+                     **************************************************
+
+MSTRG.14350.1        GAGTATCTCCAGCTGTTATTATTCCAGGATTGGTGAATCTGAGTCAGAGA
+NHA4-candidate-long  GAGTATCTCCAGCTGTTATTATTCCAGGATTGGTGAATCTGAGTCAGAGA
+                     **************************************************
+
+MSTRG.14350.1        GGATACGGAGTAAAGAAGGGAATACCAACACTGGTTATTGCAACATGTTC
+NHA4-candidate-long  GGATACGGAGTAAAGAAGGGAATACCAACACTGGTTATTGCAACATGTTC
+                     **************************************************
+
+MSTRG.14350.1        TGCTGATGATCTTGTGGCTATTGGAGGATTTGGTATTGCACTTGGTATCA
+NHA4-candidate-long  TGCTGATGATCTTGTGGCTATTGGAGGATTTGGTATTGCACTTGGTATCA
+                     **************************************************
+
+MSTRG.14350.1        CTTTTAATCCAGATGCTTCAATTACCGATCTTGCCAGCCATGGTCCAATT
+NHA4-candidate-long  CTTTTAATCCAGATGCTTCAATTACCGATCTTGCCAGCCATGGTCCAATT
+                     **************************************************
+
+MSTRG.14350.1        GAAGTCACCATGGGTATTGGATTTGGAATCTTCTGGGGTTATGTATGCCA
+NHA4-candidate-long  GAAGTCACCATGGGTATTGGATTTGGAATCTTCTGGGGTTATGTATGCCA
+                     **************************************************
+
+MSTRG.14350.1        GTGGCTCCCAAGTAGACATAACAAAGATTATATCCTGTTCAGATTTATTA
+NHA4-candidate-long  GTGGCTCCCAAGTAGACATAACAAAGATTATATCCTGTTCAGATTTATTA
+                     **************************************************
+
+MSTRG.14350.1        TACTTTTTTGCGGAGGTCTCTTTGCCTTGTTCGGAGCCCATCTAATCCAC
+NHA4-candidate-long  TACTTTTTTGCGGAGGTCTCTTTGCCTTGTTCGGAGCCCATCTAATCCAC
+                     **************************************************
+
+MSTRG.14350.1        TATGACGGTGCAGGTGGTCTGGCGTGCGTGATCATGGCATTTGTTGCCTC
+NHA4-candidate-long  TATGACGGTGCAGGTGGTCTGGCGTGCGTGATCATGGCATTTGTTGCCTC
+                     **************************************************
+
+MSTRG.14350.1        AATTCAGTGGAGAAAAGAAGGATGGGGAGATCATAATCCCATAACTGACA
+NHA4-candidate-long  AATTCAGTGGAGAAAAGAAGGATGGGGAGATCATAATCCCATAACTGACA
+                     **************************************************
+
+MSTRG.14350.1        TCTTTGGGAAAATGTGGATTATCCTCGCTCCCATCATATTCTCTCTGATC
+NHA4-candidate-long  TCTTTGGGAAAATGTGGATTATCCTCGCTCCCATCATATTCTCTCTGATC
+                     **************************************************
+
+MSTRG.14350.1        GGAACTAATATCCAGGTTGATAAGATGAACGGTGATACTGTAGGGTTAGG
+NHA4-candidate-long  GGAACTAATATCCAGGTTGATAAGATGAACGGTGATACTGTAGGGTTAGG
+                     **************************************************
+
+MSTRG.14350.1        AGTTGCCGTTATAGTTTGCTGTATTCTAACAAGAAGTTTTTTTACCTATT
+NHA4-candidate-long  AGTTGCCGTTATAGTTTGCTGTATTCTAACAAGAAGTTTTTTTACCTATT
+                     **************************************************
+
+MSTRG.14350.1        GGTCTGCAACATTTGGAGGACTAAACACCAAGGAAAAGTTATTTCTAAGC
+NHA4-candidate-long  GGTCTGCAACATTTGGAGGACTAAACACCAAGGAAAAGTTATTTCTAAGC
+                     **************************************************
+
+MSTRG.14350.1        CTGGCCTGGCTTCCAAAAGCCACAGTTCAAGCTGCCTTAGGT--------
+NHA4-candidate-long  CTGGCCTGGCTTCCAAAAGCCACAGTTCAAGCTGCCTTAGGTAATCATGT
+                     ******************************************        
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  AATGAAACCATTCATTCTGAGCTAAATTTCACTGCACCTTCGAAAAGAAA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GAAAAAAAGTGAAAGCATATTAATCATTGTTTTCGAATCTTCAATGTTTT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  AAATGTTTAGGGAATTCTTTACAAAAATAAAATAATAATGAAGGTTTTTG
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TATTATCAAGCTGCAGTTCTTAATCATTCTCCAAATTTCACCGATTTTTC
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TGAAAAATTTTGAGTATTTTCAAAAAATGATTAATGTAGACATTTATTCT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TGGCAAACTGTTTTGATATTGATAGTTAATGGTTGTGTATCTTCCAATAG
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GTCAACAATATGTGAAAGGAAGTGTAATTTTAAGTGACCGGCCTCCATGC
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  AACACGCACCCCTGACCCTTCAGTAAAAGTAAATTTAACCTAAAGTCTAA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  CCGCGTCAACCTTGTTGCACCGGCTAGTCCTATTGAGTGTATGCTTTATC
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TACCCAATGCCCAGGTGGTACAGTACAAACTAGGACCGGAAAGGTTGACC
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  CGGCTAGGAAATTCAAATGTACTACGGCTGCCTTTGGCTCAAAGGAATGA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TCAGAATTAAATACTTAAAATCCTAGAAAAACGACGATATTTCCCACATT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  ATTAATCAAATAAATGTTATAAAAGTGACGTTGTGAATTGGGCATTGCCA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TTTTTGTATGGAGGGTCACTTGAAACTACAGTCCCTTCAATGGTAAACAG
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  AAACTACTCAAATTTGAATAAGGATTTAAATTTGGGTGCAGAATAATTTA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  CATTCTGTTAAGTTAAGGGTTTGTAATTAAATACATTTTTAATCAATTTC
+                                                                       
+
+MSTRG.14350.1        ----CCAGTATTTTTGGACAATGCTTTGAGGTCCGGAATAACAGAATTTG
+NHA4-candidate-long  AGGTCCAGTATTTTTGGACAATGCTTTGAGGTCCGGAATAACAGAATTTG
+                         **********************************************
+
+MSTRG.14350.1        TT------------------------------------------------
+NHA4-candidate-long  TTCCGGTAAAAATTTCAAATAAAATCAGTGAAAAATATTAATATCTTTTA
+                     **                                                
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TTTTCATTATTACAAAATTAAACTATCAGTCTTGATGAGTTTTTTTTAGT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TTTTTTCTACTTTCAACCCATTTTGATGTATGGTTTTTAGTTTACTTAAA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TATTTTTTAGATGACTTTATTATGTTTTCTTTTTATTGAGCGTTTCATAT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TATTTAAAATTTCTTGTGCTTCAAGTCTGCATATTTTAACATTCTGTTCA
+                                                                       
+
+MSTRG.14350.1        -----CCGTACGGAGAACAGATTCTCAATATGGCAGTTCTATCAATTGTG
+NHA4-candidate-long  TGTTTCAGTACGGAGAACAGATTCTCAATATGGCAGTTCTATCAATTGTG
+                          * *******************************************
+
+MSTRG.14350.1        ATCAGTGCTCCCTTGGGAGCCGTCCTAATCCTAGCCACAGGGCCCTTGCT
+NHA4-candidate-long  ATCAGTGCTCCCTTGGGAGCCGTCCTAATCCTAGCCACAGGGCCCTTGCT
+                     **************************************************
+
+MSTRG.14350.1        TCTCCATTCTGATTTAGAGGTTAAAGGAAGCACAGATGAGGGATCTGATC
+NHA4-candidate-long  TCTCCATTCTGATTTAGAGGTTAAAGGAAGCACAGATGAGGGATCTGATC
+                     **************************************************
+
+MSTRG.14350.1        TGGAAGAAGCTGAGAAGGAGGAGGAGGGGCAGGAAGAGGATGCTGAGGAG
+NHA4-candidate-long  TGGAAGAAGCTGAGAAGGAGGAGGAGGGGCAGGAAGAGGATGCTGAGGAG
+                     **************************************************
+
+MSTRG.14350.1        AGAGAGGAAGAGGATGCTGAGGATAGAGAAGATGAGGAGAGGGTGGAGGA
+NHA4-candidate-long  AGAGAGGAAGAGGATGCTGAGGATAGAGAAGATGAGGAGAGGGTGGAGGA
+                     **************************************************
+
+MSTRG.14350.1        AAACGCGAATAAATCCTTCAAAAATAATTCTAAGATGTTAAATAATGAAA
+NHA4-candidate-long  AAACGCGAATAAATCCTTCAAAAATAATTCTAAGATGTTAAATAATGAAA
+                     **************************************************
+
+MSTRG.14350.1        TGGAAAGTGTGGACGTATGTCAGGGGGATCTTTCTGTAGACAATAAAAAG
+NHA4-candidate-long  TGGAAAGTGTGGACGTATGTCAGGGGGATCTTTCTGTAGACAATAAAAAG
+                     **************************************************
+
+MSTRG.14350.1        ATCGTAAAAGAACATTTGAACTAAAGAAGCGAGATAAACATTGAAAAGCA
+NHA4-candidate-long  ATCGTAAAAGAACATTTGAACTAAAGAAGCGAGATAAACATTGAAAAGCA
+                     **************************************************
+
+MSTRG.14350.1        TTTCAGTATTTTCCTATATATCCAGTTATTCCCCATTTTCAATATTTTCT
+NHA4-candidate-long  TTTCAGTATTTTCCTATATATCCAGTTATTCCCCATTTTCAATATTTTCT
+                     **************************************************
+
+MSTRG.14350.1        TTTATTTTGATCTGGCTGAAAATTGATATGACTATAACAGTCAAATTGCC
+NHA4-candidate-long  TTTATTTTGATCTGGCTGAAAATTGATATGACTATAACAGTCAAATTGCC
+                     **************************************************
+
+MSTRG.14350.1        TACACTTTTCTCAGAAATCCATCGGATTATCTACAATTTAGTCTTTGCCA
+NHA4-candidate-long  TACACTTTTCTCAGAAATCCATCGGATTATCTACAATTTAGTCTTTGCCA
+                     **************************************************
+
+MSTRG.14350.1        CAAACTCTAAACTTTTCTAATCCCTATATCTTTACAACCTGATGTTGTAA
+NHA4-candidate-long  CAAACTCTAAACTTTTCTAATCCCTATATCTTTACAACCTGATGTTGTAA
+                     **************************************************
+
+MSTRG.14350.1        ACCTTAGATATTTTTTCTTGCAGAAGCCATAGATTAAAACATGTGAAGTG
+NHA4-candidate-long  ACCTTAGATATTTTTTCTTGCAGAAGCCATAGATTAAAACATGTGAAGTG
+                     **************************************************
+
+MSTRG.14350.1        TACGGCATTATGTTAAAAAGGTTTATTGAATGAGAAAATCAAAGCTTGTG
+NHA4-candidate-long  TACGGCATTATGTTAAAAAGGTTTATTGAATGAGAAAATCAAAGCTTGTG
+                     **************************************************
+
+MSTRG.14350.1        ACAAATTCTGAATTCCTTAACAAGATTTTTTGCTGAAAATTCGTTCGCAG
+NHA4-candidate-long  ACAAATTCTGAATTCCTTAACAAGATTTTTTGCTGAAAATTCGTTCGCAG
+                     **************************************************
+
+MSTRG.14350.1        AATTAAATAAAAAATAGCTTTTTTGTAAACATTAAGTAATCTTTATATGT
+NHA4-candidate-long  AATTAAATAAAAAATAGCTTTTTTGTAAACATTAAGTAATCTTTATATGT
+                     **************************************************
+
+MSTRG.14350.1        ACCTATTCTCAAGATTCAGCTCCGACCGATTTTAATGTTAATATTTAATT
+NHA4-candidate-long  ACCTATTCTCAAGATTCAGCTCCGACCGATTTTAATGTTAATATTTAATT
+                     **************************************************
+
+MSTRG.14350.1        ATTGTTCTAGTTTAACCTGATTTTATCTAATTATAACCATTTGAATCATT
+NHA4-candidate-long  ATTGTTCTAGTTTAACCTGATTTTATCTAATTATAACCATTTGAATCATT
+                     **************************************************
+
+MSTRG.14350.1        AGACTTCTTAAAATAAACTTGTGATGATATATCTACCGTTCTACGTTTCA
+NHA4-candidate-long  AGACTTCTTAAAATAAACTTGTGATGATATATCTACCGTTCTACGTTTCA
+                     **************************************************
+
+MSTRG.14350.1        CATTACTTCGTTTAGGAAGCAAAGTAAACTGATCAAAAACTGAATTTTCT
+NHA4-candidate-long  CATTACTTCGTTTAGGAAGCAAAGTAAACTGATCAAAAACTGAATTTTCT
+                     **************************************************
+
+MSTRG.14350.1        AATTAAAAAAAACCAAGTCAAAACTTGTGCGTGGTTAACCCTATACATGC
+NHA4-candidate-long  AATTAAAAAAAACCAAGTCAAAACTTGTGCGTGGTTAACCCTATACATGC
+                     **************************************************
+
+MSTRG.14350.1        TGGGGGGGGGGGGGTCTGCATCTTTGTAAAGCCTGCGGGCGTCCCACTCC
+NHA4-candidate-long  TGGGGGGGGGGGGGTCTGCATCTTTGTAAAGCCTGCGGGCGTCCCACTCC
+                     **************************************************
+
+MSTRG.14350.1        CCCCCTCTCCTGAAAAAAGGCCTTAGAGTAAAAATAAAAGGATACAATGC
+NHA4-candidate-long  CCCCCTCTCCTGAAAAAAGGCCTTAGAGTAAAAATAAAAGGATACAATGC
+                     **************************************************
+
+MSTRG.14350.1        ATATTTAATGTCCATAGCCCAATGTAAACCATCCTTCTCTTATTTTGACA
+NHA4-candidate-long  ATATTTAATGTCCATAGCCCAATGTAAACCATCCTTCTCTTATTTTGACA
+                     **************************************************
+
+MSTRG.14350.1        TCTATTCTTCAAGGTCTTTTCAAAAATGTAGTCTTTAGTCACAAAAATGT
+NHA4-candidate-long  TCTATTCTTCAAGGTCTTTTCAAAAATGTAGTCTTTAGTCACAAAAATGT
+                     **************************************************
+
+MSTRG.14350.1        ATTGGCCAAAAGTAAAAAAATCAAGGTAATAGTGTCAAAAATGCGAGTGC
+NHA4-candidate-long  ATTGGCCAAAAGTAAAAAAATCAAGGTAATAGTGTCAAAAATGCGAGTGC
+                     **************************************************
+
+MSTRG.14350.1        CGGGATATCGAGATCTATATTGCGCAGTGCGCTATTTGACACCAACGATT
+NHA4-candidate-long  CGGGATATCGAGATCTATATTGCGCAGTGCGCTATTTGACACCAACGATT
+                     **************************************************
+
+MSTRG.14350.1        TGACCTTCAACCCGATTTTTATCGTGGCTCTGGCAGATAATGCAGTTCAC
+NHA4-candidate-long  TGACCTTCAACCCGATTTTTATCGTGGCTCTGGCAGATAATGCAGTTCAC
+                     **************************************************
+
+MSTRG.14350.1        TTTTTTCAACGCAGATTTCTGGTTTTTACTTTCCATGGAATAATGTTGAT
+NHA4-candidate-long  TTTTTTCAACGCAGATTTCTGGTTTTTACTTTCCATGGAATAATGTTGAT
+                     **************************************************
+
+MSTRG.14350.1        CTTTTATTTATTTATTTAAAGCACAACTTGCTGAAAAAAACTAATATAAA
+NHA4-candidate-long  CTTTTATTTATTTATTTAAAGCACAACTTGCTGAAAAAAACTAATATAAA
+                     **************************************************
+
+MSTRG.14350.1        TTCAGTTTGTCTCAATAAACATGGGAATGGTGTGTCGGCTGTATGGTTTC
+NHA4-candidate-long  TTCAGTTTGTCTCAATAAACATGGGAATGGTGTGTCGGCTGTATGGTTTC
+                     **************************************************
+
+MSTRG.14350.1        GGATATCATGTCAATTTGAATTAATAAACAAAAAGAATGTTTTGAACTTC
+NHA4-candidate-long  GGATATCATGTCAATTTGAATTAATAAACAAAAAGAATGTTTTGAACTTC
+                     **************************************************
+
+MSTRG.14350.1        AAGTTCAAAAAAATGATATTTAACTCCCAAAAATGGTCTTCCGTATAATT
+NHA4-candidate-long  AAGTTCAAAAAAATGATATTTAACTCCCAAAAATGGTCTTCCGTATAATT
+                     **************************************************
+
+MSTRG.14350.1        GATAGAGCATGATATTTTTAAGAAACTGGTCATTTCTCTCTTGTACTAGA
+NHA4-candidate-long  GATAGAGCATGATATTTTTAAGAAACTGGTCATTTCTCTCTTGTACTAGA
+                     **************************************************
+
+MSTRG.14350.1        ATTTTGAAAAGTTCATGTGATGATACATTTTGAAATATCTAAGGTTTACG
+NHA4-candidate-long  ATTTTGAAAAGTTCATGTGATGATACATTTTGAAATATCTAAGGTTTACG
+                     **************************************************
+
+MSTRG.14350.1        CAAGCTTCCCTAATATCTTTGAATAAATGTCAAAAGACGCATT-------
+NHA4-candidate-long  CAAGCTTCCCTAATATCTTTGAATAAATGTCAAAAGACGCATTTTTGTGT
+                     *******************************************       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  ATTCCCAATAAAGTATTCAGAATTTCAAACATAACTGTTAAAAGAAAATG
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GGATTACTTCAGGTTAATTAGTTGTTTAAACGATTAAATGTCCAAGGATG
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  AAAAAAAAACCTTTATAGGcggggggggggggggtcgggcataaatatat
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  gcattgcctggggggggggggggCAATTCACGTGATATGATACAGAAAGG
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TAGCATACTCATACCATAGAAATTTTTTTTTAAATTCTCTAAATTTGTAT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GCCTTAAAAGTAAAAAAAATCCAGGTGATAGTGTCAAAAATTAAAGTTCT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  AGGGCAAAAGATTTATTATAATGTCTGAATTCCTATAAATGTTGCAACCT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  GAAAATTTTATTGGAAAACCAATTGATATTTAAATTACCATACTAAATCA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  AAAACTACTTTAAGATACGATCCCAAAACTGTCCCATAATTCCGATATTT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  ACTGGGACTTTCAATTTTTTTCCTTCAAACTTAATGAAATATTACAGAGA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  AAGGGGGGGGGGTTAAGCCTCAATAGCCCCACCCCTGTATACGCCTATGA
+                                                                       
+
+MSTRG.14350.1        ----------------------TTTGTG----------------------
+NHA4-candidate-long  ACTGATTTCAAATTTTCCATAACCTGTGTCCGAACTTAATTTAAGCCGCG
+                                             ****                      
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TTTAAACCGGTTTCAATTAAGCGCCAAAATTTAATACAATTTTAAGTGAA
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  ACCAACCATATTTTAGGCCTGGCTTAAATTTAAGCCACGGCTCAAATTCT
+                                                                       
+
+MSTRG.14350.1        --------------------------------------------------
+NHA4-candidate-long  TTAAATTCGGCCTCTGCACTGATGAAAAGTATATTGAGCCTAGACAAATC
+                                                                       
+
+MSTRG.14350.1        -------------------------TATTCCCAATAAAG-----------
+NHA4-candidate-long  TTCGCAAAAATTATTAAAACATTTTTAGTCTTTTTAAAGGCTTGGTTCTA
+                                              ** **    *****           
+
+MSTRG.14350.1        -------------------------------------------TA-----
+NHA4-candidate-long  ATTCAGATATTTAACAAGATGCTTTTTAATTATATTTTAAAAATATTGAA
+                                                                **     
+
+MSTRG.14350.1        ------------------------------T-------------T-----
+NHA4-candidate-long  TCCTGAGAATGTTTATAAAATTTAAATTTATTTTTAGTCAAATTTCTTTT
+                                                   *             *     
+
+MSTRG.14350.1        --------------C-----------------------------------
+NHA4-candidate-long  TAGAGGAGGGGGCTCAGAGTTAGATTCTAGGGGAGGGGGCGCAGAGTCAG
+                                   *                                   
+
+MSTRG.14350.1        ----------------------------------------------AGA-
+NHA4-candidate-long  ATTCTAGGTTAGGGGGCTCAGAGTCAGATTCTAGGTTAGGGGGCTCAGAG
+                                                                   *** 
+
+MSTRG.14350.1        -----------AT-------------------------------------
+NHA4-candidate-long  TTAGATTCAAAATATAAAAGATTATTGAGATTAAAACACTTGACTTTTAC
+                                **                                     
+
+MSTRG.14350.1        ---------------------------------------------TTC
+NHA4-candidate-long  AAATCACTGGGGACCCATTCTTGCTCCCCCTCCCCTTTGTGTGCCCCC
+                                                                    *
+
+
+

@@ -1,3 +1,9 @@
+# Feb 26, 2023: Links for Genbank + ncbi database "standards" 
+## links: 
+https://www.ncbi.nlm.nih.gov/genbank/samplerecord/
+https://www.ncbi.nlm.nih.gov/assembly/basics/#Comparative
+https://www.ncbi.nlm.nih.gov/assembly/model/
+
 # Feb 20, 2023: Tweaking 
 ## Changes in ass_ncbi(): 
 I had to change a couple of things on this function bc it kept throwing me errors when I tried running it on my NHA1 HitTable. 

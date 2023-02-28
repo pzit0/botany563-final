@@ -1,0 +1,808 @@
+CLUSTAL FORMAT for T-COFFEE Version_13.45.0.4846264 [http://www.tcoffee.org] [MODE:  ], CPU=0.03 sec, SCORE=714, Nseq=2, Len=10043 
+
+MSTRG.15126.2                                       GACCAAGC----------TAATAT-------------------TGCTTAA
+NHA8-updated-from-blast-search--then-acquired-long  TCCAAATTTCGCGAGCATCAATATCTACACTCTGGACAGAAACCGTTTAA
+                                                      * **             *****                    * ****
+
+MSTRG.15126.2                                       TTC--ACTTCTACAA---------------GA-------------GAAGA
+NHA8-updated-from-blast-search--then-acquired-long  TTGCGATTTTTGCGGTCGGATGTTTGCATTGCGAAAATATGTTCGCAAGC
+                                                    **   * ** * *                 *               *** 
+
+MSTRG.15126.2                                       AT-G---AAT-GT-------------TCCCGTATTTATA-----------
+NHA8-updated-from-blast-search--then-acquired-long  ATTGTCGACTAGTTCACAATACTGAATCCCTGATTCATACTGGCCTGGAT
+                                                    ** *   * * **             ****  *** ***           
+
+MSTRG.15126.2                                       ---------GACATTAATCAG---GATGAA-CAA-GTC-GAG--GAGCTC
+NHA8-updated-from-blast-search--then-acquired-long  ACATTTGAGGGTATTGAAGAGTATGATGAAGCAATGTTGGAGAAAAAATC
+                                                             *  *** *  **   ****** *** **  ***   *  **
+
+MSTRG.15126.2                                       CGAGC-CTACTT------TAAAT---------CTTTGGGG---GCAGAT-
+NHA8-updated-from-blast-search--then-acquired-long  CGATTTCAACATTGATTATGAATCCAAGGCAACTTTGGATCCCGTAGAAC
+                                                    ***   * ** *      * ***         ******     * ***  
+
+MSTRG.15126.2                                       -------------ATT-T-CC------------GAGGAGAAA--TCTGAA
+NHA8-updated-from-blast-search--then-acquired-long  CTTGTAAACCTAAACTGTCCTGTCGAATACTTCGTTGTTCAACCTGTGGA
+                                                                 * * * *             *  *   **  * ** *
+
+MSTRG.15126.2                                       CTAGGA-TTAGA-AGACGACCTTCAGAAGATAAT---------------T
+NHA8-updated-from-blast-search--then-acquired-long  CTGGAGTTTAAAAAGAGATCATACTTAAAACAACATGAGTTTACTCACAC
+                                                    ** *   *** * ***   * * *  ** * **                 
+
+MSTRG.15126.2                                       GGAGT--------TTGTGATGTTT-----GCT---TTAATTCTGCTGCTG
+NHA8-updated-from-blast-search--then-acquired-long  GGGGTTAAAACCCTTCTCATGTTTTGTCTGCGGTGATAAGTTTGCATTTA
+                                                    ** **        ** * ******     **     *** * ***   * 
+
+MSTRG.15126.2                                       AGAGTGATGTTGAAG-GGA-----------------------TCATGAAT
+NHA8-updated-from-blast-search--then-acquired-long  AGAGATATGCTCTACGGCATTTGCGAAAAAGGCACGGAAGTAACTCCAAC
+                                                    ****  *** *  *  * *                        *   ** 
+
+MSTRG.15126.2                                       GGTATAGTGAGTAT---------------GCTAGCCTTGA--TCACCAAG
+NHA8-updated-from-blast-search--then-acquired-long  GACTTAGTGGTTAAAACAAACGAAGACTCGATGGCTTTGAGTTCTGTAAA
+                                                    *   *****  **                * * ** ****  **   ** 
+
+MSTRG.15126.2                                       GAG-------------GAACTGATCA----------------TCTCTTT-
+NHA8-updated-from-blast-search--then-acquired-long  GAGCTCTACATATTTGAAACTGGTGAAGTCTAAAGAATCCAATATATTTC
+                                                    ***              ***** * *                * * *** 
+
+MSTRG.15126.2                                       -CTGTG----AGAAGCTGAGC-------AAGGCTCC-----AAC-----C
+NHA8-updated-from-blast-search--then-acquired-long  ACTGTGTCCTTGGAGCTAAGCTAGCAGAAAAGCGGAATCCCAAACAATCT
+                                                     *****     * **** ***       ** **        **       
+
+MSTRG.15126.2                                       CAGC---AGCTTGGC----------ATGGTCTG----TCT-CAAG-----
+NHA8-updated-from-blast-search--then-acquired-long  CGGCGAAAGTTTAGCTGTTCTAAATGTGGACTGAAATTCTTTAAGCAGAG
+                                                    * **   ** ** **           *** ***    ***  ***     
+
+MSTRG.15126.2                                       -------------------GTTCT----ATG--GTT-----CCTGTTCAT
+NHA8-updated-from-blast-search--then-acquired-long  CGGTCTTCGGAATCATGAGTTTCTTCATACGGGGTTAAAGCCATTTTCAT
+                                                                        ****    * *  ***     * * *****
+
+MSTRG.15126.2                                       GTC---CCTGGACGATAA-CT-------CCAGCATGAGGTTCCAGG---T
+NHA8-updated-from-blast-search--then-acquired-long  GCCTACTTTGCACCAGAAACTTTGCACTTGAAGATTATATTCGAAAACAT
+                                                    * *     ** ** * ** **         *  ** *  *** *     *
+
+MSTRG.15126.2                                       GTACT----------------ACT--ACCTG--GTGGGCG--TG--GCAG
+NHA8-updated-from-blast-search--then-acquired-long  TTAAAAAGATTTCATAATAGGACAACATCTGAAGTTGGAGAATTGTACAG
+                                                     **                  **   * ***  ** ** *  *    ***
+
+MSTRG.15126.2                                       GGAGGACCCACCAGCTCCAC-ACTGTCT----ACAAGGATATGGCGACCA
+NHA8-updated-from-blast-search--then-acquired-long  CAACGATTCTTTACCTCAAGAACTTTCAAGTGACAAGATAAAAATGGATT
+                                                      * **  *   * *** *  *** **     *****   *    *    
+
+MSTRG.15126.2                                       CCAAAACC---ATGTTTAACAAGGC-ACCG--CCTTCCAGCGACCA--GG
+NHA8-updated-from-blast-search--then-acquired-long  CTACAACCTTTAAATCCAACGCGACGACCAATTTTTCCTGCAATTTTTGT
+                                                    * * ****   *  *  ***  * * ***     **** ** *     * 
+
+MSTRG.15126.2                                       TCCAGAA-G--CTCTACAGGCTTCTCCA---CGAGATGTTG----CTGCT
+NHA8-updated-from-blast-search--then-acquired-long  GACAGAAAGTTCTCTTTTGAATTCTCTCGAATCCAACATTACAGACGGGT
+                                                      ***** *  ****   *  *****         *  **     * * *
+
+MSTRG.15126.2                                       AAATGGT--AAA--T--CTGATGATGCTAGCCGTGTAAT---GGTTGAGC
+NHA8-updated-from-blast-search--then-acquired-long  ACATGGAGCAGAGATGGGTAAAGATGTTACTAGTGTGAACCCAGTTAAGA
+                                                    * ****   * *  *   * * **** **   **** *     *** ** 
+
+MSTRG.15126.2                                       TTC---------TCGGTACATACACCACGGAGAACGCGAGCCAAGCGAGA
+NHA8-updated-from-blast-search--then-acquired-long  AAGAGAAGGGAGTTGACACTGACAACAC---TAATGCAGGTCAGGATATA
+                                                                * *  **  *** ***    ** **  * ** *  * *
+
+MSTRG.15126.2                                       GAGGAGGCTCAGCGTTGTATCATTGCTT--CACTAGCTGATC--------
+NHA8-updated-from-blast-search--then-acquired-long  AAGGAGGACCAAGATTTAATTTATACTAAGGACCAAGTTATCAAACATGA
+                                                     ******  **   **  **   * **    ** *  * ***        
+
+MSTRG.15126.2                                       -----CTAACA-CTTTCCTGTT-----GGATCACTTGCTGCA---GT-TG
+NHA8-updated-from-blast-search--then-acquired-long  GCACGCAAATATCCATCTTGTCAATCCTGATATCCAACTACAGGAGCCAG
+                                                         * ** * *  ** ***       ***  *   ** **   *   *
+
+MSTRG.15126.2                                       AAACCTG--TCAAGTTCCTGG------AG--GGAGAACTT--ATTCATCA
+NHA8-updated-from-blast-search--then-acquired-long  AAATCCGTTTTAAGGACCTTGTTATGAAGACAAAGGACACAGATACA-CA
+                                                    *** * *  * ***  *** *      **    ** **    ** ** **
+
+MSTRG.15126.2                                       ACTT------CTAAGTAT--ATTTGTTGGAG--AG--A---AACT---GG
+NHA8-updated-from-blast-search--then-acquired-long  ACTCGTGGACCCAGATATCCAACTCGTGGACCCAGGTATCCAACTCAAGG
+                                                    ***       * *  ***  *  *  ****   **  *   ****   **
+
+MSTRG.15126.2                                       ATGCTTATATCAAGTTCT------------------------------AT
+NHA8-updated-from-blast-search--then-acquired-long  ACCCAGGTTTCAAACTCGTGGACCCAGGTAACCAACTTGTGAAACCTGAT
+                                                    *  *   * ****  **                               **
+
+MSTRG.15126.2                                       CAGCAACAAAAGGAGTTTGTGAACGGACTCG--------GGT-TGAAGCA
+NHA8-updated-from-blast-search--then-acquired-long  ACCCAACTTATGGACCCAGATATTCAACTCGTGGACCCATATATTCAACT
+                                                       ****  * ***    *  *    *****          * *  * * 
+
+MSTRG.15126.2                                       TGAAGATAATCTGA----GGAAAATGAAACTTCTCAG--CTTTATGC---
+NHA8-updated-from-blast-search--then-acquired-long  TAAAGATAATATGAAAATGGAATCTAAAACTTCAAACGAAGTAATGAACC
+                                                    * ******** ***    ****  * *******  *     * ***    
+
+MSTRG.15126.2                                       -AGATGGCTGAGAATA-----GGAGTGAGATCACGTT-------TGCCGA
+NHA8-updated-from-blast-search--then-acquired-long  AATTTGGCTGTAAGTTTTGTGATAGTAAGTTCTCTTTCAAATTCTCCCGA
+                                                     *  ******  * *        *** ** ** * **       * ****
+
+MSTRG.15126.2                                       GGTGAAGGACTCAATGCAGTTGAACGAGAACGAGGTGGAGGA----GTTT
+NHA8-updated-from-blast-search--then-acquired-long  -ATCCAGCACTGTAAACGGGTACATGGAGCAGAGATGGATAAAGATGTA-
+                                                      *  ** ***  *  * * *  * *     *** ****  *    **  
+
+MSTRG.15126.2                                       CTCATAGACGTCATCAAGAC--GAGACTCGTCAG----------------
+NHA8-updated-from-blast-search--then-acquired-long  ACTATTGAGATCCTAGGGAAGAGAGATTCGACGGGTGACACTGACTGCAA
+                                                       ** **  ** *   **   **** *** * *                
+
+MSTRG.15126.2                                       ----GGCTAAAATATCTCA-------GGGAGATGGAGTA-----------
+NHA8-updated-from-blast-search--then-acquired-long  TGGAGGTCAGGATATCTTGAAGCATGAGGATATGCAGCAAAACAGGATAA
+                                                        **  *  ******          *** *** ** *           
+
+MSTRG.15126.2                                       --------GTTTAT-GTTTCCTCC---------ACAATGCACCGAACC--
+NHA8-updated-from-blast-search--then-acquired-long  ATATCGCGGTTCAAGGTTTGAATTACGAGAATCAAGATTTACAAAATGTG
+                                                            *** *  ****              *  **  **  **    
+
+MSTRG.15126.2                                       ---TTCGGTA-C-----TGGAGACT----GGCAACAGCTTCA--------
+NHA8-updated-from-blast-search--then-acquired-long  GACGTTGGTAACAAACTTAGAGACAATATAATAATAGATTCAAAGACTGT
+                                                        * **** *     * *****        ** ** ****        
+
+MSTRG.15126.2                                       ---------------------CTCTC-TT-CTA-TTAGGTTGGAAAA---
+NHA8-updated-from-blast-search--then-acquired-long  CAAATCCGAAGTAAGGGACCAATTTCCTTGCGAGTTTTGTGGCAAAAAGT
+                                                                          * ** ** * * **  ** * ****   
+
+MSTRG.15126.2                                       -CC-----AAC---CTTCA----CAGCAT---CAA--GGAACAT------
+NHA8-updated-from-blast-search--then-acquired-long  TCTCACTTAATTTCTTTCGAATCCAGCACTGTAAACGGGTACATGAAGAC
+                                                     *      **     ***     *****     **  ** ****      
+
+MSTRG.15126.2                                       ----------------------------ATGGCTCATATA-----G-CAT
+NHA8-updated-from-blast-search--then-acquired-long  GAGATGGGTGAAGAAGAACCAGAGATTGATGGTTCCAAGAACACAGATAT
+                                                                                **** **  * *     *  **
+
+MSTRG.15126.2                                       CC---------ACTCAGG--TTGAGTTAATGCACAAAAA----GAACTAG
+NHA8-updated-from-blast-search--then-acquired-long  CCAACATGAGAACCCAGATATTCAGTTAGAGGACACAGATATCCAACTGG
+                                                    **         ** ***   ** *****  * *** * *     **** *
+
+MSTRG.15126.2                                       TCC------TTGTCCAGCTCCT-G---------CTCTTCATCCTGATC--
+NHA8-updated-from-blast-search--then-acquired-long  ACGACACTGATATCCAACTTGAAGACCAAGATATCCTACATGGAGGCCAA
+                                                     *        * **** **    *           ** ***   *  *  
+
+MSTRG.15126.2                                       --CTGGTTCCACAT-CATGCCAACA---ATCCGG-AAATATGTATTCTGT
+NHA8-updated-from-blast-search--then-acquired-long  GAGAAGTCTGATATCCAAGAGAACACAGATATAGAAAATGAGTTCTCGGC
+                                                         **   * ** ** *  ****   **   * ****  **  ** * 
+
+MSTRG.15126.2                                       ATC-----TTGTTCACCAGATCTGTGCGC--GCC--------------GG
+NHA8-updated-from-blast-search--then-acquired-long  ATTTCAGTTTGTAGAACAGGACCGTGAAAATGTTGATATTTCATTTATGG
+                                                    **      ****  * ***  * ***     *                **
+
+MSTRG.15126.2                                       AGCGC--CTTT--CTT------TGC--------ATAATACTAAG--CG--
+NHA8-updated-from-blast-search--then-acquired-long  AAGGAATCTATGACAATGAAGATGGATATGAAAATAATGTTGAATCTGAT
+                                                    *  *   ** *  *        **         *****  * *    *  
+
+MSTRG.15126.2                                       -------CTCCGG-------CGCGCACG--TAA----TAGTTATGGTTGT
+NHA8-updated-from-blast-search--then-acquired-long  CCTGAAACCCCGGAAGAGGATGAGGACGAGCAACATGGAGTTGAAGTTGA
+                                                           * ****        * * ***   **     ****   **** 
+
+MSTRG.15126.2                                       T-TTAAGC-TTGGTACGGA----------GA------ACATTCT-----T
+NHA8-updated-from-blast-search--then-acquired-long  TGATAATCCAAGGAACAGCAATAAAAAGTGGACTGTCATATTCTCAAATT
+                                                    *  *** *   ** ** *           *       * *****     *
+
+MSTRG.15126.2                                       TTTCT-----TGAT---T--------TCAGATGAA-ATTAT---------
+NHA8-updated-from-blast-search--then-acquired-long  TTTCTGTAAATGATGCCCTCAAGTTCTTTGATGAAAATTATCCTCATCTT
+                                                    *****     ****            *  ****** *****         
+
+MSTRG.15126.2                                       ------AGATGCG-----A------AAAA--TGGCGT-------C-----
+NHA8-updated-from-blast-search--then-acquired-long  GGTGAGTGATTCGGTGGTATCTTATTAAATGTGTCGTGAACCCTCCTTCC
+                                                           *** **     *       ***  ** ***       *     
+
+MSTRG.15126.2                                       ---------------CGATAAGAAAAAAG--CA--CCTGAAAA-TCT---
+NHA8-updated-from-blast-search--then-acquired-long  CCCTCAATTTCTTTCAGAAAAGAAAAATATCCTTCCGTGACTATTCTATC
+                                                                    ** ********    *   * ***  * ***   
+
+MSTRG.15126.2                                       -----------------------------------------------ACA
+NHA8-updated-from-blast-search--then-acquired-long  TTAGTCGAACTTGGAATCAAGAGAGTTTAATCTTGTTGAGAAGGTGAGCA
+                                                                                                    **
+
+MSTRG.15126.2                                       GGAAAAAGTTATATTAGAA-AACTG----------------------GAG
+NHA8-updated-from-blast-search--then-acquired-long  GGGA---GGGGGATCAGAAGAACTGTATTTAGGATATCTATCTTAGTCAG
+                                                    ** *   *    ** **** *****                       **
+
+MSTRG.15126.2                                       CTTGT-------TTTTTCGTGCGATTTG---ATAATAGATA---AATTAA
+NHA8-updated-from-blast-search--then-acquired-long  CTCATTGAATTTTTTTCCTTTCTATTTAGCGAGAATATATGTTATTTTTC
+                                                    **  *       **** * * * ****    * **** **      **  
+
+MSTRG.15126.2                                       ATC--------AATTAT---------AATGTAAC---TTGTGGT------
+NHA8-updated-from-blast-search--then-acquired-long  ACCGTATTTACAGTTCTGACAAAAAAAAAATACCCCTTTATGACACTTTG
+                                                    * *        * ** *         **  ** *   ** **        
+
+MSTRG.15126.2                                       ----TATTGGTTTTTATAATAT-----TTGT----GACTTTGTAAGCA--
+NHA8-updated-from-blast-search--then-acquired-long  TTTGTTCTGATATCTATAATTTTAAAATTTTGAAATACTTTTTGAACTGT
+                                                        *  ** * * ****** *     ** *     ***** * * *   
+
+MSTRG.15126.2                                       ----ATTTTATTACTAATTTGGAA--------ATATAAGAATT-TTTTG-
+NHA8-updated-from-blast-search--then-acquired-long  TTGTATTTTATTGTTAAATTCTAATTTATATAATTTAGTAACCTGTTTGT
+                                                        ********  *** **  **        ** **  **    **** 
+
+MSTRG.15126.2                                       ---------TGTGTAACT---CAT--------------TTACTTAAACAG
+NHA8-updated-from-blast-search--then-acquired-long  TCATTATAGTGTTAAATTTTGCAATAAGAACCAAATATAGATTTAAAGAA
+                                                             ***  ** *   **                 * ***** * 
+
+MSTRG.15126.2                                       -------ATATTTTTCAGAG--TGGT--------CTAC-TGAAATAG-TT
+NHA8-updated-from-blast-search--then-acquired-long  AATGTAAATAGGACTAAGAGATTGATTAATTTTCCTAGTTAAAATAAATT
+                                                           ***    * ****  ** *        ***  * *****  **
+
+MSTRG.15126.2                                       TC----TCAATTTTTCTTATCCTTAAAAT-TTATTTTT-----A---ATC
+NHA8-updated-from-blast-search--then-acquired-long  TCAATGTAAATTTTTCAAACATTTGAAATGTTATTTTTCTGTTAACAGAC
+                                                    **    * ********  *   ** **** ********     *     *
+
+MSTRG.15126.2                                       TGATCGAGT----TGT---GTGGAAATATAG--CGCAAAT---ATAAAAA
+NHA8-updated-from-blast-search--then-acquired-long  TTATCGTGTGTGTTTTGTTATAGAAATGTACATTTTACATATTGTAAATA
+                                                    * **** **    * *    * ***** **      * **    **** *
+
+MSTRG.15126.2                                       CTGATAAAAGTTG---AGTTTGTTAACAATTTCTTCGGAA-TTTTGCTTT
+NHA8-updated-from-blast-search--then-acquired-long  GAAATAAAAGTTGGTGATTCAGTTATCAAAACCCTGACAAAAAATCATTG
+                                                       **********   * *  **** ***   * *   **    *  ** 
+
+MSTRG.15126.2                                       TTTCAA---------ATGTGTAATC-TACTTT----TA----------AC
+NHA8-updated-from-blast-search--then-acquired-long  TTTGAAAGGGAGAAAAAATGCAATTTTACCATTCCATACATACAGAATAC
+                                                    *** **         *  ** ***  ***  *    **          **
+
+MSTRG.15126.2                                       GCCATGAGTCTGTC-----------AT---TGAAA-A------------C
+NHA8-updated-from-blast-search--then-acquired-long  AACTTTAGACTGTTGATATATTCTTACTGTTTAAACATCTTACTTTTTCT
+                                                      * * ** ****            *    * *** *             
+
+MSTRG.15126.2                                       GCACGGAGA-----AATG-G------TCT-----------ATAC-C---T
+NHA8-updated-from-blast-search--then-acquired-long  GCTCGTAGGTTTATAATGTGTTGCATTTTATTTTAAATAAATACACTAAT
+                                                    ** ** **      **** *      * *           **** *   *
+
+MSTRG.15126.2                                       AAATCTCT--CCCTTGT----------GTGAACTTTTTTGTTCGA-ATTT
+NHA8-updated-from-blast-search--then-acquired-long  AAATTTATTTCGATTATTGAAGCGGAGGTTAATATTTTTTTTTATTTTTT
+                                                    **** * *  *  ** *          ** **  ***** **     ***
+
+MSTRG.15126.2                                       TTAGG------------GAACCGAGG---TTAATCAAATTATC---GGTG
+NHA8-updated-from-blast-search--then-acquired-long  TTAGCCATTGAAATAAACAAGCGAGTTATTTATTCAATATACTTAAAATA
+                                                    ****              ** ****    *** ****  **       * 
+
+MSTRG.15126.2                                       TCT-TTTTAAAGAAAGG----TTG----ACACTAGTACGTGTCAA-----
+NHA8-updated-from-blast-search--then-acquired-long  TATTTTTTAAGGAAAGGAATATTGCTAAACAAAAGTTTGTGGGAATATTA
+                                                    * * ****** ******    ***    ***  ***  ***  **     
+
+MSTRG.15126.2                                       --------AAAGAGC---------------CGCA------------TTCA
+NHA8-updated-from-blast-search--then-acquired-long  AATTATTAAAATATTGGTGTAGATTGTTTACGTGTTATATATTAAGTTCA
+                                                            *** *                 **              ****
+
+MSTRG.15126.2                                       AAAGCTTCCCTCTCGA--ACCAT-TTATA--------TTGTC---TAGA-
+NHA8-updated-from-blast-search--then-acquired-long  GTCGCTTAGCTACTAAGCAACATCCTATGTTTAAGCTTCGTCCTTTAAAG
+                                                       ****  **    *  * ***  ***         * ***   ** * 
+
+MSTRG.15126.2                                       AGATTGTT-----AACTTGACAGGGGG-ACAGGCTTC---CAGTAAAGAC
+NHA8-updated-from-blast-search--then-acquired-long  GGAGTGTTCGCGAAAAATGAAAGGGGGTATAGGCTTAATGCGATAAAA-A
+                                                     ** ****     **  *** ****** * ******    *  ****   
+
+MSTRG.15126.2                                       AGGGACCCG-----------------------------GAGTCTA-----
+NHA8-updated-from-blast-search--then-acquired-long  AGCGATTTTGATTGCTACTAATCTTACTTCTATCTGTTGCGTCTATAAGG
+                                                    ** **                                 * *****     
+
+MSTRG.15126.2                                       ------------------ACCA-AACCGAG--CCGGACTCTCCGTTCA--
+NHA8-updated-from-blast-search--then-acquired-long  AGAAAATTGTTAAAAATGACTAATACCGAAGAACGTAGTGTCCATACAAA
+                                                                      ** *  *****    ** * * *** * **  
+
+MSTRG.15126.2                                       -TCAAA--------CCGTCC-------------GAGCTGAAGCCGGAAAC
+NHA8-updated-from-blast-search--then-acquired-long  TTCAGAAAGATGCAACATTCAACTTTTTCACTATAGAAGAATGTGGAAAA
+                                                     *** *         * * *              **  ***   ***** 
+
+MSTRG.15126.2                                       TAAAGAAATTTCGCTTTCGCGG--------ATACAGAAAATATTTGCACC
+NHA8-updated-from-blast-search--then-acquired-long  TAAAGTTGTTTTTCTATCTTGAAGTGTTAAATTTCGATAATTCTTACATT
+                                                    *****   ***  ** **  *         **   ** ***  ** **  
+
+MSTRG.15126.2                                       GATACTCGTA--AAGAATTACAG-----CCTGAGCGATGAAT--------
+NHA8-updated-from-blast-search--then-acquired-long  GTATTTCTGAAGCAGAAATACGCATGTCACTGTTTAATAAAACCACAATT
+                                                    *    **  *   **** ***        ***    ** **         
+
+MSTRG.15126.2                                       ----CTGGGCCCTGCTCCAGGTTC-----GGCTACTCCTTGTTGTGTC--
+NHA8-updated-from-blast-search--then-acquired-long  AAAAATAATCAGTTTTCAAGATTGTAAACATTTAAATCTTATTGAATTTT
+                                                         *   *  *  ** ** **         **   *** ***  *   
+
+MSTRG.15126.2                                       ----CTCCACACGGTCGGGTTG--GAACC---CTGATCAC------CTGG
+NHA8-updated-from-blast-search--then-acquired-long  GATCCGATAAAGGGAACTGTTGTGAAACGGGCGTTGCCATCTTTGCATAG
+                                                        *   * * **    ****   ***     *   **        * *
+
+MSTRG.15126.2                                       A---T------------------CCTTGCTGTTTTC-CTGGTCTGGGGA-
+NHA8-updated-from-blast-search--then-acquired-long  AGGTTACATTCCCTTTAATTAATTAATCCTATTATCTCAGGATTAGGGTG
+                                                    *   *                     * ** ** ** * **  * ***  
+
+MSTRG.15126.2                                       ------AC--AGCTGT-AG----CTGTT-------CTAGGACC-------
+NHA8-updated-from-blast-search--then-acquired-long  GAGGCGGCAGGGTTGGAAGGAGGATAATCCAGTTTCCCAGACCCTCGCTC
+                                                           *   * **  **     *  *       *   ****       
+
+MSTRG.15126.2                                       -------GATTG---CTCTGCCTGGGA--------ATTCTCCAAT-----
+NHA8-updated-from-blast-search--then-acquired-long  AAATGTGGATTATTTTTCAGCCTCTGCTCTTCGGGC-----TAATCGGGA
+                                                           ****     ** ****  *                ***     
+
+MSTRG.15126.2                                       -TCAGTTCGAGGTT--------AGCGGA----GGAACTGTTTTTTCTTTG
+NHA8-updated-from-blast-search--then-acquired-long  CAGAGATCCAGGTAATTTCATGAGCTCAGGTCGAAACTTTTGTATCATTA
+                                                       ** ** ****         ***  *    * **** ** * ** ** 
+
+MSTRG.15126.2                                       ----------------------ATAGCTCTTGTT-TCATCCGCAT--ATG
+NHA8-updated-from-blast-search--then-acquired-long  ATCTCTAAAAAATTCTTAATCTTTACCTATTGTTGTCCACCGGATTAATT
+                                                                           ** ** ***** **  *** **  ** 
+
+MSTRG.15126.2                                       TA-----GGAGGATGGATCGTTT---------------------------
+NHA8-updated-from-blast-search--then-acquired-long  TAAAATAAGACTAAATACTGTTTTTTTATTTTTTATCTTTAAAGAGTGAA
+                                                    **      **  *   *  ****                           
+
+MSTRG.15126.2                                       ---------CTCTGGTTAAGCTTC-CTCCCC-TCCTAGGCATGCTAGTTG
+NHA8-updated-from-blast-search--then-acquired-long  GTTACAATTTTAAGAATAAACCCCACACCCCGAGCTGGGGGG-GGGGGTG
+                                                              *  *  *** *  * * ****   ** **       * **
+
+MSTRG.15126.2                                       ------------------TAGGAATTGT------GTTGAAAAA-------
+NHA8-updated-from-blast-search--then-acquired-long  TATGGGGCGGGGATGCTTTAAAAATCTAAAAATAAACGAAAAATAAGACT
+                                                                      **  ***            ******       
+
+MSTRG.15126.2                                       -----TGT---TCCT------------TATATTGAT----GTTGGACGTG
+NHA8-updated-from-blast-search--then-acquired-long  TCAAATGGTATTTTTTTTCATCCATTCCCTATTGATACATCTTACTCAAA
+                                                         **    *  *              *******     **   *   
+
+MSTRG.15126.2                                       GGTTG------------GATCCTAGCTGGTCAGCTGCTCTAAGATCTACC
+NHA8-updated-from-blast-search--then-acquired-long  AATTTATTTATTTTCCTTAATCTAGCAAATAAAACCCTTAAAAATATACC
+                                                      **              *  *****   * *    **  ** ** ****
+
+MSTRG.15126.2                                       GCCC-----TAGC-------GGTCATACTGC-TCA------GGGCAGGAC
+NHA8-updated-from-blast-search--then-acquired-long  CAACTTCTGTGGGGGGGGGGGGGTAAATTATTTCAAAAAGGGGGAATGAT
+                                                       *     * *        **  * * *   ***      *** * ** 
+
+MSTRG.15126.2                                       TAGGCCTGGA-TCCTAGAGCCTTG-----AAGCAACTCTCAGCAATGG-T
+NHA8-updated-from-blast-search--then-acquired-long  TTTTCCAGAAAATATACACCCTTGTGCAGATTTAACTGTCTTCAATATGT
+                                                    *   ** * *    ** * *****     *   **** **  ****   *
+
+MSTRG.15126.2                                       TTTCAGGTTGGCGTTTTTCCCTTGTCTGGT-----TGAAGCAACTGTGGT
+NHA8-updated-from-blast-search--then-acquired-long  TTGCA-TTCAGGGTTTTACACCGAATAGGATAATTTGTATATAATACATC
+                                                    ** **  *  * ***** * *      **      ** *   * *     
+
+MSTRG.15126.2                                       GGCTATCTCTAGT-CATCTTC-TCCT-----------TGGGTTCCCCTGG
+NHA8-updated-from-blast-search--then-acquired-long  GATTAACTCTAGTTCATTAAGGTGGATAAGTTAGATCCGGAAACCGTTGG
+                                                    *  ** ******* ***     *               **   **  ***
+
+MSTRG.15126.2                                       CTCTGGGGATT--CATGCTCGGGT-----------------------TCA
+NHA8-updated-from-blast-search--then-acquired-long  CTTAGG-AATAGGAGTGCTCGTGTGTGGACTTTCTGCGAGACTTGTTTTA
+                                                    **  **  **     ****** **                       * *
+
+MSTRG.15126.2                                       TCCTA-------------GCTGCAG-----TATCTCCTGCAGTTGTTGTG
+NHA8-updated-from-blast-search--then-acquired-long  TCTTATATTTCGGTTCTGGGAGGAGATGTTAATCACAGGTATTTTATTTT
+                                                    ** **             *  * **      *** *  * * **  * * 
+
+MSTRG.15126.2                                       CCATG--------TCTTC---------TCTCCCTTCAGGA-ACGAG----
+NHA8-updated-from-blast-search--then-acquired-long  CCAGGGGTATCTATTTTCTTTAAAAATTATCCCTCCTCGCCCCCACACTT
+                                                    *** *        * ***         * ***** *  *   * *     
+
+MSTRG.15126.2                                       GGTTCGGAGTAGAGAAG-------------GGAATACCTACACTAGTAAT
+NHA8-updated-from-blast-search--then-acquired-long  TGTTGAAAGGAGAAAAAAGGTAACAAAAACTAAATATTTAGAGGAAAAAT
+                                                     ***   ** *** **                ****  ** *  *  ***
+
+MSTRG.15126.2                                       AGC----AGCGGCTAGTGTTGATGATGTACTCGCGA-TATCTGTGTTCAC
+NHA8-updated-from-blast-search--then-acquired-long  ATCTTGAAAAAGGTAGAATCTTCAATAAAAGCCCAAACTTTTATATT-TT
+                                                    * *    *   * ***  *     **  *  * * *   * * * **   
+
+MSTRG.15126.2                                       AATCCTACTT----GGAGTAACCTTTAATACAAACCAG-GATAATCTCTA
+NHA8-updated-from-blast-search--then-acquired-long  ACTCCAAATCAAAAGTGCTAATTCTGAAAACATATGATTGTTGGTTTTTT
+                                                    * *** * *     *   ***   * ** *** *  *  * *  * * * 
+
+MSTRG.15126.2                                       C--CAGCTGAT---------------------------------CCTCCA
+NHA8-updated-from-blast-search--then-acquired-long  TCGAAGCCGATGTCGATATTATTACCTAACCCTGGATTTGCAAACTGGCA
+                                                        *** ***                                 *   **
+
+MSTRG.15126.2                                       GGGTCCTT-TAGAGG-CC-ATAGTCGGG-G-TCCTGGGAGGATTTATCTG
+NHA8-updated-from-blast-search--then-acquired-long  GAATAATTTCAGTAAAAAAGAAGCCGGATGCACTTTTGAC-AATTATTTA
+                                                    *  *  **  **         ** ***  *  * *  **  * **** * 
+
+MSTRG.15126.2                                       GGGAGTTCTAGTCATCTT----TCTGCCTC------CTTCGCCACATCCC
+NHA8-updated-from-blast-search--then-acquired-long  AAA--------ACATATTGCTTTGAGTTTTCTTTTCACACACTAGATCCG
+                                                                *** **    *  *  *          * * * **** 
+
+MSTRG.15126.2                                       AATGTGTTGT--------------TAAGAGTTGTGC-TGTTGTTTGGT-G
+NHA8-updated-from-blast-search--then-acquired-long  GATCCGTTGGAGAAATTAAATCATAAAGAAATGTTCATGACCTGTGATCA
+                                                     **  ****                ****  *** * **   * ** *  
+
+MSTRG.15126.2                                       GGAGCT---TGTTT-----GCTCTCTTTGGGAGCGCAATGGCGG---GGT
+NHA8-updated-from-blast-search--then-acquired-long  GGATCCACTTTTTTCAAGTGCTGATCCAGGATCCGCATCCGCATCAAAAT
+                                                    *** *    * ***     ***      **   ****   **       *
+
+MSTRG.15126.2                                       TTCCTGGAGCGGGAGCCTTGGG----GGT-------TCT-AGTTC-TAG-
+NHA8-updated-from-blast-search--then-acquired-long  TAAATGGATCCTAAGCACTGGATAAAAGTTAGTATTTCTCAGTGCTTAGG
+                                                    *   **** *   ***  ***      **       *** *** * *** 
+
+MSTRG.15126.2                                       ---CATTT-GT-----CGCAGGATTAGGG--TGGAGGCGGC---AGGGTT
+NHA8-updated-from-blast-search--then-acquired-long  ATCCATTTAGTCTTGATGCGGG-TTCGGATCTGGATCCTGGATCCGCTCT
+                                                       ***** **      ** ** ** **   ****  * *     *   *
+
+MSTRG.15126.2                                       GGAAGGA--GGAT---AATCCAGTTT----CCCAGACCCTCGCTCAAATG
+NHA8-updated-from-blast-search--then-acquired-long  GGAAAAAATGGATCCGGATCCAGGTTATTTTTAAAAAATTTACTGATTTT
+                                                    ****  *  ****    ****** **       * *   *  ** *  * 
+
+MSTRG.15126.2                                       TGGATTA-------TTTTTCA-----GCCTCTGCTCTTCGGGCTAA-TCG
+NHA8-updated-from-blast-search--then-acquired-long  TGTATCAAAGCAGAATTTTCATTTCTTTCGATTATTTTTATGCTAAAGCT
+                                                    ** ** *        ******       *  *  * **   *****  * 
+
+MSTRG.15126.2                                       GGAC-AGAGATCCAGGT----GGATAAGT-T-AGATCCGGAAA-------
+NHA8-updated-from-blast-search--then-acquired-long  TGATGAATGATTCAGAAATCAGGAAATTTTTAAAATATTAAAATATCTCT
+                                                     **  *  *** ***      *** *  * * * **    ***       
+
+MSTRG.15126.2                                       --------CCGTT-GGCTTAGGAATAGGAGTGCTCGTGTG--TGGAC-TT
+NHA8-updated-from-blast-search--then-acquired-long  TTTTCCAATAGTTCAGATTAGGGTTTTGAGA-TCCGTGGATCCGCATATT
+                                                              ***  * *****  *  ***    ****     * *  **
+
+MSTRG.15126.2                                       TCTGCGAGACTTGTT-----------TTATCTT---------ATA-TTTC
+NHA8-updated-from-blast-search--then-acquired-long  TTTGCGGATCCGAATCCAGAAAGCCGAAATCTTGCGGATCCAACGGATCC
+                                                    * ****   *    *             *****         *    * *
+
+MSTRG.15126.2                                       GGTTCTG--GG--AGGAGATGTTAA------T--CACAGAGAACGCATGT
+NHA8-updated-from-blast-search--then-acquired-long  GGATCTTAAGCACTGGAATTTCTAAAGACAATTTTTTAGAGAACGCATGT
+                                                    ** ***   *    ***  *  ***      *     *************
+
+MSTRG.15126.2                                       TTATAGCATTAGCTTGGTTACCCAAGGCCACTGTTCAAGCTGCAATAGGT
+NHA8-updated-from-blast-search--then-acquired-long  TTATAGCATTAGCTTGGTTACCCAAGGCCACTGTTCAAGCTGCAATAGGT
+                                                    **************************************************
+
+MSTRG.15126.2                                       CCTCTAGCATTAGACCTGGCAACTCAAGCTCTT-----------------
+NHA8-updated-from-blast-search--then-acquired-long  CCTCTAGCATTAGACCTGGCAACTCAAGCTCTTAGGTATGTTCTGATGTT
+                                                    *********************************                 
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  GTTGTTGGTGTTTTTACCTAAAGATGATACTTATTTTTTTCCGAAATTAT
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  TAATCTTTCAATTGTAAATTCATTGAACATATATTTTTCTATGAATGAAA
+                                                                                                      
+
+MSTRG.15126.2                                       ----------------------------------------------AGGA
+NHA8-updated-from-blast-search--then-acquired-long  ATGTTGTTATGGATGCCTGTTTTTTATTAATATTTGTTTGTTGACTAGGA
+                                                                                                  ****
+
+MSTRG.15126.2                                       AAGCTGGGATGGATGGAGAGAATCTGCCAGAGTTAAATGAGCAACTGGAG
+NHA8-updated-from-blast-search--then-acquired-long  AAGCTGGGATGGATGGAGAGAATCTGCCAGAGTTAAATGAGCAACTGGAG
+                                                    **************************************************
+
+MSTRG.15126.2                                       TTAGCAGAGAAGGTTCTAACCTTGGCTGTTCTTGTAATTCTCATCACCGC
+NHA8-updated-from-blast-search--then-acquired-long  TTAGCAGAGAAGGTTCTAACCTTGGCTGTTCTTGTAATTCTCATCACCGC
+                                                    **************************************************
+
+MSTRG.15126.2                                       TCCCATTGGAGCAGTTGCCATCATGGCGTCAGG-----------------
+NHA8-updated-from-blast-search--then-acquired-long  TCCCATTGGAGCAGTTGCCATCATGGCGTCAGGTTAGTGCAGGGGTAAAT
+                                                    *********************************                 
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  ATTTTTTCAGAATTAACCCCAATCCTCTGGATCAGGGGGAATGGTTAGCA
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  GGGTGTACAAATGAAAAATAGGGTTAATAGGCAGTTCTTTTCATTCTTTT
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  TGACATTTTACTCACACACTAAGGAAAATTTATTAAATCAAATTCAGCGA
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  TAAAAACTCAACGTAACAAACGACTCAAGGGCGGGggggggggggATCGA
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  GGGAGGGGGACTTATTACAAGGGAACAGCCAAAAAAAAAAACATTGCTAC
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  TAAATTTTATTTTTCTGAAAAAATTATCTCTGATAAAATGTTCACGATAT
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  ATGAAAACAACTTAAATATTCTATACTAGTTTCTTAATTCAAATTAGAGC
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  TAGGATGTATATGTATAGTATTCACCCGTCTACAAGCCGATGATGAAAAT
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  TATTTCAAGGGCTGACTACAAAAGTAGATCTAAAATCAATTGAAAATTTA
+                                                                                                      
+
+MSTRG.15126.2                                       ----------------------------TCCAAGGCTGTTGACCAAGATG
+NHA8-updated-from-blast-search--then-acquired-long  AATGTTCTATGTTGAGTTCTTGTTAAGGTCCAAGGCTGTTGACCAAGATG
+                                                                                **********************
+
+MSTRG.15126.2                                       AACAAACCTCTGCCTTATGATATAAAGGAGGAAGGTGAAGAAATGTCGGA
+NHA8-updated-from-blast-search--then-acquired-long  AACAAACCTCTGCCTTATGATATAAAGGAGGAAGGTGAAGAAATGTCGGA
+                                                    **************************************************
+
+MSTRG.15126.2                                       GATGATCAGTTAAAAACATCCATCTCAAAGTGAAGCCATGAAGCTGTGTT
+NHA8-updated-from-blast-search--then-acquired-long  GATGATCAGTTAAAAACATCCATCTCAAAGTGAAGCCATGAAGCTGTGTT
+                                                    **************************************************
+
+MSTRG.15126.2                                       AAATGCCAAAACTCCACCAGACGACAATTCAAGTGTTGATTTTTGTTCAA
+NHA8-updated-from-blast-search--then-acquired-long  AAATGCCAAAACTCCACCAGACGACAATTCAAGTGTTGATTTTTGTTCAA
+                                                    **************************************************
+
+MSTRG.15126.2                                       TACGCTGGAATATTCCGAAGTCGGAAAAAAACGATCAGTTTTTTTCCAGG
+NHA8-updated-from-blast-search--then-acquired-long  TACGCTGGAATATTCCGAAGTCGGAAAAAAACGATCAGTTTTTTTCCAGG
+                                                    **************************************************
+
+MSTRG.15126.2                                       GATCAGATTTAATGAAAAGTGAGAATTAGCTGAACCGCGAACCATTTCAC
+NHA8-updated-from-blast-search--then-acquired-long  GATCAGATTTAATGAAAAGTGAGAATTAGCTGAACCGCGAACCATTTCAC
+                                                    **************************************************
+
+MSTRG.15126.2                                       ATTTCAACATGAAGAGAAGTGGTTCAACTTTGTCGACGCTGTTAGTGTTC
+NHA8-updated-from-blast-search--then-acquired-long  ATTTCAACATGAAGAGAAGTGGTTCAACTTTGTCGACGCTGTTAGTGTTC
+                                                    **************************************************
+
+MSTRG.15126.2                                       AACTTCTTCACGCTGATTATATCTGTTCCCAGATCTTCAAACAATCTAAA
+NHA8-updated-from-blast-search--then-acquired-long  AACTTCTTCACGCTGATTATATCTGTTCCCAGATCTTCAAACAATCTAAA
+                                                    **************************************************
+
+MSTRG.15126.2                                       TTTACCGACTGTTAAATGTTACTTCTTATACTTCTTAACCAATAACTGTT
+NHA8-updated-from-blast-search--then-acquired-long  TTTACCGACTGTTAAATGTTACTTCTTATACTTCTTAACCAATAACTGTT
+                                                    **************************************************
+
+MSTRG.15126.2                                       ACTTGCTGTAAATCCTTATCTGCTAATTGTTACGCTTATCACTACTTTCC
+NHA8-updated-from-blast-search--then-acquired-long  ACTTGCTGTAAATCCTTATCTGCTAATTGTTACGCTTATCACTACTTTCC
+                                                    **************************************************
+
+MSTRG.15126.2                                       TAAAAACATTGAACCATAATTAGGATATTTAGTAAAAAGTACGTTTTGAT
+NHA8-updated-from-blast-search--then-acquired-long  TAAAAACATTGAACCATAATTAGGATATTTAGTAAAAAGTACGTTTTGAT
+                                                    **************************************************
+
+MSTRG.15126.2                                       TACTTCGTAAAATTTGCTTAATTCAATTCTCTGAGGTCAAAGCTTTTTTG
+NHA8-updated-from-blast-search--then-acquired-long  TACTTCGTAAAATTTGCTTAATTCAATTCTCTGAGGTCAAAGCTTTTTTG
+                                                    **************************************************
+
+MSTRG.15126.2                                       TTAGAATTAGCACTATCTTGATCTGAATATAAATTATATTCTGTGACAAT
+NHA8-updated-from-blast-search--then-acquired-long  TTAGAATTAGCACTATCTTGATCTGAATATAAATTATATTCTGTGACAAT
+                                                    **************************************************
+
+MSTRG.15126.2                                       GGTATTGTGCTGGATTCCTTGATTTTTACTTATTCCTGTCATGGGTTACG
+NHA8-updated-from-blast-search--then-acquired-long  GGTATTGTGCTGGATTCCTTGATTTTTACTTATTCCTGTCATGGGTTACG
+                                                    **************************************************
+
+MSTRG.15126.2                                       AACACACCAAGGAGTATGGAATCCCAGGGAGACACAACCGACGTGGCCTG
+NHA8-updated-from-blast-search--then-acquired-long  AACACACCAAGGAGTATGGAATCCCAGGGAGACACAACCGACGTGGCCTG
+                                                    **************************************************
+
+MSTRG.15126.2                                       CCCTACCATATGATTATAACATGCTTTGCAGACGGTACTCCTTTTAAATA
+NHA8-updated-from-blast-search--then-acquired-long  CCCTACCATATGATTATAACATGCTTTGCAGACGGTACTCCTTTTAAATA
+                                                    **************************************************
+
+MSTRG.15126.2                                       AGAAATATTCAGAATAGGTTATTGTATACGCGGTAATTGTACCGCGTCAG
+NHA8-updated-from-blast-search--then-acquired-long  AGAAATATTCAGAATAGGTTATTGTATACGCGGTAATTGTACCGCGTCAG
+                                                    **************************************************
+
+MSTRG.15126.2                                       TTGTATCTCTCGTCTATTCTATACTCTTTGGAACACACGTTATTGATTAA
+NHA8-updated-from-blast-search--then-acquired-long  TTGTATCTCTCGTCTATTCTATACTCTTTGGAACACACGTTATTGATTAA
+                                                    **************************************************
+
+MSTRG.15126.2                                       ATCCCTAGGACAGGTAGAGGTTCGGATTATTGCTTGATGATCCCTTAATT
+NHA8-updated-from-blast-search--then-acquired-long  ATCCCTAGGACAGGTAGAGGTTCGGATTATTGCTTGATGATCCCTTAATT
+                                                    **************************************************
+
+MSTRG.15126.2                                       TTTTCACAACACAAGTTTTGACCTTAGAACTATGTGCCAGAGCATTGATT
+NHA8-updated-from-blast-search--then-acquired-long  TTTTCACAACACAAGTTTTGACCTTAGAACTATGTGCCAGAGCATTGATT
+                                                    **************************************************
+
+MSTRG.15126.2                                       AACAAGATAAAGCTTCACTTATCTACAATATATCAAACTTATTTTTCCTT
+NHA8-updated-from-blast-search--then-acquired-long  AACAAGATAAAGCTTCACTTATCTACAATATATCAAACTTATTTTTCCTT
+                                                    **************************************************
+
+MSTRG.15126.2                                       CTCTTTGTTTTGAAGAGATGAAATGTTTGTTACTGTTCTCTATAGCAATA
+NHA8-updated-from-blast-search--then-acquired-long  CTCTTTGTTTTGAAGAGATGAAATGTTTGTTACTGTTCTCTATAGCAATA
+                                                    **************************************************
+
+MSTRG.15126.2                                       CAGACCAAAGCAATCTTGTACAATAATTACTCAACAGGAGCTGTACAGAT
+NHA8-updated-from-blast-search--then-acquired-long  CAGACCAAAGCAATCTTGTACAATAATTACTCAACAGGAGCTGTACAGAT
+                                                    **************************************************
+
+MSTRG.15126.2                                       GTAATTTAAAGTGACTCTATTTACAAAGTGGTATCTCCGATTCACAACGG
+NHA8-updated-from-blast-search--then-acquired-long  GTAATTTAAAGTGACTCTATTTACAAAGTGGTATCTCCGATTCACAACGG
+                                                    **************************************************
+
+MSTRG.15126.2                                       TACCCTGAAAGGCTCATCTACAAAAGCATGCCTAAGATAGCCACACAATT
+NHA8-updated-from-blast-search--then-acquired-long  TACCCTGAAAGGCTCATCTACAAAAGCATGCCTAAGATAGCCACACAATT
+                                                    **************************************************
+
+MSTRG.15126.2                                       TTTTGTGTGCTTTTCCGATTCAGATACGATGGAGAATTTGTCATAATTAA
+NHA8-updated-from-blast-search--then-acquired-long  TTTTGTGTGCTTTTCCGATTCAGATACGATGGAGAATTTGTCATAATTAA
+                                                    **************************************************
+
+MSTRG.15126.2                                       ACGCTTTTAAGAAAGAATAAACGGTTTAAAGGTATCTATGGGTAACGTGA
+NHA8-updated-from-blast-search--then-acquired-long  ACGCTTTTAAGAAAGAATAAACGGTTTAAAGGTATCTATGGGTAACGTGA
+                                                    **************************************************
+
+MSTRG.15126.2                                       ATCGGACATGCCCCTCTTAAAATGGAGGAAAATTACACCAACATTCCCTT
+NHA8-updated-from-blast-search--then-acquired-long  ATCGGACATGCCCCTCTTAAAATGGAGGAAAATTACACCAACATTCCCTT
+                                                    **************************************************
+
+MSTRG.15126.2                                       AACGATACGGCAGCTTCTTACGTTTGCTAAACTTTATTTAAGTTTAAATA
+NHA8-updated-from-blast-search--then-acquired-long  AACGATACGGCAGCTTCTTACGTTTGCTAAACTTTATTTAAGTTTAAATA
+                                                    **************************************************
+
+MSTRG.15126.2                                       GTAAAACGTCTGCAATATATTTGTTTAAATATATCTATTTTTTCTACTTG
+NHA8-updated-from-blast-search--then-acquired-long  GTAAAACGTCTGCAATATATTTGTTTAAATATATCTATTTTTTCTACTTG
+                                                    **************************************************
+
+MSTRG.15126.2                                       TAATAAATTGTTTCCCTTCTGCGAAGGATATATAAATGTTTTCAATATTG
+NHA8-updated-from-blast-search--then-acquired-long  TAATAAATTGTTTCCCTTCTGCGAAGGATATATAAATGTTTTCAATATTG
+                                                    **************************************************
+
+MSTRG.15126.2                                       TGTCGATTTTCCAGAGCTCTTGACTAATTAACTATTAGCTGAAATGCCCT
+NHA8-updated-from-blast-search--then-acquired-long  TGTCGATTTTCCAGAGCTCTTGACTAATTAACTATTAGCTGAAATGCCCT
+                                                    **************************************************
+
+MSTRG.15126.2                                       GTGGAGTTTTAGAAACACTTAAAATAATATCCAAAATTTATTTTTTCTCA
+NHA8-updated-from-blast-search--then-acquired-long  GTGGAGTTTTAGAAACACTTAAAATAATATCCAAAATTTATTTTTTCTCA
+                                                    **************************************************
+
+MSTRG.15126.2                                       TTCGGTCATCAGCTAATATTTTCTTCGCTTGTAGACATTGGAACTTTTGT
+NHA8-updated-from-blast-search--then-acquired-long  TTCGGTCATCAGCTAATATTTTCTTCGCTTGTAGACATTGGAACTTTTGT
+                                                    **************************************************
+
+MSTRG.15126.2                                       AGAGTATCCTTCATCCTAACGCTAGATCTCGATATACAATATGGAAACTT
+NHA8-updated-from-blast-search--then-acquired-long  AGAGTATCCTTCATCCTAACGCTAGATCTCGATATACAATATGGAAACTT
+                                                    **************************************************
+
+MSTRG.15126.2                                       TAAAATCGGAGGATCAATGCTTGACCCTTCATTTATTTAGATATTCTCTA
+NHA8-updated-from-blast-search--then-acquired-long  TAAAATCGGAGGATCAATGCTTGACCCTTCATTTATTTAGATATTCTCTA
+                                                    **************************************************
+
+MSTRG.15126.2                                       AGGTACGACCATGACGGAATCTACATTTGATGAAGTTCAGTGCGCGGTTG
+NHA8-updated-from-blast-search--then-acquired-long  AGGTACGACCATGACGGAATCTACATTTGATGAAGTTCAGTGCGCGGTTG
+                                                    **************************************************
+
+MSTRG.15126.2                                       TTCCCGAGATTAACAACAGTTCTGACTTCTGTTTAAAGCAAATATAACCA
+NHA8-updated-from-blast-search--then-acquired-long  TTCCCGAGATTAACAACAGTTCTGACTTCTGTTTAAAGCAAATATAACCA
+                                                    **************************************************
+
+MSTRG.15126.2                                       TTAGTTACTTGTATTTTTTTTGATGTTTTCAATTCTTTGTTTTTTTTAAA
+NHA8-updated-from-blast-search--then-acquired-long  TTAGTTACTTGTATTTTTTTTGATGTTTTCAATTCTTTGTTTTTTTTAAA
+                                                    **************************************************
+
+MSTRG.15126.2                                       TTTTACTGATCTCATAATGGAATTCTATCTGATTCTTGGACGAAAAGTCT
+NHA8-updated-from-blast-search--then-acquired-long  TTTTACTGATCTCATAATGGAATTCTATCTGATTCTTGGACGAAAAGTCT
+                                                    **************************************************
+
+MSTRG.15126.2                                       CATTTTTTTAACTTCAGATGAAAAGTCTTTTTTTCGGATTTTTTGGTTTT
+NHA8-updated-from-blast-search--then-acquired-long  CATTTTTTTAACTTCAGATGAAAAGTCTTTTTTTCGGATTTTTTGGTTTT
+                                                    **************************************************
+
+MSTRG.15126.2                                       ATTTCTCTTTTTATTTGCTTTAATTTTTCTTATATTCATATAGTCGAAAA
+NHA8-updated-from-blast-search--then-acquired-long  ATTTCTCTTTTTATTTGCTTTAATTTTTCTTATATTCATATAGTCGAAAA
+                                                    **************************************************
+
+MSTRG.15126.2                                       GTCATTTAATTGCAACTACGTTTGCAATTAGACTCTTACTTACATATTGC
+NHA8-updated-from-blast-search--then-acquired-long  GTCATTTAATTGCAACTACGTTTGCAATTAGACTCTTACTTACATATTGC
+                                                    **************************************************
+
+MSTRG.15126.2                                       AGTTTTTATAGTTCGCAATTTCAACTTAAAGATGAAAAGTCTGCAACTAC
+NHA8-updated-from-blast-search--then-acquired-long  AGTTTTTATAGTTCGCAATTTCAACTTAAAGATGAAAAGTCTGCAACTAC
+                                                    **************************************************
+
+MSTRG.15126.2                                       GCTTGCAAAATTATTCTATAATGTTTTTGATTAGACCTTAATCATTGGAG
+NHA8-updated-from-blast-search--then-acquired-long  GCTTGCAAAATTATTCTATAATGTTTTTGATTAGACCTTAATCATTGGAG
+                                                    **************************************************
+
+MSTRG.15126.2                                       AGCTCTGCGAAAAGCAGCTCATTACAGCAATAGGT---------------
+NHA8-updated-from-blast-search--then-acquired-long  AGCTCTGCGAAAAGCAGCTCATTACAGCAATAGGTACGAAGATATAATGA
+                                                    ***********************************               
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  GAGAAGTTTTCTCTAAAATAAGACATACTACTATTGATTTATTTTGGTAA
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  TTGAATAAAGTTGTTAAGAAGAAGAATTACTTGAATTTTACTGTTTTTAT
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  CATCTCAAGCTGTAGTTTATCCTAGAATAATAGTTCAGATTTGACAGTCC
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  AAAGGTAAATTTTTTACTTGATTCTTCTAATTCTAGTTTTGAGTGTTAAT
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  ACTCCGTTCGTCTCTATAATGCAGGCTAAAGTTTTATAGTATGATAGAGC
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  CCAACGTTTCATCCGTCCTACTATACTTCGGACCGCTTGTGGTGGGGGGG
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  GGGGGGGGGGGTCCAAAAATCTTTTACTAGGACGGACCCAATCGTTATAG
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  TTCAGCAATGTACAATTTTTTTAATGAAATCGTTGATTTCAATTCTTGAA
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  ATGTAAAGATTTAACACAATTTTGTATGACATGGGACACCCTGTATGTTA
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  CAAATAGAAGACGACCAAGTTTAGTTAAAAGAAATGATTACCATTTGCGA
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  AACGAAACATTTCTCTGGTCTAAAATATTGTATGAAAGAATTCTTTTTAA
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  ATGGATTGTCTGCGTTTCTATTTTAAACCTGTAAATTGGAAAATTAATTT
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  TTATATAATTGTTTGTAGTTTAATAAATCGCGGCATTCGTACTTGAGTTA
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  GTCTTCAGGGGGAAAAGCACAAAAATGTCAGGGTATTATTAATGTTTCTT
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  TAAGAAGTTTGAGGGATATATTCAACAAATTATCGAACCACTTTTGTTTT
+                                                                                                      
+
+MSTRG.15126.2                                       --------------------------------------------------
+NHA8-updated-from-blast-search--then-acquired-long  TATTGTAGTTTTAAGTTTAAATTTGAGACCGGTTGAGATCAAATTTTTTT
+                                                                                                      
+
+MSTRG.15126.2                                       -------AGTCTTTCAAAAATCATGCATTAAGTACGTGATCAGTAGATTT
+NHA8-updated-from-blast-search--then-acquired-long  TGTAGGTAGTCTTTCAAAAATCATGCATTAAGTACGTGATCAGTAGATTT
+                                                           *******************************************
+
+MSTRG.15126.2                                       AAAATACCAGTAATTGGGTAAAAAGAAATAAACGTTAATCAATCAATCAA
+NHA8-updated-from-blast-search--then-acquired-long  AAAATACCAGTAATTGGGTAAAAAGAAATAAACGTTAATCAATCAATCAA
+                                                    **************************************************
+
+MSTRG.15126.2                                       TCTACTTGATCAGTTAAAAAGAGTGAAATTTGTTTTTTCACATTTAAGAA
+NHA8-updated-from-blast-search--then-acquired-long  TCTACTTGATCAGTTAAAAAGAGTGAAATTTGTTTTTTCACATTTAAGAA
+                                                    **************************************************
+
+MSTRG.15126.2                                       CCGATTTCTGTAATATTAATATCAAATTTGTGCTATTTTCAGATCTGAAT
+NHA8-updated-from-blast-search--then-acquired-long  CCGATTTCTGTAATATTAATATCAAATTTGTGCTATTTTCAGATCTGAAT
+                                                    **************************************************
+
+MSTRG.15126.2                                       TATGTAAAATTGAAAAATGTTGTTAACAATCAAAGAAAGTGAGATATTTT
+NHA8-updated-from-blast-search--then-acquired-long  TATGTAAAATTGAAAAATGTTGTTAACAATCAAAGAAAGTGAGATATTTT
+                                                    **************************************************
+
+MSTRG.15126.2                                       TGTTCCGACGTAAGATCTATAGATAACCCTTGTTGGCTGATTTAAATAAT
+NHA8-updated-from-blast-search--then-acquired-long  TGTTCCGACGTAAGATCTATAGATAACCCTTGTTGGCTGATTTAAATAAT
+                                                    **************************************************
+
+MSTRG.15126.2                                       TTTACCTCTGTTCTTCCACAATGGTCTTCACTCCTCCAATTGCTCCAATA
+NHA8-updated-from-blast-search--then-acquired-long  TTTACCTCTGTTCTTCCACAATGGTCTTCACTCCTCCAATTGCTCCAATA
+                                                    **************************************************
+
+MSTRG.15126.2                                       ACTCCAATAATACACAGTCGAGTGCAGACGATAGAATGGGATATGTTGGA
+NHA8-updated-from-blast-search--then-acquired-long  ACTCCAATAATACACAGGT-AGTCT-TTT--AAGAAACTCACTTATTAAA
+                                                    *****************   ***         ****    *  * **  *
+
+MSTRG.15126.2                                       C-AAAAGAAGATTTTATCCCTACTCCATGGTTTCATCGTTTACAGTTCGT
+NHA8-updated-from-blast-search--then-acquired-long  CCATTAGTAGCTgggggggggggggCGAGCTCGGGTTCATCCCAGTCCCA
+                                                    * *  ** ** *             *  * *    *   *  **** *  
+
+MSTRG.15126.2                                       TGTTTTCTCTACCCGCTTACTCTTGTCAGAACTAGATTACAGGTTCAG--
+NHA8-updated-from-blast-search--then-acquired-long  TCATTAACCTTGGAAAAAAAGCTT-TAAAATCTAAATAA--GG-TCGGAT
+                                                    *  **   **        *  *** * * * *** ** *  ** ** *  
+
+MSTRG.15126.2                                       -CATCAGAATGCGTTGTA-TAAA-GGAACTTTTGATGCATTCAGTAAAAT
+NHA8-updated-from-blast-search--then-acquired-long  TTATTTGAAA---TTTTACTAAATGGACGTTTTGA-GATT--TCTAAAAC
+                                                      **  ***    ** ** **** ***  ****** *  *    ***** 
+
+MSTRG.15126.2                                       TCTCAAATC---AGAAGGGATTAAAGG---ACTCTACACGGGATTCTGGA
+NHA8-updated-from-blast-search--then-acquired-long  GCTTAGACTGAAAAAAAAAATTAAATTTTATATTTAAGCGCAAAGATCGA
+                                                     ** * *     * **   ******       * **  **  *   * **
+
+MSTRG.15126.2                                       TCA-GCTGTTTTCA-GGTTGTATCTGGCCTGTGTTATGTATCAACGTATG
+NHA8-updated-from-blast-search--then-acquired-long  AGGGTCTAATACCAAAATTGGACTTGACGTTTATTAGTCACAAACAGAGC
+                                                         **  *  **   *** *  ** * * * ***   *  ***  *  
+
+MSTRG.15126.2                                       AGG-GAGTGCGGCACATGTTAGACAA-----TAACGG--AGTTAAAGATA
+NHA8-updated-from-blast-search--then-acquired-long  AGCACAGAGAAGCACTTCTAATCTAAAGATATGTTAGATTGTCAAATTTA
+                                                    **   ** *  **** * * *   **     *    *   ** ***  **
+
+MSTRG.15126.2                                       ACAAA---------------ATTAAAGCATTAGG------AAC
+NHA8-updated-from-blast-search--then-acquired-long  TCATTTTCTCTTTTTTTCCTATTTTGACAATAGGCTATATCTT
+                                                     **                 ***    ** ****         
+
+
+
