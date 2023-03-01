@@ -9,6 +9,7 @@ Feb 5, 2023
 import Bio 
 from Bio import Entrez 
 import pandas as pd
+import re 
 import os
 
 # DEFINING FUNCTIONS 
@@ -45,7 +46,7 @@ def prot_ncbi(acc):
     # defaults 
     info['sequencing-technology'] = False 
     info['assembly-name'] = False     
-    info['genome_refseq'] = False 
+    info['genome-refseq'] = False 
 
     if 'GBSeq_comment' in keys: # if they have this information 
         assembly = protein_dict['GBSeq_comment'] # assembly info available in protein link 
@@ -68,10 +69,9 @@ def prot_ncbi(acc):
 
     info['pubmed-accession'] = False # default is false 
     if 'GBSeq_references' in keys: # if info is avaialble 
-        if 'GBSeq_references': # get it 
-            keys2 = [str(i) for i in protein_dict['GBSeq_references'][0].keys()]
-            if 'GBReference_pubmed' in keys2: 
-                info['pubmed-accession'] = protein_dict['GBSeq_references'][0]['GBReference_pubmed']
+        keys2 = [str(i) for i in protein_dict['GBSeq_references'][0].keys()]
+        if 'GBReference_pubmed' in keys2: 
+            info['pubmed-accession'] = protein_dict['GBSeq_references'][0]['GBReference_pubmed']
     
     return info 
 
@@ -83,46 +83,17 @@ def show(info):
     for i in info: 
         print(i, ':', info[i])
 
-# for the XP girlies 
-def alt_ass_ncbi(info):
+# extract Meta information 
+def get_meta(assembly_dict, info):
     '''
-    Newer assemblies for proteins that have accession codes starting with "XP" don't show up 
-        on the assembly searches. But sometimes, they contain refseq accession code for their 
-        genome on the nucleotide database. 
-        
-    If we were unable to find its assembly, try the nucleotide database. This will 
-        extract coverage, sequencing technology, and assembly method. 
+    extracts scaffold information from META secton in assembly dictionary 
     '''
-
-    if info['genome-refseq']: 
-        nucl_handle = Entrez.efetch(db = 'nucleotide', id = info['genome-refseq'], rettype = 'gb', retmode = 'xml')
-        nucl_record = Entrez.read(nucl_handle)
-        nucl_handle.close()
-        nucl_dict = nucl_record[0]
-
-        a = nucl_dict['GBSeq_comment'].split()
-        tech = str()
-        method = str() 
-        for i in range(len(a)): 
-            if a[i] == "Coverage": 
-                print(a[i+2])
-                #info['coverage'] = cov
-            elif a[i] == "Technology": 
-                print(a[i+2])
-                for k in a[i+2:len(a)]: 
-                        tech += k
-                        if k == ";":
-                            info['sequencing-technology'] = tech
-                            print(tech)
-                            break
-            elif a[i] == "Assembly": 
-                if a[i+1] == "Method":
-                    for m in a[i+2:len(a)]:
-                        method += m 
-                        if m == ";":
-                            info['assembly-method'] = method 
-                            print(method)
-                            break 
+    info['scaffold-count'] = False 
+    meta = assembly_dict['Meta'].split()
+    for i in range(len(meta)):
+        if meta[i] == 'category="scaffold_count"':
+            if "all" in meta[i+1]:
+                info['scaffold-count'] = float(re.findall(r'\d+', meta[i+1])[0])
 
 # extract information from assembly entry
 def ass_ncbi(info):
@@ -145,10 +116,11 @@ def ass_ncbi(info):
     
     Input: info (dict) already containing information from the protein scraping process. 
     '''
-    # default is everything is false: 
+    # default everything is false: 
     info['assembly-status'] = False
     info['scaffold-N50'] = False 
-
+    info['coverage'] = False 
+ 
     if info['assembly-name']: # already have an assembly name 
         # getting assembly id: 
         # cannot use genbank accession code for obtaining assembly info, has to be the unique uid 
@@ -166,30 +138,71 @@ def ass_ncbi(info):
                     info['assembly-status'] = assembly_dict['AssemblyStatus'] # level (chromosome?)
                     info['scaffold-N50'] = assembly_dict['ScaffoldN50'] # scaffold n50 
                     info['coverage'] = assembly_dict['Coverage'] # coverage
+                    get_meta(assembly_dict, info) # scaffold count 
                     break 
     
     else: # did not have a name associated, have to look it up by project number
         if info['project-accession']: # if they have a bioproject accession number
-            pre_assembly_handle = Entrez.esearch(db = "assembly", term = info['project-accession']) 
+            pre_assembly_handle = Entrez.esearch(db = "assembly", term = info['species']) 
             pre_assembly_record = Entrez.read(pre_assembly_handle) # contains search results 
             pre_assembly_handle.close() 
             if len(pre_assembly_record['IdList']): # if there are any results 
                 for assembly_id in pre_assembly_record['IdList']: # for each result
-                    print("ASSEMBLY ID",assembly_id)
                     assembly_handle = Entrez.esummary(db = 'assembly', id = assembly_id, report = 'full')
                     assembly_record = Entrez.read(assembly_handle) # get summary
                     assembly_handle.close()
                     assembly_dict = assembly_record['DocumentSummarySet']['DocumentSummary'][0] # nested 
                     if assembly_dict['GB_BioProjects']: # get bioproject accession number from search result
                         bioproject_accn = assembly_dict['GB_BioProjects'][0]['BioprojectAccn']
-                        print("FOUND BIOPROJECT", bioproject_accn)
                         if bioproject_accn == info['project-accession']: # if assembly's matches the protein's
-                            print("EUREKA")
                             info['assembly-name'] = assembly_record['DocumentSummarySet']['DocumentSummary'][0]['AssemblyName']
                             info['assembly-status'] = assembly_dict['AssemblyStatus'] # level (chromosome?)
                             info['scaffold-N50'] = assembly_dict['ScaffoldN50'] # scaffold n50
                             info['coverage'] = assembly_dict['Coverage'] # coverage
+                            get_meta(assembly_dict, info) # scaffold count
                             break # stop looking
+
+# for the XP girlies that never show up on assembly searches (use nucleotide entry)
+def alt_ass_ncbi(info):
+    '''
+    Newer assemblies for proteins that have accession codes starting with "XP" don't show up 
+        on the assembly searches. But sometimes, they contain refseq accession code for their 
+        genome on the nucleotide database. 
+        
+    If we were unable to find its assembly, try the nucleotide database. This will 
+        extract coverage, sequencing technology, and assembly method. 
+    '''
+    # default everything is false 
+    info['assembly-status'] = False
+    info['scaffold-N50'] = False # cannot be obtained here 
+    info['sequence-tech'] = False 
+    info['coverage'] = False 
+    info['scaffold-count'] = False # cannot be obtained here 
+ 
+    # get coverage, and sequencing tech 
+    if info['project-accession']: # need this to confirm that this entry is the same as from the protein entry
+        if info['genome-refseq']: 
+            nucl_handle = Entrez.efetch(db = 'nucleotide', id = info['genome-refseq'], rettype = 'gb', retmode = 'xml')
+            nucl_record = Entrez.read(nucl_handle)
+            nucl_handle.close()
+            nucl_dict = nucl_record[0]
+            if nucl_dict['GBSeq_project']:
+                if nucl_dict['GBSeq_project'] == info['project-accession']:
+                    a = nucl_dict['GBSeq_comment'].split()
+                    tech = str()
+                    for i in range(len(a)): 
+                        if a[i] == "Coverage": 
+                            cov = a[i+2]
+                            info['coverage'] = float(re.findall(r'\d+', cov)[0])
+                        if a[i] == "Assembly":
+                            if a[i+1] == "Name":
+                                info['assembly-name'] = a[i+3] 
+                        if a[i] == "Technology": 
+                            for j in a[i+2:len(a)]:
+                                tech += j
+                                if j == ";":
+                                    info['sequencing-technology'] = tech
+                                    break
 
 # filter through 
 def filter(acc_list):
@@ -205,7 +218,7 @@ def filter(acc_list):
     '''
     # Setting minimum parameters 
     min_prot_size = 200
-    min_coverage = 30
+    min_coverage = 50
     
     # starting counts for log
     failed_size = 0
@@ -260,8 +273,9 @@ def filter(acc_list):
     m4 = str(failed_assembly) + ' were discarded due to me not finding its assembly information'
     m5 = str(failed_coverage) + ' were discarded due to not having good coverage'
     m6 = str(already_failed) + ' were already checked and discarded'
+    m7 = 'MINIMUM PROTEIN SIZE =' + str(min_prot_size) + ', ' + 'MINIMUM COVERAGE =' + str(min_coverage)
     
-    log = [m1, m2, m3, m4, m5, m6]
+    log = [m1, m2, m3, m4, m5, m6, m7]
     for i in log: 
         print(i)
 
@@ -277,11 +291,11 @@ def export(filtered, trashed, log, input3):
     trashed_data = pd.DataFrame()
     for i in filtered: 
         row = pd.DataFrame([i])
-        filtered_data = filtered_data.append(row, ignore_index = True, sort = True)
+        filtered_data = filtered_data.append(row, sort = True)
     
     for i in trashed: 
         row = pd.DataFrame([i])
-        trashed_data = trashed_data.append(row, ignore_index = True, sort = True)
+        trashed_data = trashed_data.append(row, sort = True)
     
     # exporting 
     path = os.getcwd()
@@ -289,8 +303,8 @@ def export(filtered, trashed, log, input3):
 
     filt_save = input3 + '-filtered.csv'
     trash_save = input3 + '-trashed.csv'
-    filtered_data.to_csv(filt_save, index = False, header = True, encoding='utf-8')
-    trashed_data.to_csv(trash_save, index = False, header = True, encoding='utf-8')
+    filtered_data.to_csv(filt_save, index = True, header = True, encoding='utf-8')
+    trashed_data.to_csv(trash_save, index = True, header = True, encoding='utf-8')
 
     log_name = input3 + '-log.txt' 
     with open(log_name, 'w') as f: 

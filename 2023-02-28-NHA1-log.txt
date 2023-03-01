@@ -1,0 +1,8 @@
+
+A total of 130 proteins were assessed
+Out of those, 97(0.7461538461538462) were successfully curated and obtained
+0 were discarded due to small protein size
+6 were discarded due to me not finding its assembly information
+13 were discarded due to not having good coverage
+14 were already checked and discarded
+MINIMUM PROTEIN SIZE =200, MINIMUM COVERAGE =50

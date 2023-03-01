@@ -1,8 +1,22 @@
+# Feb 28, 2023: Redoing BLAST 
+Since I'm having trouble validating my CDS sequences, I'll be using Nick's as the query. 
+Additionally, I'll be removing E. affinis from the potential taxa, so we may get more of other species.
+The query MUST be proteins, otherwise no results will show up. NHA doesn't seem to be well conserved across other taxa. 
+
+I tweaked my alt_ass_ncbi() so it takes in the XP sequences, but now I'm getting WAY too many results. 
+I think I'll have to increase the threshold for coverage, and see if I can filter for scaffold N50 and number of scaffolds again. ---> Decrease manual work!!! 
+Also: I'll still have to get the CDS sequences for these. Think about how.
+Actually, the XP girlies have a link to the CDS. Lemme see if that works. nope. I have no idea how I'll get these goddamn CDS sequences because they simply don't have them, it's usually the whole scaffold. I think I have no other choice: I'll have to blast their assemblies. 
+
+it was working up to now, but it started throwing me node 8 erorrs. I'll have to run this tomorrow. 
+
+
 # Feb 26, 2023: Links for Genbank + ncbi database "standards" 
 ## links: 
 https://www.ncbi.nlm.nih.gov/genbank/samplerecord/
 https://www.ncbi.nlm.nih.gov/assembly/basics/#Comparative
 https://www.ncbi.nlm.nih.gov/assembly/model/
+
 
 # Feb 20, 2023: Tweaking 
 ## Changes in ass_ncbi(): 

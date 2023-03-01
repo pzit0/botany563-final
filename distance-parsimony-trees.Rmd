@@ -6,22 +6,26 @@ output: html_document
 ---
 
 # import packages and data 
+# does not work with amino acid seqs!! HAS TO BE NUCL 
 ```{r}
 library(ape)
 library(adegenet)
 library(phangorn)
 
-dna <- fasta2DNAbin("2023-02-21-alignment_orthologs.fasta")
-D <- dist.dna(dna, model = "JC69")
-tre <- nj(D)
+aa<- fasta2DNAbin("2023-02-21-alignment_orthologs.fasta")
 
 # parsimony 
-parsimony(tre, dna)
-tre.pars <- optim.parsimony(tre2, dna2)
-plot(tre.pars, cex=0.6)
+D_pars <- dist.dna(dna, model = "raw")
+dna_phy <- as.phyDat(dna)
+tre_pars <- nj(D_pars)
+parsimony(tre_pars, dna_phy)
+tre_opt <- optim.parsimony(tre, dna_phy)
+plot(tre_opt, cex=0.6)
 title("Parsimonious tree, Orthologs Feb 21")
 
 # distance
+D <- dist.dna(dna, model = "JC69")
+tre <- nj(D)
 tre <- ladderize(tre)
 plot(tre, cex = 0.6)
 title("Distance Tree, Orthologs Feb 21")
