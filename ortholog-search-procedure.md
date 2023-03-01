@@ -1,3 +1,10 @@
+# Feb 29, 2023: Tigriopus disappeared 
+I ran the code this morning and that seemed to do the trick. I'm now getting about 75% of all the proteins in the filtered section. 
+Looking again, however, I noticed I'm simply not getting some of the proteins I had before? I might've screwed something up on getting the 
+or checking the coverage of proteins that have an assembly page. 
+Honestly, this would be a lot easier if I just set BLAST to give those sequences (no XP. nothing). Cuz the other ones usually have scaffold information too. The others don't. Pros and cons, I might be getting less sequences, but they get correctly curated, and I have less work to do. I might make two different codes - one for the normal good sequences and another to deal with the XP ones that come up on the search. I feel like I might already get enough sequences anyways so. ugh. I can never find the right balance to work and things of the sort. I still have to work on my other shit, god fucking damn it. 
+
+
 # Feb 28, 2023: Redoing BLAST 
 Since I'm having trouble validating my CDS sequences, I'll be using Nick's as the query. 
 Additionally, I'll be removing E. affinis from the potential taxa, so we may get more of other species.
