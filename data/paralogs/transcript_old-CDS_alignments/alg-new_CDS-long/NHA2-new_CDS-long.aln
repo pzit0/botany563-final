@@ -1,0 +1,804 @@
+CLUSTAL FORMAT for T-COFFEE Version_13.45.0.4846264 [http://www.tcoffee.org] [MODE:  ], CPU=0.02 sec, SCORE=981, Nseq=2, Len=9999 
+
+NHA2_nucl_size=1959  AT------------------------------G-----------------
+NHA2-long            CCCCACTCACGTATATCTAACTACATCTAAATGTATCCTGTTTGTATTAG
+                                                     *                 
+
+NHA2_nucl_size=1959  AA---------TCAC-----------------------------------
+NHA2-long            AATATGTTCAGTCACAATTTGATCCTTTTTCAAAATCCGGCCAAAATAGC
+                     **         ****                                   
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            GTAAAAGTTGTGTTATCTATATAATAAAACAAGATATTCGTATATATATA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TATATATATATATGTTGCCTATAGCCGGCCAAACGACTGGACCGATGGGG
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            CTGAAATTTTTTGTGATTTTTTTCAAAATTGTTTGATCAAAATAAAAAAA
+                                                                       
+
+NHA2_nucl_size=1959  -----CCCCCG------------------GCT------------------
+NHA2-long            AAATTTCTACGGCAACGTCGGGCCCTTCAGCTAGTACAATTTATTTAGAT
+                           *  **                  ***                  
+
+NHA2_nucl_size=1959  ------------------------CA------------------------
+NHA2-long            AAATAAGAAAAAGGTATAAAATATCAAATATATCAATTACTTAATAGTAA
+                                             **                        
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            ATACGAAAAGTCTATGTTTAATGGGTAAAAATTGGCTTTAAAGTTTAGTC
+                                                                       
+
+NHA2_nucl_size=1959  -------------------ACC----------------------------
+NHA2-long            ACATTGGACTTCAAGGAATACCTCTAGTTTACAGTGCTCTAAAGTTATAT
+                                        ***                            
+
+NHA2_nucl_size=1959  -----------------------TGG--------GTGT------------
+NHA2-long            AGAAGATGTAAAATGATGGAAACTGGAGATATCTTTGTTTTTCTAGTTGA
+                                            ***         ***            
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            CAATTTGAAAGATCAAGATGTCCCCTTCCCTATCGTATTTCCGATATAGA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TGTAAATAGTACTACTGTGAATTGGTTACGGCACTTTTAAAGTCAGGAGA
+                                                                       
+
+NHA2_nucl_size=1959  --------------TTAT------------------------CC------
+NHA2-long            AACTAACAATAAAATTATCTAATCTGAAAAACTGGAAATAATCCGAAACT
+                                   ****                        **      
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AATTTTAAATAATATTTCTAAAATAATTTAATTCTAATTTTAGAAAAATT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            GTTTCAAGGTCTTAAAACAAAGATTCAGCAATAATTGAATTACAGAGTAT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TTTAGACGTTTCAAAAAGAAATAGTAAAACTAGACATTACTTTTATGTCA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AGTTTAAGCTGAATTGGTATTTAATACAAATATGTTGTCTGGGCCGCGGG
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            ATAGGGCAGTGGTCACATAAAATTCTACTATATTGGTACTATACATATTG
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            GTACAACTTTGTCACCTTGTGTTTTTATGTTCAAAGAGCTACACACAAAG
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            ATAAGGCTGTAAAGACATGAGGGTCCCCAGGGGTAAATTTAGTTTCTGGC
+                                                                       
+
+NHA2_nucl_size=1959  ----------------------------------AAGACCATG-------
+NHA2-long            CTTTAAAGGCTCATTAAATGATTCGGAAAAAAAGAAAATCATGAAAATAA
+                                                       ** * ****       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            GAAAACAGACAATATCGTCTCTATAGCATCATCCTTTGTAGGTAATTCTT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TTTTATTTCGACTATACACCGTTCAACGATAAAAATTGATCAATTGTCAG
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            ATAATTTCACCTAATTTTTAATTAAGAGCACTTTTAACGGTATTGTAAGT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AAGTAATTGTCTAAAACGACGTCTTCCTCAAAATTACCAAGAAATGATTA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TCTTTATACCAATTATGATGCAGAATGAAAAGAGAAGGAAAACTTGTTAA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AGGTTACATTGTGAGTAAAAGGTTAAGCTTATTAGACGGGAAACAAAGGG
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            ACTGAAAACTTGTAGACCTTTGATATTTCAAACTACAAATAAATGATTTC
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TGAGAAATCATTTATTTGTAGTTTGAAATATCAAAGGTTCACGTGGACCA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AAGGTTGCAAAGATATAGGATAAGAAAGTTAAAAATTGTGCGAAATGTTT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AGTTCCTTTCATATACGATATATTTCAGGTCATTTACGATATCAGATCAT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            CTTTGTGGCGTCAAACATTATAGAAATCCAATGTAAAGAAATCGCTAGGA
+                                                                       
+
+NHA2_nucl_size=1959  --AACAAGATCAAGATCACACTGCAGGAGA--------------------
+NHA2-long            ACAGCAACAATTGGCGTATTTTCCGGGAGAACATTTTCATATTTTTGAGA
+                       * *** *    *   *   * * *****                    
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AATTAAAGTTTTTGTAAAACGTAGCTTATCATTATCATTATCATAATTTC
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TATTTTTTAACATACCCTAGACACTAAACAACTAACTAGATTAATATGTA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            CATTAGTACTGCTCTCTATTGTGTTTAAGGTCCCCCCAGATTTTATTATG
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TACTGACAACATAAATGAATGATTATATCGTTACATAGATTGCGTGTTAC
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TATTAAAAAAACTATTTTATGAAAATGATATGTACAGTTTTATTTTTACA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AAAAAAATTCTCCAGCAATGCTAATACCATCTCATAAAATTCCGTGTTAC
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            CATTTAAATAAAACGATTTTATGAAAATTATATCTACTTTACACTGATTA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TTTAATTTCTTAAAGATATAAAATAAAAATTTCTCCCGGAAAATACGCCT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TGTTGCTACACCTAGCGATTTCTATACGTTGGACTTCTATAATTTTTGAC
+                                                                       
+
+NHA2_nucl_size=1959  ------------------------------------------------AT
+NHA2-long            GCCCAGAAAACGCCATCTTTTCTTTAAAGTTGAAAAATCAAATTTTATAA
+                                                                     * 
+
+NHA2_nucl_size=1959  ATGTTCACCACTAAATTCTTCCCTCC------------------------
+NHA2-long            TTTCTCCTAACTCTTCTTTTTTCTCCAAGAATGAACTTTTTGTTCCATCT
+                      *  **   ***    * **  ****                        
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            GGGATCGGCTGCCGAAGTGTACTGCAGATTGTAGAGTACAGACTGCAGGG
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AAGTGTACTGCAGATTGTAGAGTACAGACTGCAGGGAAGTGTACTGCAGA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TTGTAGAGTACAGACGGCAGGGAAGTGTACTACATACTGTAGAGTAAAGA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            CTGTACTACGCTGTACGGTACATGGCTGATTCTGAAGTTACAAGATGGAT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AAACATATAAAAGCTGTTATTGCTGACACCCATTGGTGCAATTTTGGATC
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AAAGGAACATCCAAAGGAGAAAACTAGGTAAATTTTAAAAATAATTAGAA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            GCATAAAGGAACTTTAAAGCCTAATATCAGGTGAAATTCCGGATTCACAA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            CGGTACCCGTAAAAGCTTTGTCTGAAAAAGTATAAATTATAATGTTTATA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            ACTCTGAAAACTAATCATTTTAAAAAGTGTTTGCTCCAAAAAAGGGACTT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            GCGTTTTTCTACTGCAGAAAAAAAATAATTGTCAGAATTAAACACTTTTA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AAACTAGAAAACTACAATTTCTTGTTAACATGATTGATCAGAGAAAGGTT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TCAAGAGTATATCAATGTTAATCAGGCATTGTCATCTTTGCATGGAGGCT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            GACTTGAAATTACGGCCTTACAGTCCCTTTAAACTTTGTCATTTATTTGT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TTTATCTTTCCAACCTAAGCATGTGAATTTTAAGCTTTTGTCAATATTTC
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AGAAAGCTGTGACTTTCAATCACAATTTGACCTATTAAACATAATTTATT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TTGCCTTTTTCTGATATCATTTTTTGCCGACATATACTTTTTGTATGAAA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AGTATTAAACAAACAAATCCGTAAGTTTATACATTGTTTAATTATTTACC
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AAAACGCATATGACTTTAAATAGAAGAAACCGAACGCCTCGCACTCTGGT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TAGTCCGGGGTGTAATGTCAAAGACATTATAACCTATGAACTTGTATATC
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TTGTTGTCAAAGTTTTAAATTTCAAATGTTCACACCATCATATGTAATCA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TAAAAAATCGGAGTTTGTGTAAAGAACTCAGTTTTAATTCGAGATTATTC
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TTTTACAACAATTTTTTTCTCCAAATATACTTTTCAAAAAACGACAAAAG
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TAATTTATTAGTGATAGAAATGAGTAAAACTTTGCAATAAAACCGTATAT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AAGTATAATTGTAATTAATTTGTCTAAAGCGTTTGGGTAGAATTCAATAA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            ATAAGGGAGAAAGAAAATGAGTCTTTGCCACAAACTCTGAGTTTCTAATC
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TTCGTAGACCTTAGATATTCTAAATTATGAATTCTGTCAGATAAAATATT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            CTTAGCCTTAGAGATAATATATACCATTGGATTGCAAAGATATAGAAATT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AGACAAATTTAAATTTGTGAAGTTCTTAAAAAGAGAAAATAAATTTCAGG
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AACGACGGGAAATTGTATTCATTCCCACCCCTTCATTTGCCAATGTCGAC
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AGTCGAGTTGACAGTAATATTGAGAACCTAGGTGTTTTTAAAACTTTGAA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            ATGTCCCAATACTGAAAAAAATAAAGACAAGAGACCAATCAAATTTCTTT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TCTTTTCTAATATATTAATGTTTTATGAAGAATTCATCAACAACTTTTTA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AGAATTTATTGTATCATTTCTATGTTTATGTTTTATATTGATGTCATAAT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            CATATTAATATCTTTGATTTACTCTTTCTGAACTGTCGCATTGCAGTCTT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TCAAACTGGAGTAAATTGGTCATGCAATATTTTTACACTTAACAGAGGCA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            GACATTTTTCAATAAAGACAAAGCAATTTTTCATTTTGTTTAAAGGGACT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            GTAGAGATACGTTGATTTATTAGTTAATTGAAAATTGGGGTGTACAACTT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TCTTATTACATCTAATAAAGTCCCTTTAATCCTAAATAAACTGGACACAA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TGAAGATGAAAATCCCAACCCTCCCTCTTTACAGAATTAAGATTTAAAAG
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TTGTAATTTCAGTTAATTGTTCTGTATTCAGTAAGTTAAAATCTTTAATT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TAGTTTGTTCAGGGGAACAGAAGCTACTTATGGATCCGTAGAAAATGTGG
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            ACCCAGAGAACTCTATGAATCACCCCCCGGCTCAACCTGGGTGTTTATCC
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AAGACCATGAACAAGATCAAGATCACACTGCAGGAGAATATGTTCACCAC
+                                                                       
+
+NHA2_nucl_size=1959  ---------------ACAGGGCAATGTAGCGTCTGTGTTAACACTCTGCT
+NHA2-long            TAAATTCTTCCCTCCACAGGGCAATGTAGCGTCTGTGTTAACACTCTGCT
+                                    ***********************************
+
+NHA2_nucl_size=1959  TTGCTGTAGTATCCGTCTTCTTGATGGCCCGGCTTGTATTTGGTCCTATT
+NHA2-long            TTGCTGTAGTATCCGTCTTCTTGATGGCCCGGCTTGTATTTGGTCCTATT
+                     **************************************************
+
+NHA2_nucl_size=1959  GCTGGTCCTGGAGGCACTATCTTTGCTCTGCTCATCCTTATCCTCTTCGC
+NHA2-long            GCTGGTCCTGGAGGCACTATCTTTGCTCTGCTCATCCTTATCCTCTTCGC
+                     **************************************************
+
+NHA2_nucl_size=1959  ACTCATAGGAGGACAACTCATTAAATTCATCGGAATCTGTTTGTCTCGTA
+NHA2-long            ACTCATAGGAGGACAACTCATTAAATTCATCGGAATCTGTTTGTCTCGTA
+                     **************************************************
+
+NHA2_nucl_size=1959  TTACTGGGATGGATATACGACTTCCTCCCCTTCTGGGGATGTTACTTGTG
+NHA2-long            TTACTGGGATGGATATACGACTTCCTCCCCTTCTGGGGATGTTACTTGTG
+                     **************************************************
+
+NHA2_nucl_size=1959  GGTATACTTATGAAAAATGTGCCTTATAACTTTGGTCAATTTGGTCGAGC
+NHA2-long            GGTATACTTATGAAAAATGTGCCTTATAACTTTGGTCAATTTGGTCGAGC
+                     **************************************************
+
+NHA2_nucl_size=1959  GGAATGTTTTGGAAATAGACAGATGGATTTTGTCGACAGCCTTCATGACT
+NHA2-long            GGAATGTTTTGGAAATAGACAGATGGATTTTGTCGACAGCCTTCATGACT
+                     **************************************************
+
+NHA2_nucl_size=1959  TTCCTGTCAACACAACGGAATTTAGTGAAAACTTTAAAGGAAAGTTTATT
+NHA2-long            TTCCTGTCAACACAACGGAATTTAGTGAAAACTTTAAAGGAAAGTTTATT
+                     **************************************************
+
+NHA2_nucl_size=1959  GACATTGAATCTTACTCGGGGAAAGAATCTGGAGAAATTATGAACAGTTC
+NHA2-long            GACATTGAATCTTACTCGGGGAAAGAATCTGGAGAAATTATGAACAGTTC
+                     **************************************************
+
+NHA2_nucl_size=1959  TGTGTTGGATCTGGACAATGGAACAATGGACAGATTTTTAAGTGGAGAAC
+NHA2-long            TGTGTTGGATCTGGACAATGGAACAATGGACAGATTTTTAAGTGGAGAAC
+                     **************************************************
+
+NHA2_nucl_size=1959  AGAACTCTGGAGTAGATTTTTCTTCCTGTAAAAAGAAGTATATTGGTCAT
+NHA2-long            AGAACTCTGGAGTAGATTTTTCTTCCTGTAAAAAGAAGTATATTGGTCAT
+                     **************************************************
+
+NHA2_nucl_size=1959  GAGCTAGATCCTGTGCTATCGCGAACCCTGAGGTTTATTTGCCTAACAGT
+NHA2-long            GAGCTAGATCCTGTGCTATCGCGAACCCTGAGGTTTATTTGCCTAACAGT
+                     **************************************************
+
+NHA2_nucl_size=1959  TCTTCTTCTAATGGCAGGGCTTGAACTTGATCCTGATGCCCTGTGGAATC
+NHA2-long            TCTTCTTCTAATGGCAGGGCTTGAACTTGATCCTGATGCCCTGTGGAATC
+                     **************************************************
+
+NHA2_nucl_size=1959  TCTCTGGGATGGTCATCAGAGCTACTTTCATACCATGTATTGTGGAGGCA
+NHA2-long            TCTCTGGGATGGTCATCAGAGCTACTTTCATACCATGTATTGTGGAGGCA
+                     **************************************************
+
+NHA2_nucl_size=1959  ATGTCTGTTGCTATTTTTTCACATCTCATCCTCGGATTTCCCTGGACGGT
+NHA2-long            ATGTCTGTTGCTATTTTTTCACATCTCATCCTCGGATTTCCCTGGACGGT
+                     **************************************************
+
+NHA2_nucl_size=1959  TGGATGGATGCTTGGGTTTGTTCTAGCCGCCGTATCTCCAGCAGTTATTA
+NHA2-long            TGGATGGATGCTTGGGTTTGTTCTAGCCGCCGTATCTCCAGCAGTTATTA
+                     **************************************************
+
+NHA2_nucl_size=1959  TCCCCAGCTTATTGAGTCTTTCTGAACGAGGATATGGAGTAGCAAAGGGA
+NHA2-long            TCCCCAGCTTATTGAGTCTTTCTGAACGAGGATATGGAGTAGCAAAGGGA
+                     **************************************************
+
+NHA2_nucl_size=1959  ATTCCAACTCTTGTTATAGCCGCCTGTTCAGCAGATGATGTTGTGGCAAT
+NHA2-long            ATTCCAACTCTTGTTATAGCCGCCTGTTCAGCAGATGATGTTGTGGCAAT
+                     **************************************************
+
+NHA2_nucl_size=1959  CAGTGGATTCGGAATCTTCTTGGGGATAACCTTCAATGCAAATGCCCCTC
+NHA2-long            CAGTGGATTCGGAATCTTCTTGGGGATAACCTTCAATGCAAATGCCCCTC
+                     **************************************************
+
+NHA2_nucl_size=1959  TCATTGATCTGATACTTCATGGTCCTATGGAAGTTGCAATTGGTGTTTCT
+NHA2-long            TCATTGATCTGATACTTCATGGTCCTATGGAAGTTGCAATTGGTGTTTCT
+                     **************************************************
+
+NHA2_nucl_size=1959  GGAGGTTTAGTTTGGGGTGGGCTAGCTCAATGGATTCCAAACCAGCACAG
+NHA2-long            GGAGGTTTAGTTTGGGGTGGGCTAGCTCAATGGATTCCAAACCAGCACAG
+                     **************************************************
+
+NHA2_nucl_size=1959  TCCTCATGTTGCCTTCTTTAGGTTCATTATCCTTTTCTTTGGTGGACTTA
+NHA2-long            TCCTCATGTTGCCTTCTTTAGGTTCATTATCCTTTTCTTTGGTGGACTTA
+                     **************************************************
+
+NHA2_nucl_size=1959  TCTCACAATTCGGAGCATTACTAATAAACTATGATGGAGCAGGAAGCTTG
+NHA2-long            TCTCACAATTCGGAGCATTACTAATAAACTATGATGGAGCAGGAAGCTTG
+                     **************************************************
+
+NHA2_nucl_size=1959  GCAGTTATTATCATGGCCTTTGTAGCATCACTCAGGTGGAGGAAGGAGGG
+NHA2-long            GCAGTTATTATCATGGCCTTTGTAGCATCACTCAGGTGGAGGAAGGAGGG
+                     **************************************************
+
+NHA2_nucl_size=1959  GTGGGGAGATCACAATCCAGTATCATTAACTTTCCGCAAACTTTGGATCA
+NHA2-long            GTGGGGAGATCACAATCCAGTATCATTAACTTTCCGCAAACTTTGGATCA
+                     **************************************************
+
+NHA2_nucl_size=1959  TCCTGGAAGCGGTAATCTTCTCTTTGATTGGAACAGAAATCCAGATTGAC
+NHA2-long            TCCTGGAAGCGGTAATCTTCTCTTTGATTGGAACAGAAATCCAGATTGAC
+                     **************************************************
+
+NHA2_nucl_size=1959  AAGATAGATACGGAGAGCATGTGGAATGGGATCCTTGTCCTTTGCCTAGC
+NHA2-long            AAGATAGATACGGAGAGCATGTGGAATGGGATCCTTGTCCTTTGCCTAGC
+                     **************************************************
+
+NHA2_nucl_size=1959  ACTCATTCTCAGGATGATTTCTACATATTTTGCTGTGTCCTGTGGAAACC
+NHA2-long            ACTCATTCTCAGGATGATTTCTACATATTTTGCTGTGTCCTGTGGAAACC
+                     **************************************************
+
+NHA2_nucl_size=1959  TGAATGTCAAGGAGAAGATTTTCATGGCATTTGCTTGGTTTCCCAAAGCA
+NHA2-long            TGAATGTCAAGGAGAAGATTTTCATGGCATTTGCTTGGTTTCCCAAAGCA
+                     **************************************************
+
+NHA2_nucl_size=1959  ACAGTTCAGGCAGCAATAGG------------------------------
+NHA2-long            ACAGTTCAGGCAGCAATAGGTGAATTATTAAACAATAAAATTTTAGAAAA
+                     ********************                              
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            ATAACATTTAAACAAAACTATATTTATTTAGGAATTTAGGTAGGCGATTT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TATGAATATAATGAAGATGACTTTCGGTTTAAAGTTTGATTTATTTCAAG
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            GTTTTTATCAGCATTGATCCACACACACATGGAAAAAAAGAGAAGCTGCC
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AATTACAAAATTTTTTTCTAAATAATTTGTAATCATGTAATTCTAAAAAT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            GCTCATAAATAATCTAAACTTAAATAAAATAGTCGTCTTCATTATATTGA
+                                                                       
+
+NHA2_nucl_size=1959  ---------------------------------------AACTGTATTTC
+NHA2-long            TATAATCGCCTACCACCGTCCATAATTACTTTTTTCAGGAACTGTATTTC
+                                                            ***********
+
+NHA2_nucl_size=1959  TGGATTTTGCAATAATGAATGGGAGAACTGACTTAAT-------------
+NHA2-long            TGGATTTTGCAATAATGAATGGGAGAACTGACTTAATTCCGGTAAATTTT
+                     *************************************             
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            ATAGGTTTTTTTTCATGCAACTAAACCCTCGCCACAAACTCAAATTTTCT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AATCCTTTGTTATTTCAAACTATTAATTCTGCTAAATTAAATACTCAAAG
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TTTGACGCATCGAAGGCTTTCGTCATAATGTTGCCAAGATGAAATTCAAA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AATTAGATTTTATAGCGATGGCTCGGTTCCTTTTAAATTTCAGTATTAAG
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            GGCTACCATTTTTTCTTCATATCTGCTATCAGAAAATCAATTATGTAAAT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TTTAGAGAATTTTCTGTTTTTATTGGCGGGTTTCCAAATGTTTGGACAAA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            GTTTTTTTATTTTTGGCGGCTGGCCATAACCCTTCCCTCGGTGTTATACA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TGAATTACCGCCAAAAATATTTAGTCTTATTGGTTACAAACCACATATAC
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TTATAGGATTTCAAATATTGTTTTCATGTCGCCTGTTTTTAACTTTATCA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TTAAAAACCTAAAGATTTTGCGAATTTTCAGATTATTCTATATATTTCCA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AAAATTAAAAAAAAAAAAATTTCTCGGCAAAGGAATCGAGTTTTTGCCAC
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AAACTCTGATTTTCTAATCCCTATATCTAATTCCCGCCAATAATGTAGAC
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            ATTTTATATTTCAAACTATGAATTCTGTTGGATCAAATAATCTAAGTTTG
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AAATGTCAAAGTTTTTAACCATCAGGTTGTAAAGATATAGAAAGTTAACA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            ATTTGAGTTTGTTGCAAAAACTCAGTTGTTTTTTAAAACTTTGCCAATTA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AAATGAGAACCGAATGATTCAGCTGTTCTGGATTAAAACAAACTGAATCA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            CTTAAACTGTTAAAAATTTCCACGTTTCCACTTAAACATTAAAAAAAATA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TATATATTTTTAACGACATTCTTATTTTCTTTTTTTTTCAGTAAAAAACA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AAATTTTTGACAATTTTCATTTTAAAACACGATTTTTAACATTTTTATAT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AGGAAAAAAATTGAATCTTTGCCACAAATCCCTATAATTTTACAACCTGA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TTGCACTTTTGATATTGCAAACTTAGATTATTTATATATATGATAATGCA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            GGTTGCAAAGATATATGGATTAGAAAATTTAAATTTGTGGCTGAAACTCA
+                                                                       
+
+NHA2_nucl_size=1959  -----------------TCCGATGGGTGAGCAGGTTTTAACATTGGCAGT
+NHA2-long            AACTTTTAGAATACTTTTTAGATGGGTGAGCAGGTTTTAACATTGGCAGT
+                                      *  ******************************
+
+NHA2_nucl_size=1959  CCTATCTATACTCATAACAGCACCTCTGGGAGCCATTGGTATTCTAGGAC
+NHA2-long            CCTATCTATACTCATAACAGCACCTCTGGGAGCCATTGGTATTCTAGGAC
+                     **************************************************
+
+NHA2_nucl_size=1959  TTGGTCCTAAACTCCTCTCTTGTGATCTCCCAGCAGCAGGTCAAGAACAG
+NHA2-long            TTGGTCCTAAACTCCTCTCTTGTGATCTCCCAGCAGCAGGTCAAGAACAG
+                     **************************************************
+
+NHA2_nucl_size=1959  GACCTGGAGGAAAACCAGGACCCGGAGACAAACCAGGACCAAACCATAGA
+NHA2-long            GACCTGGAGGAAAACCAGGACCCGGAGACAAACCAGGACCAAACCATAGA
+                     **************************************************
+
+NHA2_nucl_size=1959  TCCGAACAGCGAGGAGGTAATTGATCTACAAAGAAAACAGGATAAATTTA
+NHA2-long            TCCGAACAGCGAGGAGGTAATTGATCTACAAAGAAAACAGGATAAATTTA
+                     **************************************************
+
+NHA2_nucl_size=1959  TTGAAAGCGAGAATAAGATCGGAGAAAGAGTTAAAGACAATGATAAAACT
+NHA2-long            TTGAAAGCGAGAATAAGATCGGAGAAAGAGTTAAAGACAATGATAAAACT
+                     **************************************************
+
+NHA2_nucl_size=1959  AGA-----------------------------------------------
+NHA2-long            AGAGAGAAGGATTTACAGGAGCTTCTCCTAGTTATCAGTGAGGATGAAAC
+                     ***                                               
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            ATGGGACGGACGAGGAGAAAAAATGAAAGGAAGTAATGAATAAGATTTAA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AATATAAGAAAATTAAAATTAAAATAAATTTACCTTCTTGTAACCTTGCA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AAGATCAATGCACGCAACAATTACAGTTTACTTATCTAAAATGTAAGAAT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            ACATCCAATAAAATAAAAATTAAGTAATTAAGTCTTTGCCACAAACTCTG
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            ATTTTCTAATCCCTATATCTTTAAAACCCAATGTTGTAGACCTTATATAT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TTCAAAGTAAGACTTAATTCTGTTAGATCAAATAATCTAAGTTTGAAATA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TCAAAGGTTTAAGCTATCAGGTTGCAAAGATATGAGGATTAAAAGATTTG
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AGTTTGTGGCAAAAACTCAATTTTTTCTAAAGCTTCAATTTGTGTGAAGT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            CAGACACTATACTTTAGACATATTGTGTCATCCCCTGGAATTCATGCTAA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AAATATTTTATTTAATTATGAAGAAAAAAGTAGAATTTAATTTAATATGT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TACTAATTGTGTTTACTAATGTTAATATTTATTATTTATTTTATTTAAAT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            GTATTTCCCAAAAATAAACTTTTTGTTTTGTTTATCGTTAATGTTTGTAT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            ATTGTAACATTTTATAGGAATTGCCTCAAACCTTACATATATCTGTCGTG
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AACCTGAGATATCTCAAACCTTACATATATCTGTCGTGAACCATAGATAT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            CTAAACCTTACATATATCTGTCGTGAACCTGAGATATCTCAAACCTTACA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TATATCTGTCGTGAACCATAGATATCTAAACCTTACATATATCTGTCGTG
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AACCTGAGATATCTCAAACCTTACATATATCTGTCGTGAACCATAGATAT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            CTAAAACCTTACATATATCTGTCGTGAACCATAGATATCTCAAACCTTAC
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            ATATATCTTACTTTCAACTTACTAACAACTTTCAACTTACTAACAAGAGA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AACAGCCTAATGTATCATCTCAGGTCTATGAAGAAAGAAGGTAAAATCAG
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            CAAACTATTCTCTAATGAGAATGGTCAGCTAGGTCTGAAAGTGTCTGATA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            CAAGTGAAAAGAAAGTGATAAGTTTTGTGCCTGATCAGAAATACGGAACC
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            CCAAAAACTCTCAATCTTGCTGAAATCCAGGCTCTCATAAATTCTAAAGT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TTAAAATCTGTATATAGTAGTACATAATATTGCCAAAAAGTATGCACAAA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TAAGTTAAATGAGTAATCTAATTTTCATACTTTCTCTTATTTGTGAGCTT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            ATTTTCTTTTTTTTATTATTCTAATCAATATTTTCAAATCAATTATGAAT
+                                                                       
+
+NHA2_nucl_size=1959  -------------------------------------GAGAAGGATTTAC
+NHA2-long            TTCATTTATACAATTTACTTCCGTTACTTTCTGTTTCCTGATCCTAATCT
+                                                            **      *  
+
+NHA2_nucl_size=1959  AGGAGCTTCTCCTAGTTATCAG----------------------------
+NHA2-long            GACAGATTTTCCTTTATGTCAGGGGATATGGGGGCGGAGCTTTGTTTTAA
+                        ** ** ****   * ****                            
+
+NHA2_nucl_size=1959  ----TGAG------------------------------------------
+NHA2-long            GAAGGGAGGGGAGTCTAAAGGGTGCCGCATTTTCTCAAGATTTCAAGCTT
+                          ***                                          
+
+NHA2_nucl_size=1959  -------------GA-----------------------------------
+NHA2-long            CTAAATGATCCAGGATAATATCTCACTTACACATGTACAACAAAATAATC
+                                  **                                   
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AAACATTCGATTTTACATACAATTTTAAAGATTCGGTTTATGAAAATGAT
+                                                                       
+
+NHA2_nucl_size=1959  -----------------------------TGA------------------
+NHA2-long            ATTCATAATTGTCAATACTATGATGAAGATGAGATTAACAAAAAATTTAA
+                                                  ***                  
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            TAGTATTTCAACAGAGCAGTTTAGTATTTTGTCTTTGAATATCCAATCTC
+                                                                       
+
+NHA2_nucl_size=1959  -------------------------AACA----------------TGGGA
+NHA2-long            TCCCTGGAAAATTTAATGAGTTTCAAACATTTTTAGCCTCAACCCTGGGA
+                                              ****                *****
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AAATTTAAACCATCTGTAATTGCTCTTCAGGAAATTTGGAATAAACCTGC
+                                                                       
+
+NHA2_nucl_size=1959  ---------------------------------------------CGGAC
+NHA2-long            AAATCTTTCATTTGATTTAACTGATTATCACCCACTTCATTTTACTGTAA
+                                                                   * * 
+
+NHA2_nucl_size=1959  GA---------------------------G------GA------------
+NHA2-long            GAGATAAACAGGGGCTAAATAGTAATGCAGGGGGAGGAGTAGGACTCTGG
+                     **                           *      **            
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            GTTGAGAAATCACTTTGTTTTGAACCGATTAATTCAATTTCTATCTTCTT
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            ACCTCGCGTTTTTGAATCACAATTTATAAAGATTAAAAATGGGAAGAATA
+                                                                       
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            AATATACAGTTGTAGGTAACATTTACAGGCCTAACACTGCTCCGTATGCA
+                                                                       
+
+NHA2_nucl_size=1959  -----GAAA----------------------------------AAA----
+NHA2-long            GACGTGAAATATTTTAATCAAACAATAAGAGAAATTTTTTCAAAAATTAG
+                          ****                                  ***    
+
+NHA2_nucl_size=1959  --------------------------------------------------
+NHA2-long            GTCTGATCCTACTTTAAGAAATGCGCAGGATGTAGTCTTAGTAGGAGATA
+                                                                       
+
+NHA2_nucl_size=1959  TGA-----------------------------------------------
+NHA2-long            TGAATATTAACCTTCTAAAACATACATTGCATAGTGACACAGAGACTTAT
+                     ***                                               
+
+NHA2_nucl_size=1959  --------------------AA----------------------------
+NHA2-long            TTAGATACGCTTCTTGAGAATAGTTTTTTGCCTCTTATAACTCTTCCTAC
+                                          *                            
+
+NHA2_nucl_size=1959  -------GG-----------------------------------------
+NHA2-long            TAGAATAGGTCACAATTCAGCAACCATTTTAGATCATATTTGCACTAACA
+                            **                                         
+
+NHA2_nucl_size=1959  ---------------------------------------A----------
+NHA2-long            TTGCCGATGATAGTTTTGATTCTGGCATTATTGTTTCAGATATTTCTGAT
+                                                            *          
+
+NHA2_nucl_size=1959  ----------------------------------------------AGT
+NHA2-long            CATTTTCCTGTTTTCTATATTCGACATTTTAAAGATAAATTCATAGAAA
+                                                                   *  
+
+
+

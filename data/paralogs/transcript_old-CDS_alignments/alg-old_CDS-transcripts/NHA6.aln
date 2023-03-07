@@ -1,0 +1,268 @@
+CLUSTAL FORMAT for T-COFFEE Version_13.45.0.4846264 [http://www.tcoffee.org] [MODE:  ], CPU=0.01 sec, SCORE=990, Nseq=2, Len=3275 
+
+EaffNHA6        AT------------------------------------------------
+MSTRG.14351.4   AATCTTTTAATTTTATGACAGAGAATAACCAAAATTTTGCCAGTTTCAGG
+                *                                                 
+
+EaffNHA6        ----------------GGATAACCGTGGTTACAATGTTACGAATGAGAAA
+MSTRG.14351.4   TTTGTATTAGTAACATGGATAACCGTGGTTACAATGTTACGAATGAGAAA
+                                **********************************
+
+EaffNHA6        AATGATCGAAGACTCAGTCTCTCTGGAATGGAGATGCCAGGTCTATACAG
+MSTRG.14351.4   AATGATCGAAGACTCAGTCTCTCTGGAATGGAGATGCCAGGTCTATACAG
+                **************************************************
+
+EaffNHA6        TCGAAGGGGCAGCAAGGCGCCACCACCTTTTGTGCCCGAAGTATCGGAAG
+MSTRG.14351.4   TCGAAGGGGCAGCAAGGCGCCACCACCTTTTGTGCCCGAAGTATCGGAAG
+                **************************************************
+
+EaffNHA6        ATAGGGGAGATAGACGACTCAGCTTGTCTGGCATGGAATTGCCAATTCCA
+MSTRG.14351.4   ATAGGGGAGATAGACGACTCAGCTTGTCTGGCATGGAATTGCCAATTCCA
+                **************************************************
+
+EaffNHA6        TACAGCCGAAGGGGAAGCAAATATCAGCCTGTGCAAGAACCTGTTCAAGA
+MSTRG.14351.4   TACAGCCGAAGGGGAAGCAAATATCAGCCTGTGCAAGAACCTGTTCAAGA
+                **************************************************
+
+EaffNHA6        AACCTTTGAGCTCCCAGAGGATCCTCCCCCTGCCTACCAAGGCAATAAAA
+MSTRG.14351.4   AACCTTTGAGCTCCCAGAGGATCCTCCCCCTGCCTACCAAGGCAATAAAA
+                **************************************************
+
+EaffNHA6        AGGCCCCTGGAAAGGTCAAAAAGTCTTACAAGAGAGTAAAACAAGCACTT
+MSTRG.14351.4   AGGCCCCTGGAAAGGTCAAAAAGTCTTACAAGAGAGTAAAACAAGCACTT
+                **************************************************
+
+EaffNHA6        CAGAGTAATAGGATTACCTCAAACTTCTTTCCCCCAAAAGGAGAGGTGGC
+MSTRG.14351.4   CAGAGTAATAGGATTACCTCAAACTTCTTTCCCCCAAAAGGAGAGGTGGC
+                **************************************************
+
+EaffNHA6        AACGAACATAACTCTAATGATAGCAGTCGTTATCATATTTCTGTGTGCAA
+MSTRG.14351.4   AACGAACATAACTCTAATGATAGCAGTCGTTATCATATTTCTGTGTGCAA
+                **************************************************
+
+EaffNHA6        GAACAGTTTTAGGATCATATTCTGCTCTAGGGGGAACAATCTTTGCTGTC
+MSTRG.14351.4   GAACAGTTTTAGGATCATATTCTGCTCTAGGGGGAACAATCTTTGCTGTC
+                **************************************************
+
+EaffNHA6        TTCATTCTAGTATTCTTTGCTTTGGTAGCTGGACAGATAGTTCTTCAGCT
+MSTRG.14351.4   TTCATTCTAGTATTCTTTGCTTTGGTAGCTGGACAGATAGTTCTTCAGCT
+                **************************************************
+
+EaffNHA6        TGCAGCAATAATATCCAAGCTTGCAGGGTTTGATATTCGCATCCCACAAC
+MSTRG.14351.4   TGCAGCAATAATATCCAAGCTTGCAGGGTTTGATATTCGCATCCCACAAC
+                **************************************************
+
+EaffNHA6        TACTTGGAATGATGGCTGTTGGAATCTTTTGTAAAAATGTTCCGTACAAT
+MSTRG.14351.4   TACTTGGAATGATGGCTGTTGGAATCTTTTGTAAAAATGTTCCGTACAAT
+                **************************************************
+
+EaffNHA6        TCCCATGAATTCAACAGCCCAGAATGTCTAAACAGATCTTTGACCCATAG
+MSTRG.14351.4   TCCCATGAATTCAACAGCCCAGAATGTCTAAACAGATCTTTGACCCATAG
+                **************************************************
+
+EaffNHA6        TGATCTTCATGAAGATGTTCATGGAAATGAAAGTCATTTGATTCTGCATG
+MSTRG.14351.4   TGATCTTCATGAAGATGTTCATGGAAATGAAAGTCATTTGATTCTGCATG
+                **************************************************
+
+EaffNHA6        GTGATACCGACTTACATCACTTAAATGTACATGGAAAAATAATGGACATT
+MSTRG.14351.4   GTGATACCGACTTACATCACTTAAATGTACATGGAAAAATAATGGACATT
+                **************************************************
+
+EaffNHA6        CACGCCTCTTTCAATGAAGGACATGCTAAAATCGTTGAACACCTGAAAAA
+MSTRG.14351.4   CACGCCTCTTTCAATGAAGGACATGCTAAAATCGTTGAACACCTGAAAAA
+                **************************************************
+
+EaffNHA6        TTCTACATTCAGTTCAACAGCTGAAATAAATCATAATGACCATCCAGAAT
+MSTRG.14351.4   TTCTACATTCAGTTCAACAGCTGAAATAAATCATAATGACCATCCAGAAT
+                **************************************************
+
+EaffNHA6        CTATTGGATCAACTAATAATACCCATGAAGATAAATTAGATACTCACACT
+MSTRG.14351.4   CTATTGGATCAACTAATAATACCCATGAAGATAAATTAGATACTCACACT
+                **************************************************
+
+EaffNHA6        AATGGAGAAGGATTTAAGCCAATTCCAGATTCTGAAAATCATCATCATCG
+MSTRG.14351.4   AATGGAGAAGGATTTAAGCCAATTCCAGATTCTGAAAATCATCATCATCG
+                **************************************************
+
+EaffNHA6        AGCAAGACGAAGTGGAGGTCATGATGAGCCTGTTGTATACCGTGATCCTT
+MSTRG.14351.4   AGCAAGACGAAGTGGAGGTCATGATGAGCCTGTTGTATACCGTGATCCTT
+                **************************************************
+
+EaffNHA6        GTGTTAAGAGATTTATTGGAAATGATGTTGATCCAACTGTTAAAACAATC
+MSTRG.14351.4   GTGTTAAGAGATTTATTGGAAATGATGTTGATCCAACCGTCAAAACAATC
+                ************************************* ** *********
+
+EaffNHA6        TTAAGATCTGCATGCTTAACATGTATTCTTCTGATGGCAGGTCTTGAATT
+MSTRG.14351.4   TTAAGATCTGCATGCTTAACATGTATTCTTCTGATGGCAGGTCTTGAATT
+                **************************************************
+
+EaffNHA6        GGATCCTCCACAACTATGGAGACTTAAATGGATTGTACTGAGAACTACCT
+MSTRG.14351.4   GGATCCTCCACAACTATGGAGACTTAAATGGATTGTACTGAGAACTACCT
+                **************************************************
+
+EaffNHA6        TCATACCTTGCATAGTAGAGGCATTTGCTGCTGCCCTGTTTTGTTATCTG
+MSTRG.14351.4   TCATACCTTGCATAGTAGAGGCATTTGCTGCTGCCCTGTTTTGTTATCTG
+                **************************************************
+
+EaffNHA6        ATCCTTGGATTTCCCTTTCTTCCTGGACTATGCTTTGGATTTGTTCTCTG
+MSTRG.14351.4   ATCCTTGGATTTCCCTTTCTTCCTGGACTATGCTTTGGATTTGTTCTCTG
+                **************************************************
+
+EaffNHA6        CGGAGTATCTCCAGCTGTTATTATTCCAGGATTGGTGAATCTTAGTCAGA
+MSTRG.14351.4   CGGAGTATCTCCAGCTGTTATTATTCCAGGATTGGTGAATCTTAGTCAGA
+                **************************************************
+
+EaffNHA6        GAGGATACGGAGTAAAGAAGGGAATACCAACACTGGTTATTGCAACATGT
+MSTRG.14351.4   GAGGATACGGAGTAAAGAAGGGAATACCAACACTGGTTATTGCAACATGT
+                **************************************************
+
+EaffNHA6        TCTGCTGATGATCTTGTGGCTATTGGAGGATTTGGAATAGCTGCTGGAAT
+MSTRG.14351.4   TCTGCTGATGATCTTGTGGCTATTGGAGGATTTGGAATAGCTGCTGGAAT
+                **************************************************
+
+EaffNHA6        TACTTTTAATCCTGATGCATCAATATCTGATCTTGCCAGCCATGGACCTC
+MSTRG.14351.4   TACTTTTAATCCTGATGCATCAATATCTGATCTTGCCAGCCATGGACCTC
+                **************************************************
+
+EaffNHA6        TTGAAGTGCTCTTGGGGATTGCATTTGGAATATTCTGGGGATACATCTGC
+MSTRG.14351.4   TTGAAGTGCTCTTGGGGATTGCATTTGGAATATTCTGGGGATACATCTGC
+                **************************************************
+
+EaffNHA6        CAATGGTTTCCAAGCAAGCAGAATGCAAACTATGTGTTCTTCAGATGGGT
+MSTRG.14351.4   CAATGGTTTCCAAGCAAGCAGAATGCAAACTATGTGTTCTTCAGATGGGT
+                **************************************************
+
+EaffNHA6        CATCCTAACAGCAGGAGGTCTGTTTGCTCTGTTTGGAGCACATATGATCC
+MSTRG.14351.4   CATCCTAACAGCAGGAGGTCTGTTTGCTCTGTTTGGAGCACATATGATCC
+                **************************************************
+
+EaffNHA6        ATTATGATGGAGCTGGAGGTCTGGCTTGTGTGATTATGGCATTTGTGGCC
+MSTRG.14351.4   ATTATGATGGAGCTGGAGGTCTGGCTTGTGTGATTATGGCATTTGTGGCC
+                **************************************************
+
+EaffNHA6        TCTATTCAGTGGAGAAGAGAAGGGTGGGGAGATCATAACCCTGTTACAGA
+MSTRG.14351.4   TCTATTCAGTGGAGAAGAGAAGGGTGGGGAGATCATAACCCTGTTACAGA
+                **************************************************
+
+EaffNHA6        TATCTATAACAAGGTCTGGATTATCTTGTCTCCAGTTATCTTCTCACTCA
+MSTRG.14351.4   TATCTATAACAAGGTCTGGATTATCTTGTCTCCAGTTATCTTCTCACTCA
+                **************************************************
+
+EaffNHA6        TTGGAACCAATATCAACGCAGAAAAGATGGACGGGGCAACTGTAGGATTG
+MSTRG.14351.4   TTGGAACCAATATCAACGCAGAAAAGATGGACGGGGCAACTGTAGGATTG
+                **************************************************
+
+EaffNHA6        GGTGTTGCTGTACTTTTCTGTTGCTTTATAACCAGAGGATTTTTTACTTT
+MSTRG.14351.4   GGTGTTGCTGTACTTTTCTGTTGCTTTATAACCAGAGGATTTTTTACTTT
+                **************************************************
+
+EaffNHA6        TTGGTCTGCGGTTTGTGGAGGGTTAGACACAAAAGAAAAAATCTTTCTTG
+MSTRG.14351.4   TTGGTCTGCGGTTTGTGGAGGGTTAGACACAAAAGAAAAAATCTTTCTTG
+                **************************************************
+
+EaffNHA6        CTGTTGCTTGGCTTCCAAAAGCAACAGTCCAAGCAGCATTAGGTCCTGCG
+MSTRG.14351.4   CTGTTGCTTGGCTTCCAAAAGCAACAGTCCAAGCAGCATTAGGTCCTGCG
+                **************************************************
+
+EaffNHA6        TTCTTGGAAAAGGCGATTTCAGCAGGACTTACGGATTTTATACCTATGGG
+MSTRG.14351.4   TTCTTGGAAAAGGCGATTTCAGCAGGACTTACGGATTTTATACCTATGGG
+                **************************************************
+
+EaffNHA6        AGAGACGATTCTCACTATGGCAGTTATTTCCATAGCTATAAGCGCTCCCA
+MSTRG.14351.4   AGAGACGATTCTCACTATGGCAGTTATTTCCATAGCTATAAGCGCTCCCA
+                **************************************************
+
+EaffNHA6        TCGGCGCCATTCTCATCCTAGCGCTTGGACCTGTTCTGCTACCAAATGAC
+MSTRG.14351.4   TCGGCGCCATTCTCATCCTAGCGCTTGGACCTGTTCTGCTACCAAATGAC
+                **************************************************
+
+EaffNHA6        TTTGAGGATAAAGAGGATGACCCAGAAGACAATACTGATAGAGAGGGTAT
+MSTRG.14351.4   TTTGAGGATAAAGAGGATGACCCAGAAGACAATACTGATAGAGAGGGTAT
+                **************************************************
+
+EaffNHA6        CATT----------------------------------------------
+MSTRG.14351.4   CATTGAAAACATGAAAGAGGTTGTGCATCACTAAGCCTTCAGTTTGGGAT
+                ****                                              
+
+EaffNHA6        --------------------------------------------------
+MSTRG.14351.4   ATCATGCTGGGCTTTTATGATAAAAAAATGGCAATTAATGATTCCTTGTT
+                                                                  
+
+EaffNHA6        --------------------------------------------------
+MSTRG.14351.4   AAGTTTTCTACAGTTTGTAACTTTCATCATAATTCCTTTATTTTACTATT
+                                                                  
+
+EaffNHA6        --------------------------------------------------
+MSTRG.14351.4   TTTACTTTTTATCAAAATATTTCTCTTTAACTTTTTAATTTCTATGCAAC
+                                                                  
+
+EaffNHA6        --------------------------------------------------
+MSTRG.14351.4   CTTCTTACACATCAAAATAAACAGATATGTAAGAAAAAGGGAATTGCAAA
+                                                                  
+
+EaffNHA6        --------------------------------------------------
+MSTRG.14351.4   ATAAAATGTAATTTATATGCGTATATTAAATATTTACATTCAGGACTATA
+                                                                  
+
+EaffNHA6        --------------------------------------------------
+MSTRG.14351.4   TCTATGTTTTTTATATATTATTGTTCATTAGTCTAGATATTTGTTGAATT
+                                                                  
+
+EaffNHA6        --------------------------------------------------
+MSTRG.14351.4   AAATGTTTAAATATTATATTATTCTGTATTCTACAGCCTTCAAGTTCCAC
+                                                                  
+
+EaffNHA6        --------------GAA----------------------AAC--------
+MSTRG.14351.4   TTGTCAATCAGCTTGAAGAGTCTACAGTATTACCCACAAAACCTAACACT
+                              ***                      ***        
+
+EaffNHA6        --------------------------------------------------
+MSTRG.14351.4   TGAATGACGACATAAAACTTGTTAAATACAATATATTAAAAGTTAAATTT
+                                                                  
+
+EaffNHA6        -----------------------------------ATG------------
+MSTRG.14351.4   GGTCTTTTGCCTTAAATGTCGTCTTCTTCCATAATATGTCACGTTGTTTG
+                                                   ***            
+
+EaffNHA6        -----AAA------------------------------------------
+MSTRG.14351.4   TTGCCAAAGAGAATAATACTAAATATTTTATGGCATCCATATTATAGTAA
+                     ***                                          
+
+EaffNHA6        --------------------------------------------------
+MSTRG.14351.4   AATTGATTTCTAAGTAAAATATATTTGAGCAAAGTTTTTTTTCAATTAAA
+                                                                  
+
+EaffNHA6        ------------------------------------------GA------
+MSTRG.14351.4   TAAACTGCAAAAAGTCTTAAAGTTCTAATACGGCATATGGAAGAAGACAT
+                                                          **      
+
+EaffNHA6        --------------------------------------------------
+MSTRG.14351.4   TCAAAACTATTCACCAACTGTCATGTTTCGTGGGACACCCTGTACGTGCT
+                                                                  
+
+EaffNHA6        ------------------------GGT-----------------------
+MSTRG.14351.4   TAATTTTATTTAAATACTTCTGAAGGTTACACATTCTTCAGCTATGTGCC
+                                        ***                       
+
+EaffNHA6        -----------TG------------------TG-----------------
+MSTRG.14351.4   AGCTGGTTTCTTGGGTATTGTTTGTTTAGTGTGAAAAATACAGCTTCATT
+                           **                  **                 
+
+EaffNHA6        --------------------------------------------------
+MSTRG.14351.4   AATCCTTTCACTGTAAACTCTGTCTCATTTTTAATACCGAGCCGACTTTT
+                                                                  
+
+EaffNHA6        ---CA---------------------------------------------
+MSTRG.14351.4   AAGCAGCAGGCGCTAGTTCACGGTGAACTAGAGGTCCTAGACAAAAACCA
+                   **                                             
+
+EaffNHA6        --------------------------------------------------
+MSTRG.14351.4   AGTGAGTACATACTTTAGAACCCATTTTCACCCATTAAGCGTATATTTGT
+                                                                  
+
+EaffNHA6        ---------------------TCAC
+MSTRG.14351.4   CACATTTGCTATTAACACTTTTTTC
+                                     *  *
+
+
+

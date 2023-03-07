@@ -1,0 +1,804 @@
+CLUSTAL FORMAT for T-COFFEE Version_13.45.0.4846264 [http://www.tcoffee.org] [MODE:  ], CPU=0.02 sec, SCORE=976, Nseq=2, Len=9999 
+
+NHA6_nucl_size=2127_strand=+  ATGG----------------------------------------------
+NHA6-long                     TTGTGGATGATCAAAATTTCAAAAATTAGCCTCAAACAAAATTTAATTTA
+                               **                                               
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     ATTTATTCCAGGGGAATTGTTGCTATAAAATTCGCGAACTTTTTTTGCTT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  -----------------------------------------------AGA
+NHA6-long                     TTGTTTTACAATGTACACAAAAAGAAAATGTTCACAATTGAAATGAAAGA
+                                                                             ***
+
+NHA6_nucl_size=2127_strand=+  T-------------------------------------------------
+NHA6-long                     TGGGCGCGAAGAGCTCTGAAAGCCTAGTTTTTTAAATTAAATTTGAATGA
+                              *                                                 
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     ATTATAGCTCTGGATTAATATAGAATGCAAATAGTTGTTATCTCCTTTAT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  -------------------GCCA----------------G----------
+NHA6-long                     TTTAGATTTCGGAACGCCTGCCAAATCCACAGTTATTTAGGGAAAGAAAA
+                                                 ****                *          
+
+NHA6_nucl_size=2127_strand=+  -----------G--------------------------------------
+NHA6-long                     TTCCAAACCATGTTTTGGCCCAAACCTGACACTTTTTTTGCCATATTTTA
+                                         *                                      
+
+NHA6_nucl_size=2127_strand=+  -T------------------------CT----AT----------------
+NHA6-long                     GTCGTTTACAGTCCCTTTAAAATGTTCTTTTAATACTTAATGGAAATTGG
+                               *                        **    **                
+
+NHA6_nucl_size=2127_strand=+  --------AC----------------------------------------
+NHA6-long                     AACATATTACATTTAAATTCACACTAAGAGCACAAAACTCGTTAACAACA
+                                      **                                        
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------AGTC--
+NHA6-long                     TGTGCATTGTGCCTTGTTTTACAACATGTGCAATCTGCCTTGTTCGTCGT
+                                                                           ***  
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTCGTAATTTTGAGAATACTTTTTCAGACAATTAAATTAAGTTTTGTTAT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTCAAAATATGAAGATTTATTTTTAAATATTACACAGATTCTAATCTTGA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTTTCTATTGTTCTATTTGTGTACAAACTTGACACTGTTTCATTTCATGT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTGTAACACAAGAACGGTTTGGAACTTGCGTCCCCGGCTTTTGGCAAAAT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     AGTTTCACTTCAAAACGTTTCCGTATCACGTTGCTTGTGACATGGTGCAC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  -----------------------------GA--------AGGG-G-----
+NHA6-long                     TCAACTCAAACCTTAAAGGGAGTGTTCGCGAAAAATGAAAGGGGGTATAG
+                                                           **        **** *     
+
+NHA6_nucl_size=2127_strand=+  -C------------------------------------------------
+NHA6-long                     GCTTAATGCGATAAAAAAGCGCTTTTGATCGCTACTAATCTTACTTCTAT
+                               *                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     CTGTTGCGTCTATAAGGAGAAAATTGTTAAAGACGTCTCATACGAATAAC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TAAGCGGCCATACAAATTGAGAAAATTGCAACATACTACTTAGAACGTAA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     AAAATCAATTTAATTTCAAACAAATCATTTAGATATTACAACCTATAGTC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     ATCGATTATCTTTCGCCACATTTGTATATAGTTTATATTTTATAATATTT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TATTTTTTTAGAAAACGTTTGCAACGGATTTCGAAAATTGTGAGTGGTGT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     GCGGCATTCTTAGATAGTTGCGCAATTCACAAGAGAAACAAGCAAATTAG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTAAAAAATATTATAAAATATAAACTATATACAAATGTGGCGAAAGATAA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TCGATGACTATAGGTTGTAATATCTGAAGGATTTGTTTGAAATTAAATTG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  ------------------------------------------AGCAAGGC
+NHA6-long                     ATATTTTACGGTCTAAGTAGTATGTTGCAATTTTCTCAATTTGTATGGGC
+                                                                             ***
+
+NHA6_nucl_size=2127_strand=+  GC------------------------------------------------
+NHA6-long                     GCTAAGTTATTCGGTATGAGACATCTTTAACAATTTTCTCATTGTAGACG
+                              **                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     CAACAGATAGAAGTAAAATTAGTGGCGATCAAAAGCGCTTTTTTATCGCA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTAAGCCTATACCCCCTTTCATTTTTCGCGAACACTCCCTTTAAGAATTT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     AATTTAATCTCTATTTTTATCTTTTAGTTTTCCCCCTAAGTTCCCCCTTC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTTTCTTCTATTTCAAACTTTACTATTTGATCAAACGTGCATGCAGAACT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     CTTAGTTTAAAAATCGGAGGCTTAATTCACCAAGTTACAAAATTATAGGG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     ATTATAAAAATAAATTTATTTTAATGTTAATTCAACATTTATAAACAATT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     GAAGGTCTGTAAATGATTAAAAGATCGAGATATTACCGAGTTTAATTTCA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     ATTGATTAAAAACCTATTTGCATACTTTTATATAAAGTAGCCAAGGGTAC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     ATTTTTAGACCAGTTTCAACACGTACAGGTCCACTAAAAATATTTACGAA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     ATAATTTTCCTTTTACAATTACTAATTTCAATTTGGAACATATCACATTT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTAAAGAGAATTTGCACTTTGACTTCAAAACGTATTTTGGAACATGAGTC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     CCCTGTATTACCAGGTTCCAAAAAATTAACAAAATAATTGTAATTTTATT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     GATTTATCCATTTGTTTTGGTTTATTTTAGATATTTCATCATTTATTTTT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     CAATAGTTTGCTTAAAATGCAGTTGTTTTTTTCTTTTTTAATGTTTACTC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TGCAAGAATATGGAAGGAAAAAAATACATCTTTTGCCAGACTAACTATCT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     GAAATTAATTGATTTTTTAAAAATATGAAATAAAGAGGAAAAATGTTACA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TAAACTTTTAGTTTTTGGATTAGTTTTACTTTACAGGTGATTTCCAATTG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     CCCCCCCCCCCCCTCCTCCCCAAGCAGTTTGATAGACTTTAATTTTTAAC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     ACTTCTGCAGTTTAGGGAAACACACAGTTAAAAAAGAAAATACAATTTTA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     CCAAAAAACGATAAAAAGAAACTGAGACAACGCCACAAACTCTGATTTCT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTGTAACCCAATCTTTGCAACTTAATGTCGTAGACCTTTGATCATTTCAA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     ACTATGAATTCTGTTAGATCAAATAATACGCTTGAATTATTAAAGGTGAC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTTGTACACCTTTAGGTTACAAAGGGTATATCAAATTTAAGCTTGTGACA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     AAGACTCAATTTCTTTTTTGTGTGGAAATGTTAGAAAACAGTATGTGGAA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTGCAATTAACATATAATTTCTTCATATCTTTCTTATTTGGTAACTTGTA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TAAAAATACAGAAATTCTGAGATTAGAAAAAATGTGTACTTTGTCCCAAC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTTCATCTTTTCTTCATGTCATGAAATCAAGAAATGTTTTTTTAGATGAA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     ATCCTGTTTTTTATCCATTGGGAAATTTCCTCTCATTGAACATGAAAAAG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     AAATAATATCTGTCATAAACCAGTCTTAATATCAAGAATATAATGCAGTG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TATCTTTTCATTAAATATAACTATTATGTACTTTATCATGCATGCTCACT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TCATGGTGAATTTTATTATTAACGTGATTTAATATAATGTTAAAATATTA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     AATTAGTTGTACACTAAAGCAAAGTTTCCTTGAATCCCAGATTTTCTCCA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     AAACATTTCGAATATTTCTAAATAAATTTGTTTCAATTTTATTGAATACT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     AAACTGAAATTAGGATATTATTTTTATTTCTGCTATTATATCTAGAAATA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     ACTAAAAGTGTAATTAAATTGTTGTTTTTTTGAAATTTCTAGATATTTTT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TAGAAGTTCTTGTTTTTAGAAGTTCATGTGGAAGATTTATAAAATTAGAT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     AACATTAAAAATCTTTTAAACAATTTCTGGGTTGCCCATAATTACACAAT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     ACCCTATTCTGTAGTATCCCAAAATCTTTTAATTTTATGACAGAGAATAA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     CCAAAATTTTGCCAGTTTCAGGTTTGTATTAGTAACATGGATAACCGTGG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTACAATGTTACGAATGAGAAAAATGATCGAAGACTCAGTCTCTCTGGAA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TGGAGATGCCAGGTCTATACAGGTATTTAAAGGGACTGTAAGCGTAATTT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TAAGTGATCATCCATGCGAAGAGGGCAATGCCCAATTTACAACGGTACAC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTGACTGTTAATTGAAGACAGAACCTTTATGTGTAAATCTCGCAAATAGC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     GGTTTTATGACTGTAAAATACTATGTAAGCTGCATACAATGTAAACTCAA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     AAGGGTTGATCCATACTTACATTCCTAGTGTGTTCAAATATTTGATGTAG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     ATTAATAAAAGGTTAGTCAATAATAGTCAAAGGTTTAGGGCTACATTCAA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TAGAGAATTGTTAACTAATTATTCTAAATTACTTTATCATTATTTTCGTA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     GTCGAAGGGGCAGCAAGGCGCCACCACCTTTTGTGCCCGAAGTATCGGAA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     GATAGGGGAGATAGACGACTCAGCTTGTCTGGCATGGAATTGCCAATTCC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     ATACAGGTAGTTTTTTCCGGTCTTTATTTCTCAATGAAAAGTGCTCAGCT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     GCCATGCTCAATATTCACATCTGCCTTTTATTTTAAAGCAATTATCATAA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TCAATGAAAACATCTGATACATCTTTACTTGAAATCTCATTAACTCAGAC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     CAGATATTTATTGCTTCTAGTTGGTCAATGCTTCCATGCAGACATAGCTT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  ----------------------CACCACCTTTTGTGCCCGAAGTATCGGA
+NHA6-long                     TCTTTGAAAGAGAATTGACTCATAAATGTAGATTCGTGCTTTTAAATGAA
+                                                     *        *  *  *     *  * *
+
+NHA6_nucl_size=2127_strand=+  AGATAGGGGAGATAGACGACTCAGCTTGTCTGGCATGGAATTGCCAATTC
+NHA6-long                     ATAACAATTCAAAGGTCAGACCTCTTTTTAAAGGCTTCATAACCTCTCTT
+                              * *        *  * *    *   ** *   *  *  *    *    * 
+
+NHA6_nucl_size=2127_strand=+  CATACAGCCGAAGGGGAAGCAAATATCAGCCTGTGCAAGAACCTGTTCAA
+NHA6-long                     TATCTAGCCGAAGGGGAAGCAAATATCAGCCTGTGCAAGAACCTGTTCAA
+                               **  *********************************************
+
+NHA6_nucl_size=2127_strand=+  GAAACCTTTGAGCTCCCAGAGGATCCTCCCCCTGCCTACCAAGGCAATAA
+NHA6-long                     GAAACCTTTGAGCTCCCAGAGGATCCTCCCCCTGCCTACCAAGGCAATAA
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  AAAGGCCCCTGGAAAGGTCAAAAAGTCTTACAAGAGAGTAAAACAAGCAC
+NHA6-long                     AAAGGCCCCTGGAAAGGTCAAAAAGTCTTACAAGAGAGTAAAACAAGCAC
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  TTCAGAGTAATAGGATTACCTCAAACTTCTTTCCCCCAAAAGGAGAGGTG
+NHA6-long                     TTCAGAGTAATAGGATTACCTCAAACTTCTTTCCCCCAAAAGGAGAGGTG
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  GCAACGAACATAACTCTAATGATAGCAGTCGTTATCATATTTCTGTGTGC
+NHA6-long                     GCAACGAACATAACTCTAATGATAGCAGTCGTTATCATATTTCTGTGTGC
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  AAGAACAGTTTTAGGATCATATTCTGCTCTAGGGGGAACAATCTTTGCTG
+NHA6-long                     AAGAACAGTTTTAGGATCATATTCTGCTCTAGGGGGAACAATCTTTGCTG
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  TCTTCATTCTAGTATTCTTTGCTTTGGTAGCTGGACAGATAGTTCTTCAG
+NHA6-long                     TCTTCATTCTAGTATTCTTTGCTTTGGTAGCTGGACAGATAGTTCTTCAG
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  CTTGCAGCAATAATATCCAAGCTTGCAGGGTTTGATATTCGCATCCCACA
+NHA6-long                     CTTGCAGCAATAATATCCAAGCTTGCAGGGTTTGATATTCGCATCCCACA
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  ACTACTTGGAATGATGGCTGTTGGAATCTTTTGTAAAAATGTTCCGTACA
+NHA6-long                     ACTACTTGGAATGATGGCTGTTGGAATCTTTTGTAAAAATGTTCCGTACA
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  ATTCCCATGAATTCAACAGCCCAGAATGTCTAAACAGATCTTTGACCCAT
+NHA6-long                     ATTCCCATGAATTCAACAGCCCAGAATGTCTAAACAGATCTTTGACCCAT
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  AGTGATCTTCATGAAGATGTTCATGGAAATGAAAGTCATTTGATTCTGCA
+NHA6-long                     AGTGATCTTCATGAAGATGTTCATGGAAATGAAAGTCATTTGATTCTGCA
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  TGGTGATACCGACTTACATCACTTAAATGTACATGGAAAAATAATGGACA
+NHA6-long                     TGGTGATACCGACTTACATCACTTAAATGTACATGGAAAAATAATGGACA
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  TTCACGCCTCTTTCAATGAAGGACATGCTAAAATCGTTGAACACCTGAAA
+NHA6-long                     TTCACGCCTCTTTCAATGAAGGACATGCTAAAATCGTTGAACACCTGAAA
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  AATTCTACATTCAGTTCAACAGCTGAAATAAATCATAATGACCATCCAGA
+NHA6-long                     AATTCTACATTCAGTTCAACAGCTGAAATAAATCATAATGACCATCCAGA
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  ATCTATTGGATCAACTAATAATACCCATGAAGATAAATTAGATACTCACA
+NHA6-long                     ATCTATTGGATCAACTAATAATACCCATGAAGATAAATTAGATACTCACA
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  CTAATGGAGAAGGATTTAAGCCAATTCCAGATTCTGAAAATCATCATCAT
+NHA6-long                     CTAATGGAGAAGGATTTAAGCCAATTCCAGATTCTGAAAATCATCATCAT
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  CGAGCAAGACGAAGTGGAGGTCATGATGAGCCTGTTGTATACCGTGATCC
+NHA6-long                     CGAGCAAGACGAAGTGGAGGTCATGATGAGCCTGTTGTATACCGTGATCC
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  TTGTGTTAAGAGATTTATTGGAAATGATGTTGATCCAACCGTCAAAACAA
+NHA6-long                     TTGTGTTAAGAGATTTATTGGAAATGATGTTGATCCAACCGTCAAAACAA
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  TCTTAAGATCTGCATGCTTAACATGTATTCTTCTGATGGCAGGTCTTGAA
+NHA6-long                     TCTTAAGATCTGCATGCTTAACATGTATTCTTCTGATGGCAGGTCTTGAA
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  TTGGATCCTCCACAACTATGGAGACTTAAATGGATTGTACTGAGAACTAC
+NHA6-long                     TTGGATCCTCCACAACTATGGAGACTTAAATGGATTGTACTGAGAACTAC
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  CTTCATACCTTGCATAGTAGAGGCATTTGCTGCTGCCCTGTTTTGTTATC
+NHA6-long                     CTTCATACCTTGCATAGTAGAGGCATTTGCTGCTGCCCTGTTTTGTTATC
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  TGATCCTTGGATTTCCCTTTCTTCCTGGACTATGCTTTGGATTTGTTCTC
+NHA6-long                     TGATCCTTGGATTTCCCTTTCTTCCTGGACTATGCTTTGGATTTGTTCTC
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  TGCGGAGTATCTCCAGCTGTTATTATTCCAGGATTGGTGAATCTTAGTCA
+NHA6-long                     TGCGGAGTATCTCCAGCTGTTATTATTCCAGGATTGGTGAATCTTAGTCA
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  GAGAGGATACGGAGTAAAGAAGGGAATACCAACACTGGTTATTGCAACAT
+NHA6-long                     GAGAGGATACGGAGTAAAGAAGGGAATACCAACACTGGTTATTGCAACAT
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  GTTCTGCTGATGATCTTGTGGCTATTGGAGGATTTGGAATAGCTGCTGGA
+NHA6-long                     GTTCTGCTGATGATCTTGTGGCTATTGGAGGATTTGGAATAGCTGCTGGA
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  ATTACTTTTAATCCTGATGCATCAATATCTGATCTTGCCAGCCATGGACC
+NHA6-long                     ATTACTTTTAATCCTGATGCATCAATATCTGATCTTGCCAGCCATGGACC
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  TCTTGAAGTGCTCTTGGGGATTGCATTTGGAATATTCTGGGGATACATCT
+NHA6-long                     TCTTGAAGTGCTCTTGGGGATTGCATTTGGAATATTCTGGGGATACATCT
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  GCCAATGGTTTCCAAGCAAGCAGAATGCAAACTATGTGTTCTTCAGATGG
+NHA6-long                     GCCAATGGTTTCCAAGCAAGCAGAATGCAAACTATGTGTTCTTCAGATGG
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  GTCATCCTAACAGCAGGAGGTCTGTTTGCTCTGTTTGGAGCACATATGAT
+NHA6-long                     GTCATCCTAACAGCAGGAGGTCTGTTTGCTCTGTTTGGAGCACATATGAT
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  CCATTATGATGGAGCTGGAGGTCTGGCTTGTGTGATTATGGCATTTGTGG
+NHA6-long                     CCATTATGATGGAGCTGGAGGTCTGGCTTGTGTGATTATGGCATTTGTGG
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  CCTCTATTCAGTGGAGAAGAGAAGGGTGGGGAGATCATAACCCTGTTACA
+NHA6-long                     CCTCTATTCAGTGGAGAAGAGAAGGGTGGGGAGATCATAACCCTGTTACA
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  GATATCTATAACAAGGTCTGGATTATCTTGTCTCCAGTTATCTTCTCACT
+NHA6-long                     GATATCTATAACAAGGTCTGGATTATCTTGTCTCCAGTTATCTTCTCACT
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  CATTGGAACCAATATCAACGCAGAAAAGATGGACGGGGCAACTGTAGGAT
+NHA6-long                     CATTGGAACCAATATCAACGCAGAAAAGATGGACGGGGCAACTGTAGGAT
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  TGGGTGTTGCTGTACTTTTCTGTTGCTTTATAACCAGAGGATTTTTTACT
+NHA6-long                     TGGGTGTTGCTGTACTTTTCTGTTGCTTTATAACCAGAGGATTTTTTACT
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  TTTTGGTCTGCGGTTTGTGGAGGGTTAGACACAAAAGAAAAAATCTTTCT
+NHA6-long                     TTTTGGTCTGCGGTTTGTGGAGGGTTAGACACAAAAGAAAAAATCTTTCT
+                              **************************************************
+
+NHA6_nucl_size=2127_strand=+  TGCTGTTGCTTGGCTTCCAAAAGCAACAGTCCAAGCAGCATTA-------
+NHA6-long                     TGCTGTTGCTTGGCTTCCAAAAGCAACAGTCCAAGCAGCATTAGGTGATT
+                              *******************************************       
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     AAACATAATAATAATAATATTTTATCAATCATTTATAATTAAAGTTTTGA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  -----------------------GGTCCTGCGTTCTTGGAAAAGGCGATT
+NHA6-long                     TTATTTCTAATTGCCATGATTAAGGTCCTGCGTTCTTGGAAAAGGCGATT
+                                                     ***************************
+
+NHA6_nucl_size=2127_strand=+  TCAGCAGGACTTACGGATTTTATAC-------------------------
+NHA6-long                     TCAGCAGGACTTACGGATTTTATACCTGTAAGTAAATTTAACCTTTGTTA
+                              *************************                         
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TAGCATGGACATTGGACAGTGTTGAAGCATTACCATACTTGTTATCAAAT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     GTTCTTTTTGTGTGGTTGTCTTTCACATATGTTTATTTTATCAATAATAA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTAATTAATTTTATGTCAAGCTGAGATTTTTTTTAAAAGCCTTTCCTAGA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     CTTGATTCTAATTTGTACTCATTTGACCAATGATATAATGCATAATGGTC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TACATAATCAGCTGACAAATCTAGGTTGGCTCAGTATAAATTTCGAAAAT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTACATATGTATATTATTGTGTTTATTGTATAAATCTAGCAAACTTCAAC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     ATGACAGATAATTATCAAGATTTTAAATGTAAACACATACTAAATTATAG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TATTTATGAAATTTACGATTTTACTGAAGCCAAGTCAAACCAAAACTCAG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     GTTTGAGCTTGAGCTTTACTAAAGAATAAATAGACGCTAAGACCGGGTTT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TACTCAAGCTTTTAAGATCTCAGCTCTGATCAAATATAATGATGAATTTA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     ATTTGAAATTGGTGGCAAGCTCATTTATTTAAACACATATTAATATAACG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  ----------------------CTATGGGAGAGACGATTCTCACTATGGC
+NHA6-long                     CCAACTTTATTATAAATATTACAGATGGGAGAGACGATTCTCACTATGGC
+                                                      **************************
+
+NHA6_nucl_size=2127_strand=+  AGTTATTTCCATAGCTATAAGCGCTCCCATCGGCGCCA------------
+NHA6-long                     AGTTATTTCCATAGCTATAAGCGCTCCCATCGGCGCCATTCTCATCCTAG
+                              **************************************            
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     CGCTTGGACCTGTTCTGCTACCAAATGACTTTGAGGATAAAGAGGATGAC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     CCAGAAGACAATACTGATAGAGAGGGTATCATTGAAAACATGAAAGAGGT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TGTGCATCACTAAGCCTTCAGTTTGGGATATCATGCTGGGCTTTTATGAT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     AAAAAAATGGCAATTAATGATTCCTTGTTAAGTTTTCTACAGTTTGTAAC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTTCATCATAATTCCTTTATTTTACTATTTTTACTTTTTATCAAAATATT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TCTCTTTAACTTTTTAATTTCTATGCAACCTTCTTACACATCAAAATAAA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     CAGATATGTAAGAAAAAGGGAATTGCAAAATAAAATGTAATTTATATGCG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TATATTAAATATTTACATTCAGGACTATATCTATGTTTTTTATATATTAT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TGTTCATTAGTCTAGATATTTGTTGAATTAAATGTTTAAATATTATATTA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTCTGTATTCTACAGCCTTCAAGTTCCACTTGTCAATCAGCTTGAAGAGT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     CTACAGTATTACCCACAAAACCTAACACTTGAATGACGACATAAAACTTG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTAAATACAATATATTAAAAGTTAAATTTGGTCTTTTGCCTTAAATGTCG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TCTTCTTCCATAATATGTCACGTTGTTTGTTGCCAAAGAGAATAATACTA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     AATATTTTATGGCATCCATATTATAGTAAAATTGATTTCTAAGTAAAATA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TATTTGAGCAAAGTTTTTTTTCAATTAAATAAACTGCAAAAAGTCTTAAA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     GTTCTAATACGGCATATGGAAGAAGACATTCAAAACTATTCACCAACTGT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     CATGTTTCGTGGGACACCCTGTACGTGCTTAATTTTATTTAAATACTTCT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     GAAGGTTACACATTCTTCAGCTATGTGCCAGCTGGTTTCTTGGGTATTGT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTGTTTAGTGTGAAAAATACAGCTTCATTAATCCTTTCACTGTAAACTCT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     GTCTCATTTTTAATACCGAGCCGACTTTTAAGCAGCAGGCGCTAGTTCAC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     GGTGAACTAGAGGTCCTAGACAAAAACCAAGTGAGTACATACTTTAGAAC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     CCATTTTCACCCATTAAGCGTATATTTGTCACATTTGCTATTAACACTTT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTTCAATATATCTAAGGACAAGTTATTTTACGTTAACTTTGACAGATTTT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     GAATGAGAGATCAAAATATGACTGATAATAATATGCCAATACAGACAGGA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TGCACTTCGTTGTATTTAGTTTCACGTGAGTGGTACTCTGTACACTACAG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TACAAACTTACAAATGAATGAGAACACAAAACTGTTTTAAGTTTTATTTA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TGCATACATTTCTTGATTTTTATTTAGGGTAGAACTTGTATACAATTTTT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TCAACCATGAATGAAACGATAGCAAGTGGAATCATTAGTCCATATAGCAG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     AAAGGGAACCTGTAATGTAAACTGTACTGGAGGTGTGAGTCAAAAGTAAT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TAGTGTTATAAGCGTAGTCTTAATAAAAAAAACTGTTTTTAGTTCTTTTT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     AGTATTTTTGCAATATGTTTTATATAATGCATTTTATTTTCGGAACCTGC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     ATGACCCAACAAAATCGAAAATTTATTTTTTTATTATAACTATAAGAGTA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     GAAAAAATATTATTTCTATCAAATCCTAAAATCCAAGAGAGTGTTTGTAT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     AAAATTTAATGATCTAATTCAATGAATCTTTATACTTTCCCAAAGGCGTT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTCCCAAGCGGCAGCTTCCCAAGGTGATTTTCCCTAGTGGCAACTTCCCA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  ---TTCTCATCCTAGCGCTTGGACCTGTT---------------------
+NHA6-long                     AGCCGCAGTGCTCGGCCCCCTAGCCTGTTCTATCCGCAGCGCTCATCCCC
+                                   *    *   ** *     ******                     
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTTCCCATCCTAGCCGCAGCGTTTATCCCCACGCCAGTGCAGCTTGCTGC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     ACCTCAGAAGACCTCATGACCCGACAGCAATTATTCTTTTGAAGAAAATA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     GGAATTTGGAGAATTTCTCCGGCTCATATTTTCTACAAATGTAAAATAGC
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TGTCGGAGTATCGGGTCATGGTATTTTAATTCTGAACATTACCTGAAATT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     GTTGAAGACCCTGGGTGGAGAACTGTTGTTTGGCATTTACTAAAAAATTA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     ACTATTGGATAACCGGTACAGTAAGGCCAAAAAATATGCGAATTATGAAG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  ------------------------------------------------CT
+NHA6-long                     ACGACATTTAATTACAATCATTTGAGAATTTATGTTGTTCAAAAGCAAAT
+                                                                               *
+
+NHA6_nucl_size=2127_strand=+  GCTACCAAATGAC-------------------------------------
+NHA6-long                     AGTCTAAAGTGACTGTAGCCGCAATTTTAATTAGTTTAAAGTGATTGTAA
+                                *   ** ****                                     
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     GCGTATTTTTTAAATAGTCTAAAGTGACTGTAGGCGTAATTTTAATTATT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     CTAAAGTGACTGTAGGCGTACTTTTTAATAGTCTAAAGTGACTGTAGGCG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TAATTTTAATTAGTCTAAAGTTACTTTAGTTGTAATTTTAAAAAGTCTAA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     AGTGACTGTAGGCATAATTTTTAATAGTCTAAAGTGACTGTAGGCATAAT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TTTTAATAATCTAAAGTGACTGTAGGCGTAATTGTAAATAATCTAAAGTG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  -------------TTTGAGGATAAAGAGGATG------------------
+NHA6-long                     ACTGTAGGCGTAATTTTAATTATTCTAAAGTGACTGTAGGCGTAATTTTA
+                                           *** *        *   **                  
+
+NHA6_nucl_size=2127_strand=+  --------------AC----------------------------------
+NHA6-long                     ATTATTCTAAAGTGACTGTAGGCGTAATTTTCAATAGTCTAAAGTGACTG
+                                            **                                  
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     TAGGGGTAATTTCAATGAGTCTAAAGTTACTTTAGTTGTAATTTTAAAAA
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     GCCTAAAGTGACTATAGGCGTAATTTTTAATAGTCTTAAGTGACTATAGG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  -------------------------------------------------C
+NHA6-long                     CGTAATTTTAAATAGTCTAAAGTGACTATAGGCGTAATTTTAATCAGTCT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  CAGAAGA-------------------------------------------
+NHA6-long                     AAAGTGACTGTAAGCGTAATTTTAAATAGTATAAAGTGGCTGTAGGCATA
+                               *   **                                           
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     ATTTTAAATAGTCTAAAGTGACTGTAGGCGTAATTTTAATCATTCTAAAG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  ------------------CAAT------------AC--------------
+NHA6-long                     TGACTGTAGGCGTAATTTTAATAATTTTAAAGTGACTGTAGGCGTAATTT
+                                                 ***            **              
+
+NHA6_nucl_size=2127_strand=+  ------------------TG------------------------------
+NHA6-long                     TTAATAGTCTGAAGTGACTGGAGGCGTAATTTTAATTAGTCTAAAGTTAC
+                                                **                              
+
+NHA6_nucl_size=2127_strand=+  -------------------------------------------------A
+NHA6-long                     TTTAGTTGCAATTTTAAAAAGCCTAAAGTGACTATAGGCGTAATTTTTAA
+                                                                               *
+
+NHA6_nucl_size=2127_strand=+  T---------------------------------------AG--------
+NHA6-long                     TAGTCTAAAGTGTTTATAGGCGTAATTTCAAATAGTCTATAGTGACTGTA
+                              *                                       **        
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     GGCGTAATTTTAATTATTCTAAAGTGACTATAGGCGTAATTTTAATTGTT
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA6-long                     CTAAAGTGACTGTTGGCGTAACTTTTAAAAGTCTAAAGTGACTGTAGGCG
+                                                                                
+
+NHA6_nucl_size=2127_strand=+  -----------------------------------------AGAG-----
+NHA6-long                     TAATTTTAATTAGATTAAAGTTCCTTTAGTTGTAATTTTAAAAAGCCTAA
+                                                                       * **     
+
+NHA6_nucl_size=2127_strand=+  ------------GG------------------------------------
+NHA6-long                     AGTGACTATAGGCGTAATTTTTAATAGTCTAAAGTGTTTATAGGCGTAAT
+                                           *                                    
+
+NHA6_nucl_size=2127_strand=+  ----------------------------TA-------TC-----------
+NHA6-long                     TTTAAATAGTCTAAAGTGACTGTAGGCGTAATTTTAATCAGTCTAAAGTG
+                                                          **       **           
+
+NHA6_nucl_size=2127_strand=+  ----------------------------------------------ATT
+NHA6-long                     ATTGTAGGCGTAATTTTAAATAGTCTAAAGTGACTGTAGGCGTAATTTT
+                                                                             **
+
+
+

@@ -1,0 +1,808 @@
+CLUSTAL FORMAT for T-COFFEE Version_13.45.0.4846264 [http://www.tcoffee.org] [MODE:  ], CPU=0.02 sec, SCORE=795, Nseq=2, Len=10031 
+
+NHA8_nucl_size=_strand=+  ATGGT-------------------TTT---------CA------------
+NHA8-long                 TCCAAATTTCGCGAGCATCAATATCTACACTCTGGACAGAAACCGTTTAA
+                                                   *          **            
+
+NHA8_nucl_size=_strand=+  -------------GGTT-------GGCGTT--------------------
+NHA8-long                 TTGCGATTTTTGCGGTCGGATGTTTGCATTGCGAAAATATGTTCGCAAGC
+                                       ***         ** **                    
+
+NHA8_nucl_size=_strand=+  ------------------------TTTCCCT----------TGTCTGGT-
+NHA8-long                 ATTGTCGACTAGTTCACAATACTGAATCCCTGATTCATACTGGCCTGGAT
+                                                    *****           * ****  
+
+NHA8_nucl_size=_strand=+  --------------------------TGAAGC------------------
+NHA8-long                 ACATTTGAGGGTATTGAAGAGTATGATGAAGCAATGTTGGAGAAAAAATC
+                                                    ******                  
+
+NHA8_nucl_size=_strand=+  ------------------------------AACTGTGGT-----------
+NHA8-long                 CGATTTCAACATTGATTATGAATCCAAGGCAACTTTGGATCCCGTAGAAC
+                                                        **** ***            
+
+NHA8_nucl_size=_strand=+  -------GGCTA-----------------TCT------------------
+NHA8-long                 CTTGTAAACCTAAACTGTCCTGTCGAATACTTCGTTGTTCAACCTGTGGA
+                                   ***                   *                  
+
+NHA8_nucl_size=_strand=+  ----------------------------------------CTAGTCAT--
+NHA8-long                 CTGGAGTTTAAAAAGAGATCATACTTAAAACAACATGAGTTTACTCACAC
+                                                                   ** ***   
+
+NHA8_nucl_size=_strand=+  ------------CT------------------------------------
+NHA8-long                 GGGGTTAAAACCCTTCTCATGTTTTGTCTGCGGTGATAAGTTTGCATTTA
+                                      **                                    
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AGAGATATGCTCTACGGCATTTGCGAAAAAGGCACGGAAGTAACTCCAAC
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GACTTAGTGGTTAAAACAAACGAAGACTCGATGGCTTTGAGTTCTGTAAA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GAGCTCTACATATTTGAAACTGGTGAAGTCTAAAGAATCCAATATATTTC
+                                                                            
+
+NHA8_nucl_size=_strand=+  ----TCTCCTTGGG----------------------TTCCC---------
+NHA8-long                 ACTGTGTCCTTGGAGCTAAGCTAGCAGAAAAGCGGAATCCCAAACAATCT
+                              * *******                        ****         
+
+NHA8_nucl_size=_strand=+  ----------CTGG---CTCT-----------------------------
+NHA8-long                 CGGCGAAAGTTTAGCTGTTCTAAATGTGGACTGAAATTCTTTAAGCAGAG
+                                     * *    ***                             
+
+NHA8_nucl_size=_strand=+  ------GGGGATTCATG----------CTCG-GGTT-----------CAT
+NHA8-long                 CGGTCTTCGGAATCATGAGTTTCTTCATACGGGGTTAAAGCCATTTTCAT
+                                  *** *****            ** ****           ***
+
+NHA8_nucl_size=_strand=+  C-CTA---------------------------------------------
+NHA8-long                 GCCTACTTTGCACCAGAAACTTTGCACTTGAAGATTATATTCGAAAACAT
+                            ***                                             
+
+NHA8_nucl_size=_strand=+  -------------------G--------------CTG-------------
+NHA8-long                 TTAAAAAGATTTCATAATAGGACAACATCTGAAGTTGGAGAATTGTACAG
+                                             *               **             
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 CAACGATTCTTTACCTCAAGAACTTTCAAGTGACAAGATAAAAATGGATT
+                                                                            
+
+NHA8_nucl_size=_strand=+  ----------------------------CAGTATCTCCTGCAGTTGTTGT
+NHA8-long                 CTACAACCTTTAAATCCAACGCGACGACCAATTTTTCCTGCAATTTTTGT
+                                                      ** * * ******* ** ****
+
+NHA8_nucl_size=_strand=+  GCCAT---G----------TCTTCTCTCCCT---------TCAG----GA
+NHA8-long                 GACAGAAAGTTCTCTTTTGAATTCTCTCGAATCCAACATTACAGACGGGT
+                          * **    *            *******             ***    * 
+
+NHA8_nucl_size=_strand=+  A--------------------CGA--------GGGT--TCGGAGT-----
+NHA8-long                 ACATGGAGCAGAGATGGGTAAAGATGTTACTAGTGTGAACCCAGTTAAGA
+                          *                     **        * **   *  ***     
+
+NHA8_nucl_size=_strand=+  -AGAGAAGGGA---------------------------------------
+NHA8-long                 AAGAGAAGGGAGTTGACACTGACAACACTAATGCAGGTCAGGATATAAAG
+                           **********                                       
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GAGGACCAAGATTTAATTTATACTAAGGACCAAGTTATCAAACATGAGCA
+                                                                            
+
+NHA8_nucl_size=_strand=+  -----ATA------------------------------------------
+NHA8-long                 CGCAAATATCCATCTTGTCAATCCTGATATCCAACTACAGGAGCCAGAAA
+                               ***                                          
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TCCGTTTTAAGGACCTTGTTATGAAGACAAAGGACACAGATACACAACTC
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GTGGACCCAGATATCCAACTCGTGGACCCAGGTATCCAACTCAAGGACCC
+                                                                            
+
+NHA8_nucl_size=_strand=+  ----------------------------------------CCTACACTAG
+NHA8-long                 AGGTTTCAAACTCGTGGACCCAGGTAACCAACTTGTGAAACCTG------
+                                                                  ***       
+
+NHA8_nucl_size=_strand=+  TAATAGCAGCGGCTAGTGTTGA----------------------------
+NHA8-long                 ---------------------ATACCCAACTTATGGACCCAGATATTCAA
+                                               *                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 CTCGTGGACCCATATATTCAACTTAAAGATAATATGAAAATGGAATCTAA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AACTTCAAACGAAGTAATGAACCAATTTGGCTGTAAGTTTTGTGATAGTA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AGTTCTCTTTCAAATTCTCCCGAATCCAGCACTGTAAACGGGTACATGGA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------TGATGTA--------------------------CT-
+NHA8-long                 GCAGAGATGGATAAAGATGTAACTATTGAGATCCTAGGGAAGAGAGATTC
+                                         ******                           * 
+
+NHA8_nucl_size=_strand=+  ----------------------------CGCGATATCT------------
+NHA8-long                 GACGGGTGACACTGACTGCAATGGAGGTCAGGATATCTTGAAGCATGAGG
+                                                      *  *******            
+
+NHA8_nucl_size=_strand=+  ---------------------------GTGTTC-----------------
+NHA8-long                 ATATGCAGCAAAACAGGATAAATATCGCGGTTCAAGGTTTGAATTACGAG
+                                                       ****                 
+
+NHA8_nucl_size=_strand=+  -----------ACA------------------------------------
+NHA8-long                 AATCAAGATTTACAAAATGTGGACGTTGGTAACAAACTTAGAGACAATAT
+                                     ***                                    
+
+NHA8_nucl_size=_strand=+  ------------------------ATCCTACTTGGAGTAA----------
+NHA8-long                 AATAATAGATTCAAAGACTGTCAAATCC-----GAAGTAAGGGACCAATT
+                                                  ****     * *****          
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TCCTTGCGAGTTTTGTGGCAAAAAGTTCTCACTTAATTTCTTTCGAATCC
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------CCTTTAATA-----------------------CAAACCAG--
+NHA8-long                 AGCACTGTAAACGGGTACATGAAGACGAGATGGGTGAAGAAGAACCAGAG
+                                         **                         ******  
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 ATTGATGGTTCCAAGAACACAGATATCCAACATGAGAACCCAGATATTCA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GTTAGAGGACACAGATATCCAACTGGACGACACTGATATCCAACTTGAAG
+                                                                            
+
+NHA8_nucl_size=_strand=+  -----GATA-----------------------------------------
+NHA8-long                 ACCAAGATATCCTACATGGAGGCCAAGAGAAGTCTGATATCCAAGAGAAC
+                               ****                                         
+
+NHA8_nucl_size=_strand=+  ------------------ATCT----------------------------
+NHA8-long                 ACAGATATAGAAAATGAGTTCTCGGCATTTCAGTTTGTAGAACAGGACCG
+                                             ***                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TGAAAATGTTGATATTTCATTTATGGAAGGAATCTATGACAATGAAGATG
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------CTACCAGCTGATCCT---------------------
+NHA8-long                 GATATGAAAATAATGTTGAATCTGATCCTGAAACCCCGGAAGAGGATGAG
+                                         *   * ********                     
+
+NHA8_nucl_size=_strand=+  ---------------------------------CCA--------------
+NHA8-long                 GACGAGCAACATGGAGTTGAAGTTGATGATAATCCAAGGAACAGCAATAA
+                                                           ***              
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AAAGTGGACTGTCATATTCTCAAATTTTTCTGTAAATGATGCCCTCAAGT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TCTTTGATGAAAATTATCCTCATCTTGGTGAGTGATTCGGTGGTATCTTA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------GGGTCCTTTAGA------
+NHA8-long                 TTAAATGTGTCGTGAACCCTCCTTCCCCCTCAATTTCTTTCAGAAAAGAA
+                                                             ** ** ***      
+
+NHA8_nucl_size=_strand=+  --------------GGCCA--------TAGTCGG----------------
+NHA8-long                 AAATATCCTTCCGTGACTATTCTATCTTAGTCGAACTTGGAATCAAGAGA
+                                        * * *        ******                 
+
+NHA8_nucl_size=_strand=+  --------------------GGTCCTGGGAGG-----------------A
+NHA8-long                 GTTTAATCTTGTTGAGAAGGTGAGCAGGGAGGGGGATCAGAAGAACTGTA
+                                               *  * ******                 *
+
+NHA8_nucl_size=_strand=+  TTTATCTGGGGAGTTCTAGTCATC-----------------TTT------
+NHA8-long                 TTTAGGATATCTATCTTAGTCAGCTCATTGAATTTTTTTCCTTTCTATTT
+                          ****         *  ****** *                 ***      
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AGCGAGAATATATGTTATTTTTCACCGTATTTACAGTTCTGACAAAAAAA
+                                                                            
+
+NHA8_nucl_size=_strand=+  -CTGCCTCCTT---------------------------------------
+NHA8-long                 AAATACCCCTTTATGACACTTTGTTTGTTCTGATATCTATAATTTTAAAA
+                               * ****                                       
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTTTGAAATACTTTTTGAACTGTTTGTATTTTATTGTTAAATTCTAATTT
+                                                                            
+
+NHA8_nucl_size=_strand=+  ------------------------------------------CGC-----
+NHA8-long                 ATATAATTTAGTAACCTGTTTGTTCATTATAGTGTTAAATTTTGCAATAA
+                                                                     **     
+
+NHA8_nucl_size=_strand=+  ----CA--------------------------------------------
+NHA8-long                 GAACCAAATATAGATTTAAAGAAAATGTAAATAGGACTAAGAGATTGATT
+                              **                                            
+
+NHA8_nucl_size=_strand=+  -------------------CATCCCAATGT--------------------
+NHA8-long                 AATTTTCCTAGTTAAAATAAATTTCAATGTAAATTTTTCAAACATTTGAA
+                                              **  ******                    
+
+NHA8_nucl_size=_strand=+  ----------GTTGTTAA--------------------------------
+NHA8-long                 ATGTTATTTTTCTGTTAACAGACTTATCGTGTGTGTTTTGTTATAGAAAT
+                                      ******                                
+
+NHA8_nucl_size=_strand=+  ------------------------------GAGTTG--------------
+NHA8-long                 GTACATTTTACATATTGTAAATAGAAATAAAAGTTGGTGATTCAGTTATC
+                                                         *****              
+
+NHA8_nucl_size=_strand=+  ---------------TGCTGTTGTTTGG-TGGGAG---------------
+NHA8-long                 AAAACCCTGACAAAAAATCATTGTTTGAAAGGGAGAAAAAATGCAATTTT
+                                              *******   *****               
+
+NHA8_nucl_size=_strand=+  -------------------------CT-----------------------
+NHA8-long                 ACCATTCCATACATACAGAATACAACTTTAGACTGTTGATATATTCTTAC
+                                                   **                       
+
+NHA8_nucl_size=_strand=+  TGTT------------------TGCTC-----------------------
+NHA8-long                 TGTTTAAACATCTTACTTTTTCTGCTCGTAGGTTTATAATGTGTTGCATT
+                          ****                  *****                       
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTATTTTAAATAAATACACTAATAAATTTATTTCGATTATTGAAGCGGAG
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GTTAATATTTTTTTTTATTTTTTTTAGCCATTGAAATAAACAAGCGAGTT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 ATTTATTCAATATACTTAAAATATATTTTTTAAGGAAAGGAATATTGCTA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AACAAAAGTTTGTGGGAATATTAAATTATTAAAATATTGGTGTAGATTGT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTACGTGTTATATATTAAGTTCAGTCGCTTAGCTACTAAGCAACATCCTA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------TCTTT---GGGAG----CG----CAATG--GCGGGG
+NHA8-long                 TGTTTAAGCTTCGTCCTTTAAAGGGAGTGTTCGCGAAAAATGAAAGGGGG
+                                         ****   *****    **     ****    ****
+
+NHA8_nucl_size=_strand=+  T---------------------------T---------------------
+NHA8-long                 TATAGGCTTAATGCGATAAAAAAGCGATTTTGATTGCTACTAATCTTACT
+                          *                           *                     
+
+NHA8_nucl_size=_strand=+  ---TCCTG-------------GAG------------------------C-
+NHA8-long                 TCTATCTGTTGCGTCTATAAGGAGAAAATTGTTAAAAATGACTAATACCG
+                               ***             ***                        * 
+
+NHA8_nucl_size=_strand=+  ------G-----------------------GGAGC---------------
+NHA8-long                 AAGAACGTAGTGTCCATACAAATTCAGAAAGATGCAACATTCAACTTTTT
+                                *                       *  **               
+
+NHA8_nucl_size=_strand=+  ---------------------------------------CTTGG-GGGT-
+NHA8-long                 CACTATAGAAGAATGTGGAAAATAAAGTTGTTTTTCTATCTTGAAGTGTT
+                                                                 ****  * ** 
+
+NHA8_nucl_size=_strand=+  ---------------------TCTAGTTC--TA-----------------
+NHA8-long                 AAATTTCGATAATTCTTACATTGTATTTCTGAAGCAGAAATACGCATGTC
+                                               * ** ***   *                 
+
+NHA8_nucl_size=_strand=+  -------------------------------------------------G
+NHA8-long                 ACTGTTTAATAAAACCACAATTAAAAATAATCAGTTTTCAAGATTGTAAA
+                                                                            
+
+NHA8_nucl_size=_strand=+  CAT-----------------------------------------------
+NHA8-long                 CATTTAAATCTTATTGAATTTTGATCCGATAAAGGGAACTGTTGTGAAAC
+                          ***                                               
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GGGCGTTGCCATCTTTGCATAGAGGTTACATTCCCTTTAATTAATTAATC
+                                                                            
+
+NHA8_nucl_size=_strand=+  ---TTGTCGCAGGATTAGGGTGGAGGCGGCAGGGTTGGAAGGAGGATAAT
+NHA8-long                 CTATTATCTCAGGATTAGGGTGGAGGCGGCAGGGTTGGAAGGAGGATAAT
+                             ** ** *****************************************
+
+NHA8_nucl_size=_strand=+  CCAGTTTCCCAGACCCTCGCTCAAATGTGGATTATTTTTCAGCCTCTGCT
+NHA8-long                 CCAGTTTCCCAGACCCTCGCTCAAATGTGGATTATTTTTCAGCCTCTGCT
+                          **************************************************
+
+NHA8_nucl_size=_strand=+  CTTCGGGCTAATCGGGACAGAGATCCAGG---------------------
+NHA8-long                 CTTCGGGCTAATCGGGACAGAGATCCAGGTAATTTCATGAGCTCAGGTCG
+                          *****************************                     
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AAACTTTTGTATCATTAATCTCTAAAAAATTCTTAATCTTTACCTATTGT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TGTCCACCGGATTAATTTAAAATAAGACTAAATACTGTTTTTTTATTTTT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TATCTTTAAAGAGTGAAGTTACAATTTTAAGAATAAACCCCACACCCCGA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GCTGGGGGGGGGGGTGTATGGGGCGGGGATGCTTTAAAAATCTAAAAATA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AACGAAAAATAAGACTTCAAATGGTATTTTTTTTCATCCATTCCCTATTG
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 ATACATCTTACTCAAAAATTTATTTATTTTCCTTAATCTAGCAAATAAAA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 CCCTTAAAAATATACCCAACTTCTGTGGGGGGGGGGGGGTAAATTATTTC
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AAAAAGGGGGAATGATTTTTCCAGAAAATATACACCCTTGTGCAGATTTA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 ACTGTCTTCAATATGTTTGCATTCAGGGTTTTACACCGAATAGGATAATT
+                                                                            
+
+NHA8_nucl_size=_strand=+  -------------------------------------TGGATAAGTTAGA
+NHA8-long                 TGTATATAATACATCGATTAACTCTAGTTCATTAAGGTGGATAAGTTAGA
+                                                               *************
+
+NHA8_nucl_size=_strand=+  TCCGGAAACCGTTGGCTTAGGAATAGGAGTGCTCGTGTGTGGACTTTCTG
+NHA8-long                 TCCGGAAACCGTTGGCTTAGGAATAGGAGTGCTCGTGTGTGGACTTTCTG
+                          **************************************************
+
+NHA8_nucl_size=_strand=+  CGAGACTTGTTTTATCTTATATTTCGGTTCTGGGAGGAGATGTTAATCAC
+NHA8-long                 CGAGACTTGTTTTATCTTATATTTCGGTTCTGGGAGGAGATGTTAATCAC
+                          **************************************************
+
+NHA8_nucl_size=_strand=+  A-------------------------------------------------
+NHA8-long                 AGGTATTTTATTTTCCAGGGGTATCTATTTTCTTTAAAAATTATCCCTCC
+                          *                                                 
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TCGCCCCCACACTTTGTTGAAAGGAGAAAAAAGGTAACAAAAACTAAATA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTTAGAGGAAAAATATCTTGAAAAAGGTAGAATCTTCAATAAAAGCCCAA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 ACTTTTATATTTTACTCCAAATCAAAAGTGCTAATTCTGAAAACATATGA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTGTTGGTTTTTTTCGAAGCCGATGTCGATATTATTACCTAACCCTGGAT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTGCAAACTGGCAGAATAATTTCAGTAAAAAAGAAGCCGGATGCACTTTT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GACAATTATTTAAAAACATATTGCTTTGAGTTTTCTTTTCACACACTAGA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TCCGGATCCGTTGGAGAAATTAAATCATAAAGAAATGTTCATGACCTGTG
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 ATCAGGATCCACTTTTTTCAAGTGCTGATCCAGGATCCGCATCCGCATCA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AAATTAAATGGATCCTAAGCACTGGATAAAAGTTAGTATTTCTCAGTGCT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TAGGATCCATTTAGTCTTGATGCGGGTTCGGATCTGGATCCTGGATCCGC
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TCTGGAAAAAATGGATCCGGATCCAGGTTATTTTTAAAAAATTTACTGAT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTTTGTATCAAAGCAGAATTTTCATTTCTTTCGATTATTTTTATGCTAAA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GCTTGATGAATGATTCAGAAATCAGGAAATTTTTAAAATATTAAAATATC
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TCTTTTTCCAATAGTTCAGATTAGGGTTTTGAGATCCGTGGATCCGCATA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTTTTGCGGATCCGAATCCAGAAAGCCGAAATCTTGCGGATCCAACGGAT
+                                                                            
+
+NHA8_nucl_size=_strand=+  ----------------------------------------GAGAACGCAT
+NHA8-long                 CCGGATCTTAAGCACTGGAATTTCTAAAGACAATTTTTTAGAGAACGCAT
+                                                                  **********
+
+NHA8_nucl_size=_strand=+  GTTTATAGCATTAGCTTGGTTACCCAAGGCCACTGTTCAAGCTGCAATAG
+NHA8-long                 GTTTATAGCATTAGCTTGGTTACCCAAGGCCACTGTTCAAGCTGCAATAG
+                          **************************************************
+
+NHA8_nucl_size=_strand=+  GTCCTCTAGCATTAGACCTGGCAACTCAAGCTCTTA--------------
+NHA8-long                 GTCCTCTAGCATTAGACCTGGCAACTCAAGCTCTTAGGTATGTTCTGATG
+                          ************************************              
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTGTTGTTGGTGTTTTTACCTAAAGATGATACTTATTTTTTTCCGAAATT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 ATTAATCTTTCAATTGTAAATTCATTGAACATATATTTTTCTATGAATGA
+                                                                            
+
+NHA8_nucl_size=_strand=+  -------------------------------------------------G
+NHA8-long                 AAATGTTGTTATGGATGCCTGTTTTTTATTAATATTTGTTTGTTGACTAG
+                                                                           *
+
+NHA8_nucl_size=_strand=+  GAAAGCTGG-----------------------------------------
+NHA8-long                 GAAAGCTGGGATGGATGGAGAGAATCTGCCAGAGTTAAATGAGCAACTGG
+                          *********                                         
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AGTTAGCAGAGAAGGTTCTAACCTTGGCTGTTCTTGTAATTCTCATCACC
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GCTCCCATTGGAGCAGTTGCCATCATGGCGTCAGGTTAGTGCAGGGGTAA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 ATATTTTTTCAGAATTAACCCCAATCCTCTGGATCAGGGGGAATGGTTAG
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 CAGGGTGTACAAATGAAAAATAGGGTTAATAGGCAGTTCTTTTCATTCTT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTTGACATTTTACTCACACACTAAGGAAAATTTATTAAATCAAATTCAGC
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GATAAAAACTCAACGTAACAAACGACTCAAGGGCGGGGGGGGGGGGGATC
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GAGGGAGGGGGACTTATTACAAGGGAACAGCCAAAAAAAAAAACATTGCT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 ACTAAATTTTATTTTTCTGAAAAAATTATCTCTGATAAAATGTTCACGAT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 ATATGAAAACAACTTAAATATTCTATACTAGTTTCTTAATTCAAATTAGA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GCTAGGATGTATATGTATAGTATTCACCCGTCTACAAGCCGATGATGAAA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 ATTATTTCAAGGGCTGACTACAAAAGTAGATCTAAAATCAATTGAAAATT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TAAATGTTCTATGTTGAGTTCTTGTTAAGGTCCAAGGCTGTTGACCAAGA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TGAACAAACCTCTGCCTTATGATATAAAGGAGGAAGGTGAAGAAATGTCG
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GAGATGATCAGTTAAAAACATCCATCTCAAAGTGAAGCCATGAAGCTGTG
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTAAATGCCAAAACTCCACCAGACGACAATTCAAGTGTTGATTTTTGTTC
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AATACGCTGGAATATTCCGAAGTCGGAAAAAAACGATCAGTTTTTTTCCA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GGGATCAGATTTAATGAAAAGTGAGAATTAGCTGAACCGCGAACCATTTC
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 ACATTTCAACATGAAGAGAAGTGGTTCAACTTTGTCGACGCTGTTAGTGT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TCAACTTCTTCACGCTGATTATATCTGTTCCCAGATCTTCAAACAATCTA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AATTTACCGACTGTTAAATGTTACTTCTTATACTTCTTAACCAATAACTG
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTACTTGCTGTAAATCCTTATCTGCTAATTGTTACGCTTATCACTACTTT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 CCTAAAAACATTGAACCATAATTAGGATATTTAGTAAAAAGTACGTTTTG
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 ATTACTTCGTAAAATTTGCTTAATTCAATTCTCTGAGGTCAAAGCTTTTT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TGTTAGAATTAGCACTATCTTGATCTGAATATAAATTATATTCTGTGACA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 ATGGTATTGTGCTGGATTCCTTGATTTTTACTTATTCCTGTCATGGGTTA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 CGAACACACCAAGGAGTATGGAATCCCAGGGAGACACAACCGACGTGGCC
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TGCCCTACCATATGATTATAACATGCTTTGCAGACGGTACTCCTTTTAAA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TAAGAAATATTCAGAATAGGTTATTGTATACGCGGTAATTGTACCGCGTC
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AGTTGTATCTCTCGTCTATTCTATACTCTTTGGAACACACGTTATTGATT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AAATCCCTAGGACAGGTAGAGGTTCGGATTATTGCTTGATGATCCCTTAA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTTTTTCACAACACAAGTTTTGACCTTAGAACTATGTGCCAGAGCATTGA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTAACAAGATAAAGCTTCACTTATCTACAATATATCAAACTTATTTTTCC
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTCTCTTTGTTTTGAAGAGATGAAATGTTTGTTACTGTTCTCTATAGCAA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TACAGACCAAAGCAATCTTGTACAATAATTACTCAACAGGAGCTGTACAG
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 ATGTAATTTAAAGTGACTCTATTTACAAAGTGGTATCTCCGATTCACAAC
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GGTACCCTGAAAGGCTCATCTACAAAAGCATGCCTAAGATAGCCACACAA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTTTTTGTGTGCTTTTCCGATTCAGATACGATGGAGAATTTGTCATAATT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AAACGCTTTTAAGAAAGAATAAACGGTTTAAAGGTATCTATGGGTAACGT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GAATCGGACATGCCCCTCTTAAAATGGAGGAAAATTACACCAACATTCCC
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTAACGATACGGCAGCTTCTTACGTTTGCTAAACTTTATTTAAGTTTAAA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TAGTAAAACGTCTGCAATATATTTGTTTAAATATATCTATTTTTTCTACT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TGTAATAAATTGTTTCCCTTCTGCGAAGGATATATAAATGTTTTCAATAT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TGTGTCGATTTTCCAGAGCTCTTGACTAATTAACTATTAGCTGAAATGCC
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 CTGTGGAGTTTTAGAAACACTTAAAATAATATCCAAAATTTATTTTTTCT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 CATTCGGTCATCAGCTAATATTTTCTTCGCTTGTAGACATTGGAACTTTT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GTAGAGTATCCTTCATCCTAACGCTAGATCTCGATATACAATATGGAAAC
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTTAAAATCGGAGGATCAATGCTTGACCCTTCATTTATTTAGATATTCTC
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TAAGGTACGACCATGACGGAATCTACATTTGATGAAGTTCAGTGCGCGGT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TGTTCCCGAGATTAACAACAGTTCTGACTTCTGTTTAAAGCAAATATAAC
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 CATTAGTTACTTGTATTTTTTTTGATGTTTTCAATTCTTTGTTTTTTTTA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AATTTTACTGATCTCATAATGGAATTCTATCTGATTCTTGGACGAAAAGT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 CTCATTTTTTTAACTTCAGATGAAAAGTCTTTTTTTCGGATTTTTTGGTT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTATTTCTCTTTTTATTTGCTTTAATTTTTCTTATATTCATATAGTCGAA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AAGTCATTTAATTGCAACTACGTTTGCAATTAGACTCTTACTTACATATT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GCAGTTTTTATAGTTCGCAATTTCAACTTAAAGATGAAAAGTCTGCAACT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 ACGCTTGCAAAATTATTCTATAATGTTTTTGATTAGACCTTAATCATTGG
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AGAGCTCTGCGAAAAGCAGCTCATTACAGCAATAGGTACGAAGATATAAT
+                                                                            
+
+NHA8_nucl_size=_strand=+  -----------------------GATGGATGGAGAGAATCTGCCAGAGTT
+NHA8-long                 GAGAGAAGTTTTCTCTAAAATAAGACATACTACTATTGATTTATTTTGGT
+                                                 **   *     *     *      * *
+
+NHA8_nucl_size=_strand=+  AAATGAGCAACTGGAGTTAGCAGAGAAGGTTCTAACCTTGGCTGTTCTTG
+NHA8-long                 AATTGAATAAAGTTGTTAAGAAGAAGAATTACTTGAATTTTACTGTTTTT
+                          ** ***  **      * ** ***  *  * **    **      * ** 
+
+NHA8_nucl_size=_strand=+  TAATTCTC------------------------------------------
+NHA8-long                 ATCATCTCAAGCTGTAGTTTATCCTAGAATAATAGTTCAGATTTGACAGT
+                              ****                                          
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 CCAAAGGTAAATTTTTTACTTGATTCTTCTAATTCTAGTTTTGAGTGTTA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 ATACTCCGTTCGTCTCTATAATGCAGGCTAAAGTTTTATAGTATGATAGA
+                                                                            
+
+NHA8_nucl_size=_strand=+  ------------------------------ATCACCGCT-----------
+NHA8-long                 GCCCAACGTTTCATCCGTCCTACTATACTTCGGACCGCTTGTGGTGGGGG
+                                                           ******           
+
+NHA8_nucl_size=_strand=+  --------------------------------------CC----------
+NHA8-long                 GGGGGGGGGGGGGTCCAAAAATCTTTTACTAGGACGGACCCAATCGTTAT
+                                                                **          
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AGTTCAGCAATGTACAATTTTTTTAATGAAATCGTTGATTTCAATTCTTG
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AAATGTAAAGATTTAACACAATTTTGTATGACATGGGACACCCTGTATGT
+                                                                            
+
+NHA8_nucl_size=_strand=+  -------------------------------------------CA-----
+NHA8-long                 TACAAATAGAAGACGACCAAGTTTAGTTAAAAGAAATGATTACCATTTGC
+                                                                     **     
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GAAACGAAACATTTCTCTGGTCTAAAATATTGTATGAAAGAATTCTTTTT
+                                                                            
+
+NHA8_nucl_size=_strand=+  -------------------------------------TTGG---------
+NHA8-long                 AAATGGATTGTCTGCGTTTCTATTTTAAACCTGTAAATTGGAAAATTAAT
+                                                               ****         
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTTTATATAATTGTTTGTAGTTTAATAAATCGCGGCATTCGTACTTGAGT
+                                                                            
+
+NHA8_nucl_size=_strand=+  -----------------AGCA-----------------------------
+NHA8-long                 TAGTCTTCAGGGGGAAAAGCACAAAAATGTCAGGGTATTATTAATGTTTC
+                                           ****                             
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTTAAGAAGTTTGAGGGATATATTCAACAAATTATCGAACCACTTTTGTT
+                                                                            
+
+NHA8_nucl_size=_strand=+  ---------G------------------------TTG-------------
+NHA8-long                 TTTATTGTAGTTTTAAGTTTAAATTTGAGACCGGTTGAGATCAAATTTTT
+                                   *                        ***             
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TTTGTAGGTAGTCTTTCAAAAATCATGCATTAAGTACGTGATCAGTAGAT
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------CC-----------------------------AT---------
+NHA8-long                 TTAAAATACCAGTAATTGGGTAAAAAGAAATAAACGTTAATCAATCAATC
+                                  **                             **         
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 AATCTACTTGATCAGTTAAAAAGAGTGAAATTTGTTTTTTCACATTTAAG
+                                                                            
+
+NHA8_nucl_size=_strand=+  ------------------------CA------------------------
+NHA8-long                 AACCGATTTCTGTAATATTAATATCAAATTTGTGCTATTTTCAGATCTGA
+                                                  **                        
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 ATTATGTAAAATTGAAAAATGTTGTTAACAATCAAAGAAAGTGAGATATT
+                                                                            
+
+NHA8_nucl_size=_strand=+  -----------------------------------TGG------------
+NHA8-long                 TTTGTTCCGACGTAAGATCTATAGATAACCCTTGTTGGCTGATTTAAATA
+                                                             ***            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 ATTTTACCTCTGTTCTTCCACAATGGTCTTCACTCCTCCAATTGCTCCAA
+                                                                            
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 TAACTCCAATAATACACAGGTAGTCTTTTAAGAAACTCACTTATTAAACC
+                                                                            
+
+NHA8_nucl_size=_strand=+  -----------------------CG-----------------------TC
+NHA8-long                 ATTAGTAGCTGGGGGGGGGGGGGCGAGCTCGGGTTCATCCCAGTCCCATC
+                                                 **                       **
+
+NHA8_nucl_size=_strand=+  -----------------------------------AG-------------
+NHA8-long                 ATTAACCTTGGAAAAAAAGCTTTAAAATCTAAATAAGGTCGGATTTATTT
+                                                             **             
+
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+NHA8-long                 GAAATTTTACTAAATGGACGTTTTGAGATTTCTAAAACGCTTAGACTGAA
+                                                                            
+
+NHA8_nucl_size=_strand=+  -----------------------------------------GTC------
+NHA8-long                 AAAAAAAATTAAATTTTATATTTAAGCGCAAAGATCGAAGGGTCTAATAC
+                                                                   ***      
+
+NHA8_nucl_size=_strand=+  CA------------------------------------------------
+NHA8-long                 CAAAATTGGACTTGACGTTTATTAGTCACAAACAGAGCAGCACAGAGAAG
+                          **                                                
+
+NHA8_nucl_size=_strand=+  --------------AG----------------------------------
+NHA8-long                 CACTTCTAATCTAAAGATATGTTAGATTGTCAAATTTATCATTTTCTCTT
+                                        **                                  
+
+NHA8_nucl_size=_strand=+  ------------------------------G
+NHA8-long                 TTTTTCCTATTTTGACAATAGGCTATATCTT
+                                                         
+
+
+

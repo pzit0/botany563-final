@@ -1,0 +1,804 @@
+CLUSTAL FORMAT for T-COFFEE Version_13.45.0.4846264 [http://www.tcoffee.org] [MODE:  ], CPU=0.02 sec, SCORE=993, Nseq=2, Len=9998 
+
+NHA3_nucl_size=3615  ATGCTCA-------------------------------------------
+NHA3-long            ATGTTTAGAATATGGACAACCCTAATTATGTTTAGAATATGGACAACCTA
+                     *** * *                                           
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            ATTAAGATTAGAATATGGACAACCCTAATTATGCTTAGAACATATGGACA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            ACCCTAATTATATTTAGAATATGGACAACCCTAATTATGTTTAGAATATG
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------GGA---------------------
+NHA3-long            GACAACCCTAATTATATTTAAAATATGGACAACCCTAATTATATTTAGAA
+                                               ***                     
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TATGGACAACCCTAATTATGTTTAGAATATGGACAACCCTAATTATATTT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            AGAATATGGACAACCCTAATTATGAAGAAGATGAGCTTGGTGGTACAACA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            AGAGTACTGTACGGCGCTACTCCACTATATAGGTACATGCAAGAGAAAAC
+                                                                       
+
+NHA3_nucl_size=3615  -GGGGAAGC-----------------------------------------
+NHA3-long            AGGGGACGCAAGTTCCACACCGTACTTATTTTTCAAATCTGTTACTTAAG
+                      ***** **                                         
+
+NHA3_nucl_size=3615  --AA----------------------------------------------
+NHA3-long            TCAAGTCTGGTTGAAATCACGGTTTGAACATTTTTTCCCCTGAAATATTC
+                       **                                              
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TGTAAGCTAACAAATTGTTAATATTGATAGTGCTCAAAAAAAAAGAGAAC
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TAAGGAGATCTTGATAGCAATCAAGGAATAATAGAACTAAGGAGATCTTG
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            ATAACACTCAAGGAATAATAGAACTAAGAGATCTTGATAACACTCAAGGA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            ATAATAGAACTAAGAGATCTTGATAACAATCAAGGAATAATAGAACTATG
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            CAACCCTAAATCACAATCAAGGATTAATAGAACTAAGGAGATCTTGATAA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            CAATCAAGGAGTAATAAAGAAGGAGATCTTGATAATAATCAAGGATTGAT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            CGAACCATGGATATCTTGGTTAAAATCAATGAATAAAAGAGCTAAGGAGA
+                                                                       
+
+NHA3_nucl_size=3615  -------------------------------------------------G
+NHA3-long            TCTTTATACCAATCAAGGAGTAAAAGAATGAAGGAGATCTTGATAACAAT
+                                                                       
+
+NHA3_nucl_size=3615  CAGACGGGAACAG-------------------------------------
+NHA3-long            CATGGAGTAACAGAACTAATGAGATCTTGATAACAATCAAGGAGTAATAG
+                     **    * *****                                     
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            AATGAAGGAGATCTTGATAACAATCATGGAGTAATAGAACTAATGAGATC
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TTGATAACAATCAAGGAGTAGTAGCACTAGGGAGTGCTTGGTAAAAGTCA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            AGGACTAATGGACCTTAGGAAATCTTGATAACAATCAAGGAGTAATAGAA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            CTAGAGATCTTGGTAACAATCAAGGAGTAATAGAACTTAGGAGATCTTGG
+                                                                       
+
+NHA3_nucl_size=3615  -----------------------AAGATGACCGGCCT-------------
+NHA3-long            TAACTGCAATCAAAGAGTAATAGAACTAAGGAGGCCTTGGTAACATTCAA
+                                            **       *****             
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            GGGGAAATATAAATAAGGAGATAATGGTAACAATTAAGGAGTAATAGAAC
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TAAGGAGATCTTGGTAACAATTAAGGAGTAATAGAACTAAGGAGATCTTG
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            GTAACAATTAAGAAGTTATAGAATTTAGGAGACCTTGGTAACATCAAAGA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            CTTAGAATATACTTAGGAGAAGACATTAGAATATTGTTTACATTTTATTG
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TGACGTATTTGGACAGCTCTGAACTAGTTTTGTTGAAAAACAACAGCAAT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TTTCAGTTGTCAAGTTTTGACTTTTAAATAGTTCATGGCTTTCCTAATAC
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            ATCACAGCCTCACAGCTAGTGGAATCTACTTTGTTTGTTTTTTGAAATGC
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TCAATAGAAAAAATCTGATCGAATTACATGTAAAGTCATAATTCCTCATT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TACCTTCCTTTAAAATTCATAAATAATCCAATTAAAGTGTTAATTGTCCT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TATCTAGACGGGGCAGCAGGATTATTGGCGGAGATGAAGAACCTGCTGGA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            ACCTTTGCCATGCTCAGGTTTTAACTAGTTTATTCTTGAAGAAGTTTAAT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            AAAAATGTGAATTGAGTTGAGAATTTCTGTAAATATTTTATACTTCTGTT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TTCTATATCGAAAAATTAAAGGATTTTTAAGAATTTTAGATTTACAAATG
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            AATTCCCAAAAACCCATTAAACTGCAGAATATGAAGACTTATATACAACT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TTGTAGAGGATATGAAATCCCTGAAAGAGGATTATGAAATCCGCTAATCA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            GTTGTGTCTGACCCTGGAACCGGAGAAGACCTTCTCAACTTTCTCTCCTT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TTACACACTCGTATTTATCATGTATCTATAAACAGAAGCAATAAATGTAC
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TTCTAAAGTGGTGACCCCAGACAACAAAAGAACCATGGCCGTAAACCTCA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            GCTACTCCTGGAGCTAATAAGCTAAACCTCAGCTACTCTTGGAGCTAATA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            AGCTAAACCTCAGCTACTCCTGGAGCTAATAAGCTAAACCTCATCTACTC
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            CTGGAGCTAATAAGCTAAACCTCAGCTACTCCTGGAGCTAATAAGCTAAA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            ACGCAGCTACTCCTGGAGGTAATAAGCTAAACCTCAGCTACTCCTGGAGC
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TAATAAGCTAAATCTCAGCTACTCCTAGAATTTATGAGCTAAACTTCAAA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            ACTTCAACCCTCAAGAAGCTAATCTGCTACACAGTTACTCATGGAGCTAA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TTAGCTTCACAGCTACTCCCAGAGCTAATCAGCTAAACAGATACTTCTGG
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            AGCTATCAAACAACTCAGCTACCATCTTAACCTACTCGTAGATATTCTGG
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            ACGCCAGTTCTCTACAGGTTGAATCTATGCCCGCCTAACCTTCACTACAA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            CAGATCTCTTTAAATGGCCACTGGCCAGCCTTACACAAGGTTGATCATGA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            CGTGGGGAGGGGGCAGATCAGAAATTCACAAACAACTAGTTGTGAATAAT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            ATCATCACCCGAACTCCTTCTACTCCTTTTCCGTACACACTTACAAGGAG
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            CTAATTATCAGTCTCGACTCTCTCTGTACTCGAGACTTAGGGGGGACTTC
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TGTAGAGGATATGAAATCCCTGAAAGAGGATTATGAAATCCGCTAATCAG
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TTGTGTCTGACCCTGGAACCGGAGAAGACCTTCTCAACTTTCTCTCCTTT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TACACACTCGTATTTATCATGTATCTATAAACAGAAGCAATAAATGTACT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TCTAAAACTTATGATTTCAAAAAGTCCAAAAAGAACCTACAGACACAGAT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TAATTTAATGTCATCTTCTTTTTCCACAAATTAATGGATCCTGCTGTAGG
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            AAAATCTTTAGGAATGCTCCAAATGAATAATTTACAGCTTTCTATATTTT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            GTTGATTTAAAATCAACTTTTTTTGTTGTTTATATTTTAATATTCAGGAG
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            GGGAAGCAAGCAGACGGGAACAGAAGATGACCGGCCTGATTACAGAATAC
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            GAAGTGGGTCCATTGGAGGTGTATACCCTGCCCTCAGGTAGACTGAACTA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            GCATCTGAAAATCATCATTTTAGAAGCACTGAAAACAAGTGACTTCAACC
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            CCAATTTCCCCAAGAGATAACCTCGCATTTCTCTGGAAATTGACAATAAT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            ATTCTAAGAATCAAAAATTGCAAAATAATCAATTATGAATTCAAAATGTT
+                                                                       
+
+NHA3_nucl_size=3615  ----------GATTACAGAATACGAAGTGGGTCCATTGGAGGTGTATACC
+NHA3-long            CAACGATCTTATCTACGATGGAAATTTCATAATATTTATATAAATTGAAA
+                                  ***     *             **  *    *  *  
+
+NHA3_nucl_size=3615  CTGCCCTCAGGAGGTTGAGCATACAAATGGGTTTACCAGGACTACCAGTG
+NHA3-long            ATTATTTTAGGAGGTTGAGCATACAAATGGGTTTACCAGGACTACCAGTG
+                      *    * ******************************************
+
+NHA3_nucl_size=3615  TATGAAGAGATTGATCTGCCAGATGATAATGATGATAAACCTTCTAGCTT
+NHA3-long            TATGAAGAGATTGATCTGCCAGATGATAATGATGATAAACCTTCTAGCTT
+                     **************************************************
+
+NHA3_nucl_size=3615  CACAGAAGAAAAGAAAAAGCCTGGAAGAGTGAAAAAGTCCTACAAAAAAA
+NHA3-long            CACAGAAGAAAAGAAAAAGCCTGGAAGAGTGAAAAAGTCCTACAAAAAAA
+                     **************************************************
+
+NHA3_nucl_size=3615  TCAAAAGAGGGCTTCAGGGAAACAAGGTCACATCCCAATTCTTCCCGCCG
+NHA3-long            TCAAAAGAGGGCTTCAGGGAAACAAGGTCACATCCCAATTCTTCCCGCCG
+                     **************************************************
+
+NHA3_nucl_size=3615  AAAGGTGATGTTGCAGAAAATATAACTCTTATAATAGCAACTATAATCTT
+NHA3-long            AAAGGTGATGTTGCAGAAAATATAACTCTTATAATAGCAACTATAATCTT
+                     **************************************************
+
+NHA3_nucl_size=3615  GTTCTTGATGGCTCGAGCTGTTCTGGGAACTCTAGCAGCACCAGGAGGAA
+NHA3-long            GTTCTTGATGGCTCGAGCTGTTCTGGGAACTCTAGCAGCACCAGGAGGAA
+                     **************************************************
+
+NHA3_nucl_size=3615  CTATCTTTGCAATCTTTATACTCATTCTCTTCTCACTTATTGCTGGACAA
+NHA3-long            CTATCTTTGCAATCTTTATACTCATTCTCTTCTCACTTATTGCTGGACAA
+                     **************************************************
+
+NHA3_nucl_size=3615  ATAGTTATCCAATGTGCAGCATTGATCACTAAACTTGTTGGAGTAGACAT
+NHA3-long            ATAGTTATCCAATGTGCAGCATTGATCACTAAACTTGTTGGAGTAGACAT
+                     **************************************************
+
+NHA3_nucl_size=3615  AAAGATACCACAGCTTCTGGGAATGATGGCTGTTGGGATCGCTTTAAAGA
+NHA3-long            AAAGATACCACAGCTTCTGGGAATGATGGCTGTTGGGATCGCTTTAAAGA
+                     **************************************************
+
+NHA3_nucl_size=3615  ATGTTCCATACAACCAATCACAATTTAATAGTCCTGAATGTATGAATATA
+NHA3-long            ATGTTCCATACAACCAATCACAATTTAATAGTCCTGAATGTATGAATATA
+                     **************************************************
+
+NHA3_nucl_size=3615  TCCAAATCTATTCATGACCACAGTGATATCGATGTAAACTCTACTGAATT
+NHA3-long            TCCAAATCTATTCATGACCACAGTGATATCGATGTAAACTCTACTGAATT
+                     **************************************************
+
+NHA3_nucl_size=3615  TGTCAATGAGTTGGGAGGTTTTAGAATAGATCCAAAGGATGTTCATATAA
+NHA3-long            TGTCAATGAGTTGGGAGGTTTTAGAATAGATCCAAAGGATGTTCATATAA
+                     **************************************************
+
+NHA3_nucl_size=3615  ACCATCAGCATAGTGATATTGCAAAGAGTTTGAAAAATATTGATAATATA
+NHA3-long            ACCATCAGCATAGTGATATTGCAAAGAGTTTGAAAAATATTGATAATATA
+                     **************************************************
+
+NHA3_nucl_size=3615  AACCTACATGGTGAGAATTCGGTAGATACTGAAAATCATCCTAACTCAGG
+NHA3-long            AACCTACATGGTGAGAATTCGGTAGATACTGAAAATCATCCTAACTCAGG
+                     **************************************************
+
+NHA3_nucl_size=3615  TCCATCACATCACACAGGTGTAGAATCTATTTCAAACAATGAAGATCATG
+NHA3-long            TCCATCACATCACACAGGTGTAGAATCTATTTCAAACAATGAAGATCATG
+                     **************************************************
+
+NHA3_nucl_size=3615  CAGATCAGAATAAAACTGATGCATCAAAACAAGAACCTGATAATGAAGAA
+NHA3-long            CAGATCAGAATAAAACTGATGCATCAAAACAAGAACCTGATAATGAAGAA
+                     **************************************************
+
+NHA3_nucl_size=3615  AAGCATGGTTTGAACCATGTAGAGGAAAAAGAGGTTTCTCATGACATCTC
+NHA3-long            AAGCATGGTTTGAACCATGTAGAGGAAAAAGAGGTTTCTCATGACATCTC
+                     **************************************************
+
+NHA3_nucl_size=3615  ACATGACTCAAATGTTAAAACTGTTCAGCAAGAAAAGCATAATCATGGTG
+NHA3-long            ACATGACTCAAATGTTAAAACTGTTCAGCAAGAAAAGCATAATCATGGTG
+                     **************************************************
+
+NHA3_nucl_size=3615  ATGATCAAACAAAAGATGAACATGGTCATCATATTACTACAGAAGAGAAA
+NHA3-long            ATGATCAAACAAAAGATGAACATGGTCATCATATTACTACAGAAGAGAAA
+                     **************************************************
+
+NHA3_nucl_size=3615  GAAGAGGTAAAGCATATGCAGGTGTCTATCATGAAAGATCACAATCATAC
+NHA3-long            GAAGAGGTAAAGCATATGCAGGTGTCTATCATGAAAGATCACAATCATAC
+                     **************************************************
+
+NHA3_nucl_size=3615  TGTTCAGCAAGAGGAGAATATCCATCATGAAAAGGAAGTAATGAATATCC
+NHA3-long            TGTTCAGCAAGAGGAGAATATCCATCATGAAAAGGAAGTAATGAATATCC
+                     **************************************************
+
+NHA3_nucl_size=3615  CAGTACATAGGACACCTGATAACCATCATATGATTCAGCAGGAAGAGGAT
+NHA3-long            CAGTACATAGGACACCTGATAACCATCATATGATTCAGCAGGAAGAGGAT
+                     **************************************************
+
+NHA3_nucl_size=3615  AGTAACAACAGTGAACATTCCCATGATGAACATAATCATTCTATAGTGCA
+NHA3-long            AGTAACAACAGTGAACATTCCCATGATGAACATAATCATTCTATAGTGCA
+                     **************************************************
+
+NHA3_nucl_size=3615  TGACAAGAAAGAAGAAATAAAGAATACACCAGTGCATTGCACACCAGATC
+NHA3-long            TGACAAGAAAGAAGAAATAAAGAATACACCAGTGCATTGCACACCAGATC
+                     **************************************************
+
+NHA3_nucl_size=3615  AACATCATATGATTCAGCAGGAAGAGCATAGTAACAACAGTGAACATTCC
+NHA3-long            AACATCATATGATTCAGCAGGAAGAGCATAGTAACAACAGTGAACATTCC
+                     **************************************************
+
+NHA3_nucl_size=3615  CATGATGAACATTACCATCATGAAATGCATGAAAAGAAAGAAGACATAAA
+NHA3-long            CATGATGAACATTACCATCATGAAATGCATGAAAAGAAAGAAGACATAAA
+                     **************************************************
+
+NHA3_nucl_size=3615  GAATACACCAGTGCATATCACACCAGATCGAAATTATACGATTCAGCAGG
+NHA3-long            GAATACACCAGTGCATATCACACCAGATCGAAATTATACGATTCAGCAGG
+                     **************************************************
+
+NHA3_nucl_size=3615  AAGAGGACACCAGTCGCAATGAATATTCCCATGATGCACAAGATGTTATT
+NHA3-long            AAGAGGACACCAGTCGCAATGAATATTCCCATGATGCACAAGATGTTATT
+                     **************************************************
+
+NHA3_nucl_size=3615  CATAAAAAGATAGAAGAAGTAAAGCATACACCAGTGCATACCACACCAGA
+NHA3-long            CATAAAAAGATAGAAGAAGTAAAGCATACACCAGTGCATACCACACCAGA
+                     **************************************************
+
+NHA3_nucl_size=3615  TCACAATAACAAGTATGAACAGCTTGTTAATAATGATAACCCAATCAATG
+NHA3-long            TCACAATAACAAGTATGAACAGCTTGTTAATAATGATAACCCAATCAATG
+                     **************************************************
+
+NHA3_nucl_size=3615  AAACTAATATTCATAGTTTGGCCAAGGAAGAGAAAGATGAGGTAACCCAT
+NHA3-long            AAACTAATATTCATAGTTTGGCCAAGGAAGAGAAAGATGAGGTAACCCAT
+                     **************************************************
+
+NHA3_nucl_size=3615  GTGGAGCCACATTCTCTACAAGATCATAATGACAAAAAAGTAGAACATGG
+NHA3-long            GTGGAGCCACATTCTCTACAAGATCATAATGACAAAAAAGTAGAACATGG
+                     **************************************************
+
+NHA3_nucl_size=3615  CAGAAGTGATGAACAAACCAAACATAAAGATATCCACAACCAGAATCAAG
+NHA3-long            CAGAAGTGATGAACAAACCAAACATAAAGATATCCACAACCAGAATCAAG
+                     **************************************************
+
+NHA3_nucl_size=3615  GTGAAGTAAAAAATCCAAGACAACATTTGCATACCGATGGAGAAGCACAA
+NHA3-long            GTGAAGTAAAAAATCCAAGACAACATTTGCATACCGATGGAGAAGCACAA
+                     **************************************************
+
+NHA3_nucl_size=3615  AATCAGAACAATGAAACAGTCCATAATGAAAATAAAATGATTTTAAACCA
+NHA3-long            AATCAGAACAATGAAACAGTCCATAATGAAAATAAAATGATTTTAAACCA
+                     **************************************************
+
+NHA3_nucl_size=3615  CATGGAGGATGAAAAAAGTCAAGATTCCCGTATGACACCACATAGCATAT
+NHA3-long            CATGGAGGATGAAAAAAGTCAAGATTCCCGTATGACACCACATAGCATAT
+                     **************************************************
+
+NHA3_nucl_size=3615  ATGATCATAACGAAAAGAAAATTACCCATCAACAAATTGATAACCTAAAC
+NHA3-long            ATGATCATAACGAAAAGAAAATTACCCATCAACAAATTGATAACCTAAAC
+                     **************************************************
+
+NHA3_nucl_size=3615  AATAAACCTATCACAGAGGTATTGAATAGACCCCTCAACAAAAATGAGCT
+NHA3-long            AATAAACCTATCACAGAGGTATTGAATAGACCCCTCAACAAAAATGAGCT
+                     **************************************************
+
+NHA3_nucl_size=3615  TAATAACGATGTTAAAGACTCAAATGATATAAATGGGCAAGGTATAAGTC
+NHA3-long            TAATAACGATGTTAAAGACTCAAATGATATAAATGGGCAAGGTATAAGTC
+                     **************************************************
+
+NHA3_nucl_size=3615  AACAAGAAAAGAAGGAGGCATCCCAAACCCCACAATATGAATCAAAGAAT
+NHA3-long            AACAAGAAAAGAAGGAGGCATCCCAAACCCCACAATATGAATCAAAGAAT
+                     **************************************************
+
+NHA3_nucl_size=3615  CAAAAAGATGAAAACGGTCATGAAATGCATCTTCATGATGTAAAGAGTGA
+NHA3-long            CAAAAAGATGAAAACGGTCATGAAATGCATCTTCATGATGTAAAGAGTGA
+                     **************************************************
+
+NHA3_nucl_size=3615  CAACATAAATCAAGATAACAAAGAACAAGCATTAGCTAACAATAACACCA
+NHA3-long            CAACATAAATCAAGATAACAAAGAACAAGCATTAGCTAACAATAACACCA
+                     **************************************************
+
+NHA3_nucl_size=3615  AGATGAAAACTACTCCGGACGATGCAGTTTTGAATGGCACTGATATCTCA
+NHA3-long            AGATGAAAACTACTCCGGACGATGCAGTTTTGAATGGCACTGATATCTCA
+                     **************************************************
+
+NHA3_nucl_size=3615  GAAATAGCCCAGGGTGTAACAAAACATGATGTAGAGGCAGCAGTCACTAA
+NHA3-long            GAAATAGCCCAGGGTGTAACAAAACATGATGTAGAGGCAGCAGTCACTAA
+                     **************************************************
+
+NHA3_nucl_size=3615  AATCTATCAACAAAATGTTCTTTACAATAGTTATGAGAAAGATGAAAGTA
+NHA3-long            AATCTATCAACAAAATGTTCTTTACAATAGTTATGAGAAAGATGAAAGTA
+                     **************************************************
+
+NHA3_nucl_size=3615  CTACTGAAAATTCAGCAGAAGATCTAGTTGACACAAAAATTCAGAACAGA
+NHA3-long            CTACTGAAAATTCAGCAGAAGATCTAGTTGACACAAAAATTCAGAACAGA
+                     **************************************************
+
+NHA3_nucl_size=3615  AGTAGGCGTAGCAGTGGACATGATGAACCACAGATTTATGTTGATCCTTG
+NHA3-long            AGTAGGCGTAGCAGTGGACATGATGAACCACAGATTTATGTTGATCCTTG
+                     **************************************************
+
+NHA3_nucl_size=3615  TAAAAAGAGATTTATTGGAAATGATCTTGATCCTCTTTTAACAAGAACAC
+NHA3-long            TAAAAAGAGATTTATTGGAAATGATCTTGATCCTCTTTTAACAAGAACAC
+                     **************************************************
+
+NHA3_nucl_size=3615  TAAGATCCATATGTCTGACAGTTATTCTACTCATGGCAGGTCTTGAACTT
+NHA3-long            TAAGATCCATATGTCTGACAGTTATTCTACTCATGGCAGGTCTTGAACTT
+                     **************************************************
+
+NHA3_nucl_size=3615  GATCCTCCTGCTCTCTGGAGACTCAAATGGATTGTACTCAGGACAACTTT
+NHA3-long            GATCCTCCTGCTCTCTGGAGACTCAAATGGATTGTACTCAGGACAACTTT
+                     **************************************************
+
+NHA3_nucl_size=3615  TATTCCTTGTATCATAGAAGCATTTGCAGCATCTTTATTTTGTTATCTGA
+NHA3-long            TATTCCTTGTATCATAGAAGCATTTGCAGCATCTTTATTTTGTTATCTGA
+                     **************************************************
+
+NHA3_nucl_size=3615  TCCTTGGTTTTCCGTTTTCTGTAGGACTTTGCTTTGGATTTGTTCTGTGC
+NHA3-long            TCCTTGGTTTTCCGTTTTCTGTAGGACTTTGCTTTGGATTTGTTCTGTGC
+                     **************************************************
+
+NHA3_nucl_size=3615  GGAGTATCTCCAGCTGTTATTATTCCAGGATTGGTGAATCTTAGTCAAAG
+NHA3-long            GGAGTATCTCCAGCTGTTATTATTCCAGGATTGGTGAATCTTAGTCAAAG
+                     **************************************************
+
+NHA3_nucl_size=3615  AGGATACGGAGTAAAGAAGGGAATACCAACACTTGTTATCGCAACATGTT
+NHA3-long            AGGATACGGAGTAAAGAAGGGAATACCAACACTTGTTATCGCAACATGTT
+                     **************************************************
+
+NHA3_nucl_size=3615  CAGCTGATGATCTTGTGGCTATTGGAGGATTTGGTATTGCACTGAGTATC
+NHA3-long            CAGCTGATGATCTTGTGGCTATTGGAGGATTTGGTATTGCACTGAGTATC
+                     **************************************************
+
+NHA3_nucl_size=3615  ACATACAACCCAGATGCTCCTATTCTATCTTTAGCCTTCCATGGTCCTTC
+NHA3-long            ACATACAACCCAGATGCTCCTATTCTATCTTTAGCCTTCCATGGTCCTTC
+                     **************************************************
+
+NHA3_nucl_size=3615  AGAAGTGATTATGGGTATTGCATTCGGAATTTTCTGGGGTTATATTTGCC
+NHA3-long            AGAAGTGATTATGGGTATTGCATTCGGAATTTTCTGGGGTTATATTTGCC
+                     **************************************************
+
+NHA3_nucl_size=3615  AATGGTTTCCCAGCAAACAAAACCCAAATCATGTCTTGTTTCGATTCATT
+NHA3-long            AATGGTTTCCCAGCAAACAAAACCCAAATCATGTCTTGTTTCGATTCATT
+                     **************************************************
+
+NHA3_nucl_size=3615  ATTCTCTTTAGCGGAGGGCTCTTTGCCTTGTTTGGAGCCCATCTGATTCA
+NHA3-long            ATTCTCTTTAGCGGAGGGCTCTTTGCCTTGTTTGGAGCCCATCTGATTCA
+                     **************************************************
+
+NHA3_nucl_size=3615  TTATGATGGTGCGGGTGGTCTGGCGTGTGTGATCATGGCATTTGTTGCCT
+NHA3-long            TTATGATGGTGCGGGTGGTCTGGCGTGTGTGATCATGGCATTTGTTGCCT
+                     **************************************************
+
+NHA3_nucl_size=3615  CAATTCAGTGGAGAAAAGAAGGATGGGGAGATCATAATCCTATAACTGAC
+NHA3-long            CAATTCAGTGGAGAAAAGAAGGATGGGGAGATCATAATCCTATAACTGAC
+                     **************************************************
+
+NHA3_nucl_size=3615  ATCTTTGGGAAAATGTGGATTATCCTTGCACCCATCATATTCTCTCTGAT
+NHA3-long            ATCTTTGGGAAAATGTGGATTATCCTTGCACCCATCATATTCTCTCTGAT
+                     **************************************************
+
+NHA3_nucl_size=3615  TGGAACCAACATTGTGGTTGAGAAGATGGACGGTGAGAGTGTTGCTCTTG
+NHA3-long            TGGAACCAACATTGTGGTTGAGAAGATGGACGGTGAGAGTGTTGCTCTTG
+                     **************************************************
+
+NHA3_nucl_size=3615  GTATTGCTGTCATAGTACTCTCTATGATTGTAAGAATGGTGTTTACCTAT
+NHA3-long            GTATTGCTGTCATAGTACTCTCTATGATTGTAAGAATGGTGTTTACCTAT
+                     **************************************************
+
+NHA3_nucl_size=3615  TTTGCTGCTGTTTGTGGAGGAATGACTGCAAAGGAGAAAATATTTCTGTC
+NHA3-long            TTTGCTGCTGTTTGTGGAGGAATGACTGCAAAGGAGAAAATATTTCTGTC
+                     **************************************************
+
+NHA3_nucl_size=3615  TATATCCTGGTTACCTAAGGCAACCGTTCAAGCTGCTCTGGG--------
+NHA3-long            TATATCCTGGTTACCTAAGGCAACCGTTCAAGCTGCTCTGGGTAAGTTAT
+                     ******************************************        
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            CATATCAATGGGACATTTTATTGTAAAGCACATTACTTTTAAAGGGACAT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TTTATAACAAGAAATTAAATTTTTTTTTAAGATTAGGCCTTCTTCTGTTG
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            GATATCATAGTTACGGATATACAAAAGGCCTAATGGTATATAAATAAACA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TATAAGAATTTTTTCAATAAGAAAAGCACGTTTCATGTAATGTTCTATCT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TTAGACCTTGCAATTCTTAATTTCCTACCATTCAGATTTTTTTTATAATT
+                                                                       
+
+NHA3_nucl_size=3615  ----------------------------CCCAGTATTTCTGGATAATGCA
+NHA3-long            TGTTTGATAAATAGTATTATTTTACAGGCCCAGTATTTCTGGATAATGCA
+                                                 **********************
+
+NHA3_nucl_size=3615  CTAAGAGATGGAATTACTGAGTATATTCC---------------------
+NHA3-long            CTAAGAGATGGAATTACTGAGTATATTCCGGTGAGATAAAAATGTTTAGA
+                     *****************************                     
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            AATATAGGGTTTTGATATTTAAAACTTCTTTTTTCTTTCTTTTTTAATGT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TTGTTTGATATAAAGATAAAGTATTTAAAAGTATTGTTATCTAATATGGC
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            AAATATTTGGAAATCTATGGCATTTTTATCTAGCAGAATTCATAGTTTAA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            AAATTCTGCAACACAAGGTTAAAGCGATATACAGATTAGAAAATTAGTTC
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            CATTTTCTAACTTTTGTCCAAGACAATAAATAGCAATGCAATTGACATAA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TTAATAACTTACTTTGGGACTTCATTTTTACTATATAGGGAATAATTTTA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            CTAGCCTAAAACTTTTATTTTCAACCTTGGGGTGAAAATTTTTGAAATTT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TAAACTTTGACTTTTTGATCTAGCATTGTACATCATGTTGTAAAGAAAAA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            AGACATTAGAAAAGTGCAGTTTGTGGCTAGTAATCAGGTCCATTAGATAA
+                                                                       
+
+NHA3_nucl_size=3615  ----------------------GTACGGAGAACAGATACTTACGATGGCA
+NHA3-long            AATTACCTTTTTAATTTTTCCAGTACGGAGAACAGATACTTACGATGGCA
+                                           ****************************
+
+NHA3_nucl_size=3615  GTCTTGTCAATTGTTGTGACTGCACCACTTGGTGCAATTCTAATCCTGGC
+NHA3-long            GTCTTGTCAATTGTTGTGACTGCACCACTTGGTGCAATTCTAATCCTGGC
+                     **************************************************
+
+NHA3_nucl_size=3615  TCTGGGACCTCTCCTGCTTCAAAGTGATATGGTGGACGAGGAT-------
+NHA3-long            TCTGGGACCTCTCCTGCTTCAAAGTGATATGGTGGACGAGGATGATGGAC
+                     *******************************************       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            AAAGGTTTGATATGGAAGAGATTGGAAGTATGGAGAAGGTTGATGAAGAG
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            GATGAGGATGAAATCAAACAGCATTAAAACTAAAAAAATAAACATAAGTT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            AATTTATCGTCTCGGCCATAATAAAAACTTTCCTTTAATTTTTTTTCATT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            ATCCAAACAAGATGGATGATTCACAAACAAGATGGATAATTCACAAACAA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            GATGGATAATTCACGAACAATATAGATAATTAACGAACAAGATGGATTAT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TCACGAACAAGATGGATAATTCACGAACAAGATGGATAATTCACGAACAA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            GATGGATAATTCACGAACAAGATGGATAATTCACGAACAAGATGGATGAT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TCATGAACAACAAAAATAAGATAGAAATCTTGAAAAACAGAAAGGTCCAA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            ATACTTGCAGCTGATATCATCTAATCTATATATAAATTTGGCTTGTCTGT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TTGTCTGTTTGTATCCAATAAACGTCAAAACGGCTGAACCGATCTGGCCC
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            AAATTTTTTGTGGCACCTCCCGTTATCCCAGGGAAGGTTTATGAATGATA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            AAAATAAAAAAATGTGTTTTAAAGGTTTTTAATTTTGTAAAAAAATTTAA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            ATTCTTAAAAATCCGCGAATTTTTTTTTTTTAAATCCGCAAAATTTTTTT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TTTCTTTGTTTTTAAATGTAAACAAAAAGAACATGTTCACAATTTAAATA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            GAAGATGGGCGCGAAGCGCCCTAAACCCCTAGTTATTTTAAAAATTTGCT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TTTAAAGTCCTATTCATGATTTATTATGCCTTAATTTTATAGGCGTTAGT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            GATATTTTAATTCAAAATATTTATAGTAATTTATTTTTTTAATACAAGTA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TATGATATTATTTTATCATCTTTATTTAAATAAAAGAAGTTTCATAGTTA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TAGGCATGTTATTTCATAACTCATAGTCATATGTGTCATAGCTATTTTTG
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TTTTTGTAAAATTAACAGTTTTATTTTGAGAATAAAAAAAGTGATTGTTT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TTCATAAAAAAATGCTTTGAGGCATAAAATACTAGAAAATTGATTTTTTT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            CCCATTTACAAGAAAATATCATAGTTTTAGCTAACGCTGTAAAATATCTA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TTATGATCCATAAAACGTTGATTTTCCAGAATATTTATGATTCAAGAAAA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TTCTGTTTTATGGATTATTAAAACATCTACTTTAACGCAGACATATTCAA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            AATACAAAATATTTATAATCAATATTTTCCAAAGAGGATATTTACTTTTA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            CAGAGTCCTCTCAAGCATATTCACTACCTTTTGCACATATATATAGACAG
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TGTCAGCTTTAAATTCGCGCAACACCTTGGTCTTTGGTTATAACTCACTT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            ATACTTTTTGTATAGCCTCGAATTCAAATAGAGTAATTGGCAAAATACTC
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            GCAAAAATATCAGATTATCAAATGCTAAATGATCAAAAATCTTTAAATGA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TCAAAAAAATGTAAGCTAAACAGTTAGGACAACTATTTTTTTTCTTCAAA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            AATATCATACAATTTTACGATAAAGTTAATTTTAAAGTTTAAGATATTCT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TTCACGCAATCTATTTTATCTTCTATCTCTTCTCTTCTTTTTTCTACTCT
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TCTCTTCTATTATCTTCTCTTTTCCTTTCTTCGTTTCTTTTTTCTTCTCC
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TCTATTATCTTCTCTTCTCCTTTCTTCTCTTCTCTTTTCTTCTATTTGTC
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            CTCTCTTTTTTCTTGTCTTTTCTTTTCTTCTCTTCTCTACTCTTCTGCTC
+                                                                       
+
+NHA3_nucl_size=3615  ------------------------------------------GATGGACA
+NHA3-long            TATTATCTCTTTCCTTCTCTTCCCTGATCTCATATCGTCTCCTCTTTGTT
+                                                                 *     
+
+NHA3_nucl_size=3615  AAGGTTTGATATGGAAGAGATTGGAAGTATGGAGA---------------
+NHA3-long            TTCTCTTTTTTGTTGACATTTAACCGGTTTTGAGATGAACAATGCAGTAC
+                          **  *     * *  *     ** * ****               
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            GATCCGTTGTAATAAATTATAAATTGTTTATTATTTATAAAAAAACGGCA
+                                                                       
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TTTCCAAAGTAATTTTGCCACAAACTCTGATTTTCATATGATTTTTCTCT
+                                                                       
+
+NHA3_nucl_size=3615  ----AGGT-------------------------T----------------
+NHA3-long            TATTTGGTTACATTTCTAGCTTGTAGACCTAATTGAAACGTAATGCGTTT
+                          ***                         *                
+
+NHA3_nucl_size=3615  ---------------------GA---------------------------
+NHA3-long            GTACTCCATAATTAGGCATTTGATCATTTGGCATTTTATATTTTGAAATT
+                                          **                           
+
+NHA3_nucl_size=3615  -----------------------------------------------TGA
+NHA3-long            TTTCAGTGAGAGCGTGCATCCAAAGATGGGTCCCATGCGAAAATCAATGA
+                                                                    ***
+
+NHA3_nucl_size=3615  -----------------------------------------A--------
+NHA3-long            ATATTTTGCCAACTACTTCTGTAAAACTAAAACTAAAAACAAGAACTTTA
+                                                              *        
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            ATGTACAATGTTCATGTCCAGGGGTACACAAAAAGTTCCAAAAGTATAGT
+                                                                       
+
+NHA3_nucl_size=3615  GA------------------------------------G-----------
+NHA3-long            GAGATTATAGTGCTGGTAAAATCAAAGCCCAAACTGCAGGCCGAGTCTTG
+                     **                                    *           
+
+NHA3_nucl_size=3615  ------GA------------------------------------------
+NHA3-long            AAAATTGATTTAAAGAAATTGAGTTTTTGCCACAAGTTTCTAATCCCTCA
+                           **                                          
+
+NHA3_nucl_size=3615  --------------------------------------------------
+NHA3-long            TCCTTATGCAACTTGACGGTGTAAACCTTTTATATTTCAAATTCAAACTA
+                                                                       
+
+NHA3_nucl_size=3615  -------------------T--------------G-----------AG
+NHA3-long            TTTAATCTAACAGAATTAATGATTTAAAATATCTGAGGTCTACAACAT
+                                        *              *           * 
+
+
+

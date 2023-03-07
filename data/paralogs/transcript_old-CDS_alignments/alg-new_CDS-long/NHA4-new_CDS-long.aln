@@ -1,0 +1,804 @@
+CLUSTAL FORMAT for T-COFFEE Version_13.45.0.4846264 [http://www.tcoffee.org] [MODE:  ], CPU=0.02 sec, SCORE=971, Nseq=2, Len=9998 
+
+NHA4_nucl_size=2361_strand=+  AT-----------------------GA-----------------------
+NHA4-long                     TCTTCATTCTAGTTGTGTGTACTTTCAGTATGTTCTTCATTCTAGTTGTG
+                                                        *                       
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TGTACTTTTAGTATGTTTTTCATTCTAGTTGTGTGTACTTTTAGTATGTT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     CTTCATTCTAGTTGTGTGTACTTTTAGTTATGTTCTTCATTCTAGTTTTG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TGTACTTTTAGTATGTTCTTCATTCTAATTGTGTGTACTTTCAGTATGTT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  ----------------ATAAC-----------------------------
+NHA4-long                     CTTCATTCTAATTGTGTGTACTTTTAGTATGTTCTTCATTCTAGTTGTGT
+                                                 **                             
+
+NHA4_nucl_size=2361_strand=+  --------A-----------------------------------------
+NHA4-long                     GTACTTTCAGTATGTTCTTCATTCTAATTGTGTGTACTTTTAGTATGTTC
+                                      *                                         
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTCATTCTAGTTGTGTGTACTTTTAGTATGTTCTTCATTCTAGTTGTGTG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TACTTTTAGTTATGTTCTTCATTCTAGTTTTGTGTACTTTTAGTTGTGTT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     CTTCATTCTAGTTGTGTGTACTTTTAGTTATTTTCTTATTTCTAGTTTTG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTCTTGCTTCTAGTTGTGTTCTTACTTCTTGTTGCGTTCTTACTTTATGG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  ------------------------ACAACATTGAG---------------
+NHA4-long                     TTTGTTCTTACTTTATGGTGTGTTCTTAATTAGAGATCTGTGTACTTTTA
+                                                         *  * ***               
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GTTATGTTCTTAATTCTAGTTGTGTTCTTACTTCTAGTTGCGTGTTTTAC
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTTTTGGTGTGTTCTTACTTTGTAGTGTATTCTTACGTTATGGCGTGTTC
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTACTTTTAGTTGTATTCTTTATTCTAGTTGTGTTCTTACTTATTGTTGT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GTTCTTAGTTAAAGTTGTATTCTTACTTCTGGTGATGCTCTTACTTATAG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTGTGTTCTTTATTTCTAGTTATGCTCTTAATTCTAGTTGCGTTCTTACT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TCTAGTTATGTACTTACAGCTAGTTGTGTGTACTTTTAGTTATGATCTTA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ATTCTAGGTGTGTTCTTAGTTTTTTAATTGTGTTCTTACTTCTAGTTATG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTCTTACTTTTAGATGTTTCTTACTAATAGTTGTGTACTTACTTCTAGTT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ATGTTCTTTTTATGTTGTTCTATCCTAATTAGTTGTGTTCTTTATTTATA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GTTATGTTCTTAATTTTATTTATTGTTTTTGTTCCTACTTCTAGGTTTTA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     CTTGGGATGGGCATTGGGCATCTTTTAGAAATTATTTTTAACAAAAAATA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TATCGTTTTCGTTTCAAAAAGAAAAACGCAAAAGTTTGTTTTTCGTTTCA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     CAACGAAAAACTGAAAACATCGTATCGTTATGAAATGGAAATTTTTTTAA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     CGTTTTTGGTCTGAAACGATAAACGAAGATATCGTTATTTTTTTTGTTTT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TAGAGTTGAAATGAGTAATTTTCGTTTTGAATTTTTTAAATTTAATTAAT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTATCAATCCTTTATAACTGTTTGTCTGTCTAGTTGTCTATCTGTCGCAT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GATGTCTGTCTGTTCAGATTTGGACCAAATTGTAACTGTAAAAAAAAGAT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTTATTACAAAAATAACACTTTATTAAAAATCGATAAGGAAGGAATTGGT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     CAGAACAAAACTTAGAAATTGTGTATGAATTGGATGAAATGTTATTTGGA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     AAAAAGTGGAGTAATTGTGCCTAAATCTTTACATCCTGATTGTGTAAACC
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTTGATATTTCAAACTTACACCACTTGATGATACCAAAATGTATAGTACA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     AAATCTGGTTGTAAATATATAGGGATTAGAAAATCAGAGTTAGTGGCAAA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     AACCCATATTAAAATGAATATAAATTGTAGTGACAGTTTGTCTTGAGTAA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTTTAAAAGTAGTTTTCCGTTTTTTTAAACATTCAGGTTTATTTGGTGAT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TAAAAGGCTCCATAAAAATCTTTACAAGGGTTGAATTTTGATACGAAAAA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     AAGAAAAATGACAATTCGAAATTTTTCATTACGACAACTTTTAAAACAAT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     CGTATATGAAATATTCCAACCCAATTTCTGTCGAACCAGAAATTTCAAAT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     CGATTTTTGAAACAGCTAGAAAGTGCCCATCCCTAGTTTTTACGTGCTAC
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     CGAATCATCTACATTAGATCTAGTAAATACTTGTTATAGCTGGTATTGTA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     CGGATTAAGATAGATGTTGGGTTCAGGGCTAAATATATTTAATCTTGATT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ATATGAAACAATATACATATATTATACATGGCGCATTAATAATTACAAGT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTTGCATTTAAAGAATAGAGGAACTTGTAACATGCGCAATTTGTAAAGAA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ACATCATTGGTCAGTTGGTCAATTAAAAATAGGAAAAATCAAACCTAATG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTTAGGGGGGGGGGTCTGCATTTACCTACATTAAAATATAATTTGCACTT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GAAGACGGGCTTGTCATGGTAAACAGGTTTCTTGGCGTTGAGTAATTAAA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GACTTTGATTCCATAGATACGGCGATAAAAGGATAATTAGGCATATAGGG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ATAATTAGAGATCTATGTAGGGATTTATGGATAATTAGGCATATAGGGAT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     AATTAGAGATCTATGTAGGGATTTATGGATAATTAGGCATATAGGGATAA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTAGAGATCTATGTAGGGATTTATGGATAATTATAGGGATTCTGTTGCGA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTATTAGGAATGTAGGTATTTAGGACTTTGGGGCTGTGTATAGGGATGTA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GGGATAATTAAGGACGTAGTCTTTTATGGCTGTGTAGGGATGTAGGGATA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ATTAGGGATGTAGGTATTTATGGATAAAAAGAAATGCTGTGGTGATGTAT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     AGGGATGTAGGAATGTAGGAATTGTTGCAGGAATGTAATCACTGTAGGCA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GAGATGCAGAAAACCATGAGTGTAGAATTACAGAAATTCTGGATGCAAGG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTGCTAAAATGTATGGTTTCAGTGCATTGGAAATTCAGAGTTCTACAGAG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     AACCATAAGTTTAGAAGGGATGCAGAGAAATATGGATTTAGACTATATAT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     AATTTCAGGGATACAGGGATGCATGGGTTTAGAGGATACAGGGAAACGGG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GATTCTAGGTTATATGGATATATGAATATGTGGAATACAGGGATATATGG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GATACATGAATACAAGGGCATAGGGATATAGGTATATATACGAATACGTG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GGATACAGGATTACAGGTGTAGAGGGATAAAGGAATATAGAGATATAGGA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTACATGGATCAGCGGTAAGAGAATGTCAAGGATTATAGGATTTCAGAGA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TACACAATTACAGAGATTAAGGGATACATGATTACACGGATACATTACAA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     CAAATATACAGGATAACATGGATACAGGTATATAGGGGATCCAGGATAAC
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ACGGATACTGGAAGACACGGATACAGGATAACACTGAAACAGGATAACAG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GATTACATGGACACAGGATTACTGTAATAAGCTATGTTACTTAAGGGATA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     CACGGATAGGGAGACAGGGATTCAAGGTTCTAAAGGAGAGGGATACAAGG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GAGCAGGATACAATATAATAAGTAATTATCTGAACCACTTAAAAACAAGT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTCCTTTAATTCCCATAGTTTACGTTAAATAAATTCAGAATTTTACAATA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GGTAGTTTTTGCAATCAATCAAAAATTTAAAATTTTGGCTTGGAACTTTA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     AATACTTTGAAAATGTAAAAATGTTAGCATTGAATTTTTTTTTAATTTTT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GGGAATTTTCAGCACTAGAAATAATTGTAATTAATATTTGGAAATTGTAT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TGATTTAGAAATTTTCAGTGCTTGGAAATTTAAATACTTTAAGAATATTT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GGGAACTTTTAATGATCGGACCTTTAAATACTTGAATTTTTAAATATTTT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GTAAATACTTGGGAATACTTGGGAAATGCCAATGTTTAGGAAATTTAAAT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ACTTGGGAAATGTGAATACCTAGGAATTGTAAATATGGGTTGGTAAAAAG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTCGGAAAGGAATTGAGTCTTAAAAAAAACAGATTTCATTAATTGACATT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TCATAAGGTCTTTAACATTGTGTTGCAAAGAAATAGGGATTATAAAATCA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GAGTTTGTGGCAAAGACTCGTAATCTTTTTTGAGTATTTGGTATATGGCA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTTTAGTAGTTTTGAGCTAACTGTAAAAATGGTATTTTTCTAAAATATAT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  ---------------------------ATGGATAAATATAAACAAAGCCC
+NHA4-long                     ATTTTCAGGAATAACAACAACATTGAGATGGATAAATATAAACAAAGCCC
+                                                         ***********************
+
+NHA4_nucl_size=2361_strand=+  CCCAGCGGAGACGGTCAACCCAGGATATAAAGATGAAAACAAACCGACAT
+NHA4-long                     CCCAGCGGAGACGGTCAACCCAGGATATAAAGATGAAAACAAACCGACAT
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  TTGTCAAAGCAAGAAAAACAAAACGTCTCAGGATGAGAAAATCCCTGGTG
+NHA4-long                     TTGTCAAAGCAAGAAAAACAAAACGTCTCAGGATGAGAAAATCCCTGGTG
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  AAGGTGAAACGAAACCTCCAGGCAAATAAAGTAACAACACAATTTTTTCC
+NHA4-long                     AAGGTGAAACGAAACCTCCAGGCAAATAAAGTAACAACACAATTTTTTCC
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  ACCACAAGGCGAGGTTGCCACCAACCTTACTCTAATTGTAGCAGTTATTA
+NHA4-long                     ACCACAAGGCGAGGTTGCCACCAACCTTACTCTAATTGTAGCAGTTATTA
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  TCATCTTCTTCTGTGCCCGAGCTGTCCTGGGCACAATAGCAGCTCCTGGA
+NHA4-long                     TCATCTTCTTCTGTGCCCGAGCTGTCCTGGGCACAATAGCAGCTCCTGGA
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  GGAACTATATTTGCTCTTTTTATTCTCATTCTTCTCTCACTCATTGCGGG
+NHA4-long                     GGAACTATATTTGCTCTTTTTATTCTCATTCTTCTCTCACTCATTGCGGG
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  ACAAATTGTAATACAAGTAGCTTCTTGGATATCGAAGCTTGTGGGCATAG
+NHA4-long                     ACAAATTGTAATACAAGTAGCTTCTTGGATATCGAAGCTTGTGGGCATAG
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  ATATCAAGATACCTCCTCTGCTTGGAATGATGGCTGTTGGGATTACTCTT
+NHA4-long                     ATATCAAGATACCTCCTCTGCTTGGAATGATGGCTGTTGGGATTACTCTT
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  AAAAATGTTCCTTACAACTTTGGCCAGTTTGGTAGAGCTGAGTGCATTGG
+NHA4-long                     AAAAATGTTCCTTACAACTTTGGCCAGTTTGGTAGAGCTGAGTGCATTGG
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  GAATGTTTCAGTTGAGTTTGCAGACTCTCTTCATAACTTTGAGATAAATT
+NHA4-long                     GAATGTTTCAGTTGAGTTTGCAGACTCTCTTCATAACTTTGAGATAAATT
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  CATCTGAATTTGATGAGGAACTAATGGGATTTACAGTAAAACCTTCCATC
+NHA4-long                     CATCTGAATTTGATGAGGAACTAATGGGATTTACAGTAAAACCTTCCATC
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  AGACTGCATGACATATATGGAGCTGAAGCCCAGCATTCTCTTGATCATAC
+NHA4-long                     AGACTGCATGACATATATGGAGCTGAAGCCCAGCATTCTCTTGATCATAC
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  TGTGTCTGAAAACCAGCGTATATCAAGCAATGTGGACCAACATGAAGTCT
+NHA4-long                     TGTGTCTGAAAACCAGCGTATATCAAGCAATGTGGACCAACATGAAGTCT
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  TTCCTCTAAATGATCATGAATATAATCCTAGTACGGCTGATGATACTCTG
+NHA4-long                     TTCCTCTAAATGATCATGAATATAATCCTAGTACGGCTGATGATACTCTG
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  AGCAATGTTGTTCAAAAATCTACCCCATACCAGGAACGGTTGCAGGGGAT
+NHA4-long                     AGCAATGTTGTTCAAAAATCTACCCCATACCAGGAACGGTTGCAGGGGAT
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  TATTCAGAACCATATTGACACACTGACTAAAATTGGTGAGCTTCATCAAG
+NHA4-long                     TATTCAGAACCATATTGACACACTGACTAAAATTGGTGAGCTTCATCAAG
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  AATTGACCAAACCAACTACTCCATCAGATGAAGATGTTATAGGAAGTAAG
+NHA4-long                     AATTGACCAAACCAACTACTCCATCAGATGAAGATGTTATAGGAAGTAAG
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  CATCCTAAAATGAATGTTTTTAAATCCCCCAAATGGCCAACTGACCACAG
+NHA4-long                     CATCCTAAAATGAATGTTTTTAAATCCCCCAAATGGCCAACTGACCACAG
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  TTCAGAGGAAAACATTTTAAACTTGATGGATTCAAGACATAAAAGAACCT
+NHA4-long                     TTCAGAGGAAAACATTTTAAACTTGATGGATTCAAGACATAAAAGAACCT
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  TACGTAGTGAACATGCTGAAGAAAGTACTTCACTGCCTGAGGATTCCTGT
+NHA4-long                     TACGTAGTGAACATGCTGAAGAAAGTACTTCACTGCCTGAGGATTCCTGT
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  AAGAAAAGATTCATTGGGCATGAACTTGATCCCTTGCTGTCTCGAACTCT
+NHA4-long                     AAGAAAAGATTCATTGGGCATGAACTTGATCCCTTGCTGTCTCGAACTCT
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  AAGATCCATATGTCTGACAGTTATTCTACTCATGGCAGGCCTAGAACTAG
+NHA4-long                     AAGATCCATATGTCTGACAGTTATTCTACTCATGGCAGGCCTAGAACTAG
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  ATCCTCCTGCACTCTGGAGACTTAAATGGATTGTACTCAGAACTACATTT
+NHA4-long                     ATCCTCCTGCACTCTGGAGACTTAAATGGATTGTACTCAGAACTACATTT
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  ATTCCTTGCCTTGTAGAGGCATTTGCAGCATCTTTATTTTGCTATTTGAT
+NHA4-long                     ATTCCTTGCCTTGTAGAGGCATTTGCAGCATCTTTATTTTGCTATTTGAT
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  CCTTGGATTTCCCTTTCTTCCTGGTCTATGCTTTGGATTTGTTCTCTGCG
+NHA4-long                     CCTTGGATTTCCCTTTCTTCCTGGTCTATGCTTTGGATTTGTTCTCTGCG
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  GAGTATCTCCAGCTGTTATTATTCCAGGATTGGTGAATCTGAGTCAGAGA
+NHA4-long                     GAGTATCTCCAGCTGTTATTATTCCAGGATTGGTGAATCTGAGTCAGAGA
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  GGATACGGAGTAAAGAAGGGAATACCAACACTGGTTATTGCAACATGTTC
+NHA4-long                     GGATACGGAGTAAAGAAGGGAATACCAACACTGGTTATTGCAACATGTTC
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  TGCTGATGATCTTGTGGCTATTGGAGGATTTGGTATTGCACTTGGTATCA
+NHA4-long                     TGCTGATGATCTTGTGGCTATTGGAGGATTTGGTATTGCACTTGGTATCA
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  CTTTTAATCCAGATGCTTCAATTACCGATCTTGCCAGCCATGGTCCAATT
+NHA4-long                     CTTTTAATCCAGATGCTTCAATTACCGATCTTGCCAGCCATGGTCCAATT
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  GAAGTCACCATGGGTATTGGATTTGGAATCTTCTGGGGTTATGTATGCCA
+NHA4-long                     GAAGTCACCATGGGTATTGGATTTGGAATCTTCTGGGGTTATGTATGCCA
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  GTGGCTCCCAAGTAGACATAACAAAGATTATATCCTGTTCAGATTTATTA
+NHA4-long                     GTGGCTCCCAAGTAGACATAACAAAGATTATATCCTGTTCAGATTTATTA
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  TACTTTTTTGCGGAGGTCTCTTTGCCTTGTTCGGAGCCCATCTAATCCAC
+NHA4-long                     TACTTTTTTGCGGAGGTCTCTTTGCCTTGTTCGGAGCCCATCTAATCCAC
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  TATGACGGTGCAGGTGGTCTGGCGTGCGTGATCATGGCATTTGTTGCCTC
+NHA4-long                     TATGACGGTGCAGGTGGTCTGGCGTGCGTGATCATGGCATTTGTTGCCTC
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  AATTCAGTGGAGAAAAGAAGGATGGGGAGATCATAATCCCATAACTGACA
+NHA4-long                     AATTCAGTGGAGAAAAGAAGGATGGGGAGATCATAATCCCATAACTGACA
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  TCTTTGGGAAAATGTGGATTATCCTCGCTCCCATCATATTCTCTCTGATC
+NHA4-long                     TCTTTGGGAAAATGTGGATTATCCTCGCTCCCATCATATTCTCTCTGATC
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  GGAACTAATATCCAGGTTGATAAGATGAACGGTGATACTGTAGGGTTAGG
+NHA4-long                     GGAACTAATATCCAGGTTGATAAGATGAACGGTGATACTGTAGGGTTAGG
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  AGTTGCCGTTATAGTTTGCTGTATTCTAACAAGAAGTTTTTTTACCTATT
+NHA4-long                     AGTTGCCGTTATAGTTTGCTGTATTCTAACAAGAAGTTTTTTTACCTATT
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  GGTCTGCAACATTTGGAGGACTAAACACCAAGGAAAAGTTATTTCTAAGC
+NHA4-long                     GGTCTGCAACATTTGGAGGACTAAACACCAAGGAAAAGTTATTTCTAAGC
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  CTGGCCTGGCTTCCAAAAGCCACAGTTCAAGCTGCCTTAGGT--------
+NHA4-long                     CTGGCCTGGCTTCCAAAAGCCACAGTTCAAGCTGCCTTAGGTAATCATGT
+                              ******************************************        
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     AATGAAACCATTCATTCTGAGCTAAATTTCACTGCACCTTCGAAAAGAAA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GAAAAAAAGTGAAAGCATATTAATCATTGTTTTCGAATCTTCAATGTTTT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     AAATGTTTAGGGAATTCTTTACAAAAATAAAATAATAATGAAGGTTTTTG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TATTATCAAGCTGCAGTTCTTAATCATTCTCCAAATTTCACCGATTTTTC
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TGAAAAATTTTGAGTATTTTCAAAAAATGATTAATGTAGACATTTATTCT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TGGCAAACTGTTTTGATATTGATAGTTAATGGTTGTGTATCTTCCAATAG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GTCAACAATATGTGAAAGGAAGTGTAATTTTAAGTGACCGGCCTCCATGC
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     AACACGCACCCCTGACCCTTCAGTAAAAGTAAATTTAACCTAAAGTCTAA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     CCGCGTCAACCTTGTTGCACCGGCTAGTCCTATTGAGTGTATGCTTTATC
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TACCCAATGCCCAGGTGGTACAGTACAAACTAGGACCGGAAAGGTTGACC
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     CGGCTAGGAAATTCAAATGTACTACGGCTGCCTTTGGCTCAAAGGAATGA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TCAGAATTAAATACTTAAAATCCTAGAAAAACGACGATATTTCCCACATT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ATTAATCAAATAAATGTTATAAAAGTGACGTTGTGAATTGGGCATTGCCA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTTTTGTATGGAGGGTCACTTGAAACTACAGTCCCTTCAATGGTAAACAG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     AAACTACTCAAATTTGAATAAGGATTTAAATTTGGGTGCAGAATAATTTA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     CATTCTGTTAAGTTAAGGGTTTGTAATTAAATACATTTTTAATCAATTTC
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  ----CCAGTATTTTTGGACAATGCTTTGAGGTCCGGAATAACAGAATTTG
+NHA4-long                     AGGTCCAGTATTTTTGGACAATGCTTTGAGGTCCGGAATAACAGAATTTG
+                                  **********************************************
+
+NHA4_nucl_size=2361_strand=+  TT------------------------------------------------
+NHA4-long                     TTCCGGTAAAAATTTCAAATAAAATCAGTGAAAAATATTAATATCTTTTA
+                              **                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTTTCATTATTACAAAATTAAACTATCAGTCTTGATGAGTTTTTTTTAGT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTTTTTCTACTTTCAACCCATTTTGATGTATGGTTTTTAGTTTACTTAAA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TATTTTTTAGATGACTTTATTATGTTTTCTTTTTATTGAGCGTTTCATAT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TATTTAAAATTTCTTGTGCTTCAAGTCTGCATATTTTAACATTCTGTTCA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  -----CCGTACGGAGAACAGATTCTCAATATGGCAGTTCTATCAATTGTG
+NHA4-long                     TGTTTCAGTACGGAGAACAGATTCTCAATATGGCAGTTCTATCAATTGTG
+                                   * *******************************************
+
+NHA4_nucl_size=2361_strand=+  ATCAGTGCTCCCTTGGGAGCCGTCCTAATCCTAGCCACAGGGCCCTTGCT
+NHA4-long                     ATCAGTGCTCCCTTGGGAGCCGTCCTAATCCTAGCCACAGGGCCCTTGCT
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  TCTCCATTCTGATTTAGAGGTTAAAGGAAGCACAGATGAGGGATCTGATC
+NHA4-long                     TCTCCATTCTGATTTAGAGGTTAAAGGAAGCACAGATGAGGGATCTGATC
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  TGGAAGAAGCTGAGAAGGAGGAGGAGGGGCAGGAAGAGGATGCTGAGGAG
+NHA4-long                     TGGAAGAAGCTGAGAAGGAGGAGGAGGGGCAGGAAGAGGATGCTGAGGAG
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  AGAGAGGAAGAGGATGCTGAGGATAGAGAAGATGAGGAGAGGGTGGAGGA
+NHA4-long                     AGAGAGGAAGAGGATGCTGAGGATAGAGAAGATGAGGAGAGGGTGGAGGA
+                              **************************************************
+
+NHA4_nucl_size=2361_strand=+  AAACGCG-------------------------------------------
+NHA4-long                     AAACGCGAATAAATCCTTCAAAAATAATTCTAAGATGTTAAATAATGAAA
+                              *******                                           
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TGGAAAGTGTGGACGTATGTCAGGGGGATCTTTCTGTAGACAATAAAAAG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ATCGTAAAAGAACATTTGAACTAAAGAAGCGAGATAAACATTGAAAAGCA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTTCAGTATTTTCCTATATATCCAGTTATTCCCCATTTTCAATATTTTCT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTTATTTTGATCTGGCTGAAAATTGATATGACTATAACAGTCAAATTGCC
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TACACTTTTCTCAGAAATCCATCGGATTATCTACAATTTAGTCTTTGCCA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     CAAACTCTAAACTTTTCTAATCCCTATATCTTTACAACCTGATGTTGTAA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ACCTTAGATATTTTTTCTTGCAGAAGCCATAGATTAAAACATGTGAAGTG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TACGGCATTATGTTAAAAAGGTTTATTGAATGAGAAAATCAAAGCTTGTG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ACAAATTCTGAATTCCTTAACAAGATTTTTTGCTGAAAATTCGTTCGCAG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     AATTAAATAAAAAATAGCTTTTTTGTAAACATTAAGTAATCTTTATATGT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ACCTATTCTCAAGATTCAGCTCCGACCGATTTTAATGTTAATATTTAATT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ATTGTTCTAGTTTAACCTGATTTTATCTAATTATAACCATTTGAATCATT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     AGACTTCTTAAAATAAACTTGTGATGATATATCTACCGTTCTACGTTTCA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     CATTACTTCGTTTAGGAAGCAAAGTAAACTGATCAAAAACTGAATTTTCT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     AATTAAAAAAAACCAAGTCAAAACTTGTGCGTGGTTAACCCTATACATGC
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TGGGGGGGGGGGGGTCTGCATCTTTGTAAAGCCTGCGGGCGTCCCACTCC
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     CCCCCTCTCCTGAAAAAAGGCCTTAGAGTAAAAATAAAAGGATACAATGC
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ATATTTAATGTCCATAGCCCAATGTAAACCATCCTTCTCTTATTTTGACA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TCTATTCTTCAAGGTCTTTTCAAAAATGTAGTCTTTAGTCACAAAAATGT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ATTGGCCAAAAGTAAAAAAATCAAGGTAATAGTGTCAAAAATGCGAGTGC
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     CGGGATATCGAGATCTATATTGCGCAGTGCGCTATTTGACACCAACGATT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TGACCTTCAACCCGATTTTTATCGTGGCTCTGGCAGATAATGCAGTTCAC
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTTTTTCAACGCAGATTTCTGGTTTTTACTTTCCATGGAATAATGTTGAT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     CTTTTATTTATTTATTTAAAGCACAACTTGCTGAAAAAAACTAATATAAA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTCAGTTTGTCTCAATAAACATGGGAATGGTGTGTCGGCTGTATGGTTTC
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GGATATCATGTCAATTTGAATTAATAAACAAAAAGAATGTTTTGAACTTC
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     AAGTTCAAAAAAATGATATTTAACTCCCAAAAATGGTCTTCCGTATAATT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GATAGAGCATGATATTTTTAAGAAACTGGTCATTTCTCTCTTGTACTAGA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ATTTTGAAAAGTTCATGTGATGATACATTTTGAAATATCTAAGGTTTACG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     CAAGCTTCCCTAATATCTTTGAATAAATGTCAAAAGACGCATTTTTGTGT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ATTCCCAATAAAGTATTCAGAATTTCAAACATAACTGTTAAAAGAAAATG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GGATTACTTCAGGTTAATTAGTTGTTTAAACGATTAAATGTCCAAGGATG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     AAAAAAAAACCTTTATAGGCGGGGGGGGGGGGGGTCGGGCATAAATATAT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GCATTGCCTGGGGGGGGGGGGGGCAATTCACGTGATATGATACAGAAAGG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TAGCATACTCATACCATAGAAATTTTTTTTTAAATTCTCTAAATTTGTAT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     GCCTTAAAAGTAAAAAAAATCCAGGTGATAGTGTCAAAAATTAAAGTTCT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  ------------------AATAAATCCTTCAAAAATAATTCTAAGATGTT
+NHA4-long                     AGGGCAAAAGATTTATTATAATGTCTGAATTCCTATAAATGTTGCAACCT
+                                                 *              **** * *   *   *
+
+NHA4_nucl_size=2361_strand=+  AAATAATGAAATGGA-----------------------------------
+NHA4-long                     GAAAATTTTATTGGAAAACCAATTGATATTTAAATTACCATACTAAATCA
+                               ** * *  * ****                                   
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     AAAACTACTTTAAGATACGATCCCAAAACTGTCCCATAATTCCGATATTT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ACTGGGACTTTCAATTTTTTTCCTTCAAACTTAATGAAATATTACAGAGA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  AA------------------------------------------------
+NHA4-long                     AAGGGGGGGGGGTTAAGCCTCAATAGCCCCACCCCTGTATACGCCTATGA
+                              **                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ACTGATTTCAAATTTTCCATAACCTGTGTCCGAACTTAATTTAAGCCGCG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTTAAACCGGTTTCAATTAAGCGCCAAAATTTAATACAATTTTAAGTGAA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ACCAACCATATTTTAGGCCTGGCTTAAATTTAAGCCACGGCTCAAATTCT
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  -------------------------------------GTGTGGAC-----
+NHA4-long                     TTAAATTCGGCCTCTGCACTGATGAAAAGTATATTGAGCCTAGACAAATC
+                                                                   *  * ***     
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTCGCAAAAATTATTAAAACATTTTTAGTCTTTTTAAAGGCTTGGTTCTA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ATTCAGATATTTAACAAGATGCTTTTTAATTATATTTTAAAAATATTGAA
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  ------GTATG--------------------------TCA----------
+NHA4-long                     TCCTGAGAATGTTTATAAAATTTAAATTTATTTTTAGTCAAATTTCTTTT
+                                    * ***                          ***          
+
+NHA4_nucl_size=2361_strand=+  ----G---G-----------------------------------------
+NHA4-long                     TAGAGGAGGGGGCTCAGAGTTAGATTCTAGGGGAGGGGGCGCAGAGTCAG
+                                  *   *                                         
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     ATTCTAGGTTAGGGGGCTCAGAGTCAGATTCTAGGTTAGGGGGCTCAGAG
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA4-long                     TTAGATTCAAAATATAAAAGATTATTGAGATTAAAACACTTGACTTTTAC
+                                                                                
+
+NHA4_nucl_size=2361_strand=+  ---------GGGAT-----C--------------------------TT
+NHA4-long                     AAATCACTGGGGACCCATTCTTGCTCCCCCTCCCCTTTGTGTGCCCCC
+                                       ****      *                            
+
+
+

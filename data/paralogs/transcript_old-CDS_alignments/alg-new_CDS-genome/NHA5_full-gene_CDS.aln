@@ -1,0 +1,300 @@
+CLUSTAL FORMAT for T-COFFEE Version_13.45.0.4846264 [http://www.tcoffee.org] [MODE:  ], CPU=0.01 sec, SCORE=992, Nseq=2, Len=3686 
+
+Chr3_49764468-49768153        CTAATGCTGTCACTTGTTTTTAGTCGAAGAAACAGCAGGGCACCACCACC
+NHA5_nucl_size=2262_strand=+  ATGGAATTACCTGGACCTGTCAGTCGAAGAAACAGCAGGGCACCACCACC
+                               *     *  *      * * *****************************
+
+Chr3_49764468-49768153        TTATGTGCCAGAAGTCCCAAAATATAGGGCTGATAGAAGGCTTAGCTTGT
+NHA5_nucl_size=2262_strand=+  TTATGTGCCAGAAGTCCCAAAATATAGGGCTGATAGAAGGCTTAGCTTGT
+                              **************************************************
+
+Chr3_49764468-49768153        CCGGGATGGAAATACCCGGGCCAGTCAGGTACACTGTACTTTCAGTTTAC
+NHA5_nucl_size=2262_strand=+  CCGGGATGGAAATACCCGGGCCAGTCAG----------------------
+                              ****************************                      
+
+Chr3_49764468-49768153        AGGAATTTGACATCTTTCATATAATCTGTCCTCATTGAGGGATATTAACT
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        TCTCATAGTCTTACTTCCCTTAAAGGATTCTGACCTCCTTAGCAAGGAAG
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        TAAGACTTCTTAAAAAAAAGTTGGACCTTACTCATTATCAGGAAATTTAT
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        CGATATAATTTGGAAGTTAATATACTATAATCATGGAGATATAGTTATTA
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        TGAAGAAATCAAATTCTTTACAGCTTTAAGTACAGTGTGGGTCTTCAAAT
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        AAGAAGCGCCTACATCTTATTTTAGCATGCTAAAATAAGTAGATAAACCA
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        ATCAATCATACTTTTCTTTTAGCTTTAATTCAGAGTTTAATTCTTTCAAC
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        TGTTTTAGTCGCAGAAATAGCAGGGCCCCGCCCCCTTTTGTGCCAGAAGT
+NHA5_nucl_size=2262_strand=+  --------TCGCAGAAATAGCAGGGCCCCGCCCCCTTTTGTGCCAGAAGT
+                                      ******************************************
+
+Chr3_49764468-49768153        ACCTGTAAACAGGGGAGAACGAAGACTAAGTTTATCTGGAATGGAAATAC
+NHA5_nucl_size=2262_strand=+  ACCTGTAAACAGGGGAGAACGAAGACTAAGTTTATCTGGAATGGAAATAC
+                              **************************************************
+
+Chr3_49764468-49768153        CAAATGTAGTTAGTCGGTAATTTTCCCTTTCCAATTTTAACCCTATTCCT
+NHA5_nucl_size=2262_strand=+  CAAATGTAGTTAGTC-----------------------------------
+                              ***************                                   
+
+Chr3_49764468-49768153        GCTGGGGGGGGGGGGGCAATTTGACCCCCCCCCCTGTAGTTGTTTTACAT
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        AACTCAAAAAGTATTGGTCTGAGGCTGTTGAAATTTTCTGACTTTTCCTA
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        CATACCCAAAGCCCTCCCTTTAGGCCTAAAACCGGGCTTTAATACTAGCT
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        GCCTGAGTCCTCAGGCACACTGCCTGAAAGACTGCTTTTTCCTGTAACAA
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        ACTAAATCTTTGTTTTGACCCACTTCCACTTGTCAGATTTTGATAAAATT
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        TAGTTTTTTGGAAAGCCTTTGACATAAGGAAACGAATTGCACAATTTTTG
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        CGAAAAAAAAATTGCAAATTTTTTTCAAACAACCTGTCAAAGTAAATTTG
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        CACATTTTTAGTTTTTCTTGATTAAAAATCAGGTTATTTAAAATTTTGCA
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        AAAATATTTGCATATTTGAAATGGCATGGTCAAGGGCTTTTCAAAAATGT
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        ATAATTTTTCATTTTTTGGACAAATTTTTTTTTGCAAACATTTTTACTAT
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        ATAACTGGATTTTGCGATAAAAAATTCAGTTTTTGCAAATTTGCAAATTT
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        TTTTGCAGATTCTAAAAGTAGAGCACAAGAGCTTTCAAATGATGTATCAT
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        TTGTCATATTTGGACATCAAACATGGGATTTAGAGGGGGGGGTCAAATTG
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        ACCCCCCCCCCAGCATATCCTGGTTTTCAAGTACCCCAGCAGAAATAGGG
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        TTAACTTATTTGAACTTGAAACAGTAACATGAAAGAAATAGTTACTGGCT
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        TAACTTTATTCTGTTTTAAGGAGGAACAGCAAGTATCAGCAAGTAGTTCA
+NHA5_nucl_size=2262_strand=+  -------------------GGAGGAACAGCAAGTATCAGCAAGTAGTTCA
+                                                 *******************************
+
+Chr3_49764468-49768153        TCCTCATCCTGTAGTAGAGGATAAAGAAGAAGTTTCTGAGTATTCTCCTC
+NHA5_nucl_size=2262_strand=+  TCCTCATCCTGTAGTAGAGGATAAAGAAGAAGTTTCTGAGTATTCTCCTC
+                              **************************************************
+
+Chr3_49764468-49768153        CAGCATATCCTGGAGATAAGAAACAACCTGGAAAGGTTAAAAAGTCCTAT
+NHA5_nucl_size=2262_strand=+  CAGCATATCCTGGAGATAAGAAACAACCTGGAAAGGTTAAAAAGTCCTAT
+                              **************************************************
+
+Chr3_49764468-49768153        AAGAGGGTCAAACAAGTACTTCAAAATAACAAGATTACCTCAAACTTTTT
+NHA5_nucl_size=2262_strand=+  AAGAGGGTCAAACAAGTACTTCAAAATAACAAGATTACCTCAAACTTTTT
+                              **************************************************
+
+Chr3_49764468-49768153        TCCTCCAAAAGGAGATGTGGCGATTAACATAACACTGATGATAACAGTTG
+NHA5_nucl_size=2262_strand=+  TCCTCCAAAAGGAGATGTGGCGATTAACATAACACTGATGATAACAGTTG
+                              **************************************************
+
+Chr3_49764468-49768153        TAATCATATTTCTGTGTGCAAGAACAGTTTTAGGTCCATATTCTGCTCTT
+NHA5_nucl_size=2262_strand=+  TAATCATATTTCTGTGTGCAAGAACAGTTTTAGGTCCATATTCTGCTCTT
+                              **************************************************
+
+Chr3_49764468-49768153        GGGGGAACAATCTTTGCTGTCTTCATTCTTATCTTCTTTGCTCTGGTTGC
+NHA5_nucl_size=2262_strand=+  GGGGGAACAATCTTTGCTGTCTTCATTCTTATCTTCTTTGCTCTGGTTGC
+                              **************************************************
+
+Chr3_49764468-49768153        AGGACAGATAGTGCTTCAAGCTGCAGCTTTACTCTCTAAGATGGTTGGAT
+NHA5_nucl_size=2262_strand=+  AGGACAGATAGTGCTTCAAGCTGCAGCTTTACTCTCTAAGATGGTTGGAT
+                              **************************************************
+
+Chr3_49764468-49768153        TTGATATTCGTATACCCCAGCTTCTTGGAATGATGGCTGTTGGGATATTT
+NHA5_nucl_size=2262_strand=+  TTGATATTCGTATACCCCAGCTTCTTGGAATGATGGCTGTTGGGATATTT
+                              **************************************************
+
+Chr3_49764468-49768153        TGTAAAAACGTTCCATACAATGCCCATGAGTTTAACAGCCCAGAATGTCT
+NHA5_nucl_size=2262_strand=+  TGTAAAAACGTTCCATACAATGCCCATGAGTTTAACAGCCCAGAATGTCT
+                              **************************************************
+
+Chr3_49764468-49768153        TAACAGATCTTTGGCACATGGTAATCTTTACAAAGAACTGCATGGTAATG
+NHA5_nucl_size=2262_strand=+  TAACAGATCTTTGGCACATGGTAATCTTTACAAAGAACTGCATGGTAATG
+                              **************************************************
+
+Chr3_49764468-49768153        ACAGTCATTTGATTGATCATGAAGGCTTAAATCTGCATTCAGATGACCCA
+NHA5_nucl_size=2262_strand=+  ACAGTCATTTGATTGATCATGAAGGCTTAAATCTGCATTCAGATGACCCA
+                              **************************************************
+
+Chr3_49764468-49768153        AATGCGCATGGAGTTATGATGGATGTTCATGCCTCTTTAAAGGAAGGACA
+NHA5_nucl_size=2262_strand=+  AATGCGCATGGAGTTATGATGGATGTTCATGCCTCTTTAAAGGAAGGACA
+                              **************************************************
+
+Chr3_49764468-49768153        TTCTGCTATTGTTGATCACCTTGAAAAAACAACAGACAATCCAAAATTTA
+NHA5_nucl_size=2262_strand=+  TTCTGCTATTGTTGATCACCTTGAAAAAACAACAGACAATCCAAAATTTA
+                              **************************************************
+
+Chr3_49764468-49768153        GCACCACAGCAAAAATATTCCATGCAAAAGCTAAAGAATTCAAATCACCG
+NHA5_nucl_size=2262_strand=+  GCACCACAGCAAAAATATTCCATGCAAAAGCTAAAGAATTCAAATCACCG
+                              **************************************************
+
+Chr3_49764468-49768153        TCTAATGCTTCACAAGCTCTAAAGTCACATGGGGAAGGTTTCAAACCAAT
+NHA5_nucl_size=2262_strand=+  TCTAATGCTTCACAAGCTCTAAAGTCACATGGGGAAGGTTTCAAACCAAT
+                              **************************************************
+
+Chr3_49764468-49768153        TCCAGATTCTGAAACTCTTCATCATCGCGCAAGACGAAGTGGAGGTCATG
+NHA5_nucl_size=2262_strand=+  TCCAGATTCTGAAACTCTTCATCATCGCGCAAGACGAAGTGGAGGTCATG
+                              **************************************************
+
+Chr3_49764468-49768153        ATGAACCTGCTGTATACCGTGATCCTTGTGTTAAGAGATTTATTGGAAAT
+NHA5_nucl_size=2262_strand=+  ATGAACCTGCTGTATACCGTGATCCTTGTGTTAAGAGATTTATTGGAAAT
+                              **************************************************
+
+Chr3_49764468-49768153        GATGTTGATCCAACTGTTAAAACAATCTTAAGATCTGCATGCTTAACATG
+NHA5_nucl_size=2262_strand=+  GATGTTGATCCAACTGTTAAAACAATCTTAAGATCTGCATGCTTAACATG
+                              **************************************************
+
+Chr3_49764468-49768153        TATTCTTCTGATGGCAGGTCTTGAATTGGATCCTCCACAACTATGGAGAC
+NHA5_nucl_size=2262_strand=+  TATTCTTCTGATGGCAGGTCTTGAATTGGATCCTCCACAACTATGGAGAC
+                              **************************************************
+
+Chr3_49764468-49768153        TTAAATGGATTGTACTGAGAACTACCTTCATACCTTGCATAGTAGAGGCA
+NHA5_nucl_size=2262_strand=+  TTAAATGGATTGTACTGAGAACTACCTTCATACCTTGCATAGTAGAGGCA
+                              **************************************************
+
+Chr3_49764468-49768153        TTTGCTGCTGCCCTGTTTTGTTATCTGATCCTTGGATTTCCCTTTCTTCC
+NHA5_nucl_size=2262_strand=+  TTTGCTGCTGCCCTGTTTTGTTATCTGATCCTTGGATTTCCCTTTCTTCC
+                              **************************************************
+
+Chr3_49764468-49768153        TGGACTATGCTTTGGATTTGTTCTCTGCGGAGTATCTCCAGCTGTTATTA
+NHA5_nucl_size=2262_strand=+  TGGACTATGCTTTGGATTTGTTCTCTGCGGAGTATCTCCAGCTGTTATTA
+                              **************************************************
+
+Chr3_49764468-49768153        TTCCAGGATTGGTGAATCTTAGTCAGAGAGGATACGGAGTAAAGAAGGGA
+NHA5_nucl_size=2262_strand=+  TTCCAGGATTGGTGAATCTTAGTCAGAGAGGATACGGAGTAAAGAAGGGA
+                              **************************************************
+
+Chr3_49764468-49768153        ATACCAACACTGGTTATTGCAACATGTTCTGCTGATGATCTTGTGGCTAT
+NHA5_nucl_size=2262_strand=+  ATACCAACACTGGTTATTGCAACATGTTCTGCTGATGATCTTGTGGCTAT
+                              **************************************************
+
+Chr3_49764468-49768153        TGGAGGATTTGGAATAGCTGCTGGAATTACTTTTAATCCTGATGCATCAA
+NHA5_nucl_size=2262_strand=+  TGGAGGATTTGGAATAGCTGCTGGAATTACTTTTAATCCTGATGCATCAA
+                              **************************************************
+
+Chr3_49764468-49768153        TATCTGATCTTGCCAGCCATGGACCTCTTGAAGTGCTCTTGGGGATTGCA
+NHA5_nucl_size=2262_strand=+  TATCTGATCTTGCCAGCCATGGACCTCTTGAAGTGCTCTTGGGGATTGCA
+                              **************************************************
+
+Chr3_49764468-49768153        TTTGGAATATTCTGGGGATACATCTGCCAATGGTTTCCAAGTAAGCAGTA
+NHA5_nucl_size=2262_strand=+  TTTGGAATATTCTGGGGATACATCTGCCAATGGTTTCCAAGTAAGCAGTA
+                              **************************************************
+
+Chr3_49764468-49768153        CGAAAACTATGTGTTCTTTAGATGGGTCTTACTGACAGCTGGAGGTGCTT
+NHA5_nucl_size=2262_strand=+  CGAAAACTATGTGTTCTTTAGATGGGTCTTACTGACAGCTGGAGGTGCTT
+                              **************************************************
+
+Chr3_49764468-49768153        TTGCTCTGTTTGGAGCACATATGATCCATTATGATGGAGCTGGAGGTCTG
+NHA5_nucl_size=2262_strand=+  TTGCTCTGTTTGGAGCACATATGATCCATTATGATGGAGCTGGAGGTCTG
+                              **************************************************
+
+Chr3_49764468-49768153        GCTTGTGTGATCATGGCATTTGTTGCCTCTATTCAGTGGAGAAGAGAAGG
+NHA5_nucl_size=2262_strand=+  GCTTGTGTGATCATGGCATTTGTTGCCTCTATTCAGTGGAGAAGAGAAGG
+                              **************************************************
+
+Chr3_49764468-49768153        GTGGGGAGATCATAACCCTGTTACAGATATCTATAACAAGGTCTGGATTA
+NHA5_nucl_size=2262_strand=+  GTGGGGAGATCATAACCCTGTTACAGATATCTATAACAAGGTCTGGATTA
+                              **************************************************
+
+Chr3_49764468-49768153        TCTTGTCTCCAGTTATCTTCTCACTCATCGGAACCAATATCAACGCAGAA
+NHA5_nucl_size=2262_strand=+  TCTTGTCTCCAGTTATCTTCTCACTCATCGGAACCAATATCAACGCAGAA
+                              **************************************************
+
+Chr3_49764468-49768153        AAGATGGATGGGGCAACTGTAGGAATGGGTGTTGCTGTACTTGTCTGTTG
+NHA5_nucl_size=2262_strand=+  AAGATGGATGGGGCAACTGTAGGAATGGGTGTTGCTGTACTTGTCTGTTG
+                              **************************************************
+
+Chr3_49764468-49768153        CTTTTTAACCAGGGGATTCTTTACCTATTGGTCAGCTGTTTGCGGAGGAT
+NHA5_nucl_size=2262_strand=+  CTTTTTAACCAGGGGATTCTTTACCTATTGGTCAGCTGTTTGCGGAGGAT
+                              **************************************************
+
+Chr3_49764468-49768153        TAGACACGAAAGAAAAAATATTTTTGGCCATTTCTTGGCTCCCTAAGGCT
+NHA5_nucl_size=2262_strand=+  TAGACACGAAAGAAAAAATATTTTTGGCCATTTCTTGGCTCCCTAAGGCT
+                              **************************************************
+
+Chr3_49764468-49768153        ACAGTTCAAGCAGCTTTAGGTATTTCTTTTTACTTCTTTAATTCTTATTT
+NHA5_nucl_size=2262_strand=+  ACAGTTCAAGCAGCTTT---------------------------------
+                              *****************                                 
+
+Chr3_49764468-49768153        AACCCAGTTTTGATTAATTAAAATAACAGATCAACAGGCACATGAAAGAG
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        CTCTTTGTGTTTAACAACAAATTTACAGATTCTTTTAGTTTGTCAATATC
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        TCACTTATATTCATTATTTTTTACTTTTTCAGGTCCGGCATTCTTGGAAA
+NHA5_nucl_size=2262_strand=+  ------------------------------AGGTCCGGCATTCTTGGAAA
+                                                            ********************
+
+Chr3_49764468-49768153        AAGCAATAGCAGCAAATCTTCCAGAGTATGTGCCAGTGAGTATTTATTAA
+NHA5_nucl_size=2262_strand=+  AAGCAATAGCAGCAAATCTTCCAGAGTATGTGCCA---------------
+                              ***********************************               
+
+Chr3_49764468-49768153        ATATTACACATTTTTAAATATTTTAAAAGCTGTTATTTTGTTTTTAATGC
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+                                                                                
+
+Chr3_49764468-49768153        CCTTATTTTAAGATTGGAGAAACAATTCTTACCATGGCTGTCATATCCAT
+NHA5_nucl_size=2262_strand=+  ------------ATTGGAGAAACAATTCTTACCATGGCTGTCATATCCAT
+                                          **************************************
+
+Chr3_49764468-49768153        TGCAATAAGTGCACCCATCGGAGCCATACTTATCTTGGCACTTGGACCTG
+NHA5_nucl_size=2262_strand=+  TGCAATAAGTGCACCCATCGGAGCCATACTTATCTTGGCACTTGGACCTG
+                              **************************************************
+
+Chr3_49764468-49768153        TACTGCTTCCTAATGATTTTGAGGGTGATGAAGACGAAGATGAGGAGGCT
+NHA5_nucl_size=2262_strand=+  TACTGCTTCCTAATGATTTTGAGGGTGATGAAGACGAAGATGAGGAGGCT
+                              **************************************************
+
+Chr3_49764468-49768153        GGTGAGCTTGATGTTATCAAGGAGAACATGAAAGAA
+NHA5_nucl_size=2262_strand=+  GGTGAGCTTGATGTTATCAAGGAGAACATGAAAGAA
+                              ************************************
+
+
+

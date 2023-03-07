@@ -1,0 +1,700 @@
+CLUSTAL FORMAT for T-COFFEE Version_13.45.0.4846264 [http://www.tcoffee.org] [MODE:  ], CPU=0.02 sec, SCORE=991, Nseq=2, Len=8683 
+
+Chr3_66735544-66744226    TATTCCTACAGGTTGGCGTTTTTCCCTTGTCTGGTTGAAGCAACTGTGGT
+NHA8_nucl_size=_strand=+  ATGGTTTTCAGGTTGGCGTTTTTCCCTTGTCTGGTTGAAGCAACTGTGGT
+                                * ******************************************
+
+Chr3_66735544-66744226    GGCTATCTCTAGTCATCTTCTCCTTGGGTTCCCCTGGCTCTGGGGATTCA
+NHA8_nucl_size=_strand=+  GGCTATCTCTAGTCATCTTCTCCTTGGGTTCCCCTGGCTCTGGGGATTCA
+                          **************************************************
+
+Chr3_66735544-66744226    TGCTCGGGTTCATCCTAGCTGCAGTATCTCCTGCAGTTGTTGTGCCATGT
+NHA8_nucl_size=_strand=+  TGCTCGGGTTCATCCTAGCTGCAGTATCTCCTGCAGTTGTTGTGCCATGT
+                          **************************************************
+
+Chr3_66735544-66744226    CTTCTCTCCCTTCAGGAACGAGGGTTCGGAGTAGAGAAGGTATTTATATG
+NHA8_nucl_size=_strand=+  CTTCTCTCCCTTCAGGAACGAGGGTTCGGAGTAGAGAAG-----------
+                          ***************************************           
+
+Chr3_66735544-66744226    TACCCTTTGACCCTGTACAGTGACAGTGTACGACAGAGCCCGAAATTTAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AAGAGTATCGTTGAATGAAACTCCCGAGTTTCCATTTCGGGGTCTTAACA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TTTAAGTTTTTAATTTTAAGAGATTCGAAAAAACACATAACCCCATTCGT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GAAACTCGGGTTTCAAAACTGGTTTTTATAACGATACCCTGACTTAAGTT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TTGGGCTCGGGGTAGCTCAGTTTTGTTAATATTTAGTGAATAATAAAAAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GCAAAAGTTGACTTTGGATAAATCGTTAAGAACATTTTACTTCAGCAGTT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TTTTCCTGAAATTATTTTTGTTACAGAATTTATTCTTCTTTGAAATGGAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GCCTCTTTCAAAACATAAAATAATCTAAATCTACCATTGTGGGTATGAAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AGATATAAAAAATTAAGATCTTAATATACCAAAATGAAAAATATTGAAAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TCAAAAAGATTGCATATTTTGTTTATTTTTTCACAAATTTTTAAATGGTT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ACCCCACTAAACCTTATACAGTGTACCTTGTTCGCTATTTAGTTTGCATT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ATGCAGAAGTGAATATATTTTGCAAAACTCCCACTTCGGTAAAATCACGT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ACGTATTTGATTTTCGAATTCAAACCTATTTTTCCTAATAGAAACTTGAT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TATTTCCCTTCAACTAAAATTGAAACCTTCAATGATCACACTGATAAATA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TTTTTTCGTTTTACGTAAATATTTTTTATCATAATAGAAAATAAAGTTAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GAAATTAATGGTGAAGAGTTTCATCTAAATTATTTATTTTCTAAACGACA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AGAATGAAAATGATTGTTTTATTATATTTAGGGAATACCTACACTAGTAA
+NHA8_nucl_size=_strand=+  -------------------------------GGAATACCTACACTAGTAA
+                                                         *******************
+
+Chr3_66735544-66744226    TAGCAGCGGCTAGTGTTGATGATGTACTCGCGATATCTGTGTTCACAATC
+NHA8_nucl_size=_strand=+  TAGCAGCGGCTAGTGTTGATGATGTACTCGCGATATCTGTGTTCACAATC
+                          **************************************************
+
+Chr3_66735544-66744226    CTACTTGGAGTAACCTTTAATACAAACCAGGATAATCTCTACCAGCTGAT
+NHA8_nucl_size=_strand=+  CTACTTGGAGTAACCTTTAATACAAACCAGGATAATCTCTACCAGCTGAT
+                          **************************************************
+
+Chr3_66735544-66744226    CCTCCAGGGTCCTTTAGAGGCCATAGTCGGGGTCCTGGGAGGATTTATCT
+NHA8_nucl_size=_strand=+  CCTCCAGGGTCCTTTAGAGGCCATAGTCGGGGTCCTGGGAGGATTTATCT
+                          **************************************************
+
+Chr3_66735544-66744226    GGGGAGTTCTAGTCATCTTTCTGCCTCCTTCGCCACATCCCAATGTGTTG
+NHA8_nucl_size=_strand=+  GGGGAGTTCTAGTCATCTTTCTGCCTCCTTCGCCACATCCCAATGTGTTG
+                          **************************************************
+
+Chr3_66735544-66744226    TTAAGAGTTGTGCTGTTGTTTGGTGGGAGCTTGTTTGCTCTCTTTGGGAG
+NHA8_nucl_size=_strand=+  TTAAGAGTTGTGCTGTTGTTTGGTGGGAGCTTGTTTGCTCTCTTTGGGAG
+                          **************************************************
+
+Chr3_66735544-66744226    CGCAATGGCGGGGTTTCCTGGAGCGGGAGCCTTGGGGGTTCTAGTTCTAG
+NHA8_nucl_size=_strand=+  CGCAATGGCGGGGTTTCCTGGAGCGGGAGCCTTGGGGGTTCTAGTTCTAG
+                          **************************************************
+
+Chr3_66735544-66744226    CATTTGTCGCAGGTAAGACATACTAAACCACCCGCACTGCGTCGCTTGCT
+NHA8_nucl_size=_strand=+  CATTTGTCGCAGG-------------------------------------
+                          *************                                     
+
+Chr3_66735544-66744226    CAAAATATTCTCAACCTGACGTAAACCAAAATATCCGCTAACAATAGAAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ATATTCTTGAATATATGATTAGATAATTAAGACTGATTATCTAATCTGAT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ACTCCTAGATATAAAGATCATACTCGTACTGAACAAGCATGCTATATTTG
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GTCAGAATATTTTTAAAATATGCCATCTAACGCCGTCTGTTTCAACTATT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TTCCTTTCAGGGTTGGACATTTTACGATGTTTTAAGCACATATAAATCTC
+NHA8_nucl_size=_strand=+  -----ATTAGG---------------------------------------
+                                * ***                                       
+
+Chr3_66735544-66744226    AACTATGTTCACACTAATTTTAATATACACACGTAGGCTTCCTGGGCGCT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TCGCGCCCGTGTTTTATTTCAATTGTGAAAATGTTCTCTTTGAAATCATT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GTAAAACAAAACAAACTAAAATAGTTCGCGGATTTTATTAGAAAAAACAT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CTTGGGTTTTCAATATTTTATGACAATCAAATGTTGTTGGAGGCAAATTT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TTACAATACCTTCCTGGGGTCATTTGAGGTTACACACAAAGTTTGGGCCC
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GATCGGTTCAGCCGGTTTTGACGTTTATTGTGTACAAACAAACAGACAGA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CAAGCAACGTTTATATATTTTATATATACTTTAATAAATATATATTTCAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TTGTGAATATTTTCTCTTTGTGTACCTTGTAAAACAAAACAAAAAATTCG
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TGGATTGTCTAATTTTAATGAAAATCTAATTTTGTTGGAGGCTAATTTTA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AAAATTTTGATCAATCATAAACCTTCCCTGGTGTCATGTGAGGTCCCACA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CAAAATTTGGGTCCAATTGGTTCGGCCGTTTTGAGTTTGACGTTTTTGGA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TACAAACGTACAAACTGACCAGCAAAGTATGTATATTATAGATAACACGT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TTTATTCATATTATTTATTTATATTTAATATGTATTTTTAAGTTTAATTA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ATGCATTCCTGAAAATATTTTGATTATTTGAGTGCTGACTAAGTATACTA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CTTGAAAATGCTCTCAATGAATGTATTTTCAGTTGAGATTTCAATATTAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TAGTTTGTTTCAACAAATACCGATCAAAAGAAAATTATTTAACATTATAT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TTTCAATTGGCTCATTTTAAAGTTTCTTTTGTGTTTTTTTTAGCTGAACC
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ATCTTACATTATTATTTTGTATTAAATGTGTAAATTAATACTATACTTAC
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TTATTGAGTCATATAGCTGTATATAAAGCTTAAGAAGCAAGACTTCTTAT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CAAGAGTATGCAcccccccccccccccgtttgaggctgcccccctcccat
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ttgagacTGCCTACCCTCCCCTCCTCATATACTAATCTACTAAACAAATC
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CGCTTTCTAGAGTCAAGCGCCCCCTTCCCCTTCAAACCTTATTACACCCA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CTAATCCTTTAACCCCCCCCCCCTCACAGCTCGCCGAATCAGGTGTTTTC
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TTTCAAGTTTAATCTTGTAGACTGTCTAGTTAAGTGTTTAGTGTCAGCTG
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AATTCTCATATGGATCACATTGTCAATAATAGCACTCCGTGAAGATTAAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GGATTTATATCAAGAAATGGGATCCCAATCTAAATTTAAATGCACCGAAT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GTGGATTAAAATCACCATGTCTTTCCAAATTTCGCGAGCATCAATATCTA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CACTCTGGACAGAAACCGTTTAATTGCGATTTTTGCGGTCGGATGTTTGC
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ATTGCGAAAATATGTTCGCAAGCATTGTCGACTAGTTCACAATACTGAAT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CCCTGATTCATACTGGCCTGGATACATTTGAGGGTATTGAAGAGTATGAT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GAAGCAATGTTGGAGAAAAAATCCGATTTCAACATTGATTATGAATCCAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GGCAACTTTGGATCCCGTAGAACCTTGTAAACCTAAACTGTCCTGTCGAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TACTTCGTTGTTCAACCTGTGGACTGGAGTTTAAAAAGAGATCATACTTA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AAACAACATGAGTTTACTCACACGGGGTTAAAACCCTTCTCATGTTTTGT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CTGCGGTGATAAGTTTGCATTTAAGAGATATGCTCTACGGCATTTGCGAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AAAGGCACGGAAGTAACTCCAACGACTTAGTGGTTAAAACAAACGAAGAC
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TCGATGGCTTTGAGTTCTGTAAAGAGCTCTACATATTTGAAACTGGTGAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GTCTAAAGAATCCAATATATTTCACTGTGTCCTTGGAGCTAAGCTAGCAG
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AAAAGCGGAATCCCAAACAATCTCGGCGAAAGTTTAGCTGTTCTAAATGT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GGACTGAAATTCTTTAAGCAGAGCGGTCTTCGGAATCATGAGTTTCTTCA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TACGGGGTTAAAGCCATTTTCATGCCTACTTTGCACCAGAAACTTTGCAC
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TTGAAGATTATATTCGAAAACATTTAAAAAGATTTCATAATAGGACAACA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TCTGAAGTTGGAGAATTGTACAGCAACGATTCTTTACCTCAAGAACTTTC
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AAGTGACAAGATAAAAATGGATTCTACAACCTTTAAATCCAACGCGACGA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CCAATTTTTCCTGCAATTTTTGTGACAGAAAGTTCTCTTTTGAATTCTCT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CGAATCCAACATTACAGACGGGTACATGGAGCAGAGATGGGTAAAGATGT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TACTAGTGTGAACCCAGTTAAGAAAGAGAAGGGAGTTGACACTGACAACA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CTAATGCAGGTCAGGATATAAAGGAGGACCAAGATTTAATTTATACTAAG
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GACCAAGTTATCAAACATGAGCACGCAAATATCCATCTTGTCAATCCTGA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TATCCAACTACAGGAGCCAGAAATCCGTTTTAAGGACCTTGTTATGAAGA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CAAAGGACACAGATACACAACTCGTGGACCCAGATATCCAACTCGTGGAC
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CCAGGTATCCAACTCAAGGACCCAGGTTTCAAACTCGTGGACCCAGGTAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CCAACTTGTGAAACCTGATACCCAACTTATGGACCCAGATATTCAACTCG
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TGGACCCATATATTCAACTTAAAGATAATATGAAAATGGAATCTAAAACT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TCAAACGAAGTAATGAACCAATTTGGCTGTAAGTTTTGTGATAGTAAGTT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CTCTTTCAAATTCTCCCGAATCCAGCACTGTAAACGGGTACATGGAGCAG
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AGATGGATAAAGATGTAACTATTGAGATCCTAGGGAAGAGAGATTCGACG
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GGTGACACTGACTGCAATGGAGGTCAGGATATCTTGAAGCATGAGGATAT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GCAGCAAAACAGGATAAATATCGCGGTTCAAGGTTTGAATTACGAGAATC
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AAGATTTACAAAATGTGGACGTTGGTAACAAACTTAGAGACAATATAATA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ATAGATTCAAAGACTGTCAAATCCGAAGTAAGGGACCAATTTCCTTGCGA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GTTTTGTGGCAAAAAGTTCTCACTTAATTTCTTTCGAATCCAGCACTGTA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AACGGGTACATGAAGACGAGATGGGTGAAGAAGAACCAGAGATTGATGGT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TCCAAGAACACAGATATCCAACATGAGAACCCAGATATTCAGTTAGAGGA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CACAGATATCCAACTGGACGACACTGATATCCAACTTGAAGACCAAGATA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TCCTACATGGAGGCCAAGAGAAGTCTGATATCCAAGAGAACACAGATATA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GAAAATGAGTTCTCGGCATTTCAGTTTGTAGAACAGGACCGTGAAAATGT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TGATATTTCATTTATGGAAGGAATCTATGACAATGAAGATGGATATGAAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ATAATGTTGAATCTGATCCTGAAACCCCGGAAGAGGATGAGGACGAGCAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CATGGAGTTGAAGTTGATGATAATCCAAGGAACAGCAATAAAAAGTGGAC
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TGTCATATTCTCAAATTTTTCTGTAAATGATGCCCTCAAGTTCTTTGATG
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AAAATTATCCTCATCTTGGTGAGTGATTCGGTGGTATCTTATTAAATGTG
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TCGTGAACCCTCCTTCCCCCTCAATTTCTTTCAGAAAAGAAAAATATCCT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TCCGTGACTATTCTATCTTAGTCGAACTTGGAATCAAGAGAGTTTAATCT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TGTTGAGAAGGTGAGCAGGGAGGGGGATCAGAAGAACTGTATTTAGGATA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TCTATCTTAGTCAGCTCATTGAATTTTTTTCCTTTCTATTTAGCGAGAAT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ATATGTTATTTTTCACCGTATTTACAGTTCTGACAAAAAAAAAATACCCC
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TTTATGACACTTTGTTTGTTCTGATATCTATAATTTTAAAATTTTGAAAT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ACTTTTTGAACTGTTTGTATTTTATTGTTAAATTCTAATTTATATAATTT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AGTAACCTGTTTGTTCATTATAGTGTTAAATTTTGCAATAAGAACCAAAT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ATAGATTTAAAGAAAATGTAAATAGGACTAAGAGATTGATTAATTTTCCT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AGTTAAAATAAATTTCAATGTAAATTTTTCAAACATTTGAAATGTTATTT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TTCTGTTAACAGACTTATCGTGTGTGTTTTGTTATAGAAATGTACATTTT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ACATATTGTAAATAGAAATAAAAGTTGGTGATTCAGTTATCAAAACCCTG
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ACAAAAAATCATTGTTTGAAAGGGAGAAAAAATGCAATTTTACCATTCCA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TACATACAGAATACAACTTTAGACTGTTGATATATTCTTACTGTTTAAAC
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ATCTTACTTTTTCTGCTCGTAGGTTTATAATGTGTTGCATTTTATTTTAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ATAAATACACTAATAAATTTATTTCGATTATTGAAGCGGAGGTTAATATT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TTTTTTTATTTTTTTTAGCCATTGAAATAAACAAGCGAGTTATTTATTCA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ATATACTTAAAATATATTTTTTAAGGAAAGGAATATTGCTAAACAAAAGT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TTGTGGGAATATTAAATTATTAAAATATTGGTGTAGATTGTTTACGTGTT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ATATATTAAGTTCAGTCGCTTAGCTACTAAGCAACATCCTATGTTTAAGC
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TTCGTCCTTTAAAGGGAGTGTTCGCGAAAAATGAAAGGGGGTATAGGCTT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AATGCGATAAAAAAGCGATTTTGATTGCTACTAATCTTACTTCTATCTGT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TGCGTCTATAAGGAGAAAATTGTTAAAAATGACTAATACCGAAGAACGTA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GTGTCCATACAAATTCAGAAAGATGCAACATTCAACTTTTTCACTATAGA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AGAATGTGGAAAATAAAGTTGTTTTTCTATCTTGAAGTGTTAAATTTCGA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TAATTCTTACATTGTATTTCTGAAGCAGAAATACGCATGTCACTGTTTAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TAAAACCACAATTAAAAATAATCAGTTTTCAAGATTGTAAACATTTAAAT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CTTATTGAATTTTGATCCGATAAAGGGAACTGTTGTGAAACGGGCGTTGC
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CATCTTTGCATAGAGGTTACATTCCCTTTAATTAATTAATCCTATTATCT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CAGGATTAGGGTGGAGGCGGCAGGGTTGGAAGGAGGATAATCCAGTTTCC
+NHA8_nucl_size=_strand=+  ----------GTGGAGGCGGCAGGGTTGGAAGGAGGATAATCCAGTTTCC
+                                    ****************************************
+
+Chr3_66735544-66744226    CAGACCCTCGCTCAAATGTGGATTATTTTTCAGCCTCTGCTCTTCGGGCT
+NHA8_nucl_size=_strand=+  CAGACCCTCGCTCAAATGTGGATTATTTTTCAGCCTCTGCTCTTCGGGCT
+                          **************************************************
+
+Chr3_66735544-66744226    AATCGGGACAGAGATCCAGGTAATTTCATGAGCTCAGGTCGAAACTTTTG
+NHA8_nucl_size=_strand=+  AATCGGGACAGAGATCCAG-------------------------------
+                          *******************                               
+
+Chr3_66735544-66744226    TATCATTAATCTCTAAAAAATTCTTAATCTTTACCTATTGTTGTCCACCG
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GATTAATTTAAAATAAGACTAAATACTGTTTTTTTATTTTTTATCTTTAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AGAGTGAAGTTACAATTTTAAGAATAAACCCCACACCCCGAGCTGGGGGG
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GGGGGTGTATGGGGCGGGGATGCTTTAAAAATCTAAAAATAAACGAAAAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TAAGACTTCAAATGGTATTTTTTTTCATCCATTCCCTATTGATACATCTT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ACTCAAAAATTTATTTATTTTCCTTAATCTAGCAAATAAAACCCTTAAAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ATATACCCAACTTCTGTGGGGGGGGGGGGGTAAATTATTTCAAAAAGGGG
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GAATGATTTTTCCAGAAAATATACACCCTTGTGCAGATTTAACTGTCTTC
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AATATGTTTGCATTCAGGGTTTTACACCGAATAGGATAATTTGTATATAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TACATCGATTAACTCTAGTTCATTAAGGTGGATAAGTTAGATCCGGAAAC
+NHA8_nucl_size=_strand=+  ---------------------------GTGGATAAGTTAGATCCGGAAAC
+                                                     ***********************
+
+Chr3_66735544-66744226    CGTTGGCTTAGGAATAGGAGTGCTCGTGTGTGGACTTTCTGCGAGACTTG
+NHA8_nucl_size=_strand=+  CGTTGGCTTAGGAATAGGAGTGCTCGTGTGTGGACTTTCTGCGAGACTTG
+                          **************************************************
+
+Chr3_66735544-66744226    TTTTATCTTATATTTCGGTTCTGGGAGGAGATGTTAATCACAGGTATTTT
+NHA8_nucl_size=_strand=+  TTTTATCTTATATTTCGGTTCTGGGAGGAGATGTTAATCAC---------
+                          *****************************************         
+
+Chr3_66735544-66744226    ATTTTCCAGGGGTATCTATTTTCTTTAAAAATTATCCCTCCTCGCCCCCA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CACTTTGTTGAAAGGAGAAAAAAGGTAACAAAAACTAAATATTTAGAGGA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AAAATATCTTGAAAAAGGTAGAATCTTCAATAAAAGCCCAAACTTTTATA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TTTTACTCCAAATCAAAAGTGCTAATTCTGAAAACATATGATTGTTGGTT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TTTTTCGAAGCCGATGTCGATATTATTACCTAACCCTGGATTTGCAAACT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GGCAGAATAATTTCAGTAAAAAAGAAGCCGGATGCACTTTTGACAATTAT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TTAAAAACATATTGCTTTGAGTTTTCTTTTCACACACTAGATCCGGATCC
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GTTGGAGAAATTAAATCATAAAGAAATGTTCATGACCTGTGATCAGGATC
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    CACTTTTTTCAAGTGCTGATCCAGGATCCGCATCCGCATCAAAATTAAAT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    GGATCCTAAGCACTGGATAAAAGTTAGTATTTCTCAGTGCTTAGGATCCA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TTTAGTCTTGATGCGGGTTCGGATCTGGATCCTGGATCCGCTCTGGAAAA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AATGGATCCGGATCCAGGTTATTTTTAAAAAATTTACTGATTTTTGTATC
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AAAGCAGAATTTTCATTTCTTTCGATTATTTTTATGCTAAAGCTTGATGA
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ATGATTCAGAAATCAGGAAATTTTTAAAATATTAAAATATCTCTTTTTCC
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AATAGTTCAGATTAGGGTTTTGAGATCCGTGGATCCGCATATTTTTGCGG
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    ATCCGAATCCAGAAAGCCGAAATCTTGCGGATCCAACGGATCCGGATCTT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    AAGCACTGGAATTTCTAAAGACAATTTTTTAGAGAACGCATGTTTATAGC
+NHA8_nucl_size=_strand=+  ------------------------------AGAGAACGCATGTTTATAGC
+                                                        ********************
+
+Chr3_66735544-66744226    ATTAGCTTGGTTACCCAAGGCCACTGTTCAAGCTGCAATAGGTCCTCTAG
+NHA8_nucl_size=_strand=+  ATTAGCTTGGTTACCCAAGGCCACTGTTCAAGCTGCAATAGGTCCTCTAG
+                          **************************************************
+
+Chr3_66735544-66744226    CATTAGACCTGGCAACTCAAGCTCTTAGGTATGTTCTGATGTTGTTGTTG
+NHA8_nucl_size=_strand=+  CATTAGACCTGGCAACTCAAGCTCTT------------------------
+                          **************************                        
+
+Chr3_66735544-66744226    GTGTTTTTACCTAAAGATGATACTTATTTTTTTCCGAAATTATTAATCTT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TCAATTGTAAATTCATTGAACATATATTTTTCTATGAATGAAAATGTTGT
+NHA8_nucl_size=_strand=+  --------------------------------------------------
+                                                                            
+
+Chr3_66735544-66744226    TATGGATGCCTGTTTTTTATTAATATTTGTTTGTTGACTAGGAAAGCTGG
+NHA8_nucl_size=_strand=+  ---------------------------------------AGGAAAGCTGG
+                                                                 ***********
+
+Chr3_66735544-66744226    GATGGATGGAGAGAATCTGCCAGAGTTAAATGAGCAACTGGAGTTAGCAG
+NHA8_nucl_size=_strand=+  GATGGATGGAGAGAATCTGCCAGAGTTAAATGAGCAACTGGAGTTAGCAG
+                          **************************************************
+
+Chr3_66735544-66744226    AGAAGGTTCTAACCTTGGCTGTTCTTGTAATTCTCATCACCGCTCCCATT
+NHA8_nucl_size=_strand=+  AGAAGGTTCTAACCTTGGCTGTTCTTGTAATTCTCATCACCGCTCCCATT
+                          **************************************************
+
+Chr3_66735544-66744226    GGAGCAGTTGCCATCATGGCGTCAGGTTAGTGC
+NHA8_nucl_size=_strand=+  GGAGCAGTTGCCATCATGGCGTCAGGTCCAAGG
+                          ***************************    * 
+
+
+

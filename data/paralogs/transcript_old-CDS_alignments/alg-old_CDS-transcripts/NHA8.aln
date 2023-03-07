@@ -1,0 +1,532 @@
+CLUSTAL FORMAT for T-COFFEE Version_13.45.0.4846264 [http://www.tcoffee.org] [MODE:  ], CPU=0.02 sec, SCORE=954, Nseq=2, Len=6555 
+
+EaffNHA8        AT-------------GC---------------------------------
+MSTRG.15126.2   GACCAAGCTAATATTGCTTAATTCACTTCTACAAGAGAAGAATGAATGTT
+                               **                                 
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   CCCGTATTTATAGACATTAATCAGGATGAACAAGTCGAGGAGCTCCGAGC
+                                                                  
+
+EaffNHA8        -TA-----------------------------------------------
+MSTRG.15126.2   CTACTTTAAATCTTTGGGGGCAGATATTTCCGAGGAGAAATCTGAACTAG
+                 **                                               
+
+EaffNHA8        --------------------------------GT----------T-----
+MSTRG.15126.2   GATTAGAAGACGACCTTCAGAAGATAATTGGAGTTTGTGATGTTTGCTTT
+                                                **          *     
+
+EaffNHA8        ------------------------G----------------T--------
+MSTRG.15126.2   AATTCTGCTGCTGAGAGTGATGTTGAAGGGATCATGAATGGTATAGTGAG
+                                        *                *        
+
+EaffNHA8        --------------------A---GGAA----------------------
+MSTRG.15126.2   TATGCTAGCCTTGATCACCAAGGAGGAACTGATCATCTCTTTCTGTGAGA
+                                    *   ****                      
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   AGCTGAGCAAGGCTCCAACCCAGCAGCTTGGCATGGTCTGTCTCAAGGTT
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   CTATGGTTCCTGTTCATGTCCCTGGACGATAACTCCAGCATGAGGTTCCA
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   GGTGTACTACTACCTGGTGGGCGTGGCAGGGAGGACCCACCAGCTCCACA
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   CTGTCTACAAGGATATGGCGACCACCAAAACCATGTTTAACAAGGCACCG
+                                                                  
+
+EaffNHA8        ------------------------------------------------T-
+MSTRG.15126.2   CCTTCCAGCGACCAGGTCCAGAAGCTCTACAGGCTTCTCCACGAGATGTT
+                                                                * 
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   GCTGCTAAATGGTAAATCTGATGATGCTAGCCGTGTAATGGTTGAGCTTC
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   TCGGTACATACACCACGGAGAACGCGAGCCAAGCGAGAGAGGAGGCTCAG
+                                                                  
+
+EaffNHA8        -----------TG-------------------------------------
+MSTRG.15126.2   CGTTGTATCATTGCTTCACTAGCTGATCCTAACACTTTCCTGTTGGATCA
+                           **                                     
+
+EaffNHA8        --------TG----------------------------------------
+MSTRG.15126.2   CTTGCTGCAGTTGAAACCTGTCAAGTTCCTGGAGGGAGAACTTATTCATC
+                         *                                        
+
+EaffNHA8        ------------------T-------------------------------
+MSTRG.15126.2   AACTTCTAAGTATATTTGTTGGAGAGAAACTGGATGCTTATATCAAGTTC
+                                  *                               
+
+EaffNHA8        -------------------------------------TGAA---------
+MSTRG.15126.2   TATCAGCAACAAAAGGAGTTTGTGAACGGACTCGGGTTGAAGCATGAAGA
+                                                     ****         
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   TAATCTGAGGAAAATGAAACTTCTCAGCTTTATGCAGATGGCTGAGAATA
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   GGAGTGAGATCACGTTTGCCGAGGTGAAGGACTCAATGCAGTTGAACGAG
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   AACGAGGTGGAGGAGTTTCTCATAGACGTCATCAAGACGAGACTCGTCAG
+                                                                  
+
+EaffNHA8        -----AAA-------------------------TGT-TCC----------
+MSTRG.15126.2   GGCTAAAATATCTCAGGGAGATGGAGTAGTTTATGTTTCCTCCACAATGC
+                     ***                         *** ***          
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   ACCGAACCTTCGGTACTGGAGACTGGCAACAGCTTCACTCTCTTCTATTA
+                                                                  
+
+EaffNHA8        ----------------T---------------------------------
+MSTRG.15126.2   GGTTGGAAAACCAACCTTCACAGCATCAAGGAACATATGGCTCATATAGC
+                                *                                 
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   ATCCACTCAGGTTGAGTTAATGCACAAAAAGAACTAGTCCTTGTCCAGCT
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   CCTGCTCTTCATCCTGATCCTGGTTCCACATCATGCCAACAATCCGGAAA
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   TATGTATTCTGTATCTTGTTCACCAGATCTGTGCGCGCCGGAGCGCCTTT
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   CTTTGCATAATACTAAGCGCTCCGGCGCGCACGTAATAGTTATGGTTGTT
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   TTAAGCTTGGTACGGAGAACATTCTTTTTCTTGATTTCAGATGAAATTAT
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   AGATGCGAAAAATGGCGTCCGATAAGAAAAAAGCACCTGAAAATCTACAG
+                                                                  
+
+EaffNHA8        --------TATAT--------------------------------TGA--
+MSTRG.15126.2   GAAAAAGTTATATTAGAAAACTGGAGCTTGTTTTTTCGTGCGATTTGATA
+                        *****                                ***  
+
+EaffNHA8        ------------------------TG------------------------
+MSTRG.15126.2   ATAGATAAATTAAATCAATTATAATGTAACTTGTGGTTATTGGTTTTTAT
+                                        **                        
+
+EaffNHA8        ------------------------------------TTGG----------
+MSTRG.15126.2   AATATTTGTGACTTTGTAAGCAATTTTATTACTAATTTGGAAATATAAGA
+                                                    ****          
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   ATTTTTTGTGTGTAACTCATTTACTTAAACAGATATTTTTCAGAGTGGTC
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   TACTGAAATAGTTTCTCAATTTTTCTTATCCTTAAAATTTATTTTTAATC
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   TGATCGAGTTGTGTGGAAATATAGCGCAAATATAAAAACTGATAAAAGTT
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   GAGTTTGTTAACAATTTCTTCGGAATTTTGCTTTTTTCAAATGTGTAATC
+                                                                  
+
+EaffNHA8        --------AC----------------------------------------
+MSTRG.15126.2   TACTTTTAACGCCATGAGTCTGTCATTGAAAACGCACGGAGAAATGGTCT
+                        **                                        
+
+EaffNHA8        -------------------GT-----------------------------
+MSTRG.15126.2   ATACCTAAATCTCTCCCTTGTGTGAACTTTTTTGTTCGAATTTTTAGGGA
+                                   **                             
+
+EaffNHA8        ----GG----------------------------------GTT-------
+MSTRG.15126.2   ACCGAGGTTAATCAAATTATCGGTGTCTTTTTAAAGAAAGGTTGACACTA
+                     *                                  ***       
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   GTACGTGTCAAAAAGAGCCGCATTCAAAAGCTTCCCTCTCGAACCATTTA
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   TATTGTCTAGAAGATTGTTAACTTGACAGGGGGACAGGCTTCCAGTAAAG
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   ACAGGGACCCGGAGTCTAACCAAACCGAGCCGGACTCTCCGTTCATCAAA
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   CCGTCCGAGCTGAAGCCGGAAACTAAAGAAATTTCGCTTTCGCGGATACA
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   GAAAATATTTGCACCGATACTCGTAAAGAATTACAGCCTGAGCGATGAAT
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   CTGGGCCCTGCTCCAGGTTCGGCTACTCCTTGTTGTGTCCTCCACACGGT
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   CGGGTTGGAACCCTGATCACCTGGATCCTTGCTGTTTTCCTGGTCTGGGG
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   AACAGCTGTAGCTGTTCTAGGACCGATTGCTCTGCCTGGGAATTCTCCAA
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   TTCAGTTCGAGGTTAGCGGAGGAACTGTTTTTTCTTTGATAGCTCTTGTT
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   TCATCCGCATATGTAGGAGGATGGATCGTTTCTCTGGTTAAGCTTCCTCC
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   CCTCCTAGGCATGCTAGTTGTAGGAATTGTGTTGAAAAATGTTCCTTATA
+                                                                  
+
+EaffNHA8        -------------------GGATCCTAGCTGGTCAGCTGCTCTAAGATCT
+MSTRG.15126.2   TTGATGTTGGACGTGGGTTGGATCCTAGCTGGTCAGCTGCTCTAAGATCT
+                                   *******************************
+
+EaffNHA8        ACCGCCCTAGCGGTCATACTGCTCAGGGCAGGACTAGGCCTGGATCCTAG
+MSTRG.15126.2   ACCGCCCTAGCGGTCATACTGCTCAGGGCAGGACTAGGCCTGGATCCTAG
+                **************************************************
+
+EaffNHA8        AGCCTTGAAGCAACTCTCAGCAATGGTTTTCAGGTTGGCGTTTTTCCCTT
+MSTRG.15126.2   AGCCTTGAAGCAACTCTCAGCAATGGTTTTCAGGTTGGCGTTTTTCCCTT
+                **************************************************
+
+EaffNHA8        GTCTGGTTGAAGCAACTGTGGTGGCTATCTCTAGTCATCTTCTCCTTGGG
+MSTRG.15126.2   GTCTGGTTGAAGCAACTGTGGTGGCTATCTCTAGTCATCTTCTCCTTGGG
+                **************************************************
+
+EaffNHA8        TTCCCCTGGCTCTGGGGATTCATGCTCGGGTTCATCCTAGCTGCAGTATC
+MSTRG.15126.2   TTCCCCTGGCTCTGGGGATTCATGCTCGGGTTCATCCTAGCTGCAGTATC
+                **************************************************
+
+EaffNHA8        TCCTGCAGTTGTTGTGCCATGTCTTCTCTCCCTTCAGGAACGAGGGTTCG
+MSTRG.15126.2   TCCTGCAGTTGTTGTGCCATGTCTTCTCTCCCTTCAGGAACGAGGGTTCG
+                **************************************************
+
+EaffNHA8        GAGTAGAGAAGGGAATACCTACACTAGTAATAGCAGCGGCTAGTGTTGAT
+MSTRG.15126.2   GAGTAGAGAAGGGAATACCTACACTAGTAATAGCAGCGGCTAGTGTTGAT
+                **************************************************
+
+EaffNHA8        GATGTACTCGCGATATCTGTGTTCACAATCCTACTTGGAGTAACCTTTAA
+MSTRG.15126.2   GATGTACTCGCGATATCTGTGTTCACAATCCTACTTGGAGTAACCTTTAA
+                **************************************************
+
+EaffNHA8        TACAAACCAGGATAATCTCTACCAGCTGATCCTCCAGGGTCCTTTAGAGG
+MSTRG.15126.2   TACAAACCAGGATAATCTCTACCAGCTGATCCTCCAGGGTCCTTTAGAGG
+                **************************************************
+
+EaffNHA8        CCATAGTCGGGGTCCTGGGAGGATTTATCTGGGGAGTTCTAGTCATCTTT
+MSTRG.15126.2   CCATAGTCGGGGTCCTGGGAGGATTTATCTGGGGAGTTCTAGTCATCTTT
+                **************************************************
+
+EaffNHA8        CTGCCTCCTTCGCCACATCCCAATGTGTTGTTAAGAGTTGTGCTGTTGTT
+MSTRG.15126.2   CTGCCTCCTTCGCCACATCCCAATGTGTTGTTAAGAGTTGTGCTGTTGTT
+                **************************************************
+
+EaffNHA8        TGGTGGGAGCTTGTTTGCTCTCTTTGGGAGCGCAATGGCGGGGTTTCCTG
+MSTRG.15126.2   TGGTGGGAGCTTGTTTGCTCTCTTTGGGAGCGCAATGGCGGGGTTTCCTG
+                **************************************************
+
+EaffNHA8        GAGCGGGAGCCTTGGGGGTTCTAGTTCTAGCATTTGTCGCAGGATTAGGG
+MSTRG.15126.2   GAGCGGGAGCCTTGGGGGTTCTAGTTCTAGCATTTGTCGCAGGATTAGGG
+                **************************************************
+
+EaffNHA8        TGGAGGCGGCAGGGTTGGAAGGAGGATAATCCAGTTTCCCAGACCCTCGC
+MSTRG.15126.2   TGGAGGCGGCAGGGTTGGAAGGAGGATAATCCAGTTTCCCAGACCCTCGC
+                **************************************************
+
+EaffNHA8        TCAAATGTGGATTATTTTTCAGCCTCTGCTCTTCGGGCTAATCGGGACAG
+MSTRG.15126.2   TCAAATGTGGATTATTTTTCAGCCTCTGCTCTTCGGGCTAATCGGGACAG
+                **************************************************
+
+EaffNHA8        AGATCCAGGTGGATAAGTTAGATCCGGAAACCGTTGGCTTAGGAATAGGA
+MSTRG.15126.2   AGATCCAGGTGGATAAGTTAGATCCGGAAACCGTTGGCTTAGGAATAGGA
+                **************************************************
+
+EaffNHA8        GTGCTCGTGTGTGGACTTTCTGCGAGACTTGTTTTATCTTATATTTCGGT
+MSTRG.15126.2   GTGCTCGTGTGTGGACTTTCTGCGAGACTTGTTTTATCTTATATTTCGGT
+                **************************************************
+
+EaffNHA8        TCTGGGAGGAGATGTTAATCACAGAGAACGCATGTTTATAGCATTAGCTT
+MSTRG.15126.2   TCTGGGAGGAGATGTTAATCACAGAGAACGCATGTTTATAGCATTAGCTT
+                **************************************************
+
+EaffNHA8        GGTTACCCAAGGCCACTGTTCAAGCTGCAATAGGTCCTCTAGCATTAGAC
+MSTRG.15126.2   GGTTACCCAAGGCCACTGTTCAAGCTGCAATAGGTCCTCTAGCATTAGAC
+                **************************************************
+
+EaffNHA8        CTGGCAACTCAAGCTCTTAGGAAAGCTGGGATGGATGGAGAGAATCTGCC
+MSTRG.15126.2   CTGGCAACTCAAGCTCTTAGGAAAGCTGGGATGGATGGAGAGAATCTGCC
+                **************************************************
+
+EaffNHA8        AGAGTTAAATGAGCAACTGGAGTTAGCAGAGAAGGTTCTAACCTTGGCTG
+MSTRG.15126.2   AGAGTTAAATGAGCAACTGGAGTTAGCAGAGAAGGTTCTAACCTTGGCTG
+                **************************************************
+
+EaffNHA8        TTCTTGTAATTCTCATCACCGCTCCCATTGGAGCAGTTGCCATCATGGCG
+MSTRG.15126.2   TTCTTGTAATTCTCATCACCGCTCCCATTGGAGCAGTTGCCATCATGGCG
+                **************************************************
+
+EaffNHA8        TCAGGTCCAAGG--------------------------------------
+MSTRG.15126.2   TCAGGTCCAAGGCTGTTGACCAAGATGAACAAACCTCTGCCTTATGATAT
+                ************                                      
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   AAAGGAGGAAGGTGAAGAAATGTCGGAGATGATCAGTTAAAAACATCCAT
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   CTCAAAGTGAAGCCATGAAGCTGTGTTAAATGCCAAAACTCCACCAGACG
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   ACAATTCAAGTGTTGATTTTTGTTCAATACGCTGGAATATTCCGAAGTCG
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   GAAAAAAACGATCAGTTTTTTTCCAGGGATCAGATTTAATGAAAAGTGAG
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   AATTAGCTGAACCGCGAACCATTTCACATTTCAACATGAAGAGAAGTGGT
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   TCAACTTTGTCGACGCTGTTAGTGTTCAACTTCTTCACGCTGATTATATC
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   TGTTCCCAGATCTTCAAACAATCTAAATTTACCGACTGTTAAATGTTACT
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   TCTTATACTTCTTAACCAATAACTGTTACTTGCTGTAAATCCTTATCTGC
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   TAATTGTTACGCTTATCACTACTTTCCTAAAAACATTGAACCATAATTAG
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   GATATTTAGTAAAAAGTACGTTTTGATTACTTCGTAAAATTTGCTTAATT
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   CAATTCTCTGAGGTCAAAGCTTTTTTGTTAGAATTAGCACTATCTTGATC
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   TGAATATAAATTATATTCTGTGACAATGGTATTGTGCTGGATTCCTTGAT
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   TTTTACTTATTCCTGTCATGGGTTACGAACACACCAAGGAGTATGGAATC
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   CCAGGGAGACACAACCGACGTGGCCTGCCCTACCATATGATTATAACATG
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   CTTTGCAGACGGTACTCCTTTTAAATAAGAAATATTCAGAATAGGTTATT
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   GTATACGCGGTAATTGTACCGCGTCAGTTGTATCTCTCGTCTATTCTATA
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   CTCTTTGGAACACACGTTATTGATTAAATCCCTAGGACAGGTAGAGGTTC
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   GGATTATTGCTTGATGATCCCTTAATTTTTTCACAACACAAGTTTTGACC
+                                                                  
+
+EaffNHA8        ---------------------------------------CT---------
+MSTRG.15126.2   TTAGAACTATGTGCCAGAGCATTGATTAACAAGATAAAGCTTCACTTATC
+                                                       **         
+
+EaffNHA8        ---------------------------------G----------------
+MSTRG.15126.2   TACAATATATCAAACTTATTTTTCCTTCTCTTTGTTTTGAAGAGATGAAA
+                                                 *                
+
+EaffNHA8        ------------TT---------------GACC-----------------
+MSTRG.15126.2   TGTTTGTTACTGTTCTCTATAGCAATACAGACCAAAGCAATCTTGTACAA
+                            **               ****                 
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   TAATTACTCAACAGGAGCTGTACAGATGTAATTTAAAGTGACTCTATTTA
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   CAAAGTGGTATCTCCGATTCACAACGGTACCCTGAAAGGCTCATCTACAA
+                                                                  
+
+EaffNHA8        ----------AAGA------------------------------------
+MSTRG.15126.2   AAGCATGCCTAAGATAGCCACACAATTTTTTGTGTGCTTTTCCGATTCAG
+                          ****                                    
+
+EaffNHA8        ------T-------------------------------------------
+MSTRG.15126.2   ATACGATGGAGAATTTGTCATAATTAAACGCTTTTAAGAAAGAATAAACG
+                      *                                           
+
+EaffNHA8        -------------------------GAA----------------------
+MSTRG.15126.2   GTTTAAAGGTATCTATGGGTAACGTGAATCGGACATGCCCCTCTTAAAAT
+                                         ***                      
+
+EaffNHA8        ------------C-------------------------------------
+MSTRG.15126.2   GGAGGAAAATTACACCAACATTCCCTTAACGATACGGCAGCTTCTTACGT
+                            *                                     
+
+EaffNHA8        -----AA-------------------------ACC---------------
+MSTRG.15126.2   TTGCTAAACTTTATTTAAGTTTAAATAGTAAAACGTCTGCAATATATTTG
+                     **                         **                
+
+EaffNHA8        --------------------------------------------TCT---
+MSTRG.15126.2   TTTAAATATATCTATTTTTTCTACTTGTAATAAATTGTTTCCCTTCTGCG
+                                                            ***   
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   AAGGATATATAAATGTTTTCAATATTGTGTCGATTTTCCAGAGCTCTTGA
+                                                                  
+
+EaffNHA8        ----------------------GC--------------------------
+MSTRG.15126.2   CTAATTAACTATTAGCTGAAATGCCCTGTGGAGTTTTAGAAACACTTAAA
+                                      **                          
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   ATAATATCCAAAATTTATTTTTTCTCATTCGGTCATCAGCTAATATTTTC
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   TTCGCTTGTAGACATTGGAACTTTTGTAGAGTATCCTTCATCCTAACGCT
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   AGATCTCGATATACAATATGGAAACTTTAAAATCGGAGGATCAATGCTTG
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   ACCCTTCATTTATTTAGATATTCTCTAAGGTACGACCATGACGGAATCTA
+                                                                  
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   CATTTGATGAAGTTCAGTGCGCGGTTGTTCCCGAGATTAACAACAGTTCT
+                                                                  
+
+EaffNHA8        --CT----------------------------------------------
+MSTRG.15126.2   GACTTCTGTTTAAAGCAAATATAACCATTAGTTACTTGTATTTTTTTTGA
+                  **                                              
+
+EaffNHA8        ------------------------------------------TAT-----
+MSTRG.15126.2   TGTTTTCAATTCTTTGTTTTTTTTAAATTTTACTGATCTCATAATGGAAT
+                                                           **     
+
+EaffNHA8        ----------------------------------------------GA--
+MSTRG.15126.2   TCTATCTGATTCTTGGACGAAAAGTCTCATTTTTTTAACTTCAGATGAAA
+                                                              **  
+
+EaffNHA8        ---------------TA---------------------------------
+MSTRG.15126.2   AGTCTTTTTTTCGGATTTTTTGGTTTTATTTCTCTTTTTATTTGCTTTAA
+                               *                                  
+
+EaffNHA8        -----------------TA-------------------------------
+MSTRG.15126.2   TTTTTCTTATATTCATATAGTCGAAAAGTCATTTAATTGCAACTACGTTT
+                                 **                               
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   GCAATTAGACTCTTACTTACATATTGCAGTTTTTATAGTTCGCAATTTCA
+                                                                  
+
+EaffNHA8        -----A--------AG----------------------------------
+MSTRG.15126.2   ACTTAAAGATGAAAAGTCTGCAACTACGCTTGCAAAATTATTCTATAATG
+                     *        **                                  
+
+EaffNHA8        ------------------------GA-----------------G------
+MSTRG.15126.2   TTTTTGATTAGACCTTAATCATTGGAGAGCTCTGCGAAAAGCAGCTCATT
+                                        **                 *      
+
+EaffNHA8        ---------------------------------GAA---GG---------
+MSTRG.15126.2   ACAGCAATAGGTAGTCTTTCAAAAATCATGCATTAAGTACGTGATCAGTA
+                                                  **    *         
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   GATTTAAAATACCAGTAATTGGGTAAAAAGAAATAAACGTTAATCAATCA
+                                                                  
+
+EaffNHA8        ----------------------------TG--------------------
+MSTRG.15126.2   ATCAATCTACTTGATCAGTTAAAAAGAGTGAAATTTGTTTTTTCACATTT
+                                            **                    
+
+EaffNHA8        A-------------------------------------------------
+MSTRG.15126.2   AAGAACCGATTTCTGTAATATTAATATCAAATTTGTGCTATTTTCAGATC
+                *                                                 
+
+EaffNHA8        ---A-----------------------------------GA---------
+MSTRG.15126.2   TGAATTATGTAAAATTGAAAAATGTTGTTAACAATCAAAGAAAGTGAGAT
+                   *                                   **         
+
+EaffNHA8        -------------------------------------------------A
+MSTRG.15126.2   ATTTTTGTTCCGACGTAAGATCTATAGATAACCCTTGTTGGCTGATTTAA
+                                                                 *
+
+EaffNHA8        AT------------------------------------------------
+MSTRG.15126.2   ATAATTTTACCTCTGTTCTTCCACAATGGTCTTCACTCCTCCAATTGCTC
+                **                                                
+
+EaffNHA8        -------------------------------------------------G
+MSTRG.15126.2   CAATAACTCCAATAATACACAGTCGAGTGCAGACGATAGAATGGGATATG
+                                                                 *
+
+EaffNHA8        TCGG--------AGA-----------------------------------
+MSTRG.15126.2   TTGGACAAAAGAAGATTTTATCCCTACTCCATGGTTTCATCGTTTACAGT
+                * **        ***                                   
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   TCGTTGTTTTCTCTACCCGCTTACTCTTGTCAGAACTAGATTACAGGTTC
+                                                                  
+
+EaffNHA8        ----------------------------------TG--------------
+MSTRG.15126.2   AGCATCAGAATGCGTTGTATAAAGGAACTTTTGATGCATTCAGTAAAATT
+                                                  **              
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   CTCAAATCAGAAGGGATTAAAGGACTCTACACGGGATTCTGGATCAGCTG
+                                                                  
+
+EaffNHA8        ------------------------------ATC-----------------
+MSTRG.15126.2   TTTTCAGGTTGTATCTGGCCTGTGTTATGTATCAACGTATGAGGGAGTGC
+                                              ***                 
+
+EaffNHA8        --------------------------------------------------
+MSTRG.15126.2   GGCACATGTTAGACAATAACGGAGTTAAAGATAACAAAATTAAAGCATTA
+                                                                  
+
+EaffNHA8        --AGT
+MSTRG.15126.2   GGAAC
+                  *  
+
+
+

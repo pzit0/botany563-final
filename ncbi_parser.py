@@ -137,8 +137,9 @@ def ass_ncbi(info):
                 if bioproject_accn == info['project-accession']: # if they match 
                     info['assembly-status'] = assembly_dict['AssemblyStatus'] # level (chromosome?)
                     info['scaffold-N50'] = float(assembly_dict['ScaffoldN50']) # scaffold n50 
-                    cov = assembly_dict['Coverage'] # in case cov had an x string in it 
-                    info['coverage'] = float(re.findall(r'\d+', cov)[0])
+                    cov =  float(re.findall(r'\d+', assembly_dict['Coverage'])[0]) # in case cov had an x string in it 
+                    if cov: 
+                        info['coverage'] = cov
                     get_meta(assembly_dict, info) # scaffold count 
                     break 
     
@@ -159,8 +160,9 @@ def ass_ncbi(info):
                             info['assembly-name'] = assembly_record['DocumentSummarySet']['DocumentSummary'][0]['AssemblyName']
                             info['assembly-status'] = assembly_dict['AssemblyStatus'] # level (chromosome?)
                             info['scaffold-N50'] = float(assembly_dict['ScaffoldN50']) # scaffold n50 
-                            cov = assembly_dict['Coverage'] # in case cov had an x string in it 
-                            info['coverage'] = float(re.findall(r'\d+', cov)[0])
+                            cov =  float(re.findall(r'\d+', assembly_dict['Coverage'])[0]) # in case cov had an x string in it 
+                            if cov: 
+                                info['coverage'] = cov
                             get_meta(assembly_dict, info) # scaffold count
                             break # stop looking
 
