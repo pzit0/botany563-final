@@ -301,10 +301,14 @@ def export(filtered, trashed, log, input3):
     path = os.getcwd()
     print('Your files have been saved here: ', path)
 
-    filt_save = input3 + '-filtered.csv'
-    trash_save = input3 + '-trashed.csv'
-    filtered_data.to_csv(filt_save, index = True, header = True, encoding='utf-8')
-    trashed_data.to_csv(trash_save, index = True, header = True, encoding='utf-8')
+    filt_save = input3 + 'protein-filtered.csv'
+    trash_save = input3 + 'protein-trashed.csv'
+    cds_save = input3 + 'cds-filtered.csv' # creates the csv file skeleton for you to fill out :) 
+    cds_skeleton = filtered_data[['species'], ['protein-accession'], ['protein-length'], ['project-accession']]
+
+    filtered_data.to_csv(filt_save, index = True, header = True, encoding= 'utf-8')
+    trashed_data.to_csv(trash_save, index = True, header = True, encoding= 'utf-8')
+    cds_skeleton.to_csv(cds_save, index = True, header = True, encoding = 'utf-8')
 
     log_name = input3 + '-log.txt' 
     with open(log_name, 'w') as f: 

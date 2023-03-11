@@ -1,3 +1,167 @@
+# March 10, 2023: Actually blasting these species 
+## cytochrome c oxidase?? 
+Also, I noticed that cytochrome c oxidase comes up pretty frequently. I wonder why. I'll try aligning these in Drosophila. 
+ok I aligned NHA2 and cytochrome c oxidase in humans and there is virtually no overlap. So I'm not collecting those sequences.
+
+Total protein accession numbers from all the HitTables: 555
+ 
+## links for cytochrome c oxidase and NHA sequences:
+https://www.genecards.org/cgi-bin/carddisp.pl?gene=SLC9B2#proteins
+https://www.genecards.org/cgi-bin/carddisp.pl?gene=MT-CO1#proteins-references
+
+## HitTable.compiler.R (!!!!!)
+output = 2023-03-10-all_protein_orthologs_HitTable.csv
+number of rows: 216 
+contains merged HitTables with duplicate protein accession numbers removed 
+
+## Running ncbi_parser.py
+It's March 10, at 2:36 pm. error: 
+
+Traceback (most recent call last):
+  File "ncbi_parser.py", line 312, in <module>
+    filtered, trashed, log = filter(acc_list)
+  File "ncbi_parser.py", line 201, in filter
+    row = prot_ncbi(acc)
+  File "ncbi_parser.py", line 30, in prot_ncbi
+    prot_handle = Entrez.efetch(db = 'protein', id = acc, rettype = 'gb', retmode = 'xml')
+  File "/Users/patriciazito/anaconda3/lib/python3.7/site-packages/Bio/Entrez/__init__.py", line 196, in efetch
+    return _open(request)
+  File "/Users/patriciazito/anaconda3/lib/python3.7/site-packages/Bio/Entrez/__init__.py", line 586, in _open
+    handle = urlopen(request)
+  File "/Users/patriciazito/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Users/patriciazito/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/Users/patriciazito/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/Users/patriciazito/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/Users/patriciazito/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/Users/patriciazito/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request__
+
+I'll try running this again in 30 min or so. 
+Same code at 2:54 pm:
+
+Traceback (most recent call last):
+  File "/Users/patriciazito/anaconda3/lib/python3.7/urllib/request.py", line 1317, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "/Users/patriciazito/anaconda3/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Users/patriciazito/anaconda3/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Users/patriciazito/anaconda3/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Users/patriciazito/anaconda3/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/Users/patriciazito/anaconda3/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/Users/patriciazito/anaconda3/lib/python3.7/http/client.py", line 1384, in connect
+    super().connect()
+  File "/Users/patriciazito/anaconda3/lib/python3.7/http/client.py", line 928, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/Users/patriciazito/anaconda3/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/patriciazito/anaconda3/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "ncbi_parser.py", line 312, in <module>
+    filtered, trashed, log = filter(acc_list)
+  File "ncbi_parser.py", line 201, in filter
+    row = prot_ncbi(acc)
+  File "ncbi_parser.py", line 30, in prot_ncbi
+    prot_handle = Entrez.efetch(db = 'protein', id = acc, rettype = 'gb', retmode = 'xml')
+  File "/Users/patriciazito/anaconda3/lib/python3.7/site-packages/Bio/Entrez/__init__.py", line 196, in efetch
+    return _open(request)
+  File "/Users/patriciazito/anaconda3/lib/python3.7/site-packages/Bio/Entrez/__init__.py", line 586, in _open
+    handle = urlopen(request)
+  File "/Users/patriciazito/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Users/patriciazito/anaconda3/lib/python3.7/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/Users/patriciazito/anaconda3/lib/python3.7/urllib/request.py", line 543, in _open
+    '_open', req)
+  File "/Users/patriciazito/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/Users/patriciazito/anaconda3/lib/python3.7/urllib/request.py", line 1360, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/Users/patriciazito/anaconda3/lib/python3.7/urllib/request.py", line 1319, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>__ 
+
+same code at 3:11 and I'm getting the first error message.I'm checking the vs code. for some reason the importing read_csv broke. ok somewhere in merging the goddamn columns it fucked up. This is an error from the R code. 
+
+But ok the R code looks normal. the compiled dataframe has everything in order. 
+I just changed the indexing. Before, when I used the csv table directly from ncbi, the accesion number was the second column. I don't know if R changed the number of columns because it was processed there, but now it works fine. 
+
+Running ncbi_parser.py again. Second error (node8). maybe try again in like 10 min. I did not wait 10 minutes but I got the first eror again, which is like, weird. Omg, it's reading "X2" as an entry. That's the header, of course it'ns not going to find any protein accession number under silly goofy "X2".
+
+just tested: 
+>>> acc_list[0]
+'KAG7156541.1'
+
+so. let's see if it fixes that. nope. node8 error again. I'm inclined to think that it's weird that it's not even telling me which accession number it's assessing, so maybe it's not an error bc of the time of the day.
+
+I tried running only the first accession number (acc_list[0]) and it returned me node8 (twice). I think ncbi just told me I worked too much today. I'm gonna have to do this step either tomorrow (before travelling) or later tonight (preferrable). After filtering through them I still have to check them manually to (1) check they're not like weird or partial sequences, but also to get the cds. 
+
+Actually thinking about it, I don't think the partial sequences should be an issue. I'm (hopefully) getting so many species anyways, I doubt I'll have a perfect alignment, I will have to trim these at some point anyways. I'll leave them here and if they throw everything off, I'll take them out, but otherwise, I don't see the issue.
+
+Tried running again at 5:54. It ran up to some point and then I got the node8 error again. I do think this is a server/ internet issue. :/ 
+
+# March 9, 2-23: BLASTing more species 
+I want to blast and do this whole procedure to get more species. To do this, I'm going on ncbi and acquiring more "confirmed" species. I will use their protein sequences to do blastp and see THEIR closely related sequences within arthropods. 
+
+These are the protein accession/ species I found and will be using as the query: 
+
+Searching: "SLC9B" (all organisms) 
+JAB97576, Ceratitis capitata (vespa)
+OQV26214.1, Hypsibius exemplaris (tardigrada)
+
+Searching: NA+/H+ antiporter AND "arthrpods"[porgn:__txid6656]__
+AAF80554.1, Aedes aegypti (mosquito) 
+KRT81874.1, Oryctes borbonicus (beetle) 
+ACM47586.1, Anopheles gambiae (mosquito) 
+KOB72952.1, Operophtera brumata (moth) 
+EEB12185.1, Pediculus humanus corporis (tick)
+EFN88906.1, Harpergnathos saltator (ant) 
+GFQ82017.1, Trichonephila clavata (arachnid) 
+
+can't forget I will also have to change the r script: make a for loop and rbind all Hittable files within  folder. Then remove duplicates. Then manually check each of them. Then write another quick script to select columns and cat()/ sink() to write new fasta files :) 
+
+
+# March 8, 2023: Redoing BLAST yet again 
+This is literally the third time I'm doing this. But it's gonna be worth it. I think. I hope. 
+I'm just SO SO SO tired of having to redo the same work again and again. Oh my god. 
+ok I only got about 20 protein sequences, so I think I need to relax some of these curation parameters, also to avoid some of the extra work, I'm thinking of compiling the HitTables, that way I won't have to run ncbi_parser for each NHA gene again. save the extra work oof. 
+
+## resources: 
+Hey these people did the same thing as I did (basically!). But prettier. 
+https://widdowquinn.github.io/2018-03-06-ibioic/01-introduction/03-parsing.html 
+
+## comments from 1x1 meeting: 
+- Sean’s paper: review NHA function, DD motif, different domains (evolutionary changes, structural and functional domains, etc.) look new papers? And how do they evolve. 
+- SMBE essay 
+- alignments don't look right: 
+	- check alignments: 5, 6, 7 together, also align TRY (CDS and full gene) and 8  (full gene and CDS), and 1 2 and 3
+- check parameters for ncbi parser:
+	- they look ok 
+- which trimming software: hmmcleaner or trimmal 
+	- (do later) - think about this after creating all initial phylogenies  
+- mitochondrial results? 
+ 	- include them, but take note of which are which 
+- NHA1 and NHA2? 
+	- My question was regarding the NHA1 and NHA2 paralogs in other species. It seems like both Drosophila and humans have two copies of the gene. So if we're "coalescing" our eaff paralogs, how do we know which sequence came from which (ancestral NHA1 or ancestral NHA2). But Carol pointed out Drosophila is more derived, so I guess it's true, I might not have to worry about this in the future. 
+- introduce variation without compromising gene sequence (conserve introns, or gene duplication for E. affinis). 
+	- I wonder the trade-offs for these two mechanisms. 
+- check alignments: 5, 6, 7 together, also align TRY (CDS and full gene) and 8  (full gene and CDS), and 1 2 and 3
+	- I've just checked. I'll have to see if I can find the insertion of NHA3 anywhere else. Also fix NHA7. Might do genome x transcriptome again. 
+
 # Feb 29, 2023: Tigriopus disappeared 
 I ran the code this morning and that seemed to do the trick. I'm now getting about 75% of all the proteins in the filtered section. 
 Looking again, however, I noticed I'm simply not getting some of the proteins I had before? I might've screwed something up on getting the 

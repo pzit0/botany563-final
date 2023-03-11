@@ -1,0 +1,192 @@
+CLUSTAL FORMAT for T-COFFEE Version_13.45.0.4846264 [http://www.tcoffee.org] [MODE:  ], CPU=0.01 sec, SCORE=987, Nseq=2, Len=2319 
+
+EaffNHA7n       ATGCATGGAACAACCAGAAGAAACAGTAGATACCAACAAATACCTCCAGC
+NHA7-full-gene  ATG--------------------------AT-------------------
+                ***                          **                   
+
+EaffNHA7n       AACTGTGCATGAAGATGAGGTCCCTCAATATCCTCCCCCGGCATATCCAG
+NHA7-full-gene  --------------------------------------------------
+                                                                  
+
+EaffNHA7n       GGAAAATCAAGAACCCTGGCAGGATCAAGAAAGCTTATGATAGCTTTAAA
+NHA7-full-gene  --------------------------------------------------
+                                                                  
+
+EaffNHA7n       CAGACACTGCAAACAAATAGGATTACCTCACACTTCTTTCCCCCAAAAGG
+NHA7-full-gene  --------------------------------------------------
+                                                                  
+
+EaffNHA7n       AGAGGTGGCAACGAACATAACTCTAATGATAGCAGTTGTTATCATTTTCT
+NHA7-full-gene  ------------------------------AGCAGTTGTTATCATTTTCT
+                                              ********************
+
+EaffNHA7n       TCTGTGCAAGAGCAGTTTTAGGAAAATATTCTGCTCTAGGGGGGACAATC
+NHA7-full-gene  TCTGTGCAAGAGCAGTTTTAGGAAAATATTCTGCTCTAGGGGGGACAATC
+                **************************************************
+
+EaffNHA7n       TTTGCTGTCTTCATTCTAGTATTCTTTGCTTTGGTAGCTGGACAGATAGT
+NHA7-full-gene  TTTGCTGTCTTCATTCTAGTATTCTTTGCTTTGGTAGCTGGACAGATAGT
+                **************************************************
+
+EaffNHA7n       CCTGCAGTTTGCAGCACTGATATCCAAGCTTGCAGGGTTTGATATTCGCA
+NHA7-full-gene  CCTGCAGTTTGCAGCACTGATATCCAAGCTTGCAGGGTTTGATATTCGCA
+                **************************************************
+
+EaffNHA7n       TCCCCCAACTACTTGGAATGATGGCTGTTGGAATCTTTTGTAAAAACGTT
+NHA7-full-gene  TCCCCCAACTACTTGGAATGATGGCTGTTGGAATCTTTTGTAAAAACGTT
+                **************************************************
+
+EaffNHA7n       CCATACAATTCACATGAATTCAACAGCCCAGAATGTTTAAACAGATCATT
+NHA7-full-gene  CCATACAATTCACATGAATTCAACAGCCCAGAATGTTTAAACAGATCATT
+                **************************************************
+
+EaffNHA7n       GACCCAAGGTACTATTCATGAAGCATTTCATGGAAATATCAGTGCTCTGA
+NHA7-full-gene  GACCCAAGGTACTATTCATGAAGCATTTCATGGAAATATCAGTGCTCTGA
+                **************************************************
+
+EaffNHA7n       CTGGACATGATGACCCAAATGCACATGGAGTTGTCATGAATGTCCATGAT
+NHA7-full-gene  CTGGACATGATGACCCAAATGCACATGGAGTTGTCATGAATGTCCATGAT
+                **************************************************
+
+EaffNHA7n       GCCTTGAAGGATGAGCATGAGAGAATAGTCGAACACCTTGAAAAGACAAC
+NHA7-full-gene  GCCTTGAAGGATGAGCATGAGAGAATAGTCGAACACCTTGAAAAGACAAC
+                **************************************************
+
+EaffNHA7n       AGTTAATCCTAAATTCAGTTCAACTGCAAGAATATTTCATGCAAAGGTCC
+NHA7-full-gene  AGTTAATCCTAAATTCAGTTCAACTGCAAGAATATTTCATGCAAAGGTCC
+                **************************************************
+
+EaffNHA7n       AAGATTTCAAATCATCAACTTCAAATGATTCCCAATCTTCACATTCAGAA
+NHA7-full-gene  AAGATTTCAAATCATCAACTTCAAATGATTCCCAATCTTCACATTCAGAA
+                **************************************************
+
+EaffNHA7n       CATTTAGATGGAGAAGGTATCAAATCAATGCCAGAGTCTGATGATCATCA
+NHA7-full-gene  CATTTAGATGGAGAAGGTATCAAATCAATGCCAGAGTCTGATGATCATCA
+                **************************************************
+
+EaffNHA7n       TCATAGAGCAAGACGAAGTGGAGGTCATGATGAACCTGCTGTATACCGTG
+NHA7-full-gene  TCATAGAGCAAGACGAAGTGGAGGTCATGATGAACCTGCTGTATACCGTG
+                **************************************************
+
+EaffNHA7n       ATCCTTGTGTTAAGAGATTTATTGGAGGTGATGTAGATCCAACTGTTAAA
+NHA7-full-gene  ATCCTTGTGTTAAGAGATTTATTGGAGGTGATGTAGATCCAACTGTTAAA
+                **************************************************
+
+EaffNHA7n       GGAATTTTGAGATCTACATGTCTAACTGTTATTCTTCTGATGGCAGGTCT
+NHA7-full-gene  GGAATTTTGAGATCTACATGTCTAACTGTTATTCTTCTGATGGCAGGTCT
+                **************************************************
+
+EaffNHA7n       TGAATTGGATCCTCCTCAACTCTGGAGACTTAAATGGATTGTACTCAGAA
+NHA7-full-gene  TGAATTGGATCCTCCTCAACTCTGGAGACTTAAATGGATTGTACTCAGAA
+                **************************************************
+
+EaffNHA7n       CTACCTTCATACCTTGCATAGTAGAGGCATTTGCAGCAGCCCTATTTTGT
+NHA7-full-gene  CTACCTTCATACCTTGCATAGTAGAGGCATTTGCAGCATCTTTATTTTGT
+                ************************************** *  ********
+
+EaffNHA7n       TATCTGATCCTTGGATTTCCCTTTCTTCCTGGACTATGCTTTGGATTTGT
+NHA7-full-gene  TATCTGATCCTTGGATTTCCCTTTCTTCCTGGACTATGCTTTGGATTTGT
+                **************************************************
+
+EaffNHA7n       TCTCTGCGGAGTATCTCCAGCTGTTATTATTCCAGGATTGGTGAATCTTA
+NHA7-full-gene  TCTCTGCGGAGTATCTCCAGCTGTTATTATTCCAGGATTGGTGAATCTTA
+                **************************************************
+
+EaffNHA7n       GTCAGAGAGGATACGGAGTAAAGAAGGGAATACCAACACTGGTTATTGCA
+NHA7-full-gene  GTCAGAGAGGATACGGAGTAAAGAAGGGAATACCAACACTGGTTATTGCA
+                **************************************************
+
+EaffNHA7n       ACATGTTCTGCTGATGATCTTGTGGCTATTGGAGGATTTGGAATAGCTGC
+NHA7-full-gene  ACATGTTCTGCTGATGATCTTGTGGCTATTGGAGGATTTGGAATAGCTGC
+                **************************************************
+
+EaffNHA7n       TGGAATTACTTTTAATCCTGATGCATCAATATCTGATCTTGCCAGCCATG
+NHA7-full-gene  TGGAATTACTTTTAATCCTGATGCATCAATATCTGATCTTGCCAGCCATG
+                **************************************************
+
+EaffNHA7n       GACCTCTTGAAGTGCTCTTGGGGATTGCATTTGGAATATTCTGGGGATAC
+NHA7-full-gene  GACCTCTTGAAGTGCTCTTGGGGATTGCATTTGGAATATTCTGGGGATAC
+                **************************************************
+
+EaffNHA7n       ATCTGCCAATGGTTTCCAAGCAAGCAGAATGCAAACCATGTCTTCTTCAG
+NHA7-full-gene  ATCTGCCAATGGTTTCCAAGCAAGCAGAATGCAAACCATGTCTTCTTCAG
+                **************************************************
+
+EaffNHA7n       GTGGGTCTTACTGACAGCTGGAGGTCTGTTTGCTCTGTTTGGAGCTCATA
+NHA7-full-gene  GTGGGTCTTACTGACAGCTGGAGGTCTGTTTGCTCTGTTTGGAGCTCATA
+                **************************************************
+
+EaffNHA7n       TGGTCCATTATGATGGAGCTGGAGGTCTGGCTTGTGTGATCATGGCATTT
+NHA7-full-gene  TGGTCCATTATGATGGAGCTGGAGGTCTGGCTTGTGTGATCATGGCATTT
+                **************************************************
+
+EaffNHA7n       GTTGCCTCTATTCAGTGGAGAAGAGAAGGATGGGGAGATCATAACCCTGT
+NHA7-full-gene  GTTGCCTCTATTCAGTGGAGAAGAGAAGGATGGGGAGATCATAACCCTGT
+                **************************************************
+
+EaffNHA7n       TACAGATATCTATAACAAGGTTTGGATTATCTTGTCTCCAGTTATCTTCT
+NHA7-full-gene  TACAGATATCTATAACAAGGTTTGGATTATCTTGTCTCCAGTTATCTTCT
+                **************************************************
+
+EaffNHA7n       CACTCATCGGAACCAATATCAACGCAGAAAAGATGGACGGGGCAACTGTA
+NHA7-full-gene  CACTCATCGGAACCAATATCAACGCAGAAAAGATGGACGGGGCAACTGTA
+                **************************************************
+
+EaffNHA7n       GGATTGGGTGTTGCTGTACTTTTCTGTTGCTTTATAACCAGATCTTTCTT
+NHA7-full-gene  GGATTGGGTGTTGCTGTACTTTTCTGTTGCTTTATAACCAGATCTTTCTT
+                **************************************************
+
+EaffNHA7n       CACCTTTTGGTCAGCTGTTTGTGGAGGATTAGAAACAAAAGAAAAGTTGT
+NHA7-full-gene  CACCTTTTGGTCAGCTGTTTGTGGAGGATTAGAAACAAAAGAAAAGTTGT
+                **************************************************
+
+EaffNHA7n       TTCTTTCAATTTCCTGGCTTCCTAAGGCAACTGTTCAAGCAGCATTAGGT
+NHA7-full-gene  TTCTTTCAATTTCCTGGCTTCCTAAGGCAACTGTTCAAGCAGCATTAGGT
+                **************************************************
+
+EaffNHA7n       ATGGGAGAGAC------------A---------------ATTCTTAC-GC
+NHA7-full-gene  GTGTAATAATCTTTTTACTCCACATTCATTATTTCATTGATTCTTTCTGT
+                 **  * *  *            *               ****** * * 
+
+EaffNHA7n       TGGCTGTAC--------------------------------------TAT
+NHA7-full-gene  TTGGTTTACTTCTTTATTTTTTCAGGTCCAGTGTTTTTGGAAAAAGCTAT
+                * * * ***                                      ***
+
+EaffNHA7n       CTATC--GCAA-------------------------------------TT
+NHA7-full-gene  TTATGCAGGAATCACAGAGTATATACCTGTAAGATTTTTTAAAAACGTTT
+                 ***   * **                                     **
+
+EaffNHA7n       AGCGCAC------CCATAGG---------------AGC-----TATACTC
+NHA7-full-gene  AGAGCATTTAATCTTATAGTTTCCTCTGATGTCAGAACTTTTTTATTGTA
+                ** ***         ****                * *     ***  * 
+
+EaffNHA7n       ATCTTGG-------C-----------------------ACTTGGACCTGT
+NHA7-full-gene  ATCTTGAGATCAAGCATTAATCTCCATCTTATGCAGATATATGGATCATT
+                ******        *                       *  **** *  *
+
+EaffNHA7n       TCTGCT--AC---------C---------AAA--------TGATTTTGAG
+NHA7-full-gene  TTAGCTTTACAGAGACAACTTTAATTGAGAAATAAAGCATTGATTTTTAA
+                *  ***  **                   ***        ******* * 
+
+EaffNHA7n       GGTG--------------AGGAT-----GGTG------------------
+NHA7-full-gene  ATTTAAAACTGCCTACCTTGGATATCAAGGTCGAGCGTTCAAAATTAATA
+                  *                ****     ***                   
+
+EaffNHA7n       --------------AAGCAGGCCT-----TAAGGA---------------
+NHA7-full-gene  ATATCTACATAAAAGTTCTGATCTCAGTTTAAATATAATTTCTTTATTTA
+                                 * *  **     ***  *               
+
+EaffNHA7n       ---AGTTGCC--------------------------AAGGAG---C----
+NHA7-full-gene  ACAATTTATTATTTTTGAAAATATAATTTTTATAGATGGGAGAGACAATT
+                   * **                               ****   *    
+
+EaffNHA7n       -ATA---------------TGACC--------------G----AAG----
+NHA7-full-gene  CTTACGCTGGCTGTACTATCTATCGCAATTAGCGCACCCATAGGAGCTAT
+                  **                 * *                    **    
+
+EaffNHA7n       --------TGAAACATCAC
+NHA7-full-gene  ACTCATCTTGGCACTTGGA
+                        **  ** *   
+
+
+

@@ -1,0 +1,904 @@
+CLUSTAL FORMAT for T-COFFEE Version_13.45.0.4846264 [http://www.tcoffee.org] [MODE:  ], CPU=0.03 sec, SCORE=874, Nseq=8, Len=4458 
+
+NHA1_nucl_size=1914_strand=+  ATGGCGG----------TT-CTA---------------------------
+NHA2_nucl_size=1959           ATGAAT-----------C--ACC---------------------------
+NHA3_nucl_size=3615           ATGCTCAGGAGGGGAAGCAAGCAGACGGGAACAGAAGATGACCGGCCTGA
+NHA4_nucl_size=2361_strand=+  ATGAAT-----------A--ACA----A---C------------AACA--
+NHA5_nucl_size=2262_strand=+  ATGGAAT----------TA-CCT----G----------------GACC--
+NHA6_nucl_size=2127_strand=+  ATGGAGA----------TG-CCA----G----------------GTCT--
+NHA7_nucl_size=_strand=-      ATGAT------------A--GCA----G------TT--------GT----
+NHA8_nucl_size=_strand=+      ATGGTT-----------T--TCA----G----------------G-----
+                              ***                                               
+
+NHA1_nucl_size=1914_strand=+  -------------AGC--------------------G------ATCACCA
+NHA2_nucl_size=1959           ------------------------------------C------CCCGGC-
+NHA3_nucl_size=3615           TTACAGAATACGAAGTGGGT---CCATTGGAGGTGTATACCCTGCCCTCA
+NHA4_nucl_size=2361_strand=+  -TTGAGA---TGGATAAATATAAACA----AAGC-CC------CCCAGCG
+NHA5_nucl_size=2262_strand=+  TGTCAGT---CGAAGAAACA---GCA----GGGCACC------ACCACCT
+NHA6_nucl_size=2127_strand=+  ATACAGT---CGAAGGGGCA---GCA----AGGCGCC------ACCACCT
+NHA7_nucl_size=_strand=-      -TAT--------------------C---------ATT------TTC----
+NHA8_nucl_size=_strand=+      ------T---T--------------------GGCGTTT------T-----
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  T----T------------GG----TAC----AATATCAAGAGTA------
+NHA2_nucl_size=1959           ------------------------------TCAACCTGGG--TG------
+NHA3_nucl_size=3615           GGAGGTTGAGCATACAAATGGGTTTACCAGGACTACCAGTG-TATGAAGA
+NHA4_nucl_size=2361_strand=+  -------------------G----AGACGGTCAACCCAGGA-TAT-----
+NHA5_nucl_size=2262_strand=+  T----A------------TG----TGCCAGAAGTCCCAAAA-TAT-----
+NHA6_nucl_size=2127_strand=+  T----T------------TG----TGCCCGAAGTATCGGAA-GAT-----
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      ------------------------T-C--------CC-------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  ------------------------AGAT-------TGA-GCT-GAGAAAC
+NHA2_nucl_size=1959           ----------------------------------------TTTA-----T
+NHA3_nucl_size=3615           GATTGATCTGCCAGATGATAATGATGATAAACCTTCTA-GCTTC-----A
+NHA4_nucl_size=2361_strand=+  -------------------AAAGATGAAAACAAACCGACATTTG-----T
+NHA5_nucl_size=2262_strand=+  -------------------AGGGCTGATAGAAGGCTTA-GCTTG-----T
+NHA6_nucl_size=2127_strand=+  -------------------AGGGGAGATAGACGACTCA-GCTTG-----T
+NHA7_nucl_size=_strand=-      ---------------------------------T------TCT-------
+NHA8_nucl_size=_strand=+      -----------------------------------------TTG-----T
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  CTG------ATACTAGATCTCTGGAGCA----------------------
+NHA2_nucl_size=1959           CCA---AG------A----------CC----ATGAA--------------
+NHA3_nucl_size=3615           CAG--AAGAAAAGAAAAAGCCTGGAAGAGTG-------------------
+NHA4_nucl_size=2361_strand=+  CAAAGCAA-----GAAAAA------CAAA-ACGTCT--------------
+NHA5_nucl_size=2262_strand=+  CCGGGATG-----GAAATACCCGGGCCAGTCAGTCGCAGAAATAGCAGGG
+NHA6_nucl_size=2127_strand=+  CTGGCATG-----GAATTG------CCAA----TTC--------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      CTGG----------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  ------------------ATGGCGGA------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           --------------------------------------------------
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  CCCCGCCCC----------CTTTTGTGCCAGAAGTACCTGTAAACAGGGG
+NHA6_nucl_size=2127_strand=+  --------CATACAGCCGAAGGGGAAGC----------------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      ---------------------TTGAA------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  -----------------------------------------------GCT
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           --------------------------------------------------
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  AGAACGAAGACTAAGTTTATCTGGAATGGAAATACCAAATGTAGTTAGTC
+NHA6_nucl_size=2127_strand=+  -----------------------------AAATATCA----------GCC
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  TCAGGAACAGCCA-------------------CC-ACCCTTGA-------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           --------------------------------------------------
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  GGAGGAACAGCAAGTATCAGCAAGTAGTTC-----ATCCTCATCCTGTAG
+NHA6_nucl_size=2127_strand=+  TGTGCAAGAACCTG-------------TTCAAGAAACCTTTGAGCT----
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  -------------------CCTGGAAAACCCTCC---GGT---CCAGGCT
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           --------------------------------------------------
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  TAGAGGATAAAGAAGAAGTTTCTGAGTATTCTCCTCCAGCATATCCTGGA
+NHA6_nucl_size=2127_strand=+  -------------------CCCAGAGGATCCTCCCCCTGCCTACCAAGGC
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  CCCAAAAAGCAACCGGGAACTGTTAAAAAATCCTACAAGAAGGTCAAATC
+NHA2_nucl_size=1959           -------------CAAGA------------T-------CAAGATCAC---
+NHA3_nucl_size=3615           ------------------------AAAAAGTCCTACAAAAAAATCAAAAG
+NHA4_nucl_size=2361_strand=+  -------------CAGGA----TGAGAAAATCCCTGGTGAAGGTGAAACG
+NHA5_nucl_size=2262_strand=+  GATAAGAAACAACCTGGAAAGGTTAAAAAGTCCTATAAGAGGGTCAAACA
+NHA6_nucl_size=2127_strand=+  AATAAAAAGGCCCCTGGAAAGGTCAAAAAGTCTTACAAGAGAGTAAAACA
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------GCAACTG-----------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  TGGACTTCAATCAAACAGGGTCACAACCAAATTTTTCCCCCCTCAGGGGG
+NHA2_nucl_size=1959           ---ACTGCAGGAGAATATGTTCACCACTAAATTCTTCCCTCCACAGGGCA
+NHA3_nucl_size=3615           AGGGCTTCAGGGAAACAAGGTCACATCCCAATTCTTCCCGCCGAAAGGTG
+NHA4_nucl_size=2361_strand=+  AAACCTCCAGGCAAATAAAGTAACAACACAATTTTTTCCACCACAAGGCG
+NHA5_nucl_size=2262_strand=+  AGTACTTCAAAATAACAAGATTACCTCAAACTTTTTTCCTCCAAAAGGAG
+NHA6_nucl_size=2127_strand=+  AGCACTTCAGAGTAATAGGATTACCTCAAACTTCTTTCCCCCAAAAGGAG
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  AAGTATCAACAGTCTTAACAATCACCCTGACTGTGATTGCGGTCTTCTTC
+NHA2_nucl_size=1959           ATGTAGCGTCTGTGTTAACACTCTGCTTTGCTGTAGTATCCGTCTTCTTG
+NHA3_nucl_size=3615           ATGTTGCAGAAAATATAACTCTTATAATAGCAACTATAATCTTGTTCTTG
+NHA4_nucl_size=2361_strand=+  AGGTTGCCACCAACCTTACTCTAATTGTAGCAGTTATTATCATCTTCTTC
+NHA5_nucl_size=2262_strand=+  ATGTGGCGATTAACATAACACTGATGATAACAGTTGTAATCATATTTCTG
+NHA6_nucl_size=2127_strand=+  AGGTGGCAACGAACATAACTCTAATGATAGCAGTCGTTATCATATTTCTG
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      TGGTGGCT--------ATCTCT------A------GT---CATCTTCTCC
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  GTGGCAAGAACAGTTTTGGGACCGATAGCGGGGCCCGGTGGCACAATATT
+NHA2_nucl_size=1959           ATGGCCCGGCTTGTATTTGGTCCTATTGCTGGTCCTGGAGGCACTATCTT
+NHA3_nucl_size=3615           ATGGCTCGAGCTGTTCTGGGAACTCTAGCAGCACCAGGAGGAACTATCTT
+NHA4_nucl_size=2361_strand=+  TGTGCCCGAGCTGTCCTGGGCACAATAGCAGCTCCTGGAGGAACTATATT
+NHA5_nucl_size=2262_strand=+  TGTGCAAGAACAGTTTTAGGTCCATATTCTGCTCTTGGGGGAACAATCTT
+NHA6_nucl_size=2127_strand=+  TGTGCAAGAACAGTTTTAGGATCATATTCTGCTCTAGGGGGAACAATCTT
+NHA7_nucl_size=_strand=-      -GTGCAAGAGCAGTTTTAGGAAAATATTCTGCTCTAGGGGGGACAATCTT
+NHA8_nucl_size=_strand=+      TT-----GGGTTCCCC-------------TGGCTCTGGGG-A----TTCA
+                                     *                      *     ** *      *   
+
+NHA1_nucl_size=1914_strand=+  TGCTCTTCTAGTACTCATCTTATTCGCACTGATAGGAGGGATGGCGGTTA
+NHA2_nucl_size=1959           TGCTCTGCTCATCCTTATCCTCTTCGCACTCATAGGAGGACAACTCATTA
+NHA3_nucl_size=3615           TGCAATCTTTATACTCATTCTCTTCTCACTTATTGCTGGACAAATAGTTA
+NHA4_nucl_size=2361_strand=+  TGCTCTTTTTATTCTCATTCTTCTCTCACTCATTGCGGGACAAATTGTAA
+NHA5_nucl_size=2262_strand=+  TGCTGTCTTCATTCTTATCTTCTTTGCTCTGGTTGCAGGACAGATAGTGC
+NHA6_nucl_size=2127_strand=+  TGCTGTCTTCATTCTAGTATTCTTTGCTTTGGTAGCTGGACAGATAGTTC
+NHA7_nucl_size=_strand=-      TGCTGTCTTCATTCTAGTATTCTTTGCTTTGGTAGCTGGACAGATAGTCC
+NHA8_nucl_size=_strand=+      TGCTCGGG-----TTCATCCTAGCTGCAG---------------------
+                              ***           *  *  *     *                       
+
+NHA1_nucl_size=1914_strand=+  --AGATGCTGGGAATGGGTATATCAT-GTTTGT-GCGGGGTTGATATCAG
+NHA2_nucl_size=1959           AATTCA-TCGGAATC-TGTTTGTCTCGTATTAC--TGGGATGGATATACG
+NHA3_nucl_size=3615           --TCCAATGTGCAGCATTGATCACTAAACTTGT--TGGAGTAGACATAAA
+NHA4_nucl_size=2361_strand=+  --TACAAGTAGCTTCTTGGATATCGAAGCTTGT--GGGCATAGATATCAA
+NHA5_nucl_size=2262_strand=+  --TTCAAGCTGCAGCTTTACTCTCTAAGATGGT--TGGATTTGATATTCG
+NHA6_nucl_size=2127_strand=+  --TTCAGCTTGCAGCAATAATATCCAAGCTTGC--AGGGTTTGATATTCG
+NHA7_nucl_size=_strand=-      --TGCAGTTTGCAGCACTGATATCCAAGCTTGC--AGGGTTTGATATTCG
+NHA8_nucl_size=_strand=+      --------------TATCTCCTGCAGTTGTTGTGC-------CAT----G
+                                                     *     *             *      
+
+NHA1_nucl_size=1914_strand=+  GTTACCGCCCCTCCTGGGAATGCTTATTGTTGGAATTGTGATGAAGAATG
+NHA2_nucl_size=1959           ACTTCCTCCCCTTCTGGGGATGTTACTTGTGGGTATACTTATGAAAAATG
+NHA3_nucl_size=3615           GATACCACAGCTTCTGGGAATGATGGCTGTTGGGATCGCTTTAAAGAATG
+NHA4_nucl_size=2361_strand=+  GATACCTCCTCTGCTTGGAATGATGGCTGTTGGGATTACTCTTAAAAATG
+NHA5_nucl_size=2262_strand=+  TATACCCCAGCTTCTTGGAATGATGGCTGTTGGGATATTTTGTAAAAACG
+NHA6_nucl_size=2127_strand=+  CATCCCACAACTACTTGGAATGATGGCTGTTGGAATCTTTTGTAAAAATG
+NHA7_nucl_size=_strand=-      CATCCCCCAACTACTTGGAATGATGGCTGTTGGAATCTTTTGTAAAAACG
+NHA8_nucl_size=_strand=+      TCTTCTCTCCCTTCAG-GAACG----------------------------
+                                * *     ** *   * * *                            
+
+NHA1_nucl_size=1914_strand=+  TTCCCTACAATATCGGGCAGTTTGGAAGAGAAGAATGTCAAGGAAAC---
+NHA2_nucl_size=1959           TGCCTTATAACTTTGGTCAATTTGGTCGAGCGGAATGTTTTGGAAAT---
+NHA3_nucl_size=3615           TTCCATACAACCAATCACAATTTAATAGTCCTGAATGTA-TGAATATATC
+NHA4_nucl_size=2361_strand=+  TTCCTTACAACTTTGGCCAGTTTGGTAGAGCTGAGTGCATTGGGAATGTT
+NHA5_nucl_size=2262_strand=+  TTCCATACAATGCCCATGAGTTTAACAGCCCAGAATGTCTTA---AC---
+NHA6_nucl_size=2127_strand=+  TTCCGTACAATTCCCATGAATTCAACAGCCCAGAATGTCTAA---AC---
+NHA7_nucl_size=_strand=-      TTCCATACAATTCACATGAATTCAACAGCCCAGAATGTTTAA---AC---
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           CAAATCTATTCATGACCACAGTGATATCGATGTAAACTCTACTGAATTTG
+NHA4_nucl_size=2361_strand=+  TCAGTTGAGTT-TGCAGACTCTCTT---CATA---ACTTTGAG------A
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      ---------------AGGGT------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           TCAATGAGTTGGGAGGTTTTAGAATAGATCCAAAGGATGTTCATATAAAC
+NHA4_nucl_size=2361_strand=+  TAAATTCATC------------------------TGAAT-----------
+NHA5_nucl_size=2262_strand=+  -------------------------A------------------------
+NHA6_nucl_size=2127_strand=+  -------------------------A------------------------
+NHA7_nucl_size=_strand=-      -------------------------A------------------------
+NHA8_nucl_size=_strand=+      ------------------TCGGAG--------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           CATCAGCATAGTGATATTGCAAAGAGTTTGAAAAATATTGATAATATAAA
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  -----------------------GA---------TCT-------------
+NHA6_nucl_size=2127_strand=+  -----------------------GA---------TCT-------------
+NHA7_nucl_size=_strand=-      -----------------------GA---------TCA-------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           CCTACATGGTGAGAATTCGGTAGATACTGAAAATCATCCTAACTCAGGTC
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           CATCACATCACACAGGTGTAGAATCTATTTCAAACAATGAAGATCATGCA
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           GATCAGAATAAAACTGATGCATCAAAACAAGAACCTGATAATGAAGAAAA
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           GCATGGTTTGAACCATGTAGAGGAAAAAGAGGTTTCTCATGACATCTCAC
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           ATGACTCAAATGTTAAAACTGTTCAGCAAGAAAAGCATAATCATGGTGAT
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           GATCAAACAAAAGATGAACATGGTCATCATATTACTACAGAAGAGAAAGA
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           AGAGGTAAAGCATATGCAGGTGTCTATCATGAAAGATCACAATCATACTG
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           TTCAGCAAGAGGAGAATATCCATCATGAAAAGGAAGTAATGAATATCCCA
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           GTACATAGGACACCTGATAACCATCATATGATTCAGCAGGAAGAGGATAG
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           TAACAACAGTGAACATTCCCATGATGAACATAATCATTCTATAGTGCATG
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           ACAAGAAAGAAGAAATAAAGAATACACCAGTGCATTGCACACCAGATCAA
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           CATCATATGATTCAGCAGGAAGAGCATAGTAACAACAGTGAACATTCCCA
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           TGATGAACATTACCATCATGAAATGCATGAAAAGAAAGAAGACATAAAGA
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           ATACACCAGTGCATATCACACCAGATCGAAATTATACGATTCAGCAGGAA
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           GAGGACACCAGTCGCAATGAATATTCCCATGATGCACAAGATGTTATTCA
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           TAAAAAGATAGAAGAAGTAAAGCATACACCAGTGCATACCACACCAGATC
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           ACAATAACAAGTATGAACAGCTTGTTAATAATGATAACCCAATCAATGAA
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  ----------------AGAT--------------CTGTTC---A------
+NHA2_nucl_size=1959           ----------------AGAC--------------AGATGG---A------
+NHA3_nucl_size=3615           ACTAATATTCATAGTTTGGCCAAGGAAGAGAAAGATGAGGT-AACCCATG
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  ---------------TTGGC--------------ACATGGT-AA------
+NHA6_nucl_size=2127_strand=+  ---------------TTGAC--------------CCATAGT-GA------
+NHA7_nucl_size=_strand=-      ---------------TTGAC--------------CCAAGGT-AC------
+NHA8_nucl_size=_strand=+      ---------------TAGA----------------GAAGGGAA-------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  -----------GTT------------------------------------
+NHA2_nucl_size=1959           -----------TTT------------------------------------
+NHA3_nucl_size=3615           TGGAGCCACATTCTCTACAAGATCATAATGACAA----------------
+NHA4_nucl_size=2361_strand=+  -------------TTGA--------------TGAGGAACTAATGGGATT-
+NHA5_nucl_size=2262_strand=+  -----------TCTTTA--------------CAA----------------
+NHA6_nucl_size=2127_strand=+  -----------TCTTCA--------------TGA----------------
+NHA7_nucl_size=_strand=-      -----------TATTCA--------------TGA----------------
+NHA8_nucl_size=_strand=+      -----------TACCTACACT----------------------AGTAATA
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           --------------------------------------------------
+NHA4_nucl_size=2361_strand=+  -----------------TACAGTAAAACCTTCCATCAGACTGCATGACAT
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      GCAGCGGCTAGTGTTGAT--------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           --------------------------------------------------
+NHA4_nucl_size=2361_strand=+  ATATGGAGCTGAAGCCCAGCATTCTCTTGATCATACTGTGTCTGAAAACC
+NHA5_nucl_size=2262_strand=+  --------------------------------------------------
+NHA6_nucl_size=2127_strand=+  --------------------------------------------------
+NHA7_nucl_size=_strand=-      --------------------------------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  ---------------------------------------TG---------
+NHA2_nucl_size=1959           ---------------------------------------TG---------
+NHA3_nucl_size=3615           -------------------------------AAAAGTAGAACATGG----
+NHA4_nucl_size=2361_strand=+  AGCGTATATCAAGCAATGTGGACCAACATGAAGTC---TTTCCTCTAAAT
+NHA5_nucl_size=2262_strand=+  -------------------------------AGAA---CTGCATGG----
+NHA6_nucl_size=2127_strand=+  -------------------------------AGAT---GTTCATGG----
+NHA7_nucl_size=_strand=-      -------------------------------AGCA---TTTCATGG----
+NHA8_nucl_size=_strand=+      --------------------------------GAT---GTACT-------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  ----------------------------------CAG---A-T-----AG
+NHA2_nucl_size=1959           ----------------------------------TCG---A-C-----AG
+NHA3_nucl_size=3615           --------------------------CAGAAGTGATG---AACAAACCAA
+NHA4_nucl_size=2361_strand=+  GATCATGAATATAATCCTAGTACGGCTG------ATG---A-T-----AC
+NHA5_nucl_size=2262_strand=+  --------------------------TA------ATG---A-C-----AG
+NHA6_nucl_size=2127_strand=+  --------------------------AA------ATG---A-A-----AG
+NHA7_nucl_size=_strand=-      --------------------------AA------ATA---T-C-----AG
+NHA8_nucl_size=_strand=+      ------------------------------------CGCGAT------AT
+                                                                              * 
+
+NHA1_nucl_size=1914_strand=+  TCTT------------------AACGATCTG------GACTTAA------
+NHA2_nucl_size=1959           CCTT------------------CATGACTTT------CCTGTCA------
+NHA3_nucl_size=3615           ACATAAAGATATCCACAACCAGA---ATCAAGGTGAAGTAAAAAATCCAA
+NHA4_nucl_size=2361_strand=+  TC------------------TGAGCAATGTT---G---------------
+NHA5_nucl_size=2262_strand=+  TCATT---------------TGATTGATCAT---GAAGGCTTAA------
+NHA6_nucl_size=2127_strand=+  TCATT---------------TGATTCTGCAT---GG----TGAT------
+NHA7_nucl_size=_strand=-      TGCTC---------------TGACTGGACAT---G---------------
+NHA8_nucl_size=_strand=+      -C------------------TG----------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  ------ACTC--TACAGATTTCAA-----GG--AA---------------
+NHA2_nucl_size=1959           ------A----------------C-----AC-------------------
+NHA3_nucl_size=3615           GACAACAT-TTGCATACCGATGGAGAAGCAC--AAAATCAGAACAATGAA
+NHA4_nucl_size=2361_strand=+  -----------------------T-----TCAAAA---------------
+NHA5_nucl_size=2262_strand=+  ------AT-CTGCATTCAGATGAC-----CC--AA---------------
+NHA6_nucl_size=2127_strand=+  ------AC-C--GACTTACATCAC-----TT--AA---------------
+NHA7_nucl_size=_strand=-      -------------------ATGAC-----CC--AA---------------
+NHA8_nucl_size=_strand=+      ---------------------TGT-----TCACAA---------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  ------------------------------AAGC----------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           ACAGTCCATAATGAAAATAAAATGATTTTAAACC----------------
+NHA4_nucl_size=2361_strand=+  ------------------------------ATCTACCCCATACCAGGAAC
+NHA5_nucl_size=2262_strand=+  ------------------------------ATGC----------------
+NHA6_nucl_size=2127_strand=+  ------------------------------ATGT----------------
+NHA7_nucl_size=_strand=-      ------------------------------ATGC----------------
+NHA8_nucl_size=_strand=+      ------------------------------TCCTA---------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  ----TCATGGGG-----TT-TGATGT------------------------
+NHA2_nucl_size=1959           -----AACGGAA-----TT-TAGTGAAA----------------ACTT--
+NHA3_nucl_size=3615           ----ACATGGAGGATGAAAAAAGTCAAGATTCCCGTATGACACCACATAG
+NHA4_nucl_size=2361_strand=+  GGTTGCAGGGGA-----TTATTCAGAACCATAT-------T---------
+NHA5_nucl_size=2262_strand=+  ----GCATGGAG-----TTATGATGGATGTTCA-------TGCCTCTT--
+NHA6_nucl_size=2127_strand=+  ----ACATGGAA-----AAATAATGGACATTCA-------CGCCTCTT--
+NHA7_nucl_size=_strand=-      ----ACATGGAG-----TTGTCATGAATGTCCA-------TGATGCCT--
+NHA8_nucl_size=_strand=+      -----CTTGGAG-----T---A----ACC-----------------TT--
+                                      **                                        
+
+NHA1_nucl_size=1914_strand=+  --------------------A-----------------------------
+NHA2_nucl_size=1959           ------------TAAAGG-AAAG-----T---------------------
+NHA3_nucl_size=3615           CATATATGATCAT-AACGAAAAGAAAATTACCCATCAACAAATTGATAAC
+NHA4_nucl_size=2361_strand=+  -----------------G-ACACA-CTGA---------------------
+NHA5_nucl_size=2262_strand=+  ------------TAAAGG-AAGGA-CATT---------------------
+NHA6_nucl_size=2127_strand=+  ------------TCAATG-AAGGA-CATG---------------------
+NHA7_nucl_size=_strand=-      ------------TGAAGG-ATGAG-CATG---------------------
+NHA8_nucl_size=_strand=+      -------------TAATACA------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  ------------A---------------ACATA--GA-------------
+NHA2_nucl_size=1959           T------TATTGA------------------CA-TTGA------------
+NHA3_nucl_size=3615           C---------------------------------TAAACAATAAACCTAT
+NHA4_nucl_size=2361_strand=+  CTAAAATTGGTGA---------------GCTTCATCAA------------
+NHA5_nucl_size=2262_strand=+  CTGCTATTGTTGA---------------TCACC-TTGA------------
+NHA6_nucl_size=2127_strand=+  CTAAAATCGTTGA---------------ACACC-TGAA------------
+NHA7_nucl_size=_strand=-      AGAGAATAGTCGA---------------ACACC-TTGA------------
+NHA8_nucl_size=_strand=+      ------------AACCAGGATAATCTCTA---------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------------
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           CACAGAGGTATTGAATAGACCCCTCAACAAAAATGAGCTTAATAACGATG
+NHA4_nucl_size=2361_strand=+  --------------------------------------------------
+NHA5_nucl_size=2262_strand=+  --------------------------A-----------------------
+NHA6_nucl_size=2127_strand=+  --------------------------A-----------------------
+NHA7_nucl_size=_strand=-      --------------------------A-----------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------GA-AAT
+NHA2_nucl_size=1959           --------------------------------------------------
+NHA3_nucl_size=3615           TTAAAGACTCAAATGATATAAATGGGCAAGGTATAAGTCAACAAGAAAAG
+NHA4_nucl_size=2361_strand=+  ----------------------------------------------GAAT
+NHA5_nucl_size=2262_strand=+  -----------------------------------------------AAA
+NHA6_nucl_size=2127_strand=+  -----------------------------------------------AAT
+NHA7_nucl_size=_strand=-      -----------------------------------------------AAG
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  ----------ATGGAGTTCTTCA--------TGAAT--------CAA---
+NHA2_nucl_size=1959           ---------------ATCTTACT---------------------CGG---
+NHA3_nucl_size=3615           A-----AGGAGGCATCCCAAACCCCACAATATGAATCAAAGAATCAA---
+NHA4_nucl_size=2361_strand=+  TGACCAAACCAACTACTCCATCAGAT-GAA-GATGT--------TATAGG
+NHA5_nucl_size=2262_strand=+  A-----CAACAGACAATCCAAAATTTAGCACCACAG--------CAA---
+NHA6_nucl_size=2127_strand=+  T-----CTACATTCAGTTCAACAGCT-GAAATAAAT--------CAT---
+NHA7_nucl_size=_strand=-      A-----CAACAGTTAATCCTAAATTCAGTTCAACTG--------CAA---
+NHA8_nucl_size=_strand=+      --------------------CCAGCT------G-----------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  ----------------------TGG-ACCT---TCCTGA---AAAGA---
+NHA2_nucl_size=1959           ----------------------GGA-AAGAATCTGGAGA---AATTA---
+NHA3_nucl_size=3615           AAAGATGAAAACGGTCATGAAATGC-ATCT---TCATGATGTAAAGAGTG
+NHA4_nucl_size=2361_strand=+  AAGT--------------------A-AGCA---TCCTAA---AATGA---
+NHA5_nucl_size=2262_strand=+  AAA--------------------TATTCCA---TGCAAA---AGCTA---
+NHA6_nucl_size=2127_strand=+  AA---------------------TG-ACCA---TCCAGA---ATCTA---
+NHA7_nucl_size=_strand=-      GAA--------------------TATTTCA---TGCAAA---GGTCC---
+NHA8_nucl_size=_strand=+      --------------------------ATCCT---CCAGG---GTCCT---
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  ----------------T-----GGG------A--AG----CAATG--ACT
+NHA2_nucl_size=1959           ----------------T------GA-----------------ACAGTTCT
+NHA3_nucl_size=3615           ACAACATAAATCAAGATAACAAAGAACAAGCATTAGCTAACAATAACACC
+NHA4_nucl_size=2361_strand=+  ---------------------ATGT------TTT-------TAAATCCCC
+NHA5_nucl_size=2262_strand=+  ----------------A-----AGA------ATT-------CAAATCACC
+NHA6_nucl_size=2127_strand=+  ----------------T-----TGG------ATCAACT---AATAATACC
+NHA7_nucl_size=_strand=-      ----------------A-----AGA------TTT-------CAAATCATC
+NHA8_nucl_size=_strand=+      ---------------------TTAG------A----------------GG
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  ------TT-AAA---AC---------TG-----TT----GGAG-TA----
+NHA2_nucl_size=1959           ---------GT----GT-----------------T----GGATCTG----
+NHA3_nucl_size=3615           ---AAGATGAAAACTACTCCGGACGATGCAGTTTTGAATGGCACTGATAT
+NHA4_nucl_size=2361_strand=+  ------CAAATG----G---------CCAA---CT----GA-C-CA----
+NHA5_nucl_size=2262_strand=+  ---GT-CTAAT----GC---------TTCA---CA----AGCTCTA----
+NHA6_nucl_size=2127_strand=+  ----C-ATGAA----GA---------TAAA---TT----AGATACT----
+NHA7_nucl_size=_strand=-      AACTT-CAAAT----GA---------TTCC---CA----ATCTTCA-C-A
+NHA8_nucl_size=_strand=+      CCATAGTC-------------------------------GGGGT------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  -------A--AC-AGC-------------AGG---AGGAGAA---GA---
+NHA2_nucl_size=1959           -------G--A----C--------------AA---TGG--AA---CA---
+NHA3_nucl_size=3615           CTCAGA-AATAGCC-CAGGGTGTAACAAAACATGATGTAGAGGCAGCAGT
+NHA4_nucl_size=2361_strand=+  ---------CAG-T-T-------------CAG---AGGAAAA---CA---
+NHA5_nucl_size=2262_strand=+  -------A--AG-T-C-------------ACA---TGGGGAA---GG---
+NHA6_nucl_size=2127_strand=+  -------C--AC-A-C-------------TAA---TGGAGAA---GG---
+NHA7_nucl_size=_strand=-      TTCAGAAC--AT-T-T-------------AGA---TGGAGAA---GG---
+NHA8_nucl_size=_strand=+      -----------------------------CCT----G--GGA---GG---
+                                                                  *             
+
+NHA1_nucl_size=1914_strand=+  -AG-----------------------------------------------
+NHA2_nucl_size=1959           ------ATGG-------------------ACA--------------GA--
+NHA3_nucl_size=3615           CACTAAAATCTATCAACAAAATGTTCTTTACAATAGTTATGAGAAAGATG
+NHA4_nucl_size=2361_strand=+  -TTTTAAACT--------TG---A------TG--------------GA--
+NHA5_nucl_size=2262_strand=+  -TTTCAAACC--------AA---TT----CCA--------------GA--
+NHA6_nucl_size=2127_strand=+  -ATTTAAGCC--------AA---TT----CCA--------------GA--
+NHA7_nucl_size=_strand=-      -TATCAAATC--------AA---TG----CCA--------------GA--
+NHA8_nucl_size=_strand=+      -AT-----------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  -------TAG---------TGGTAGT-CATCC-----TGAA------CCA
+NHA2_nucl_size=1959           -------TTT----------------------------------------
+NHA3_nucl_size=3615           AAAGTACTAC---------TGAAAATTCAGCAGAAGATCTAGTTGACACA
+NHA4_nucl_size=2361_strand=+  -------TTC---------AA-GA------CAT--AAAAGA------ACC
+NHA5_nucl_size=2262_strand=+  -------TTC---------TGAAACT-CTTCAT--CATCGC------GCA
+NHA6_nucl_size=2127_strand=+  -------TTC---------TGAAAAT-CATCAT--CATCGA------GCA
+NHA7_nucl_size=_strand=-      -------GTC---------TGATGAT-CATCAT--CATAGA------GCA
+NHA8_nucl_size=_strand=+      ---------TTATCTGGGGA------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  A------------------CACTTATC------CA------------AGA
+NHA2_nucl_size=1959           ---------------------TTAAGTGGAGAACAG---AACTCTGGAGT
+NHA3_nucl_size=3615           AAAATTCAGAACAGAAGTAGGCGTAGCAGTGGACATGATGAACCACAGAT
+NHA4_nucl_size=2361_strand=+  T------------------TACGTAGTGAACATGCTGAAGAAAGTACTTC
+NHA5_nucl_size=2262_strand=+  A------------------GACGAAGTGGAGGTCATGATGAACCTGCTGT
+NHA6_nucl_size=2127_strand=+  A------------------GACGAAGTGGAGGTCATGATGAGCCTGTTGT
+NHA7_nucl_size=_strand=-      A------------------GACGAAGTGGAGGTCATGATGAACCTGCTGT
+NHA8_nucl_size=_strand=+      -------------------------GTTCTAGTCA------TCTTTCTG-
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  AAAATA---TGATCCTTGCAGGAAGAAATATATAGGTCATGAATTAGATC
+NHA2_nucl_size=1959           AGATTT---TTCTTCCTGTAAAAAGAAGTATATTGGTCATGAGCTAGATC
+NHA3_nucl_size=3615           TTATGT---TGATCCTTGTAAAAAGAGATTTATTGGAAATGATCTTGATC
+NHA4_nucl_size=2361_strand=+  ACTGCCTGAGGATTCCTGTAAGAAAAGATTCATTGGGCATGAACTTGATC
+NHA5_nucl_size=2262_strand=+  ATACCG---TGATCCTTGTGTTAAGAGATTTATTGGAAATGATGTTGATC
+NHA6_nucl_size=2127_strand=+  ATACCG---TGATCCTTGTGTTAAGAGATTTATTGGAAATGATGTTGATC
+NHA7_nucl_size=_strand=-      ATACCG---TGATCCTTGTGTTAAGAGATTTATTGGAGGTGATGTAGATC
+NHA8_nucl_size=_strand=+      ---CC-------TCCTTC-GCC---A--------------------CATC
+                                          * * *        *                     ***
+
+NHA1_nucl_size=1914_strand=+  CTCTGATCTCCAGGAGTCTGAGAACTATCTGTTTAACCGTGATCCTTTTG
+NHA2_nucl_size=1959           CTGTGCTATCGCGAACCCTGAGGTTTATTTGCCTAACAGTTCTTCTTCTA
+NHA3_nucl_size=3615           CTCTTTTAACAAGAACACTAAGATCCATATGTCTGACAGTTATTCTACTC
+NHA4_nucl_size=2361_strand=+  CCTTGCTGTCTCGAACTCTAAGATCCATATGTCTGACAGTTATTCTACTC
+NHA5_nucl_size=2262_strand=+  CAACTGTTAAAACAATCTTAAGATCTGCATGCTTAACATGTATTCTTCTG
+NHA6_nucl_size=2127_strand=+  CAACCGTCAAAACAATCTTAAGATCTGCATGCTTAACATGTATTCTTCTG
+NHA7_nucl_size=_strand=-      CAACTGTTAAAGGAATTTTGAGATCTACATGTCTAACTGTTATTCTTCTG
+NHA8_nucl_size=_strand=+      CCAATG------TGTTGTTAAGAGTTG--TG-----CTG---TTG-TTTG
+                              *                 * **       **     *     *     * 
+
+NHA1_nucl_size=1914_strand=+  ATGGCAGGACTTGAACTTGATCCGGTAGCATTGTGGAACCTTTCAGGAAT
+NHA2_nucl_size=1959           ATGGCAGGGCTTGAACTTGATCCTGATGCCCTGTGGAATCTCTCTGGGAT
+NHA3_nucl_size=3615           ATGGCAGGTCTTGAACTTGATCCTCCTGCTCTCTGGAGACTCAAATGGAT
+NHA4_nucl_size=2361_strand=+  ATGGCAGGCCTAGAACTAGATCCTCCTGCACTCTGGAGACTTAAATGGAT
+NHA5_nucl_size=2262_strand=+  ATGGCAGGTCTTGAATTGGATCCTCCACAACTATGGAGACTTAAATGGAT
+NHA6_nucl_size=2127_strand=+  ATGGCAGGTCTTGAATTGGATCCTCCACAACTATGGAGACTTAAATGGAT
+NHA7_nucl_size=_strand=-      ATGGCAGGTCTTGAATTGGATCCTCCTCAACTCTGGAGACTTAAATGGAT
+NHA8_nucl_size=_strand=+      GTGGGAG--CTTGT-TT-G---CTC----TCTTTGGGAGCG-CAATGG--
+                               *** **  ** *   * *   *        * ***   *      *   
+
+NHA1_nucl_size=1914_strand=+  GGTTGTCCGAGCAACCTTTGTTCCATGCTTTGTGGAAGCAATAGCAGTTG
+NHA2_nucl_size=1959           GGTCATCAGAGCTACTTTCATACCATGTATTGTGGAGGCAATGTCTGTTG
+NHA3_nucl_size=3615           TGTACTCAGGACAACTTTTATTCCTTGTATCATAGAAGCATTTGCAGCAT
+NHA4_nucl_size=2361_strand=+  TGTACTCAGAACTACATTTATTCCTTGCCTTGTAGAGGCATTTGCAGCAT
+NHA5_nucl_size=2262_strand=+  TGTACTGAGAACTACCTTCATACCTTGCATAGTAGAGGCATTTGCTGCTG
+NHA6_nucl_size=2127_strand=+  TGTACTGAGAACTACCTTCATACCTTGCATAGTAGAGGCATTTGCTGCTG
+NHA7_nucl_size=_strand=-      TGTACTCAGAACTACCTTCATACCTTGCATAGTAGAGGCATTTGCAGCAT
+NHA8_nucl_size=_strand=+      -----------------------------------CGGGGTTTCCTGGAG
+                                                                   *   *  * *   
+
+NHA1_nucl_size=1914_strand=+  CTGTATTCTCAAACCTGATTTTGGGATTTCCATGGAGTGTTGGAT-TCAT
+NHA2_nucl_size=1959           CTATTTTTTCACATCTCATCCTCGGATTTCCCTGGACGGTTGGATGG-AT
+NHA3_nucl_size=3615           CTTTATTTTGTTATCTGATCCTTGGTTTTCCGTTTTCTGTAGGAC-T-TT
+NHA4_nucl_size=2361_strand=+  CTTTATTTTGCTATTTGATCCTTGGATTTCCCTTTCTTCCTGGTC-T-AT
+NHA5_nucl_size=2262_strand=+  CCCTGTTTTGTTATCTGATCCTTGGATTTCCCTTTCTTCCTGGAC-T-AT
+NHA6_nucl_size=2127_strand=+  CCCTGTTTTGTTATCTGATCCTTGGATTTCCCTTTCTTCCTGGAC-T-AT
+NHA7_nucl_size=_strand=-      CTTTATTTTGTTATCTGATCCTTGGATTTCCCTTTCTTCCTGGAC-T-AT
+NHA8_nucl_size=_strand=+      C-------------GGGAGCCTTGGGG-----------------------
+                              *                *   * **                         
+
+NHA1_nucl_size=1914_strand=+  GCT-TGGATTTGTTCTAGCGGCTGTATCTCCAGCAGTCATCATCCCAAGC
+NHA2_nucl_size=1959           GCT-TGGGTTTGTTCTAGCCGCCGTATCTCCAGCAGTTATTATCCCCAGC
+NHA3_nucl_size=3615           GCTTTGGATTTGTTCTGTGCGGAGTATCTCCAGCTGTTATTATTCCAGGA
+NHA4_nucl_size=2361_strand=+  GCTTTGGATTTGTTCTCTGCGGAGTATCTCCAGCTGTTATTATTCCAGGA
+NHA5_nucl_size=2262_strand=+  GCTTTGGATTTGTTCTCTGCGGAGTATCTCCAGCTGTTATTATTCCAGGA
+NHA6_nucl_size=2127_strand=+  GCTTTGGATTTGTTCTCTGCGGAGTATCTCCAGCTGTTATTATTCCAGGA
+NHA7_nucl_size=_strand=-      GCTTTGGATTTGTTCTCTGCGGAGTATCTCCAGCTGTTATTATTCCAGGA
+NHA8_nucl_size=_strand=+      -----------GTTCT---------AGTTCTAGCATTT---GTCGCAGGA
+                                         *****         *  ** ***  *     *  *  * 
+
+NHA1_nucl_size=1914_strand=+  TTGATGAACCTGTCTGAACGAGGATATGGAGTAGCAAAGGGTATTCCTAC
+NHA2_nucl_size=1959           TTATTGAGTCTTTCTGAACGAGGATATGGAGTAGCAAAGGGAATTCCAAC
+NHA3_nucl_size=3615           TTGGTGAATCTTAGTCAAAGAGGATACGGAGTAAAGAAGGGAATACCAAC
+NHA4_nucl_size=2361_strand=+  TTGGTGAATCTGAGTCAGAGAGGATACGGAGTAAAGAAGGGAATACCAAC
+NHA5_nucl_size=2262_strand=+  TTGGTGAATCTTAGTCAGAGAGGATACGGAGTAAAGAAGGGAATACCAAC
+NHA6_nucl_size=2127_strand=+  TTGGTGAATCTTAGTCAGAGAGGATACGGAGTAAAGAAGGGAATACCAAC
+NHA7_nucl_size=_strand=-      TTGGTGAATCTTAGTCAGAGAGGATACGGAGTAAAGAAGGGAATACCAAC
+NHA8_nucl_size=_strand=+      TTAGGG--------------------------------------------
+                              **   *                                            
+
+NHA1_nucl_size=1914_strand=+  TCTTGTTATAGCCGCCTGTTCAGCAGATGATGTTGTGGCAATCAGTGGAT
+NHA2_nucl_size=1959           TCTTGTTATAGCCGCCTGTTCAGCAGATGATGTTGTGGCAATCAGTGGAT
+NHA3_nucl_size=3615           ACTTGTTATCGCAACATGTTCAGCTGATGATCTTGTGGCTATTGGAGGAT
+NHA4_nucl_size=2361_strand=+  ACTGGTTATTGCAACATGTTCTGCTGATGATCTTGTGGCTATTGGAGGAT
+NHA5_nucl_size=2262_strand=+  ACTGGTTATTGCAACATGTTCTGCTGATGATCTTGTGGCTATTGGAGGAT
+NHA6_nucl_size=2127_strand=+  ACTGGTTATTGCAACATGTTCTGCTGATGATCTTGTGGCTATTGGAGGAT
+NHA7_nucl_size=_strand=-      ACTGGTTATTGCAACATGTTCTGCTGATGATCTTGTGGCTATTGGAGGAT
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  TCGGAATCTTCTTGGGGATAACCTTCAATGCTGATGCTCCTGTCCTAGAC
+NHA2_nucl_size=1959           TCGGAATCTTCTTGGGGATAACCTTCAATGCAAATGCCCCTCTCATTGAT
+NHA3_nucl_size=3615           TTGGTATTGCACTGAGTATCACATACAACCCAGATGCTCCTATTCTATCT
+NHA4_nucl_size=2361_strand=+  TTGGTATTGCACTTGGTATCACTTTTAATCCAGATGCTTCAATTACCGAT
+NHA5_nucl_size=2262_strand=+  TTGGAATAGCTGCTGGAATTACTTTTAATCCTGATGCATCAATATCTGAT
+NHA6_nucl_size=2127_strand=+  TTGGAATAGCTGCTGGAATTACTTTTAATCCTGATGCATCAATATCTGAT
+NHA7_nucl_size=_strand=-      TTGGAATAGCTGCTGGAATTACTTTTAATCCTGATGCATCAATATCTGAT
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  CTAGCACTGCATGGTCCAATCGAGGTGGCAATCGGTCTCTCATTCGGAAT
+NHA2_nucl_size=1959           CTGATACTTCATGGTCCTATGGAAGTTGCAATTGGTGTTTCTGGAGGTTT
+NHA3_nucl_size=3615           TTAGCCTTCCATGGTCCTTCAGAAGTGATTATGGGTATTGCATTCGGAAT
+NHA4_nucl_size=2361_strand=+  CTTGCCAGCCATGGTCCAATTGAAGTCACCATGGGTATTGGATTTGGAAT
+NHA5_nucl_size=2262_strand=+  CTTGCCAGCCATGGACCTCTTGAAGTGCTCTTGGGGATTGCATTTGGAAT
+NHA6_nucl_size=2127_strand=+  CTTGCCAGCCATGGACCTCTTGAAGTGCTCTTGGGGATTGCATTTGGAAT
+NHA7_nucl_size=_strand=-      CTTGCCAGCCATGGACCTCTTGAAGTGCTCTTGGGGATTGCATTTGGAAT
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  AGGTTGGGGA-ATACTGGCACAATGGATCCCAAACCAACATCATAAAAAT
+NHA2_nucl_size=1959           AGTTTGGGGTGGGCTAGC-TCAATGGATTCCAAACCAGCACAGTCCTCAT
+NHA3_nucl_size=3615           TTTCTGGGGTTATATTTG-CCAATGGTTTCCCAGCAAACAAAACCCAAAT
+NHA4_nucl_size=2361_strand=+  CTTCTGGGGTTATGTATG-CCAGTGGCTCCCAAGTAGACATAACAAAGAT
+NHA5_nucl_size=2262_strand=+  ATTCTGGGGATACATCTG-CCAATGGTTTCCAAGTAAGCAGTACGAAAAC
+NHA6_nucl_size=2127_strand=+  ATTCTGGGGATACATCTG-CCAATGGTTTCCAAGCAAGCAGAATGCAAAC
+NHA7_nucl_size=_strand=-      ATTCTGGGGATACATCTG-CCAATGGTTTCCAAGCAAGCAGAATGCAAAC
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  ATGGTATTCTTCAGGTTCCTAATCCTCTTCTCCGGAGGTTTGATAGCTCT
+NHA2_nucl_size=1959           GTTGCCTTCTTTAGGTTCATTATCCTTTTCTTTGGTGGACTTATCTCACA
+NHA3_nucl_size=3615           CATGTCTTGTTTCGATTCATTATTCTCTTTAGCGGAGGGCTCTTTGCCTT
+NHA4_nucl_size=2361_strand=+  TATATCCTGTTCAGATTTATTATACTTTTTTGCGGAGGTCTCTTTGCCTT
+NHA5_nucl_size=2262_strand=+  TATGTGTTCTTTAGATGGGTCTTACTGACAGCTGGAGGTGCTTTTGCTCT
+NHA6_nucl_size=2127_strand=+  TATGTGTTCTTCAGATGGGTCATCCTAACAGCAGGAGGTCTGTTTGCTCT
+NHA7_nucl_size=_strand=-      CATGTCTTCTTCAGGTGGGTCTTACTGACAGCTGGAGGTCTGTTTGCTCT
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  CTTTGGAGCTGGTCTTATTCACTACGATGGCGCGGGAGGGCTGGCCGCAA
+NHA2_nucl_size=1959           ATTCGGAGCATTACTAATAAACTATGATGGAGCAGGAAGCTTGGCAGTTA
+NHA3_nucl_size=3615           GTTTGGAGCCCATCTGATTCATTATGATGGTGCGGGTGGTCTGGCGTGTG
+NHA4_nucl_size=2361_strand=+  GTTCGGAGCCCATCTAATCCACTATGACGGTGCAGGTGGTCTGGCGTGCG
+NHA5_nucl_size=2262_strand=+  GTTTGGAGCACATATGATCCATTATGATGGAGCTGGAGGTCTGGCTTGTG
+NHA6_nucl_size=2127_strand=+  GTTTGGAGCACATATGATCCATTATGATGGAGCTGGAGGTCTGGCTTGTG
+NHA7_nucl_size=_strand=-      GTTTGGAGCTCATATGGTCCATTATGATGGAGCTGGAGGTCTGGCTTGTG
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  TCATCATGGCATTTGTAGCTGGTATGCGCTGGAGGAAAGAAGGTTGGGGC
+NHA2_nucl_size=1959           TTATCATGGCCTTTGTAGCATCACTCAGGTGGAGGAAGGAGGGGTGGGGA
+NHA3_nucl_size=3615           TGATCATGGCATTTGTTGCCTCAATTCAGTGGAGAAAAGAAGGATGGGGA
+NHA4_nucl_size=2361_strand=+  TGATCATGGCATTTGTTGCCTCAATTCAGTGGAGAAAAGAAGGATGGGGA
+NHA5_nucl_size=2262_strand=+  TGATCATGGCATTTGTTGCCTCTATTCAGTGGAGAAGAGAAGGGTGGGGA
+NHA6_nucl_size=2127_strand=+  TGATTATGGCATTTGTGGCCTCTATTCAGTGGAGAAGAGAAGGGTGGGGA
+NHA7_nucl_size=_strand=-      TGATCATGGCATTTGTTGCCTCTATTCAGTGGAGAAGAGAAGGATGGGGA
+NHA8_nucl_size=_strand=+      -----------------------------TGGAGGCGGCAGGGTTGGAAG
+                                                           *****     * ** ***   
+
+NHA1_nucl_size=1914_strand=+  GATCATAACCCGGTCTCAAAAACTTTCAGGAAGATGTGGATTATCCTTGA
+NHA2_nucl_size=1959           GATCACAATCCAGTATCATTAACTTTCCGCAAACTTTGGATCATCCTGGA
+NHA3_nucl_size=3615           GATCATAATCCTATAACTGACATCTTTGGGAAAATGTGGATTATCCTTGC
+NHA4_nucl_size=2361_strand=+  GATCATAATCCCATAACTGACATCTTTGGGAAAATGTGGATTATCCTCGC
+NHA5_nucl_size=2262_strand=+  GATCATAACCCTGTTACAGATATCTATAACAAGGTCTGGATTATCTTGTC
+NHA6_nucl_size=2127_strand=+  GATCATAACCCTGTTACAGATATCTATAACAAGGTCTGGATTATCTTGTC
+NHA7_nucl_size=_strand=-      GATCATAACCCTGTTACAGATATCTATAACAAGGTTTGGATTATCTTGTC
+NHA8_nucl_size=_strand=+      GAGGATAATCCAGTTTCCCAGACCCTCGCTCAAATGTGGATTATTTTTCA
+                              **  * ** **  *  *    *         *  * ***** **  *   
+
+NHA1_nucl_size=1914_strand=+  GCCGGTCATTTTTGCTCTCATCGGAACGGAAATCCAGATTGATAAGATCG
+NHA2_nucl_size=1959           AGCGGTAATCTTCTCTTTGATTGGAACAGAAATCCAGATTGACAAGATAG
+NHA3_nucl_size=3615           ACCCATCATATTCTCTCTGATTGGAACCAACATTGTGGTTGAGAAGATGG
+NHA4_nucl_size=2361_strand=+  TCCCATCATATTCTCTCTGATCGGAACTAATATCCAGGTTGATAAGATGA
+NHA5_nucl_size=2262_strand=+  TCCAGTTATCTTCTCACTCATCGGAACCAATATCAACGCAGAAAAGATGG
+NHA6_nucl_size=2127_strand=+  TCCAGTTATCTTCTCACTCATTGGAACCAATATCAACGCAGAAAAGATGG
+NHA7_nucl_size=_strand=-      TCCAGTTATCTTCTCACTCATCGGAACCAATATCAACGCAGAAAAGATGG
+NHA8_nucl_size=_strand=+      GCCTCTGCTCTTCGGGCTAATCGGGACAGAGATCCAGGTGGATAAGTTAG
+                                *  *  * **     * ** ** **  * **       ** *** *  
+
+NHA1_nucl_size=1914_strand=+  ATCCTGCAACCCT-TGGTTTAGGGATTCTAGTTCTTG-T--GCTGGCTCT
+NHA2_nucl_size=1959           ATACGGAGAGCATGTGGAATGGG-ATCCTTGTCCTTTGCCTAGCACT-C-
+NHA3_nucl_size=3615           ACGGTGAGAGTGT-TGCTCTTGGTATTGCTGTCATAG-TACTCTCTATG-
+NHA4_nucl_size=2361_strand=+  ACGGTGATACTGT-AGGGTTAGGAGTTGCCGTTATAG-TTTGCTGTATT-
+NHA5_nucl_size=2262_strand=+  ATGGGGCAACTGT-AGGAATGGGTGTTGCTGTACTTG-TCTGTTGCTTT-
+NHA6_nucl_size=2127_strand=+  ACGGGGCAACTGT-AGGATTGGGTGTTGCTGTACTTT-TCTGTTGCTTT-
+NHA7_nucl_size=_strand=-      ACGGGGCAACTGT-AGGATTGGGTGTTGCTGTACTTT-TCTGTTGCTTT-
+NHA8_nucl_size=_strand=+      ATCCGGAAACCGT-TGGCTTAGGAATAGGAGTGCTCG-TGTGTGGACTT-
+                              *    *  *   *  *   * **  *    **  *               
+
+NHA1_nucl_size=1914_strand=+  CACCCTTAGAATGATCGGAACCTTCTTTGCTGTCAGCTGCGGAAATCTGA
+NHA2_nucl_size=1959           -ATTCTCAGGATGATTTCTACATATTTTGCTGTGTCCTGTGGAAACCTGA
+NHA3_nucl_size=3615           -ATTGTAAGAATGGTGTTTACCTATTTTGCTGCTGTTTGTGGAGGAATGA
+NHA4_nucl_size=2361_strand=+  -CTAACAAGAAGTTTTTTTACCTATTGGTCTGCAACATTTGGAGGACTAA
+NHA5_nucl_size=2262_strand=+  -TTAACCAGGGGATTCTTTACCTATTGGTCAGCTGTTTGCGGAGGATTAG
+NHA6_nucl_size=2127_strand=+  -ATAACCAGAGGATTTTTTACTTTTTGGTCTGCGGTTTGTGGAGGGTTAG
+NHA7_nucl_size=_strand=-      -ATAACCAGATCTTTCTTCACCTTTTGGTCAGCTGTTTGTGGAGGATTAG
+NHA8_nucl_size=_strand=+      -TCTGCGAGACTTGTTTTATCTTATATTTCGGTTCTGGGAGGAGATGTTA
+                                     **     *     * *      * *        ***    *  
+
+NHA1_nucl_size=1914_strand=+  ACTTTAAAGAGAAGATTTTCATGGCGTTTGCCTGGCTGCCCAAAGCGACT
+NHA2_nucl_size=1959           ATGTCAAGGAGAAGATTTTCATGGCATTTGCTTGGTTTCCCAAAGCAACA
+NHA3_nucl_size=3615           CTGCAAAGGAGAAAATATTTCTGTCTATATCCTGGTTACCTAAGGCAACC
+NHA4_nucl_size=2361_strand=+  ACACCAAGGAAAAGTTATTTCTAAGCCTGGCCTGGCTTCCAAAAGCCACA
+NHA5_nucl_size=2262_strand=+  ACACGAAAGAAAAAATATTTTTGGCCATTTCTTGGCTCCCTAAGGCTACA
+NHA6_nucl_size=2127_strand=+  ACACAAAAGAAAAAATCTTTCTTGCTGTTGCTTGGCTTCCAAAAGCAACA
+NHA7_nucl_size=_strand=-      AAACAAAAGAAAAGTTGTTTCTTTCAATTTCCTGGCTTCCTAAGGCAACT
+NHA8_nucl_size=_strand=+      ATCACAGAGAACGCATGTTTATAGCATTAGCTTGGTTACCCAAGGCCACT
+                                   *  **     * **  *     *  * *** * ** ** ** ** 
+
+NHA1_nucl_size=1914_strand=+  GTTCAAGCTGCTCTAGGTCCCATTTTTTTGGACAA---------------
+NHA2_nucl_size=1959           GTTCAGGCAGCAATAGGAACTGTATTTCTGGATTT---------------
+NHA3_nucl_size=3615           GTTCAAGCTGCTCTGGGCCCAGTATTTCTGGATAA---------------
+NHA4_nucl_size=2361_strand=+  GTTCAAGCTGCCTTAGGTCCAGTATTTTTGGACAA---------------
+NHA5_nucl_size=2262_strand=+  GTTCAAGCAGCTTTAGGTCCGGCATTCTTGGAAAA---------------
+NHA6_nucl_size=2127_strand=+  GTCCAAGCAGCATTAGGTCCTGCGTTCTTGGAAAA---------------
+NHA7_nucl_size=_strand=-      GTTCAAGCAGCATTAGGTCCAGTGTTTTTGGAAAA---------------
+NHA8_nucl_size=_strand=+      GTTCAAGCTGCAATAGGTCCTCTAGCATTAGACCTGGCAACTCAAGCTCT
+                              ** ** ** **  * **  *        * **                  
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------CGCTAT
+NHA2_nucl_size=1959           --------------------------------------------TGCAAT
+NHA3_nucl_size=3615           --------------------------------------------TGCACT
+NHA4_nucl_size=2361_strand=+  --------------------------------------------TGCTTT
+NHA5_nucl_size=2262_strand=+  --------------------------------------------AGCAAT
+NHA6_nucl_size=2127_strand=+  --------------------------------------------GGCGAT
+NHA7_nucl_size=_strand=-      --------------------------------------------AGCTAT
+NHA8_nucl_size=_strand=+      TAGGAAAGCTGGGATGGATGGAGAGAATCTGCCAGAGTTAAATGAGCAAC
+                                                                           **   
+
+NHA1_nucl_size=1914_strand=+  CAAGAACGGGTTGACTGAGTACATTCCGATGGGTGAACAGATTCTAACCC
+NHA2_nucl_size=1959           AATGAATGGGAGAACTGACTTAATTCCGATGGGTGAGCAGGTTTTAACAT
+NHA3_nucl_size=3615           AAGAGATGGAATTACTGAGTATATTCCGTACGGAGAACAGATACTTACGA
+NHA4_nucl_size=2361_strand=+  GAGGTCCGGAATAACAGAATTTGTTCCGTACGGAGAACAGATTCTCAATA
+NHA5_nucl_size=2262_strand=+  AGCAGCAAATCTTCCAGAGTATGTGCCAATTGGAGAAACAATTCTTACCA
+NHA6_nucl_size=2127_strand=+  TTCAGCAGGACTTACGGATTTTATACCTATGGGAGAGACGATTCTCACTA
+NHA7_nucl_size=_strand=-      TTATGCAGGAATCACAGAGTATATACCTATGGGAGAGACAATTCTTACGC
+NHA8_nucl_size=_strand=+      --------------TGGAGTT---------AGCAGAGAAGGTTCTAACCT
+                                              ** *           *  **     *  * *   
+
+NHA1_nucl_size=1914_strand=+  TGGCTGTCCTCTCTATCCTCATCACAGCTCCCTTGGGGGCCATCAGCATC
+NHA2_nucl_size=1959           TGGCAGTCCTATCTATACTCATAACAGCACCTCTGGGAGCCATTGGTATT
+NHA3_nucl_size=3615           TGGCAGTCTTGTCAATTGTTGTGACTGCACCACTTGGTGCAATTCTAATC
+NHA4_nucl_size=2361_strand=+  TGGCAGTTCTATCAATTGTGATCAGTGCTCCCTTGGGAGCCGTCCTAATC
+NHA5_nucl_size=2262_strand=+  TGGCTGTCATATCCATTGCAATAAGTGCACCCATCGGAGCCATACTTATC
+NHA6_nucl_size=2127_strand=+  TGGCAGTTATTTCCATAGCTATAAGCGCTCCCATCGGCGCCATTCTCATC
+NHA7_nucl_size=_strand=-      TGGCTGTACTATCTATCGCAATTAGCGCACCCATAGGAGCTATACTCATC
+NHA8_nucl_size=_strand=+      TGGCTGTTCTTGTAATTCTCATCACCGCTCCCATTGGAGCAGTTGCCATC
+                              **** **  *    **     * *  ** **  * ** **  *    ** 
+
+NHA1_nucl_size=1914_strand=+  CTCGCACTCGGACCCAAG----------CTCCTTA-CC------------
+NHA2_nucl_size=1959           CTAGGACTTGGTCCTAAA----------CTCCTCT-CT------------
+NHA3_nucl_size=3615           CTGGCTCTGGGACCTCTC----------CTGCTTC-AA------------
+NHA4_nucl_size=2361_strand=+  CTAGCCACAGGGCCCTTGCTTCTCCATTCTGATTTAGAGGTTAAAGGAAG
+NHA5_nucl_size=2262_strand=+  TTGGCACTTGGACCTGTA----------CTGCTTC-CT------------
+NHA6_nucl_size=2127_strand=+  CTAGCGCTTGGACCTGTT----------CTGCTAC-CA------------
+NHA7_nucl_size=_strand=-      TTGGCACTTGGACCTGTT----------CTGCTAC-CA------------
+NHA8_nucl_size=_strand=+      ATGGCG--------------------------------------------
+                               * *                                              
+
+NHA1_nucl_size=1914_strand=+  ----AGCA---------ACA---------------------------A--
+NHA2_nucl_size=1959           ----TGTG---------ATCTCCCAGCAGCAGGTCAAGAACAGGACCTG-
+NHA3_nucl_size=3615           ----AGTG---------ATA---------------------------TG-
+NHA4_nucl_size=2361_strand=+  CACAGATGAGGGATCTGATC---------------------------TGG
+NHA5_nucl_size=2262_strand=+  ----AATG---------ATT---------------------------TT-
+NHA6_nucl_size=2127_strand=+  ----AATG---------ACT---------------------------TT-
+NHA7_nucl_size=_strand=-      ----AATG---------ATT---------------------------TT-
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  ----------------GCTCGAG---------------------------
+NHA2_nucl_size=1959           --------------GAGGAAAACCAGGACCCGGAGACAAACCAGGACCAA
+NHA3_nucl_size=3615           --------------GTGGACGAG---------------------------
+NHA4_nucl_size=2361_strand=+  AAGAAGCTGAGAAGGAGGAGGAG---------------------------
+NHA5_nucl_size=2262_strand=+  --------------GAGGGTGAT---------------------------
+NHA6_nucl_size=2127_strand=+  --------------GAGGATAAA---------------------------
+NHA7_nucl_size=_strand=-      --------------GAGGGTT-----------------------------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  ------------------------GC---------------------AGG
+NHA2_nucl_size=1959           ACCATAGATCCGAACAGCGAGGAGGTAATTGATCTACAAAGAAAACAGGA
+NHA3_nucl_size=3615           ------------------G---------------------------ATGA
+NHA4_nucl_size=2361_strand=+  -----------GGGCAG-GAAGAGGATGCTGA---GGAGAGAG---AGGA
+NHA5_nucl_size=2262_strand=+  ------------------G---------------------------AAGA
+NHA6_nucl_size=2127_strand=+  ------------------G---------------------------AGGA
+NHA7_nucl_size=_strand=-      ------------------------------------------------TC
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  T--------------------------C---------TTCCA--------
+NHA2_nucl_size=1959           T---AAATTTATTGAAAGCGAGAATAAGATCGGAGAAAGAGTTAAAGACA
+NHA3_nucl_size=3615           T------------GGACA--AAGGTTTG---------ATATGG-AAGAGA
+NHA4_nucl_size=2361_strand=+  AGAGGATGCTGAGGATAGAGAAGAT--GA--GG--AGAGGGTGGAGGAAA
+NHA5_nucl_size=2262_strand=+  C------------G------AAGAT--GA--GG----AGGCTG-GTGAGC
+NHA6_nucl_size=2127_strand=+  T--------------------------G---------ACCCAG-AAGACA
+NHA7_nucl_size=_strand=-      T--------------------------G---------CTCCT--------
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  --------------------------------------------GTTC--
+NHA2_nucl_size=1959           ATG---ATAAAACTAGAGAGAAGGATTTACAGGAGCTTCTCCTAGTTA--
+NHA3_nucl_size=3615           T---------------------T---------------------GGAAGT
+NHA4_nucl_size=2361_strand=+  ACGCGAATAAATCCTTCAAAAATAAT-TCT------------AAGATG--
+NHA5_nucl_size=2262_strand=+  T---------------------T---------------------GATG--
+NHA6_nucl_size=2127_strand=+  A---------------------T---------------------ACTG--
+NHA7_nucl_size=_strand=-      --------------------------------------------GTCT--
+NHA8_nucl_size=_strand=+      --------------------------------------------------
+                                                                                
+
+NHA1_nucl_size=1914_strand=+  ATG----CT-G------A---------------GGA----CCA-------
+NHA2_nucl_size=1959           TCA----GTGAGGATGAAACATGGGACGGACGAGGAGAAAAAAT--GAA-
+NHA3_nucl_size=3615           ATG----GA-G------A---------A------GG---TTGAT--GAAG
+NHA4_nucl_size=2361_strand=+  TTAAATAATGAA-ATGGAA------A-G--TGTGGA---CGTATGTCAGG
+NHA5_nucl_size=2262_strand=+  TTA----TC-AA---GGA---------G------AA-----CAT--GA--
+NHA6_nucl_size=2127_strand=+  ATA----GA-G------A---------G------GG-----TAT------
+NHA7_nucl_size=_strand=-      TTG----GC-A------A---------A------T------CTT------
+NHA8_nucl_size=_strand=+      --------T-C------A---------------GGT----CC--------
+                                               *                                
+
+NHA1_nucl_size=1914_strand=+  ----TGAT
+NHA2_nucl_size=1959           AGG-AAGT
+NHA3_nucl_size=3615           AGGATGAG
+NHA4_nucl_size=2361_strand=+  GGGATCTT
+NHA5_nucl_size=2262_strand=+  ---AAGAA
+NHA6_nucl_size=2127_strand=+  ----CATT
+NHA7_nucl_size=_strand=-      ----ATGA
+NHA8_nucl_size=_strand=+      ----AAGG
+                                      
+
+
+

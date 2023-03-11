@@ -1,0 +1,704 @@
+CLUSTAL FORMAT for T-COFFEE Version_13.45.0.4846264 [http://www.tcoffee.org] [MODE:  ], CPU=0.03 sec, SCORE=774, Nseq=2, Len=8737 
+
+EaffNHA8                AT--GCTA-------------------------GTTGTAGGAATTGTGTT
+Chr3_66735544-66744226  TATTCCTACAGGTTGGCGTTTTTCCCTTGTCTGGTTGAAGCAACTGTGGT
+                             ***                         **** ** ** **** *
+
+EaffNHA8                GAAAA---------ATGT--TCCTTATATTGA-----TGTTGG--A--CG
+Chr3_66735544-66744226  GGCTATCTCTAGTCATCTTCTCCTTGGGTTCCCCTGGCTCTGGGGATTCA
+                        *   *         ** *  *****   **          ***  *  * 
+
+EaffNHA8                ---TGGGTTGGATCCTAGCTGG----T------CAGCTGCTCTA--AGAT
+Chr3_66735544-66744226  TGCTCGGGTTCATCCTAGCTGCAGTATCTCCTGCAGTTGTTGTGCCATGT
+                           * ** *  **********     *      *** ** * *   *  *
+
+EaffNHA8                CTAC-CGCCC---------------------TAGCG---GT---CATA--
+Chr3_66735544-66744226  CTTCTCTCCCTTCAGGAACGAGGGTTCGGAGTAGAGAAGGTATTTATATG
+                        ** * * ***                     *** *   **    ***  
+
+EaffNHA8                ------------CTGCT------CAGGGCAGGACTAGGCCTGGATCCT--
+Chr3_66735544-66744226  TACCCTTTGACCCTGTACAGTGACAGTGTACGACAGAGCCCGAAATTTAA
+                                    ***        *** * * ***   *** * *   *  
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  AAGAGTATCGTTGAATGAAACTCCCGAGTTTCCATTTCGGGGTCTTAACA
+                                                                          
+
+EaffNHA8                ------------------AGAGCCTTGAAGCAACTC--------------
+Chr3_66735544-66744226  TTTAAGTTTTTAATTTTAAGAGATTCGAAAAAACACATAACCCCATTCGT
+                                          ****  * ***  *** *              
+
+EaffNHA8                ------------TCAGCAATGGTTTTCAG---------------------
+Chr3_66735544-66744226  GAAACTCGGGTTTCAAAACTGGTTTTTATAACGATACCCTGACTTAAGTT
+                                    ***  * ******* *                      
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TTGGGCTCGGGGTAGCTCAGTTTTGTTAATATTTAGTGAATAATAAAAAA
+                                                                          
+
+EaffNHA8                ------GTTGG---------------------C--------------GTT
+Chr3_66735544-66744226  GCAAAAGTTGACTTTGGATAAATCGTTAAGAACATTTTACTTCAGCAGTT
+                              ****                      *              ***
+
+EaffNHA8                TTTCCCT-----------TGT--CTG------------------GTTGAA
+Chr3_66735544-66744226  TTTTCCTGAAATTATTTTTGTTACAGAATTTATTCTTCTTTGAAATGGAA
+                        *** ***           ***  * *                   * ***
+
+EaffNHA8                GC------------A-----------------ACTGTGGTGGCT------
+Chr3_66735544-66744226  GCCTCTTTCAAAACATAAAATAATCTAAATCTACCATTGTGGGTATGAAA
+                        **            *                 **  * **** *      
+
+EaffNHA8                ----A-------------TCTC--------T-----------------AG
+Chr3_66735544-66744226  AGATATAAAAAATTAAGATCTTAATATACCAAAATGAAAAATATTGAAAA
+                            *             ***                           * 
+
+EaffNHA8                T-----------C-----------ATCTTCTC--C-----TTG---GGTT
+Chr3_66735544-66744226  TCAAAAAGATTGCATATTTTGTTTATTTTTTCACAAATTTTTAAATGGTT
+                        *           *           ** ** **        **    ****
+
+EaffNHA8                -CCC--CT--------------------G----GCTCT--G---------
+Chr3_66735544-66744226  ACCCCACTAAACCTTATACAGTGTACCTTGTTCGCTATTTAGTTTGCATT
+                         ***  **                         *** *            
+
+EaffNHA8                ---G------GG------------------------------ATTCAT--
+Chr3_66735544-66744226  ATGCAGAAGTGAATATATTTTGCAAAACTCCCACTTCGGTAAAATCACGT
+                                  *                               * ***   
+
+EaffNHA8                -----------GCTCGGGTTCA----------TCCTAG------CTGCAG
+Chr3_66735544-66744226  ACGTATTTGATTTTCGAATTCAAACCTATTTTTCCTAATAGAAACTTGAT
+                                     ***  ****          *****       **  * 
+
+EaffNHA8                TATCTC-CTGCAGTTG---TTG-------------------TGCC--ATG
+Chr3_66735544-66744226  TATTTCCCTTCAACTAAAATTGAAACCTTCAATGATCACACTGATAAATA
+                        *** ** ** **  *    ***                   **    ** 
+
+EaffNHA8                TCTTCTC---------------------TCCCTTCAGG------------
+Chr3_66735544-66744226  TTTTTTCGTTTTACGTAAATATTTTTTATCATAATAGAAAATAAAGTTAA
+                        * ** **                     **     **             
+
+EaffNHA8                --AACG--------AGGGTT----CGGAG-TA------------------
+Chr3_66735544-66744226  GAAATTAATGGTGAAGAGTTTCATCTAAATTATTTATTTTCTAAACGACA
+                          **          ** ***    *  *  **                  
+
+EaffNHA8                -G--------AG----------------AAGGGAATACCTACACTAGTAA
+Chr3_66735544-66744226  AGAATGAAAATGATTGTTTTATTATATTTAGGGAATACCTACACTAGTAA
+                         *         *                 *********************
+
+EaffNHA8                TAGCAGCGGCTAGTGTTGATGATGTACTCGCGATATCTGTGTTCACAATC
+Chr3_66735544-66744226  TAGCAGCGGCTAGTGTTGATGATGTACTCGCGATATCTGTGTTCACAATC
+                        **************************************************
+
+EaffNHA8                CTACTTGGAGTAACCTTTAATACAAACCAGGATAATCTCTACCAGCTGAT
+Chr3_66735544-66744226  CTACTTGGAGTAACCTTTAATACAAACCAGGATAATCTCTACCAGCTGAT
+                        **************************************************
+
+EaffNHA8                CCTCCAGGGTCCTTTAGAGGCCATAGTCGGGGTCCTGGGAGGATTTATCT
+Chr3_66735544-66744226  CCTCCAGGGTCCTTTAGAGGCCATAGTCGGGGTCCTGGGAGGATTTATCT
+                        **************************************************
+
+EaffNHA8                GGGGAGTTCTAGTCATCTTTCTGCCTCCTTCGCCACATCCCAATGTGTTG
+Chr3_66735544-66744226  GGGGAGTTCTAGTCATCTTTCTGCCTCCTTCGCCACATCCCAATGTGTTG
+                        **************************************************
+
+EaffNHA8                TTAAGAGTTGTGCTGTTGTTTGGTGGGAGCTTGTTTGCTCTCTTTGGGAG
+Chr3_66735544-66744226  TTAAGAGTTGTGCTGTTGTTTGGTGGGAGCTTGTTTGCTCTCTTTGGGAG
+                        **************************************************
+
+EaffNHA8                CGCAATGGCGGGGTTTCCTGGAGCGGGAGCCTTGGGGGTTCTAGTTCTAG
+Chr3_66735544-66744226  CGCAATGGCGGGGTTTCCTGGAGCGGGAGCCTTGGGGGTTCTAGTTCTAG
+                        **************************************************
+
+EaffNHA8                CATTTGTCGCAGG-------------------------------------
+Chr3_66735544-66744226  CATTTGTCGCAGGTAAGACATACTAAACCACCCGCACTGCGTCGCTTGCT
+                        *************                                     
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  CAAAATATTCTCAACCTGACGTAAACCAAAATATCCGCTAACAATAGAAA
+                                                                          
+
+EaffNHA8                -----------------ATTAG----------------------------
+Chr3_66735544-66744226  ATATTCTTGAATATATGATTAGATAATTAAGACTGATTATCTAATCTGAT
+                                         *****                            
+
+EaffNHA8                ---------------------------GGTG-------------------
+Chr3_66735544-66744226  ACTCCTAGATATAAAGATCATACTCGTACTGAACAAGCATGCTATATTTG
+                                                     **                   
+
+EaffNHA8                ----------------------------GAGGC-----------------
+Chr3_66735544-66744226  GTCAGAATATTTTTAAAATATGCCATCTAACGCCGTCTGTTTCAACTATT
+                                                     * **                 
+
+EaffNHA8                -----GGCAGGGTTGGA---------------------------------
+Chr3_66735544-66744226  TTCCTTTCAGGGTTGGACATTTTACGATGTTTTAAGCACATATAAATCTC
+                               **********                                 
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  AACTATGTTCACACTAATTTTAATATACACACGTAGGCTTCCTGGGCGCT
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TCGCGCCCGTGTTTTATTTCAATTGTGAAAATGTTCTCTTTGAAATCATT
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  GTAAAACAAAACAAACTAAAATAGTTCGCGGATTTTATTAGAAAAAACAT
+                                                                          
+
+EaffNHA8                -------------------------------------AGGAGGATAATC-
+Chr3_66735544-66744226  CTTGGGTTTTCAATATTTTATGACAATCAAATGTTGTTGGAGGCAAATTT
+                                                              *****  ***  
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TTACAATACCTTCCTGGGGTCATTTGAGGTTACACACAAAGTTTGGGCCC
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  GATCGGTTCAGCCGGTTTTGACGTTTATTGTGTACAAACAAACAGACAGA
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  CAAGCAACGTTTATATATTTTATATATACTTTAATAAATATATATTTCAA
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TTGTGAATATTTTCTCTTTGTGTACCTTGTAAAACAAAACAAAAAATTCG
+                                                                          
+
+EaffNHA8                --------------------------CAGTTT------------------
+Chr3_66735544-66744226  TGGATTGTCTAATTTTAATGAAAATCTAATTTTGTTGGAGGCTAATTTTA
+                                                   * ***                  
+
+EaffNHA8                -------------------------C-------------------CCAG-
+Chr3_66735544-66744226  AAAATTTTGATCAATCATAAACCTTCCCTGGTGTCATGTGAGGTCCCACA
+                                                 *                   ***  
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  CAAAATTTGGGTCCAATTGGTTCGGCCGTTTTGAGTTTGACGTTTTTGGA
+                                                                          
+
+EaffNHA8                -----------------ACC------------------------------
+Chr3_66735544-66744226  TACAAACGTACAAACTGACCAGCAAAGTATGTATATTATAGATAACACGT
+                                         ***                              
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TTTATTCATATTATTTATTTATATTTAATATGTATTTTTAAGTTTAATTA
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  ATGCATTCCTGAAAATATTTTGATTATTTGAGTGCTGACTAAGTATACTA
+                                                                          
+
+EaffNHA8                --------CTCGCTCA---AATGT-----------GGA------------
+Chr3_66735544-66744226  CTTGAAAATGCTCTCAATGAATGTATTTTCAGTTGAGATTTCAATATTAA
+                                  * ****   *****            **            
+
+EaffNHA8                ----------------------------------TTA-------------
+Chr3_66735544-66744226  TAGTTTGTTTCAACAAATACCGATCAAAAGAAAATTATTTAACATTATAT
+                                                          ***             
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TTTCAATTGGCTCATTTTAAAGTTTCTTTTGTGTTTTTTTTAGCTGAACC
+                                                                          
+
+EaffNHA8                --------------TTT---------------------------------
+Chr3_66735544-66744226  ATCTTACATTATTATTTTGTATTAAATGTGTAAATTAATACTATACTTAC
+                                      ***                                 
+
+EaffNHA8                ------------------------------------------------TT
+Chr3_66735544-66744226  TTATTGAGTCATATAGCTGTATATAAAGCTTAAGAAGCAAGACTTCTTAT
+                                                                         *
+
+EaffNHA8                CA-G--------------------------------------CCT-----
+Chr3_66735544-66744226  CAAGAGTATGCAcccccccccccccccgtttgaggctgcccccctcccat
+                        ** *                                      ***     
+
+EaffNHA8                ------CTG-----------------------------------------
+Chr3_66735544-66744226  ttgagacTGCCTACCCTCCCCTCCTCATATACTAATCTACTAAACAAATC
+                              ***                                         
+
+EaffNHA8                --CT-------------------------CTT------------------
+Chr3_66735544-66744226  CGCTTTCTAGAGTCAAGCGCCCCCTTCCCCTTCAAACCTTATTACACCCA
+                          **                         ***                  
+
+EaffNHA8                -------------------------------CG--------GG-------
+Chr3_66735544-66744226  CTAATCCTTTAACCCCCCCCCCCTCACAGCTCGCCGAATCAGGTGTTTTC
+                                                       **        **       
+
+EaffNHA8                -----------------------------------------------CT-
+Chr3_66735544-66744226  TTTCAAGTTTAATCTTGTAGACTGTCTAGTTAAGTGTTTAGTGTCAGCTG
+                                                                       ** 
+
+EaffNHA8                ---------------------------AA---------------------
+Chr3_66735544-66744226  AATTCTCATATGGATCACATTGTCAATAATAGCACTCCGTGAAGATTAAA
+                                                   **                     
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  GGATTTATATCAAGAAATGGGATCCCAATCTAAATTTAAATGCACCGAAT
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  GTGGATTAAAATCACCATGTCTTTCCAAATTTCGCGAGCATCAATATCTA
+                                                                          
+
+EaffNHA8                ---TCGGGACAGAGA-----------------------------------
+Chr3_66735544-66744226  CACTCTGGACAGAAACCGTTTAATTGCGATTTTTGCGGTCGGATGTTTGC
+                           ** ******* *                                   
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  ATTGCGAAAATATGTTCGCAAGCATTGTCGACTAGTTCACAATACTGAAT
+                                                                          
+
+EaffNHA8                ------------TCCAGGTGGATA--------------------------
+Chr3_66735544-66744226  CCCTGATTCATACTGGCCTGGATACATTTGAGGGTATTGAAGAGTATGAT
+                                          ******                          
+
+EaffNHA8                -------AGTT---------------------------------------
+Chr3_66735544-66744226  GAAGCAATGTTGGAGAAAAAATCCGATTTCAACATTGATTATGAATCCAA
+                                ***                                       
+
+EaffNHA8                ---------AGATCC-----------GGAA--------------------
+Chr3_66735544-66744226  GGCAACTTTGGATCCCGTAGAACCTTGTAAACCTAAACTGTCCTGTCGAA
+                                  *****           * **                    
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TACTTCGTTGTTCAACCTGTGGACTGGAGTTTAAAAAGAGATCATACTTA
+                                                                          
+
+EaffNHA8                --------------------------------ACC---------------
+Chr3_66735544-66744226  AAACAACATGAGTTTACTCACACGGGGTTAAAACCCTTCTCATGTTTTGT
+                                                        ***               
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  CTGCGGTGATAAGTTTGCATTTAAGAGATATGCTCTACGGCATTTGCGAA
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  AAAGGCACGGAAGTAACTCCAACGACTTAGTGGTTAAAACAAACGAAGAC
+                                                                          
+
+EaffNHA8                --GTTGGCTTAGGAATAGGAGT----------GC----------------
+Chr3_66735544-66744226  TCGATGGCTT-------TGAGTTCTGTAAAGAGCTCTACATATTTGAAAC
+                          * ******        ****          **                
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TGGTGAAGTCTAAAGAATCCAATATATTTCACTGTGTCCTTGGAGCTAAG
+                                                                          
+
+EaffNHA8                -----------------------------TCG-------------TG---
+Chr3_66735544-66744226  CTAGCAGAAAAGCGGAATCCCAAACAATCTCGGCGAAAGTTTAGCTGTTC
+                                                     ***             **   
+
+EaffNHA8                ----TGTGGACT--------------------------------------
+Chr3_66735544-66744226  TAAATGTGGACTGAAATTCTTTAAGCAGAGCGGTCTTCGGAATCATGAGT
+                            ********                                      
+
+EaffNHA8                TTCT-----------------------------------GC----GAGAC
+Chr3_66735544-66744226  TTCTTCATACGGGGTTAAAGCCATTTTCATGCCTACTTTGCACCAGAAAC
+                        ****                                   **    ** **
+
+EaffNHA8                -------TT-----------------------------------------
+Chr3_66735544-66744226  TTTGCACTTGAAGATTATATTCGAAAACATTTAAAAAGATTTCATAATAG
+                               **                                         
+
+EaffNHA8                ------------------------GT-------------TTT--------
+Chr3_66735544-66744226  GACAACATCTGAAGTTGGAGAATTGTACAGCAACGATTCTTTACCTCAAG
+                                                **             ***        
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  AACTTTCAAGTGACAAGATAAAAATGGATTCTACAACCTTTAAATCCAAC
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  GCGACGACCAATTTTTCCTGCAATTTTTGTGACAGAAAGTTCTCTTTTGA
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  ATTCTCTCGAATCCAACATTACAGACGGGTACATGGAGCAGAGATGGGTA
+                                                                          
+
+EaffNHA8                ---------------------------------------ATCTTATATTT
+Chr3_66735544-66744226  AAGATGTTACTAGTGTGAACCCAGTTAAGAAAGAGAAGGG----------
+                                                                          
+
+EaffNHA8                CGGTTCTGGGA---------------------------------------
+Chr3_66735544-66744226  ----------AGTTGACACTGACAACACTAATGCAGGTCAGGATATAAAG
+                                  *                                       
+
+EaffNHA8                --GG----AGAT---------------------G----------------
+Chr3_66735544-66744226  GAGGACCAAGATTTAATTTATACTAAGGACCAAGTTATCAAACATGAGCA
+                          **    ****                     *                
+
+EaffNHA8                -----------------TTAAT----------------------------
+Chr3_66735544-66744226  CGCAAATATCCATCTTGTCAATCCTGATATCCAACTACAGGAGCCAGAAA
+                                         * ***                            
+
+EaffNHA8                ----------------------------------CACAG-----------
+Chr3_66735544-66744226  TCCGTTTTAAGGACCTTGTTATGAAGACAAAGGACACAGATACACAACTC
+                                                          *****           
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  GTGGACCCAGATATCCAACTCGTGGACCCAGGTATCCAACTCAAGGACCC
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  AGGTTTCAAACTCGTGGACCCAGGTAACCAACTTGTGAAACCTGATACCC
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  AACTTATGGACCCAGATATTCAACTCGTGGACCCATATATTCAACTTAAA
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  GATAATATGAAAATGGAATCTAAAACTTCAAACGAAGTAATGAACCAATT
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TGGCTGTAAGTTTTGTGATAGTAAGTTCTCTTTCAAATTCTCCCGAATCC
+                                                                          
+
+EaffNHA8                ---------------------------AG---------------------
+Chr3_66735544-66744226  AGCACTGTAAACGGGTACATGGAGCAGAGATGGATAAAGATGTAACTATT
+                                                   **                     
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  GAGATCCTAGGGAAGAGAGATTCGACGGGTGACACTGACTGCAATGGAGG
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TCAGGATATCTTGAAGCATGAGGATATGCAGCAAAACAGGATAAATATCG
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  CGGTTCAAGGTTTGAATTACGAGAATCAAGATTTACAAAATGTGGACGTT
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  GGTAACAAACTTAGAGACAATATAATAATAGATTCAAAGACTGTCAAATC
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  CGAAGTAAGGGACCAATTTCCTTGCGAGTTTTGTGGCAAAAAGTTCTCAC
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TTAATTTCTTTCGAATCCAGCACTGTAAACGGGTACATGAAGACGAGATG
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  GGTGAAGAAGAACCAGAGATTGATGGTTCCAAGAACACAGATATCCAACA
+                                                                          
+
+EaffNHA8                ----AACGCATGTTTATAGCATTAGCTTGGTTACCCA-------------
+Chr3_66735544-66744226  TGAGAA---------------------------CCCAGATATTCAGTTAG
+                            **                           ****             
+
+EaffNHA8                AGG---------------------CCACTG--------------------
+Chr3_66735544-66744226  AGGACACAGATATCCAACTGGACGACACTGATATCCAACTTGAAGACCAA
+                        ***                      *****                    
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  GATATCCTACATGGAGGCCAAGAGAAGTCTGATATCCAAGAGAACACAGA
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TATAGAAAATGAGTTCTCGGCATTTCAGTTTGTAGAACAGGACCGTGAAA
+                                                                          
+
+EaffNHA8                ----------TTC-------------------------------------
+Chr3_66735544-66744226  ATGTTGATATTTCATTTATGGAAGGAATCTATGACAATGAAGATGGATAT
+                                  ***                                     
+
+EaffNHA8                -------------AAGCT--------------------------------
+Chr3_66735544-66744226  GAAAATAATGTTGAATCTGATCCTGAAACCCCGGAAGAGGATGAGGACGA
+                                     ** **                                
+
+EaffNHA8                --------------------------------------GCAATA------
+Chr3_66735544-66744226  GCAACATGGAGTTGAAGTTGATGATAATCCAAGGAACAGCAATAAAAAGT
+                                                              ******      
+
+EaffNHA8                ----------------------------------GGTCCTC---------
+Chr3_66735544-66744226  GGACTGTCATATTCTCAAATTTTTCTGTAAATGATGCCCTCAAGTTCTTT
+                                                           * ****         
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  GATGAAAATTATCCTCATCTTGGTGAGTGATTCGGTGGTATCTTATTAAA
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TGTGTCGTGAACCCTCCTTCCCCCTCAATTTCTTTCAGAAAAGAAAAATA
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TCCTTCCGTGACTATTCTATCTTAGTCGAACTTGGAATCAAGAGAGTTTA
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  ATCTTGTTGAGAAGGTGAGCAGGGAGGGGGATCAGAAGAACTGTATTTAG
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  GATATCTATCTTAGTCAGCTCATTGAATTTTTTTCCTTTCTATTTAGCGA
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  GAATATATGTTATTTTTCACCGTATTTACAGTTCTGACAAAAAAAAAATA
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  CCCCTTTATGACACTTTGTTTGTTCTGATATCTATAATTTTAAAATTTTG
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  AAATACTTTTTGAACTGTTTGTATTTTATTGTTAAATTCTAATTTATATA
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  ATTTAGTAACCTGTTTGTTCATTATAGTGTTAAATTTTGCAATAAGAACC
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  AAATATAGATTTAAAGAAAATGTAAATAGGACTAAGAGATTGATTAATTT
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TCCTAGTTAAAATAAATTTCAATGTAAATTTTTCAAACATTTGAAATGTT
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  ATTTTTCTGTTAACAGACTTATCGTGTGTGTTTTGTTATAGAAATGTACA
+                                                                          
+
+EaffNHA8                ----------------------------------------TAGCATTAGA
+Chr3_66735544-66744226  TTTTACATATTGTAAATAGAAATAAAAGTTGGTGATTCAGTTATCAAAAC
+                                                                *      *  
+
+EaffNHA8                CCTGGC--------------------------------------------
+Chr3_66735544-66744226  CCTGACAAAAAATCATTGTTTGAAAGGGAGAAAAAATGCAATTTTACCAT
+                        **** *                                            
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TCCATACATACAGAATACAACTTTAGACTGTTGATATATTCTTACTGTTT
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  AAACATCTTACTTTTTCTGCTCGTAGGTTTATAATGTGTTGCATTTTATT
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TTAAATAAATACACTAATAAATTTATTTCGATTATTGAAGCGGAGGTTAA
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TATTTTTTTTTATTTTTTTTAGCCATTGAAATAAACAAGCGAGTTATTTA
+                                                                          
+
+EaffNHA8                --------------AACTCAAGCTCTTAGGAAA-----------------
+Chr3_66735544-66744226  TTCAATATACTTAAAATATATTTTTTAAGGAAAGGAATATTGCTAAACAA
+                                      **   *   * * ******                 
+
+EaffNHA8                -----GCTGGG---------------------------------------
+Chr3_66735544-66744226  AAGTTTGTGGGAATATTAAATTATTAAAATATTGGTGTAGATTGTTTACG
+                               ****                                       
+
+EaffNHA8                --ATGGATGGAGAGAATCTGCCAGAGTTAAATGAGCAAC-----------
+Chr3_66735544-66744226  TGTTATATATTAAGTTCAGTCGCTTAGCTACTAAGCAACATCCTATGTTT
+                           *  **    **      *        * * ******           
+
+EaffNHA8                -----------------TGGA-----------------------------
+Chr3_66735544-66744226  AAGCTTCGTCCTTTAAAGGGAGTGTTCGCGAAAAATGAAAGGGGGTATAG
+                                          ***                             
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  GCTTAATGCGATAAAAAAGCGATTTTGATTGCTACTAATCTTACTTCTAT
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  CTGTTGCGTCTATAAGGAGAAAATTGTTAAAAATGACTAATACCGAAGAA
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  CGTAGTGTCCATACAAATTCAGAAAGATGCAACATTCAACTTTTTCACTA
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TAGAAGAATGTGGAAAATAAAGTTGTTTTTCTATCTTGAAGTGTTAAATT
+                                                                          
+
+EaffNHA8                ------------------------GTTAGCAGA-----------------
+Chr3_66735544-66744226  TCGATAATTCTTACATTGTATTTCTGAAGCAGAAATACGCATGTCACTGT
+                                                   ******                 
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TTAATAAAACCACAATTAAAAATAATCAGTTTTCAAGATTGTAAACATTT
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  AAATCTTATTGAATTTTGATCCGATAAAGGGAACTGTTGTGAAACGGGCG
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TTGCCATCTTTGCATAGAGGTTACATTCCCTTTAATTAATTAATCCTATT
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  ATCTCAGGATTAGGGTGGAGGCGGCAGGGTTGGAAGGAGGATAATCCAGT
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TTCCCAGACCCTCGCTCAAATGTGGATTATTTTTCAGCCTCTGCTCTTCG
+                                                                          
+
+EaffNHA8                ----------------------------GAAGGTTCTAACCTTGGCTGTT
+Chr3_66735544-66744226  GGCTAATCGGGACAGAGATCCAGGTAATTTCATGAGCTCAGGTCGAAACT
+                                                                  * *    *
+
+EaffNHA8                CTTGT-----------------AATTC-----------------------
+Chr3_66735544-66744226  TTTGTATCATTAATCTCTAAAAAATTCTTAATCTTTACCTATTGTTGTCC
+                         ****                 *****                       
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  ACCGGATTAATTTAAAATAAGACTAAATACTGTTTTTTTATTTTTTATCT
+                                                                          
+
+EaffNHA8                ---------------------------------TCATCACC---------
+Chr3_66735544-66744226  TTAAAGAGTGAAGTTACAATTTTAAGAATAAACCCCACACCCCGAGCTGG
+                                                          *  ****         
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  GGGGGGGGGTGTATGGGGCGGGGATGCTTTAAAAATCTAAAAATAAACGA
+                                                                          
+
+EaffNHA8                ----------------------------------GCTCCC----------
+Chr3_66735544-66744226  AAAATAAGACTTCAAATGGTATTTTTTTTCATCCATTCCCTATTGATACA
+                                                            ****          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TCTTACTCAAAAATTTATTTATTTTCCTTAATCTAGCAAATAAAACCCTT
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  AAAAATATACCCAACTTCTGTGGGGGGGGGGGGGTAAATTATTTCAAAAA
+                                                                          
+
+EaffNHA8                ------------------------------ATTGGAGCAG----------
+Chr3_66735544-66744226  GGGGGAATGATTTTTCCAGAAAATATACACCCTTGTGCAGATTTAACTGT
+                                                        * * ****          
+
+EaffNHA8                -----------TTGC-----------------------------------
+Chr3_66735544-66744226  CTTCAATATGTTTGCATTCAGGGTTTTACACCGAATAGGATAATTTGTAT
+                                   ****                                   
+
+EaffNHA8                ------CATC---------------AT-----------------------
+Chr3_66735544-66744226  ATAATACATCGATTAACTCTAGTTCATTAAGGTGGATAAGTTAGATCCGG
+                              ****               **                       
+
+EaffNHA8                --------GGC---------------------------------------
+Chr3_66735544-66744226  AAACCGTTGGCTTAGGAATAGGAGTGCTCGTGTGTGGACTTTCTGCGAGA
+                                ***                                       
+
+EaffNHA8                ------------------------------------------GTCAGGT-
+Chr3_66735544-66744226  CTTGTTTTATCTTATATTTCGGTTCTGGGAGGAGATGTTAATCACAGGTA
+                                                                    ***** 
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TTTTATTTTCCAGGGGTATCTATTTTCTTTAAAAATTATCCCTCCTCGCC
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  CCCACACTTTGTTGAAAGGAGAAAAAAGGTAACAAAAACTAAATATTTAG
+                                                                          
+
+EaffNHA8                -----------------------------------------C--------
+Chr3_66735544-66744226  AGGAAAAATATCTTGAAAAAGGTAGAATCTTCAATAAAAGCCCAAACTTT
+                                                                 *        
+
+EaffNHA8                ------------CAA--------GGCT--------------------GTT
+Chr3_66735544-66744226  TATATTTTACTCCAAATCAAAAGTGCTAATTCTGAAAACATATGATTGTT
+                                    ***         ***                    ***
+
+EaffNHA8                G-----------------------------------ACC-----------
+Chr3_66735544-66744226  GGTTTTTTTCGAAGCCGATGTCGATATTATTACCTAACCCTGGATTTGCA
+                        *                                   ***           
+
+EaffNHA8                -------------------------AAG-------ATG------------
+Chr3_66735544-66744226  AACTGGCAGAATAATTTCAGTAAAAAAGAAGCCGGATGCACTTTTGACAA
+                                                 ***       ***            
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  TTATTTAAAAACATATTGCTTTGAGTTTTCTTTTCACACACTAGATCCGG
+                                                                          
+
+EaffNHA8                --------------------------------------------------
+Chr3_66735544-66744226  ATCCGTTGGAGAAATTAAATCATAAAGAAATGTTCATGACCTGTGATCAG
+                                                                          
+
+EaffNHA8                -----------------------------------------AACAA----
+Chr3_66735544-66744226  GATCCACTTTTTTCAAGTGCTGATCCAGGATCCGCATCCGCATCAAAATT
+                                                                 * ***    
+
+EaffNHA8                --A-----CC---------------------------T------------
+Chr3_66735544-66744226  AAATGGATCCTAAGCACTGGATAAAAGTTAGTATTTCTCAGTGCTTAGGA
+                          *     **                           *            
+
+EaffNHA8                ----------------------------------------------CTG-
+Chr3_66735544-66744226  TCCATTTAGTCTTGATGCGGGTTCGGATCTGGATCCTGGATCCGCTCTGG
+                                                                      *** 
+
+EaffNHA8                -----------C------C---T---------------------------
+Chr3_66735544-66744226  AAAAAATGGATCCGGATCCAGGTTATTTTTAAAAAATTTACTGATTTTTG
+                                   *      *   *                           
+
+EaffNHA8                ------------------------------------TAT-----------
+Chr3_66735544-66744226  TATCAAAGCAGAATTTTCATTTCTTTCGATTATTTTTATGCTAAAGCTTG
+                                                            ***           
+
+EaffNHA8                ------GAT-------------------------AT-AA-----------
+Chr3_66735544-66744226  ATGAATGATTCAGAAATCAGGAAATTTTTAAAATATTAAAATATCTCTTT
+                              ***                         ** **           
+
+EaffNHA8                -------A----------G----------------G--------------
+Chr3_66735544-66744226  TTCCAATAGTTCAGATTAGGGTTTTGAGATCCGTGGATCCGCATATTTTT
+                               *          *                *              
+
+EaffNHA8                -------------------------------------------A---G--
+Chr3_66735544-66744226  GCGGATCCGAATCCAGAAAGCCGAAATCTTGCGGATCCAACGGATCCGGA
+                                                                   *   *  
+
+EaffNHA8                ------------GA------------------------------------
+Chr3_66735544-66744226  TCTTAAGCACTGGAATTTCTAAAGACAATTTTTTAGAGAACGCATGTTTA
+                                    **                                    
+
+EaffNHA8                ---------------------A----------------------------
+Chr3_66735544-66744226  TAGCATTAGCTTGGTTACCCAAGGCCACTGTTCAAGCTGCAATAGGTCCT
+                                             *                            
+
+EaffNHA8                -------------------------------GG-----------------
+Chr3_66735544-66744226  CTAGCATTAGACCTGGCAACTCAAGCTCTTAGGTATGTTCTGATGTTGTT
+                                                       **                 
+
+EaffNHA8                -----TG----------AAG--------------------A---------
+Chr3_66735544-66744226  GTTGGTGTTTTTACCTAAAGATGATACTTATTTTTTTCCGAAATTATTAA
+                             **          ***                    *         
+
+EaffNHA8                ----------------------------------------------AATG
+Chr3_66735544-66744226  TCTTTCAATTGTAAATTCATTGAACATATATTTTTCTATGAATGAAAATG
+                                                                      ****
+
+EaffNHA8                T-------------------------------------C-----G-----
+Chr3_66735544-66744226  TTGTTATGGATGCCTGTTTTTTATTAATATTTGTTTGTTGACTAGGAAAG
+                        *                                           *     
+
+EaffNHA8                ------------GAG------------------AT---------------
+Chr3_66735544-66744226  CTGGGATGGATGGAGAGAATCTGCCAGAGTTAAATGAGCAACTGGAGTTA
+                                    ***                  **               
+
+EaffNHA8                ------------------------G-------------------------
+Chr3_66735544-66744226  GCAGAGAAGGTTCTAACCTTGGCTGTTCTTGTAATTCTCATCACCGCTCC
+                                                *                         
+
+EaffNHA8                ----------------AT--------CA-------GT
+Chr3_66735544-66744226  CATTGGAGCAGTTGCCATCATGGCGTCAGGTTAGTGC
+                                        **        **       * 
+
+
+

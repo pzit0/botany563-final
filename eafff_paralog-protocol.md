@@ -8,7 +8,7 @@ Plan:
 6. map SNPs 
 7. infer whether they are occuring in gene coding positions, etc. 
 --------------------------------------
-# March 7, 2023: Fixing NHA7 
+# March 7, 2023: Fixing NHA7 and final CDS choices
 ## Reverse complement the "full-gene seq". 
 So to get the full gene seq I extract the exact region between the start of the first exon and the last exon. This worked for all other NHAs, but for NHA7, it's on the minus strand. So I'll just reverse complement this extracted region and run the t_coffee command again for everything. 
 
@@ -20,9 +20,21 @@ I'll keep the "NHA7-full-gene.fa" unchanged for future reference.
 
 ok no that does not look good. (it looks like a giant exon and some fragmented bits). I'll try checking the range for the previous prediction for CDS. 
 
-(compromise and see which CDS is least worse). 
+in other words: compromise and see which CDS is least worse. 
 
-## comparing old prediction and new prediction CDS for NHA7
+## CDS Final choices: all new-CDS sequences
+I need the final CDS choices to start mapping Antoine's alignment AND for the ortholog search thing. So I might as well make the decision now.
+
+I've aligned my "full gene sequences" from yesterday (March 6, 2023) with both my new CDS sequences and Nick's old sequences for NHA7 and NHA8 which are the most problematic genes now. 
+
+My observations: 
+NHA7 Nick's sequence x full-gene-sequences: fragmented at the bottom + huge missing chunk at the beginning
+NHA7 best-match-transcript derived CDS x full-gene-sequences: third exon is completely fragmented 
+NHA7 new-CDS x full-gene-sequences: third exon is still completely fragmented but at least it has a larger middle exon
+NHA8 Nick's sequence x full-gene-sequences: terrible omg, it makes the new-CDS look okay 
+NHA8 new-CDS x full-gene-sequences: looks okay now I guess 
+
+For this reason, I'll go with all new CDS sequences. 
 
 # March 6, 2023: Retrieving gene sequences 
 ## samtools faidx (get start and end) 

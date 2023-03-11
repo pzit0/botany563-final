@@ -137,11 +137,12 @@ def ass_ncbi(info):
                 if bioproject_accn == info['project-accession']: # if they match 
                     info['assembly-status'] = assembly_dict['AssemblyStatus'] # level (chromosome?)
                     info['scaffold-N50'] = float(assembly_dict['ScaffoldN50']) # scaffold n50 
-                    cov =  float(re.findall(r'\d+', assembly_dict['Coverage'])[0]) # in case cov had an x string in it 
-                    if cov: 
-                        info['coverage'] = cov
-                    get_meta(assembly_dict, info) # scaffold count 
-                    break 
+                    if assembly_dict["Coverage"]:
+                        cov =  float(re.findall(r'\d+', assembly_dict['Coverage'])[0]) # in case cov had an x string in it 
+                        if cov: 
+                            info['coverage'] = cov
+                        get_meta(assembly_dict, info) # scaffold count 
+                        break 
     
     else: # did not have a name associated, have to look it up by project number
         if info['project-accession']: # if they have a bioproject accession number
@@ -160,11 +161,12 @@ def ass_ncbi(info):
                             info['assembly-name'] = assembly_record['DocumentSummarySet']['DocumentSummary'][0]['AssemblyName']
                             info['assembly-status'] = assembly_dict['AssemblyStatus'] # level (chromosome?)
                             info['scaffold-N50'] = float(assembly_dict['ScaffoldN50']) # scaffold n50 
-                            cov =  float(re.findall(r'\d+', assembly_dict['Coverage'])[0]) # in case cov had an x string in it 
-                            if cov: 
-                                info['coverage'] = cov
-                            get_meta(assembly_dict, info) # scaffold count
-                            break # stop looking
+                            if assembly_dict["Coverage"]:
+                                cov =  float(re.findall(r'\d+', assembly_dict['Coverage'])[0]) # in case cov had an x string in it 
+                                if cov: 
+                                    info['coverage'] = cov
+                                get_meta(assembly_dict, info) # scaffold count
+                                break # stop looking
 
 # filter through 
 def filter(acc_list):
@@ -240,8 +242,6 @@ def filter(acc_list):
             else: 
                 failed_size += 1 
                 trashed.append(row)
-                if row['project-accession'] not in trashed_bioproject: 
-                    trashed_bioproject.append(row['project-accession'])
                 continue
         else:
             already_failed += 1 
@@ -300,15 +300,15 @@ def export(filtered, trashed, log, input3):
 
 
 # IMPORTING DATA AND USER EXPERIENCE 
-print("\nHello world! I'm a program to filter through your initial blast results for good quality paralogs :)\n")
+print("\nHello world! I'm a program to filter through your initial blast results for good quality paralogs\n")
 print('to use me, answer the following:')
 input1 = input("Name of your BLAST result csv file (e.g. '2023-01-31-NHA1-HitTable.csv'): ")
 input2 = input("Your wisc email (e.g. 'jdoe@wisc.edu'): ")
 input3 = input("Prefix of your output files (e.g. '2023-01-31-NHA1'): ")
-blast_res = pd.read_csv(input1, header = None)
+blast_res = pd.read_csv(input1)
 
 # RUN SCRIPT 
-acc_list = blast_res.iloc[:, 1] # selects only second column containing protein accession numbers
+acc_list = blast_res.iloc[:, 2] # selects only second column containing protein accession numbers
 Entrez.email = input2
 print('\n\n\n################## RUNNING #####################')
 filtered, trashed, log = filter(acc_list)

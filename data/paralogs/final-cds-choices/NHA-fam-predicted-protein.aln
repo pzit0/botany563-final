@@ -1,0 +1,284 @@
+CLUSTAL FORMAT for T-COFFEE Version_13.45.0.4846264 [http://www.tcoffee.org] [MODE:  ], CPU=0.01 sec, SCORE=974, Nseq=8, Len=1378 
+
+NHA1_prot_size=637_strand=+   MAVLSDHHWYNIKSK----------IELRNLILD-L--------------
+NHA2_prot_size=656_strand=+   MNH-----------------------------------------------
+NHA3_prot_size=1204_strand=+  MLRRG------SKQTGT-----EDDRPDYRIRSGSIGGVYP---------
+NHA4_prot_size=786_strand=+   MNNNNIEMDKYKQSPPAE--------------------------------
+NHA5_prot_size=754_strand=+   MELPGPVSRRNSRAPPPYVPEVPKYRADRRLSLSGMEIPGPVSRRNSRAP
+NHA6_prot_size=708_strand=+   MEMPGLYSRRGSKAPPPFVPEVSEDRGDRRLSLSGMELPIP---------
+NHA7_prot_size=589_strand=-   --------------------------------------------------
+NHA8_prot_size=329_strand=+   --------------------------------------------------
+                                                                                
+
+NHA1_prot_size=637_strand=+   --------------------------WSNGGA-------SG---TATTL-
+NHA2_prot_size=656_strand=+   --------------------------------------------------
+NHA3_prot_size=1204_strand=+  --------------------------ALRRLSIQMGLPGLP---VYEEID
+NHA4_prot_size=786_strand=+   ----------------------------------------T---VNPGY-
+NHA5_prot_size=754_strand=+   PPFVPEVPVNRGERRLSLSGMEIPNVVSRRNSKYQQV-VHPHPVVEDKEE
+NHA6_prot_size=708_strand=+   --------------------------YSRRGSKYQPV-QEP---VQETFE
+NHA7_prot_size=589_strand=-   --------------------------------------------------
+NHA8_prot_size=329_strand=+   --------------------------------------------------
+                                                                                
+
+NHA1_prot_size=637_strand=+   D---LEN-PP-VQAPKKQPGTVKKSYKKVKSGLQSNRVTTKFFPPQGEVS
+NHA2_prot_size=656_strand=+   --------------PPAQPGCLSKTMNKIKITLQENMFTTKFFPPQGNVA
+NHA3_prot_size=1204_strand=+  LPDDNDDKPSSFTEEKKKPGRVKKSYKKIKRGLQGNKVTSQFFPPKGDVA
+NHA4_prot_size=786_strand=+   K---DENKPTFVKARKTKRLRMRKSLVKVKRNLQANKVTTQFFPPQGEVA
+NHA5_prot_size=754_strand=+   V---SEYSPPAYPGDKKQPGKVKKSYKRVKQVLQNNKITSNFFPPKGDVA
+NHA6_prot_size=708_strand=+   L---PEDPPPAYQGNKKAPGKVKKSYKRVKQALQSNRITSNFFPPKGEVA
+NHA7_prot_size=589_strand=-   --------------------------------------------------
+NHA8_prot_size=329_strand=+   --------------------------------------------------
+                                                                                
+
+NHA1_prot_size=637_strand=+   TVLTITLTVIAVFFVARTVLGPIAGPGGTIFALLVLILFALIGGMAVKML
+NHA2_prot_size=656_strand=+   SVLTLCFAVVSVFLMARLVFGPIAGPGGTIFALLILILFALIGGQLIKFI
+NHA3_prot_size=1204_strand=+  ENITLIIATIILFLMARAVLGTLAAPGGTIFAIFILILFSLIAGQIVIQC
+NHA4_prot_size=786_strand=+   TNLTLIVAVIIIFFCARAVLGTIAAPGGTIFALFILILLSLIAGQIVIQV
+NHA5_prot_size=754_strand=+   INITLMITVVIIFLCARTVLGPYSALGGTIFAVFILIFFALVAGQIVLQA
+NHA6_prot_size=708_strand=+   TNITLMIAVVIIFLCARTVLGSYSALGGTIFAVFILVFFALVAGQIVLQL
+NHA7_prot_size=589_strand=-   -----MIAVVIIFFCARAVLGKYSALGGTIFAVFILVFFALVAGQIVLQF
+NHA8_prot_size=329_strand=+   --------------------------------------------------
+                                                                                
+
+NHA1_prot_size=637_strand=+   GMGISCLCGVDIRLPPLLGMLIVGIVMKNVPYNIGQFGREECQGNRSVQF
+NHA2_prot_size=656_strand=+   GICLSRITGMDIRLPPLLGMLLVGILMKNVPYNFGQFGRAECFGNRQMDF
+NHA3_prot_size=1204_strand=+  AALITKLVGVDIKIPQLLGMMAVGIALKNVPYNQSQFNSPECM-NISKSI
+NHA4_prot_size=786_strand=+   ASWISKLVGIDIKIPPLLGMMAVGITLKNVPYNFGQFGRAECIGNVSVEF
+NHA5_prot_size=754_strand=+   AALLSKMVGFDIRIPQLLGMMAVGIFCKNVPYNAHEFNSPECL-NRSLAH
+NHA6_prot_size=708_strand=+   AAIISKLAGFDIRIPQLLGMMAVGIFCKNVPYNSHEFNSPECL-NRSLTH
+NHA7_prot_size=589_strand=-   AALISKLAGFDIRIPQLLGMMAVGIFCKNVPYNSHEFNSPECL-NRSLTQ
+NHA8_prot_size=329_strand=+   --------------------------------------------------
+                                                                                
+
+NHA1_prot_size=637_strand=+   ADSLNDLDLNSTDFKEKLMGFDVNIEK-----------------------
+NHA2_prot_size=656_strand=+   VDSLHDFPVNTTEFSENFKGKFIDIES-----------------------
+NHA3_prot_size=1204_strand=+  HDH-SDIDVNSTEFVNELGGFRIDPKDVHINHQHSDIAKSLKNIDNINLH
+NHA4_prot_size=786_strand=+   ADSLHNFEINSSEFDEELMGFTVKPS--------------------IR--
+NHA5_prot_size=754_strand=+   GNLYKELHGNDSHLI-----------------------------------
+NHA6_prot_size=708_strand=+   SDLHEDVHGNESHLI-----------------------------------
+NHA7_prot_size=589_strand=-   GTIHEAFHGNISALT-----------------------------------
+NHA8_prot_size=329_strand=+   --------------------------------------------------
+                                                                                
+
+NHA1_prot_size=637_strand=+   --------------------------------------------------
+NHA2_prot_size=656_strand=+   --------------------------------------------------
+NHA3_prot_size=1204_strand=+  GENSVDTENHPNSGPSHHTGVESISNNEDHADQNKTDASKQEPDNEEKHG
+NHA4_prot_size=786_strand=+   --------------------------------------------------
+NHA5_prot_size=754_strand=+   --------------------------------------------------
+NHA6_prot_size=708_strand=+   --------------------------------------------------
+NHA7_prot_size=589_strand=-   --------------------------------------------------
+NHA8_prot_size=329_strand=+   --------------------------------------------------
+                                                                                
+
+NHA1_prot_size=637_strand=+   --------------------------------------------------
+NHA2_prot_size=656_strand=+   --------------------------------------------------
+NHA3_prot_size=1204_strand=+  LNHVEEKEVSHDISHDSNVKTVQQEKHNHGDDQTKDEHGHHITTEEKEEV
+NHA4_prot_size=786_strand=+   --------------------------------------------------
+NHA5_prot_size=754_strand=+   --------------------------------------------------
+NHA6_prot_size=708_strand=+   --------------------------------------------------
+NHA7_prot_size=589_strand=-   --------------------------------------------------
+NHA8_prot_size=329_strand=+   --------------------------------------------------
+                                                                                
+
+NHA1_prot_size=637_strand=+   --------------------------------------------------
+NHA2_prot_size=656_strand=+   --------------------------------------------------
+NHA3_prot_size=1204_strand=+  KHMQVSIMKDHNHTVQQEENIHHEKEVMNIPVHRTPDNHHMIQQEEDSNN
+NHA4_prot_size=786_strand=+   -------------------------------LH-------------DIYG
+NHA5_prot_size=754_strand=+   -------------------------------DHEGLN-------------
+NHA6_prot_size=708_strand=+   -------------------------------LHGDTD-------------
+NHA7_prot_size=589_strand=-   -------------------------------GHD----------------
+NHA8_prot_size=329_strand=+   --------------------------------------------------
+                                                                                
+
+NHA1_prot_size=637_strand=+   ---------YGV--------------------------------------
+NHA2_prot_size=656_strand=+   ---------YSG--------------------------------------
+NHA3_prot_size=1204_strand=+  SEHSHDEHNHSIVHDKKEEIKNTPVHCTPDQHHMIQQEEHSNNSEHSHDE
+NHA4_prot_size=786_strand=+   -----AEAQHSLDHTVSE---NQRISSNVDQHEVFPLNDHEYNPSTADDT
+NHA5_prot_size=754_strand=+   -LHSDDPNAHGVMMDVHASLK----------------EGH----------
+NHA6_prot_size=708_strand=+   -LHH--LNVHGKIMDIHASFN----------------EGH----------
+NHA7_prot_size=589_strand=-   -----DPNAHGVVMNVHDALK----------------DEH----------
+NHA8_prot_size=329_strand=+   --------------------------------------------------
+                                                                                
+
+NHA1_prot_size=637_strand=+   --------------------------------------------------
+NHA2_prot_size=656_strand=+   --------------------------------------------------
+NHA3_prot_size=1204_strand=+  HYH-------------HEMHEKKEDIKNTPVHITPDRNYTIQQ-------
+NHA4_prot_size=786_strand=+   LSNVVQKSTPYQERLQG---------------------IIQNHIDTLTKI
+NHA5_prot_size=754_strand=+   -------------------------------------SAIVDH-------
+NHA6_prot_size=708_strand=+   -------------------------------------AKIVEH-------
+NHA7_prot_size=589_strand=-   -------------------------------------ERIVEH-------
+NHA8_prot_size=329_strand=+   --------------------------------------------------
+                                                                                
+
+NHA1_prot_size=637_strand=+   --------------------------------------------------
+NHA2_prot_size=656_strand=+   --------------------------------------------------
+NHA3_prot_size=1204_strand=+  ------EEDTSRNEYSHDAQDVIHKKIEEVKHTPVHTTPDHNNKYEQLVN
+NHA4_prot_size=786_strand=+   GELHQELTKPT-TPSDEDVIGSKHPKMNVFKSPK----------------
+NHA5_prot_size=754_strand=+   ------LEKTTDNPKFSTTAKIFHAKAKEFKSPS----------------
+NHA6_prot_size=708_strand=+   ------LKN----STFSSTAEINHNDHPESIGST----------------
+NHA7_prot_size=589_strand=-   ------LEKTTVNPKFSSTARIFHAKVQDFKSST----------------
+NHA8_prot_size=329_strand=+   --------------------------------------------------
+                                                                                
+
+NHA1_prot_size=637_strand=+   --------------------------------------------------
+NHA2_prot_size=656_strand=+   --------------------------------------------------
+NHA3_prot_size=1204_strand=+  NDNPINETNIHSLAKEEKDEVTHVEPHSLQDHNDKKVEHGRSDEQTKHKD
+NHA4_prot_size=786_strand=+   --------------------------------------------------
+NHA5_prot_size=754_strand=+   --------------------------------------------------
+NHA6_prot_size=708_strand=+   --------------------------------------------------
+NHA7_prot_size=589_strand=-   --------------------------------------------------
+NHA8_prot_size=329_strand=+   --------------------------------------------------
+                                                                                
+
+NHA1_prot_size=637_strand=+   --------------------------------------------------
+NHA2_prot_size=656_strand=+   --------------------------------------------------
+NHA3_prot_size=1204_strand=+  IHNQNQGEVKNPRQHLHTDGEAQNQNNETVHNENKMILNHMEDEKSQDSR
+NHA4_prot_size=786_strand=+   --------------------------------------------------
+NHA5_prot_size=754_strand=+   --------------------------------------------------
+NHA6_prot_size=708_strand=+   --------------------------------------------------
+NHA7_prot_size=589_strand=-   --------------------------------------------------
+NHA8_prot_size=329_strand=+   --------------------------------------------------
+                                                                                
+
+NHA1_prot_size=637_strand=+   --------------------------------------------------
+NHA2_prot_size=656_strand=+   --------------------------------------------------
+NHA3_prot_size=1204_strand=+  MTPHSIYDHNEKKITHQQIDNLNNKPITEVLNRPLNKNELNNDVKDSNDI
+NHA4_prot_size=786_strand=+   --------------------------------------------------
+NHA5_prot_size=754_strand=+   --------------------------------------------------
+NHA6_prot_size=708_strand=+   --------------------------------------------------
+NHA7_prot_size=589_strand=-   --------------------------------------------------
+NHA8_prot_size=329_strand=+   --------------------------------------------------
+                                                                                
+
+NHA1_prot_size=637_strand=+   --------------------------------------------------
+NHA2_prot_size=656_strand=+   --------------------------------------------------
+NHA3_prot_size=1204_strand=+  NGQGISQQEKKEASQTPQYESKNQKDENGHEMHLHDVKSDNINQDNKEQA
+NHA4_prot_size=786_strand=+   ---------------------------------------------WP---
+NHA5_prot_size=754_strand=+   ---------------------------------------------NASQA
+NHA6_prot_size=708_strand=+   --------------------------------------------NNTHED
+NHA7_prot_size=589_strand=-   --------------------------------------------SNDSQS
+NHA8_prot_size=329_strand=+   --------------------------------------------------
+                                                                                
+
+NHA1_prot_size=637_strand=+   ----LHE--SMDLPEKMGSNDFKTVGV-----------------------
+NHA2_prot_size=656_strand=+   ----KESGEIM----NSS---VLDLDN-----------------------
+NHA3_prot_size=1204_strand=+  ---LANNNTKM--K--T----TPDDAVLNGTDISEIAQGVTKHDVEAAVT
+NHA4_prot_size=786_strand=+   --TDHSSEENI--L--N----LMDS-------------------------
+NHA5_prot_size=754_strand=+   ---LKSHGEGF--K--P----IPDSET-----------------------
+NHA6_prot_size=708_strand=+   KLDTHTNGEGF--K--P----IPDSEN-----------------------
+NHA7_prot_size=589_strand=-   SHSEHLDGEGI--K--S----MPESDD-----------------------
+NHA8_prot_size=329_strand=+   --------------------------------------------------
+                                                                                
+
+NHA1_prot_size=637_strand=+   ------------------------------NSRRRRSSGSHP-EPTLIQE
+NHA2_prot_size=656_strand=+   -------------------------------GTMDRFLSGEQ-NSGV---
+NHA3_prot_size=1204_strand=+  KIYQQNVLYNSYEKDESTTENSAEDLVDTKIQNRSRRSSGHD-EPQI---
+NHA4_prot_size=786_strand=+   ------------------------------RHKRTLRSEHAEESTSL---
+NHA5_prot_size=754_strand=+   ------------------------------LHHRARRSGGHD-EPAV---
+NHA6_prot_size=708_strand=+   ------------------------------HHHRARRSGGHD-EPVV---
+NHA7_prot_size=589_strand=-   ------------------------------HHHRARRSGGHD-EPAV---
+NHA8_prot_size=329_strand=+   --------------------------------------------------
+                                                                                
+
+NHA1_prot_size=637_strand=+   KYDPCRKKYIGHELDPLISRSLRTICLTVILLMAGLELDPVALWNLSGMV
+NHA2_prot_size=656_strand=+   DFSSCKKKYIGHELDPVLSRTLRFICLTVLLLMAGLELDPDALWNLSGMV
+NHA3_prot_size=1204_strand=+  YVDPCKKRFIGNDLDPLLTRTLRSICLTVILLMAGLELDPPALWRLKWIV
+NHA4_prot_size=786_strand=+   PEDSCKKRFIGHELDPLLSRTLRSICLTVILLMAGLELDPPALWRLKWIV
+NHA5_prot_size=754_strand=+   YRDPCVKRFIGNDVDPTVKTILRSACLTCILLMAGLELDPPQLWRLKWIV
+NHA6_prot_size=708_strand=+   YRDPCVKRFIGNDVDPTVKTILRSACLTCILLMAGLELDPPQLWRLKWIV
+NHA7_prot_size=589_strand=-   YRDPCVKRFIGGDVDPTVKGILRSTCLTVILLMAGLELDPPQLWRLKWIV
+NHA8_prot_size=329_strand=+   ------------------------------------------------MV
+                                                                              :*
+
+NHA1_prot_size=637_strand=+   VRATFVPCFVEAIAVAVFSNLILGFPWSVGFMLGFVLAAVSPAVIIPSLM
+NHA2_prot_size=656_strand=+   IRATFIPCIVEAMSVAIFSHLILGFPWTVGWMLGFVLAAVSPAVIIPSLL
+NHA3_prot_size=1204_strand=+  LRTTFIPCIIEAFAASLFCYLILGFPFSVGLCFGFVLCGVSPAVIIPGLV
+NHA4_prot_size=786_strand=+   LRTTFIPCLVEAFAASLFCYLILGFPFLPGLCFGFVLCGVSPAVIIPGLV
+NHA5_prot_size=754_strand=+   LRTTFIPCIVEAFAAALFCYLILGFPFLPGLCFGFVLCGVSPAVIIPGLV
+NHA6_prot_size=708_strand=+   LRTTFIPCIVEAFAAALFCYLILGFPFLPGLCFGFVLCGVSPAVIIPGLV
+NHA7_prot_size=589_strand=-   LRTTFIPCIVEAFAASLFCYLILGFPFLPGLCFGFVLCGVSPAVIIPGLV
+NHA8_prot_size=329_strand=+   FRLAFFPCLVEATVVAISSHLLLGFPWLWGFMLGFILAAVSPAVVVPCLL
+                              .* :*.**::**  .:: . *:****:  *  :**:*..*****::* *:
+
+NHA1_prot_size=637_strand=+   NLSERGYGVAKGIPTLVIAACSADDVVAISGFGIFLGITFNADA-PVLDL
+NHA2_prot_size=656_strand=+   SLSERGYGVAKGIPTLVIAACSADDVVAISGFGIFLGITFNANA-PLIDL
+NHA3_prot_size=1204_strand=+  NLSQRGYGVKKGIPTLVIATCSADDLVAIGGFGIALSITYNPDA-PILSL
+NHA4_prot_size=786_strand=+   NLSQRGYGVKKGIPTLVIATCSADDLVAIGGFGIALGITFNPDA-SITDL
+NHA5_prot_size=754_strand=+   NLSQRGYGVKKGIPTLVIATCSADDLVAIGGFGIAAGITFNPDA-SISDL
+NHA6_prot_size=708_strand=+   NLSQRGYGVKKGIPTLVIATCSADDLVAIGGFGIAAGITFNPDA-SISDL
+NHA7_prot_size=589_strand=-   NLSQRGYGVKKGIPTLVIATCSADDLVAIGGFGIAAGITFNPDA-SISDL
+NHA8_prot_size=329_strand=+   SLQERGFGVEKGIPTLVIAAASVDDVLAISVFTILLGVTFNTNQDNLYQL
+                              .*.:**:** *********:.*.**::**. * *  .:*:*.:   : .*
+
+NHA1_prot_size=637_strand=+   ALHGPIEVAIGLSFGIGWGILAQWIPNQHHKNMVFFRFLILFSGGLIALF
+NHA2_prot_size=656_strand=+   ILHGPMEVAIGVSGGLVWGGLAQWIPNQHSPHVAFFRFIILFFGGLISQF
+NHA3_prot_size=1204_strand=+  AFHGPSEVIMGIAFGIFWGYICQWFPSKQNPNHVLFRFIILFSGGLFALF
+NHA4_prot_size=786_strand=+   ASHGPIEVTMGIGFGIFWGYVCQWLPSRHNKDYILFRFIILFCGGLFALF
+NHA5_prot_size=754_strand=+   ASHGPLEVLLGIAFGIFWGYICQWFPSKQYENYVFFRWVLLTAGGAFALF
+NHA6_prot_size=708_strand=+   ASHGPLEVLLGIAFGIFWGYICQWFPSKQNANYVFFRWVILTAGGLFALF
+NHA7_prot_size=589_strand=-   ASHGPLEVLLGIAFGIFWGYICQWFPSKQNANHVFFRWVLLTAGGLFALF
+NHA8_prot_size=329_strand=+   ILQGPLEAIVGVLGGFIWGVLVIFLPPSPHPN-VLLRVVLLFGGSLFALF
+                                :** *. :*:  *: ** :  ::*     .  ::* ::*  *. :: *
+
+NHA1_prot_size=637_strand=+   GAGLIHYDGAGGLAAIIMAFVAGMRWRKEGWGDHNPVSKTFRKMWIILEP
+NHA2_prot_size=656_strand=+   GALLINYDGAGSLAVIIMAFVASLRWRKEGWGDHNPVSLTFRKLWIILEA
+NHA3_prot_size=1204_strand=+  GAHLIHYDGAGGLACVIMAFVASIQWRKEGWGDHNPITDIFGKMWIILAP
+NHA4_prot_size=786_strand=+   GAHLIHYDGAGGLACVIMAFVASIQWRKEGWGDHNPITDIFGKMWIILAP
+NHA5_prot_size=754_strand=+   GAHMIHYDGAGGLACVIMAFVASIQWRREGWGDHNPVTDIYNKVWIILSP
+NHA6_prot_size=708_strand=+   GAHMIHYDGAGGLACVIMAFVASIQWRREGWGDHNPVTDIYNKVWIILSP
+NHA7_prot_size=589_strand=-   GAHMVHYDGAGGLACVIMAFVASIQWRREGWGDHNPVTDIYNKVWIILSP
+NHA8_prot_size=329_strand=+   GSAMAGFPGAGALGVLVLAFVAGLGWRRQGWKEDNPVSQTLAQMWIIFQP
+                              *: :  : ***.*. :::****.: **::** :.**::    ::***: .
+
+NHA1_prot_size=637_strand=+   VIFALIGTEIQIDKIDPATLGLGILVLVLALTLRMIGTFFAVSCGNLNFK
+NHA2_prot_size=656_strand=+   VIFSLIGTEIQIDKIDTESMWNGILVLCLALILRMISTYFAVSCGNLNVK
+NHA3_prot_size=1204_strand=+  IIFSLIGTNIVVEKMDGESVALGIAVIVLSMIVRMVFTYFAAVCGGMTAK
+NHA4_prot_size=786_strand=+   IIFSLIGTNIQVDKMNGDTVGLGVAVIVCCILTRSFFTYWSATFGGLNTK
+NHA5_prot_size=754_strand=+   VIFSLIGTNINAEKMDGATVGMGVAVLVCCFLTRGFFTYWSAVCGGLDTK
+NHA6_prot_size=708_strand=+   VIFSLIGTNINAEKMDGATVGLGVAVLFCCFITRGFFTFWSAVCGGLDTK
+NHA7_prot_size=589_strand=-   VIFSLIGTNINAEKMDGATVGLGVAVLFCCFITRSFFTFWSAVCGGLETK
+NHA8_prot_size=329_strand=+   LLFGLIGTEIQVDKLDPETVGLGIGVLVCGLSARLVLSYISVLGGDVNHR
+                              ::*.****:*  :*::  ::  *: *:   :  * . :: :.  *.:  :
+
+NHA1_prot_size=637_strand=+   EKIFMAFAWLPKATVQAALGPIFLDNAIKN------------GLTEYIPM
+NHA2_prot_size=656_strand=+   EKIFMAFAWFPKATVQAAIGTVFLDFAIMN------------GRTDLIPM
+NHA3_prot_size=1204_strand=+  EKIFLSISWLPKATVQAALGPVFLDNALRD------------GITEYIPY
+NHA4_prot_size=786_strand=+   EKLFLSLAWLPKATVQAALGPVFLDNALRS------------GITEFVPY
+NHA5_prot_size=754_strand=+   EKIFLAISWLPKATVQAALGPAFLEKAIAA------------NLPEYVPI
+NHA6_prot_size=708_strand=+   EKIFLAVAWLPKATVQAALGPAFLEKAISA------------GLTDFIPM
+NHA7_prot_size=589_strand=-   EKLFLSISWLPKATVQAALGPVFLEKAIYA------------GITEYIPM
+NHA8_prot_size=329_strand=+   ERMFIALAWLPKATVQAAIGPLALDLATQALRKAGMDGENLPELNEQLEL
+                              *::*::.:*:********:*.  *: *                  : :  
+
+NHA1_prot_size=637_strand=+   GEQILTLAVLSILITAPLGAISILALGPKLLTSNKLEAGL---PVHAEDH
+NHA2_prot_size=656_strand=+   GEQVLTLAVLSILITAPLGAIGILGLGPKLLSCDLPAAGQ---EQDLEEN
+NHA3_prot_size=1204_strand=+  GEQILTMAVLSIVVTAPLGAILILALGPLLLQSDMVDEDD-GQRFD----
+NHA4_prot_size=786_strand=+   GEQILNMAVLSIVISAPLGAVLILATGPLLLHSDLEVKGSTDEGSD----
+NHA5_prot_size=754_strand=+   GETILTMAVISIAISAPIGAILILALGPVLLPNDFEGDED-----E----
+NHA6_prot_size=708_strand=+   GETILTMAVISIAISAPIGAILILALGPVLLPNDFEDKED-----D----
+NHA7_prot_size=589_strand=-   GETILTLAVLSIAISAPIGAILILALGPVLLPNDFEGFCS-----C----
+NHA8_prot_size=329_strand=+   AEKVLTLAVLVILITAPIGAVAIMASGPR---------------------
+                              .* :*.:**: * ::**:**: *:. **                      
+
+NHA1_prot_size=637_strand=+   D-------------------------------------------------
+NHA2_prot_size=656_strand=+   QDPETN-----QDQTIDPNSEEVIDLQRKQDKFIESENKIGERVKDNDKT
+NHA3_prot_size=1204_strand=+  -MEEIG----------------------SMEKVD-----------EED-E
+NHA4_prot_size=786_strand=+   -LEEAEKEEEGQEEDAEEREEEDAEDREDEERVEENANK---SFKNNSKM
+NHA5_prot_size=754_strand=+   -DEEAG----------------------ELDVIK-----------ENMKE
+NHA6_prot_size=708_strand=+   -PEDNT----------------------DREGII----------------
+NHA7_prot_size=589_strand=-   -LWQIL--------------------------------------------
+NHA8_prot_size=329_strand=+   --------------------------------------------------
+                                                                                
+
+NHA1_prot_size=637_strand=+   ----------------------------
+NHA2_prot_size=656_strand=+   REKDLQELLLVISEDETWDGRGEKMKGS
+NHA3_prot_size=1204_strand=+  ----------------------------
+NHA4_prot_size=786_strand=+   LNNEMES----------VDVCQGDL---
+NHA5_prot_size=754_strand=+   ----------------------------
+NHA6_prot_size=708_strand=+   ----------------------------
+NHA7_prot_size=589_strand=-   ----------------------------
+NHA8_prot_size=329_strand=+   ----------------------------
+                                                          
+
+
+
