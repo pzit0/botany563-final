@@ -1,0 +1,13 @@
+
+A total of 214 proteins were assessed
+Out of those, 73(0.3411214953271028) were successfully curated and obtained
+0 were discarded due to small protein size
+3 were discarded due to me not finding its assembly information
+35 were discarded due to having bad coverage
+2 were discarded due to bad scaffold N50
+28 were discarded for having too many scaffolds
+73 were already checked and discarded
+MINIMUM PROTEIN SIZE =200
+MINIMUM COVERAGE =50
+MINIMUM SCAFFOLD N50 =10000
+MAX SCAFFOLD COUNT =9000

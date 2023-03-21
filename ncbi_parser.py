@@ -133,11 +133,12 @@ def ass_ncbi(info):
                 assembly_record = Entrez.read(assembly_handle) 
                 assembly_handle.close()
                 assembly_dict = assembly_record['DocumentSummarySet']['DocumentSummary'][0] # very nested 
+                keys = [str(i) for i in assembly_dict.keys()] # keys available in Entrez entry
                 bioproject_accn = assembly_dict['GB_BioProjects'][0]['BioprojectAccn']
                 if bioproject_accn == info['project-accession']: # if they match 
                     info['assembly-status'] = assembly_dict['AssemblyStatus'] # level (chromosome?)
                     info['scaffold-N50'] = float(assembly_dict['ScaffoldN50']) # scaffold n50 
-                    if assembly_dict["Coverage"]:
+                    if 'Coverage' in keys:
                         cov =  float(re.findall(r'\d+', assembly_dict['Coverage'])[0]) # in case cov had an x string in it 
                         if cov: 
                             info['coverage'] = cov
@@ -155,13 +156,14 @@ def ass_ncbi(info):
                     assembly_record = Entrez.read(assembly_handle) # get summary
                     assembly_handle.close()
                     assembly_dict = assembly_record['DocumentSummarySet']['DocumentSummary'][0] # nested 
+                    keys = [str(i) for i in assembly_dict.keys()] # keys available in Entrez entry
                     if assembly_dict['GB_BioProjects']: # get bioproject accession number from search result
                         bioproject_accn = assembly_dict['GB_BioProjects'][0]['BioprojectAccn']
                         if bioproject_accn == info['project-accession']: # if assembly's matches the protein's
                             info['assembly-name'] = assembly_record['DocumentSummarySet']['DocumentSummary'][0]['AssemblyName']
                             info['assembly-status'] = assembly_dict['AssemblyStatus'] # level (chromosome?)
                             info['scaffold-N50'] = float(assembly_dict['ScaffoldN50']) # scaffold n50 
-                            if assembly_dict["Coverage"]:
+                            if 'Coverage' in keys:
                                 cov =  float(re.findall(r'\d+', assembly_dict['Coverage'])[0]) # in case cov had an x string in it 
                                 if cov: 
                                     info['coverage'] = cov
@@ -241,6 +243,7 @@ def filter(acc_list):
                     continue
             else: 
                 failed_size += 1 
+                print("FAILED SIZE:", row['protein-length'])
                 trashed.append(row)
                 continue
         else:
