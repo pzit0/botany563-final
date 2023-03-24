@@ -1,3 +1,158 @@
+# March 23, 2023:
+I've erased these but I should still keep an updated copy of the excel sheet table.
+I'll also probably have to add up a lot more taxa manually ugh. ok. 
+
+## IQTree 
+Running IQTree literally took me ALL day. 
+fuck, anyways: 
+command: 
+bin/iqtree -s ../../Desktop/botany563-final/data/2023-03-23-protein-NHA-orthologs.aln
+
+output: 
+All model information printed to ../../Desktop/botany563-final/data/2023-03-23-protein-NHA-orthologs.aln.model.gz
+CPU time for ModelFinder: 849.979 seconds (0h:14m:9s)
+Wall-clock time for ModelFinder: 1236.380 seconds (0h:20m:36s)
+
+NOTE: 149 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -41455.578
+2. Current log-likelihood: -41439.428
+3. Current log-likelihood: -41437.456
+4. Current log-likelihood: -41436.719
+5. Current log-likelihood: -41436.363
+6. Current log-likelihood: -41436.226
+7. Current log-likelihood: -41436.120
+Optimal log-likelihood: -41435.994
+Site proportion and rates:  (0.089,0.054) (0.109,0.178) (0.125,0.363) (0.129,0.452) (0.111,0.633) (0.087,0.834) (0.075,1.041) (0.073,1.235) (0.064,1.369) (0.138,3.440)
+Parameters optimization took 7 rounds (127.990 sec)
+Computing ML distances based on estimated model parameters... 3.600 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.005 seconds
+Log-likelihood of BIONJ tree: -41465.044
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 5.437 second
+Computing log-likelihood of 98 initial trees ... 177.862 seconds
+Current best score: -41435.994
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -41400.225
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -41398.692
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -41396.772
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -41396.703
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -41396.648
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -41395.419
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -41395.375
+Iteration 10 / LogL: -41396.553 / Time: 0h:11m:33s
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -41395.339
+UPDATE BEST LOG-LIKELIHOOD: -41395.332
+Iteration 20 / LogL: -41395.342 / Time: 0h:15m:53s
+Finish initializing candidate tree set (5)
+Current best tree score: -41395.332 / CPU time: 811.633
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -41395.329
+Iteration 30 / LogL: -41395.329 / Time: 0h:20m:50s (0h:55m:20s left)
+Iteration 40 / LogL: -41395.618 / Time: 0h:26m:3s (0h:44m:45s left)
+Iteration 50 / LogL: -41396.509 / Time: 0h:30m:23s (0h:35m:20s left)
+Iteration 60 / LogL: -41397.962 / Time: 0h:34m:19s (0h:27m:20s left)
+Iteration 70 / LogL: -41398.355 / Time: 0h:38m:27s (0h:20m:37s left)
+Iteration 80 / LogL: -41395.426 / Time: 0h:43m:6s (0h:14m:43s left)
+UPDATE BEST LOG-LIKELIHOOD: -41395.329
+Iteration 90 / LogL: -41395.455 / Time: 0h:48m:25s (0h:9m:14s left)
+Iteration 100 / LogL: -41438.437 / Time: 0h:53m:30s (0h:3m:47s left)
+TREE SEARCH COMPLETED AFTER 108 ITERATIONS / Time: 0h:57m:37s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -41395.329
+2. Current log-likelihood: -41395.308
+3. Current log-likelihood: -41395.293
+4. Current log-likelihood: -41395.280
+5. Current log-likelihood: -41395.269
+Optimal log-likelihood: -41395.259
+Site proportion and rates:  (0.097,0.056) (0.111,0.188) (0.151,0.380) (0.116,0.473) (0.104,0.702) (0.078,0.764) (0.071,1.091) (0.076,1.294) (0.068,1.368) (0.127,3.604)
+Parameters optimization took 5 rounds (113.136 sec)
+BEST SCORE FOUND : -41395.259
+Total tree length: 51.852
+
+Total number of iterations: 108
+CPU time used for tree search: 2626.958 sec (0h:43m:46s)
+Wall-clock time used for tree search: 3315.913 sec (0h:55m:15s)
+Total CPU time used: 2837.939 sec (0h:47m:17s)
+Total wall-clock time used: 3570.636 sec (0h:59m:30s)
+
+Analysis results written to: 
+  IQ-TREE report:                ../../Desktop/botany563-final/data/2023-03-23-protein-NHA-orthologs.aln.iqtree
+  Maximum-likelihood tree:       ../../Desktop/botany563-final/data/2023-03-23-protein-NHA-orthologs.aln.treefile
+  Likelihood distances:          ../../Desktop/botany563-final/data/2023-03-23-protein-NHA-orthologs.aln.mldist
+  Screen log file:               ../../Desktop/botany563-final/data/2023-03-23-protein-NHA-orthologs.aln.log
+
+Date and Time: Thu Mar 23 21:32:28 2023
+(base) Patricias-MacBook-Air:iqtree-1.6.12-MacOSX patriciazito$ ls
+bin			example.nex		example.phy.bionj	example.phy.iqtree	example.phy.mldist	example.phy.treefile
+example.cf		example.phy		example.phy.ckp.gz	example.phy.log		example.phy.model.gz	models.nex
+(base) Patricias-MacBook-Air:iqtree-1.6.12-MacOSX patriciazito$ cd ~/Desktop/botany563-final/data/
+(base) Patricias-MacBook-Air:data patriciazito$ ls
+2023-03-23-protein-NHA-orthologs.aln		2023-03-23-protein-NHA-orthologs.aln.log	2023-03-23-protein-NHA-orthologs.dnd		paralogs
+2023-03-23-protein-NHA-orthologs.aln.bionj	2023-03-23-protein-NHA-orthologs.aln.mldist	2023-03-23-protein-NHA-orthologs.fasta
+2023-03-23-protein-NHA-orthologs.aln.ckp.gz	2023-03-23-protein-NHA-orthologs.aln.model.gz	2023-03-23-protein-NHA-orthologs.html
+2023-03-23-protein-NHA-orthologs.aln.iqtree	2023-03-23-protein-NHA-orthologs.aln.treefile	orthologs
+
+
+# March 22, 2023: Improving ortholog alignment
+## Meeting comments 
+Tree indeed sucks 
+Suggestions for improving alignment (and tree, in consequence: 
+1. try putting an NHE sequence in the middle of the orthologs and see if it groups to a specific clade 
+2. try new alignments: e.g. TranslatorX, MAFFT, ClustalW 
+3. try aligning sequences by groups, not all together. in geneious you can also add to these 
+4. try to root tree file after everything is said and done 
+5. make sure I'm not getting any pseudogenes too 
+
+## Alinging with NHE 
+I'll do this two ways: by two different MSAs (1) with all my usual orthologs + NHE and (2) each sequence will be aligned w NHE and NHA and be compared. I'll do this because MSA can be weird sometimes. 
+
+commands: 
+	t_coffee 2023-03-22-protein_sequence_orthologs+DmelNHE3.fasta 
+	clustalw -ALIGN -INFILE=2023-03-12-protein_sequence_orthologs+DmelNHE3.fasta -OUTFILE=2023-03-22-protein_sequence_orthologs+DmelNHE3-CLUSTALW-ALIGNED.fasta -OUTPUT=FASTA
+
+OK. I ran my R script and found 24 sequences that aligned better with NHE than with NHA (both Drosophila). So I'll be removing those from my dataset. Second curation proccess done.
+These are the sequences that must be removed: 
+  [1] "DmelNHE3"                          "H.oblita-KAI4469917.1"            
+  [3] "T.molitor-CAH1372858.1"            "D.balteata-CAG9839567.1"          
+  [5] "Z.morio-KAJ3661878.1"              "L.yunnana-KAF5288288.1"           
+  [7] "V.pensylvanica-KAF7409385.1"       "V.germanica-KAF7387386.1"         
+  [9] "V.vulgaris-KAF7385739.1"           "E.burchellii-KAH0950178.1"        
+ [11] "P.exclamans-KAI4480393.1"          "D.ponderosae-ERL89967.1"          
+ [13] "T.longispinosus-TGZ55224.1"        "D.ponderosae-ENN79908.1"          
+ [15] "M.mexicanus-KAI4489548.1"          "A.colombica-KYM82292.1"           
+ [17] "H.saltator-EFN88906.1"             "T.septentrionalis-KYN40946.1"     
+ [19] "O.biroi-EZA51996.1"                "A.echinatior-EGI59762.1"          
+ [21] "O.biroi-RLU23064.1"                "T.zeteki-KYQ49582.1"              
+ [23] "Frieseomelitta.varia-KAF3422851.1" "Ampulex.compressa-KAG7188112.1"   
+ [25] "Ampulex.compressa-KAG7188111.1"    "A.cerana.cerana-PBC31578.1"       
+ [27] "P.vanderplanki-KAG5681232.1" 
+
+removed from: 2023-03-12-protein-sequences-orthologs+DmelNHE3.fasta
+updated fasta file (NHE removed): 2023-03-23-protein-NHA-orthologs.fasta
+
+
 # March 21, 2023: Making sure these are NHAs
 ## possible ways to go about this: ortholog finders or alignment 
 I've talked with Claudia and it would be possible to use the orthology finders we saw in class, (in theory they should work), but there's still a possiblity they might not be super accurate. I assume even more so because these have already been filtered during BLASTing, so they are pretty similar sequences to NHA. So I'm thinking I'll have to align every one of my current sequences to NHA and NHE and compare their scores. 

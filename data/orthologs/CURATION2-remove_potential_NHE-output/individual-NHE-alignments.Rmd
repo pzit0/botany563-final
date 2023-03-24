@@ -1,0 +1,63 @@
+---
+title: "individualNHA_NHE_align"
+author: "Patricia Sayuri Zito"
+date: "2023-03-22"
+output: html_document
+---
+Current curated dataset has produced a funky tree, potentially indicating some sequences might be orthologs to NHE, not NHA (expected). The goal of this script is to align all these sequences with a known sequence for NHA and NHE and see which each is more similar to. Only the sequences that have a higher alignment score for DmelNHA2 than DmelNHE3 will be retained for the final phylogenetic tree.
+
+##Importing libraries, sequences and substitution matrices 
+```{r}
+setwd("/Users/patriciazito/Desktop/botany563-final/data/")
+library("seqinr")
+library("Biostrings") # has to be installed through BiocManager
+
+DmelNHE3 <- readAAStringSet(file = "DmelNHE3_prot.fasta") 
+DmelNHA2 <- readAAStringSet(file = "DmelNHA2_prot.fasta") 
+data <- readAAStringSet(file = "2023-03-12-protein_sequence_orthologs+DmelNHE3_UPPERCASE.fasta") 
+seq_name = names(data)
+sequence = paste(data)
+
+# this data has already been curated according to BLAST e-values for NHA and genome assembly quality
+# right now it's inside the data folder, but once this script is done running I'll put it under ./orthologs/CURATION1
+```
+
+##Alignments
+```{r}
+gap_open <- -10
+gap_extent <- -4
+index_list <- c() # save indexes where NHE score is higher than NHA
+
+for(i in 1:length(sequence)){
+  seq <- AAString(gsub(" ", "", sequence[i]))
+  NHE_score <- pairwiseAlignment(DmelNHE3, seq, type = "global", substitutionMatrix = "BLOSUM50", gapOpening = gap_open, gapExtension = gap_extent, scoreOnly = TRUE)
+  NHA_score <- pairwiseAlignment(DmelNHA2, seq, type = "global", substitutionMatrix = "BLOSUM50", gapOpening = gap_open, gapExtension = gap_extent, scoreOnly = TRUE)
+  if(NHE_score >= NHA_score){
+    index_list <- append(index_list, i)
+  }
+}
+
+seq_name[index_list]
+```
+
+These are the suspicious sequences! Maybe let's take a look at their alignments just to be sure 
+
+```{r}
+bad_seqs <- sequence[index_list]
+bad_seq_names <- seq_name[index_list]
+
+for(i in 1:length(bad_seqs)){
+  print(bad_seq_names[i])
+  seq <- AAString(gsub(" ", "", bad_seqs[i]))
+  NHE <- pairwiseAlignment(DmelNHE3, seq, type = "global", substitutionMatrix = "BLOSUM50", gapOpening = gap_open, gapExtension = gap_extent)
+  NHA <- pairwiseAlignment(DmelNHA2, seq, type = "global", substitutionMatrix = "BLOSUM50", gapOpening = gap_open, gapExtension = gap_extent)
+  print(NHE)
+  print(NHA)
+}
+```
+
+## remaining number of unique sequences and species
+```{r}
+length(sequence[-index_list]) # number of sequences remaining
+```
+
