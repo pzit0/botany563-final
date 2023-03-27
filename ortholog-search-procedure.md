@@ -1,3 +1,7 @@
+# March 27, 2023: 
+Sean recommended that I use another orthology finding tool (shoot bio). 
+website: https://shoot.bio
+
 # March 23, 2023:
 I've erased these but I should still keep an updated copy of the excel sheet table.
 I'll also probably have to add up a lot more taxa manually ugh. ok. 
