@@ -1,3 +1,6 @@
+# March 28, 2023: 
+should probably add: salmon louse, Homarus, Drosophila, Aedes, more myriapods, tardigrades (outgroup), horseshoe crab (Ballasteros paper!!). I want to get to at least 50 species!! 
+
 # March 27, 2023: 
 Sean recommended that I use another orthology finding tool (shoot bio). 
 website: https://shoot.bio
