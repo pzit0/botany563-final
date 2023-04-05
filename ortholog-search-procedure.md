@@ -1,5 +1,76 @@
+# March 31, 2023: 
+### More BLAST commands: 
+(base) pzito@IBIO-DRW7N0JQY0 CURATION3-manually_add_more_sequences % blastp -query Ibalt.fa -db nr -remote -evalue 0.01 -entrez_query "Idotea baltica [organism]" -outfmt "0" -out Ibalt.blastn
+(base) pzito@IBIO-DRW7N0JQY0 CURATION3-manually_add_more_sequences % blastp -query Tclav.fa -db nr -remote -evalue 0.01 -entrez_query "Trichonephila clavata [organism]" -outfmt "0" -out Tclav.blastn
+pzito@IBIO-DRW7N0JQY0 CURATION3-manually_add_more_sequences % blastp -query Cdarw.fa -db nr -remote -evalue 0.01 -entrez_query "Caerostris darwini [organism]" -outfmt "0" -out Cdarw.blastn
+(base) pzito@IBIO-DRW7N0JQY0 CURATION3-manually_add_more_sequences % blastp -query Copi.fa -db nr -remote -evalue 0.01 -entrez_query "Chionoecetes opilio [organism]" -outfmt "0" -out Copi.blastn
+
+From these sequences: 
+species                 # matched proteins 
+Caerostris darwini      6
+Chionoecetes opilio     3 
+Idotea baltica          6
+Periplaneta americana   6
+
+for Caerostris darwini: after the first result (100% identity), the second best result is labeled as SLC9B2, but with a nhaP conserved domain. I don't think I'll take it. I'm thinking maybe I should check if I could get the CDD conserved domain from python Entrez, because if so, I could automate this proccess (use the functions I already have to see if these potential paralog proteins come from the same bioproject and filter for sequences that are not nhap or nhe/ cpa1), but as it turns out, my vs code is not working. stat overflow said it's most likely an issue when installing the python extension (or the new vs code update). So I'm thinking I won't do it through python now. But this could be handy if I have to blast all the other species as well. --> blast can be run through python, extra information can be fetched, etc. It would be easier to not have 100000x different files, and if everything was already filtered.  
+
+Also as a note, I don't really like huge trees. Maybe I'll be happy with ~50 species. 
+
+
+# March 30, 2023: 
+Looking for more orthologs. I'm remote blasting because the blast server is down again (it doesn't seem to work at night or early morning) - it also helps me keep a record of each step. So I've gotten these protein accession codes for the species that I want to add. I'm just looking for paralogs by blasting those sequences (from those species) at the protein database (remote), filtered for that species. I'll have to check that these come from the same assembly (don't get repeats) and that they're not NHE again, but otherwise it should be all good!
+
+command example: 
+(base) pzito@IBIO-DRW7N0JQY0 CURATION3-manually_add_more_sequences % blastp -query Npil_query.fa  -db nr -remote -evalue 0.01 -entrez_query "Nephila pilipes [organism]" -outfmt "0" -out Npil.blastn
+
+(I might have to do this for every species I have... even the ones that have already been filtered.......) 
+oop. 
+
+this worked for the first test (seen above for Npil), but it stopped working for my other organisms. I'll give it some time and try again later.
+
+Error message: 
+(base) pzito@IBIO-DRW7N0JQY0 CURATION3-manually_add_more_sequences % blastp -query Copi.fa -db nr -remote -evalue 0.01 -entrez_query "Chionocetes opilio [organism]" -outfmt "0" -out Copi.blastn
+Warning: (302.10) [blastp] [SOCK::gethostbyaddr]  Got "localhost" for local host address
+Error: [blastp] Error: internal_error: (Severe Error) Blast search error: Details: search aborted by Entrez. #
+
 # March 28, 2023: 
-should probably add: salmon louse, Homarus, Drosophila, Aedes, more myriapods, tardigrades (outgroup), horseshoe crab (Ballasteros paper!!). I want to get to at least 50 species!! 
+should probably add: salmon louse, Homarus, Drosophila, Aedes, more myriapods, tardigrades (outgroup), horseshoe crab (Ballasteros paper!!). I want to get to at least 50 species!!
+added: 
+NP_001247251.1, Dmel NHA2
+NP_723224.2, Dmel NHA1
+EF014219.1, Agambiae NHA1
+GFS30330.1, Npilipes NHA2
+XM_040711500.1, Salmon Louse NHA2
+
+Also look: 
+1. Trichonephila clavata, GFQ86433.1 
+2. Hyalela Azteca 
+3. Trichonephila inaurata madagascariensis, GFY60750.1
+4. Coccinella septempunctata, XP_044757843.1 
+5. Drosophila simulans, XP_016023842.1
+6. Hyalomma asiaticum, KAH6927116.1
+7. Apis laboriosa, XP_043786244.1 
+8. Drosophila santomea, XP_039497481
+9. Drosophila teissieri, XP_043640995.1
+10. Caligus rogercresseyi, QQP49003.1 (mitochondrial)
+11. Parasteatoda tepidariorum, XP_042907435.1
+12. Penaus japonicus, XP_042856260.1
+13. Chionoecetes opilio? KAG0724532.1 
+14. Teleopsis dalmanni, XP_037956938.1 
+15. Penaeus monodon, XP_037798054.1
+16. Argiope bruennichi, KAF8763960.1
+17. Stegodyphus dumicola, XP_035226765.1
+18. Danaus plexippus plexippus, XP_032510652.1
+19. Hypsibius exemplaris, OWA49880.1
+20. Ramazzottius varieornatus, GAU92661.1
+
+Maybe recover these: 
+Chionoecetes opilio, 
+Trichonephila clavata
+Idotea baltica
+Caerostris darwini
+Periplaneta americana
+
 
 # March 27, 2023: 
 Sean recommended that I use another orthology finding tool (shoot bio). 

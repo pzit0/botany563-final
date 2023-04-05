@@ -363,10 +363,13 @@ The goal of this script is to align all these sequences with a known
 sequence for NHA and NHE and see which each is more similar to. Only the
 sequences that have a higher alignment score for DmelNHA2 than DmelNHE3
 will be retained for the final phylogenetic tree.</p>
-<p>##Importing libraries, sequences and substitution matrices</p>
-<pre class="r"><code>setwd(&quot;/Users/patriciazito/Desktop/botany563-final/data/&quot;)
-library(&quot;seqinr&quot;)
-library(&quot;Biostrings&quot;) # has to be installed through BiocManager</code></pre>
+<div id="importing-libraries-sequences-and-substitution-matrices" class="section level2">
+<h2>Importing libraries, sequences and substitution matrices</h2>
+<pre class="r"><code>setwd(&quot;/Users/pzito/Desktop/botany563-final/data/orthologs/CURATION2-remove_potential_NHE-output&quot;)
+require(&quot;seqinr&quot;)</code></pre>
+<pre><code>## Loading required package: seqinr</code></pre>
+<pre class="r"><code>require(&quot;Biostrings&quot;) # has to be installed through BiocManager</code></pre>
+<pre><code>## Loading required package: Biostrings</code></pre>
 <pre><code>## Loading required package: BiocGenerics</code></pre>
 <pre><code>## 
 ## Attaching package: &#39;BiocGenerics&#39;</code></pre>
@@ -399,6 +402,37 @@ library(&quot;Biostrings&quot;) # has to be installed through BiocManager</code>
 <pre><code>## The following object is masked from &#39;package:base&#39;:
 ## 
 ##     strsplit</code></pre>
+<pre class="r"><code>require(&quot;dplyr&quot;)</code></pre>
+<pre><code>## Loading required package: dplyr</code></pre>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:Biostrings&#39;:
+## 
+##     collapse, intersect, setdiff, setequal, union</code></pre>
+<pre><code>## The following object is masked from &#39;package:GenomeInfoDb&#39;:
+## 
+##     intersect</code></pre>
+<pre><code>## The following object is masked from &#39;package:XVector&#39;:
+## 
+##     slice</code></pre>
+<pre><code>## The following objects are masked from &#39;package:IRanges&#39;:
+## 
+##     collapse, desc, intersect, setdiff, slice, union</code></pre>
+<pre><code>## The following objects are masked from &#39;package:S4Vectors&#39;:
+## 
+##     first, intersect, rename, setdiff, setequal, union</code></pre>
+<pre><code>## The following objects are masked from &#39;package:BiocGenerics&#39;:
+## 
+##     combine, intersect, setdiff, union</code></pre>
+<pre><code>## The following object is masked from &#39;package:seqinr&#39;:
+## 
+##     count</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
 <pre class="r"><code>DmelNHE3 &lt;- readAAStringSet(file = &quot;DmelNHE3_prot.fasta&quot;) 
 DmelNHA2 &lt;- readAAStringSet(file = &quot;DmelNHA2_prot.fasta&quot;) 
 data &lt;- readAAStringSet(file = &quot;2023-03-12-protein_sequence_orthologs+DmelNHE3_UPPERCASE.fasta&quot;) 
@@ -407,7 +441,9 @@ sequence = paste(data)
 
 # this data has already been curated according to BLAST e-values for NHA and genome assembly quality
 # right now it&#39;s inside the data folder, but once this script is done running I&#39;ll put it under ./orthologs/CURATION1</code></pre>
-<p>##Alignments</p>
+</div>
+<div id="alignments" class="section level2">
+<h2>Alignments</h2>
 <pre class="r"><code>gap_open &lt;- -10
 gap_extent &lt;- -4
 index_list &lt;- c() # save indexes where NHE score is higher than NHA
@@ -692,6 +728,96 @@ for(i in 1:length(bad_seqs)){
 ## pattern: M----------SSDSDIL----------------...--------PTTPIAPTLGSTNSS--------KGT
 ## subject: MLAFMKENMMLSKKKNLIFMVLFNVLLLNCGYVQ...VKEKLMKQQKSKLHFSVGSDDEDDEEEGLRMKRS
 ## score: -1192</code></pre>
+</div>
+<div id="update-the-csv-file-im-working-on" class="section level1">
+<h1>Update the csv file I’m working on</h1>
+<pre class="r"><code># remove bad accessions
+bad_accessions &lt;- c()
+for(i in 2:length(bad_seq_names)){
+  acc &lt;- strsplit(bad_seq_names[i], split = &quot;-&quot;)[[1]][2]
+  bad_accessions &lt;- append(bad_accessions, acc)
+}
+bad_accessions </code></pre>
+<pre><code>##  [1] &quot;KAI4469917.1&quot; &quot;CAH1372858.1&quot; &quot;CAG9839567.1&quot; &quot;KAJ3661878.1&quot; &quot;KAF5288288.1&quot;
+##  [6] &quot;KAF7409385.1&quot; &quot;KAF7387386.1&quot; &quot;KAF7385739.1&quot; &quot;KAH0950178.1&quot; &quot;KAI4480393.1&quot;
+## [11] &quot;ERL89967.1&quot;   &quot;TGZ55224.1&quot;   &quot;ENN79908.1&quot;   &quot;KAI4489548.1&quot; &quot;KYM82292.1&quot;  
+## [16] &quot;EFN88906.1&quot;   &quot;KYN40946.1&quot;   &quot;EZA51996.1&quot;   &quot;EGI59762.1&quot;   &quot;RLU23064.1&quot;  
+## [21] &quot;KYQ49582.1&quot;   &quot;KAF3422851.1&quot; &quot;KAG7188112.1&quot; &quot;KAG7188111.1&quot; &quot;PBC31578.1&quot;  
+## [26] &quot;KAG5681232.1&quot;</code></pre>
+<pre class="r"><code>df &lt;- read.csv(&quot;orthologs-filtered.csv&quot; )
+NHE_less &lt;- df %&gt;% filter(!protein.accession %in% bad_accessions) 
+dim(NHE_less) </code></pre>
+<pre><code>## [1] 47 14</code></pre>
+<pre class="r"><code>head(NHE_less[,-9]) # show dataframe without protein sequences</code></pre>
+<pre><code>##   X assembly.name assembly.status coverage genome.refseq project.accession
+## 1 0  SNU_Nstr_1.0        Scaffold      140         False       PRJNA595812
+## 2 0  SNU_Nstr_1.0        Scaffold      140         False       PRJNA595812
+## 3 0      Ogib_1.0      Chromosome       80         False       PRJNA681589
+## 4 0  SNU_Nstr_1.0        Scaffold      140         False       PRJNA595812
+## 5 0  SNU_Nstr_1.0        Scaffold      140         False       PRJNA595812
+## 6 0  SNU_Nstr_1.0        Scaffold      140         False       PRJNA595812
+##   protein.accession protein.length pubmed.accession scaffold.N50 scaffold.count
+## 1      KAG1663790.1            539            False       701800           1638
+## 2      KAG1694105.1            990            False       701800           1638
+## 3      KAG8183784.1            557         34949821       979336           7802
+## 4      KAG1663789.1            556            False       701800           1638
+## 5      KAG1694104.1            997            False       701800           1638
+## 6      KAG1694103.1           1007            False       701800           1638
+##   sequencing.technology             species
+## 1         PacBioSequel;    Nymphon striatum
+## 2         PacBioSequel;    Nymphon striatum
+## 3         PacBioSequel; Oedothorax gibbosus
+## 4         PacBioSequel;    Nymphon striatum
+## 5         PacBioSequel;    Nymphon striatum
+## 6         PacBioSequel;    Nymphon striatum</code></pre>
+<pre class="r"><code># update fasta file name because these are awful 
+fasta_names &lt;- c()
+for(i in 1:nrow(NHE_less)){
+  first_word &lt;- strsplit(NHE_less$species[i], split = &quot; &quot;)[[1]][1]
+  first_letter &lt;- strsplit(first_word, split = &quot;&quot;)[[1]][1]
+  last_word &lt;- strsplit(NHE_less$species[i], split = &quot; &quot;)[[1]][2]
+  species_name &lt;- paste(first_letter, last_word, sep = &quot;.&quot;)
+  name &lt;- paste(species_name, NHE_less$protein.accession[i], sep = &quot;-&quot;)
+  fasta_name &lt;- paste(&quot;&gt;&quot;, name, sep = &quot;&quot;)
+  fasta_names &lt;- append(fasta_names, fasta_name)
+}
+head(fasta_names) # fasta names </code></pre>
+<pre><code>## [1] &quot;&gt;N.striatum-KAG1663790.1&quot; &quot;&gt;N.striatum-KAG1694105.1&quot;
+## [3] &quot;&gt;O.gibbosus-KAG8183784.1&quot; &quot;&gt;N.striatum-KAG1663789.1&quot;
+## [5] &quot;&gt;N.striatum-KAG1694104.1&quot; &quot;&gt;N.striatum-KAG1694103.1&quot;</code></pre>
+<pre class="r"><code>NHE_less$fasta.names &lt;- fasta_names
+head(NHE_less[,-9]) # show without the protein sequences </code></pre>
+<pre><code>##   X assembly.name assembly.status coverage genome.refseq project.accession
+## 1 0  SNU_Nstr_1.0        Scaffold      140         False       PRJNA595812
+## 2 0  SNU_Nstr_1.0        Scaffold      140         False       PRJNA595812
+## 3 0      Ogib_1.0      Chromosome       80         False       PRJNA681589
+## 4 0  SNU_Nstr_1.0        Scaffold      140         False       PRJNA595812
+## 5 0  SNU_Nstr_1.0        Scaffold      140         False       PRJNA595812
+## 6 0  SNU_Nstr_1.0        Scaffold      140         False       PRJNA595812
+##   protein.accession protein.length pubmed.accession scaffold.N50 scaffold.count
+## 1      KAG1663790.1            539            False       701800           1638
+## 2      KAG1694105.1            990            False       701800           1638
+## 3      KAG8183784.1            557         34949821       979336           7802
+## 4      KAG1663789.1            556            False       701800           1638
+## 5      KAG1694104.1            997            False       701800           1638
+## 6      KAG1694103.1           1007            False       701800           1638
+##   sequencing.technology             species              fasta.names
+## 1         PacBioSequel;    Nymphon striatum &gt;N.striatum-KAG1663790.1
+## 2         PacBioSequel;    Nymphon striatum &gt;N.striatum-KAG1694105.1
+## 3         PacBioSequel; Oedothorax gibbosus &gt;O.gibbosus-KAG8183784.1
+## 4         PacBioSequel;    Nymphon striatum &gt;N.striatum-KAG1663789.1
+## 5         PacBioSequel;    Nymphon striatum &gt;N.striatum-KAG1694104.1
+## 6         PacBioSequel;    Nymphon striatum &gt;N.striatum-KAG1694103.1</code></pre>
+<pre class="r"><code># export 
+write.csv(NHE_less, file = &quot;orthologs-filtered-NHEless.csv&quot;)</code></pre>
+<div id="remaining-number-of-unique-sequences-and-species" class="section level2">
+<h2>Remaining number of unique sequences and species</h2>
+<pre class="r"><code>nrow(NHE_less) # number of sequences remaining</code></pre>
+<pre><code>## [1] 47</code></pre>
+<pre class="r"><code>length(unique(NHE_less$species)) # number of species</code></pre>
+<pre><code>## [1] 31</code></pre>
+</div>
+</div>
 
 
 

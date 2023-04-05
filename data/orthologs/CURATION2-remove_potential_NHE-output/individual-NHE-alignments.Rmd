@@ -6,11 +6,12 @@ output: html_document
 ---
 Current curated dataset has produced a funky tree, potentially indicating some sequences might be orthologs to NHE, not NHA (expected). The goal of this script is to align all these sequences with a known sequence for NHA and NHE and see which each is more similar to. Only the sequences that have a higher alignment score for DmelNHA2 than DmelNHE3 will be retained for the final phylogenetic tree.
 
-##Importing libraries, sequences and substitution matrices 
+## Importing libraries, sequences and substitution matrices 
 ```{r}
-setwd("/Users/patriciazito/Desktop/botany563-final/data/")
-library("seqinr")
-library("Biostrings") # has to be installed through BiocManager
+setwd("/Users/pzito/Desktop/botany563-final/data/orthologs/CURATION2-remove_potential_NHE-output")
+require("seqinr")
+require("Biostrings") # has to be installed through BiocManager
+require("dplyr")
 
 DmelNHE3 <- readAAStringSet(file = "DmelNHE3_prot.fasta") 
 DmelNHA2 <- readAAStringSet(file = "DmelNHA2_prot.fasta") 
@@ -22,7 +23,7 @@ sequence = paste(data)
 # right now it's inside the data folder, but once this script is done running I'll put it under ./orthologs/CURATION1
 ```
 
-##Alignments
+## Alignments
 ```{r}
 gap_open <- -10
 gap_extent <- -4
@@ -42,7 +43,7 @@ seq_name[index_list]
 
 These are the suspicious sequences! Maybe let's take a look at their alignments just to be sure 
 
-```{r}
+```{r} 
 bad_seqs <- sequence[index_list]
 bad_seq_names <- seq_name[index_list]
 
@@ -56,8 +57,43 @@ for(i in 1:length(bad_seqs)){
 }
 ```
 
-## remaining number of unique sequences and species
+# Update the csv file I'm working on
 ```{r}
-length(sequence[-index_list]) # number of sequences remaining
+# remove bad accessions
+bad_accessions <- c()
+for(i in 2:length(bad_seq_names)){
+  acc <- strsplit(bad_seq_names[i], split = "-")[[1]][2]
+  bad_accessions <- append(bad_accessions, acc)
+}
+bad_accessions 
+
+df <- read.csv("orthologs-filtered.csv" )
+NHE_less <- df %>% filter(!protein.accession %in% bad_accessions) 
+dim(NHE_less) 
+head(NHE_less[,-9]) # show dataframe without protein sequences
+
+# update fasta file name because these are awful 
+fasta_names <- c()
+for(i in 1:nrow(NHE_less)){
+  first_word <- strsplit(NHE_less$species[i], split = " ")[[1]][1]
+  first_letter <- strsplit(first_word, split = "")[[1]][1]
+  last_word <- strsplit(NHE_less$species[i], split = " ")[[1]][2]
+  species_name <- paste(first_letter, last_word, sep = ".")
+  name <- paste(species_name, NHE_less$protein.accession[i], sep = "-")
+  fasta_name <- paste(">", name, sep = "")
+  fasta_names <- append(fasta_names, fasta_name)
+}
+head(fasta_names) # fasta names 
+
+NHE_less$fasta.names <- fasta_names
+head(NHE_less[,-9]) # show without the protein sequences 
+
+# export 
+write.csv(NHE_less, file = "orthologs-filtered-NHEless.csv")
 ```
 
+## Remaining number of unique sequences and species
+```{r}
+nrow(NHE_less) # number of sequences remaining
+length(unique(NHE_less$species)) # number of species
+```
