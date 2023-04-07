@@ -1,0 +1,15 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(seqinr)
+ 
+data = read.fasta("./data/2023-03-23-protein-NHA-orthologs.fasta")
+ 
+library(ape)
+write.nexus.data(data, file="./2023-04-06-protein-NHA-orthologs.nex",
+format="protein")
+```
+
