@@ -2,7 +2,7 @@
 A text file informing each item in this repo. 
 
 # Git new personal token: 
-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
+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
 
 # data: 
 folder containing HitTables (Blast results), and data-collection.py outputs. Inside there is another folder containing a NHA7 old run (with old code), as well as a curated-ortholog.csv file, which contains the "filtered" orthologs that I did manually from the old-run NHA7 HitTable. I used the latter file to compare the efficiency of the data-collection.ou script. 
