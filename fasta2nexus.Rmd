@@ -1,5 +1,5 @@
 ---
-title: "R Notebook"
+title: "fasta2nexus"
 output: html_notebook
 ---
 
