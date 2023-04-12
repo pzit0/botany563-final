@@ -1,0 +1,8 @@
+(base) pzito@IBIO-DRW7N0JQY0 botany563-final % vi mbblock.txt
+(base) pzito@IBIO-DRW7N0JQY0 botany563-final % cat 2023-04-06-protein-NHA-orthologs.nex mbblock.txt > 2023-04-06-protein-NHA-orthologs-mb.nex
+(base) pzito@IBIO-DRW7N0JQY0 botany563-final % mb 2023-04-06-protein-NHA-orthologs-mb.nex 
+dyld[55549]: Library not loaded: @rpath/libhmsbeagle.1.dylib
+  Referenced from: <0D34F1F8-B632-3D16-88AD-C19716384A34> /Users/pzito/anaconda3/bin/mb
+  Reason: tried: '/Users/pzito/anaconda3/lib/libhmsbeagle.1.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/pzito/anaconda3/lib/libhmsbeagle.1.dylib' (no such file), '/Users/pzito/anaconda3/bin/../lib/libhmsbeagle.1.dylib' (no such file), '/Users/pzito/anaconda3/lib/libhmsbeagle.1.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/pzito/anaconda3/lib/libhmsbeagle.1.dylib' (no such file), '/Users/pzito/anaconda3/bin/../lib/libhmsbeagle.1.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libhmsbeagle.1.dylib' (no such file), '/Users/pzito/anaconda3/lib/libhmsbeagle.1.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/pzito/anaconda3/lib/libhmsbeagle.1.dylib' (no such file), '/Users/pzito/anaconda3/bin/../lib/libhmsbeagle.1.dylib' (no such file), '/Users/pzito/anaconda3/lib/libhmsbeagle.1.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/pzito/anaconda3/lib/libhmsbeagle.1.dylib' (no such file), '/Users/pzito/anaconda3/bin/../lib/libhmsbeagle.1.dylib' (no such file), '/usr/local/lib/libhmsbeagle.1.dylib' (no such file), '/usr/lib/libhmsbeagle.1.dylib' (no such file, not in dyld cache)
+zsh: abort      mb 2023-04-06-protein-NHA-orthologs-mb.nex
+
