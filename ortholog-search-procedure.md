@@ -1,3 +1,7 @@
+# April 11, 2023: 
+## Deleting some of these actually 
+part of why I created the ncbi parser is because I required a certain criteria. It seems silly to go back on that now. So I don't want to recover the bad genome sequences. 
+
 # March 31, 2023: 
 ### More BLAST commands: 
 (base) pzito@IBIO-DRW7N0JQY0 CURATION3-manually_add_more_sequences % blastp -query Ibalt.fa -db nr -remote -evalue 0.01 -entrez_query "Idotea baltica [organism]" -outfmt "0" -out Ibalt.blastn
