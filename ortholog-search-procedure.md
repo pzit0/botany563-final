@@ -1,6 +1,58 @@
+# April 12, 2023: 
+## online blast 
+BLAST didn't work. Carol tested a similar search on her computer and it did? So we came to the conclusion it was probably because of the internet connection to the ncbi server. It now works online and remotely. 
+
+example of the search remotely: 
+(base) pzito@IBIO-DRW7N0JQY0 CURATION3-manually_add_more_sequences % blastp -query nhaa.fa -db nr -remote -evalue 0.01 -entrez_query "Nymphon [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out arthropods2.blastn
+
+both in the online and remote version I got about 10-20 results, and most are from Idotea baltica. which was already ruled out in the first part of the curation proccess. These are the different species that came up: 
+Idoltea baltica
+Hyalomma marginatum 
+Daphnia sinensis
+Cyprideis torosa 
+
+For Hylaoma, Daphnia and Cyprideis, there doesn't seem to be any assembly information associated with it. So I wonder if it even exists. How did they get these protein sequences? I don't think I should take it. Their pfam family is also different, they're all pfam06965 (Na_H_antiport_1). 
+
+Maybe... ok I'll do the following. Lemme check what's the conserved domain for DmelNHA1. If it's the same , I'll take them. If now, they'll just mess up my phylogeny. 
+
+it says Na_H_Exchanger super family. 
+
+maybe I'll look it up from Nymphon as a queury. 
+It ran for over 10 minutes and no significant results were found. Ok fine. I guess I can't have nice things. 
+
+## remote blast (rest of the species) 
+blastp -query Oedothorax.fasta -db nr -remote -evalue 0.01 -entrez_query "Oedothorax [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Oedothorax.blastn     
+blastp -query Penaeus.fasta -db nr -remote -evalue 0.01 -entrez_query "Penaeus vannamei [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Penaeus.blastn
+blastp -query Tigriopus.fasta -db nr -remote -evalue 0.01 -entrez_query "Tigriopus [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Tigriopus.blastn 
+blastp -query Amphibalanus.fasta -db nr -remote -evalue 0.01 -entrez_query "Amphibalanus [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Amphibalanus.blastn
+blastp -query Diaphorina.fasta -db nr -remote -evalue 0.01 -entrez_query "Diaphorina [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Diaphorina.blastn
+blastp -query Dendrolimus.fasta -db nr -remote -evalue 0.01 -entrez_query "Dendrolimus [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Dendrolimus.blastn
+blastp -query Spodoptera.fasta -db nr -remote -evalue 0.01 -entrez_query "Spodoptera [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Spodoptera.blastn
+blastp -query Arctia.fasta -db nr -remote -evalue 0.01 -entrez_query "Arctia [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Arctia.blastn
+                        
+
 # April 11, 2023: 
 ## Deleting some of these actually 
 part of why I created the ncbi parser is because I required a certain criteria. It seems silly to go back on that now. So I don't want to recover the bad genome sequences. 
+
+not taking Npil and Cdaewini anymore. Actually none of them look that good for the exception of the cockroach. 
+So that's what I'm going with. Only take the goddamn cockroach. How kafkaesque.
+
+Maybe more stuff will show up on blast. 
+query: KAG1694105.1 (largest spider protein). -> only arthropods 
+no results. I thought I could get more results if I searched with a more ancient state. 
+I also tried searching for only copepods. still nothing. 
+
+right now trying with nhaa (<D-i>E. coli<D-i>). Looking at arthropods and only copepods. 
+
+error message: 
+There was a problem with the search. Please, contact Help Desk and include RID 3C8B7Z6N013.
+
+CPU usage limit was exceeded. You may need to change your search strategy. Helpful changes include reducing the number of queries, choosing a smaller database and setting an organism limit. You may also need to adjust the Algorithm parameters in the bottom section of the form. Choose a smaller number of target sequences, set a smaller Expect cut-off, use a larger word-size and turn on species specific repeats.
+
+maybe try running this on my terminal
+vi nhaa.fa
+
 
 # March 31, 2023: 
 ### More BLAST commands: 
@@ -36,6 +88,27 @@ Error message:
 (base) pzito@IBIO-DRW7N0JQY0 CURATION3-manually_add_more_sequences % blastp -query Copi.fa -db nr -remote -evalue 0.01 -entrez_query "Chionocetes opilio [organism]" -outfmt "0" -out Copi.blastn
 Warning: (302.10) [blastp] [SOCK::gethostbyaddr]  Got "localhost" for local host address
 Error: [blastp] Error: internal_error: (Severe Error) Blast search error: Details: search aborted by Entrez. #
+
+tried this command: 
+(base) pzito@IBIO-DRW7N0JQY0 CURATION3-manually_add_more_sequences % blastp -query nhaa.fa -db nr -remote -evalue 0.01 -entrez_query "arthropoda [organism]" -outfmt "0" -out arthropods.blastn
+
+it worked fine. but only shows up 10 results bc it also shows the alignment. 
+
+tried this: 
+(base) pzito@IBIO-DRW7N0JQY0 CURATION3-manually_add_more_sequences % blastp -query nhaa.fa -db nr -remote -evalue 0.01 -entrez_query "arthropoda [organism]" -outfmt "6" -out arthropods.blastn
+Error: NCBI C++ Exception:
+    T0 "/Users/coremake/release_build/build/PrepareRelease_IntelMAC-Clang36_JSID_01_90273_130.14.22.10_9008__PrepareRelease_IntelMAC-Clang36_1481139955/c++/compilers/unix/../../src/corelib/ncbiobj.cpp", line 977: Critical: ncbi::CObject::ThrowNullPointerException() - Attempt to access NULL pointer.
+
+then this: 
+blastp -query nhaa.fa -db nr -remote -evalue 0.01 -entrez_query "arthropoda [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out arthropods.blastn 
+
+Warning: [blastp] Taxonomy name lookup from taxid requires installation of taxdb database with ftp://ftp.ncbi.nlm.nih.gov/blast/db/taxdb.tar.gz
+
+but it ran fine. I mean, only gor like 20 results, but it came out. I don't know why it told me that. 
+
+There was a problem with the search. Please, contact Help Desk and include RID 3CDCC0A8016.
+
+CPU usage limit was exceeded. You may need to change your search strategy. Helpful changes include reducing the number of queries, choosing a smaller database and setting an organism limit. You may also need to adjust the Algorithm parameters in the bottom section of the form. Choose a smaller number of target sequences, set a smaller Expect cut-off, use a larger word-size and turn on species specific repeats.
 
 # March 28, 2023: 
 should probably add: salmon louse, Homarus, Drosophila, Aedes, more myriapods, tardigrades (outgroup), horseshoe crab (Ballasteros paper!!). I want to get to at least 50 species!!

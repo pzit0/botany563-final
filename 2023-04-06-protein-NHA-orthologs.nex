@@ -1,0 +1,530 @@
+#NEXUS
+[Data written by write.nexus.data.R, Thu Apr 13 14:03:00 2023]
+BEGIN DATA;
+  DIMENSIONS NTAX=57 NCHAR=714;
+  FORMAT DATATYPE=PROTEIN MISSING=? GAP=- INTERLEAVE=YES;
+  MATRIX
+    DmelNHA2                          mssdsdildvvagsegpplqafrssnpfedsyqmsscqqdferdrdanltplhmlrrasetvtasilepekehllgdkpq
+    N.striatum-KAG1663790.1           mkirlqvdkvqmkeskmgecdeksnknivgeemkplnpdndeqtdvissntipitgaleevkfsekcrsrqskmkclccq
+    N.striatum-KAG1694105.1           mmicqisvlrnlnisstksystcnaflskmelmsnlfiqpdttlfikgsssvdqnsqvkmpqsmksrsqkllsdygiikk
+    O.gibbosus-KAG8183784.1           mtnpsiipspceeddavsetsksakelwsslwtcppisplttmtsmaaiaflfygsiwgltakeampggpvfglfmlalv
+    N.striatum-KAG1663789.1           mkirlqvdkvqmkeskmgecdeksnknivgeemkplnpdndeqtdvissntipitgaleevkfsekcrsrqskmkclccq
+    N.striatum-KAG1694104.1           mmicqisvlrnlnisstksystcnaflskmelmsnlfiqpdttlfikgsssvdqnsqvkmpqsmksrsqkllsdygiikk
+    N.striatum-KAG1694103.1           mmicqisvlrnlnisstksystcnaflskmelmsnlfiqpdttlfikgsssvdqnsqvkmpqsmksrsqkllsdygiikk
+    P.vannamei-ROT75079.1             msngmrstelavvvdsshnldgqvieeqissadkityesgsaslkyvfdcwpphgivgrcltwtllvllgwgaaiaiigi
+    N.striatum-KAG1663791.1           mkirlqvdkvqmkeskmgecdeksnknivgeemkplnpdndeqtdvissntipitgaleevkfsekcrsrqskmkclccq
+    T.californicus-TRY75264.1         maspgftspgpsgspgplvpqleapplpanrghdaiksecesslegtpvvvaepnepcssadelspskssrrvvskwirp
+    A.amphitrite-KAF0289584.1         madptatyvfppvdpspaeqrrraserstsseekqsrsswresltgtdlatrgsgskpptisddvadgdvflgeplelqs
+    D.citri-KAI5736882.1              mdnkksilpqnqnrtpsiivqnnsnkvqrpedidvrnkllppsgngskdfksrtpqrekkppsrirriitepfgpknlyv
+    D.citri-KAI5704272.1              mdnkksilpqnqnrtpsiivqnnsnkvqrpedidvrnkllppsgngskdfksrtpqrekkppsrirriitepfgpknlyv
+    D.citri-KAI5704273.1              msdertllahsftqdicyeaisprekkppsrirriitepfgpknlyvlrllgwvicllvswgllytlvkeevapggqllk
+    D.citri-KAI5742064.1              msknsvsfskivhkyisgyeelaggnypgnpgnngkhqqkmtestiqlestdpaypnghpninaqhtednflvrflrapl
+    D.kikuchii-KAJ0181768.1           mksrerrfkvdilkraksekeatksdvkglkgvnrsfkksptsrsadaaaaasarerkkrsgvdavklhlqvtggtgrss
+    S.littoralis-CAB3515165.1         mktrdrrakqdfrgkqdkkgvkqevsrsgkrhansvgaaesaaaarertkrsgveavklhlqvtgdpgrtsrsatsvrkt
+    S.exigua-CAH0700695.1             mktrdrrakqdfrgkqdkkgvkqevsrsgkkhansigaaesaaaarertkrsgveavklhlqvtgdpgrtsrsatsvrkt
+    S.exigua-KAF9414715.1             mvaliqngsvsakaegpsrrksnlhnamaadmdsswdrqthiegrfkkysttssvyskkalsqqseyierswwyaccqkc
+    A.plantaginis-CAB3231150.1        mktrdrrvksvsqrktqdkkgtqeisrgskrdrttgtahsgdtqgksharakrsgveavklhlkatgdpgrtsrsataai
+    B.ino-CAH0726637.1                mshsslschydsylpsdssletdaltnrhwngrvsaqaegpsrrksnlhnalaaemdtswerpthiegrykkysttssiy
+    A.plantaginis-CAB3231151.1        mshsslschydsylpsdssletdalnrhwngnvsakaegpsrrksnlhnvmagdmdnswdrqghiegrfkkysttssvys
+    H.armigera-PZC78836.1             mktrdrrakqdfrgkqdkkgvkqdisharsgkrhahssssaesaaaarertkrsgveavklhlkvtgdpgrtsrsatsvr
+    I.podalirius-CAH2066547.1         mktrdhrlsnlsqrgnrspkldkkgtkhegrrtrnsqvpgsppgarrerskrsgveavklhlqetggtgrtsrsatshka
+    I.podalirius-CAH2066549.1         mignswptpllksvftsltvkrlvvrktsirmaaikeypfdlsdlqnkqncgdetsqtpdrsnqnqsklnsdsvpaqgtp
+    I.podalirius-CAH2066551.1         mshsslschydsylpsdssletdalnrhwnarvsaqaegpsrrksnlhnamaaemdsswdrpahiegrykkysttssiys
+    C.capitata-CAD6994394.1           wrilvkhwpfisqplalaavfialwvlgyvllpdyalpntpimrifflfvgaqltgvlvtfialpdmlgmlffgvlytnv
+    L.cuprina-KAI8130912.1            mtfdiatpvvtslddtnekelnrqkaynsprstttkpkceihkdknnddeyskaqqpsqitlqqiknekqqredttktag
+    G.fuscipes-KAI9577037.1           memlpptdnnnelngpitltpisltttnadnsltrfgsegrprenekyddhqykgpkiwlylvrnwpimseplaiififl
+    A.compressa-KAG7188111.1          mhrlpnrfgagpftiilycftlcfalseqeifnlkssnvtldntpnaalnvqdyqttvnvpipknlttsfvnkstelnav
+    L.yunnana-KAF5289025.1            msaddnkqssphpernrkasslsdcghdnpvfesprsrkvsstsdhaeigpvrkksilhitqnynvdlphpslqevtkhi
+    T.longispinosus-TGZ49087.1        mdiemgssrtnkpseelakrrvsisdqvmgidnpafehnrrisassehnsdqgrrksilhhggsaenipqykfdlengri
+    E.burchellii-KAH0956584.1         meidmggrtnrpseelakrrvsisdqimgldnpafehhrrisassehnsdqgrrksilhhggshcdsaenipqykfdlen
+    C.glomerata-KAH0554196.1          mdnigqnlrsfedttrsrrvsisdqvigidnpifdhhrqisvssdhnsdcqkkksilhhssvenlqhkldldnghtnnqi
+    O.biroi-EZA57806.1                meidmsgrtnrpseemakrrvsisdqimgidnpafehhrrisassehnsdqgrrksilhhgggshcdsaenipqykfdle
+    A.compressa-KAG7201324.1          mdvdmpgrtnkpseelakrrvsiseqvlgvdnpafdhhrrisassehnsdqgrrksilhhggsncgsaenipqykfdlen
+    C.congregata-CAG5095999.1         mdnigqnlrsfedttrsrrvsisdqvigidnpifdhhrrisassdhnpdcqkkksilhhssvenlqhkldldnghtnnqi
+    A.echinatior-EGI63990.1           mdiemsgrtnkpseelakrrvsisdqvigldnlafehhrrisagsehnsdqgrrksilhhggshcdsvenipqykfdlen
+    P.vanderplanki-KAG5673013.1       mlnnsyentendtnghqqnlnhnstvpvpsidlnmaleareveegqkiaafeatninhtnethhnsapkiwqylkrhwpv
+    P.vanderplanki-KAG5673012.1       mknlkntnghqqnlnhnstvpvpsidlnmaleareveegqkiaafeatninhtnethhnsapkiwqylkrhwpvasqpia
+    E.danica-KAF4525946.1             metlmkelntndcemsatdlelqapetktgetdkephagcmrrawevarpdvlcprpsrvqhavllliaplvlllsvvsl
+    C.dipterum-CAB3359964.1           mtlclaiaatlltfgalisllgnaavppdggifqlvmltfvalafgflaslcklppllgmliagimlknvgafnlegtyl
+    D.citri-KAI5704627.1              msknsvsfskivhkyisgyeelaggnypgnpgnngkhqqkmtestiqlestdpaypnghpninaqhtednflvrflrapl
+    M.usitatus-KAJ1530432.1           mtsdsatnqesgglgqepsnttqllpekekevltetgkddnseqaraeadpesvsaqskiasgvaptlicptmtrhhfia
+    N.viridula-CAH1388393.1           mssqdmdsspveelrpaishdrlggsdgavnqlsqsrsntpqktisvldvpekdaeigkcdnrrcgwlerglrgqcglsh
+    A.lucorum-KAF6215493.1            mplhvelrggsastggvlpllpklswrdgrkneyaeklgalmsepldynaaaqdlvssmigrvvraaeassmggmespgg
+    V.vulgaris-KAF7383363.1           memegkgtttrpceeltkrrvsiseqvfgvdnpafehhrrissssehnsdqgrrksilhhtgsnydsvenipqhnkfdla
+    N.striatum-KAG1694102.1           mmicqisvlrnlnisstksystcnaflskmelmsnlfiqpdttlfikgsssvdqnsqvkmpqsmksrsqkllsdygiikk
+    C.dipterum-CAB3360254.1           massdnpmphsilhvpnsnpkgeerrvslavgdnapskdnpafenddeaanghstkrssdthrkhksplalpngfpeenv
+    NHA1_prot,size=637,strand=+       mavlsdhhwynikskielrnlildlwsnggasgtattldlenppvqapkkqpgtvkksykkvksglqsnrvttkffppqg
+    NHA2_prot,size=656,strand=+       mnhppaqpgclsktmnkikitlqenmfttkffppqgnvasvltlcfavvsvflmarlvfgpiagpggtifallililfal
+    NHA3_prot,size=1204,strand=+      mlrrgskqtgteddrpdyrirsgsiggvypalrrlsiqmglpglpvyeeidlpddnddkpssfteekkkpgrvkksykki
+    NHA4_prot,size=786,strand=+       mnnnniemdkykqsppaetvnpgykdenkptfvkarktkrlrmrkslvkvkrnlqankvttqffppqgevatnltlivav
+    NHA5_prot,size=754,strand=+       melpgpvsrrnsrapppyvpevpkyradrrlslsgmeipgpvsrrnsrapppfvpevpvnrgerrlslsgmeipnvvsrr
+    NHA6_prot,size=708,strand=+       mempglysrrgskapppfvpevsedrgdrrlslsgmelpipysrrgskyqpvqepvqetfelpedpppayqgnkkapgkv
+    NHA7_prot,size=589,strand=-       miavviiffcaravlgkysalggtifavfilvffalvagqivlqfaalisklagfdiripqllgmmavgifcknvpynsh
+    NHA8_prot,size=329,strand=+       mvfrlaffpclveatvvaisshlllgfpwlwgfmlgfilaavspavvvpcllslqergfgvekgiptlviaaasvddvla
+
+    DmelNHA2                          vpprahgstapsaieakrsrqqpnqwqlqqqqqpssnnnntkralapgdnmtqgaapqdsqgdilptrplhtkldiqkip
+    N.striatum-KAG1663790.1           hdsgsvnnfnfvieklylceimcvillwmslysiigcqllpeghlfalfilivcciiggnlisllhfppllgmlvvgfll
+    N.striatum-KAG1694105.1           sdaagqfhflpiglrvlkklmrviddemdhigaqkilmptmtstallkksgrlekygqdiflikdrhnkdlclgptfeea
+    O.gibbosus-KAG8183784.1           cylggqftkliklptlvgmmvfgfilrnvpainiakdipsewgsnirhmalilillraglevdsdillkqkatctklifi
+    N.striatum-KAG1663789.1           hdsgsvnnfnfvieklylceimcvillwmslysiigcqllpeghlfalfilivcciiggnlisllhfppllgnfflyfsm
+    N.striatum-KAG1694104.1           sdaagqfhflpiglrvlkklmrviddemdhigaqkilmptmtstallkksgrlekygqdiflikdrhnkdlclgptfeea
+    N.striatum-KAG1694103.1           sdaagqfhflpiglrvlkklmrviddemdhigaqkilmptmtstallkksgrlekygqdiflikdrhnkdlclgptfeea
+    P.vannamei-ROT75079.1             salpggnifslmclfciavlggqlatlaklpslmdkewssalrnialvvillraglgldpaalkelsfmvlrlaftpciv
+    N.striatum-KAG1663791.1           hdsgsvnnfnfvieklylceimcvillwmslysiigcqllpeghlfalfilivcciiggnlisllhfppllgnfflyfsm
+    T.californicus-TRY75264.1         mllrhyppltsqsswrtrllyavlcpihgqiarvvtylllfvlivlvsfcllghigtppngtvflllvlvtlgalvgqaf
+    A.amphitrite-KAF0289584.1         pepsgpchrcarpllrssyappagaalwrralygctcppwgwlegllsaaavtlavwglalaltgphalpggqifgilcl
+    D.citri-KAI5736882.1              lrllgwvicllvswgllytlvkeevapggqllklltlivsahiagiivshvnlppllgmlvtgivlrnikffevsgtyre
+    D.citri-KAI5704272.1              lrllgwvicllvswgllytlvkeevapggqllklltlivsahiagiivshvnlppllgmlvtgivlrnikffevsgtyre
+    D.citri-KAI5704273.1              lltlivsahiagiivshvnlppllgmlvtgivlrnikffevsgtyreivvttreialtvilikaglgldakalkklsfvv
+    D.citri-KAI5742064.1              dfvspllisyitwaiilllvwgllycilttdalpggsafnicllilvaqifgkaveylrlpsllgmliagifmknvglfs
+    D.kikuchii-KAJ0181768.1           rsatsvrktsirmasikeypfdlsdlqnqpntggntqpaqaqiqptnpaapvtvpvtapittpatnvdgkrkvsimades
+    S.littoralis-CAB3515165.1         sirmtaikeypfdlsdlqnqpsvagdtrptqtqpaqtqpaptqptvaqpnppsikprvsvpslegkrkvsimadesskdr
+    S.exigua-CAH0700695.1             sirmtaikeypfdlsdlqnqpsvagdtrptqtqpaqtqpaatqpnppaikprvsvpslegkrkvsimadesskdrenlps
+    S.exigua-KAF9414715.1             hsedsgipsweppnwqkvcpyplcpsyrqfaqniavliigilvwvivwivmgetaapggqlfsfavltiaayfggwlmlk
+    A.plantaginis-CAB3231150.1        rikvrktsvrmtaikeypfdlsdlqnqpvagedkpsalqqitvptrkksklsvgsqdgkrkvsimadesskdrenlpser
+    B.ino-CAH0726637.1                skkalshqsehierswwyaccqkchaedtgipswepphwqkicpyplcpsyrrfaqnlsilligimiwvivwiilgdtaa
+    A.plantaginis-CAB3231151.1        kkaisqqseyierswwyaccakchtedsgipsweppnwqkvcpfplcpsyrqfaqnisvliigilvwvtiwiimgdtaap
+    H.armigera-PZC78836.1             ktsirmtaikeypfdlsdlqnqpsvvsesrpapapapnppasaikqrvsvpslegkrkvsimadesskdrenmpsdrdrn
+    I.podalirius-CAH2066547.1         lrksqrvsgypvflvhsslrfkrksarvvpqtnvtnslvnltvrktsirmaaikeypfdlsdlqnkqncgdetsqtpdrs
+    I.podalirius-CAH2066549.1         eegkrkvsimanenskdrenqpsernarvsaqaegpsrrksnlhnamaaemdsswdrpahiegrykkysttssiyskkaq
+    I.podalirius-CAH2066551.1         kkaqshqsehierswwyaccqkchqeesgvpsweppywqkicpyplcpsyrhvaqtlsvfligvlvwviiwivmgntaap
+    C.capitata-CAD6994394.1           gladftgynkfeaflremalinimllaglgldasafkklwfmilrltlvptiaevtiiamiarftldmpwfwgillglvv
+    L.cuprina-KAI8130912.1            vnkkihqddgddddddevseealepnenehllggqeqqqamensatvpalvnfnetlstatsderrakykryredeeadn
+    G.fuscipes-KAI9577037.1           slwtigyilmptyalphtvvmriiflfigaqtigvlftfiqlpdmlgmlffgvlyanlgwanfkdyekfeaflremalin
+    A.compressa-KAG7188111.1          tysttlistvqsegdlkdgsteksstvsagavndknatvmpdysmssqaldivnvtntstttvapaepvlpdkgsaeeeh
+    L.yunnana-KAF5289025.1            ngdtrskklsvsdsmqerrklssvqqndnrswwftfcikcrkkdsnpswepplwprlcpypfcptyrqfsriigiafigm
+    T.longispinosus-TGZ49087.1        ngnrkksayslsssirdkieyseelerswlylfcarchgrddtpsweppgwrracpqpfcptyrkfarvlclfllglllw
+    E.burchellii-KAH0956584.1         gringnrkksayslsssirdkieyseelerswlylfcarchgrddtpsweppgwrracpqpfcptyrkfarvlclfllgl
+    C.glomerata-KAH0554196.1          rkksamslsssirdkieyteelkrswlylfctrchgkddtpsweppgwrracprpfcpsfrkfarilclvllglmiwgvt
+    O.biroi-EZA57806.1                ngringnrkksayslsssirdkieyseelerswlylfcarchgrddtpsweppgwrracpqpfcptyrkfarvlclfllg
+    A.compressa-KAG7201324.1          gringnrkksafslsssirdkieyseelerswlylfcarchgrddtpsweppgwrracpqpfcptyrkfarvlclfllgl
+    C.congregata-CAG5095999.1         rkksamslsssirdkieyteelkspcfsrswlylfctrchgkddtpsweppgwrracprpfcpsyrkfarvlclillglm
+    A.echinatior-EGI63990.1           gringnrkksayslsssirdkieyseelkrswlylfcarchglddtpsweppgwrkacpqpfcptyrkfarivclfllgl
+    P.vanderplanki-KAG5673013.1       asqpialviifllswgiasslfpgqvyanstlmriiflfigaqasgylvsfaglpdmlgmigfgvlyknigvgyfdgyek
+    P.vanderplanki-KAG5673012.1       lviifllswgiasslfpgqvyanstlmriiflfigaqasgylvsfaglpdmlgmigfgvlyknigvgyfdgyekleavlr
+    E.danica-KAF4525946.1             vgppalppsgpifqmlllfvmaaavgqlvslvrlppllgmlltgillrnvgafymeggylqavsslrlcamvvilskagl
+    C.dipterum-CAB3359964.1           davstlrklamvvilikaglgldplalkrlsctvlrlafcpclveavtvmcaanlllrmpwlwgillgcvlgavspavvv
+    D.citri-KAI5704627.1              dfvspllisyitwaiilllvwgllycilttdalpggsafnicllilvaqifgkaveylrlpsllgmliagifmknvglfs
+    M.usitatus-KAJ1530432.1           trleifailgalfyvvisfswaepirepalqlvslfvlaqifgvlvkfvhlppllgmllagillkqidyfhaegiflkft
+    N.viridula-CAH1388393.1           swsltmlglllilllvwailyallrvevapggdlfklivlilvayvsggvvarlrlppllgmliagivlrtcgffkvqgv
+    A.lucorum-KAF6215493.1            repwwdwscsrarsrsfsllrlfresgssmvraaylsanalyksvcrrrekeyydelaaqfsrvrdarydwtfsqdlfry
+    V.vulgaris-KAF7383363.1           engrangnrkksafsltssirdkieyseelerswlylfcarchgrddtpsweppgwkracpqpfcpsyrkfarilclfll
+    N.striatum-KAG1694102.1           sdaagqfhflpiglrvlkklmrviddemdhigaqkilmptmtstallkksgrlekygqdiflikdrhnkdlclgptfeea
+    C.dipterum-CAB3360254.1           ygkqekekkslwdwlalmpngeqfarlvaymviglliwsimyvllgqdaspkggqlfqiaamcivaklggwlatrvrlpa
+    NHA1_prot,size=637,strand=+       evstvltitltviavffvartvlgpiagpggtifallvlilfaliggmavkmlgmgisclcgvdirlppllgmlivgivm
+    NHA2_prot,size=656,strand=+       iggqlikfigiclsritgmdirlppllgmllvgilmknvpynfgqfgraecfgnrqmdfvdslhdfpvnttefsenfkgk
+    NHA3_prot,size=1204,strand=+      krglqgnkvtsqffppkgdvaenitliiatiilflmaravlgtlaapggtifaifililfsliagqiviqcaalitklvg
+    NHA4_prot,size=786,strand=+       iiiffcaravlgtiaapggtifalfilillsliagqiviqvaswisklvgidikippllgmmavgitlknvpynfgqfgr
+    NHA5_prot,size=754,strand=+       nskyqqvvhphpvvedkeevseysppaypgdkkqpgkvkksykrvkqvlqnnkitsnffppkgdvainitlmitvviifl
+    NHA6_prot,size=708,strand=+       kksykrvkqalqsnritsnffppkgevatnitlmiavviiflcartvlgsysalggtifavfilvffalvagqivlqlaa
+    NHA7_prot,size=589,strand=-       efnspeclnrsltqgtiheafhgnisaltghddpnahgvvmnvhdalkdeherivehlekttvnpkfsstarifhakvqd
+    NHA8_prot,size=329,strand=+       isvftillgvtfntnqdnlyqlilqgpleaivgvlggfiwgvlviflppsphpnvllrvvllfggslfalfgsamagfpg
+
+    DmelNHA2                          edeagadatqnaatiiltptslnltntttqnvaannagnsstttstntnygpgsvsgyptpnatpgdeykgpkwwlyirs
+    N.striatum-KAG1663790.1           rnvphinvaanlnpqwasalrsialvviliraglgldpqalkqlslvclrlaftpclvetivvavsshlvlglpwlwgfm
+    N.striatum-KAG1694105.1           vtsmvssmnvsakmlplklyqisrkyrdeerpcfgllrgrefymkdlytfdvssedaiktyesvcnayeaifkkleiehi
+    O.gibbosus-KAG8183784.1           pfifelvagslaakylldmpwlwaftlgsmlsavspavvlpvmlklqkkgigtengvptmviavagiddvlaltayevlf
+    N.striatum-KAG1663789.1           lvvgfllrnvphinvaanlnpqwasalrsialvviliraglgldpqalkqlslvclrlaftpclvetivvavsshlvlgl
+    N.striatum-KAG1694104.1           vtsmvssmnvsakmlplklyqisrkyrdeerpcfgllrgrefymkdlytfdvssedaiktyesvcnayeaifkkleiehi
+    N.striatum-KAG1694103.1           vtsmvssmnvsakmlplklyqisrkyrdeerpcfgllrgrefymkdlytfdvssedaiktyesvcnayeaifkkleiehi
+    P.vannamei-ROT75079.1             etvtvatvthlllgfpwlwglmlgfilsavtpavivpcmiklseegygmdkgiptlviaassvddvlaisgfgvlmgitf
+    N.striatum-KAG1663791.1           lvvgfllrnvphinvaanlnpqwasalrsialvviliraglgldpqalkqlslvclrlaftpclvetivvavsshlvlgl
+    T.californicus-TRY75264.1         twvhlppllgmlitgivlknlpfiefedrwavwsstlrgvalviilmraglgldpealkrlsalvfrlaflpclaetsvv
+    A.amphitrite-KAF0289584.1         lvlclaagwvaalvrlppllgmlimglclanvpglrsvassipegtssllrnmalmviltraglgldaaalrrlslvvlr
+    D.citri-KAI5736882.1              ivvttreialtvilikaglgldakalkklsfvvlklafipciveatgaavccyfilgmpwvwgfllgfvlsavspavvvp
+    D.citri-KAI5704272.1              ivvttreialtvilikaglgldakalkklsfvvlklafipciveatgaavccyfilgmpwvwgfllgfvlsavspavvvp
+    D.citri-KAI5704273.1              lklafipciveatgaavccyfilgmpwvwgfllgfvlsavspavvvptllklssegygeskgistmviaasslddivais
+    D.citri-KAI5742064.1              vtpgvyeeivillreialttilikagmgldaaallklsfvvirlallpclaetagasiaahfildfpwlwglllgfilsa
+    D.kikuchii-KAJ0181768.1           skdrenlpsekngrmsaqaegpsrrksnlhnamqadmdsswdrqghiegrfkkysttssvyskkalshqsehierswwya
+    S.littoralis-CAB3515165.1         enlpsdrmshsslschydsylpsdssletdalnrhwngsvsakaegpsrrksnlhnamaadmdsswdrqthiegrfkkys
+    S.exigua-CAH0700695.1             drngsvsakaegpsrrksnlhnamaadmdsswdrqthiegrfkkysttssvyskkalsqqseyierswwyaccqkchsed
+    S.exigua-KAF9414715.1             ittlpaligmlivgiimknaglvnfdetyqhvasyirkialtiiltragldldpnamkkyfltviklalvpwtfecilca
+    A.plantaginis-CAB3231150.1        erngnvsakaegpsrrksnlhnvmagdmdnswdrqghiegrfkkysttssvyskkaisqqseyierswwyaccakchted
+    B.ino-CAH0726637.1                pggqlfmfavltiaahfggwlmvkvttlpaligmlivgiimknigfvnfdsdyqhvasyvrkialtiiltragldldpga
+    A.plantaginis-CAB3231151.1        ggqlfmlsiltivayfggmllmklttlpaligmlfvgiimknigfvnfdedyqhvtsyirkialtiiltragldldpiam
+    H.armigera-PZC78836.1             gsvsakaegpsrrksnlhnamaadmdtswdrqahiegrfkkysttssvyskkalsqqseyverswwfaccqkchsedagi
+    I.podalirius-CAH2066547.1         nqnqsklnsdsvpaqgtpeegkrkvsimanenskdrenqpsernarvsaqaegpsrrksnlhnamaaemdsswdrpahie
+    I.podalirius-CAH2066549.1         shqsehierswwyaccqkchqeesgvpsweppywqkicpyplcpsyrhvaqtlsvfligvlvwviiwivmgntaapggql
+    I.podalirius-CAH2066551.1         ggqlftlavltiaayfggwimvkvttlpaligmlivgivmknigfvnfdenylhvcsyiragldldpvalkkyfltvikl
+    C.capitata-CAD6994394.1           tavspnvvvtvmlklkeerlglnsgihtliyamtscndvvaiflfgvilsvifstdksltqqilqgpigigigivfgyvy
+    L.cuprina-KAI8130912.1            pnkysanplgssqsfitstkiiaedidlkthcklelhkfpkemtqsqnnineqngssiiltptlltpttdgqhvftnigg
+    G.fuscipes-KAI9577037.1           imllaglglnanafkklwfmilrltliptvaevaiiailgrfllsmpwlwgvclgliitavspnvvvtvmlklkeerlgl
+    A.compressa-KAG7188111.1          nssmsiffvlcvlalgillihlmlqtnfqylpesvvivflgaaigmiinlmshqnianwrkeeafsptafflvllppiif
+    L.yunnana-KAF5289025.1            flwgvtysivgetaapggqlfqlfllticahfggwlislttlpaligmlftgllfqnvgfinfddsfkivtkelrkialv
+    T.longispinosus-TGZ49087.1        gvvysvigndaapggqlfglaalciaahfggwlislttlpaligmlitglilqnvglvkiegqytvvvsnlrkialviil
+    E.burchellii-KAH0956584.1         llwgivysvigddaapggqlfglaalciaahfggwlislttlpaligmlitglilqniglvtiegqyntvianlrkialv
+    C.glomerata-KAH0554196.1          ysvigadaapggplfglatlaiaahfggwlfslttlpaligmlltgfvmqntglvyiegrysevianlrkvalviilira
+    O.biroi-EZA57806.1                lllwgvvysvigddaapggqlfglaalciaahfggwlislttlpaligmlitglilqniglvsiegqytvvvanlrkial
+    A.compressa-KAG7201324.1          mlwgivysiigedaapggplfglaalciaahfggwlfslttlpaligmlitgiilqnvglvsiegrynivvanlrkialv
+    C.congregata-CAG5095999.1         iwgvtysvigadaapggplfglatlaiaahfggwlfslttlpaligmlltgfvmqntglvyiegrysevianlrkvalvi
+    A.echinatior-EGI63990.1           llwgviysiigndaapggqlfglaavciaayfggwlfslttlpaligmlitglilqnvglvkiegqytlvvsnlrkislv
+    P.vanderplanki-KAG5673013.1       leavlremalvnimllaglgldldalrrlfgiimrltliptiaevaiitvcvyyllnfpwlwgvllgfivtaispnvvvs
+    P.vanderplanki-KAG5673012.1       emalvnimllaglgldldalrrlfgiimrltliptiaevaiitvcvyyllnfpwlwgvllgfivtaispnvvvsillnlk
+    E.danica-KAF4525946.1             glnaaalrklscavlrlalgpcgveaatsacaarlllgmpwlwaallgcilaavspavvvpallglkergygedkgistl
+    C.dipterum-CAB3359964.1           psllglkeqgygedkgiatlviaasslddiaaislfgiflgliftdqggnltmlilqgpieifigiafglcygllivyvp
+    D.citri-KAI5704627.1              vtpgveialttilikagmgldaaallklsfvvirlallpclaetagasiaahfilnfpwlwglllgfilsavspavvvpt
+    M.usitatus-KAJ1530432.1           atvrscamtmillraglglnplvlcrlstvvlrvavfpcsveavtvavvshylldlpwqwgfllgfilsavspavlvpsl
+    N.viridula-CAH1388393.1           yldiiiklretaltvilikaglgldapallklslvvlrlaflpcigeavaaafvsyylldypwlwglllgfmlsavspav
+    A.lucorum-KAF6215493.1            ylsefkineisiiyyggvttkkvnplegnsapsllwfssvgtkrakessedvqlmprkgldsrmtkegekapkecevllk
+    V.vulgaris-KAF7383363.1           gllvwgvvysiagkdaapggplfglatlciaahfggwlfslttlpaligmlitgmilknadlisiddryavvvsnlrkia
+    N.striatum-KAG1694102.1           vtsmvssmnvsakmlplklyqisrkyrdeerpcfgllrgrefymkdlytfdvssedaiktyesvcnayeaifkkleiehi
+    C.dipterum-CAB3360254.1           llgmlvvgiiaknvglitvhgeyehvvsdirkvalviiliragldldpsatrklfgtilklalvpwlieccmvailshfl
+    NHA1_prot,size=637,strand=+       knvpynigqfgreecqgnrsvqfadslndldlnstdfkeklmgfdvniekygvlhesmdlpekmgsndfktvgvnsrrrr
+    NHA2_prot,size=656,strand=+       fidiesysgkesgeimnssvldldngtmdrflsgeqnsgvdfssckkkyigheldpvlsrtlrficltvlllmagleldp
+    NHA3_prot,size=1204,strand=+      vdikipqllgmmavgialknvpynqsqfnspecmnisksihdhsdidvnstefvnelggfridpkdvhinhqhsdiaksl
+    NHA4_prot,size=786,strand=+       aecignvsvefadslhnfeinssefdeelmgftvkpsirlhdiygaeaqhsldhtvsenqrissnvdqhevfplndheyn
+    NHA5_prot,size=754,strand=+       cartvlgpysalggtifavfiliffalvagqivlqaaallskmvgfdiripqllgmmavgifcknvpynahefnspecln
+    NHA6_prot,size=708,strand=+       iisklagfdiripqllgmmavgifcknvpynshefnspeclnrslthsdlhedvhgneshlilhgdtdlhhlnvhgkimd
+    NHA7_prot,size=589,strand=-       fksstsndsqsshsehldgegiksmpesddhhhrarrsgghdepavyrdpcvkrfiggdvdptvkgilrstcltvillma
+    NHA8_prot,size=329,strand=+       agalgvlvlafvaglgwrrqgwkednpvsqtlaqmwiifqpllfgligteiqvdkldpetvglgigvlvcglsarlvlsy
+
+    DmelNHA2                          hwvntselvallaiflglwamgwvllpeysqpptvimriaflfvgaqisgilvtfvhlpdmlgmlffgvlyanlglanfe
+    N.striatum-KAG1663790.1           lgfvlsavspavvvpsmisiqekglgcakgiptliiaaasvddvlaisgfgivlgitftegslgwtiakgpievliglay
+    N.striatum-KAG1694105.1           kadgdpgniggqyshefhiiadigqdtvkicsscklginlevtekedehlcsncgnafvqhkcievghtfllsdsyskvf
+    O.gibbosus-KAG8183784.1           gvlmgkgnmewliargpievivgiiygialgiflwyiphpeerktsvfrflllllggmfclfgsqqiewgaagalgcicl
+    N.striatum-KAG1663789.1           pwlwgfmlgfvlsavspavvvpsmisiqekglgcakgiptliiaaasvddvlaisgfgivlgitftegslgwtiakgpie
+    N.striatum-KAG1694104.1           kadgdpgniggqyshefhiiadigqdtvkicsscklginlevtekedehlcsncgnafvqhkcievghtfllsdsyskvf
+    N.striatum-KAG1694103.1           kadgdpgniggqyshefhiiadigqdtvkicsscklginlevtekedehlcsncgnafvqhkcievghtfllsdsyskvf
+    P.vannamei-ROT75079.1             aegslwwiilkgpievvmglvyglgvgalfwvlpnieersaqnlrffllgcagllavfgsqmaqfggagalgclvmafva
+    N.striatum-KAG1663791.1           pwlwgfmlgfvlsavspavvvpsmisiqekglgcakgiptliiaaasvddvlaisgfgivlgitftegslgwtiakgpie
+    T.californicus-TRY75264.1         avashfllgfpwlwgfmlgfvlaavspavvvpcllqlqkegygvakgiptlvmaaasvddvlaisgftivlgitfspdas
+    A.amphitrite-KAF0289584.1         laftpclcetltvgvaahlllgfpwiwafmlgfvlaavspavvvpcllslqqqgygvekgvptlviaaasvddvlaisgf
+    D.citri-KAI5736882.1              tllklssegygeskgistmviaasslddivaisafgiflgfatnvgksdaditnqllqapieislgvlfgivwglisawl
+    D.citri-KAI5704272.1              tllklssegygeskgistmviaasslddivaisafgiflgfatnvgksdaditnqllqapieislgvlfgivwglisawl
+    D.citri-KAI5704273.1              afgiflgfatnvgksdaditnqllqapieislgvlfgivwglisawlphkedkfvvfkrvfmigggglfsvlgsqmigyn
+    D.citri-KAI5742064.1              vspavvvptllelkengygndksistlviaassvddiaaislfgvilgcifsegdltskivqgplevliglawgliwgli
+    D.kikuchii-KAJ0181768.1           ccqkchqedsgipsweppnwqkvcpyplcpsyrqfaqtisviiigllvwlilwivmgdtaapggqlfslavltlaayfgg
+    S.littoralis-CAB3515165.1         ttssvyskkalsqqseyierswwyaccqkchsedsgipsweppnwqkvcpyplcpsyrqfaqniavliigilvwvivwiv
+    S.exigua-CAH0700695.1             sgipsweppnwqkvcpyplcpsyrqfaqniavliigilvwvivwivmgetaapggqlfsfavltiaayfggwlmlkittl
+    S.exigua-KAF9414715.1             vlayfllglpwnwafllssivaavspavivpclfrlrekgygvskgiptlvlavsgvddaasvavfgivssimfssaslt
+    A.plantaginis-CAB3231150.1        sgipsweppnwqkvcpfplcpsyrqfaqnisvliigilvwvtiwiimgdtaapggqlfmlsiltivayfggmllmklttl
+    B.ino-CAH0726637.1                mkkffftvlklalvpwtfecvlcavmsnlllglpwdwaflmgsifaavspavivpclfrlrekgygvskgiptlvlavsg
+    A.plantaginis-CAB3231151.1        kkhfftvvklalvpwtfecllcavlaffflglpwdwafllssivaavspavivpclfrlrekgygvskgiptlvlavsgv
+    H.armigera-PZC78836.1             psweppnwqkvcpfplcpsyrqfaqnvavliigllvwmtlwivmgdtvapggqlfsfavltivayfggwlmqkittlpal
+    I.podalirius-CAH2066547.1         grykkysttssiyskkaqshqsehierswwyaccqkchqeesgvpsweppywqkicpyplcpsyrhvaqtlsvfligvlv
+    I.podalirius-CAH2066549.1         ftlavltiaayfggwimvkvttlpaligmlivgivmknigfvnfdenylhvcsyiragldldpvalkkyfltviklalip
+    I.podalirius-CAH2066551.1         alipwtfecvlcavmanlllglpwdwafllgsiiaavspavivpclfrlrgkgygvskgiptlvlavsgvddaasvavfg
+    C.capitata-CAD6994394.1           glmltilpstktaylnglrfvltvlggtisvmgsrtigypsagalgcmtiaffagigwkgqqqhltpqqlqrqlenenss
+    L.cuprina-KAI8130912.1            saagaegggrevaaatfhddvykgpkiwqylvrnypvtsqplailiifivlwllgyvlmpeyaipstaimrlillivgaq
+    G.fuscipes-KAI9577037.1           ndgihtliyamtacndilaiflfgvmigiifskghlseqllqgpigigiglvygslfglmlqfvpsrnatyanglrfvlt
+    A.compressa-KAG7188111.1          esgynlhkgnffqnigsilvfaifgtaisafvigagiyllglaqvayklsfvesfafgslisavdpvatvaifhaldvdp
+    L.yunnana-KAF5289025.1            iiltragldldphalkklkitvpklglapwlveavitavlshyflnlpwdwclllgtiiaavspavvvpclcrlrgkgyg
+    T.longispinosus-TGZ49087.1        tragldldptalkrlkvtvpklglipwvveatvvatltkylldlpwvwgfllgsviaavspavvvpclfrlrskgygvak
+    E.burchellii-KAH0956584.1         iiltragldldptalkrlkvtvpklglipwvveatvvaaltnylldlpwiwgfllgsiiaavspavvvpclfrlrakgyg
+    C.glomerata-KAH0554196.1          gldldpnalkrqkitlpkiglipwtveatlvavttrylldlpwiwtfligsivaavspavvvpclfrlrrkgygvakgip
+    O.biroi-EZA57806.1                viiltragldldptalkrlkvtvpklglipwvveatviavttkylldlpwvwgfllgsiiaavspavvvpclfrlrakgy
+    A.compressa-KAG7201324.1          iiltragldldpnalkrlkvtvpklglipwvieatvvaaltryllglpwiwgfllgsviaavspavvvpclfrlrekgyg
+    C.congregata-CAG5095999.1         iliragldldpnalkrqkitlpkiglipwtveatlvavttrylldlpwiwtfligsivaavspavvvpclfrlrrkgygv
+    A.echinatior-EGI63990.1           iilvkagldldpvalkklkvtvpklglipwvvetivvavltkylldlpwvwgfllgsviaavspavvvsclfrlrakgyg
+    P.vanderplanki-KAG5673013.1       illnlkeerlglnkgihtviiavtscndviaiflfgvvlgiafstgnlthqllqgpvgivmgcvfgalsglvvlkfpsdk
+    P.vanderplanki-KAG5673012.1       eerlglnkgihtviiavtscndviaiflfgvvlgiafstgnlthqllqgpvgivmgcvfgalsglvvlkfpsdkskyang
+    E.danica-KAF4525946.1             viaassiddiaaisafgiflgiifaegsltrqilqgpleviigltyglcygfmliyvphakasmaaswrallvaaggvma
+    C.dipterum-CAB3359964.1           hreesnvkiwrillllgggilsvlgserigfggagplglivaafvassgwfsnpnnanitktvegffstawvifqpilfg
+    D.citri-KAI5704627.1              llelkengygndksistlviaassvddiaaislfgvilgcifsegdltskivqgplevliglawgliwglilacfpnrld
+    M.usitatus-KAJ1530432.1           ltlqsngygenkgiatlviaassldniyaitifgiflsaifsqgsimelvvqgplevligiiwgiligvisiyiphsdek
+    N.viridula-CAH1388393.1           vvpvllslqergygeskgistlviaasslddivaisvfgvflgmifstgdltqqilqgpiemliglafgvfwglvasfip
+    A.lucorum-KAF6215493.1            gpeseagaqivpavngsplkketveqrkcgcgggvvklissqgnlgntwfltigsllvilaltwgvlyvllldeaapggd
+    V.vulgaris-KAF7383363.1           lviiltragldldpvalkrlkitvpklglipwfveagmiavltryliglpwiwglllgsiiaavspavvvpclfrlrerg
+    N.striatum-KAG1694102.1           kadgdpgniggqyshefhiiadigqdtvkicsscklginlevtekedehlcsncgnafvqhkcievghtfllsdsyskvf
+    C.dipterum-CAB3360254.1           ldlpwgwafmlgsieaavspavvvpgllrlrlkgfgvakgiptlilavtgiddafsvaafgvissvmltsgsllytvtlg
+    NHA1_prot,size=637,strand=+       ssgshpeptliqekydpcrkkyigheldplisrslrticltvillmagleldpvalwnlsgmvvratfvpcfveaiavav
+    NHA2_prot,size=656,strand=+       dalwnlsgmviratfipciveamsvaifshlilgfpwtvgwmlgfvlaavspaviipsllslsergygvakgiptlviaa
+    NHA3_prot,size=1204,strand=+      knidninlhgensvdtenhpnsgpshhtgvesisnnedhadqnktdaskqepdneekhglnhveekevshdishdsnvkt
+    NHA4_prot,size=786,strand=+       pstaddtlsnvvqkstpyqerlqgiiqnhidtltkigelhqeltkpttpsdedvigskhpkmnvfkspkwptdhsseeni
+    NHA5_prot,size=754,strand=+       rslahgnlykelhgndshlidheglnlhsddpnahgvmmdvhaslkeghsaivdhlekttdnpkfsttakifhakakefk
+    NHA6_prot,size=708,strand=+       ihasfneghakivehlknstfsstaeinhndhpesigstnnthedkldthtngegfkpipdsenhhhrarrsgghdepvv
+    NHA7_prot,size=589,strand=-       gleldppqlwrlkwivlrttfipciveafaaslfcylilgfpflpglcfgfvlcgvspaviipglvnlsqrgygvkkgip
+    NHA8_prot,size=329,strand=+       isvlggdvnhrermfialawlpkatvqaaigplaldlatqalrkagmdgenlpelneqlelaekvltlavlvilitapig
+
+    DmelNHA2                          gyqkfelflremalinimllaglgldgdafkrlwfmilrltllptivevaaiaglanltlsmpwlwgialglvitavspn
+    N.striatum-KAG1663790.1           giflgvtlwvipyrskenkyiyrflllstggtvavfgsriasfggagalgclilsfvaavgwkkedinesdqvahifanl
+    N.striatum-KAG1694105.1           ganlkskplqmgcygigvtrllaaavevlstennirwpkaispyqiciippkrgskeeaakdmaghlyqilsssypedvi
+    O.gibbosus-KAG8183784.1           pfvaairwkkhkdwddeenpvgealafiwkiiepflfgligseiklemlkptlvglslatmfialffrmaasmlaawtag
+    N.striatum-KAG1663789.1           vliglaygiflgvtlwvipyrskenkyiyrflllstggtvavfgsriasfggagalgclilsfvaavgwkkedinesvcl
+    N.striatum-KAG1694104.1           ganlkskplqmgcygigvtrllaaavevlstennirwpkaispyqiciippkrgskeeaakdmaghlyqilsssypedvi
+    N.striatum-KAG1694103.1           ganlkskplqmgcygigvtrllaaavevlstennirwpkaispyqiciippkrgskeeaakdmaghlyqilsssypedvi
+    P.vannamei-ROT75079.1             gigwrrqgmsednnpvddkllimwelfqpflfsligaeiqvseldigtvgwglvtlaiglvfrmatsflvvmggnlnike
+    N.striatum-KAG1663791.1           vliglaygiflgvtlwvipyrskenkyiyrflllstggtvavfgsriasfggagalgclilsfvaavgwkkedinesvcl
+    T.californicus-TRY75264.1         lvqlafqgpleaaigvasgivgglvviflphqamdsyglarfsllvggclvclfgsklvhfpgagalavlvmsfvagfgw
+    A.amphitrite-KAF0289584.1         gvllgvnfsrgaltekllsgplevvmglgygvvggvllwylpgasnsrlallrlllltctgllalfgsqkvgyagagala
+    D.citri-KAI5736882.1              phkedkfvvfkrvfmigggglfsvlgsqmigyngagplsciisafvaclcwkwqgwsdsynpvatafsglwlimqpalfg
+    D.citri-KAI5704272.1              phkedkfvvfkrvfmigggglfsvlgsqmigyngagplsciisafvaclcwkwqgwsdsynpvatafsglwlimqpalfg
+    D.citri-KAI5704273.1              gagplsciisafvaclcwkwqgwsdsynpvatafsglwlimqpalfgligaeidlsqidatqigqglivlagglafraia
+    D.citri-KAI5742064.1              lacfpnrldknvitkrclmlgsvcslavlgsqvidlagagplgcittafiagvcwklqgwthqynpvadkfasvwnviqi
+    D.kikuchii-KAJ0181768.1           wlmmkittlpaligmlimgivmknlgfvnfdpqfqkvssyirkialtiiltragldldpialkkffftviklalvpwtfe
+    S.littoralis-CAB3515165.1         mgetaapggqlfsfavltiaayfggwlmlkittlpaligmlivgiimknvglvnfdetyqhvasyirkialtiiltragl
+    S.exigua-CAH0700695.1             paligmlivgiimknaglvnfdetyqhvasyirkialtiiltragldldpnamkkyfltviklalvpwtfecilcavlay
+    S.exigua-KAF9414715.1             mnviqgplsviggivlgilcgylvkfvperndaflvplrvilllagglmmvlgseeigwggagplaviafafvacknwtd
+    A.plantaginis-CAB3231150.1        paligmlfvgiimknigfvnfdedyqhvtsyirkialtiiltragldldpiamkkhfftvvklalvpwtfecllcavlaf
+    B.ino-CAH0726637.1                iddaasvavfgivssimfsnsslttniiqgpvsiiggiafgvfcgylvkyipekndaflvpirvllllagglmsvlgsee
+    A.plantaginis-CAB3231151.1        ddaasvavfgiilsimfstvsvtmniiqgplsiiggivlgvvcgylvkyiperndaflvplrvlliligglamvlgseei
+    H.armigera-PZC78836.1             igmlimgivmknvglvnfddtfqtvasyirkialtiiltragldldpsamkkyfltviklalvpwtfecilcailayffl
+    I.podalirius-CAH2066547.1         wviiwivmgntaapggqlftlavltiaayfggwimvkvttlpaligmlivgivmknigfvnfdenylhvcsyiragldld
+    I.podalirius-CAH2066549.1         wtfecvlcavmanlllglpwdwafllgsiiaavspavivpclfrlrgkgygvskgiptlvlavsgvddaasvavfgivss
+    I.podalirius-CAH2066551.1         ivssimfanssvtmniiqgpmsviggiafgvfcgylvkyiperndaflvplrvllllagglmsvlgseeigwggagplav
+    C.capitata-CAD6994394.1           vparldllwkflkpvsfsligkeinfdvldgrvvgygallvllgslfrlafaylstyggnltrkerayitisgfpkatvq
+    L.cuprina-KAI8130912.1            iagilvtfiklpdmlgmlffgvlytnvgladfsgyqkleaflremalinimllagfgldanafkklwfmilrltliptia
+    G.fuscipes-KAI9577037.1           vlggtisvmgskaidytsagalgcvtlafiagigwrrqqlkltveerhanenstvakrldllwkflkpvsfaligkeinf
+    A.compressa-KAG7188111.1          ilnmlvfgesilndaisivlttsvlesnnatttseaiilglnrfclmffasagigvvfalisalllkhmdlrknpslefg
+    L.yunnana-KAF5289025.1            vakgiptliiavagiddaasvagygiiqsimfshesltnqilqgpicllggigfgviwgaisnyipekhdpfvvplrilm
+    T.longispinosus-TGZ49087.1        giptliiavagiddaasvavfgivksvmfshdalwyqilqgpiaiigglgfgimwgwlakyvpekgdpfmvplrvlmllg
+    E.burchellii-KAH0956584.1         vakgiptliiavagiddaasvaiygivksvmfsqdalwyqilqgpiaivgglgfgimwgwlakyvpekgdpfivplrvlm
+    C.glomerata-KAH0554196.1          tliiaiagiddaasvaifgiiksvlfshdslwyqilqgpisiigglgfgilwgylskyvpekgdpykiplrvlmllfggl
+    O.biroi-EZA57806.1                gvakgiptliiavagiddaasvaiygiiksvmfshdalwyqilqgpiaivgglgfgimwgwlakyvpekgdpfivplrvl
+    A.compressa-KAG7201324.1          vakgiptliiavagiddaasvaiygivksvmfshdalwyqilqgpiaivgglgfgvlwgwlakyvpekgdpfmvplrvlm
+    C.congregata-CAG5095999.1         akgiptliiaiagiddaasvaifgivksvlfshdslwyqilqgpisiigglgfgilwgylskyvpekgdpykiplrvlml
+    A.echinatior-EGI63990.1           vakgiptliiaisgiddavsvavfsivksvmfshdalwyqilqgpisiigglgfgvvwgwlakyvpekgdpfivplrvlm
+    P.vanderplanki-KAG5673013.1       skyanglrfttivlsgalsvmgskylgypsagalgcisasfvagtgwrrhkkrnaafatevesyldllwkflkpvsfsli
+    P.vanderplanki-KAG5673012.1       lrfttivlsgalsvmgskylgypsagalgcisasfvagtgwrrhkkrnaafatevesyldllwkflkpvsfsligkevdf
+    E.danica-KAF4525946.1             vlgsqsigfdgagplgcitaafvaacgwraqdststapveetfsqlwllfqpvlfgligteiviseldrstvvlglcvll
+    C.dipterum-CAB3359964.1           ligteikfseletstlllglavlffglclrvatvwiitvngilslkerlfvsiawfpkatvqallapialdlaretnape
+    D.citri-KAI5704627.1              knvitkrclmlgsvcslavlgsqvidlagagplgcittafiagvcwklqgwthqynpvaehfasvwnviqitlfgligae
+    M.usitatus-KAJ1530432.1           sviklrtimvcasgllavlgsqlvgyagagplgcivgafvagcgwrafsststyepvmlhlteywlllqpflfgligtei
+    N.viridula-CAH1388393.1           hrsdnyvtakrsvmigagglcavlgselihysgagplacivasfiaclswklqgwssshnpvadvfsvvwqilqpmlfgl
+    A.lucorum-KAF6215493.1            lfkllilivsayfagqlvalcklppllgmliagialrtcgfykiggvyleiviklreaalttilikaglgldapallkls
+    V.vulgaris-KAF7383363.1           ygvakgiptliiavagiddaasvaiygivksvmfshdalwyqilqgpiaivgglgfgilwgclakyvpekgdpfmvplrv
+    N.striatum-KAG1694102.1           ganlkskplqmgcygigvtrllaaavevlstennirwpkaispyqiciippkrgskeeaakdmaghlyqilsssypedvi
+    C.dipterum-CAB3360254.1           pasvllgvayglvwgnmtrfvpkqhdpyavhlrvlllffgglmavlgsekigyegagplgvilasyicgciwmeqgweve
+    NHA1_prot,size=637,strand=+       fsnlilgfpwsvgfmlgfvlaavspaviipslmnlsergygvakgiptlviaacsaddvvaisgfgiflgitfnadapvl
+    NHA2_prot,size=656,strand=+       csaddvvaisgfgiflgitfnanaplidlilhgpmevaigvsgglvwgglaqwipnqhsphvaffrfiilffgglisqfg
+    NHA3_prot,size=1204,strand=+      vqqekhnhgddqtkdehghhitteekeevkhmqvsimkdhnhtvqqeenihhekevmnipvhrtpdnhhmiqqeedsnns
+    NHA4_prot,size=786,strand=+       lnlmdsrhkrtlrsehaeestslpedsckkrfigheldpllsrtlrsicltvillmagleldppalwrlkwivlrttfip
+    NHA5_prot,size=754,strand=+       spsnasqalkshgegfkpipdsetlhhrarrsgghdepavyrdpcvkrfigndvdptvktilrsacltcillmagleldp
+    NHA6_prot,size=708,strand=+       yrdpcvkrfigndvdptvktilrsacltcillmagleldppqlwrlkwivlrttfipciveafaaalfcylilgfpflpg
+    NHA7_prot,size=589,strand=-       tlviatcsaddlvaiggfgiaagitfnpdasisdlashgplevllgiafgifwgyicqwfpskqnanhvffrwvlltagg
+    NHA8_prot,size=329,strand=+       avaimasgpr NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+
+    DmelNHA2                          vvvtvmlklkedrlglnsgihtliyamttcndvvaifmfgviisvifsttsltqqvlqgpigigiglvfgylygsmlqyl
+    N.striatum-KAG1663790.1           wyffqpilfgligaeitvdnldastvgygiavlsiglffriiasffvvlgagltmkerlfialawlpkatvqaaigpval
+    N.striatum-KAG1694105.1           iddrddmtigqrllyakrlgfpyvlicgkhvlkstpriefidiygdktdlfthsellnklvqmkgskmgecdeksnkniv
+    O.gibbosus-KAG8183784.1           lsfkeqvfvtfaglpkatvqaaigpqalnyvrgdeelagqkdliahatmiltvavlaiiifaplgsvlisilaprllskp
+    N.striatum-KAG1663789.1           npydnassglahifanlwyffqpilfgligaeitvdnldastvgygiavlsiglffriiasffvvlgagltmkerlfial
+    N.striatum-KAG1694104.1           iddrddmtigqrllyakrlgfpyvlicgkhvlkstpriefidiygdktdlfthsellnklvqmkgskmgecdeksnkniv
+    N.striatum-KAG1694103.1           iddrddmtigqrllyakrlgfpyvlicgkhvlkstpriefidiygdktdlfthsellnklvqmkgskmgecdeksnkniv
+    P.vannamei-ROT75079.1             rifvalawvpkatvqaaigsqaldfaeksgagpeivrlgeqvltitvlvilitaplgavaimlsapkllskgktkdtldl
+    N.striatum-KAG1663791.1           npydnassgcqmiiflfiymklkkgfrkssfkcilvyeivlhsigygiavlsiglffriiasffvvlgagltmkerlfia
+    T.californicus-TRY75264.1         rkqgwsddnlvskylshlwmifqpllfgligteikvgeidqstiglglavvlisltvrvivsflsvtdrklnlrervfia
+    A.amphitrite-KAF0289584.1         altlafvaghgwrrsgwtgdtnpvsdaysvlwfvfqpllfgligaeiqvnalradtvglgllvlfigltvrmavtffvvl
+    D.citri-KAI5736882.1              ligaeidlsqidatqigqglivlagglvfraiacttcllgtnlnwkemifvniawlpkatvqaalgsvaldilknnsppp
+    D.citri-KAI5704272.1              ligaeidlsqidatqigqglivlagglafraiacttcllgtnlnwkemifvniawlpkatvqaalgsvaldilknnappp
+    D.citri-KAI5704273.1              cttcllgtnlnwkemifvniawlpkatvqaalgsvaldilknnapppadsveyptylqelsfgrgvltiavlsilvtapv
+    D.citri-KAI5742064.1              tlfgligaeidllemdvkvvmagavvllcgltfritacaialigaklnmkevlfvnlawlpkatvqaalapvalnlvnkl
+    D.kikuchii-KAJ0181768.1           cvlcavmsyfllglpwdwafllgsivaavspavivpclfrlrekgygvskgiptlvlavsgvddaasvaifgivssvmfs
+    S.littoralis-CAB3515165.1         dldpnamkkyfltviklalvpwtfecvlcavlayfllglpwnwafllssiiaavspavivpclfrlrekgygvskgiptl
+    S.exigua-CAH0700695.1             fllglpwnwafllssivaavspavivpclfrlrekgygvskgiptlvlavsgvddaasvavfgivssimfssasltmnvi
+    S.exigua-KAF9414715.1             lgwelednpvatafeifwmffepmlfavtgaqvviadlephlvligggilvlcavlraivtstcavrsnlnmkekifvgl
+    A.plantaginis-CAB3231150.1        fflglpwdwafllssivaavspavivpclfrlrekgygvskgiptlvlavsgvddaasvavfgiilsimfstvsvtmnii
+    B.ino-CAH0726637.1                igwggggplaviafafvackewveqgwelednpvatafeifwmffepmlfavtgaqiviadlpphlvlvsagiimtciil
+    A.plantaginis-CAB3231151.1        gwggsgplaviaysffacknwtelgwelednpvatafevfwmffepmlfavtgaqvvivelephlvlvgggilvacvvlr
+    H.armigera-PZC78836.1             glpwnwafllssiiaavspavivpclfrlrakgygvskgiptlvlavsgvddaasvavfgtivsimfsnasltmniiqgp
+    I.podalirius-CAH2066547.1         pvalkkyfltviklalipwtfecvlcavmanlllglpwdwafllgsiiaavspavivpclfrlrgkgygvskgiptlvla
+    I.podalirius-CAH2066549.1         imfanssvtmniiqgpmsviggiafgvfcgylvkyiperndaflvplrvllllagglmsvlgseeigwggagplaviafg
+    I.podalirius-CAH2066551.1         iafgfiacknwaeqgwelednpvatafeifwmffepmlfsvtgaqvviaeldshlvlvgggilitcvvlramltsasavr
+    C.capitata-CAD6994394.1           aalgplaldmarslkgvdeqsinlasnvliisvlaiiftaplgavlmlrlaplwlqrsdvhgegngnsnsrdcdvnefvs
+    L.cuprina-KAI8130912.1            evaiitvlahfllnmswlwgillglvitavspnvvvtvmlklkeerlglnngihtliyamttcndvvaiflfgvfcgvif
+    G.fuscipes-KAI9577037.1           avlnakvvsygallvllgslsrlvfayvstygghltkkerayitisgfpkatvqaalgpialdlarslnasadklllasn
+    A.compressa-KAG7188111.1          imlvftyapyvlaegiqlsgimailfngivmshythfnlstvtqitmqqtmrtlafiaetcvfaylglalfsfrhrvepa
+    L.yunnana-KAF5289025.1            llsggliavfgseligyegagplgcvaaafvslcfwtkqgwevednpantafeifwmifepilfgitgaqikfselkvev
+    T.longispinosus-TGZ49087.1        ggllavfgseaielggagplavvaaafvscyfwqqegwdvddnpvatsfeifwmifepilfgvtgtqikinelegktvxl
+    E.burchellii-KAH0956584.1         llgggllavfgseaielggagplavvaaafvscyfwqqegwevddnpvatafeifwmifepilfgvtgtqirikelegkt
+    C.glomerata-KAH0554196.1          isvfgseaielggagplavvaaafvscyfwqeegwdvednpvaiafeifwmifepilfgitgtqikidelegetiylsvg
+    O.biroi-EZA57806.1                mllgggllavfgseaielggagplavvaaafvscyfwqqegwevddnpvatsfeifwmifepilfgvtgtqirinelegk
+    A.compressa-KAG7201324.1          llgggllavfgseaielggagplavvaaafvscyfwqkegwevddnpvatsfeifwmifepilfgvtgtqikidmlegkt
+    C.congregata-CAG5095999.1         lfgglisvfgseaielggagplavvaaafvscyfwqeegwdvednpvaiafeifwmifepilfgitgtqikidelegeti
+    A.echinatior-EGI63990.1           llgggllavfgseaielggagplavvaaafvscyfwrqdgwdmddnpvatsfeifwiifesilfgltgtqikiselegkt
+    P.vanderplanki-KAG5673013.1       gkevdfkvldgnivlygmvaliagvvfrlvsgylsfcggnmnskekayitlsgfpkatvqaalgpvaldlaraqkvddat
+    P.vanderplanki-KAG5673012.1       kvldgnivlygmvaliagvvfrlvsgylsfcggnmnskekayitlsgfpkatvqaalgpvaldlaraqkvddatyslans
+    E.danica-KAF4525946.1             cgltlrivavglvtmggflslkeqlfvtiawlpkatvqaalapvaldiarqtgaseevielaeqvltvavlsilvtapig
+    C.dipterum-CAB3359964.1           emihlgeqvltiavlsilvtapigavaikfsgprllnqmkneqs  NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    D.citri-KAI5704627.1              idllemdvkvvmagavvllcgltfritacaialigaklnmkevlfvnlawlpkatvqaalapvalnlvnklnmedtpeht
+    M.usitatus-KAJ1530432.1           disslggnslqvaglsaavitigvvvrmlaccisvqgcglnfqetlfvglswlpkatvqaaigpvaldlarsiafnqeqn
+    N.viridula-CAH1388393.1           igaeidltilelhtvalgllviigalvfrvivcctvllgsklnwkeilfvnlawlpkatvqaalgpealdqvrtqenpdp
+    A.lucorum-KAF6215493.1            ftvlklafvpclaeaaaaavvahvcfdypyfwgfmlgfmlsavspavvvptllslkaegygeskgistlviaasglddiv
+    V.vulgaris-KAF7383363.1           lmllgggmvavfgseaielggagplavvaaafvscyfwqkdgwevddnpvatsfeifwmifepilfgitgtqitiaelkg
+    N.striatum-KAG1694102.1           iddrddmtigqrllyakrlgfpyvlicgkhvlkstpriefidiygdktdlfthsellnklvqmkgskmgecdeksnkniv
+    C.dipterum-CAB3360254.1           enpvaisfevfwlifepilfgmtgtqidfsqidpkilwkailcigvaafirifftiiiaigsrlnlkekifisfswmaka
+    NHA1_prot,size=637,strand=+       dlalhgpievaiglsfgigwgilaqwipnqhhknmvffrflilfsgglialfgaglihydgagglaaiimafvagmrwrk
+    NHA2_prot,size=656,strand=+       allinydgagslaviimafvaslrwrkegwgdhnpvsltfrklwiileavifsligteiqidkidtesmwngilvlclal
+    NHA3_prot,size=1204,strand=+      ehshdehnhsivhdkkeeikntpvhctpdqhhmiqqeehsnnsehshdehyhhemhekkedikntpvhitpdrnytiqqe
+    NHA4_prot,size=786,strand=+       clveafaaslfcylilgfpflpglcfgfvlcgvspaviipglvnlsqrgygvkkgiptlviatcsaddlvaiggfgialg
+    NHA5_prot,size=754,strand=+       pqlwrlkwivlrttfipciveafaaalfcylilgfpflpglcfgfvlcgvspaviipglvnlsqrgygvkkgiptlviat
+    NHA6_prot,size=708,strand=+       lcfgfvlcgvspaviipglvnlsqrgygvkkgiptlviatcsaddlvaiggfgiaagitfnpdasisdlashgplevllg
+    NHA7_prot,size=589,strand=-       lfalfgahmvhydgagglacvimafvasiqwrregwgdhnpvtdiynkvwiilspvifsligtninaekmdgatvglgva
+    NHA8_prot,size=329,strand=+       NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+
+    DmelNHA2                          psrnatyanglrfvltilggtiavmgsrvigytsagalgcvttafiarigwrreetrltpqqlqaqqiasvpkrldlmwk
+    N.striatum-KAG1663790.1           dlaraqadkelehyglqvltisvlvilitapigaaaialsapklltpqreasndeeksv  NANANANANANANANANANANANANANANANANANANA
+    N.striatum-KAG1694105.1           geemkplnpdndeqtdvissntipitgaleevkfsekcrsrqskmkclccqhdsgsvnnfnfvieklylceimcvillwm
+    O.gibbosus-KAG8183784.1           tnndveksktsvpaimdsipmyqqnssydiknenrlsnpensnsrehqnnqyssssvcsqnwrniennsnvntsekl  NA
+    N.striatum-KAG1663789.1           awlpkatvqaaigpvaldlaraqadkelehyglqvltisvlvilitapigaaaialsapklltpqreasndeeksv  NANA
+    N.striatum-KAG1694104.1           geemkplnpdndeqtdvissntipitgaleevkfsekcrsrqskmkclccqhdsgsvnnfnfvieklylceimcvillwm
+    N.striatum-KAG1694103.1           geemkplnpdndeqtdvissntipitgaleevkfsekcrsrqskmkclccqhdsgsvnnfnfvieklylceimcvillwm
+    P.vannamei-ROT75079.1             pdglpdp  NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    N.striatum-KAG1663791.1           lawlpkatvqaaigpvaldlaraqadkelehyglqvltisvlvilitapigaaaialsapklltpqreasndeeksv  NA
+    T.californicus-TRY75264.1         lawipkatvqaaigpvaydtalnleprrsdyidlghqlltiavlvilvtapigaiaimttaprlltkqgkppssa  NANANA
+    A.amphitrite-KAF0289584.1         gggltvkerlfvtlawlpkatvqaaigpvaldfarqyaptpeniglgeqvvaiavlvilvtaplgaaaimlsaprllska
+    D.citri-KAI5736882.1              adsveyptylqelsfgrgvltiavlsilvtapvgaigiafsgtrlltnepskeknqqpsnsqiaasidhldv  NANANANANANA
+    D.citri-KAI5704272.1              adsveyptylqelsfgrgvltiavlsilvtapvgaigiafsgtrlltnepskeknqqpsnsqiaasidhldv  NANANANANANA
+    D.citri-KAI5704273.1              gaigiafsgtrlltnepskeknqqpsnsqiaasidhldv  NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    D.citri-KAI5742064.1              nmedtpehnyatsiltiavlsilitaplgsigitwggtrllhksevair  NANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    D.kikuchii-KAJ0181768.1           nssltmniiqgpmsifggiafgiicgylvkfiperndaflvplrvmlllagglmsvlgseeigwggagplavivfafvac
+    S.littoralis-CAB3515165.1         vlavsgvddaasvavfgivssimfssasltmnviqgplsviggivlgvlcgylvkfvperndaflvplrvilllagglmm
+    S.exigua-CAH0700695.1             qgplsviggivlgilcgylvkfvperndaflvplrvilllagglmmvlgseeigwggagplaviafafvacknwtdlgwe
+    S.exigua-KAF9414715.1             awmakatvqaalgpvaldevrkmaggepdpvmieyaetvitvcimsivitapigaivitltgpkllsrttkppvlegkiy
+    A.plantaginis-CAB3231150.1        qgplsiiggivlgvvcgylvkyiperndaflvplrvlliligglamvlgseeigwggsgplaviaysffacknwtelgwe
+    B.ino-CAH0726637.1                ralltsvsavrsnlnmkekifvgfawmakatvqaalapvaldevrkmagddeskiellnyaemvftvcimsivitapiga
+    A.plantaginis-CAB3231151.1        aivtsacavrsnlnmkekvfvglswmakatvqaalgpvaldevrkmagiepdpvlvgyaetvltvcimsivitapigaii
+    H.armigera-PZC78836.1             lsvvggivlgvlcgylvkfvperndaflvplrvlmllmgglmmvmgseeigwagagplaviafafvacknwtemgweled
+    I.podalirius-CAH2066547.1         vsgvddaasvavfgivssimfanssvtmniiqgpmsviggiafgvfcgylvkyiperndaflvplrvllllagglmsvlg
+    I.podalirius-CAH2066549.1         fiacknwaeqgwelednpvatafeifwmffepmlfsvtgaqvviaeldshlvlvgggilitcvvlramltsasavrsnln
+    I.podalirius-CAH2066551.1         snlnmkekvfvglawmakatvqaalgpvaldevrkmsgddeskaelikyaeivvtvcimsivvtaplgamvitvtgprll
+    C.capitata-CAD6994394.1           sksnntdspddtlkiskkiaqslsqagsktqnngssnslkgavdvytvdgdgdgngdagqvsrtqspwakederkasrh 
+    L.cuprina-KAI8130912.1            stgtlteqilqgpigigigivfgyvyglmlqylpsrnaiyvnglrfvltvlggtiavmgsktigypsagalgcvtvafia
+    G.fuscipes-KAI9577037.1           vliisvlaiiftaplgailmlrlaprwlkhtplegshpyafdnpaqysvedntidtvceqchrvepissqkrrnslnv  
+    A.compressa-KAG7188111.1          livwsiilcligraanifplallvnrfrehqitkkmmfimwfsglrgaisyalslhldfsdetrhviitttliivlfttl
+    L.yunnana-KAF5289025.1            vtiglgilvagcliricatvlvgigsklnlkekifvalswmakatvqaalgplalvvvgdkepereyaekilmicvlsim
+    T.longispinosus-TGZ49087.1        glgclvagivirigatvlvgigsklnlkekvfialswmakatvqaalgpvtldevdkndqqqveyaetvlmmcvlsvllt
+    E.burchellii-KAH0956584.1         vylglgcllagivirisatvlvsigsklnlkekvfialswmskatvqaalgpvtldevdkndekqfeyaqtvlmmcvlsv
+    C.glomerata-KAH0554196.1          clliaiilrivvtfvvsfkskvnnkekifialacmakatvqaalgpvaldfvkkddieqkryaettltfcilsilltapt
+    O.biroi-EZA57806.1                tvylglgcllagivirisatvlvsigsklnlkekvfialswmskatvqaalgpvtldevdkndekqleyaqtvlmmcvls
+    A.compressa-KAG7201324.1          vylalsclvagiviriaatilvgigsklnlkekvfialswmakatvqaalgpttldevnaddpvqvayaetvlticvlsi
+    C.congregata-CAG5095999.1         ylsvgclliaitlrivvtfvvsfkskvnnkekifialacmakatvqaalgpvaldfvkkddieqkryaettltfcilsil
+    A.echinatior-EGI63990.1           vyialgcllvgivirigitivlgigsklnfkekmfialalmskatvqaalapvtldevdkndheqveyaeivlmmcvlsv
+    P.vanderplanki-KAG5673013.1       yslansvlvisvlaiistaplgallmtklapkwlkkgnsdenet  NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    P.vanderplanki-KAG5673012.1       vlvisvlaiistaplgallmtklapkwlkkgnsdenet  NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    E.danica-KAF4525946.1             aigisvsgprllnasrp  NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    C.dipterum-CAB3359964.1           NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    D.citri-KAI5704627.1              yatsiltiavlsilitaplgsigitwggtrllhksevair  NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    M.usitatus-KAJ1530432.1           ihlaekvlmiavlsviltapigaigilgagpllltrskteesiiekksededhpdaelqevl  NANANANANANANANANANANANANANANANA
+    N.viridula-CAH1388393.1           ldmkrgaqmltiavlsilltapigsigisvtgplllsnepvknkekavavnetsmhmsegtehanakesgvgtsv  NANANA
+    A.lucorum-KAF6215493.1            aislfgvfqgmiftpgsiasqvsvgpiemvmglsvgilwglfiafvphrddayvtakrtillgagslgavlgsekihygg
+    V.vulgaris-KAF7383363.1           ktvylgiscliagiviriivtifvgigsklntkekvfislswmakatvqaalgpvtldevnrdnveqveyantvltlcvl
+    N.striatum-KAG1694102.1           geemkplnpdndeqtdvissntipitgaleevkfsekcrsrqskmkclccqhdsgsvnnfnfvieklylceimcvillwm
+    C.dipterum-CAB3360254.1           tvqaalgpvaidlvrehgseeekeyarsllmvcvlsilltapvgavtialtgprllkrttatmpegwrrhtrpslrdisl
+    NHA1_prot,size=637,strand=+       egwgdhnpvsktfrkmwiilepvifaligteiqidkidpatlglgilvlvlaltlrmigtffavscgnlnfkekifmafa
+    NHA2_prot,size=656,strand=+       ilrmistyfavscgnlnvkekifmafawfpkatvqaaigtvfldfaimngrtdlipmgeqvltlavlsilitaplgaigi
+    NHA3_prot,size=1204,strand=+      edtsrneyshdaqdvihkkieevkhtpvhttpdhnnkyeqlvnndnpinetnihslakeekdevthvephslqdhndkkv
+    NHA4_prot,size=786,strand=+       itfnpdasitdlashgpievtmgigfgifwgyvcqwlpsrhnkdyilfrfiilfcgglfalfgahlihydgagglacvim
+    NHA5_prot,size=754,strand=+       csaddlvaiggfgiaagitfnpdasisdlashgplevllgiafgifwgyicqwfpskqyenyvffrwvlltaggafalfg
+    NHA6_prot,size=708,strand=+       iafgifwgyicqwfpskqnanyvffrwviltagglfalfgahmihydgagglacvimafvasiqwrregwgdhnpvtdiy
+    NHA7_prot,size=589,strand=-       vlfccfitrsfftfwsavcggletkeklflsiswlpkatvqaalgpvflekaiyagiteyipmgetiltlavlsiaisap
+    NHA8_prot,size=329,strand=+       NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+
+    DmelNHA2                          flkpvsfaligkeinfnvlqghvigygallvlvgslfrlafaylstyggnlsrkerayitisgfpkatvqaalgpvaldm
+    N.striatum-KAG1663790.1           NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    N.striatum-KAG1694105.1           slysiigcqllpeghlfalfilivcciiggnlisllhfppllgmllvgfllrnvphinvaanlnpqwasalrsialvvil
+    O.gibbosus-KAG8183784.1           NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    N.striatum-KAG1663789.1           NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    N.striatum-KAG1694104.1           slysiigcqllpeghlfalfilivcciiggnlisllhfppllgnfflyfsmllvgfllrnvphinvaanlnpqwasalrs
+    N.striatum-KAG1694103.1           slysiigcqllpeghlfalfilivcciiggnlisllhfppllgnfflyfsmllvgfllrnvphinvaanlnpqwasalrs
+    P.vannamei-ROT75079.1             NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    N.striatum-KAG1663791.1           NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    T.californicus-TRY75264.1         NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    A.amphitrite-KAF0289584.1         sqvgpddkevqkvangdnta  NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    D.citri-KAI5736882.1              NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    D.citri-KAI5704272.1              NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    D.citri-KAI5704273.1              NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    D.citri-KAI5742064.1              NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    D.kikuchii-KAJ0181768.1           knwaelgwelednpvatafeifwmfvepmlfaitgaqvviedlephlvligsgilgtcvilravltstcavrsnlnmrek
+    S.littoralis-CAB3515165.1         vlgseeigwggagplaviafafvacknwtdlgwelednpvatafeifwmffepmlfavtgaqvviadlephlvligggil
+    S.exigua-CAH0700695.1             lednpvatafeifwmffepmlfavtgaqvviadlephlvligggilvlcavlraivtstcavrsnlnmkekifvglawma
+    S.exigua-KAF9414715.1             ytlyfv  NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    A.plantaginis-CAB3231150.1        lednpvatafevfwmffepmlfavtgaqvvivelephlvlvgggilvacvvlraivtsacavrsnlnmkekvfvglswma
+    B.ino-CAH0726637.1                ivititgprllskttkppvlegwrrshrpsirdisiideediaerdaeaeagtqhsppvspiptavpnaistpnpitvqp
+    A.plantaginis-CAB3231151.1        itlmgpkllsrttkppvlegwrrshrpsirdisiideeevaerdaeaeaqtsvpgspatpaaystpapitvqpanhs  NA
+    H.armigera-PZC78836.1             npvatafevfwmffepmlfavtgaqvviaeleprlvmigggilitcvilrsivtsvcavrsnlnmrekifvglawmakat
+    I.podalirius-CAH2066547.1         seeigwggagplaviafgfiacknwaeqgwelednpvatafeifwmffepmlfsvtgaqvviaeldshlvlvgggilitc
+    I.podalirius-CAH2066549.1         mkekvfvglawmakatvqaalgpvaldevrkmsgddeskaelikyaeivvtvcimsivvtaplgamvitvtgprllsktt
+    I.podalirius-CAH2066551.1         skttkppvlegwrrshrpsirdisiideeevaereceadsspevspaapnayntstpapvpvtvqpnhrt  NANANANANANANANA
+    C.capitata-CAD6994394.1            NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    L.cuprina-KAI8130912.1            sigwkrqekkltpqqlqtyenanvgkrldlmwkflkpvsfaligkeinfavldvkvvgygvllvvlgsvfrlafaylsty
+    G.fuscipes-KAI9577037.1           NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    A.compressa-KAG7188111.1          ifggstmpllklmraekkprnnrrkkkdkevslsktrewgqtidsehlselteeemevsflqsrirgfarwdlkffipff
+    L.yunnana-KAF5289025.1            ltaptgaiiitlsgprlltklktpahipegwkrshrpsiydisiideedeykrddstenessgksnrqdp  NANANANANANANANA
+    T.longispinosus-TGZ49087.1        apagaiiislsgpklltkttapvtppeawktrrpsmrdisiinedpdleetanerkp  NANANANANANANANANANANANANANANANANANANANANA
+    E.burchellii-KAH0956584.1         lltapsgaiiislsgpklltkttapvgppeiwktrrpsirdisiinedpdleetandrkp  NANANANANANANANANANANANANANANANANANA
+    C.glomerata-KAH0554196.1          gaiiislagpklltktttpaepqegwrsrkpsirdisiinedpdleensvnnh  NANANANANANANANANANANANANANANANANANANANANANANANANA
+    O.biroi-EZA57806.1                vlltapsgaivislsgpklltkttapvgppevwktrrpsirdisiinedpdleetandrkp  NANANANANANANANANANANANANANANANANA
+    A.compressa-KAG7201324.1          lltapagailislsgpklltkttapvvppegwrtrrpsirdisiinedpdleetanerkp  NANANANANANANANANANANANANANANANANANA
+    C.congregata-CAG5095999.1         ltaptgaiiislagpklltktttpaepqegwrsrkpsirdisiinedpdleensvnnh  NANANANANANANANANANANANANANANANANANANANA
+    A.echinatior-EGI63990.1           lltapagaimitilgpklltkttvpvsppeawktrrpsirdisiinedpdleetanerkp  NANANANANANANANANANANANANANANANANANA
+    P.vanderplanki-KAG5673013.1       NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    P.vanderplanki-KAG5673012.1       NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    E.danica-KAF4525946.1             NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    C.dipterum-CAB3359964.1           NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    D.citri-KAI5704627.1              NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    M.usitatus-KAJ1530432.1           NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    N.viridula-CAH1388393.1           NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    A.lucorum-KAF6215493.1            agplacitsafvasfawknqgwsnsyhpvadnfstvwlfiqpvlfgligaeidllalhsetiamgfivvfgaliirfaac
+    V.vulgaris-KAF7383363.1           silltaptgaiiislsgpklltktttpxxxxxxxtagrlenektldtryfdhqrgsrsrrncerketliffrplpffffy
+    N.striatum-KAG1694102.1           slysiigcqllpeghlfalfilivcciiggnlisllhfppllgnfflyfsmllvgfllrnvphinvaanlnpqwasalrs
+    C.dipterum-CAB3360254.1           ndediedddepepeapppsgrrstrssirevlnr NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    NHA1_prot,size=637,strand=+       wlpkatvqaalgpifldnaiknglteyipmgeqiltlavlsilitaplgaisilalgpklltsnkleaglpvhaedhd NA
+    NHA2_prot,size=656,strand=+       lglgpkllscdlpaagqeqdleenqdpetnqdqtidpnseevidlqrkqdkfiesenkigervkdndktrekdlqelllv
+    NHA3_prot,size=1204,strand=+      ehgrsdeqtkhkdihnqnqgevknprqhlhtdgeaqnqnnetvhnenkmilnhmedeksqdsrmtphsiydhnekkithq
+    NHA4_prot,size=786,strand=+       afvasiqwrkegwgdhnpitdifgkmwiilapiifsligtniqvdkmngdtvglgvavivcciltrsfftywsatfggln
+    NHA5_prot,size=754,strand=+       ahmihydgagglacvimafvasiqwrregwgdhnpvtdiynkvwiilspvifsligtninaekmdgatvgmgvavlvccf
+    NHA6_prot,size=708,strand=+       nkvwiilspvifsligtninaekmdgatvglgvavlfccfitrgfftfwsavcggldtkekiflavawlpkatvqaalgp
+    NHA7_prot,size=589,strand=-       igaililalgpvllpndfegfcsclwqilNANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    NHA8_prot,size=329,strand=+       NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+
+    DmelNHA2                          araasvaspeqlalagnlliisvlaiiftaplgailmlrlapywlkhgdaveavdspttpiaptlgstnsskgt
+    N.striatum-KAG1663790.1           NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    N.striatum-KAG1694105.1           iraglgldpqalkqlslvclrlaftpclvetivvavsshlvlglpwlwgfmlgfvlsavspavvvpsmisiqek
+    O.gibbosus-KAG8183784.1           NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    N.striatum-KAG1663789.1           NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    N.striatum-KAG1694104.1           ialvviliraglgldpqalkqlslvclrlaftpclvetivvavsshlvlglpwlwgfmlgfvlsavspavvvps
+    N.striatum-KAG1694103.1           ialvviliraglgldpqalkqlslvclrlaftpclvetivvavsshlvlglpwlwgfmlgfvlsavspavvvps
+    P.vannamei-ROT75079.1             NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    N.striatum-KAG1663791.1           NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    T.californicus-TRY75264.1         NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    A.amphitrite-KAF0289584.1         NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    D.citri-KAI5736882.1              NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    D.citri-KAI5704272.1              NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    D.citri-KAI5704273.1              NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    D.citri-KAI5742064.1              NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    D.kikuchii-KAJ0181768.1           ifvglawmakatvqaalgpvaldevrkmvgadpilveyaesvltvcilsivitapigaivitltgprllsktsk
+    S.littoralis-CAB3515165.1         vtcavlraivtstcavrsnlnmkekifvglawmakatvqaalgpvaldevrkmaggepdpvmieyaetvitvci
+    S.exigua-CAH0700695.1             katvqaalgpvaldevrkmaggepdpvmieyaetvitvcimsivitapigaivitltgpkllsrttkppvlegw
+    S.exigua-KAF9414715.1             NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    A.plantaginis-CAB3231150.1        katvqaalgpvaldevrkmagiepdpvlvgyaetvltvcimsivitapigaiiitlmgpkllsrttkppvlegw
+    B.ino-CAH0726637.1                nsrt  NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    A.plantaginis-CAB3231151.1        NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    H.armigera-PZC78836.1             vqaalgpvaldqvrymlvdgkpdplmiqyaetvvtvcilsivitapigaivitltgpkllsrttkppvlegwrq
+    I.podalirius-CAH2066547.1         vvlramltsasavrsnlnmkekvfvglawmakatvqaalgpvaldevrkmsgddeskaelikyaeivvtvcims
+    I.podalirius-CAH2066549.1         kppvlegwrrshrpsirdisiideeevaereceadsspevspaapnayntstpapvpvtvqpnhrt  NANANANANANA
+    I.podalirius-CAH2066551.1         NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    C.capitata-CAD6994394.1           NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    L.cuprina-KAI8130912.1            ggnltikergyitissfpkatvqaalgpialdmarslntdadtlslasnvliisvlaiiftaplgailmlrlap
+    G.fuscipes-KAI9577037.1           NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    A.compressa-KAG7188111.1          trrftqqelkdcksqmtdltnqwyqairispiesddettnasstqlninvlgesrnpgcgsqkngrpshgldee
+    L.yunnana-KAF5289025.1            NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    T.longispinosus-TGZ49087.1        NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    E.burchellii-KAH0956584.1         NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    C.glomerata-KAH0554196.1          NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    O.biroi-EZA57806.1                NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    A.compressa-KAG7201324.1          NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    C.congregata-CAG5095999.1         NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    A.echinatior-EGI63990.1           NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    P.vanderplanki-KAG5673013.1       NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    P.vanderplanki-KAG5673012.1       NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    E.danica-KAF4525946.1             NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    C.dipterum-CAB3359964.1           NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    D.citri-KAI5704627.1              NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    M.usitatus-KAJ1530432.1           NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    N.viridula-CAH1388393.1           NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    A.lucorum-KAF6215493.1            vlcvlgtklnwkeilfvnlawlpkatvqaalgpepldkvrssgdpneadllrgqqlltiavlsilitapigsig
+    V.vulgaris-KAF7383363.1           fpaqpnlrarwsrleskkkk  NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    N.striatum-KAG1694102.1           ialvviliraglgldpqalkqlslvclrlaftpclvetivvavsshlvlglpwlwgfmlgfvlsavspavvvps
+    C.dipterum-CAB3360254.1           NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    NHA1_prot,size=637,strand=+       NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    NHA2_prot,size=656,strand=+       isedetwdgrgekmkgs NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    NHA3_prot,size=1204,strand=+      qidnlnnkpitevlnrplnknelnndvkdsndingqgisqqekkeasqtpqyesknqkdenghemhlhdvksdn
+    NHA4_prot,size=786,strand=+       tkeklflslawlpkatvqaalgpvfldnalrsgitefvpygeqilnmavlsivisaplgavlilatgplllhsd
+    NHA5_prot,size=754,strand=+       ltrgfftywsavcggldtkekiflaiswlpkatvqaalgpaflekaiaanlpeyvpigetiltmavisiaisap
+    NHA6_prot,size=708,strand=+       aflekaisagltdfipmgetiltmavisiaisapigaililalgpvllpndfedkeddpedntdregiiNANANANANA
+    NHA7_prot,size=589,strand=-       NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+    NHA8_prot,size=329,strand=+       NANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANA
+  ;
+END;
+
