@@ -29,7 +29,16 @@ blastp -query Diaphorina.fasta -db nr -remote -evalue 0.01 -entrez_query "Diapho
 blastp -query Dendrolimus.fasta -db nr -remote -evalue 0.01 -entrez_query "Dendrolimus [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Dendrolimus.blastn
 blastp -query Spodoptera.fasta -db nr -remote -evalue 0.01 -entrez_query "Spodoptera [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Spodoptera.blastn
 blastp -query Arctia.fasta -db nr -remote -evalue 0.01 -entrez_query "Arctia [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Arctia.blastn
-                        
+blastp -query Helicoverpa.fasta -db nr -remote -evalue 0.01 -entrez_query "Helicoverpa [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Helicoverpa.blastn
+blastp -query Glossina.fasta -db nr -remote -evalue 0.01 -entrez_query "Glossina [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Glossina.blastn
+blastp -query Eciton.fasta -db nr -remote -evalue 0.01 -entrez_query "Eciton [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Eciton.blastn
+blastp -query Temnothorax.fasta -db nr -remote -evalue 0.01 -entrez_query "Temnothorax [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Temnothorax.blastn
+blastp -query Ooceraea.fasta -db nr -remote -evalue 0.01 -entrez_query "Ooceraea [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Ooceraea.blastn
+blastp -query Ampulex.fasta -db nr -remote -evalue 0.01 -entrez_query "Ampulex [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Ampulex.blastn
+blastp -query Cotesia.fasta -db nr -remote -evalue 0.01 -entrez_query "Cotesia [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Cotesia.blastn
+blastp -query Polypedilum.fasta -db nr -remote -evalue 0.01 -entrez_query "Polypedilum [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Polypedilum.blastn
+blastp -query Acromyrmex.fasta -db nr -remote -evalue 0.01 -entrez_query "Acromyrmex [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Acromyrmex.blastn
+blastp -query Ephemera.fasta -db nr -remote -evalue 0.01 -entrez_query "Ephemera [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Ephemera.blastn
 
 # April 11, 2023: 
 ## Deleting some of these actually 
