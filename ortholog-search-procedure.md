@@ -1,3 +1,82 @@
+# April 24, 2023: 
+# more blasting
+blastp -query Hyalella.fasta -db nr -remote -evalue 0.01 -entrez_query "Hyalella [organism]" -outfmt "6" -out Hyalella.blastn     
+result: all of these have the nhap conserved domain, not nha. Not taking any. Also, incorrectly labeled. one of them was nha, but 225 size. 
+
+blastp -query Penaeus-chinensis.fasta -db nr -remote -evalue 0.01 -entrez_query "Penaeus chinensis [organism]" -outfmt "6" -out Penaeus-chinensis.blastn     
+result: none. ^^.
+
+blastp -query Eriocheir.fasta -db nr -remote -evalue 0.01 -entrez_query "Eriocheir [organism]" -outfmt "6" -out Eriocheir.blastn     
+result: yes! got this one: XP_050686642.1 (there was another one, but it's another transcript variant. 
+
+currently blasting XP_050686642.1 into arthropods, excluding hexapods (and Eriocheir) 
+
+# April 18, 2023: 
+## checking for more paralogs 
+I'm creating a new file on R that spits out the accession number for every species I have. That'll make it easier to go over the blast+ remote results --> I can make sure I'm getting the sequences from the same bioproject, and I'm not adding duplicates. 
+
+So far: 
+species         added
+Acromyrmex      EGI60180.1
+Amphibalanus    none (unamed protein has no conserved domains) 
+Ampulex         KAG7212671.1
+Apolygus        KAF6214444.1, KAF6214444.1, KAF6215470.1 
+Arctia          CAB3223254.1, CAB3231154.1, CAB3249883.1, CAB3249884.1, CAB3231153.1
+Brenthis        CAH0714536.1, CAH0714537.1, CAH0726632.1, CAH0726633.1, CAH0726631.1
+Ceratitis       none, no other result
+Cloeon          CAB3362979.1, CAB3360254.1, CAB3360255.1, CAB3360256.1, CAB3364807.1, CAB3364808.1, CAB3364808.1, CAB3360257.1
+Cotesia Cong    CAG5097411.1
+** didn't do Cotesia glomerata, will have to blast that one later ** 
+Dendrolimus     KAJ0175711.1, KAJ0181766.1, KAJ0181767.1
+Diaphorina      KAI5704902.1, KAI5742900.1
+** something weird with different coverages, maybe take a look at their paper just to make sure I'm not getting repeat paralogs ** 
+Eciton          none, no other hit
+Ephemera        KAF4529024.1, KAF4529021.1
+Glossina        none, because all other results are from a different assembly 
+Helicoverpa     PZC83667.1, PZC78838.1, PZC78839.1
+Iphiclides      CAH2066545.1, CAH2066543.1, CAH2066541.1
+** deleting all nhap sequences ** 
+Lepeophtheirus  none
+Lucilia         KAI8116404.1
+Megalurothrips  KAJ1530995.1
+Nezara          CAH1388387.1, CAH1388367.1
+Nymphon         none, in fact, removed all Nymphons from here because they're all nhap not nha
+Oedothorax      KAG8183783.1, KAG8186330.1. (did not add KAG8172704.1 because size is too small)
+Oocera          EZA53303.1
+Penaeus         none (last search result is labeled as nha2 but it does not contain conserved domain). also deleted last entry. 
+Periplaneta     KAJ4436265.1, KAJ4436265.1
+Polypedilum     KAG5676603.1, KAG5676604.1
+Spodoptera      none, all others are from other assemblies 
+Temnothorax     TGZ32222.1
+Tigriopus       none, no result
+Vespula         none, but other vespulas have really good coverage too 
+
+
+## then potentially add these next to have more species: 
+35: Hyalella azteca 
+36: Caligus rogercresseyi 
+37: Tigriopus japonicus (ASM1064515v1) 
+39: Macrobrachium nipponense (ASM1511055v1)
+40: Eriocheir sinensis (ASM2467909v1) 
+41: Penaeus monodon (NSTDA_Pmon_1) 
+42: Procambarus clarkii (ASM2042438v2) 
+43: Portunus trituberculatus (Portunus trituberculatus) 
+44: Cherax quadricarinatus (ASM2687515v2) 
+45: Callinectes sapidus (Csap_IMET_v1) 
+46: any of the Daphnia pulicaria/ magna/ pulicaria/ sinensis/ carinata/ galeata 
+47: Penaeus chinensis (ASM1920278v2) 
+48: Sacculina carcini (qxSacCarc1.2) 
+49: Artemia sinica (ASM2792156v1) 
+50: Paralithodes platypus (ASM1328300v1) 
+51: Parhyale hawaiensis (Phaw_5.0)
+52: Semibalanus balanoides (Sbal3.1) 
+53: Trachelipus rathkii (Osw_Trath_1.0) 
+54: Lepidurus packardi (LEPA1.1)
+55: Homarus americanus (GMGI_Hamer_2.0) 
+
+blasting tigriopus protein at blosum45 for these species (online). no result came up.
+I tried again with just caligus (36) and again it exceeded CPU limit. I'll try again on my computer remotely (if that makes any difference?).  
+
 # April 12, 2023: 
 ## online blast 
 BLAST didn't work. Carol tested a similar search on her computer and it did? So we came to the conclusion it was probably because of the internet connection to the ncbi server. It now works online and remotely. 
@@ -39,6 +118,17 @@ blastp -query Cotesia.fasta -db nr -remote -evalue 0.01 -entrez_query "Cotesia [
 blastp -query Polypedilum.fasta -db nr -remote -evalue 0.01 -entrez_query "Polypedilum [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Polypedilum.blastn
 blastp -query Acromyrmex.fasta -db nr -remote -evalue 0.01 -entrez_query "Acromyrmex [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Acromyrmex.blastn
 blastp -query Ephemera.fasta -db nr -remote -evalue 0.01 -entrez_query "Ephemera [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Ephemera.blastn
+blastp -query Cloeon.fasta -db nr -remote -evalue 0.01 -entrez_query "Cloeon [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Cloeon.blastn
+blastp -query Megalurothrips.fasta -db nr -remote -evalue 0.01 -entrez_query "Megalurothrips [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Megalurothrips.blastn
+blastp -query Nezara.fasta -db nr -remote -evalue 0.01 -entrez_query "Nezara [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Nezara.blastn
+blastp -query Nymphon.fasta -db nr -remote -evalue 0.01 -entrez_query "Nymphon [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Nymphon.blastn
+blastp -query Apolygus.fasta -db nr -remote -evalue 0.01 -entrez_query "Apolygus [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Apolygus.blastn
+blastp -query Vespula.fasta -db nr -remote -evalue 0.01 -entrez_query "Vespula [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Vespula.blastn
+blastp -query Lepeoptheirus.fasta -db nr -remote -evalue 0.01 -entrez_query "Lepeoptheirus salmonis [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Lepeoptheirus.blastn
+blastp -query Periplaneta.fasta -db nr -remote -evalue 0.01 -entrez_query "Periplaneta [organism]" -outfmt "6 qseqid sseqid qlen pident evalue staxids sscinames scomnames" -out Periplaneta.blastn
+
+
+the last one that's not working is the cockroach. 
 
 # April 11, 2023: 
 ## Deleting some of these actually 

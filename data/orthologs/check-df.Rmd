@@ -1,0 +1,75 @@
+---
+title: "draft"
+output: html_document
+date: "2023-04-18"
+---
+
+```{r}
+setwd("/Users/pzito/Desktop/botany563-final/data/orthologs/")
+data <- read.csv("orthologs-filtered-NHEless-manual_added.csv") # data before adding paralogs
+library(dplyr)
+as_tibble(data)
+```
+## Types// Information about the Dataset 
+```{r}
+nrow(data) # number of sequences 
+table(data$type) # number of types 
+length(unique(data$species)) # how many species 
+table(data$species) # how many paralogs per species
+
+# all crustacean species
+crustacean <- data%>%filter(type=="barnacle"|type=="copepod"|type=="shrimp")%>%select(species)
+crustacean
+nrow(unique(crustacean))
+
+# all chelicerate species 
+chelicerate <- data%>%filter(type=="spider")%>%select(species)
+chelicerate
+nrow(unique(chelicerate))
+
+# all hexapod species 
+hexapod <- data%>%filter(type=="cockroach"|type=="diptera"|type=="ephemera"|type=="hemiptera"|type=="hymenoptera"|type=="lepidoptera"|type=="thysanoptera")%>%select(species)
+hexapod 
+nrow(unique(hexapod))
+```
+
+## for checking each protein too 
+```{r}
+check <- function(species_name){
+  return(data %>% filter(species == species_name) %>% select(species, protein.accession))
+}
+all_species <- sort(unique(data$species))
+
+for(i in 1:length(all_species)){
+  print(check(all_species[i]))
+}
+```
+
+## after manually adding stuff
+```{r}
+data2 <- read.csv("orthologs-filtered-NHEless-manual_added1.csv") # data before adding paralogs
+as_tibble(data2)
+nrow(data2) # number of sequences 
+table(data2$type) # number of types 
+length(unique(data2$species)) # how many species 
+table(data2$species) # how many paralogs per species
+mean(table(data2$species))
+
+# all crustacean species
+crustacean2 <- data2%>%filter(type=="barnacle"|type=="copepod"|type=="shrimp")%>%select(species)
+crustacean2
+nrow(unique(crustacean2))
+
+# all chelicerate species 
+chelicerate2 <- data2%>%filter(type=="spider")%>%select(species)
+chelicerate2
+nrow(unique(chelicerate2))
+
+# all hexapod species 
+hexapod2 <- data2%>%filter(type=="cockroach"|type=="diptera"|type=="ephemera"|type=="hemiptera"|type=="hymenoptera"|type=="lepidoptera"|type=="thysanoptera")%>%select(species)
+hexapod2 
+table(hexapod2)
+nrow(unique(hexapod2))
+table(data2%>%filter(type=="cockroach"|type=="diptera"|type=="ephemera"|type=="hemiptera"|type=="hymenoptera"|type=="lepidoptera"|type=="thysanoptera")%>%distinct(species, type)%>%select(type))
+```
+
