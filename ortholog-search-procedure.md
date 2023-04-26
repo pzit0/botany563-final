@@ -1,3 +1,379 @@
+# April 26, 2023: 
+## going through this new filtered csv file 
+These are the new species (that weren't already present or removed from the dataset (6): 
+Sarcoptes scabiei
+Halotydeus destructor
+Dermatophagoides farinae
+Blomia tropicalis
+Dermatophagoides pteronyssinus
+Tyrophagus putrescentiae
+
+## blasting 
+blastp -query Sarcoptes.fasta -db nr -remote -evalue 0.01 -entrez_query "Sarcoptes [organism]" -outfmt "6" -out Sarcoptes.blastn
+result: so the first initial result is labeled as NHA2 but the conserved domain is nhap. All other results come from different bioprojects. 
+
+blastp -query Halotydeus.fasta -db nr -remote -evalue 0.01 -entrez_query "Halotydeus [organism]" -outfmt "6" -out Halotydeus.blastn   
+result: all nhap
+
+blastp -query Dermatophagoides.fasta -db nr -remote -evalue 0.01 -entrez_query "Dermatophagoides farinae [organism]" -outfmt "6" -out Dermatophagoides.blastn   
+result: all nhap
+
+blastp -query Blomia.fasta -db nr -remote -evalue 0.01 -entrez_query "Blomia [organism]" -outfmt "6" -out Blomia.blastn 
+result: all nhap
+  
+blastp -query Tyrophagus.fasta -db nr -remote -evalue 0.01 -entrez_query "Tyrophagus [organism]" -outfmt "6" -out Tyrophagus.blastn   
+result: 
+
+## aligning real quick on clustalw just to check progress as well 
+new dataset (no nhap conserved domain and no nhe) 
+(base) pzito@IBIO-DRW7N0JQY0 orthologs % clustalw 2023-04-26-orthologs.fasta 
+
+old dataset(no nhe, but with a couple nhaps) 
+(base) pzito@IBIO-DRW7N0JQY0 orthologs % clustalw 2023-03-22-NHEless.fasta 
+
+comparison: 
+
+## after meeting 
+restart all over again. Get the nhap sequences back, even if that's not what Nick did. 
+I mean, could we be unsure that it's still NHA even if I remove NHEs? Yes. But whatever. I'll just go cut my freaking wrists. 
+god damn it. I literally want to jump off my office window.
+
+## next steps: 
+lesson learned: it's easier to remove information than it is to re-obtain it. 
+don't jump off the building. just don't use the CDD because it's not reliable. it's fucking unusable.
+
+CURATION 4 plan: 
+1. get all the sequences first: 
+for file in all-blast-CURATION3: 
+for result in file: 
+use ncbi.parser to complete row information
+add it to the dataset 
+
+2. align it with Dmel NHE again. if NHE>NHA, throw it out. 
+3. update dataset  
+4. align this bulk of a file. it's going to be bullshit. 
+5. then make a tree. it's also going to be bullshit. but hopefully I'll be able to remove entire clades that don't make sense?
+6. in addition to the tree, also blast each individual sequence to Dmel and see what comes up. Hope to god it's NHA. >:( 
+
+
+# April 25, 2023: 
+## more blasting: 
+blastp -query Oppia.fasta -db nr -remote -evalue 0.01 -entrez_query "Oppia [organism]" -outfmt "6" -out Oppia.blastn   
+result: found another paralog
+
+## parsing through at least some of the results: (inside the ncbi_parser.py)
+>>> df = pd.read_csv("2023-04-25-non_hexapods-Hittable.csv", header = None)
+>>> df
+                 0             1       2    3    4   5    6    7    8    9              10     11     12
+0    XP_054156261.1  CAD7652583.1  73.756  442  115   1   13  454    3  443   0.000000e+00  657.0  88.91
+1    XP_054156261.1  CAD7622824.1  51.691  414  198   2   38  450  283  695  1.290000e-155  457.0  75.85
+2    XP_054156261.1  CAD7653192.1  51.179  424  198   2   40  455    1  423  1.950000e-154  446.0  73.82
+3    XP_054156261.1    RWS02343.1  46.637  446  227   4   37  473   28  471  4.780000e-133  392.0  69.06
+4    XP_054156261.1    RWS31925.1  42.013  457  254   2   14  460    4  459  4.950000e-123  367.0  65.43
+..              ...           ...     ...  ...  ...  ..  ...  ...  ...  ...            ...    ...    ...
+250  XP_054156261.1    GIY41620.1  26.923  104   75   1  166  269    1  103   1.750000e-07   54.4  55.77
+251  XP_054156261.1    ADV40287.1  26.087  115   80   2   30  140   37  150   2.730000e-05   49.1  53.04
+252  XP_054156261.1    GBM27557.1  31.034   58   40   0  110  167   97  154   3.000000e-03   43.6  60.34
+253  XP_054156261.1    KFM57978.1  34.328   67   43   1   26   92   47  112   1.200000e-02   40.6  58.21
+254  XP_054156261.1    ROT78781.1  33.735   83   49   2   30  107  252  333   1.300000e-02   43.6  59.04
+
+[255 rows x 13 columns]
+>>> acc_list = df.iloc[:,1]
+>>> acc_list[0:10]
+0      CAD7652583.1
+1      CAD7622824.1
+2      CAD7653192.1
+3        RWS02343.1
+4        RWS31925.1
+5    XP_015790562.1
+6      CAD7640411.1
+7    XP_013794831.1
+8    XP_023233238.1
+9      KAG1663790.1
+Name: 1, dtype: object
+
+>>> acc_list = df.iloc[:,1] 
+>>> mask = [] # there are all the sequences incompatible with this parser. I have to take them out and manually check them 
+>>> for i in range(len(acc_list)): 
+        match = re.search("XP", acc_list[i])
+        if match: 
+            print(i)
+            mask.append(i)
+>>> acc_list_f = [acc_list[i] for i in range(len(acc_list)) if i not in mask]
+>>> acc_list_f
+['CAD7652583.1', 'CAD7622824.1', 'CAD7653192.1', 'RWS02343.1', 'RWS31925.1', 'CAD7640411.1', 'KAG1663790.1', 'KAG1694105.1', 'KAG1663789.1', 'KAG1694104.1', 'KFM61101.1', 'KAF7496482.1', 'KAG1694103.1', 'ROT75079.1', 'KFM61102.1', 'KAI1295545.1', 'KAF8765000.1', 'KAF2354193.1', 'RWS03277.1', 'KAG1663791.1', 'GFS30334.1', 'GBN34253.1', 'GBN34252.1', 'RXG52054.1', 'CAD7662162.1', 'GFY73361.1', 'CAD7662158.1', 'MCL4129849.1', 'GIY80960.1', 'GFY60750.1', 'KAG8186332.1', 'GFQ88531.1', 'KAH7644190.1', 'KAG1694102.1', 'KAF8764999.1', 'KAF8764998.1', 'GFU25845.1', 'KAG8183783.1', 'CAD7247776.1', 'GIY54713.1', 'KAI2808467.1', 'GFT57103.1', 'GIY41623.1', 'MCL4150668.1', 'TRY75264.1', 'GFS30330.1', 'GFS30328.1', 'CAD7249112.1', 'KAF8763961.1', 'KAG8186330.1', 'GFY73362.1', 'GFT57101.1', 'GFQ88534.1', 'RWS20124.1', 'KAH9417711.1', 'CAD7241908.1', 'EEC08736.1', 'GFQ86433.1', 'KAH9400465.1', 'CAD7253667.1', 'CAD7274489.1', 'KAF0289584.1', 'GFQ83092.1', 'OQR68610.1', 'GIX83854.1', 'MCL4129876.1', 'KAG8183784.1', 'MPC09619.1', 'KAG0726903.1', 'GFT74194.1', 'GBM57774.1', 'KFM82881.1', 'GBN72317.1', 'KAH9493942.1', 'KAG0724532.1', 'GFU25843.1', 'UXI19638.1', 'KAG0724533.1', 'KAJ6219928.1', 'KAH9408692.1', 'KAH9408692.1', 'KAH9408692.1', 'RWR99814.1', 'GIY56875.1', 'KAH9424775.1', 'KAG1663788.1', 'KAG1663788.1', 'CAD7222525.1', 'KAB7506620.1', 'GFY60752.1', 'ROT78782.1', 'GIX83856.1', 'GIX83861.1', 'KAG7156609.1', 'KAG7156609.1', 'MCL4150669.1', 'KAI1299850.1', 'KAB7495032.1', 'CAD7243562.1', 'GFR22102.1', 'CAD7226973.1', 'CAD7279005.1', 'OQR69123.1', 'CAD7656567.1', 'GBN12672.1', 'GBN12673.1', 'MCL4141119.1', 'GFY40621.1', 'GBN72319.1', 'GFQ83093.1', 'GFT74206.1', 'KFM57977.1', 'GFT74187.1', 'CAB4064343.1', 'KAG0427322.1', 'OTF70470.1', 'GFT74182.1', 'OTF79017.1', 'RWS21584.1', 'GFT74200.1', 'KAG0427321.1', 'KPM10809.1', 'KAF8763960.1', 'KAF8763960.1', 'KAB7497172.1', 'CAD7653190.1', 'GBN71314.1', 'GBO09782.1', 'RXG58630.1', 'GBN92685.1', 'GBO03696.1', 'GBO09327.1', 'GBN87759.1', 'RWS20687.1', 'KPM02102.1', 'GBO13902.1', 'GFY73360.1', 'GBN62257.1', 'GIY82474.1', 'GIY82474.1', 'GFT74183.1', 'GBO00343.1', 'GFR22094.1', 'GBN79100.1', 'GBM29940.1', 'GBN08938.1', 'GBN95015.1', 'GIX83863.1', 'GIY53835.1', 'GBN62254.1', 'GBO29870.1', 'GIY58934.1', 'GBO06070.1', 'GBN91317.1', 'QQP49003.1', 'KAG8172704.1', 'GBO04889.1', 'GIY41621.1', 'GBM08303.1', 'GBN34254.1', 'CAD7653194.1', 'GIY41620.1', 'ADV40287.1', 'GBM27557.1', 'KFM57978.1', 'ROT78781.1']
+>>> len(acc_list_f)
+166
+#at this point I tried running filter() but it threw me an error: 
+ASSESSING: Tropilaelaps mercedesae OQR68610.1
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 32, in filter
+  File "<stdin>", line 36, in ass_ncbi
+#so I'm just going to remove that 
+>>> for i in range(len(acc_list_f)):
+...     if acc_list_f[i] == "OQR68610.1":
+...         print(i)
+... 
+63
+>>> acc_list_f.pop(63)
+'OQR68610.1'
+#another issue what a surprise
+#omg it's the same fucking species of course
+ASSESSING: Tropilaelaps mercedesae OQR69123.1
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 32, in filter
+  File "<stdin>", line 36, in ass_ncbi
+IndexError: list index out of range
+>>> for i in range(len(acc_list_f)):
+...     if acc_list_f[i] == "OQR69123.1":
+...         print(i)
+... 
+101
+>>> acc_list_f.pop(101)
+'OQR69123.1'
+>>> filtered, trashed, log = filter(acc_list_f)
+ASSESSING: Oppiella nova CAD7652583.1
+FAILED N50: 6753.0
+ASSESSING: Medioppia subpectinata CAD7622824.1
+ASSESSING: Oppiella nova CAD7653192.1
+ASSESSING: Dinothrombium tinctorium RWS02343.1
+FAILED COUNT: 22758.0
+ASSESSING: Leptotrombidium deliense RWS31925.1
+FAILED COVERAGE: 30.0
+ASSESSING: Medioppia subpectinata CAD7640411.1
+ASSESSING: Nymphon striatum KAG1663790.1
+Nymphon striatum KAG1663790.1 WAS ADDED TO FILTERED
+ASSESSING: Nymphon striatum KAG1694105.1
+Nymphon striatum KAG1694105.1 WAS ADDED TO FILTERED
+ASSESSING: Nymphon striatum KAG1663789.1
+Nymphon striatum KAG1663789.1 WAS ADDED TO FILTERED
+ASSESSING: Nymphon striatum KAG1694104.1
+Nymphon striatum KAG1694104.1 WAS ADDED TO FILTERED
+ASSESSING: Stegodyphus mimosarum KFM61101.1
+FAILED COUNT: 68653.0
+ASSESSING: Sarcoptes scabiei KAF7496482.1
+Sarcoptes scabiei KAF7496482.1 WAS ADDED TO FILTERED
+ASSESSING: Nymphon striatum KAG1694103.1
+Nymphon striatum KAG1694103.1 WAS ADDED TO FILTERED
+ASSESSING: Penaeus vannamei ROT75079.1
+Penaeus vannamei ROT75079.1 WAS ADDED TO FILTERED
+ASSESSING: Stegodyphus mimosarum KFM61102.1
+ASSESSING: Halotydeus destructor KAI1295545.1
+Halotydeus destructor KAI1295545.1 WAS ADDED TO FILTERED
+ASSESSING: Argiope bruennichi KAF8765000.1
+FAILED COVERAGE: 21.0
+ASSESSING: Trinorchestia longiramus KAF2354193.1
+FAILED COVERAGE: 41.0
+ASSESSING: Dinothrombium tinctorium RWS03277.1
+ASSESSING: Nymphon striatum KAG1663791.1
+Nymphon striatum KAG1663791.1 WAS ADDED TO FILTERED
+ASSESSING: Nephila pilipes GFS30334.1
+FAILED COUNT: 132898.0
+ASSESSING: Araneus ventricosus GBN34253.1
+FAILED COVERAGE: 19.0
+ASSESSING: Araneus ventricosus GBN34252.1
+ASSESSING: Armadillidium vulgare RXG52054.1
+FAILED COUNT: 43541.0
+ASSESSING: Oppiella nova CAD7662162.1
+ASSESSING: Trichonephila inaurata madagascariensis GFY73361.1
+FAILED COUNT: 28263.0
+ASSESSING: Oppiella nova CAD7662158.1
+ASSESSING: Idotea baltica MCL4129849.1
+FAILED N50: 7966.0
+ASSESSING: Caerostris darwini GIY80960.1
+FAILED COUNT: 15733.0
+ASSESSING: Trichonephila inaurata madagascariensis GFY60750.1
+ASSESSING: Oedothorax gibbosus KAG8186332.1
+Oedothorax gibbosus KAG8186332.1 WAS ADDED TO FILTERED
+ASSESSING: Trichonephila clavata GFQ88531.1
+FAILED COUNT: 39792.0
+ASSESSING: Dermatophagoides farinae KAH7644190.1
+Dermatophagoides farinae KAH7644190.1 WAS ADDED TO FILTERED
+ASSESSING: Nymphon striatum KAG1694102.1
+Nymphon striatum KAG1694102.1 WAS ADDED TO FILTERED
+ASSESSING: Argiope bruennichi KAF8764999.1
+ASSESSING: Argiope bruennichi KAF8764998.1
+ASSESSING: Nephila pilipes GFU25845.1
+ASSESSING: Oedothorax gibbosus KAG8183783.1
+Oedothorax gibbosus KAG8183783.1 WAS ADDED TO FILTERED
+ASSESSING: Darwinula stevensoni CAD7247776.1
+FAILED COUNT: 62117.0
+ASSESSING: Caerostris extrusa GIY54713.1
+FAILED COVERAGE: 13.0
+ASSESSING: Blomia tropicalis KAI2808467.1
+Blomia tropicalis KAI2808467.1 WAS ADDED TO FILTERED
+ASSESSING: Trichonephila clavipes GFT57103.1
+FAILED COUNT: 21438.0
+ASSESSING: Caerostris extrusa GIY41623.1
+ASSESSING: Idotea baltica MCL4150668.1
+ASSESSING: Tigriopus californicus TRY75264.1
+Tigriopus californicus TRY75264.1 WAS ADDED TO FILTERED
+ASSESSING: Nephila pilipes GFS30330.1
+ASSESSING: Nephila pilipes GFS30328.1
+ASSESSING: Darwinula stevensoni CAD7249112.1
+ASSESSING: Argiope bruennichi KAF8763961.1
+ASSESSING: Oedothorax gibbosus KAG8186330.1
+Oedothorax gibbosus KAG8186330.1 WAS ADDED TO FILTERED
+ASSESSING: Trichonephila inaurata madagascariensis GFY73362.1
+ASSESSING: Trichonephila clavipes GFT57101.1
+ASSESSING: Trichonephila clavata GFQ88534.1
+ASSESSING: Leptotrombidium deliense RWS20124.1
+ASSESSING: Dermatophagoides pteronyssinus KAH9417711.1
+Dermatophagoides pteronyssinus KAH9417711.1 WAS ADDED TO FILTERED
+ASSESSING: Darwinula stevensoni CAD7241908.1
+ASSESSING: Ixodes scapularis EEC08736.1
+FAILED COVERAGE: 6.0
+ASSESSING: Trichonephila clavata GFQ86433.1
+ASSESSING: Tyrophagus putrescentiae KAH9400465.1
+Tyrophagus putrescentiae KAH9400465.1 WAS ADDED TO FILTERED
+ASSESSING: Darwinula stevensoni CAD7253667.1
+ASSESSING: Notodromas monacha CAD7274489.1
+ASSESSING: Amphibalanus amphitrite KAF0289584.1
+Amphibalanus amphitrite KAF0289584.1 WAS ADDED TO FILTERED
+ASSESSING: Trichonephila clavata GFQ83092.1
+ASSESSING: Caerostris darwini GIX83854.1
+ASSESSING: Idotea baltica MCL4129876.1
+ASSESSING: Oedothorax gibbosus KAG8183784.1
+Oedothorax gibbosus KAG8183784.1 WAS ADDED TO FILTERED
+ASSESSING: Portunus trituberculatus MPC09619.1
+FAILED N50: 857.0
+ASSESSING: Chionoecetes opilio KAG0726903.1
+FAILED COUNT: 26514.0
+ASSESSING: Trichonephila clavipes GFT74194.1
+ASSESSING: Araneus ventricosus GBM57774.1
+ASSESSING: Stegodyphus mimosarum KFM82881.1
+ASSESSING: Araneus ventricosus GBN72317.1
+ASSESSING: Dermatophagoides farinae KAH9493942.1
+Dermatophagoides farinae KAH9493942.1 WAS ADDED TO FILTERED
+ASSESSING: Chionoecetes opilio KAG0724532.1
+ASSESSING: Nephila pilipes GFU25843.1
+ASSESSING: Sarcoptes scabiei UXI19638.1
+Sarcoptes scabiei UXI19638.1 WAS ADDED TO FILTERED
+ASSESSING: Chionoecetes opilio KAG0724533.1
+ASSESSING: Blomia tropicalis KAJ6219928.1
+Blomia tropicalis KAJ6219928.1 WAS ADDED TO FILTERED
+ASSESSING: Tyrophagus putrescentiae KAH9408692.1
+Tyrophagus putrescentiae KAH9408692.1 WAS ADDED TO FILTERED
+ASSESSING: Tyrophagus putrescentiae KAH9408692.1
+Tyrophagus putrescentiae KAH9408692.1 WAS ADDED TO FILTERED
+ASSESSING: Tyrophagus putrescentiae KAH9408692.1
+Tyrophagus putrescentiae KAH9408692.1 WAS ADDED TO FILTERED
+ASSESSING: Dinothrombium tinctorium RWR99814.1
+ASSESSING: Caerostris extrusa GIY56875.1
+ASSESSING: Dermatophagoides pteronyssinus KAH9424775.1
+Dermatophagoides pteronyssinus KAH9424775.1 WAS ADDED TO FILTERED
+ASSESSING: Nymphon striatum KAG1663788.1
+Nymphon striatum KAG1663788.1 WAS ADDED TO FILTERED
+ASSESSING: Nymphon striatum KAG1663788.1
+Nymphon striatum KAG1663788.1 WAS ADDED TO FILTERED
+ASSESSING: Cyprideis torosa CAD7222525.1
+ASSESSING: Armadillidium nasatum KAB7506620.1
+FAILED COUNT: 25196.0
+ASSESSING: Trichonephila inaurata madagascariensis GFY60752.1
+ASSESSING: Penaeus vannamei ROT78782.1
+Penaeus vannamei ROT78782.1 WAS ADDED TO FILTERED
+ASSESSING: Caerostris darwini GIX83856.1
+ASSESSING: Caerostris darwini GIX83861.1
+ASSESSING: Homarus americanus KAG7156609.1
+FAILED COUNT: 47246.0
+ASSESSING: Homarus americanus KAG7156609.1
+ASSESSING: Idotea baltica MCL4150669.1
+ASSESSING: Halotydeus destructor KAI1299850.1
+Halotydeus destructor KAI1299850.1 WAS ADDED TO FILTERED
+ASSESSING: Armadillidium nasatum KAB7495032.1
+ASSESSING: Darwinula stevensoni CAD7243562.1
+ASSESSING: Trichonephila clavata GFR22102.1
+ASSESSING: Cyprideis torosa CAD7226973.1
+ASSESSING: Notodromas monacha CAD7279005.1
+ASSESSING: Araneus ventricosus GBN12672.1
+ASSESSING: Araneus ventricosus GBN12673.1
+ASSESSING: Idotea baltica MCL4141119.1
+ASSESSING: Trichonephila inaurata madagascariensis GFY40621.1
+ASSESSING: Araneus ventricosus GBN72319.1
+ASSESSING: Trichonephila clavata GFQ83093.1
+ASSESSING: Trichonephila clavipes GFT74206.1
+ASSESSING: Stegodyphus mimosarum KFM57977.1
+ASSESSING: Trichonephila clavipes GFT74187.1
+ASSESSING: Lepeophtheirus salmonis CAB4064343.1
+failed assembly
+ASSESSING: Ixodes persulcatus KAG0427322.1
+FAILED COUNT: 11597.0
+ASSESSING: Euroglyphus maynei OTF70470.1
+FAILED COVERAGE: 30.0
+ASSESSING: Trichonephila clavipes GFT74182.1
+ASSESSING: Euroglyphus maynei OTF79017.1
+ASSESSING: Leptotrombidium deliense RWS21584.1
+ASSESSING: Trichonephila clavipes GFT74200.1
+ASSESSING: Ixodes persulcatus KAG0427321.1
+ASSESSING: Sarcoptes scabiei KPM10809.1
+FAILED COUNT: 18860.0
+ASSESSING: Argiope bruennichi KAF8763960.1
+ASSESSING: Argiope bruennichi KAF8763960.1
+ASSESSING: Armadillidium nasatum KAB7497172.1
+ASSESSING: Oppiella nova CAD7653190.1
+ASSESSING: Araneus ventricosus GBN71314.1
+ASSESSING: Araneus ventricosus GBO09782.1
+ASSESSING: Armadillidium vulgare RXG58630.1
+ASSESSING: Araneus ventricosus GBN92685.1
+ASSESSING: Araneus ventricosus GBO03696.1
+ASSESSING: Araneus ventricosus GBO09327.1
+ASSESSING: Araneus ventricosus GBN87759.1
+ASSESSING: Leptotrombidium deliense RWS20687.1
+ASSESSING: Sarcoptes scabiei KPM02102.1
+ASSESSING: Araneus ventricosus GBO13902.1
+ASSESSING: Trichonephila inaurata madagascariensis GFY73360.1
+ASSESSING: Araneus ventricosus GBN62257.1
+ASSESSING: Caerostris darwini GIY82474.1
+ASSESSING: Caerostris darwini GIY82474.1
+ASSESSING: Trichonephila clavipes GFT74183.1
+ASSESSING: Araneus ventricosus GBO00343.1
+ASSESSING: Trichonephila clavata GFR22094.1
+ASSESSING: Araneus ventricosus GBN79100.1
+ASSESSING: Araneus ventricosus GBM29940.1
+ASSESSING: Araneus ventricosus GBN08938.1
+ASSESSING: Araneus ventricosus GBN95015.1
+ASSESSING: Caerostris darwini GIX83863.1
+ASSESSING: Caerostris extrusa GIY53835.1
+ASSESSING: Araneus ventricosus GBN62254.1
+ASSESSING: Araneus ventricosus GBO29870.1
+ASSESSING: Caerostris extrusa GIY58934.1
+ASSESSING: Araneus ventricosus GBO06070.1
+ASSESSING: Araneus ventricosus GBN91317.1
+ASSESSING: Caligus rogercresseyi QQP49003.1
+FAILED SIZE: 174
+ASSESSING: Oedothorax gibbosus KAG8172704.1
+FAILED SIZE: 186
+ASSESSING: Araneus ventricosus GBO04889.1
+ASSESSING: Caerostris extrusa GIY41621.1
+ASSESSING: Araneus ventricosus GBM08303.1
+ASSESSING: Araneus ventricosus GBN34254.1
+ASSESSING: Oppiella nova CAD7653194.1
+ASSESSING: Caerostris extrusa GIY41620.1
+ASSESSING: Latrodectus hesperus ADV40287.1
+FAILED SIZE: 154
+ASSESSING: Araneus ventricosus GBM27557.1
+ASSESSING: Stegodyphus mimosarum KFM57978.1
+ASSESSING: Penaeus vannamei ROT78781.1
+Penaeus vannamei ROT78781.1 WAS ADDED TO FILTERED
+ASSESSING: Oppiella nova CAD7656567.1
+
+A total of 164 proteins were assessed
+Out of those, 32(0.1951219512195122) were successfully curated and obtained
+3 were discarded due to small protein size
+1 were discarded due to me not finding its assembly information
+7 were discarded due to having bad coverage
+3 were discarded due to bad scaffold N50
+14 were discarded for having too many scaffolds
+104 were already checked and discarded
+MINIMUM PROTEIN SIZE =200
+MINIMUM COVERAGE =50
+MINIMUM SCAFFOLD N50 =10000
+MAX SCAFFOLD COUNT =9000
+>>> export(filtered, trashed, log, "2023-04-26-nonhexapods")
+Your files have been saved here:  /Users/pzito/Desktop/botany563-final
+
 # April 24, 2023: 
 # more blasting
 blastp -query Hyalella.fasta -db nr -remote -evalue 0.01 -entrez_query "Hyalella [organism]" -outfmt "6" -out Hyalella.blastn     
@@ -10,6 +386,7 @@ blastp -query Eriocheir.fasta -db nr -remote -evalue 0.01 -entrez_query "Erioche
 result: yes! got this one: XP_050686642.1 (there was another one, but it's another transcript variant. 
 
 currently blasting XP_050686642.1 into arthropods, excluding hexapods (and Eriocheir) 
+also waiting for Zhenyong to blast NHA into green + purple clades. 
 
 # April 18, 2023: 
 ## checking for more paralogs 
@@ -43,7 +420,7 @@ Nezara          CAH1388387.1, CAH1388367.1
 Nymphon         none, in fact, removed all Nymphons from here because they're all nhap not nha
 Oedothorax      KAG8183783.1, KAG8186330.1. (did not add KAG8172704.1 because size is too small)
 Oocera          EZA53303.1
-Penaeus         none (last search result is labeled as nha2 but it does not contain conserved domain). also deleted last entry. 
+Penaeus         none (last search result is labeled as nha2 but it does not contain the conserved domain). also deleted last entry. 
 Periplaneta     KAJ4436265.1, KAJ4436265.1
 Polypedilum     KAG5676603.1, KAG5676604.1
 Spodoptera      none, all others are from other assemblies 

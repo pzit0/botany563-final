@@ -592,7 +592,7 @@ for(i in 1:length(all_species)){
 <h2>after manually adding stuff</h2>
 <pre class="r"><code>data2 &lt;- read.csv(&quot;orthologs-filtered-NHEless-manual_added1.csv&quot;) # data before adding paralogs
 as_tibble(data2)</code></pre>
-<pre><code>## # A tibble: 75 × 15
+<pre><code>## # A tibble: 78 × 15
 ##    assembly.name assembly.status coverage project.accession protein.accession
 ##    &lt;chr&gt;         &lt;chr&gt;           &lt;chr&gt;    &lt;chr&gt;             &lt;chr&gt;            
 ##  1 Ogib_1.0      Chromosome      80       PRJNA681589       KAG8183784.1     
@@ -605,20 +605,20 @@ as_tibble(data2)</code></pre>
 ##  8 CRF-UY_Dcit   Scaffold        100      PRJNA800468       KAI5704273.1     
 ##  9 CRF-UY_Dcit   Scaffold        100      PRJNA800468       KAI5704902.1     
 ## 10 CRF-CA_Dcit   Scaffold        119      PRJNA800468       KAI5742900.1     
-## # ℹ 65 more rows
+## # ℹ 68 more rows
 ## # ℹ 10 more variables: protein.length &lt;int&gt;, protein.sequence &lt;chr&gt;,
 ## #   scaffold.N50 &lt;chr&gt;, scaffold.count &lt;chr&gt;, sequencing.technology &lt;chr&gt;,
 ## #   species &lt;chr&gt;, fasta.names &lt;chr&gt;, type &lt;chr&gt;, cds.seq &lt;chr&gt;, comments &lt;chr&gt;</code></pre>
 <pre class="r"><code>nrow(data2) # number of sequences </code></pre>
-<pre><code>## [1] 75</code></pre>
+<pre><code>## [1] 78</code></pre>
 <pre class="r"><code>table(data2$type) # number of types </code></pre>
 <pre><code>## 
 ##     barnacle    cockroach      copepod         crab      diptera     ephemera 
 ##            1            3            2            1            9            6 
-##    hemiptera  hymenoptera  lepidoptera       spider thysanoptera 
-##           10           12           27            3            1</code></pre>
+##    hemiptera  hymenoptera  lepidoptera       spider thysanoptera         tick 
+##           10           12           27            3            1            3</code></pre>
 <pre class="r"><code>length(unique(data2$species)) # how many species </code></pre>
-<pre><code>## [1] 32</code></pre>
+<pre><code>## [1] 33</code></pre>
 <pre class="r"><code>table(data2$species) # how many paralogs per species</code></pre>
 <pre><code>## 
 ##     Acromyrmex echinatior   Amphibalanus amphitrite         Ampulex compressa 
@@ -637,14 +637,14 @@ as_tibble(data2)</code></pre>
 ##                         4                         6                         1 
 ##           Lucilia cuprina   Megalurothrips usitatus           Nezara viridula 
 ##                         2                         1                         2 
-##       Oedothorax gibbosus            Ooceraea biroi     Periplaneta americana 
+##       Oedothorax gibbosus            Ooceraea biroi              Oppia Nitens 
 ##                         3                         2                         3 
-##  Polypedilum vanderplanki     Spodoptera littoralis Temnothorax longispinosus 
-##                         2                         1                         2 
-##    Tigriopus californicus          Vespula vulgaris 
-##                         1                         1</code></pre>
+##     Periplaneta americana  Polypedilum vanderplanki     Spodoptera littoralis 
+##                         3                         2                         1 
+## Temnothorax longispinosus    Tigriopus californicus          Vespula vulgaris 
+##                         2                         1                         1</code></pre>
 <pre class="r"><code>mean(table(data2$species))</code></pre>
-<pre><code>## [1] 2.34375</code></pre>
+<pre><code>## [1] 2.363636</code></pre>
 <pre class="r"><code># all crustacean species
 crustacean2 &lt;- data2%&gt;%filter(type==&quot;barnacle&quot;|type==&quot;copepod&quot;|type==&quot;shrimp&quot;)%&gt;%select(species)
 crustacean2</code></pre>
@@ -655,14 +655,17 @@ crustacean2</code></pre>
 <pre class="r"><code>nrow(unique(crustacean2))</code></pre>
 <pre><code>## [1] 3</code></pre>
 <pre class="r"><code># all chelicerate species 
-chelicerate2 &lt;- data2%&gt;%filter(type==&quot;spider&quot;)%&gt;%select(species)
+chelicerate2 &lt;- data2%&gt;%filter(type==&quot;spider&quot;|type==&quot;tick&quot;)%&gt;%select(species)
 chelicerate2</code></pre>
 <pre><code>##               species
 ## 1 Oedothorax gibbosus
 ## 2 Oedothorax gibbosus
-## 3 Oedothorax gibbosus</code></pre>
+## 3 Oedothorax gibbosus
+## 4        Oppia Nitens
+## 5        Oppia Nitens
+## 6        Oppia Nitens</code></pre>
 <pre class="r"><code>nrow(unique(chelicerate2))</code></pre>
-<pre><code>## [1] 1</code></pre>
+<pre><code>## [1] 2</code></pre>
 <pre class="r"><code># all hexapod species 
 hexapod2 &lt;- data2%&gt;%filter(type==&quot;cockroach&quot;|type==&quot;diptera&quot;|type==&quot;ephemera&quot;|type==&quot;hemiptera&quot;|type==&quot;hymenoptera&quot;|type==&quot;lepidoptera&quot;|type==&quot;thysanoptera&quot;)%&gt;%select(species)
 hexapod2 </code></pre>
@@ -763,6 +766,563 @@ hexapod2 </code></pre>
 ##            1            6            2            3            8            6 
 ## thysanoptera 
 ##            1</code></pre>
+</div>
+<div id="write-fasta-file" class="section level1">
+<h1>write fasta file</h1>
+<pre class="r"><code># for protein sequences 
+sink(&quot;2023-04-26-orthologs.fasta&quot;)
+for(i in 1:nrow(data2)){
+  cat(data2$fasta.names[i])
+  cat(&quot;\n&quot;)
+  cat(data2$protein.sequence[i])
+  cat(&quot;\n&quot;)
+}</code></pre>
+<pre><code>## &gt;O.gibbosus-KAG8183784.1
+## mtnpsiipspceeddavsetsksakelwsslwtcppisplttmtsmaaiaflfygsiwgltakeampggpvfglfmlalvcylggqftkliklptlvgmmvfgfilrnvpainiakdipsewgsnirhmalilillraglevdsdillkqkatctklifipfifelvagslaakylldmpwlwaftlgsmlsavspavvlpvmlklqkkgigtengvptmviavagiddvlaltayevlfgvlmgkgnmewliargpievivgiiygialgiflwyiphpeerktsvfrflllllggmfclfgsqqiewgaagalgciclpfvaairwkkhkdwddeenpvgealafiwkiiepflfgligseiklemlkptlvglslatmfialffrmaasmlaawtaglsfkeqvfvtfaglpkatvqaaigpqalnyvrgdeelagqkdliahatmiltvavlaiiifaplgsvlisilaprllskptnndveksktsvpaimdsipmyqqnssydiknenrlsnpensnsrehqnnqyssssvcsqnwrniennsnvntsekl
+## &gt;O.gibbosus-KAG8183783.1
+## MESSISKQTFDERHRNCVNEECNSNLAPESPAKCFRLTNERWKLVQAQFLTFILLLLFICASLYGILEED
+## ILPGSELFALLLLALSAYISGVVANYVHLPPLIGMLIAGFLFRNLHVSAHLYENISIRWATTLRSTAFVI
+## ILLKAGLGLDADKLKKLSLTVFQLALTPCIVETAAAAVASHFFLGLPWVWSIMLGFVISAVSPAVIVPGL
+## LNLQNKCFGTAKGIPTLVIAAASLDDIICITGFSVMLSVSFSEGNLLITILKGVLEPVGGLLLGVIFGRI
+## FWHLPNSASVPSNLVYYRVLLLCFGGFASMFVSKRYDVAGVGPMACLVLAFVAAFGWKRDQLTFDRIEKV
+## TGVLWTGLQPFLFSLIGSEVSIADLQFNLGNTILSLAIALGFRIVVATFVTFGSDLNIKEKIFIAFAWIP
+## KATVQAAVGPQALDYVLSNSKGQEMEKYAQMVLTAAVVSIIMTAPVGAFLISVLGPILLSNDRNPDKQRS
+## ENMRLQTVDSDVL
+## &gt;O.gibbosus-KAG8186330.1
+## MEVATIQSNVVVDNWSHWDMTDFETGEKKWYHKVLEFILPTRKKMNIYITKLLILIFFFLTVLGMLMKGA
+## MPGSQVFAVLLLGLLAAIGGKLISFIKLPPLLGMMIVGFLFRNVEAISFYEDIDRKTIMVLREVALAIIL
+## MRAGLGIDGQQLKKSKLAVLRLTVVPLIVEALSMGVFAHFLLGLPWMFALMLGFILSAIAPEVILPVILH
+## LESQGYGGSKGIPTILIAACSLDDIGAIAGFTICFSIAFSDDNLIWTIVKAPLEPVVGFAFGAVFGVIFW
+## SFPSERLKKNTLIFYNVLLISFGAMTVLFASTRLGLPGAGPLGCITLAFIAGIKFRQDEVRFKGVQKVTS
+## QIWAIINPFLFAMIGTEVTLDTLQNNAGYGILAIFCALSCRSVATVLVCFGLNLNFKEKIYMVFSWLPKA
+## VVQAAIGSQALDYARIHNLHPELQKYGEIVLNVCVLSILVTAPLSAVLCTVFGPYLLTRDRIPEIEDEYE
+## TEDELSETPKPSASVAGIEASSSQPLVTPDSQKH
+## &gt;T.californicus-TRY75264.1
+## maspgftspgpsgspgplvpqleapplpanrghdaiksecesslegtpvvvaepnepcssadelspskssrrvvskwirpmllrhyppltsqsswrtrllyavlcpihgqiarvvtylllfvlivlvsfcllghigtppngtvflllvlvtlgalvgqaftwvhlppllgmlitgivlknlpfiefedrwavwsstlrgvalviilmraglgldpealkrlsalvfrlaflpclaetsvvavashfllgfpwlwgfmlgfvlaavspavvvpcllqlqkegygvakgiptlvmaaasvddvlaisgftivlgitfspdaslvqlafqgpleaaigvasgivgglvviflphqamdsyglarfsllvggclvclfgsklvhfpgagalavlvmsfvagfgwrkqgwsddnlvskylshlwmifqpllfgligteikvgeidqstiglglavvlisltvrvivsflsvtdrklnlrervfialawipkatvqaaigpvaydtalnleprrsdyidlghqlltiavlvilvtapigaiaimttaprlltkqgkppssa
+## &gt;A.amphitrite-KAF0289584.1
+## madptatyvfppvdpspaeqrrraserstsseekqsrsswresltgtdlatrgsgskpptisddvadgdvflgeplelqspepsgpchrcarpllrssyappagaalwrralygctcppwgwlegllsaaavtlavwglalaltgphalpggqifgilcllvlclaagwvaalvrlppllgmlimglclanvpglrsvassipegtssllrnmalmviltraglgldaaalrrlslvvlrlaftpclcetltvgvaahlllgfpwiwafmlgfvlaavspavvvpcllslqqqgygvekgvptlviaaasvddvlaisgfgvllgvnfsrgaltekllsgplevvmglgygvvggvllwylpgasnsrlallrlllltctgllalfgsqkvgyagagalaaltlafvaghgwrrsgwtgdtnpvsdaysvlwfvfqpllfgligaeiqvnalradtvglgllvlfigltvrmavtffvvlgggltvkerlfvtlawlpkatvqaaigpvaldfarqyaptpeniglgeqvvaiavlvilvtaplgaaaimlsaprllskasqvgpddkevqkvangdnta
+## &gt;D.citri-KAI5736882.1
+## mdnkksilpqnqnrtpsiivqnnsnkvqrpedidvrnkllppsgngskdfksrtpqrekkppsrirriitepfgpknlyvlrllgwvicllvswgllytlvkeevapggqllklltlivsahiagiivshvnlppllgmlvtgivlrnikffevsgtyreivvttreialtvilikaglgldakalkklsfvvlklafipciveatgaavccyfilgmpwvwgfllgfvlsavspavvvptllklssegygeskgistmviaasslddivaisafgiflgfatnvgksdaditnqllqapieislgvlfgivwglisawlphkedkfvvfkrvfmigggglfsvlgsqmigyngagplsciisafvaclcwkwqgwsdsynpvatafsglwlimqpalfgligaeidlsqidatqigqglivlagglvfraiacttcllgtnlnwkemifvniawlpkatvqaalgsvaldilknnspppadsveyptylqelsfgrgvltiavlsilvtapvgaigiafsgtrlltnepskeknqqpsnsqiaasidhldv
+## &gt;D.citri-KAI5704272.1
+## mdnkksilpqnqnrtpsiivqnnsnkvqrpedidvrnkllppsgngskdfksrtpqrekkppsrirriitepfgpknlyvlrllgwvicllvswgllytlvkeevapggqllklltlivsahiagiivshvnlppllgmlvtgivlrnikffevsgtyreivvttreialtvilikaglgldakalkklsfvvlklafipciveatgaavccyfilgmpwvwgfllgfvlsavspavvvptllklssegygeskgistmviaasslddivaisafgiflgfatnvgksdaditnqllqapieislgvlfgivwglisawlphkedkfvvfkrvfmigggglfsvlgsqmigyngagplsciisafvaclcwkwqgwsdsynpvatafsglwlimqpalfgligaeidlsqidatqigqglivlagglafraiacttcllgtnlnwkemifvniawlpkatvqaalgsvaldilknnapppadsveyptylqelsfgrgvltiavlsilvtapvgaigiafsgtrlltnepskeknqqpsnsqiaasidhldv
+## &gt;D.citri-KAI5704273.1
+## msdertllahsftqdicyeaisprekkppsrirriitepfgpknlyvlrllgwvicllvswgllytlvkeevapggqllklltlivsahiagiivshvnlppllgmlvtgivlrnikffevsgtyreivvttreialtvilikaglgldakalkklsfvvlklafipciveatgaavccyfilgmpwvwgfllgfvlsavspavvvptllklssegygeskgistmviaasslddivaisafgiflgfatnvgksdaditnqllqapieislgvlfgivwglisawlphkedkfvvfkrvfmigggglfsvlgsqmigyngagplsciisafvaclcwkwqgwsdsynpvatafsglwlimqpalfgligaeidlsqidatqigqglivlagglafraiacttcllgtnlnwkemifvniawlpkatvqaalgsvaldilknnapppadsveyptylqelsfgrgvltiavlsilvtapvgaigiafsgtrlltnepskeknqqpsnsqiaasidhldv
+## &gt;D.citri-KAI5704273.2
+## MASDVQRMAEICEKLSPKLSQKEPDILTNEPDHKKHPEHEHKKPSNELAEPKRKVSIASNAIQADIERNR
+## KISAASLEAKRNMLMNGGEFNLSPPCNHHHHHNHYRASCDYGKSPLSVISNCDFNERRVSSISNDGIYNY
+## ENNQSQIERSWWFGLCIKCRQKEVGPGWEPQCWPKVCPHPFCPSYRHVARILALLIIGLLVWGVAYCIMG
+## EDAAPGGQLFNIALLSICAHLGGWLFRMFTMPALVGMLLVGIVFENVGLISISKSYHEVESVLRKMALVV
+## ILTRAGLDLDPPALRRLWSTVLKLGLVPWAVEAISVVIATHYFLNLPWIWAFLTGSIFAAVSPAVVVPCL
+## FKLRSKGYGVAKGIPTLVIAVSGMGDATSVAIFGIVHSFMFSEDSLLYNIVLGPSSLIIGLAFGIIWGSL
+## AKVVPEKGDPFVVPLRIIMLLGGGLIVIFASEHLGLGGAGPLGVIASAFVSSYSWSKQGWNIEDNPVATA
+## FEIFWMIFEPILFGLTGTQFKLSELDPQIVSIAAIIVIGGVVTRILITVLVAVGSSLNLKEKLFVAFSWM
+## AKASVQAALGPVALDSTRNSPHEIDRYYAKIVLMICVLSVLLTAPTGAIIVTLGGSKLLNKGKSSIPQTG
+## WRRSARPSIRDITIIDEEREDDPEASPEMSRSEGRDNRGVDVIDEEDGESEARSQYPPTPSPKKNSFTNN
+## NNHTS
+## &gt;D.citri-KAI5742900.1
+## MTSMTCVRMAEICEKLSPKLSQKEPDILTNEPDHKKHPEHEHKKPSNELAEPKRKVSIASNAIQADIERN
+## RKISAASLEAKRNMLMNGGEFNLSPPCNHHHHHNHYRASCDYGKSPLSVISNCDFNERRVSSISNDGIYN
+## YENNQSQIERSWWFGLCIKCRQKEVGPGWEPQCWPKVCPHPFCPSYRHVARILALLIIGLLVWGVAYCIM
+## GEDAAPGGQLFNIALLSICAHLGGWLFRMFTMPALVGMLLVGIVFENVGLISISKSYHEVESVLRKMALV
+## VILTRAGLDLDPPALRRLWSTVLKLGLVPWAVEAISVVIATHYFLNLPWIWAFLTGSIFAAVSPAVVVPC
+## LFKLRSKGYGVAKGIPTLVIAVSGMGDATSVAIFGIVHSFMFSEDSLLYNIVLGPSSLIIGLAFGIIWGS
+## LAKVVPEKGDPFVVPLRIIMLLGGGLIVIFASEHLGLGGAGPLGVIASAFVSSYSWSKQGWNIEDNPVAT
+## AFEIFWMIFEPILFGLTGTQFKLSELDPQIVSIAAIIVIGGVVTRILITVLVAVGSSLNLKEKLFVAFSW
+## MAKASVQAALGPVALDSTRNSPHEIDRYYAKIVLMICVLSVLLTAPTGAIIVTLGGSKLLNKGKSSIPQT
+## GWRRSARPSIRDITIIDEEREDDPEASPEMSRSEGRDNRGVDVIDEEDGESEARSQYPPTPSPKKNSFTN
+## NNNHTS
+## &gt;D.citri-KAI5742064.1
+## msknsvsfskivhkyisgyeelaggnypgnpgnngkhqqkmtestiqlestdpaypnghpninaqhtednflvrflrapldfvspllisyitwaiilllvwgllycilttdalpggsafnicllilvaqifgkaveylrlpsllgmliagifmknvglfsvtpgvyeeivillreialttilikagmgldaaallklsfvvirlallpclaetagasiaahfildfpwlwglllgfilsavspavvvptllelkengygndksistlviaassvddiaaislfgvilgcifsegdltskivqgplevliglawgliwglilacfpnrldknvitkrclmlgsvcslavlgsqvidlagagplgcittafiagvcwklqgwthqynpvadkfasvwnviqitlfgligaeidllemdvkvvmagavvllcgltfritacaialigaklnmkevlfvnlawlpkatvqaalapvalnlvnklnmedtpehnyatsiltiavlsilitaplgsigitwggtrllhksevair
+## &gt;D.kikuchii-KAJ0181768.1
+## mksrerrfkvdilkraksekeatksdvkglkgvnrsfkksptsrsadaaaaasarerkkrsgvdavklhlqvtggtgrssrsatsvrktsirmasikeypfdlsdlqnqpntggntqpaqaqiqptnpaapvtvpvtapittpatnvdgkrkvsimadesskdrenlpsekngrmsaqaegpsrrksnlhnamqadmdsswdrqghiegrfkkysttssvyskkalshqsehierswwyaccqkchqedsgipsweppnwqkvcpyplcpsyrqfaqtisviiigllvwlilwivmgdtaapggqlfslavltlaayfggwlmmkittlpaligmlimgivmknlgfvnfdpqfqkvssyirkialtiiltragldldpialkkffftviklalvpwtfecvlcavmsyfllglpwdwafllgsivaavspavivpclfrlrekgygvskgiptlvlavsgvddaasvaifgivssvmfsnssltmniiqgpmsifggiafgiicgylvkfiperndaflvplrvmlllagglmsvlgseeigwggagplavivfafvacknwaelgwelednpvatafeifwmfvepmlfaitgaqvviedlephlvligsgilgtcvilravltstcavrsnlnmrekifvglawmakatvqaalgpvaldevrkmvgadpilveyaesvltvcilsivitapigaivitltgprllsktskppvlegwrrshrpsirdisiideeevaegdaeaearpsppgtpvaptaystptpitvqpnhrt
+## &gt;D.kikuchii-KAJ0175711.1
+## MFLDKRRGYILHLYMETNNREADENNENKGNFNYDKWWHRLCLRCHQEDATPSWQPSWWSRYFPFPIFPT
+## YRQSAQQLCIVMFFFLTWGILYAELGEPVGLNGELLGMTILVTAAYLIGWLWLKITTLPALIGMLLTGIL
+## FQNLHLVNMTDAYRKLNQDLRKVALVIILTRAGLGLDAGVLKKHYAAVLQLGLMPWSVECILIAISTHYL
+## LNLPWIWGFLLGSMIASVSPAVVVPCLFRLRDVGYGVSKGIPTLVVAAAAIDDSISVAVFAIILNAMFSS
+## GSVTFNIIKGPLSIVAGVVLGSLWGAMTSFIPEKGDLYVVPLRFLALFLGGLFSLFISSMIGWSGAGPLA
+## IVCSGFVAAFYWDKQGWPVNKNPVSNLFRILWIFFEPILFAFTGAQITISALDPEVIKMGAICLIVCLVL
+## RGIATFLVSFGCGLNSKEKLFIGLTWTAKATVQAALGPAALDLVHSGQTSGLSREDEETYAKAILAISVL
+## SVVLSAPLGALLIAITGPRLLTKGDETLPLDELERNNHNDETTKEV
+## &gt;D.kikuchii-KAJ0181766.1
+## MTSNGCETDKNENARANNVTPFEIGSSKTKIQEKDERNILRRKFFLSLPTVSELKQYTGVVICGLTIWAT
+## SWFWFKEAILPGGYLFNMSGVVIAGYTVGHTLERYTTLNPVVGMTLIGALYRNIGPPSFLNHPTADLLDY
+## HLRRLYPVIILTKGPLGWNWEHIKHNPVKVFSLATLPWTVECLSTAFFAHILLSYPWYWGLHLGSILSSV
+## SPAIVVPTVVALSKRGLGTKNSIAQLVGNAGGLDTTFTEGMFGIINSAIFYEASLVYRIVKGVLAIFVGI
+## AIGILWGVISDYIPEHNDIYAPTIRSIHILGGGILLTYAGGYFGWGGTSGVAIMVCAGTAATRWARRNWP
+## INDNPVSEVYKLLWRIFEPMLFTLSGYFLQISEISIREFSLIVACIFAALFLRMLTAFLVALANELSIKE
+## SLFIAVTWIPKAIVEAVLVRVATDSLWPDASKEDKRIAAQHSNIIVIAILLTSTLGSALTTALGPVLLSK
+## ESRVAPEEFYRSHTLSPPQSADLSQRTNTSSLHVVHI
+## &gt;D.kikuchii-KAJ0181767.1
+## MQDHKEAATVIDKGVYIIHSAEELKTPSDFSLHFTSNKNIIETPVKVRKTGFAGAVPLVVHFTSLLILGL
+## LVWGLLWVSWGDNWSLDGKWFRLTIVAVIAWSSGQVLQGLTTLPPLIAALLTGILARHLNYLDMREFTHI
+## DGFLRKIYPVVILGKGSLAWDVKFMRKNWKQVSALGVLPWTMEVVTLAVCMNLFLDYPWTWGVLLGSIYA
+## SVSCPVIMPSVLRIGSDSNRSYNWPQLVCTAGGTDTALSVGVYGIVYSFIFSNVNDTYRFTKVALTLFVG
+## VALGVSWGSLAKFMPHSQDYYVTELRVMFVLVGGLFANFVTLHFGWGGVAGVAVLACNATAAMHWARDGW
+## KLNNNAASTAYRVIWAACEPALFAYTGTYFEVNNSMSKLMLIGFGILLICLTVRLTVAALMCWDMTIKEK
+## LFICCAWSAKSIVEAVLCPLALNTLISQGRQNDKEMEYAEHLMRLTVQAILITTPISFLLTHHLGPILLK
+## RKSKDNENDSRS
+## &gt;S.littoralis-CAB3515165.1
+## mktrdrrakqdfrgkqdkkgvkqevsrsgkrhansvgaaesaaaarertkrsgveavklhlqvtgdpgrtsrsatsvrktsirmtaikeypfdlsdlqnqpsvagdtrptqtqpaqtqpaptqptvaqpnppsikprvsvpslegkrkvsimadesskdrenlpsdrmshsslschydsylpsdssletdalnrhwngsvsakaegpsrrksnlhnamaadmdsswdrqthiegrfkkysttssvyskkalsqqseyierswwyaccqkchsedsgipsweppnwqkvcpyplcpsyrqfaqniavliigilvwvivwivmgetaapggqlfsfavltiaayfggwlmlkittlpaligmlivgiimknvglvnfdetyqhvasyirkialtiiltragldldpnamkkyfltviklalvpwtfecvlcavlayfllglpwnwafllssiiaavspavivpclfrlrekgygvskgiptlvlavsgvddaasvavfgivssimfssasltmnviqgplsviggivlgvlcgylvkfvperndaflvplrvilllagglmmvlgseeigwggagplaviafafvacknwtdlgwelednpvatafeifwmffepmlfavtgaqvviadlephlvligggilvtcavlraivtstcavrsnlnmkekifvglawmakatvqaalgpvaldevrkmaggepdpvmieyaetvitvcimsivitapigaivitltgpkllsrttkppvlegwrrshrpsirdisiideeevaerdaeaeaeysrpsspkarpavasstpapitvqpghnss
+## &gt;A.plantaginis-CAB3231150.1
+## mktrdrrvksvsqrktqdkkgtqeisrgskrdrttgtahsgdtqgksharakrsgveavklhlkatgdpgrtsrsataairikvrktsvrmtaikeypfdlsdlqnqpvagedkpsalqqitvptrkksklsvgsqdgkrkvsimadesskdrenlpsererngnvsakaegpsrrksnlhnvmagdmdnswdrqghiegrfkkysttssvyskkaisqqseyierswwyaccakchtedsgipsweppnwqkvcpfplcpsyrqfaqnisvliigilvwvtiwiimgdtaapggqlfmlsiltivayfggmllmklttlpaligmlfvgiimknigfvnfdedyqhvtsyirkialtiiltragldldpiamkkhfftvvklalvpwtfecllcavlaffflglpwdwafllssivaavspavivpclfrlrekgygvskgiptlvlavsgvddaasvavfgiilsimfstvsvtmniiqgplsiiggivlgvvcgylvkyiperndaflvplrvlliligglamvlgseeigwggsgplaviaysffacknwtelgwelednpvatafevfwmffepmlfavtgaqvvivelephlvlvgggilvacvvlraivtsacavrsnlnmkekvfvglswmakatvqaalgpvaldevrkmagiepdpvlvgyaetvltvcimsivitapigaiiitlmgpkllsrttkppvlegwrrshrpsirdisiideeevaerdaeaeaqtsvpgspatpaaystpapitvqpanhs
+## &gt;A.plantaginis-CAB3223254.1
+## LVKRHGYLDLEMEQEQNTKDDNDENERAVQHNSWWETFCLRCHQEDSSPSWQPSWWSKYFPYPVFPTY
+## RQSAQQICIIIFFFLVWGILYAELEEAIGLQGELLSMTLLVIAAYLVGWIWLKVTTLPALIGMLLTGILF
+## QNLKLVHMTDEYKKLNQDLRKVALVIILTRAGLGLNAGVLKKHYAAVLQLGLLPWLVECILIAVSTHYLL
+## YLPWIWGFLLGSMIASVSPAVVVPCLFKLRDVGYGVAKGIPTIVLAAAAIDDSISVAIFAIILNAMFSTG
+## SATFNIIKGPLSIIVGILLGSLWGAFIALLPEKGDTYVVPLRFLALFLGGLFSYFISSMIGWSGTGPLAI
+## VSSGFVAAFFWEQQGWPINNNPVSNIFRILWIFFEPILFAFTGAQVTISALDPEVLKMGAICLLSCLALR
+## AVATYFVSFGCGLNSKEKLFIGLTWMAKATVQAALGPAALDMVRNGQTTGIARELEESYAKALLTISVLS
+## VVISAPLGALMIAITGPRLLAKSDSNTKQTDEPENGGSVTHI
+## &gt;A.plantaginis-CAB3231154.1
+## MTANSYDVDKNENRPNNVTTFELGSSKTQHNVKEETITVVGKLLQVLPSVYELRQYAGVFLCGLTLWGSS
+## WFLLKDSILPDGSLFNMMGVVIAGYIFGHTLERFTTINPVVGMTLTGALYRNFGPPNFLKDPAADLIDYH
+## LRRIYPVIILTKGPLSWNWEYIRHHSLKVFSLATLPWIIECLSTAFFAHILLEYPWYWGLHLGSILASVS
+## PAIVVPTTLSLHAKGLGTKNQISLLVGNAGGLDTAFTEGLCGVINSAIFYPAPLVYRTVKGLLAIFVGIA
+## LGIFWGVLSDEVPDHSDIYAPTIRSLLIFAGGVLLTYASGYLGWGGASGVAIMVCAGTAATRWARRDWPL
+## TNNPVWEVYKLLWRIFEPMLFTLSGYFLDISEISGKELCLILGCIFAALVLRLLTAFLVALANELSVKES
+## LFIAVTWIPKAIVEAVLVRVAMDSLWDDATAKDKKIATQHANIIVIAILLTTTLGSVLTTVLGPILLSQE
+## SRVAPEDFYRTQTLSPPQSANLDQRNNTPSTFQYDINVQ
+## &gt;A.plantaginis-CAB3249883.1
+## MTANSYDVDKNENRPNNVTTFELGSSKTQHNVKEETITVVGKLLQVLPSVYELRQYAGVFLCGLTLWGSS
+## WFLLKDSILPDGSLFNMMGVVIAGYIFGHTLERFTTINPVVGMTLTGALYRNFGPPNFLKDPAADLIDYH
+## LRRIYPVIILTKGPLSWNWEYIRHNSLKVFSLATLPWIIECLSTAFFAHILLEYPWYWGLHLGSILASVS
+## PAIVVPTTLSLHAKGLGTKNQISLLVGNAGGLDTAFTEGLCGVINSAIFYPAPLVYRTVKGLLAIFVGIA
+## LGIFWGVLSDEVPDHSDIYAPTIRSLLIFAGGILLTYAGGYLGWGGASGVAIMVCAGTAATRWARRDWPL
+## TNNPVWEVYKLLWRIFEPMLFTLSGYFLDISEISGKELCLILGCIFAALVLRLLTAFLVALANELSVKES
+## LFIAVTWIPKAIVEAVLVRVAMDSLWDDATAKDKKIATQHANIIVIAILLTTTLGSVLTTVLGPILLSQE
+## SRVAPEDFYRTQTLSPPQSANLDQRNNTPSTFQYDINVQ
+## &gt;A.plantaginis-CAB3249884.1
+## MEYKNGTSILDKGVYIIRNEEFKTMNEDDSLLARAVRRQNIIMKGQETPEITLNYNPEKNPIKDGIVKKT
+## KDICRAKTPTILHYFTLLVLGLGTWGLLWCAFGEDWNWNGRWTRLAFVGGLAWAAGEAFQMCTSLPPLLA
+## ALVIGILARNFEFLDMREYTEIDAFLRRIYPVIILGKGSLAFDFKYIKKHWRLVSSLGVLPWTAEVLTLA
+## VCMHVFLDFPWMWGLLLGSTYASVSFAVVMPAVQNSSGSSGNLSQNWNQLILTAGGTDTALSVGVFGVIH
+## SFIMHEGDDTYRYIKAALALLVGVVVGVSWGTLAKFIPHSKDFYVAEMRLLFVLIGGLFTFFLSAKFGWG
+## GTGGVAVLACNSTAANCWEKDGWKLNKNPASTAYRVMWSTLEPLVFAYSGTFFVIKAPLWNVMLIGLGIL
+## CICVVVRLTIAFFVCSKMTIRERFFVCCTWIPKSIVEAVLCPVAYNALVARGNYDENEMQYAEHFIWIII
+## QAILVTTPIGFLLTKHLGPFLLTEKQKKYDIDPET
+## &gt;A.plantaginis-CAB3231153.1
+## MEYKNGTSILDKGVYIIRNEEFKTMNEDDSLLARAVRRQNIIMKGQETPEITLNYNPGKNPIKDSIVKKT
+## KDICRAKTPTILHYFTLLVLGLGTWGLLWCAFGEDWNWNGRWTKLAFVGGLAWAAGEAFQMCTSLPPLLA
+## ALVIGILARNFEFLDMREYTEIDAFLRRIYPVIILGKGSLAFDFKYIKKNWRLVSSLGVLPWTAEVLTLA
+## VCMHVFLDFPWMWGLLLGSTYASVSFAVVMPAVQNSSGSSGNLSQNWNQLILTAGGTDTALSVGVFGVIH
+## SFIMHEGDDTYRYIKAALALLVGVVVGVSWGTLAKFIPHSKDFYVAEMRLLFVLIGGLFTFFLSAKFGWG
+## GTGGVAVLACNSTAANCWEKDGWKLNKNPASTAYRVMWSTLEPLVFAYSGTFFVIKAPLWNVMLIGLGIL
+## CICVVVRLTIAFFVCSKMTIRERFFVCCTWIPKSIVEAVLCPVAYNALVARGNYDENEMQYADHFIWIII
+## QAILVTTPIGFLLTKHLGPFLLTEKQKKYDIDPET
+## &gt;B.ino-CAH0726637.1
+## mshsslschydsylpsdssletdaltnrhwngrvsaqaegpsrrksnlhnalaaemdtswerpthiegrykkysttssiyskkalshqsehierswwyaccqkchaedtgipswepphwqkicpyplcpsyrrfaqnlsilligimiwvivwiilgdtaapggqlfmfavltiaahfggwlmvkvttlpaligmlivgiimknigfvnfdsdyqhvasyvrkialtiiltragldldpgamkkffftvlklalvpwtfecvlcavmsnlllglpwdwaflmgsifaavspavivpclfrlrekgygvskgiptlvlavsgiddaasvavfgivssimfsnsslttniiqgpvsiiggiafgvfcgylvkyipekndaflvpirvllllagglmsvlgseeigwggggplaviafafvackewveqgwelednpvatafeifwmffepmlfavtgaqiviadlpphlvlvsagiimtciilralltsvsavrsnlnmkekifvgfawmakatvqaalapvaldevrkmagddeskiellnyaemvftvcimsivitapigaivititgprllskttkppvlegwrrshrpsirdisiideediaerdaeaeagtqhsppvspiptavpnaistpnpitvqpnsrt
+## &gt;B.ino-CAH0714536.1
+## MEPYSHQTGVRVYTFIEENNQDINASNSWWYKLCLRCHQADPTPAWQPIWWKKVFPFPIFSTFRQSAQQL
+## CIILFFFLVWGILYAELGNTVSIDGEILSMTLLVIAAYLIGWIWLKVTTLPALIGMLLTGIIFQNLNLVY
+## MTEAYRKLNQDLRKIALVIILMRAGLGLDAGVLKKHYIAVLQLGLLPWLVECIAISVTTHFLLNLPWIWG
+## FLLGSMIASVSPAVVVPCLFRLRDAGYGVSKGIPTLLLAAAAIDDSVSVAVFAIILNAMFSTGSMTFNII
+## KGPLSIIVGVVLGSLWGAFVSVVPEKGDIYVVPLRFLALFLGGLFSLFISSLIGWSGAGPLAIVSSGFIA
+## AYYWDKQGWPVNKNPVSNLFRIQWIFFEPILFAFTGAQITLSALDPQVIAMGAICLVSCLVLRAIFTFFI
+## SFGCGLNAKEKFFIGLTWLAKATVQAALGPAALDLVHSGQTTGVSPTEEEKYAKTILAVSVLSVIISAPI
+## GAILIALTGPRLLSRDSDTKAVGIENEHNIAVNNTPL
+## &gt;B.ino-CAH0714537.1
+## MEPYSHQTEENNQDINASNSWWYKLCLRCHQADPTPAWQPIWWKKVFPFPIFSTFRQSAQQLCIILFFFL
+## VWGILYAELGNTVSIDGEILSMTLLVIAAYLIGWIWLKVTTLPALIGMLLTGIIFQNLNLVYMTEAYRKL
+## NQDLRKIALVIILMRAGLGLDAGVLKKHYIAVLQLGLLPWLVECIAISVTTHFLLNLPWIWGFLLGSMIA
+## SVSPAVVVPCLFRLRDAGYGVSKGIPTLLLAAAAIDDSVSVAVFAIILNAMFSTGSMTFNIIKGPLSIIV
+## GVVLGSLWGAFVSVVPEKGDIYVVPLRFLALFLGGLFSLFISSLIGWSGAGPLAIVSSGFIAAYYWDKQG
+## WPVNKNPVSNLFRIQWIFFEPILFAFTGAQITLSALDPQVIAMGAICLVSCLVLRAIFTFFISFGCGLNA
+## KEKFFIGLTWLAKATVQAALGPAALDLVHSGQTTGVSPTEEEKYAKTILAVSVLSVIISAPIGAILIALT
+## GPRLLSRDSDTKAVGIENEHNIAVNNTPL
+## &gt;B.ino-CAH0726632.1
+## MQGNKHTVTVIDKGVYLVHQEEEKTSIQTTPIVSIDKLSKEDEVKKASWFDSKAPTVFHYIALVILGALT
+## WGYLWCALGEDWSLNGQWFRLTIIGVIAWASGLILQELTTLPPLLAALLTGIIARHFGFVDMRAYPYIDG
+## FLRKIYPVIILGKGSLSWDVKFIKQNWKQVLALGALPWSAEVLAVAVCTHFLLGFPWIWGFLLGSFYASV
+## SCPVIMPSVIKHGKSASGKVNWSQLICTAGGLDTTLSVGTFGVLFSFIFYEFDDSYHYVKAILALPLGLV
+## LGIAWGSLAKYIPNPNDVFVTELRVLFVLAGGLFVNMFTTSIGWGGTGGVAVLACNATAASHWSKTGWKL
+## NQNPAATVYRVLWSTCEPVLFAFTGTFFVVHSSISETMLIGLGILLVCLTVRLITAVLVCWKLTLKQKIF
+## VCCTWIPKSIVEAVLCPMAIITIIAQCQHIEELAIAEDLMRLIVQAIIITTPIGFLLTNNLGSMLLNENN
+## CEDIESKPRFTSRKSSAFHHDEDSNL
+## &gt;B.ino-CAH0726633.1
+## MSEDDCLIVRAVCVGEEFEKMQGNISIQTTPIVSIDKLSKEDEVKKASWFDSKAPTVFHYIALVILGALT
+## WGYLWCALGEDWSLNGQWFRLTIIGVIAWASGLILQELTTLPPLLAALLTGIIARHFGFVDMRAYPYIDG
+## FLRKIYPVIILGKGSLSWDVKFIKQNWKQVLALGALPWSAEVLAVAVCTHFLLGFPWIWGFLLGSFYASV
+## SCPVIMPSVIKHGKSASGKVNWSQLICTAGGLDTTLSVGTFGVLFSFIFYEFDDSYHYVKAILALPLGLV
+## LGIAWGSLAKYIPNPNDVFVTELRVLFVLAGGLFVNMFTTSIGWGGTGGVAVLACNATAASHWSKTGWKL
+## NQNPAATVYRVLWSTCEPVLFAFTGTFFVVHSSISETMLIGLGILLVCLTVRLITAVLVCWKLTLKQKIF
+## VCCTWIPKSIVEAVLCPMAIITIIAQCQHIEELAIAEDLMRLIVQAIIITTPIGFLLTNNLGSMLLNENN
+## CEDIESKPRFTSRKSSAFHHDEDSNL
+## &gt;A.plantaginis-CAB3231151.1
+## mshsslschydsylpsdssletdalnrhwngnvsakaegpsrrksnlhnvmagdmdnswdrqghiegrfkkysttssvyskkaisqqseyierswwyaccakchtedsgipsweppnwqkvcpfplcpsyrqfaqnisvliigilvwvtiwiimgdtaapggqlfmlsiltivayfggmllmklttlpaligmlfvgiimknigfvnfdedyqhvtsyirkialtiiltragldldpiamkkhfftvvklalvpwtfecllcavlaffflglpwdwafllssivaavspavivpclfrlrekgygvskgiptlvlavsgvddaasvavfgiilsimfstvsvtmniiqgplsiiggivlgvvcgylvkyiperndaflvplrvlliligglamvlgseeigwggsgplaviaysffacknwtelgwelednpvatafevfwmffepmlfavtgaqvvivelephlvlvgggilvacvvlraivtsacavrsnlnmkekvfvglswmakatvqaalgpvaldevrkmagiepdpvlvgyaetvltvcimsivitapigaiiitlmgpkllsrttkppvlegwrrshrpsirdisiideeevaerdaeaeaqtsvpgspatpaaystpapitvqpanhs
+## &gt;H.armigera-PZC78836.1
+## mktrdrrakqdfrgkqdkkgvkqdisharsgkrhahssssaesaaaarertkrsgveavklhlkvtgdpgrtsrsatsvrktsirmtaikeypfdlsdlqnqpsvvsesrpapapapnppasaikqrvsvpslegkrkvsimadesskdrenmpsdrdrngsvsakaegpsrrksnlhnamaadmdtswdrqahiegrfkkysttssvyskkalsqqseyverswwfaccqkchsedagipsweppnwqkvcpfplcpsyrqfaqnvavliigllvwmtlwivmgdtvapggqlfsfavltivayfggwlmqkittlpaligmlimgivmknvglvnfddtfqtvasyirkialtiiltragldldpsamkkyfltviklalvpwtfecilcailayfflglpwnwafllssiiaavspavivpclfrlrakgygvskgiptlvlavsgvddaasvavfgtivsimfsnasltmniiqgplsvvggivlgvlcgylvkfvperndaflvplrvlmllmgglmmvmgseeigwagagplaviafafvacknwtemgwelednpvatafevfwmffepmlfavtgaqvviaeleprlvmigggilitcvilrsivtsvcavrsnlnmrekifvglawmakatvqaalgpvaldqvrymlvdgkpdplmiqyaetvvtvcilsivitapigaivitltgpkllsrttkppvlegwrqthrpsirdisiideeevaerdaeaegsrpgsprprtaassppapitvqpphnppq
+## &gt;H.armigera-PZC83667.1
+## MFFLLTWGILYSELGESVGLQGELLSMSLLVISAYLIGWVWLKITTLPALIGMLLTGIAFQNLQLVHMTD
+## SYRKLNQDLRKIALVIILTRAGLGLDAGVLRKHYAAVLQLGLLPWLVECVLIAVSTHYLLYLPWIWGFLL
+## GSMIASVSPAVVVPCLFRLRDVGYGVAKGIPTIVVAAAAVDDSISVAIFAIILNAMFSTGSATFNIIKGP
+## VSIVAGVVLGSFWGAITSVIPEKGDTYVVPLRFMALFLGGLFSLFISSMIGWSGAGPLAIVSSGFVAAYF
+## WEKQGWPVNKNPVSNIFRILWIFFEPVLFAFTGAQITISALDPQVIKMAVICLVSCLVLRAIATFFVSFG
+## CGLNSKEKIFIGLTWTAKATVQAALGPAALDLVNSGQTSGAAKEDELYYAKAILAVSVISVVISAPLGAL
+## LIALTGPKLLSKDEPAEVQNVQDAENQSTQI
+## &gt;H.armigera-PZC78838.1
+## MTENKNATTALDKGVYIIHNEDFKTTPELTFNYSSEKNVGEAEEKENAACIAATTTFLHYFVLIILGLAS
+## WSLLWCAFGEEWSWNGRWFRPAVVAAIAWIAGEILQMTTTLPPLLAALITGIAARNIGYLDMRHYTAIDG
+## FMRKIYPVLILGKGSLGWNLTYMRQNWKQVASLGVLPWTAEVVTLAVCMNLLLGYPWIWGFLLGSIYASV
+## SCPILMPTVVKLTAGKNLGQNWPQLICTSGGTDTALSVTAFGIIHSFIMYDGDDTVYRYTRAACALFLGT
+## VAGVIWGTLAKFVPHARDAYVTELRVLFVLVGGLCALFITSHFGWGGAGGIAVLACNATAAHHWAKAGWK
+## LNNNPASTAYRIMWSSVEPILFAYTGTFFVIHPSLSRVMLVGFGVLVVCLAVRLITAFLVCPSLSIRERL
+## FVCCAWVPKSIVEAVLCPIAITAFISTGRHDKVQMEYAETLMRIIVQAILITTPIGFLLTKHLGPILLRE
+## KHKKCQNESEI
+## &gt;H.armigera-PZC78839.1
+## MPFIMYMMLLIEDKNENVRATNVTTFELGSAKTTHPEKNEKKIFLRKLLQTLPSVSELKQYVGVFLCGVT
+## LWGSSWFLLKDSVLPDGYLFKMAGVVIAGYMFGQTLERYTTINPVVGMTLTGALYRYFGPPNFLESPTAD
+## LIDFHLRRIYPVIILTKGPLTWNWEYIKNNSVKVFSLATLPWTVECLSTAFFAHILLEFPWYWGLHLGSI
+## LASVSPAVVVPTVNGFSARGLGTKNQIALLVANAGGLDTAFTEGVCGVINSAIFYPAPLVYRIVKGLLAI
+## FVGIAVGIFWGMLSDSLPDHSDIYAPTIRSLLIFGGGVLLTYAGGYLGWGGTSGVAIMVCAGAAATRWAR
+## RDWPIADNPVWEVYKLLWRIFEPMLFTLSGYFLDVSQINVKELCLILGCISAALVLRLLTAFLVALANEL
+## SIKESLFIAVTWIPKAIVEAVLVRVAMDSLWVDATSKDRRIAAQHSNIIVIAILITSTLGSVLTTALGPV
+## LLSHDSRVAPEDFYRTQTISPPVSSNRVRRNNTSNSLHCINVQ
+## &gt;I.podalirius-CAH2066547.1
+## mktrdhrlsnlsqrgnrspkldkkgtkhegrrtrnsqvpgsppgarrerskrsgveavklhlqetggtgrtsrsatshkalrksqrvsgypvflvhsslrfkrksarvvpqtnvtnslvnltvrktsirmaaikeypfdlsdlqnkqncgdetsqtpdrsnqnqsklnsdsvpaqgtpeegkrkvsimanenskdrenqpsernarvsaqaegpsrrksnlhnamaaemdsswdrpahiegrykkysttssiyskkaqshqsehierswwyaccqkchqeesgvpsweppywqkicpyplcpsyrhvaqtlsvfligvlvwviiwivmgntaapggqlftlavltiaayfggwimvkvttlpaligmlivgivmknigfvnfdenylhvcsyiragldldpvalkkyfltviklalipwtfecvlcavmanlllglpwdwafllgsiiaavspavivpclfrlrgkgygvskgiptlvlavsgvddaasvavfgivssimfanssvtmniiqgpmsviggiafgvfcgylvkyiperndaflvplrvllllagglmsvlgseeigwggagplaviafgfiacknwaeqgwelednpvatafeifwmffepmlfsvtgaqvviaeldshlvlvgggilitcvvlramltsasavrsnlnmkekvfvglawmakatvqaalgpvaldevrkmsgddeskaelikyaeivvtvcimsivvtaplgamvitvtgprllskttkppvlegwrrshrpsirdisiideeevaereceadsspevspaapnayntstpapvpvtvqpnhrt
+## &gt;I.podalirius-CAH2066549.1
+## mignswptpllksvftsltvkrlvvrktsirmaaikeypfdlsdlqnkqncgdetsqtpdrsnqnqsklnsdsvpaqgtpeegkrkvsimanenskdrenqpsernarvsaqaegpsrrksnlhnamaaemdsswdrpahiegrykkysttssiyskkaqshqsehierswwyaccqkchqeesgvpsweppywqkicpyplcpsyrhvaqtlsvfligvlvwviiwivmgntaapggqlftlavltiaayfggwimvkvttlpaligmlivgivmknigfvnfdenylhvcsyiragldldpvalkkyfltviklalipwtfecvlcavmanlllglpwdwafllgsiiaavspavivpclfrlrgkgygvskgiptlvlavsgvddaasvavfgivssimfanssvtmniiqgpmsviggiafgvfcgylvkyiperndaflvplrvllllagglmsvlgseeigwggagplaviafgfiacknwaeqgwelednpvatafeifwmffepmlfsvtgaqvviaeldshlvlvgggilitcvvlramltsasavrsnlnmkekvfvglawmakatvqaalgpvaldevrkmsgddeskaelikyaeivvtvcimsivvtaplgamvitvtgprllskttkppvlegwrrshrpsirdisiideeevaereceadsspevspaapnayntstpapvpvtvqpnhrt
+## &gt;I.podalirius-CAH2066551.1
+## mshsslschydsylpsdssletdalnrhwnarvsaqaegpsrrksnlhnamaaemdsswdrpahiegrykkysttssiyskkaqshqsehierswwyaccqkchqeesgvpsweppywqkicpyplcpsyrhvaqtlsvfligvlvwviiwivmgntaapggqlftlavltiaayfggwimvkvttlpaligmlivgivmknigfvnfdenylhvcsyiragldldpvalkkyfltviklalipwtfecvlcavmanlllglpwdwafllgsiiaavspavivpclfrlrgkgygvskgiptlvlavsgvddaasvavfgivssimfanssvtmniiqgpmsviggiafgvfcgylvkyiperndaflvplrvllllagglmsvlgseeigwggagplaviafgfiacknwaeqgwelednpvatafeifwmffepmlfsvtgaqvviaeldshlvlvgggilitcvvlramltsasavrsnlnmkekvfvglawmakatvqaalgpvaldevrkmsgddeskaelikyaeivvtvcimsivvtaplgamvitvtgprllskttkppvlegwrrshrpsirdisiideeevaereceadsspevspaapnayntstpapvpvtvqpnhrt
+## &gt;I.podalirius-CAH2066545.1
+## MIGHLQNAAVLVRAATDSLWKDGTSEQDKKIAAQHANIIVIAILLMTTLGSGLTTILGPILLSQDSKIRD
+## SDFHNSASIPPLHSYDFKIINMFTEATISSRAICYETESNSFNAIQGAEMKLDKRIYDKHHKKEAKTLPE
+## SSENVTSDKVIPQNILVKEKSWWTAIKLDFVHYLTLVVIGILTWGLLWSAFGNNWRWDGPWFRIAAVAVV
+## AWGSGLLFQELTTLPPLLAALLTGIFARHFGILDMRHHINIDAFLRKIYPVIILGKASLAWDINYMKSNW
+## RQVVALGTVPWAVEVTTTAICSHYFLDFPWLWGFMLGSIYASVSCAVIMPPVQRHTKDADRTQNWPQLIC
+## TAGGTDTALSVGVYGLIHSFMFTDAIDLYRYIKAGLTLFAGAGLGVIWGSLAKLFPHSADSYVTELRILF
+## VLVGGLLANFFTSAVGWGGTGGVAVLACNATAAKYWSEKGWKLNQNPASTAYRVLWSACEPMLFAYTGTF
+## FVIHTTLSDTMIKGFGILVITLTTRLLTTALVCWNLSMKEKLFICCTWIPKSIVEAVLSPLAIDTLLMKN
+## AGEDHEMRQAEDIMRLLVQAILITTPIGFLLTKHLGPFLLCKQRKGNKTDLESHKSP
+## &gt;I.podalirius-CAH2066543.1
+## MTEHDGIARVEINETIKNISMEIDGSKTNSLSVDRTSTFSSKLLEVVPSKRELKQYFAVILCGFTLWCTS
+## WFVLQDAVLPGTAIFNMAGIVVAGYVFGHVLERYTTISAMAGMTLVGALYRSFGQTNILEDPVADNIDYH
+## LRRIYPVLILTKGPLSWNWPYIKNNSVKVFLLATLPWIVECLSTAIFTHVLLEYPWYWGLHLGSILSSVS
+## PAVVVPTVMALNSKGFGRRNKIALLVANAGGLDTTFTEGMFGVINSAIFYPAPPAYRVIKAVLAIFVGIG
+## LGVAWGVVSDTLPNHTDPYVATLRSLLIFSGGIFLTYASGYLGWGGTSGVAVMVCAVTAATRWSRRDWPI
+## NSNPVATVYKVLWLIFEPMLFTLSGYFLEVSQMTLKELGLIVACLFLALLLRLLTAFLIAIANRLSIKES
+## LFVAVTWIPKAIVEAVLVRAATDSLWKDGTSEQDKKIAAQHANIIVIAILLMTTLGSGLTTILGPILLSQ
+## DSKIRDSDFHNSASIPPLHSYDFKIINMFTEATISSRAICYETESNSFNAIQGAEMKLDKRIYDKHHKKE
+## AKTACSSIIINQSLMEEHYRLLVGRASKRKTYDIMQSTSLPESSENVTSDKVIPQNILVKEKSWWTAIKL
+## DFVHYLTLVVIGILTWGLLWSAFGNNWRWDGPWFRIAAVAVVAWGSGLLFQELTTLPPLLAALLTGIFAR
+## HFGILDMRHHINIDAFLRKIYPVIILGKASLAWDINYMKSNWRQVVALGTVPWAVEVTTTAICSHYFLDF
+## PWLWGFMLGSIYASVSCAVIMPPVQRHTKDADRTQNWPQLICTAGGTDTALSVGVYGLIHSFMFTDAIDL
+## YRYIKAGLTLFAGAGLGVIWGSLAKLFPHSADSYVTELRILFVLVGGLLANFFTSAVGWGGTGGVAVLAC
+## NATAAKYWSEKGWKLNQNPASTAYRVLWSACEPMLFAYTGTFFVIHTTLSDTMIKGFGILVITLTTRLLT
+## TALVCWNLSMKEKLFICCTWIPKSIVEAVLSPLAIDTLLMKNAGEDHEMRQAEDIMRLLVQAILITTPIG
+## FLLTKHLGPFLLCKQRKGNKTDLESHKSP
+## &gt;I.podalirius-CAH2066541.1
+## MTEHDGIARVEINETIKNISMEIDGSKTNSLSVDRTSTFSSKLLEVVPSKRELKQYFAVILCGFTLWCTS
+## WFVLQDAVLPGTAIFNMAGIVVAGYVFGHVLERYTTISAMAGMTLVGALYRSFGQTNILEDPVADNIDYH
+## LRRIYPVLILTKGPLSWNWPYIKNNSVKVFLLATLPWIVECLSTAIFTHVLLEYPWYWGLHLGSILSSVS
+## PAVVVPTVMALNSKGFGRRNKIALLVANAGGLDTTFTEGMFGVINSAIFYPAPPAYRVIKAVLAIFVGIG
+## LGVAWGVVSDTLPNHTDPYVATLRSLLIFSGGIFLTYASGYLGWGGTSGVAVMVCAVTAATRWSRRDWPI
+## NSNPVATVYKVLWLIFEPMLFTLSGYFLEVSQMTLKELGLIVACLFLALLLRLLTAFLIAIANRLSIKES
+## LFVAVTWIPKAIVEAVLVRAATDSLWKDGTSEQDKKIAAQHANIIVIAILLMTTLGSGLTTILGPILLSQ
+## DSKIRDSDFHNSASIPPLHSYDFKIINMFTEATISSRAICYETESNSFNAIQGAEMKLDKRIYDKHHKKE
+## AKTLPESSENVTSDKVIPQNILVKEKSWWTAIKLDFVHYLTLVVIGILTWGLLWSAFGNNWRWDGPWFRI
+## AAVAVVAWGSGLLFQELTTLPPLLAALLTGIFARHFGILDMRHHINIDAFLRKIYPVIILGKASLAWDIN
+## YMKSNWRQVVALGTVPWAVEVTTTAICSHYFLDFPWLWGFMLGSIYASVSCAVIMPPVQRHTKDADRTQN
+## WPQLICTAGGTDTALSVGVYGLIHSFMFTDAIDLYRYIKAGLTLFAGAGLGVIWGSLAKLFPHSADSYVT
+## ELRILFVLVGGLLANFFTSAVGWGGTGGVAVLACNATAAKYWSEKGWKLNQNPASTAYRVLWSACEPMLF
+## AYTGTFFVIHTTLSDTMIKGFGILVITLTTRLLTTALVCWNLSMKEKLFICCTWIPKSIVEAVLSPLAID
+## TLLMKNAGEDHEMRQAEDIMRLLVQAILITTPIGFLLTKHLGPFLLCKQRKGNKTDLESHKSP
+## &gt;C.capitata-CAD6994394.1
+## wrilvkhwpfisqplalaavfialwvlgyvllpdyalpntpimrifflfvgaqltgvlvtfialpdmlgmlffgvlytnvgladftgynkfeaflremalinimllaglgldasafkklwfmilrltlvptiaevtiiamiarftldmpwfwgillglvvtavspnvvvtvmlklkeerlglnsgihtliyamtscndvvaiflfgvilsvifstdksltqqilqgpigigigivfgyvyglmltilpstktaylnglrfvltvlggtisvmgsrtigypsagalgcmtiaffagigwkgqqqhltpqqlqrqlenenssvparldllwkflkpvsfsligkeinfdvldgrvvgygallvllgslfrlafaylstyggnltrkerayitisgfpkatvqaalgplaldmarslkgvdeqsinlasnvliisvlaiiftaplgavlmlrlaplwlqrsdvhgegngnsnsrdcdvnefvssksnntdspddtlkiskkiaqslsqagsktqnngssnslkgavdvytvdgdgdgngdagqvsrtqspwakederkasrh
+## &gt;L.cuprina-KAI8116404.1
+## mtfdiatpvvtslddtnekelnrqkaynsprstttkpkceihkdknnddeyskaqqpsqitlqqiknekqqredttktagvnkkihqddgddddddevseealepnenehllggqeqqqamensatvpalvnfnetlstatsderrakykryredeeadnpnkysanplgssqsfitstkiiaedidlkthcklelhkfpkemtqsqnnineqngssiiltptlltpttdgqhvftniggsaagaegggrevaaatfhddvykgpkiwqylvrnypvtsqplailiifivlwllgyvlmpeyaipstaimrlillivgaqiagilvtfiklpdmlgmlffgvlytnvgladfsgyqkleaflremalinimllagfgldanafkklwfmilrltliptiaevaiitvlahfllnmswlwgillglvitavspnvvvtvmlklkeerlglnngihtliyamttcndvvaiflfgvfcgvifstgtlteqilqgpigigigivfgyvyglmlqylpsrnaiyvnglrfvltvlggtiavmgsktigypsagalgcvtvafiasigwkrqekkltpqqlqtyenanvgkrldlmwkflkpvsfaligkeinfavldvkvvgygvllvvlgsvfrlafaylstyggnltikergyitissfpkatvqaalgpialdmarslntdadtlslasnvliisvlaiiftaplgailmlrlapiwlkrsatnddimaednrggnvnmtveyensrqdnpnnlefagndnldrnqkaqtdklvnmnkfvgfivlrlnnnfikclhfkil
+## &gt;L.cuprina-KAI8130912.2
+## MCPYPLCPSFRQFARILVLILIGVLLWITAYVIIGESAAPGGQLFGLVVLTVAANFGGYLISLTTLPRLI
+## GMLLVGILFQNVGWTNLEGDFSIVTAHLRKFALTIILIRAGLEMEPDAFKKVYKTILKLGIIPWILECCV
+## VGLTTHFLLDLPWVWAFLLGSIIAAVSPAVVVPCLFRLRTKGYGVAKGIPTLIIAVAGIDDALSVAIFGI
+## ISSVMFSDRGLGYQISQAPVCIIGGLAFGVIWGYIARFFPEKGDAYVVPLRTIMLFSGGLVAIYGSEEIG
+## YEGAGPLAAVFSAFVSNLFWCKQGWEVEDNPVATAFEIFWMIFEPILFGITGATIKISELDPDIVSVGIG
+## CIAIGAVLRILCTAGIAFGDKLNMKEKFFVALSWMSKATVQAALGPVAMKHLAADAPETDKHYAYVVQTI
+## AVLSIVLTAPLGAILISVTGTKLLTKTKQPQVIEGWRRSHRPSIRDISIIDEEEEREDPEMPEDKETADN
+## TQSNAHIPPTLTYTYNNK
+## &gt;G.fuscipes-KAI9577037.1
+## memlpptdnnnelngpitltpisltttnadnsltrfgsegrprenekyddhqykgpkiwlylvrnwpimseplaiififlslwtigyilmptyalphtvvmriiflfigaqtigvlftfiqlpdmlgmlffgvlyanlgwanfkdyekfeaflremalinimllaglglnanafkklwfmilrltliptvaevaiiailgrfllsmpwlwgvclgliitavspnvvvtvmlklkeerlglndgihtliyamtacndilaiflfgvmigiifskghlseqllqgpigigiglvygslfglmlqfvpsrnatyanglrfvltvlggtisvmgskaidytsagalgcvtlafiagigwrrqqlkltveerhanenstvakrldllwkflkpvsfaligkeinfavlnakvvsygallvllgslsrlvfayvstygghltkkerayitisgfpkatvqaalgpialdlarslnasadklllasnvliisvlaiiftaplgailmlrlaprwlkhtplegshpyafdnpaqysvedntidtvceqchrvepissqkrrnslnv
+## &gt;T.longispinosus-TGZ49087.1
+## mdiemgssrtnkpseelakrrvsisdqvmgidnpafehnrrisassehnsdqgrrksilhhggsaenipqykfdlengringnrkksayslsssirdkieyseelerswlylfcarchgrddtpsweppgwrracpqpfcptyrkfarvlclfllglllwgvvysvigndaapggqlfglaalciaahfggwlislttlpaligmlitglilqnvglvkiegqytvvvsnlrkialviiltragldldptalkrlkvtvpklglipwvveatvvatltkylldlpwvwgfllgsviaavspavvvpclfrlrskgygvakgiptliiavagiddaasvavfgivksvmfshdalwyqilqgpiaiigglgfgimwgwlakyvpekgdpfmvplrvlmllgggllavfgseaielggagplavvaaafvscyfwqqegwdvddnpvatsfeifwmifepilfgvtgtqikinelegktvxlglgclvagivirigatvlvgigsklnlkekvfialswmakatvqaalgpvtldevdkndqqqveyaetvlmmcvlsvlltapagaiiislsgpklltkttapvtppeawktrrpsmrdisiinedpdleetanerkp
+## &gt;T.longispinosus-TGZ32222.1
+## MQPIPEDEPTASTSTDARAPNNKQIREKSIEIAEVEDEDEEHDDNTCCHRATFCNPVLREILVTNVISTC
+## FELQLTWADLFWLATVCGMTLLTWAVLYFLLGDMVLPGGSIFGLLVLVVLSYALGWTLACIPRLHLPPVF
+## GMLLAGIILRNTDVYNIHDMLGPGTTSKIRTFCLTFIMVRAGLQLTTTALRAHPVFVMILALVPCTVETL
+## AVTVSCKYLLEFPWNWSFMTGAIVACMSPVVTVNCLLTLSEQGYGEDKGLASXLCTAASIDDVHIVSLFS
+## ICFSFVFSNDDGRTEWWSYIPGGIRDFLLGLIMGIILGFALVFFPHRNHTTPFHKAFHFLWHFVQPILGG
+## VIGADIDFRNWAISRFGLYLACVLMGISVRSTTAFLTTIRMPFTWKERLFIAIAWVPKGTLQAALAPMAF
+## ERARKEGDPTKIELALDVVKISVIAIVFLAPLGAIGMMTSGPYLLNKISIEEHQRERELSYMRIVALQPV
+## RTRKKTKKPVHSDTVKTLSPIEST
+## &gt;E.burchellii-KAH0956584.1
+## meidmggrtnrpseelakrrvsisdqimgldnpafehhrrisassehnsdqgrrksilhhggshcdsaenipqykfdlengringnrkksayslsssirdkieyseelerswlylfcarchgrddtpsweppgwrracpqpfcptyrkfarvlclfllglllwgivysvigddaapggqlfglaalciaahfggwlislttlpaligmlitglilqniglvtiegqyntvianlrkialviiltragldldptalkrlkvtvpklglipwvveatvvaaltnylldlpwiwgfllgsiiaavspavvvpclfrlrakgygvakgiptliiavagiddaasvaiygivksvmfsqdalwyqilqgpiaivgglgfgimwgwlakyvpekgdpfivplrvlmllgggllavfgseaielggagplavvaaafvscyfwqqegwevddnpvatafeifwmifepilfgvtgtqirikelegktvylglgcllagivirisatvlvsigsklnlkekvfialswmskatvqaalgpvtldevdkndekqfeyaqtvlmmcvlsvlltapsgaiiislsgpklltkttapvgppeiwktrrpsirdisiinedpdleetandrkp
+## &gt;C.glomerata-KAH0554196.1
+## mdnigqnlrsfedttrsrrvsisdqvigidnpifdhhrqisvssdhnsdcqkkksilhhssvenlqhkldldnghtnnqirkksamslsssirdkieyteelkrswlylfctrchgkddtpsweppgwrracprpfcpsfrkfarilclvllglmiwgvtysvigadaapggplfglatlaiaahfggwlfslttlpaligmlltgfvmqntglvyiegrysevianlrkvalviiliragldldpnalkrqkitlpkiglipwtveatlvavttrylldlpwiwtfligsivaavspavvvpclfrlrrkgygvakgiptliiaiagiddaasvaifgiiksvlfshdslwyqilqgpisiigglgfgilwgylskyvpekgdpykiplrvlmllfgglisvfgseaielggagplavvaaafvscyfwqeegwdvednpvaiafeifwmifepilfgitgtqikidelegetiylsvgclliaiilrivvtfvvsfkskvnnkekifialacmakatvqaalgpvaldfvkkddieqkryaettltfcilsilltaptgaiiislagpklltktttpaepqegwrsrkpsirdisiinedpdleensvnnh
+## &gt;O.biroi-EZA57806.1
+## meidmsgrtnrpseemakrrvsisdqimgidnpafehhrrisassehnsdqgrrksilhhgggshcdsaenipqykfdlengringnrkksayslsssirdkieyseelerswlylfcarchgrddtpsweppgwrracpqpfcptyrkfarvlclfllglllwgvvysvigddaapggqlfglaalciaahfggwlislttlpaligmlitglilqniglvsiegqytvvvanlrkialviiltragldldptalkrlkvtvpklglipwvveatviavttkylldlpwvwgfllgsiiaavspavvvpclfrlrakgygvakgiptliiavagiddaasvaiygiiksvmfshdalwyqilqgpiaivgglgfgimwgwlakyvpekgdpfivplrvlmllgggllavfgseaielggagplavvaaafvscyfwqqegwevddnpvatsfeifwmifepilfgvtgtqirinelegktvylglgcllagivirisatvlvsigsklnlkekvfialswmskatvqaalgpvtldevdkndekqleyaqtvlmmcvlsvlltapsgaivislsgpklltkttapvgppevwktrrpsirdisiinedpdleetandrkp
+## &gt;O.biroi-EZA53303.1
+## MQSTAEDEPTTSTVKNARASNNTQVREKSVQIQEDKNEDEEDDDNTCCHRATFCNPVLREIIVTDVISTC
+## FELQLTWADLFWLATTSGMTLLAWAFLYFLLGDVVLPGGNIFGLFILVIFSYALGWTLAGIPRLHIPPIF
+## GMLLAGIILRNTDIYNIHDELGPGTTSKIRTFCLTFIMVRAGLQLTTTALRAHPMFVIILAFIPCTIEML
+## IVSILCRYFLEFPWNWSFMTGNKFCSRTIVACMSPVVTINCMLTLAESGYGEDKGLASLLCTAATFEDVH
+## IVSLFTICFSFVFSNDDRRTEWWSYIPGGIRDILLGLIVGIILGFALAFFPHRNHKYVTWYRIGGLTLAS
+## LMSTTAASRLAITGGGYLATIILSFIALRGWRILESSFDTTPFQKAFYFLWHFVQPILGGVIGADIDFRD
+## WPKSRFGLYLICVLMGVSMRSGTAFLTTYKMPFSWKERLFVAISWLPKGTLQAALAPMAFERARKEDDPT
+## KIELALDVVRISVIAIVFLAPLGAIGMMTSGPFLLNKISIEEYQREREMSYAHTVGLQPVRTRKKKVNPL
+## PD
+## &gt;A.compressa-KAG7201324.1
+## mdvdmpgrtnkpseelakrrvsiseqvlgvdnpafdhhrrisassehnsdqgrrksilhhggsncgsaenipqykfdlengringnrkksafslsssirdkieyseelerswlylfcarchgrddtpsweppgwrracpqpfcptyrkfarvlclfllglmlwgivysiigedaapggplfglaalciaahfggwlfslttlpaligmlitgiilqnvglvsiegrynivvanlrkialviiltragldldpnalkrlkvtvpklglipwvieatvvaaltryllglpwiwgfllgsviaavspavvvpclfrlrekgygvakgiptliiavagiddaasvaiygivksvmfshdalwyqilqgpiaivgglgfgvlwgwlakyvpekgdpfmvplrvlmllgggllavfgseaielggagplavvaaafvscyfwqkegwevddnpvatsfeifwmifepilfgvtgtqikidmlegktvylalsclvagiviriaatilvgigsklnlkekvfialswmakatvqaalgpttldevnaddpvqvayaetvlticvlsilltapagailislsgpklltkttapvvppegwrtrrpsirdisiinedpdleetanerkp
+## &gt;A.compressa-KAG7212671.1
+## MEPIGKDKPGVSTVADVERGDEFRKSSPVPRKSNEDEEKDDGYEDDTCCHRATFCNPVIREIIVTEPIST
+## CLGQKLTWANLFWMANTAGIILMVYAILYFLLGDTMLLDGRGFRLFVLIISSYLLGWTIAYIPHLNLPPV
+## FGMLLAGIIIRNTDFYNIREELGTETSSKIRIFCLTFITIRAGLQLTTTALRKHPLFVLILAIVPCTVEM
+## LALSTCCRYILQYPWDWAFMTGTIIACMSPVVTVNCILALAERGYGEDKGIATLLCTATSIDAVHIVALF
+## AICFSFVFSNDEHRTEWWSYIPGGLRDLLLGLVVGIILGFCLVFFPHRNHRYAMWYRISSLIFGALMCTT
+## AASKLAISGGGYLASVTMSFIAITGWRILTESYDTAPLRRAAYFLWHFMQPALVGVIGADIDFKDWSIYR
+## FGLYVTTIFVGLTARSIAAFLTTLWTPFTWKERLFVVISWLPKGTLQAALAPMAYEHARMEEDAEKIELA
+## LDVVRISVIAIVFLAPLGAIVMMATGPFLLNKISLEEHRRERELSYLRIVSLQPVRTRTKRRTPSMNRAT
+## STTEEASL
+## &gt;C.congregata-CAG5095999.1
+## mdnigqnlrsfedttrsrrvsisdqvigidnpifdhhrrisassdhnpdcqkkksilhhssvenlqhkldldnghtnnqirkksamslsssirdkieyteelkspcfsrswlylfctrchgkddtpsweppgwrracprpfcpsyrkfarvlclillglmiwgvtysvigadaapggplfglatlaiaahfggwlfslttlpaligmlltgfvmqntglvyiegrysevianlrkvalviiliragldldpnalkrqkitlpkiglipwtveatlvavttrylldlpwiwtfligsivaavspavvvpclfrlrrkgygvakgiptliiaiagiddaasvaifgivksvlfshdslwyqilqgpisiigglgfgilwgylskyvpekgdpykiplrvlmllfgglisvfgseaielggagplavvaaafvscyfwqeegwdvednpvaiafeifwmifepilfgitgtqikidelegetiylsvgclliaitlrivvtfvvsfkskvnnkekifialacmakatvqaalgpvaldfvkkddieqkryaettltfcilsilltaptgaiiislagpklltktttpaepqegwrsrkpsirdisiinedpdleensvnnh
+## &gt;C.congregata-CAG5097411.1
+## MERRVTVEINETIDIVEEDFSTLQRQPDDETRRYPEEETCCGRAVWCHSKLRYIWIYNPISNCFTMPYNC
+## VTWSSLSWLLTSLILVAVTYSTLYFLMSELMLPGGSLFGLFWMVVVAYALGWSLTYIPFLHIPPVFGMLL
+## AGIIFRSSGFYKIHDHIPLKTTTKIRTFCVTFLMIRGGLQLTTTALRSQPLFLLMLGLLPSTFEIIIIGL
+## CSRYILQYPWDWSFLAGTIMTGLSPVVTVNCILALAEKGYGEDKDLAGILSTATSIDSIHVISMFSICFT
+## LVFSEDGRKNFWKYIPGGLRDVVVGLLVGVALGFIFGFLPYRNAKYVTFYRIAGLIMGSLMFTSGASMMT
+## ETGGGYLATMCMSFVSSSIWKQLSGNPFNVRPFQKTLFFIWHFMQPVLLGVIGAEMDLTLWSSQRFGLHI
+## SCILLGLLIRSSAAILSTQGTDFTMKERIFVALAWLPKGSLQATLAPLALESAGQIDHPEIMSLATDIVR
+## MSVVSILFLAPLGAIIMMVTGPILLTKIDEETQARRREL
+## &gt;A.echinatior-EGI60180.1
+## MQSIFEDEPIASTSADAQANDEQIRENSMQIAEELDENEEHDENTCCHRATFCIPMLREILVTDVIFTFF
+## DLQLTWADLFWFATVSGMVLLTWAVLYFLLNDMVLPGGSIFGLFVIVIFSYALGWTLAYIPRLHFPPIFG
+## MLLAGVIIRNTDIYNIYDVIGPSTISKIRIFCLTFIMVRAGLQLTTTALRAHPVFVMILSLVPCTVEMLA
+## VTVLCKYLLEFPWNWALMTGTIVACMSPVITISCMLSLADQGYGEDKGLLSLLCTAASIDDIHIVALFSI
+## WFPFVFSNDDGRTEWWSYIPGGIRDFLLGLIVGIILGFALVFFPHRNHTTPFQKAFYFLWHFVQPILGGV
+## IGADIDFRNWPPSRFGLYLTCVLIGIFVRSSTAFLTTIRMPFTWKERLFIAIAWIPKGTLQAALAPLAFE
+## QAIKEGDPMKIELALDVVRISVIAIIFLAPLGAIGMMSGGPYLLNKISIEEHRRERELSFVALRPRRRRK
+## RKKPNDTITTL
+## &gt;P.vanderplanki-KAG5676603.1
+## MSSPHNNTSGDVSDTTSPVLSPTTEPKRKVSILTDPPSHLAYDNPAFEGPRRKISQQSDQSDNGAVRKKS
+## ILHNPLTPEQQQHALQQAEPVIQHQPLPTNYEKQNGDHHHHHTRERKQRKHSTTESLYSRHSRSSKKPAA
+## ESQLEHSWIYALCMRCRVQYNTPSWQPKHWEKVCPYPLCPSYRQFARLVSIILIGVLIYATTYAIIGKAA
+## APGGQLFSLVTLTIAANFGGWLMGLTTLPRLIGMLLTGILMQNIGAVNIDGISHVTAHLRKFALVIILTR
+## AGLEMDPEAFKKVWPTIIKLSIVPWTVEAATNATICHFLFDMPLMWCLLLGAIIAAVSPAVVVPCLFRLR
+## TKGYGVAKGIPTLIVAVAGICDAISVALFGIISSLMFATGGLSFQISQAPVCIFGGLGFGVLWGCMARVI
+## PEKGDAYVVPIRTIMLLCGGLVAVYGSELLHYEGAGPLGVVFAAFTSQYFWIKQGWTLEDSPVGTAFEIF
+## WMLFEPILFGITGAAVKINELDPHIVTYGLISLICGAIVRIITTTLVSFGDRLNWKERFFVSMSWMAKAT
+## VQAALGPIALKHLSADDPDIHYGEIVLMICILSIVVTAPTGAILISITGKKLLTKTKQTSMPEIPTWRRP
+## SIRSIAIEEEEDSDDDERKDPETGHDKNTRQNTLTNSTHNNLHQPIPPFTNNTKM
+## &gt;P.vanderplanki-KAG5676604.1
+## MSSPHNNTSGDVSDTTSPVLSPTTEPKRKVSILTDPPSHLAYDNPAFEGPRRKISQQSDQSDNGAVRKKS
+## ILHNPLTPEQQQHALQQAEPVIQHQPLPTNYVEKQNGDHHHHHTRERKQRKHSTTESLYSRHSRSSKKPA
+## AESQLEHSWIYALCMRCRVQYNTPSWQPKHWEKVCPYPLCPSYRQFARLVSIILIGVLIYATTYAIIGKA
+## AAPGGQLFSLVTLTIAANFGGWLMGLTTLPRLIGMLLTGILMQNIGAVNIDGISHVTAHLRKFALVIILT
+## RAGLEMDPEAFKKVWPTIIKLSIVPWTVEAATNATICHFLFDMPLMWCLLLGAIIAAVSPAVVVPCLFRL
+## RTKGYGVAKGIPTLIVAVAGICDAISVALFGIISSLMFATGGLSFQISQAPVCIFGGLGFGVLWGCMARV
+## IPEKGDAYVVPIRTIMLLCGGLVAVYGSELLHYEGAGPLGVVFAAFTSQYFWIKQGWTLEDSPVGTAFEI
+## FWMLFEPILFGITGAAVKINELDPHIVTYGLISLICGAIVRIITTTLVSFGDRLNWKERFFVSMSWMAKA
+## TVQAALGPIALKHLSADDPDIHYGEIVLMICILSIVVTAPTGAILISITGKKLLTKTKQTSMPEIPTWRR
+## PSIRSIAIEEEEDSDDDERKDPETGHDKNTRQNTLTNSTHNNLHQPIPPFTNNTKM
+## &gt;E.danica-KAF4525624.1
+## MSLRIWVTARGGCIAMSDAEPEKTEKNAETVQPTATLHGILHHHDDKSWHSAGDSHRVSILEAPTGQNDH
+## DENAGSYHVNRAYESDNDVTAADNGVSSSPPAQQLAMSASFSKNGSATGSALAYAGPANPKEKQKWWVKM
+## GWWPPSVTQISRLVAIIFMVLLVWGIIFILLGHDASPFGGQLFAIAVLCIVAKLGGWVATRVRLPGLLGM
+## LLVGIAATNLGLISIHGEYVQVVASIRRVALTIILIRAGLDLDPEATKKLFGTILKLALGPWLVECCMIA
+## ITAKFFLGLPWGWAFMLGSVVAAVSPAVVVPGLLRLRVKGFGVAKGIPTLILAVTGIDDAFSVAAFGVIS
+## SILLSSGSLWFSITLGPASVLMGVAFGAVWGNLTRFVPNKDDPYAVHLRVLLLFCGGLLAVFGSDEIGFG
+## GAGPLGVILAAYVSGCIWTAEGWEVEENPVAIAFEVFWLIFEPILFGLTGTQIDFAQLDPELMWLAILCI
+## IVAAAIRIVSTIVIAIGSKLNLKEKIFISFSWMAKATVQAALGPVSLDLVRNNGREDEHEYARLILMVCV
+## LSILLTAPIGAVTIALSGPRLLKRTSPPLTDGWRRHARPSLRDISINDEEELRDSPIVDQNSTEELGDTS
+## QETKSATSDRN
+## &gt;C.dipterum-CAB3360254.1
+## MASSDNPMPHSILHVPNSNPKGEERRVSLAVGDNAPSKDNPAFENDDEAANGHSTKRSSDTHRKHKSPLA
+## LPNGFPEENVYGKQEKEKKSLWDWLALMPNGEQFARLVAYMVIGLLIWSIMYVLLGQDASPKGGQLFQIA
+## AMCIVAKLGGWLATRVRLPALLGMLVVGIIAKNVGLITVHGEYEHVVSDIRKVALVIILIRAGLDLDPSA
+## TRKLFGTILKLALVPWLIECCMVAILSHFLLDLPWGWAFMLGSIEAAVSPAVVVPGLLRLRLKGFGVAKG
+## IPTLILAVTGIDDAFSVAAFGVISSVMLTSGSLLYTVTLGPASVLLGVAYGLVWGNMTRFVPKQHDPYAV
+## HLRVLLLFFGGLMAVLGSEKIGYEGAGPLGVILASYICGCIWMEQGWEVEENPVAISFEVFWLIFEPILF
+## GMTGTQIDFSQIDPKILWKAILCIGVAAFIRIFFTIIIAIGSRLNLKEKIFISFSWMAKATVQAALGPVA
+## IDLVREHGSEEEKEYARSLLMVCVLSILLTAPVGAVTIALTGPRLLKRTTATMPEGWRRHTRPSLRDISL
+## NDEDIEDDDEPEPEAPPPSGRRSTRSSIREVLNR
+## &gt;C.dipterum-CAB3360255.1
+## MASSDNPMPHSILHVPNSNPKGEERRVSLAVGDNAPSKDNPAFENDDEAANGHSTKRSSDTHRKHKSPLA
+## LPNGFPEENVYGKQEKEKKSLWDWLALMPNGEQFARLVAYMVIGLLIWSIMYVLLGQDASPKGGQLFQIA
+## AMCIVAKLGGWLATRVRLPALLGMLVVGIIAKNVGLITVHGEYEHVVSDIRKVALVIILIRAGLDLDPSA
+## TRKLFGTILKLALVPWLIECCMVAILSHFLLDLPWGWAFMLGSIEAAVSPAVVVPGLLRLRLKGFGVAKG
+## IPTLILAVTGIDDAFSVAAFGVISSVMLTSGSLLYTVTLGPASVLLGVAYGLVWGNMTRFVPKQHDPYAV
+## HLRVLLLFFGGLMAVLGSEKIGYEGAGPLGVILASYICGCIWMEQGWEVEENPVAISFEVFWLIFEPILF
+## GMTGTQIDFSQIDPKILWKAILCIGVAAFIRIFFTIIIAIGSRLNLKEKIFISFSWMAKATVQAALGPVA
+## IDLVREHGSEEEKEYARSLLMVSS
+## &gt;C.dipterum-CAB3360256.1
+## MASSDNPMPHSILHVPNSNPKGEERRVSLAVGDNAPSKDNPAFENDDEAANGHSTKRSSGQCETVARDLT
+## TPAIDHCASITTVCDPPADTHRKHKSPLALPNGFPEENVYGKQEKEKKSLWDWLALMPNGEQFARLVAYM
+## VIGLLIWSIMYVLLGQDASPKGGQLFQIAAMCIVAKLGGWLATRVRLPALLGMLVVGIIAKNVGLITVHG
+## EYEHVVSDIRKVALVIILIRAGLDLDPSATRKLFGTILKLALVPWLIECCMVAILSHFLLDLPWGWAFML
+## GSIEAAVSPAVVVPGLLRLRLKGFGVAKGIPTLILAVTGIDDAFSVAAFGVISSVMLTSGSLLYTVTLGP
+## ASVLLGVAYGLVWGNMTRFVPKQHDPYAVHLRVLLLFFGGLMAVLGSEKIGYEGAGPLGVILASYICGCI
+## WMEQGWEVEENPVAISFEVFWLIFEPILFGMTGTQIDFSQIDPKILWKAILCIGVAAFIRIFFTIIIAIG
+## SRLNLKEKIFISFSWMAKATVQAALGPVAIDLVREHGSEEEKEYARSLLMVSS
+## &gt;C.dipterum-CAB3364807.1
+## MTVGGEQSENRPSLPRVVSFTKMENDLQNFSNAYVNPAFTDDEKYEEAKVPTAGSPALPNESVPTFGPSG
+## SSSCSICCYKFWSKIKTFLPTRLRATRLTALWLLGFASWGTVLLLVGEDAAPPNGKLWLLILLSVVAKAG
+## GWLAIQCRLPGLLGMLLAGMALQSAGVVSIEGPYLGLIRVIRKASLVIIMMRAGLDLDPNSVRKLKFTIL
+## RLGWMPWAIEMCCVAAMTKYLFDLTWSWAFILGAVEAAVSPAVVVPNLILLREKGFGVVQGVPTLVLAVT
+## GIEDAISIATYGVISSIMFSTGSLVFSILQGPLSVLAGIATGVVIGYLSKFVPDKNDPYVISIRVFLLLL
+## GGLVAVLGFDRLSLSGAGPLAVIVAAFGAGTAFANQGWPVGQNQVALTFGVLWQFFEPVVFGLVGAQIKV
+## AELPANTVGLATACVFGPALVRFIVTMVLLSGSSLNLKEKFFVSLAWMAKATVQAVLGPAALDLVRNSED
+## KELVESANIMFIVCVISILLTAPIGAILIATTGPRLLRKATNAAERR
+## &gt;M.usitatus-KAJ1530995.1
+## MTVGDATPEPPASPRSPRGLRPPTAGDPGVPGPEVGRLLRKVGRVHAPRLAALHIGPHPKQSEPQPQQQQ
+## QHRRPASPPPAVPAAAERSPSPSCAYTVKRFLVINYDADDSGAMPPLPQSTPATSPVEESVMRADVQGLG
+## QSPGSARGQDEGHGHGHGGERPKQHAPPRAPVADGVDNDGFVSDDLFTSAAATTPRRDSMHPSAAKASGT
+## GSVFPEDERTGRCCFSILCGKCCRGARRVLAHPLCPSSVWLTRFVAMIIIGALFLGTAILVIGGNGWFQI
+## VCGIVVAQIVGILIYRATSLPPLIGMLLVGVFCRQLGYIEYFSASHEALIYIARSFALVVLMVRTGFQLD
+## TAGGSKLSPLMVGLAIIPGLVEFAVVAALAGVVLGAPPLFALLSGVILAAACPSILRPCFSLMGAGRAVQ
+## AQLVAVACLNDMIVILVFGIVMAFIYAFAGDSLPYVLLHRVMGVGAGIILGVVAGLLLRVLPDPHDPMVN
+## AIRSILLGSVGMFSMIGFARIGFFGGGPVACLVAAWLSSWGWRRQGWGPDYRGNPVATVFDVLWRIMQPV
+## MFCLIGADLDVSKTSYDMNKLLFSVLVLLLAWLVRVVVSMVVMSYGSLSIKERLYVTLAWVPKAGVQAAL
+## CPLALDLARYRDIEGPILTHARDSMLLVLLAVVITAPLSAALTSRRGLPNVLVSDLRRTSTASRTSGPPP
+## PPQQQQSRGDANGPVQPA
+## &gt;N.viridula-CAH1388387.1
+## MASLNEAFTDDCGETPKLGQDAVLCVADDPKNYGSFENSTGKSDKWKNGFVKWSIILLLSGLSWSCLYLV
+## LHGEVLPSGGLFQLLVLLLIAEAGGQLCKLVKLPALLGMLIAGIVLKSCGFFRLYGVYPDLVIVSRLAVL
+## PCICEACGAALAANIFFGVPWIWSFLIGFILSPISPAVVVPTLLSLKEKGYGEDKGISTLVIAASSIDDI
+## LSISAFGVIMSAIFTPENDMTMAILQGPLELLGGLVGGSVWGSMCGYLGTQSEGEWKQTALIGLGGFVAV
+## VGSHEFGIPGAGPLAAITSAFNPVSDKFSSIWAIVQPALFGLIGAEVDLTIIEVSLLVQSVVIFLSSLVI
+## RFAACVICLLDVDLNWKEVLFVNMAWLPKATVQAALSPQPLDQLRETPDSPDLPIAKLLLTTAVLAIIVT
+## APIGSIAISLTGPILLKKANKPNTTPIDS
+## &gt;N.viridula-CAH1388367.1
+## MKPPEHFNGMAGEGELNPGFEEESKRKISIASNDRERKVSSISMPKSILVNGDNLSHLSHEHGRALSIPS
+## EHHASFAYPKDDEDLRSSWWYILCTKCRQKESGPGWEPTFWQAVFPYPFCPTYRHVARVFALLLVLILAW
+## GVIYAIMGQDSAPGGQLFDIAVLCICGHVGGWVFRMVALPPLVGMLLVGILFRNVGFIEIHEPYNEVVSV
+## LRKIALVNILIRAGLDLDSEAMKRLWVTVLKIGLLPWILECGVVLISSHFLLDLPWMWGLLLGSIVAAVS
+## PAVVVPCLFRLRNKGYGVAKGIPTLIIAISGIDDAASVAAFGIIHSIMFSSHSLYFEILLGLLSIVVGIL
+## FGVLWGILASYVPEKDDPFVVPLRILILLGGGLIAVLGSDLVGLGGAGPLGCIAAAFLSVYAWTKQGWDV
+## EDNPVATAFEIFWMIFEPILFTLTGTQIKMAEMDPNIAGIGAGILVLAFVLRILLTVLVAFGASLNLKEK
+## IFCGISLMAKASVQAALGPIAVDLVRGRDGPEPGYASTVALICVMSILLAAPVGAILIIATGSRLLTKTV
+## VPAVPDGWRRGARPSLRDISITEEDQDSLRRHRPSIASEQPRFS
+## &gt;A.lucorum-KAF6214444.1
+## MEPLSEGNNVQRNTESTFREVSLQTDPGSEETVSKQNGGEVQIECTNENDERTSQGKETGWNGWLKRQGG
+## VPNSPLVDSIFHLILLFLIWALLLAIFREQALPEGNVFNIFILLVLSNISGILFRLIKLPGLFGMLLTGI
+## ILRSTDVYQLSGPYVGISTIAREFALAIILTKAGLALDPEILKKKAFTVVKLSLLPCIGESIAVLFGAHY
+## IIGMPWLWAILLGFVLSPISPAVVVPTLISLKERGYGEDKGIATLVIAASAIDDVFSIVAFGVVLKMIFS
+## AGEGVSTTIINGIVDLVGGILAGLLWALVSSLLPSQSDAAVVSKRSAMLGVGGVSLVLGTSALNHSVIGT
+## MGSITASLFANIAWCAQDPSNLKHNPVANVLSVVWRYTEPMLFAMVGAEIDLKSIPPTMIVQGLAVLAVG
+## LLGRVLVCYLALFGTGLNMKETVFVVLAWLPKATVQAAISAQALYIVRTRQNSVSSTEDLELASWILNTA
+## ILSIVVTAPIGAIAINVLGSKLLNKKTS
+## &gt;A.lucorum-KAF6215170.1
+## MARDPSDPKGTDPIILKTRARKLMEAEEGARFERGDNHPKHCLSRIEEHFDEQNMPGECMGGGDEKEPRR
+## EVRGELNPSYDDDEPKRKVSISLNSSQTSPTERKVSQASSGGKPKSILVNGDNISMQHSTYTEQPRKFST
+## YSEDQKRSSIYDPEESIESSWWFLLCTKCRQKETGPGWEPPHYQTFCPYPFCPTYRHLARIFALTLLGLL
+## AWGIIYFVIGPDAAPGGQLFDIAALCIAANFGGWIFRMITLPPLVGMLAVGILFQNVGLVNIHGPYMKLT
+## SVLRKIALVLILTRAGLDLDSKAMKKWTTTICKMATIPWIVEALVVAVLSVAFFDLPWMWAILMGSLVAA
+## VSPAVVVPCLLRLRTKGYGVAKGIPTLIIAISGIDDALSVAAFGIISSIMFSENSLAYNIALGPISVLIG
+## VAYGAVWGWMASYVPEKGDPFVVPLRILLLLTAGLLAVFGSESVGFEGAGPLGVVAVAFLCCVAWSNQGW
+## EVEDNPVATAFEIFWMIFEPILFGLTGTQIRIKEMAGPYMWTGILILTIACILRMIVTFFCGFGSKLNHR
+## EKLFCALSWMAKASVQAALAPVAAELVSDRSEKEHEYAQALLLIVVMSIVLTAPLGAIIITFTGTRLLTK
+## TEEPIMTEGWRRSARPSLRDISIISEEPDPDYEIRHRPSIIINNVNTP
+## &gt;V.vulgaris-KAF7383363.1
+## memegkgtttrpceeltkrrvsiseqvfgvdnpafehhrrissssehnsdqgrrksilhhtgsnydsvenipqhnkfdlaengrangnrkksafsltssirdkieyseelerswlylfcarchgrddtpsweppgwkracpqpfcpsyrkfarilclfllgllvwgvvysiagkdaapggplfglatlciaahfggwlfslttlpaligmlitgmilknadlisiddryavvvsnlrkialviiltragldldpvalkrlkitvpklglipwfveagmiavltryliglpwiwglllgsiiaavspavvvpclfrlrergygvakgiptliiavagiddaasvaiygivksvmfshdalwyqilqgpiaivgglgfgilwgclakyvpekgdpfmvplrvlmllgggmvavfgseaielggagplavvaaafvscyfwqkdgwevddnpvatsfeifwmifepilfgitgtqitiaelkgktvylgiscliagiviriivtifvgigsklntkekvfislswmakatvqaalgpvtldevnrdnveqveyantvltlcvlsilltaptgaiiislsgpklltktttpxxxxxxxtagrlenektldtryfdhqrgsrsrrncerketliffrplpffffyfpaqpnlrarwsrleskkkk
+## &gt;C.dipterum-CAB3360254.1
+## massdnpmphsilhvpnsnpkgeerrvslavgdnapskdnpafenddeaanghstkrssdthrkhksplalpngfpeenvygkqekekkslwdwlalmpngeqfarlvaymviglliwsimyvllgqdaspkggqlfqiaamcivaklggwlatrvrlpallgmlvvgiiaknvglitvhgeyehvvsdirkvalviiliragldldpsatrklfgtilklalvpwlieccmvailshflldlpwgwafmlgsieaavspavvvpgllrlrlkgfgvakgiptlilavtgiddafsvaafgvissvmltsgsllytvtlgpasvllgvayglvwgnmtrfvpkqhdpyavhlrvlllffgglmavlgsekigyegagplgvilasyicgciwmeqgweveenpvaisfevfwlifepilfgmtgtqidfsqidpkilwkailcigvaafirifftiiiaigsrlnlkekifisfswmakatvqaalgpvaidlvrehgseeekeyarsllmvcvlsilltapvgavtialtgprllkrttatmpegwrrhtrpslrdislndediedddepepeapppsgrrstrssirevlnr
+## &gt;D.melanogaster-NM_001260322.1
+## MSSDSDILDVVAGSEGPPLQAFRSSNPFEDSYQMSSCQQDFERDRDANLTPLHMLRRASETVTASILEPE
+## KEHLLGDKPQVPPRAHGSTAPSAIEAKRSRQQPNQWQLQQQQQPSSNNNNTKRALAPGDNMTQGAAPQDS
+## QGDILPTRPLHTKLDIQKIPEDEAGADATQNAATIILTPTSLNLTNTTTQNVAANNAGNSSTTTSTNTNY
+## GPGSVSGYPTPNATPGDEYKGPKWWLYIRSHWVNTSELVALLAIFLGLWAMGWVLLPEYSQPPTVIMRIA
+## FLFVGAQISGILVTFVHLPDMLGMLFFGVLYANLGLANFEGYQKFELFLREMALINIMLLAGLGLDGDAF
+## KRLWFMILRLTLLPTIVEVAAIAGLANLTLSMPWLWGIALGLVITAVSPNVVVTVMLKLKEDRLGLNSGI
+## HTLIYAMTTCNDVVAIFMFGVIISVIFSTTSLTQQVLQGPIGIGIGLVFGYLYGSMLQYLPSRNATYANG
+## LRFVLTILGGTIAVMGSRVIGYTSAGALGCVTTAFIARIGWRREETRLTPQQLQAQQIASVPKRLDLMWK
+## FLKPVSFALIGKEINFNVLQGHVIGYGALLVLVGSLFRLAFAYLSTYGGNLSRKERAYITISGFPKATVQ
+## AALGPVALDMARAASVASPEQLALAGNLLIISVLAIIFTAPLGAILMLRLAPYWLKHGDAVEAVDSPTTP
+## IAPTLGSTNSSKGT
+## &gt;D.melanogaster-NP_723224.2
+## MFSSHKKMTA TGEPEAREDP SVGGAPATIT TPTTIIAPTP IPVPSDVPMP NSNGSGNGAG 
+## NHRSTIVIES QPKRRVSIIS DPPMIGGNGG LGTGYDNPAY EQNPRRKISQ TSTHSHTDIG 
+## PARRKSILKD TAPHDNESDR VSTHSYENYR QNALDVLNAK YNGHQMGHNG GGSSNGGANY 
+## VEESWMYNFC LKCRGEEPSA SWEPPFWQKI FPYPLCPTFR TVSRLISIIL IGVLIWVTAF 
+## VIIGDSAAPG GQLFGLVVLT VAANFGGYLI SLTTLPRLIG MLLVGILFQN VGWADIDGDF 
+## SKVTAHLRKF ALTIILTRAG LEMEPEAFKK VYKTILKLGI IPWCVEAVVM AVMSHFLLDL 
+## PWIWAFLLGS IIAAVSPAVV VPCLFRLRTK GYGVAKGIPT LVVAVAGVDD ALSVAIFGII 
+## STVMFSDKGL AYQIAQAPVC ILGGLGFGVV WGSLARIFPE KGDAYVVPLR TLLLFTGGLM 
+## AIYGSEELGF EGAGPLAVVF SAFVSNLFWC KDGWDVEDNP VSTAFEIFWM IFEPILFGLT 
+## GATIKIRELD SHTVSIGAAC IFTGAILRIL TTAGIAFGDR LNTKEKFFVG LSWMAKATVQ 
+## AALGPVALKH LGDDATEEER NWANIVQTIC VFSIVLTAPL GAIMISVTGT KLLTKTKQPQ 
+## DLSGWRRSHR PSIRDISIID EEEEREDPEI PEDKETHDNT LNNAHIPSIS YTYNT
+## &gt;A.gambiae-EF014219.1
+## MPSEEGNVSSQSSSGDTKRKVSIITEPVVERLGHDNLAFEQNKR
+##                      KISQQSHHSEEGPARRKSNLHNDNFDTSSIHSDRYNGEAGGRAKKQSFSEALEKIERD
+##                      YDNSRLEQSWIYSLCMRCRVEYTTPSWEPPGWQKVCPYPLCPSYRQFARILSIILIGV
+##                      LLWITAFVIIGDTAAPGGQLFQLVVLTVAANFGGFLISLTTLPRLIGMLMVGILFQNV
+##                      GWVNLDGEFQIVTAELRKLALVIILIRAGLEMDPTAFKKIYKTILKLGLIPWFVECSL
+##                      IAVCARFFLQLPWMWSILLGSIVGAVSPAVVVPRLFRLRTKGYGVVKGIPTLIIAVAG
+##                      IDDAVSVAGFGIISSIMFSTQSLGLQIAQAPVCIIGGLGFGVVWGFLCKYVPEPGDAY
+##                      VVPIRTLMLFGGGLLAVFGSEEIHFEGAGPLGVVFAAFTASYFWCGQGWELEDNPVST
+##                      AFEIFWMIFEPILFGITGASIKIAELDPHIVSIGVGSIYAVAVIRILTTAAIAFGDKL
+##                      NVKEKIFVAISWMSKATVQAALGPVALKTVMSNENRTEEEVHYAELVKMVCILSIILT
+##                      APLGAILISVTGTKLLKKTKQQLEPLDGTLGWRRSHRPSLHDISIIDEEEEREDIEGT
+##                      ADEDTAANTLSNAQTATAFTITK
+## &gt;L.salmonis-XM_040711500.1
+## MNCFSSSLNLKLQNFFGNFLLSHQEDELKDEDSIWKKIKFALLCPPHGHIGKWLSIILVILAVYGGLLALIGQHAAAPHGILFQLFVLVIVGVLMGKVMELIRLPPLLGMIVTGIFFENLNLLEKDENVWPQTSSKLRSLALVIILLKAGLGLDPKALKKLSGIVFRLAFIPCCIETLFVGIAGYLIVGLPWTWSFLLGFVLSAVSPAVVVPSMLDLQARGYGVEKGIPTLVIAAASIDDVLAISGFTLCTAIIFKPSSNIQNIILQVPLEVFIGILAGLIWGIICIFIPSKDDDNVKGFRSCILLGGSIMSHFGCQYYEVPGAGPISILIMGFISGLGWTQYGWKTNNYVVQLLSKLWMLFQPLLFVLIGTEIKIYALDIAILGQCAAVFLIGMSVRLIASYLATFSKEITLKERIFISLAWLPKATVQAAVGGWALDFVKSKTDLPDWSTKLNYATIVLNTAVLVILVTAPLGAIAISITGPKLLKKTVTESSLETPG
+## &gt;P.americana-KAJ4436481.1
+## mtstlevpgneltvpqeprrrvsiasdtptvvdgrlspyhhsdnhesrrrvsaascehdgrrksilvqhtpdtmsvsshhshyvnhgfqfegtgkpangegphkkystseslheklklpesqrvekswlflfckrcredegsqawepplwqrlcpypfcpsyrqfarilalfligvlcwgivyavlgetaapggqlfglailciaahfggwlmslttlpaligmlmvgilfqnvglvhiegeynevvvvlrkialviiltragldldpaalkrlritvpklglvpwvvecvvmaimtyyllglpwiwgfllgsviaavspavvvsclfrlrqkgygvakgiptliiavsgiddatsvavfgiihsimftsetllfqiiqgplsiiggigfgvlwgillkyvpekqdpfvvplrilmlfgggliavlgsesigyggagplgciaaafvslyfwsqqgwevednpvatafeifwmifepvlfgltgtqikidelephtvtiglaclvagivariiftviiavgsklnlkekifvalswmakatvqaalgpvamdsvrdsgssqdkqyaeyvlvicvlsilltapigaiiitlsgprllkkttapvivegwrrsarpslrditiideeedgdgdsvpt
+## &gt;P.americana-KAJ4439351.1
+## MLNRVGYKGHPCRTSLPIPLPSDNYSPILTLTCFTSSNVLPSSSRFQRCVMRVLSHPWCIRVSRPLALWV
+## LGLMLWGLAAAKLGPMAGPDGQLFRIGLLGVVAHLVGFAVGLTGLPPLLGMMVAGVILRNVDVVVVTGPY
+## LDVASAIREMALVVILIRAGLELDPIALKRLGGMVLRIAICPAVVEAVCVAAITNILLDLPWIWGSLLGA
+## VLAAVSPEVVIPLLFTLQTKGNYGKSKGIPTIVIAAASFDDVVAISAFGVLLSIATSTGDITSKIIQCPV
+## GLVIGICCGLGLGLFLRYIPRQDDNLVTTLRTLLLAAAGLFLVFGSAAVGYEGAGPLACIMASFFASNGW
+## APKEKHTVEKNFALLYTIFQPLQFGLIGIEINVNVLEGRTVGLGIASLLASLAARIAASIAVAAGGNLNL
+## KEKLFISFAWFPKATVQPTQGINTKLFSPLQAALGPVALDIVRKMQLQEFEKYANIVLIVAVLSILITAP
+## VGAILISYLGPRLLEKEKDESCTAPGDQQLNNISGEGILPI
+## &gt;P.americana-KAJ4436265.1
+## MGSDAGPGGQLFRMGVLFVVAHLAGCALRPSGLPPLLGMLLVGILLRNVGFLQLSDHFVPVAANLRKVAL
+## VVILIRAGLGLDPAALKRLSWVVLRLSLVPSVVEATVVAFMAHGLLGLPLLWGFLLGCVLAAVSPAVVIP
+## CLCNLQDKGYGKRKGIPTLVMAAASIDDINAISAFGIVLGIIFSQGSQTMQILQGPLGLLIGLLLGVAAG
+## LFLRYIPDKKDSQVVVLRTILLGSMGLLLVFGVDALGYTGAGPLGCIVAAFVASHGWTAQDSDGSQNSVS
+## SGFVTLWAVFQPVLFGLIGTEINLSVLEAETVGLGIACLSLSLVMRMVSSAATVAGVGLNWKEKLFVAIA
+## WFPKATVQAAIGPLALDAARGQPEAVEYASIVLTISVLAILITAPIGAVLITTLGPRLLQRERLDLPRTL
+## MSDADKNNAAVVEALVTG
+## &gt;E.sinensis-XP_050686642.1
+## MEPDSMPDKLLGGDGDGQKDDLVAPVNLAYEDPLPGSPQGTAEDPAEREDEVDKEAKSEVQETTTSTTTT
+## TSTPSIPAPSPTRQRDTLENLPPVDSRAPSQRHTRTASQLSISDASNNAASEPDVGGVEESDGYATPEFN
+## NRSAAYSEAATLPIGSPSVEEKLQEWERDRTSEEKRLPARGGEVGRCEGCCSCLLRANHKLPEHPTTAQH
+## LKYSLTCPPHGKVGDTLLWVVMVLTAWGCLVCITGRQALPGGNLFSLAVLYVAAVLAARLASAVAMPPLL
+## GSLLAGILFKSVPGINNVGHSVDVYWSAVIRNLVLVIILLRAGLGLDPEALRKLSCVVLRLALLPCMVEA
+## VATALMTKLLLGLPWLWSFMLGFIVAAVSPAVVVPGLLRLGEEGYGVEAGIPTLVIAAASLDDVLAITGF
+## SVMLGLTFAEGSLGWTLAKGPLEVVAGLVYGAVFGALCWLLPHRESKDRPAYKFMLLFCLGTLGMFGSYK
+## VGLKSSGPIAVLSLAFVTGLGWRRGGSWDAEVTVYYRVLWEVFQPALFVLIGVEIDVGSIDTGTIGWGLL
+## VLVVCLSLRVATSFLVVAGAGFSLLERFFIAIAWLPKATVQAAIGSQALDYVRQNDGTAEDIFRGEQVVT
+## LAVMVILVTAPIGAAAIKLTGPKFLARRRPSDPLTQA
+## &gt;O.nitens-XP_054156261.1
+## MTAIIQQLIKCSKIDLPKIYDKCQQYLCQLLLVLIFWSIVWSIYGQPALPPNGHLYHLILLFTLSCICGK
+## LCKLVACPPLFGSLIIGFLYGNLLSVELDNQLCSVLRSASLVSVLLEAGLELDPKVIRKLSFVALRMAFV
+## PMMVEVVAITFATYWLIQFPIKWGFLLGFVLAAASPAIVVPGMLNLQKRQLGVDKGIPTLVIAAASIDDI
+## LAITGFSICLGQVFTSNESLVWTVLKGPVEAVAGALIAAAIGVLLWYIPNKDESKLERITLLVMSGVAAM
+## FVSQSLGLESFGTIACITLAFVAALKWRDTGRDRPVLATLKISWSLFEPLLFALIGYQVKIADLHSNAIG
+## LAVLALIIALVLRTVSSMFVIIGANLNLKEKIYVSIAWIPKATVQAAIGSVALDLARQRGNDPQLIEFGT
+## FVLTVSVLSILITAPLGAIWISFMGSRCLKVAVPSAVVESIHIHDRGNVVVVDAGGGAAVSDQTIDLIAQ
+## &gt;O.nitens-XP_054156387.1
+## MTAIIQQLIKCSKIDLPKIYDKCQRYLCQLLLVLIFWSIVWSIYGQPALPPNGHLYHLILLFTLSCICGK
+## LCKLVACPPLFGSLIVGFLYGNLLSVELDNQLCSVLRSASLVSVLLEAGLELDPKVIRKLSFVALRMAFV
+## PMMVEVVAITFATYWLIQFPIKWGFLLGFVLAAASPAIVVPGMLNLQKRQLGVDKGIPTLVIAAASIDDI
+## LAITGFSICLGQVFTSNESLAWTVLKGPVEAVAGALIASAIGVLLWYIPNKDESKLERIILLIMSGVAAM
+## FVSQSLGLESFGTIACITLAFVAALKWRDTGRDRPVLATLKVSWSVFEPLLFALIGYQVKIADLQSNAIG
+## LAVLALIIALVLRTVSSMLVIIGANLNLKEKIYVSIAWTPKATVQAAIGSVALDLARQRGNDPQLIEFGT
+## FVLTVSVLSILITAPLGAIWISFMGSRCLKVAVPSAVVESIEIHDRGDVVVVSAAVGGGATVSDQTVDLK
+## TQ
+## &gt;O.nitens-XP_054169184.1
+## MSKEMSSVSHSFLKNFTKENVNQFFSSDNITQLLSQALIVAFIWATLWSIEGPNACPPDGHLFHLLVVYI
+## CCHIASELMILFCLPPVVGILVTGCLLANIFTLNLNKQLATILRDISLVVILLRVGLELSPNNIFKLYDV
+## CLRLSLIPCIVETIIVSIISCFLLDLPFKWSLLLGFLLSASSPAIIVSNVLPLKNKGFGESKSISSMLMA
+## SSCVDNIVTISGVMMSLRIIFNSEMPLVLILLTTPLEIIIGLFSGILFGLILWFIPSNTWQLIAKIQRFV
+## LLLMSAITSKFVSKSLDISSAGPLACVVIAFTAAINWRDSQINETLVKQMDIIWSIFRTLLFALIGTSIK
+## ISNINFNNTFYGLICLIIALFVRSVTVIAIIFGANLNFKEKLFISFTWLSKATVQASLGPMALDFINSDD
+## NYINDRKYAEKVLDLAVLAIIVTAPLSSLLISLTGPLLLTTNKSQKSEKTQTNKN</code></pre>
+<pre class="r"><code>sink()
+# for cds sequences </code></pre>
 </div>
 
 

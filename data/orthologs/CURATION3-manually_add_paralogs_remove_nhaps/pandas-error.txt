@@ -1,0 +1,89 @@
+# from inside VSCode: 
+>>> import pandas as pd
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'pandas'
+
+# from terminal: 
+(base) pzito@IBIO-DRW7N0JQY0 ~ % pip install pandas
+Requirement already satisfied: pandas in ./anaconda3/lib/python3.10/site-packages (2.0.1)
+Requirement already satisfied: python-dateutil>=2.8.2 in ./anaconda3/lib/python3.10/site-packages (from pandas) (2.8.2)
+Requirement already satisfied: numpy>=1.21.0 in ./anaconda3/lib/python3.10/site-packages (from pandas) (1.24.2)
+Requirement already satisfied: pytz>=2020.1 in ./anaconda3/lib/python3.10/site-packages (from pandas) (2023.3)
+Requirement already satisfied: tzdata>=2022.1 in ./anaconda3/lib/python3.10/site-packages (from pandas) (2023.3)
+Requirement already satisfied: six>=1.5 in ./anaconda3/lib/python3.10/site-packages (from python-dateutil>=2.8.2->pandas) (1.16.0)
+
+# hypothesis 1: 
+I think VScode is checking for pandas inside a different folder from where pip installed it. 
+
+(base) pzito@IBIO-DRW7N0JQY0 ~ % cd ~/anaconda3/lib/python3.10/site-packages/pandas
+(base) pzito@IBIO-DRW7N0JQY0 pandas % ls
+__init__.py	_testing	arrays		errors		tests
+__pycache__	_typing.py	compat		io		tseries
+_config		_version.py	conftest.py	plotting	util
+_libs		api		core		testing.py
+(base) pzito@IBIO-DRW7N0JQY0 ~ % pip show pandas
+Name: pandas
+Version: 2.0.1
+Summary: Powerful data structures for data analysis, time series, and statistics
+Home-page: 
+Author: 
+Author-email: The Pandas Development Team <pandas-dev@python.org>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2008-2011, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team
+        All rights reserved.
+        
+        Copyright (c) 2011-2023, Open source contributors.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        * Redistributions of source code must retain the above copyright notice, this
+          list of conditions and the following disclaimer.
+        
+        * Redistributions in binary form must reproduce the above copyright notice,
+          this list of conditions and the following disclaimer in the documentation
+          and/or other materials provided with the distribution.
+        
+        * Neither the name of the copyright holder nor the names of its
+          contributors may be used to endorse or promote products derived from
+          this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Location: /Users/pzito/anaconda3/lib/python3.10/site-packages
+Requires: numpy, python-dateutil, pytz, tzdata
+Required-by: 
+
+
+# trying from inside the terminal in VSCode: 
+(base) pzito@IBIO-DRW7N0JQY0 ~ % pip3 install pandas
+Defaulting to user installation because normal site-packages is not writeable
+Collecting pandas
+  Downloading pandas-2.0.1-cp39-cp39-macosx_11_0_arm64.whl (10.9 MB)
+     |████████████████████████████████| 10.9 MB 4.1 MB/s 
+Collecting pytz>=2020.1
+  Downloading pytz-2023.3-py2.py3-none-any.whl (502 kB)
+     |████████████████████████████████| 502 kB 24.9 MB/s 
+Collecting python-dateutil>=2.8.2
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     |████████████████████████████████| 247 kB 29.9 MB/s 
+Requirement already satisfied: numpy>=1.20.3 in ./Library/Python/3.9/lib/python/site-packages (from pandas) (1.24.2)
+Collecting tzdata>=2022.1
+  Using cached tzdata-2023.3-py2.py3-none-any.whl (341 kB)
+Requirement already satisfied: six>=1.5 in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages (from python-dateutil>=2.8.2->pandas) (1.15.0)
+Installing collected packages: tzdata, pytz, python-dateutil, pandas
+Successfully installed pandas-2.0.1 python-dateutil-2.8.2 pytz-2023.3 tzdata-2023.3
+WARNING: You are using pip version 21.2.4; however, version 23.1.1 is available.
+
+# this did it. Done. 

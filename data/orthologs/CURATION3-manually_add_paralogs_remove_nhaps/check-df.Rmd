@@ -61,7 +61,7 @@ crustacean2
 nrow(unique(crustacean2))
 
 # all chelicerate species 
-chelicerate2 <- data2%>%filter(type=="spider")%>%select(species)
+chelicerate2 <- data2%>%filter(type=="spider"|type=="tick")%>%select(species)
 chelicerate2
 nrow(unique(chelicerate2))
 
@@ -71,5 +71,36 @@ hexapod2
 table(hexapod2)
 nrow(unique(hexapod2))
 table(data2%>%filter(type=="cockroach"|type=="diptera"|type=="ephemera"|type=="hemiptera"|type=="hymenoptera"|type=="lepidoptera"|type=="thysanoptera")%>%distinct(species, type)%>%select(type))
+```
+
+# write fasta file 
+```{r}
+# for protein sequences 
+sink("2023-04-26-orthologs.fasta")
+for(i in 1:nrow(data2)){
+  cat(data2$fasta.names[i])
+  cat("\n")
+  cat(data2$protein.sequence[i])
+  cat("\n")
+}
+sink()
+
+# for cds sequences 
+sink("2023-04-26-orthologs.fasta")
+for(i in 1:nrow(data2)){
+  cat(data2$fasta.names[i])
+  cat("\n")
+  cat(data2$cds.seq[i])
+  cat("\n")
+}
+
+# protein sequence for the old dataset -- compare the effect of taking out the NHE sequences, but not nhaps 
+sink("2023-03-22-NHEless.fasta")
+for(i in 1:nrow(data)){
+  cat(data$fasta.names[i])
+  cat("\n")
+  cat(data$protein.sequence)
+  cat("\n")
+}
 ```
 

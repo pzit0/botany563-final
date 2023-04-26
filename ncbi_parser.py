@@ -280,11 +280,13 @@ def export(filtered, trashed, log, input3):
     trashed_data = pd.DataFrame()
     for i in filtered: 
         row = pd.DataFrame([i])
-        filtered_data = filtered_data.append(row, sort = True)
+        filtered_data = pd.concat([filtered_data, row], ignore_index = True)
+        #filtered_data = filtered_data.append(row, sort = True) # append apparently no longer works
     
     for i in trashed: 
         row = pd.DataFrame([i])
-        trashed_data = trashed_data.append(row, sort = True)
+        trashed_data = pd.concat([trashed_data, row], ignore_index= True)
+        #trashed_data = trashed_data.append(row, sort = True)
     
     # exporting 
     path = os.getcwd()
@@ -311,7 +313,7 @@ input3 = input("Prefix of your output files (e.g. '2023-01-31-NHA1'): ")
 blast_res = pd.read_csv(input1)
 
 # RUN SCRIPT 
-acc_list = blast_res.iloc[:, 2] # selects only second column containing protein accession numbers
+acc_list = blast_res.iloc[:, 1] # selects only first column containing protein accession numbers
 Entrez.email = input2
 print('\n\n\n################## RUNNING #####################')
 filtered, trashed, log = filter(acc_list)

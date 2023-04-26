@@ -1,0 +1,10 @@
+so far: 
+I've blasted every single species and checked every single result for the conserved domain (as Nick did on his paper) to be sure I was grabbing NHAs. Unfortunately that was the wrong call and I'll have to redo everything again. Anyways these are the files: 
+blast/: folder containing all remote blasts of protein query against its own organism 
+2023-04-26-orthologs.fasta: curated sequences, with manually added found paralogs, with NHE and nhap cdd seqs removed 
+2023-04-26-orthologs.aln: aligned used clustalw
+2023-04-26-orthologs.nwk: nni tree made on UGENE 
+check-df: R file that checks for the content of the dataset 
+orthologs-filtered-NHEless-manual_added.csv: file necessary to run check-df. old output from the previous curation process 
+orthologs-filtered-NHEless-manual_added1.csv: copy containing other copies 
+pands-error.txt: troubleshooting pandas that didn't work for some reason
