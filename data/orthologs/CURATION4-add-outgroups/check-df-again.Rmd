@@ -1,0 +1,205 @@
+---
+title: "check-df-again"
+author: "Patricia Zito"
+date: "2023-05-03"
+output: html_document
+---
+
+As it turns out I forgot to add my outgroups. So I'm making this file to both re-check my database in a new folder, add all paralogs, and remove NHE sequences. 
+
+# Check that I have all the outgroup paralogs
+
+I'll be checking this by comparing the protein accession numbers that show up on dataset (this comes from a blast search using EaffNHA7 as a query) and I'll compare it with the results from the remote blast searches (using the first protein accession number of each species as the query). 
+
+```{r}
+library(dplyr)
+library(seqinr)
+library(Biostrings)
+library(ape)
+
+setwd("/Users/pzito/Desktop/botany563-final/data/orthologs/CURATION4-add-outgroups")
+outgroups <- read.csv("outgroups-filtered.csv") # Eaff as the 
+as_tibble(outgroups)
+
+# these are the proteins that showed up on the EaffNHA7 blast search 
+outgroups%>%filter(species == "Hypsibius exemplaris")%>%select(protein.accession)
+outgroups%>%filter(species == "Ramazzottius varieornatus")%>%select(protein.accession)
+```
+checking the .blastn results, I seem to have gotten all the Hypsibius paralogs. In fact, the last one is repeated twice. So I'll have to remove that. Removed manually. The Ramazzottius sequences are a little weird. I don't know why, but some of them have different initials, even though they have the same bioproject. Oh well. I'll take it. They have everything but this protein: GAU88122.1. 
+
+# Remove NHEs from outgroup df
+
+```{r, eval = FALSE}
+# remove NHEs again
+remove_NHE <- function(df){
+  gap_open <- -10
+  gap_extent <- -1
+  index_list <- c()
+  
+  DmelNHE3 <- readAAStringSet(file = "DmelNHE3_prot.fasta")
+  DmelNHA2 <- readAAStringSet(file = "DmelNHA2_prot.fasta") 
+  GAU88122.1 <- readAAStringSet(file = "GAU88122.1.fasta")
+  seq_name = df$protein.accession
+  sequence = df$protein.sequence
+  
+  for(i in 1:length(sequence)){
+    seq <- AAString(toupper(sequence[i]))
+    NHE_score <- pairwiseAlignment(DmelNHE3, seq, type = "global", substitutionMatrix = "BLOSUM50", gapOpening = gap_open, gapExtension = gap_extent, scoreOnly = TRUE)
+    NHA_score <- pairwiseAlignment(DmelNHA2, seq, type = "global", substitutionMatrix = "BLOSUM50", gapOpening = gap_open, gapExtension = gap_extent, scoreOnly = TRUE)
+    if(NHE_score >= NHA_score){
+      index_list <- append(index_list, i)
+    } else if (NHE_score <= NHA_score & NHA_score < 0){
+      paste(seq_name[i], "passed the test, but it still did not align well with NHA")
+    }
+  }
+  df2 <- df[-which(df$protein.accession %in% seq_name[index_list]),]
+  print(df2)
+  return(df2)
+}
+
+ outgroups_cleaned <- remove_NHE(outgroups)
+
+# then manually check GAU88122.1
+DmelNHE3 <- readAAStringSet(file = "DmelNHE3_prot.fasta")
+DmelNHA2 <- readAAStringSet(file = "DmelNHA2_prot.fasta") 
+GAU88122.1 <- readAAStringSet(file = "GAU88122.1.fasta")
+NHE_score <- pairwiseAlignment(DmelNHE3, GAU88122.1, type = "global", substitutionMatrix = "BLOSUM50", gapOpening = -10, gapExtension = -1, scoreOnly = TRUE)
+NHA_score <- pairwiseAlignment(DmelNHA2, GAU88122.1, type = "global", substitutionMatrix = "BLOSUM50", gapOpening = -10, gapExtension = -1, scoreOnly = TRUE)
+NHE_score >= NHA_score
+```
+
+ok I seem to not have gotten any NHEs? Weird, but ok. For now I'll just add these to both my more and less stringent databases manually (column number doesn't match and for the most stringent I have to also check on ncbi the conserved domain and get the cds sequence, so it's not really worth trying to do this on R). done. 
+
+# decide which of the outgroup paralog sequences should be the most defined outgroup
+
+ok I added back GAU88122.1 into the outgroup-filtered.csv. And I'll now write it as a fasta file. 
+
+```{r, eval = FALSE}
+write_fasta <- function(out_name, df){
+  sink(out_name)
+  for (i in 1:nrow(df)){
+    cat(df$fasta.names[i])
+    cat("\n")
+    cat(df$protein.sequence[i])
+    cat("\n")
+  }
+  sink()
+}
+
+fasta.names <- c()
+for(i in 1:nrow(outgroups)){
+  species.name <- str_replace(outgroups[i, "species"], " ", "-")
+  partial.name <- paste(species.name, outgroups[i, "protein.accession"], sep = "-")
+  fasta.name <- paste(">", partial.name, sep = "")
+  print(fasta.name)
+  fasta.names <- append(fasta.names, fasta.name)
+}
+outgroups <- cbind(outgroups, fasta.names)
+
+write_fasta("outgroups.fasta", outgroups)
+```
+
+Aligned using clustalw. 
+
+```{r}
+out_aln <- read.alignment("outgroups.aln", format = "clustal")
+out_aln$seq
+dist_matrix <- dist.alignment(out_aln)
+out_tree <- nj(dist_matrix)
+plot.phylo(out_tree)
+```
+
+From this plot, it seems like it's either OQV21679.1 or one of the GAU8 something. 
+
+```{r}
+ultra_conserved <- read.csv("orthologs-filtered-CONSERVED+outgroups.csv")
+as_tibble(ultra_conserved)
+
+ultra_conserved%>%filter(type == "tardigrade")%>%select(protein.accession)
+```
+It looks that on my ultra conserved database (this is after removing all sequences that don't have the NA_H_exchanger CDD), only OQV21679.1 is present. So I'll use that as my outgroup outgroup. 
+
+# checking ultra-conserved dataframe
+
+```{r}
+nrow(ultra_conserved) # number of sequences 
+table(ultra_conserved$type) # number of types 
+length(unique(ultra_conserved$species)) # how many species 
+table(ultra_conserved$species) # how many paralogs per species
+mean(table(ultra_conserved$species)) # mean number of paralogs
+
+# all crustacean species
+crustacean <- ultra_conserved%>%filter(type=="barnacle"|type=="copepod"|type=="shrimp")%>%select(species)
+table(crustacean)
+nrow(unique(crustacean))
+
+# all chelicerate species 
+chelicerate <- ultra_conserved%>%filter(type=="spider"|type=="tick")%>%select(species)
+table(chelicerate)
+nrow(unique(chelicerate))
+
+# all hexapod species 
+hexapod <- ultra_conserved%>%filter(type=="cockroach"|type=="diptera"|type=="ephemera"|type=="hemiptera"|type=="hymenoptera"|type=="lepidoptera"|type=="thysanoptera")%>%select(species)
+table(hexapod)
+nrow(unique(hexapod))
+table(ultra_conserved%>%filter(type=="cockroach"|type=="diptera"|type=="ephemera"|type=="hemiptera"|type=="hymenoptera"|type=="lepidoptera"|type=="thysanoptera")%>%distinct(species, type)%>%select(type))
+
+# tardigrada 
+tardigrade <- ultra_conserved%>%filter(type == "tardigrade")%>%select(species)
+table(tardigrade)
+nrow(unique(tardigrade))
+```
+
+```{r}
+# diptera 
+unique(ultra_conserved%>%filter(type=="diptera")%>%select(species))
+# ephemera
+unique(ultra_conserved%>%filter(type=="ephemera")%>%select(species))
+# hemiptera
+unique(ultra_conserved%>%filter(type == "hemiptera")%>%select(species))
+# lepidoptera 
+unique(ultra_conserved%>%filter(type=="lepidoptera")%>%select(species))
+# hymenoptera
+unique(ultra_conserved%>%filter(type == "hymenoptera")%>%select(species))
+```
+# comments 
+```{r}
+# which are mitochondrial 
+ultra_conserved[grep("mito", ultra_conserved$comments), ]%>%select(fasta.names)
+
+# which are chimeric 
+ultra_conserved[grep("chimeric", ultra_conserved$comments),]%>%select(fasta.names)
+
+# which are nha1 
+ultra_conserved[grep("nha1", ultra_conserved$comments),]%>%select(fasta.names)
+
+# which are nha2 
+ultra_conserved[grep("nha2", ultra_conserved$comments),]%>%select(fasta.names)
+```
+
+
+# checking relaxed dataframe 
+
+```{r}
+relaxed <- read.csv("orthologs-filtered-ALL+outgroups.csv")
+nrow(relaxed) # number of sequences 
+length(unique(relaxed)) # how many species 
+table(relaxed$species) # how many paralogs per species
+mean(table(relaxed$species)) # mean number of paralogs
+```
+
+# writing fasta files 
+```{r, eval = FALSE}
+fasta.names <- c()
+for(i in 1:nrow(relaxed)){
+  species.name <- str_replace(relaxed[i, "species"], " ", "-")
+  partial.name <- paste(species.name, relaxed[i, "protein.accession"], sep = "-")
+  fasta.name <- paste(">", partial.name, sep = "")
+  fasta.names <- append(fasta.names, fasta.name)
+}
+relaxed <- cbind(relaxed, fasta.names)
+
+write_fasta("orthologs-filtered-ALL+outgroups.fasta", relaxed)
+write_fasta("orthologs-filtered-CONSERVED+outgroups.fasta", ultra_conserved)
+```
+

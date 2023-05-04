@@ -1,3 +1,15 @@
+# May 2, 2023: 
+## adding outgroups 
+query: EaffNHA7 
+Blosum45 
+exclude XM/XP and include only Tardigrada and C elegans. 
+
+filtered results are labeled as outgroups.* 
+
+## blasting for paralogs 
+blastp -query Hypsibius.fasta -db nr -remote -evalue 0.01 -entrez_query "Hypsibius [organism]" -outfmt "6" -out Hypsibius.blastn
+blastp -query Ramazzottius.fasta -db nr -remote -evalue 0.01 -entrez_query "Ramazzottius [organism]" -outfmt "6" -out Ramazzottius.blastn
+
 # April 26, 2023: 
 ## going through this new filtered csv file 
 These are the new species (that weren't already present or removed from the dataset (6): 
@@ -48,9 +60,9 @@ for file in all-blast-CURATION3:
 for result in file: 
 use ncbi.parser to complete row information
 add it to the dataset 
-
+2. filter through more BLAST hittables and everything together
 2. align it with Dmel NHE again. if NHE>NHA, throw it out. 
-3. update dataset  
+3. add this dataset to the nhapless.csv and remove duplicates 
 4. align this bulk of a file. it's going to be bullshit. 
 5. then make a tree. it's also going to be bullshit. but hopefully I'll be able to remove entire clades that don't make sense?
 6. in addition to the tree, also blast each individual sequence to Dmel and see what comes up. Hope to god it's NHA. >:( 

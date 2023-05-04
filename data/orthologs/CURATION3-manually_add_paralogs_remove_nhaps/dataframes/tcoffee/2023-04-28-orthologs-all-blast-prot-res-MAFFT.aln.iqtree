@@ -1,0 +1,580 @@
+IQ-TREE 2.0.3 built Dec 19 2020
+
+Input file name: 2023-04-28-orthologs-all-blast-prot-res-MAFFT.aln
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 271492
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 197 sequences with 4662 amino-acid sites
+Number of constant sites: 1942 (= 41.6559% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1942 (= 41.6559% of all sites)
+Number of parsimony informative sites: 1523
+Number of distinct site patterns: 3196
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+R5
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+R5           -131092.765  262983.530 -  0.00646  263058.425 -  0.00955  265555.963 +    0.804
+LG+R6           -131085.730  262973.460 +    0.994  263049.141 +     0.99  265558.787 +    0.196
+LG+R4           -131144.692  263083.383 - 1.34e-24  263157.495 - 2.93e-24  265642.922 - 1.05e-19
+LG+G4           -131181.929  263147.857 - 1.34e-38  263220.031 - 7.72e-38  265675.159 - 1.05e-26
+LG+I+G4         -131179.313  263144.626 - 6.74e-38  263217.185 -  3.2e-37  265678.375 - 2.11e-27
+LG+R3           -131242.589  263275.178 - 3.02e-66  263348.511 - 9.74e-66  265821.822 -  1.5e-58
+VT+R5           -131457.653  263713.305 - 2.2e-161  263788.200 - 3.25e-161  266285.738 - 2.73e-159
+VT+R6           -131451.175  263704.349 - 1.93e-159  263780.031 - 1.93e-159  266289.677 - 3.81e-160
+LG+F+R6         -131430.220  263700.439 - 1.37e-158  263783.825 - 2.89e-160  266408.263 - 6.77e-186
+LG+F+R5         -131439.418  263714.836 - 1.02e-161  263797.392 - 3.28e-163  266409.766 - 3.19e-186
+WAG+R5          -131582.938  263963.875 - 8.53e-216  264038.770 - 1.26e-215  266536.308 - 1.06e-213
+WAG+R6          -131574.742  263951.484 - 4.19e-213  264027.166 - 4.17e-213  266536.812 - 8.26e-214
+LG+R2           -131620.157  264026.314 - 2.36e-229  264098.873 - 1.12e-228  266560.063 - 7.37e-219
+WAG+F+R5        -131600.887  264037.775 - 7.66e-232  264120.331 - 2.45e-233  266732.704 - 2.39e-256
+WAG+F+R6        -131594.924  264029.848 - 4.03e-230  264113.234 - 8.53e-232  266737.672 -   2e-257
+Blosum62+R5     -131762.520  264323.039 - 8.7e-294  264397.934 - 1.29e-293  266895.472 - 1.08e-291
+Blosum62+R6     -131757.739  264317.477 - 1.4e-292  264393.159 - 1.4e-292  266902.805 - 2.77e-293
+VT+F+R5         -131688.042  264212.084 - 1.08e-269  264294.640 - 3.46e-271  266907.014 - 3.38e-294
+VT+F+R6         -131682.780  264205.560 - 2.82e-268  264288.946 - 5.96e-270  266913.384 - 1.4e-295
+PMB+R5          -131827.513  264453.026 - 5.14e-322  264527.921 - 7.66e-322  267025.459 - 6.43e-320
+PMB+R6          -131821.781  264445.561 - 2.16e-320  264521.243 - 2.15e-320  267030.889 - 4.26e-321
+cpREV+F+R5      -131771.033  264378.066 - 9.79e-306  264460.622 - 3.14e-307  267072.995 -        0
+cpREV+F+R6      -131766.496  264372.992 - 1.24e-304  264456.378 - 2.62e-306  267080.816 -        0
+cpREV+R5        -131988.672  264775.344 -        0  264850.238 -        0  267347.777 -        0
+cpREV+R6        -131983.219  264768.437 -        0  264844.119 -        0  267353.765 -        0
+JTT+R6          -131984.864  264771.727 -        0  264847.409 -        0  267357.054 -        0
+JTT+R5          -131999.878  264797.756 -        0  264872.650 -        0  267370.189 -        0
+JTTDCMut+R6     -132002.868  264807.736 -        0  264883.418 -        0  267393.063 -        0
+JTTDCMut+R5     -132016.265  264830.529 -        0  264905.424 -        0  267402.962 -        0
+Blosum62+F+R5   -132005.072  264846.144 -        0  264928.700 -        0  267541.074 -        0
+Blosum62+F+R6   -132002.304  264844.609 -        0  264927.995 -        0  267552.433 -        0
+rtREV+F+R5      -132036.957  264909.914 -        0  264992.469 -        0  267604.843 -        0
+rtREV+F+R6      -132029.043  264898.085 -        0  264981.471 -        0  267605.909 -        0
+JTTDCMut+F+R5   -132098.539  265033.078 -        0  265115.634 -        0  267728.008 -        0
+JTTDCMut+F+R6   -132091.269  265022.538 -        0  265105.924 -        0  267730.362 -        0
+JTT+F+R5        -132106.317  265048.634 -        0  265131.190 -        0  267743.564 -        0
+JTT+F+R6        -132097.966  265035.931 -        0  265119.317 -        0  267743.755 -        0
+PMB+F+R5        -132149.921  265135.842 -        0  265218.398 -        0  267830.772 -        0
+PMB+F+R6        -132144.237  265128.474 -        0  265211.860 -        0  267836.298 -        0
+mtInv+F+R5      -132214.025  265264.051 -        0  265346.607 -        0  267958.981 -        0
+mtInv+F+R6      -132208.378  265256.757 -        0  265340.143 -        0  267964.581 -        0
+Dayhoff+F+R6    -132414.092  265668.184 -        0  265751.570 -        0  268376.008 -        0
+Dayhoff+F+R5    -132423.277  265682.553 -        0  265765.109 -        0  268377.483 -        0
+DCMut+F+R6      -132416.283  265672.566 -        0  265755.952 -        0  268380.390 -        0
+DCMut+F+R5      -132425.243  265686.487 -        0  265769.042 -        0  268381.416 -        0
+rtREV+R6        -132616.479  266034.958 -        0  266110.640 -        0  268620.285 -        0
+rtREV+R5        -132626.121  266050.242 -        0  266125.136 -        0  268622.674 -        0
+mtZOA+F+R6      -132768.147  266376.293 -        0  266459.679 -        0  269084.117 -        0
+mtZOA+F+R5      -132790.859  266417.717 -        0  266500.273 -        0  269112.647 -        0
+mtMet+F+R6      -132945.475  266730.950 -        0  266814.336 -        0  269438.774 -        0
+mtMet+F+R5      -132955.229  266746.458 -        0  266829.013 -        0  269441.387 -        0
+Dayhoff+R6      -133121.804  267045.607 -        0  267121.289 -        0  269630.934 -        0
+DCMut+R6        -133124.055  267050.110 -        0  267125.791 -        0  269635.437 -        0
+Dayhoff+R5      -133141.994  267081.987 -        0  267156.882 -        0  269654.420 -        0
+DCMut+R5        -133144.021  267086.042 -        0  267160.937 -        0  269658.475 -        0
+mtREV+F+R5      -133227.112  267290.224 -        0  267372.780 -        0  269985.154 -        0
+mtREV+F+R6      -133221.107  267282.214 -        0  267365.600 -        0  269990.038 -        0
+LG+I            -133443.297  267670.594 -        0  267742.768 -        0  270197.896 -        0
+LG              -133475.440  267732.881 -        0  267804.671 -        0  270253.736 -        0
+FLU+F+R5        -133489.444  267814.887 -        0  267897.443 -        0  270509.817 -        0
+FLU+F+R6        -133483.146  267806.293 -        0  267889.679 -        0  270514.117 -        0
+HIVb+F+R5       -134021.528  268879.057 -        0  268961.613 -        0  271573.987 -        0
+HIVb+F+R6       -134014.020  268868.041 -        0  268951.427 -        0  271575.865 -        0
+FLU+R6          -134117.287  269036.574 -        0  269112.256 -        0  271621.902 -        0
+FLU+R5          -134128.224  269054.448 -        0  269129.342 -        0  271626.881 -        0
+mtART+F+R6      -134094.502  269029.003 -        0  269112.389 -        0  271736.827 -        0
+mtART+F+R5      -134162.108  269160.215 -        0  269242.771 -        0  271855.145 -        0
+HIVb+R6         -134441.340  269684.681 -        0  269760.362 -        0  272270.008 -        0
+HIVb+R5         -134451.300  269700.600 -        0  269775.494 -        0  272273.033 -        0
+mtVer+F+R6      -134411.097  269662.194 -        0  269745.580 -        0  272370.018 -        0
+mtVer+F+R5      -134420.126  269676.252 -        0  269758.808 -        0  272371.182 -        0
+mtZOA+R6        -135565.954  271933.908 -        0  272009.590 -        0  274519.235 -        0
+mtZOA+R5        -135615.252  272028.504 -        0  272103.398 -        0  274600.937 -        0
+mtMAM+F+R6      -135564.550  271969.099 -        0  272052.485 -        0  274676.923 -        0
+mtMAM+F+R5      -135596.303  272028.607 -        0  272111.162 -        0  274723.536 -        0
+HIVw+F+R6       -136959.585  274759.171 -        0  274842.557 -        0  277466.995 -        0
+HIVw+F+R5       -136974.482  274784.964 -        0  274867.520 -        0  277479.894 -        0
+mtMet+R6        -137057.495  274916.990 -        0  274992.672 -        0  277502.317 -        0
+mtMet+R5        -137081.276  274960.552 -        0  275035.447 -        0  277532.985 -        0
+mtREV+R6        -137575.057  275952.114 -        0  276027.795 -        0  278537.441 -        0
+mtREV+R5        -137597.946  275993.892 -        0  276068.787 -        0  278566.325 -        0
+mtInv+R6        -137634.920  276071.840 -        0  276147.522 -        0  278657.167 -        0
+mtInv+R5        -137653.622  276105.243 -        0  276180.138 -        0  278677.676 -        0
+mtART+R6        -138159.772  277121.544 -        0  277197.225 -        0  279706.871 -        0
+mtART+R5        -138230.732  277259.464 -        0  277334.358 -        0  279831.897 -        0
+mtVer+R6        -138715.158  278232.317 -        0  278307.998 -        0  280817.644 -        0
+mtVer+R5        -138746.800  278291.600 -        0  278366.494 -        0  280864.033 -        0
+HIVw+R6         -139444.555  279691.110 -        0  279766.792 -        0  282276.438 -        0
+HIVw+R5         -139478.485  279754.970 -        0  279829.864 -        0  282327.403 -        0
+mtMAM+R6        -140213.717  281229.434 -        0  281305.115 -        0  283814.761 -        0
+mtMAM+R5        -140276.312  281350.624 -        0  281425.519 -        0  283923.057 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+R5
+
+State frequencies: (model)
+
+Model of rate heterogeneity: FreeRate with 5 categories
+Site proportion and rates:  (0.0960,0.1900) (0.1836,0.4064) (0.2842,0.7293) (0.2858,1.2226) (0.1504,2.3302)
+
+ Category  Relative_rate  Proportion
+  1         0.1900         0.0960
+  2         0.4064         0.1836
+  3         0.7293         0.2842
+  4         1.2226         0.2858
+  5         2.3302         0.1504
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -131033.8018 (s.e. 3576.0254)
+Unconstrained log-likelihood (without tree): -35710.1697
+Number of free parameters (#branches + #model parameters): 399
+Akaike information criterion (AIC) score: 262865.6037
+Corrected Akaike information criterion (AICc) score: 262940.4981
+Bayesian information criterion (BIC) score: 265438.0364
+
+Total tree length (sum of branch lengths): 128.8112
+Sum of internal branch lengths: 54.5796 (42.3718% of tree length)
+
+WARNING: 11 near-zero internal branches (<0.0002) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Cloeon-dipterum-emb|CAB3359964.1|' is drawn at root
+
++--Cloeon-dipterum-emb|CAB3359964.1|
+|
+|  +-------Cloeon-dipterum-emb|CAB3362979.1|
++--|
+|  |                                                     +**Cloeon-dipterum-emb|CAB3360254.1|
+|  |                                                  +**|
+|  |                                                  |  +**Cloeon-dipterum-emb|CAB3360255.1|
+|  |                                               +**|
+|  |                                               |  +**Cloeon-dipterum-emb|CAB3360256.1|
+|  |                                            +--|
+|  |                                            |  |  +**Cloeon-dipterum-emb|CAB3360257.1|
+|  |                                            |  +--|
+|  |                                            |     +**Cloeon-dipterum-emb|CAB3360258.1|
+|  |                                         +--|
+|  |                                         |  +--Ephemera-danica-gb|KAF4525624.1|
+|  |                                      +--|
+|  |                                      |  |        +--Cloeon-dipterum-emb|CAB3364807.1|
+|  |                                      |  |     +--|
+|  |                                      |  |     |  +--Cloeon-dipterum-emb|CAB3364808.1|
+|  |                                      |  +-----|
+|  |                                      |        +--Ephemera-danica-gb|KAF4529021.1|
+|  |                                   +--|
+|  |                                   |  |     +--Apolygus-lucorum-gb|KAF6215470.1|
+|  |                                   |  |  +--|
+|  |                                   |  |  |  +--Nezara-viridula-emb|CAH1388367.1|
+|  |                                   |  +--|
+|  |                                   |     |      +**Diaphorina-citri-gb|KAI5704902.1|
+|  |                                   |     |   +**|
+|  |                                   |     |   |  +--Diaphorina-citri-gb|KAI5737038.1|
+|  |                                   |     +---|
+|  |                                   |         +--Diaphorina-citri-gb|KAI5742900.1|
+|  |                                +--|
+|  |                                |  |        +--Cotesia-congregata-emb|CAG5095999.1|
+|  |                                |  |     +--|
+|  |                                |  |     |  +--Cotesia-typhae-gb|KAG8042441.1|
+|  |                                |  |  +--|
+|  |                                |  |  |  |     +--Ampulex-compressa-gb|KAG7201324.1|
+|  |                                |  |  |  |  +--|
+|  |                                |  |  |  |  |  |     +--Temnothorax-longispinosus-gb|TGZ49087.1|
+|  |                                |  |  |  |  |  |  +--|
+|  |                                |  |  |  |  |  |  |  |  +--Acromyrmex-insinuator-gb|KAG5311786.1|
+|  |                                |  |  |  |  |  |  |  +--|
+|  |                                |  |  |  |  |  |  |     +--Acromyrmex-heyeri-gb|KAG5326993.1|
+|  |                                |  |  |  |  |  +--|
+|  |                                |  |  |  |  |     +--Eciton-burchellii-gb|KAH0956584.1|
+|  |                                |  |  |  +--|
+|  |                                |  |  |     |     +--Vespula-vulgaris-gb|KAF7383363.1|
+|  |                                |  |  |     |  +--|
+|  |                                |  |  |     |  |  +--Vespula-pensylvanica-gb|KAF7401870.1|
+|  |                                |  |  |     +--|
+|  |                                |  |  |        |  +**Vespula-pensylvanica-gb|KAF7401871.1|
+|  |                                |  |  |        +**|
+|  |                                |  |  |           +**Vespula-germanica-gb|KAF7384792.1|
+|  |                                |  +--|
+|  |                                |     +--Periplaneta-americana-gb|KAJ4436481.1|
+|  |                             +--|
+|  |                             |  |     +**Polypedilum-vanderplanki-gb|KAG5676603.1|
+|  |                             |  |  +--|
+|  |                             |  |  |  +**Polypedilum-vanderplanki-gb|KAG5676604.1|
+|  |                             |  +--|
+|  |                             |     +--Lucilia-cuprina-gb|KAI8116404.1|
+|  |                          +--|
+|  |                          |  |                      +---------------------Apolygus-lucorum-gb|KAF6197851.1|
+|  |                          |  +----------------------|
+|  |                          |                         |      +---Nymphon-striatum-gb|KAG1682880.1|
+|  |                          |                         +------|
+|  |                          |                                +-----Nymphon-striatum-gb|KAG1715459.1|
+|  |                       +--|
+|  |                       |  |            +--Iphiclides-podalirius-emb|CAH2066547.1|
+|  |                       |  |         +--|
+|  |                       |  |         |  +--Iphiclides-podalirius-emb|CAH2066549.1|
+|  |                       |  |      +--|
+|  |                       |  |      |  +**Iphiclides-podalirius-emb|CAH2066551.1|
+|  |                       |  |   +--|
+|  |                       |  |   |  +--Brenthis-ino-emb|CAH0726637.1|
+|  |                       |  +---|
+|  |                       |      |  +--Dendrolimus-kikuchii-gb|KAJ0181768.1|
+|  |                       |      +--|
+|  |                       |         |           +--Spodoptera-littoralis-emb|CAB3515165.1|
+|  |                       |         |        +--|
+|  |                       |         |        |  +--Spodoptera-exigua-emb|CAH0700695.1|
+|  |                       |         |     +--|
+|  |                       |         |     |  +--Helicoverpa-armigera-gb|PZC78836.1|
+|  |                       |         |  +--|
+|  |                       |         |  |  +--Spodoptera-frugiperda-gb|KAF9812088.1|
+|  |                       |         +--|
+|  |                       |            |     +**Arctia-plantaginis-emb|CAB3231150.1|
+|  |                       |            |  +**|
+|  |                       |            |  |  +--Arctia-plantaginis-emb|CAB3249885.1|
+|  |                       |            +--|
+|  |                       |               +--Arctia-plantaginis-emb|CAB3231151.1|
+|  |                    +--|
+|  |                    |  |        +**Iphiclides-podalirius-emb|CAH2076751.1|
+|  |                    |  |     +--|
+|  |                    |  |     |  +**Iphiclides-podalirius-emb|CAH2076753.1|
+|  |                    |  +-----|
+|  |                    |        |     +**Brenthis-ino-emb|CAH0714536.1|
+|  |                    |        |  +--|
+|  |                    |        |  |  +**Brenthis-ino-emb|CAH0714537.1|
+|  |                    |        +--|
+|  |                    |           |  +--Dendrolimus-kikuchii-gb|KAJ0175711.1|
+|  |                    |           +--|
+|  |                    |              |        +--Spodoptera-frugiperda-gb|KAF9810122.1|
+|  |                    |              |     +--|
+|  |                    |              |     |  +--Spodoptera-littoralis-emb|CAB3516635.1|
+|  |                    |              |  +--|
+|  |                    |              |  |  +--Helicoverpa-armigera-gb|PZC83667.1|
+|  |                    |              +--|
+|  |                    |                 +--Arctia-plantaginis-emb|CAB3223254.1|
+|  |                 +--|
+|  |                 |  |                +--Iphiclides-podalirius-emb|CAH2066545.1|
+|  |                 |  |             +--|
+|  |                 |  |             |  |  +**Iphiclides-podalirius-emb|CAH2066543.1|
+|  |                 |  |             |  +**|
+|  |                 |  |             |     +**Iphiclides-podalirius-emb|CAH2066541.1|
+|  |                 |  |      +------|
+|  |                 |  |      |      |  +--Brenthis-ino-emb|CAH0726631.1|
+|  |                 |  |      |      +--|
+|  |                 |  |      |         |        +--Helicoverpa-armigera-gb|PZC78839.1|
+|  |                 |  |      |         |     +--|
+|  |                 |  |      |         |     |  |     +--Spodoptera-littoralis-emb|CAB3515167.1|
+|  |                 |  |      |         |     |  |  +--|
+|  |                 |  |      |         |     |  |  |  +--Spodoptera-frugiperda-gb|KAF9812091.1|
+|  |                 |  |      |         |     |  +--|
+|  |                 |  |      |         |     |     +--Spodoptera-exigua-emb|CAH0700698.1|
+|  |                 |  |      |         |  +--|
+|  |                 |  |      |         |  |  |  +--Arctia-plantaginis-emb|CAB3231154.1|
+|  |                 |  |      |         |  |  +--|
+|  |                 |  |      |         |  |     +**Arctia-plantaginis-emb|CAB3249883.1|
+|  |                 |  |      |         +--|
+|  |                 |  |      |            +--Dendrolimus-kikuchii-gb|KAJ0181766.1|
+|  |                 |  +------|
+|  |                 |         |        +**Brenthis-ino-emb|CAH0726632.1|
+|  |                 |         |     +--|
+|  |                 |         |     |  +--Brenthis-ino-emb|CAH0726633.1|
+|  |                 |         +-----|
+|  |                 |               |        +--Helicoverpa-armigera-gb|PZC78838.1|
+|  |                 |               |     +--|
+|  |                 |               |     |  |     +--Spodoptera-littoralis-emb|CAB3515166.1|
+|  |                 |               |     |  |  +--|
+|  |                 |               |     |  |  |  +--Spodoptera-exigua-emb|CAH0700697.1|
+|  |                 |               |     |  +--|
+|  |                 |               |     |     +--Spodoptera-frugiperda-gb|KAF9812089.1|
+|  |                 |               |  +--|
+|  |                 |               |  |  |  +--Arctia-plantaginis-emb|CAB3249884.1|
+|  |                 |               |  |  +--|
+|  |                 |               |  |     +--Arctia-plantaginis-emb|CAB3231153.1|
+|  |                 |               +--|
+|  |                 |                  +--Dendrolimus-kikuchii-gb|KAJ0181767.1|
+|  |              +--|
+|  |              |  |                                            +---Apolygus-lucorum-gb|KAF6211782.1|
+|  |              |  |                                         +--|
+|  |              |  |                                         |  |     +--Apolygus-lucorum-gb|KAF6205445.1|
+|  |              |  |                                         |  |  +--|
+|  |              |  |                                         |  |  |  +--Apolygus-lucorum-gb|KAF6214425.1|
+|  |              |  |                                         |  +--|
+|  |              |  |                                         |     +----Apolygus-lucorum-gb|KAF6203717.1|
+|  |              |  |                                      +--|
+|  |              |  |                                      |  +---Apolygus-lucorum-gb|KAF6201166.1|
+|  |              |  |                                   +--|
+|  |              |  |                                   |  +---------Apolygus-lucorum-gb|KAF6215759.1|
+|  |              |  |           +-----------------------|
+|  |              |  |           |                       |          +--Apolygus-lucorum-gb|KAF6206475.1|
+|  |              |  |           |                       |     +----|
+|  |              |  |           |                       |     |    +--Apolygus-lucorum-gb|KAF6205159.1|
+|  |              |  |           |                       |  +--|
+|  |              |  |           |                       |  |  +--------Apolygus-lucorum-gb|KAF6212551.1|
+|  |              |  |           |                       +--|
+|  |              |  |           |                          |  +---------Apolygus-lucorum-gb|KAF6211031.1|
+|  |              |  |           |                          +--|
+|  |              |  |           |                             |   +------Apolygus-lucorum-gb|KAF6200646.1|
+|  |              |  |           |                             +---|
+|  |              |  |           |                                 |      +**Apolygus-lucorum-gb|KAF6216800.1|
+|  |              |  |           |                                 +------|
+|  |              |  |           |                                        +--Apolygus-lucorum-gb|KAF6213293.1|
+|  |              |  |        +--|
+|  |              |  |        |  |                                   +--Nymphon-striatum-gb|KAG1667715.1|
+|  |              |  |        |  |                                +--|
+|  |              |  |        |  |                                |  +--Nymphon-striatum-gb|KAG1648776.1|
+|  |              |  |        |  |                             +--|
+|  |              |  |        |  |                             |  +--Nymphon-striatum-gb|KAG1715537.1|
+|  |              |  |        |  |                          +--|
+|  |              |  |        |  |                          |  +--Nymphon-striatum-gb|KAG1651158.1|
+|  |              |  |        |  |                       +--|
+|  |              |  |        |  |                       |  +--Nymphon-striatum-gb|KAG1700563.1|
+|  |              |  |        |  +-----------------------|
+|  |              |  |        |                          |           +**Nymphon-striatum-gb|KAG1694744.1|
+|  |              |  |        |                          |        +**|
+|  |              |  |        |                          |        |  +**Nymphon-striatum-gb|KAG1694745.1|
+|  |              |  |        |                          +--------|
+|  |              |  |        |                                   |  +**Nymphon-striatum-gb|KAG1694747.1|
+|  |              |  |        |                                   +--|
+|  |              |  |        |                                      +**Nymphon-striatum-gb|KAG1694746.1|
+|  |              |  |     +--|
+|  |              |  |     |  |                 +------Apolygus-lucorum-gb|KAF6215665.1|
+|  |              |  |     |  |  +--------------|
+|  |              |  |     |  |  |              +-------Apolygus-lucorum-gb|KAF6204691.1|
+|  |              |  |     |  +--|
+|  |              |  |     |     |  +---------------------Nymphon-striatum-gb|KAG1651553.1|
+|  |              |  |     |     +--|
+|  |              |  |     |        +------------------------Penaeus-vannamei-gb|ROT78781.1|
+|  |              |  |  +--|
+|  |              |  |  |  |        +---------------Apolygus-lucorum-gb|KAF6210436.1|
+|  |              |  |  |  |  +-----|
+|  |              |  |  |  |  |     +-------------------------Nymphon-striatum-gb|KAG1680539.1|
+|  |              |  |  |  +--|
+|  |              |  |  |     |                      +**Nymphon-striatum-gb|KAG1651399.1|
+|  |              |  |  |     |                   +**|
+|  |              |  |  |     |                   |  +**Nymphon-striatum-gb|KAG1651400.1|
+|  |              |  |  |     |  +----------------|
+|  |              |  |  |     |  |                +**Nymphon-striatum-gb|KAG1651401.1|
+|  |              |  |  |     +--|
+|  |              |  |  |        |                           +--Idotea-baltica-gb|MCL4143441.1|
+|  |              |  |  |        |                        +--|
+|  |              |  |  |        |                        |  +--Idotea-baltica-gb|MCL4149582.1|
+|  |              |  |  |        |                     +--|
+|  |              |  |  |        |                     |  |     +--Idotea-baltica-gb|MCL4126714.1|
+|  |              |  |  |        |                     |  |  +--|
+|  |              |  |  |        |                     |  |  |  |  +--Idotea-baltica-gb|MCL4166991.1|
+|  |              |  |  |        |                     |  |  |  +--|
+|  |              |  |  |        |                     |  |  |     +--Idotea-baltica-gb|MCL4170293.1|
+|  |              |  |  |        |                     |  +--|
+|  |              |  |  |        |                     |     +--Idotea-baltica-gb|MCL4139599.1|
+|  |              |  |  |        |                  +--|
+|  |              |  |  |        |                  |  |         +--Idotea-baltica-gb|MCL4155886.1|
+|  |              |  |  |        |                  |  |     +---|
+|  |              |  |  |        |                  |  |     |   +--Idotea-baltica-gb|MCL4116323.1|
+|  |              |  |  |        |                  |  |  +--|
+|  |              |  |  |        |                  |  |  |  +---Idotea-baltica-gb|MCL4143305.1|
+|  |              |  |  |        |                  |  +--|
+|  |              |  |  |        |                  |     |    +--Idotea-baltica-gb|MCL4111552.1|
+|  |              |  |  |        |                  |     +----|
+|  |              |  |  |        |                  |          +--Idotea-baltica-gb|MCL4152715.1|
+|  |              |  |  |        +------------------|
+|  |              |  |  |                           |        +---Idotea-baltica-gb|MCL4129395.1|
+|  |              |  |  |                           |     +--|
+|  |              |  |  |                           |     |  +-----Idotea-baltica-gb|MCL4133982.1|
+|  |              |  |  |                           |  +--|
+|  |              |  |  |                           |  |  +---------Hyalomma-marginatum-emb|CAG7591281.1|
+|  |              |  |  |                           +--|
+|  |              |  |  |                              |        +-------Idotea-baltica-gb|MCL4114534.1|
+|  |              |  |  |                              |     +--|
+|  |              |  |  |                              |     |  +----Cyprideis-torosa-emb|CAD7237718.1|
+|  |              |  |  |                              |  +--|
+|  |              |  |  |                              |  |  |        +---Idotea-baltica-gb|MCL4130398.1|
+|  |              |  |  |                              |  |  |     +--|
+|  |              |  |  |                              |  |  |     |  +----Idotea-baltica-gb|MCL4122843.1|
+|  |              |  |  |                              |  |  |  +--|
+|  |              |  |  |                              |  |  |  |  +----Idotea-baltica-gb|MCL4154112.1|
+|  |              |  |  |                              |  |  +--|
+|  |              |  |  |                              |  |     |           +----Idotea-baltica-gb|MCL4166653.1|
+|  |              |  |  |                              |  |     +-----------|
+|  |              |  |  |                              |  |                 +------Idotea-baltica-gb|MCL4109674.1|
+|  |              |  |  |                              +--|
+|  |              |  |  |                                 |  +----Nymphon-striatum-gb|KAG1682759.1|
+|  |              |  |  |                                 +--|
+|  |              |  |  |                                    +------Daphnia-sinensis-gb|KAI9549733.1|
+|  |              |  +--|
+|  |              |     +----------------------Spodoptera-frugiperda-gb|KAF9812090.1|
+|  |           +--|
+|  |           |  |                  +--Polypedilum-vanderplanki-gb|KAG5673013.1|
+|  |           |  |              +---|
+|  |           |  |              |   +**Polypedilum-vanderplanki-gb|KAG5673012.1|
+|  |           |  |     +--------|
+|  |           |  |     |        |  +--Lucilia-cuprina-gb|KAI8130912.1|
+|  |           |  |     |        +--|
+|  |           |  |     |           +--Ceratitis-capitata-emb|CAD6994394.1|
+|  |           |  |  +--|
+|  |           |  |  |  |  +---------Megalurothrips-usitatus-gb|KAJ1530721.1|
+|  |           |  |  |  +--|
+|  |           |  |  |     +------------Megalurothrips-usitatus-gb|KAJ1530995.1|
+|  |           |  +--|
+|  |           |     |           +----Periplaneta-americana-gb|KAJ4439351.1|
+|  |           |     |        +--|
+|  |           |     |        |  +---Periplaneta-americana-gb|KAJ4436258.1|
+|  |           |     |     +--|
+|  |           |     |     |  +---Periplaneta-americana-gb|KAJ4436260.1|
+|  |           |     |  +--|
+|  |           |     |  |  +--Periplaneta-americana-gb|KAJ4436265.1|
+|  |           |     +--|
+|  |           |        +--------Periplaneta-americana-gb|KAJ4429153.1|
+|  |        +--|
+|  |        |  |                 +------Tigriopus-californicus-gb|TRY75264.1|
+|  |        |  |              +--|
+|  |        |  |              |  |  +--Hyalella-azteca-KAA0203922.1
+|  |        |  |              |  +--|
+|  |        |  |              |     |     +--Hyalella-azteca-KAA0201437.1
+|  |        |  |              |     |  +--|
+|  |        |  |              |     |  |  +--Hyalella-azteca-KAA0184655.1
+|  |        |  |              |     +--|
+|  |        |  |              |        +--Hyalella-azteca-KAA0184656.1
+|  |        |  |           +--|
+|  |        |  |           |  +-----Penaeus-vannamei-gb|ROT78782.1|
+|  |        |  |        +--|
+|  |        |  |        |  |       +**Amphibalanus-amphitrite-gb|KAF0289584.1|
+|  |        |  |        |  |  +----|
+|  |        |  |        |  |  |    +--Amphibalanus-amphitrite-gb|KAF0289585.1|
+|  |        |  |        |  +--|
+|  |        |  |        |     +---Penaeus-vannamei-gb|ROT75079.1|
+|  |        |  |     +--|
+|  |        |  |     |  |              +**Nymphon-striatum-gb|KAG1694103.1|
+|  |        |  |     |  |           +--|
+|  |        |  |     |  |           |  |  +--Nymphon-striatum-gb|KAG1694102.1|
+|  |        |  |     |  |           |  +--|
+|  |        |  |     |  |           |     +--Nymphon-striatum-gb|KAG1663791.1|
+|  |        |  |     |  |        +**|
+|  |        |  |     |  |        |  |  +**Nymphon-striatum-gb|KAG1694104.1|
+|  |        |  |     |  |        |  +**|
+|  |        |  |     |  |        |     +**Nymphon-striatum-gb|KAG1694105.1|
+|  |        |  |     |  |     +--|
+|  |        |  |     |  |     |  |  +--Nymphon-striatum-gb|KAG1663789.1|
+|  |        |  |     |  |     |  +--|
+|  |        |  |     |  |     |     |  +**Nymphon-striatum-gb|KAG1663788.1|
+|  |        |  |     |  |     |     +**|
+|  |        |  |     |  |     |        +**Nymphon-striatum-gb|KAG1663790.1|
+|  |        |  |     |  +-----|
+|  |        |  |     |        +--Nymphon-striatum-gb|KAG1663781.1|
+|  |        |  |  +--|
+|  |        |  |  |  |           +----Blomia-tropicalis-KAI2808467.1
+|  |        |  |  |  |        +--|
+|  |        |  |  |  |        |  +-----Dermatophagoides-farinae-KAH7644190.1
+|  |        |  |  |  |     +--|
+|  |        |  |  |  |     |  +------Sarcoptes-scabiei-KAF7496482.1
+|  |        |  |  |  |  +--|
+|  |        |  |  |  |  |  |  +------Halotydeus-destructor-KAI1299850.1
+|  |        |  |  |  |  |  +--|
+|  |        |  |  |  |  |     +------Halotydeus-destructor-KAI1295545.1
+|  |        |  |  |  +--|
+|  |        |  |  |     |  +--------Oedothorax-gibbosus-gb|KAG8183784.1|
+|  |        |  |  |     +--|
+|  |        |  |  |        |            +--Oedothorax-gibbosus-gb|KAG8186332.1|
+|  |        |  |  |        |     +------|
+|  |        |  |  |        |     |      +--Oedothorax-gibbosus-gb|KAG8172704.1|
+|  |        |  |  |        |  +--|
+|  |        |  |  |        |  |  +-------Oedothorax-gibbosus-gb|KAG8186330.1|
+|  |        |  |  |        +--|
+|  |        |  |  |           +----Oedothorax-gibbosus-gb|KAG8183783.1|
+|  |        |  +--|
+|  |        |     +---------Lepeophtheirus-salmonis-emb|CAB4064343.1|
+|  |     +--|
+|  |     |  |           +----Cotesia-congregata-emb|CAG5097411.1|
+|  |     |  +-----------|
+|  |     |              |     +--Ampulex-compressa-gb|KAG7212671.1|
+|  |     |              |  +--|
+|  |     |              |  |  +--Vespula-germanica-gb|KAF7414185.1|
+|  |     |              +--|
+|  |     |                 |  +--Ooceraea-biroi-gb|EZA53303.1|
+|  |     |                 +--|
+|  |     |                    |  +--Temnothorax-longispinosus-gb|TGZ32222.1|
+|  |     |                    +--|
+|  |     |                       |     +**Acromyrmex-insinuator-gb|KAG5306579.1|
+|  |     |                       |  +--|
+|  |     |                       |  |  +**Acromyrmex-echinatior-gb|EGI60180.1|
+|  |     |                       +--|
+|  |     |                          |  +--Acromyrmex-charruanus-gb|KAG5344392.1|
+|  |     |                          +--|
+|  |     |                             +--Acromyrmex-heyeri-gb|KAG5319794.1|
+|  |  +--|
+|  |  |  |           +---Apolygus-lucorum-gb|KAF6215493.1|
+|  |  |  |        +--|
+|  |  |  |        |  +--Nezara-viridula-emb|CAH1388393.1|
+|  |  |  |     +--|
+|  |  |  |     |  |     +**Diaphorina-citri-gb|KAI5742064.1|
+|  |  |  |     |  +-----|
+|  |  |  |     |        +--Diaphorina-citri-gb|KAI5704627.1|
+|  |  |  |  +--|
+|  |  |  |  |  |       +**Diaphorina-citri-gb|KAI5736882.1|
+|  |  |  |  |  |    +--|
+|  |  |  |  |  |    |  |  +**Diaphorina-citri-gb|KAI5704272.1|
+|  |  |  |  |  |    |  +--|
+|  |  |  |  |  |    |     +--Diaphorina-citri-gb|KAI5704273.1|
+|  |  |  |  |  +----|
+|  |  |  |  |       +--Diaphorina-citri-gb|KAI5742408.1|
+|  |  |  +--|
+|  |  |     |     +-------Apolygus-lucorum-gb|KAF6214444.1|
+|  |  |     |  +--|
+|  |  |     |  |  |     +------------Apolygus-lucorum-gb|KAF6215170.1|
+|  |  |     |  |  |  +--|
+|  |  |     |  |  |  |  +--------------Nezara-viridula-emb|CAH1388390.1|
+|  |  |     |  |  +--|
+|  |  |     |  |     +------------Nezara-viridula-emb|CAH1388392.1|
+|  |  |     +--|
+|  |  |        |      +--Nezara-viridula-emb|CAH1388386.1|
+|  |  |        |   +--|
+|  |  |        |   |  +--Nezara-viridula-emb|CAH1388387.1|
+|  |  |        +---|
+|  |  |            |  +--Nezara-viridula-emb|CAH1388389.1|
+|  |  |            +--|
+|  |  |               +--Nezara-viridula-emb|CAH1388388.1|
+|  +--|
+|     +-------Megalurothrips-usitatus-gb|KAJ1530432.1|
+|
++---Ephemera-danica-gb|KAF4525946.1|
+
+Tree in newick format:
+
+(Cloeon-dipterum-emb|CAB3359964.1|:0.3839413477,(Cloeon-dipterum-emb|CAB3362979.1|:1.0286885719,((((((((((((((((((Cloeon-dipterum-emb|CAB3360254.1|:0.0000010023,Cloeon-dipterum-emb|CAB3360255.1|:0.0000010023):0.0000025889,Cloeon-dipterum-emb|CAB3360256.1|:0.0000029997):0.0000025643,(Cloeon-dipterum-emb|CAB3360257.1|:0.0000026702,Cloeon-dipterum-emb|CAB3360258.1|:0.0000010023):0.0272206344):0.2848358509,Ephemera-danica-gb|KAF4525624.1|:0.3227910344):0.3093330176,((Cloeon-dipterum-emb|CAB3364807.1|:0.1163285970,Cloeon-dipterum-emb|CAB3364808.1|:0.4101929161):0.1901439276,Ephemera-danica-gb|KAF4529021.1|:0.3977642816):0.7495740893):0.3051353825,((Apolygus-lucorum-gb|KAF6215470.1|:0.4188157071,Nezara-viridula-emb|CAH1388367.1|:0.3493663073):0.1389014244,((Diaphorina-citri-gb|KAI5704902.1|:0.0000020737,Diaphorina-citri-gb|KAI5737038.1|:0.0015876260):0.0000211969,Diaphorina-citri-gb|KAI5742900.1|:0.0062813004):0.4853299379):0.1222257609):0.0991624964,(((Cotesia-congregata-emb|CAG5095999.1|:0.0028267774,Cotesia-typhae-gb|KAG8042441.1|:0.0143491214):0.2455955294,((Ampulex-compressa-gb|KAG7201324.1|:0.0373741745,((Temnothorax-longispinosus-gb|TGZ49087.1|:0.0113862137,(Acromyrmex-insinuator-gb|KAG5311786.1|:0.0219069638,Acromyrmex-heyeri-gb|KAG5326993.1|:0.0057830577):0.1128815837):0.0263778529,Eciton-burchellii-gb|KAH0956584.1|:0.0538056472):0.0624394394):0.0512654676,((Vespula-vulgaris-gb|KAF7383363.1|:0.0147847964,Vespula-pensylvanica-gb|KAF7401870.1|:0.0609110363):0.0870035352,(Vespula-pensylvanica-gb|KAF7401871.1|:0.0000010023,Vespula-germanica-gb|KAF7384792.1|:0.0000010023):0.0000026140):0.0832256038):0.0605117035):0.3341908217,Periplaneta-americana-gb|KAJ4436481.1|:0.2605539475):0.0847217507):0.0906375621,((Polypedilum-vanderplanki-gb|KAG5676603.1|:0.0000026002,Polypedilum-vanderplanki-gb|KAG5676604.1|:0.0000010023):0.3858170746,Lucilia-cuprina-gb|KAI8116404.1|:0.2088335962):0.2829438949):0.0468917818,(Apolygus-lucorum-gb|KAF6197851.1|:2.5382089308,(Nymphon-striatum-gb|KAG1682880.1|:0.5621815454,Nymphon-striatum-gb|KAG1715459.1|:0.7611060776):0.8817828473):2.7006533765):0.0515615097,((((Iphiclides-podalirius-emb|CAH2066547.1|:0.0046256765,Iphiclides-podalirius-emb|CAH2066549.1|:0.0130984841):0.0371556426,Iphiclides-podalirius-emb|CAH2066551.1|:0.0000027967):0.0906149107,Brenthis-ino-emb|CAH0726637.1|:0.1083407641):0.0709404090,(Dendrolimus-kikuchii-gb|KAJ0181768.1|:0.1342648398,((((Spodoptera-littoralis-emb|CAB3515165.1|:0.0022527145,Spodoptera-exigua-emb|CAH0700695.1|:0.0115567832):0.0192643839,Helicoverpa-armigera-gb|PZC78836.1|:0.1129737808):0.0145390460,Spodoptera-frugiperda-gb|KAF9812088.1|:0.0994660726):0.0480751457,((Arctia-plantaginis-emb|CAB3231150.1|:0.0000010023,Arctia-plantaginis-emb|CAB3249885.1|:0.0265012447):0.0000029179,Arctia-plantaginis-emb|CAB3231151.1|:0.0375794556):0.1477258825):0.0823471630):0.0450661185):0.4676635027):0.1481125649,((Iphiclides-podalirius-emb|CAH2076751.1|:0.0000024264,Iphiclides-podalirius-emb|CAH2076753.1|:0.0000029433):0.1849543430,((Brenthis-ino-emb|CAH0714536.1|:0.0000010023,Brenthis-ino-emb|CAH0714537.1|:0.0000010023):0.1862213708,(Dendrolimus-kikuchii-gb|KAJ0175711.1|:0.1556601213,(((Spodoptera-frugiperda-gb|KAF9810122.1|:0.0139007876,Spodoptera-littoralis-emb|CAB3516635.1|:0.0148254991):0.0787803702,Helicoverpa-armigera-gb|PZC83667.1|:0.0524868291):0.0803527385,Arctia-plantaginis-emb|CAB3223254.1|:0.1855658464):0.0505313789):0.0841741010):0.0701602303):0.7648902456):0.1542008038,(((Iphiclides-podalirius-emb|CAH2066545.1|:0.0048285339,(Iphiclides-podalirius-emb|CAH2066543.1|:0.0000010023,Iphiclides-podalirius-emb|CAH2066541.1|:0.0000010023):0.0000020744):0.2314868031,(Brenthis-ino-emb|CAH0726631.1|:0.3467263358,(((Helicoverpa-armigera-gb|PZC78839.1|:0.0977033659,((Spodoptera-littoralis-emb|CAB3515167.1|:0.0136328940,Spodoptera-frugiperda-gb|KAF9812091.1|:0.0319893801):0.0033229057,Spodoptera-exigua-emb|CAH0700698.1|:0.0451304270):0.0988000573):0.0723872030,(Arctia-plantaginis-emb|CAB3231154.1|:0.0070511636,Arctia-plantaginis-emb|CAB3249883.1|:0.0000025568):0.1479955297):0.0691868602,Dendrolimus-kikuchii-gb|KAJ0181766.1|:0.2287144865):0.0996238734):0.1710367197):0.8221298069,((Brenthis-ino-emb|CAH0726632.1|:0.0000023572,Brenthis-ino-emb|CAH0726633.1|:0.0025484131):0.3863089199,(((Helicoverpa-armigera-gb|PZC78838.1|:0.1510405402,((Spodoptera-littoralis-emb|CAB3515166.1|:0.0377763646,Spodoptera-exigua-emb|CAH0700697.1|:0.0316684011):0.0690022405,Spodoptera-frugiperda-gb|KAF9812089.1|:0.0231298673):0.1433645453):0.1874460964,(Arctia-plantaginis-emb|CAB3249884.1|:0.0038885617,Arctia-plantaginis-emb|CAB3231153.1|:0.0082320295):0.4197664459):0.1408216828,Dendrolimus-kikuchii-gb|KAJ0181767.1|:0.3756364966):0.1293344842):0.7128072642):0.8777025304):0.1875144022,((((((((Apolygus-lucorum-gb|KAF6211782.1|:0.4616736744,((Apolygus-lucorum-gb|KAF6205445.1|:0.0709790141,Apolygus-lucorum-gb|KAF6214425.1|:0.1597349228):0.3344140881,Apolygus-lucorum-gb|KAF6203717.1|:0.6039923778):0.4544697529):0.1759078578,Apolygus-lucorum-gb|KAF6201166.1|:0.5746099507):0.2240297655,Apolygus-lucorum-gb|KAF6215759.1|:1.2100886741):0.4273176569,(((Apolygus-lucorum-gb|KAF6206475.1|:0.0330274073,Apolygus-lucorum-gb|KAF6205159.1|:0.0277822027):0.5864108690,Apolygus-lucorum-gb|KAF6212551.1|:1.0925150228):0.3545882462,(Apolygus-lucorum-gb|KAF6211031.1|:1.2078446989,(Apolygus-lucorum-gb|KAF6200646.1|:0.8904072814,(Apolygus-lucorum-gb|KAF6216800.1|:0.0000026347,Apolygus-lucorum-gb|KAF6213293.1|:0.0088923163):0.8630386854):0.5260895945):0.2156295364):0.0550181797):2.8127408907,(((((Nymphon-striatum-gb|KAG1667715.1|:0.0463466699,Nymphon-striatum-gb|KAG1648776.1|:0.2075601337):0.0590202686,Nymphon-striatum-gb|KAG1715537.1|:0.1394443281):0.1260657618,Nymphon-striatum-gb|KAG1651158.1|:0.2045615402):0.1972440843,Nymphon-striatum-gb|KAG1700563.1|:0.3138304318):0.2883666033,((Nymphon-striatum-gb|KAG1694744.1|:0.0000022185,Nymphon-striatum-gb|KAG1694745.1|:0.0000010023):0.0000024605,(Nymphon-striatum-gb|KAG1694747.1|:0.0000026221,Nymphon-striatum-gb|KAG1694746.1|:0.0000020785):0.0401575489):1.0476468611):2.8012818107):0.3092080932,((Apolygus-lucorum-gb|KAF6215665.1|:0.8484938955,Apolygus-lucorum-gb|KAF6204691.1|:0.9518386151):1.7602461599,(Nymphon-striatum-gb|KAG1651553.1|:2.6285035985,Penaeus-vannamei-gb|ROT78781.1|:2.9335312883):0.1177837474):0.3529803726):0.2454697278,((Apolygus-lucorum-gb|KAF6210436.1|:1.9547266312,Nymphon-striatum-gb|KAG1680539.1|:3.0447805882):0.7633128227,(((Nymphon-striatum-gb|KAG1651399.1|:0.0000010023,Nymphon-striatum-gb|KAG1651400.1|:0.0000010023):0.0000010023,Nymphon-striatum-gb|KAG1651401.1|:0.0000022363):1.9691052717,((((Idotea-baltica-gb|MCL4143441.1|:0.3101262009,Idotea-baltica-gb|MCL4149582.1|:0.2815789985):0.2962474307,((Idotea-baltica-gb|MCL4126714.1|:0.3094873842,(Idotea-baltica-gb|MCL4166991.1|:0.1539819725,Idotea-baltica-gb|MCL4170293.1|:0.3667007171):0.0609168047):0.0930634732,Idotea-baltica-gb|MCL4139599.1|:0.3079426367):0.3044582304):0.1886083281,(((Idotea-baltica-gb|MCL4155886.1|:0.2535228185,Idotea-baltica-gb|MCL4116323.1|:0.1327630443):0.5163272954,Idotea-baltica-gb|MCL4143305.1|:0.4971899505):0.1123547037,(Idotea-baltica-gb|MCL4111552.1|:0.2275315416,Idotea-baltica-gb|MCL4152715.1|:0.1336602747):0.6102773409):0.0803576476):0.0016015109,(((Idotea-baltica-gb|MCL4129395.1|:0.5525490165,Idotea-baltica-gb|MCL4133982.1|:0.7305370478):0.2058889402,Hyalomma-marginatum-emb|CAG7591281.1|:1.2301086961):0.1457035276,(((Idotea-baltica-gb|MCL4114534.1|:0.9990669545,Cyprideis-torosa-emb|CAD7237718.1|:0.6589979482):0.1278473594,(((Idotea-baltica-gb|MCL4130398.1|:0.4759004001,Idotea-baltica-gb|MCL4122843.1|:0.6875750359):0.2548740843,Idotea-baltica-gb|MCL4154112.1|:0.5774267144):0.2663754520,(Idotea-baltica-gb|MCL4166653.1|:0.6409521821,Idotea-baltica-gb|MCL4109674.1|:0.8611957010):1.4675407720):0.1477767442):0.1291870758,(Nymphon-striatum-gb|KAG1682759.1|:0.6318435567,Daphnia-sinensis-gb|KAI9549733.1|:0.8512006587):0.1041342449):0.2294832665):0.1079750410):2.2331900345):0.3393255660):0.2171145927):0.1289742784,Spodoptera-frugiperda-gb|KAF9812090.1|:2.7059681966):0.0392710393):0.2201228278,((((Polypedilum-vanderplanki-gb|KAG5673013.1|:0.0098914563,Polypedilum-vanderplanki-gb|KAG5673012.1|:0.0000021131):0.4858727465,(Lucilia-cuprina-gb|KAI8130912.1|:0.2335927266,Ceratitis-capitata-emb|CAD6994394.1|:0.2494324582):0.2817158668):1.0865160999,(Megalurothrips-usitatus-gb|KAJ1530721.1|:1.1925158826,Megalurothrips-usitatus-gb|KAJ1530995.1|:1.5769540176):0.1229723061):0.1044525787,((((Periplaneta-americana-gb|KAJ4439351.1|:0.5878379372,Periplaneta-americana-gb|KAJ4436258.1|:0.4873885065):0.1357411893,Periplaneta-americana-gb|KAJ4436260.1|:0.5600305958):0.0861137061,Periplaneta-americana-gb|KAJ4436265.1|:0.4042238145):0.1600094772,Periplaneta-americana-gb|KAJ4429153.1|:1.0548224781):0.1500352388):0.0841773352):0.1503156276,((((((Tigriopus-californicus-gb|TRY75264.1|:0.8285569077,(Hyalella-azteca-KAA0203922.1:0.0964268816,((Hyalella-azteca-KAA0201437.1:0.0140063446,Hyalella-azteca-KAA0184655.1:0.1687767401):0.0358881110,Hyalella-azteca-KAA0184656.1:0.1519498645):0.2432490427):0.3913781194):0.0647798268,Penaeus-vannamei-gb|ROT78782.1|:0.7300904526):0.0827948591,((Amphibalanus-amphitrite-gb|KAF0289584.1|:0.0000025855,Amphibalanus-amphitrite-gb|KAF0289585.1|:0.0767727841):0.6355621877,Penaeus-vannamei-gb|ROT75079.1|:0.5516994710):0.1119859717):0.1211157168,((((Nymphon-striatum-gb|KAG1694103.1|:0.0002000448,(Nymphon-striatum-gb|KAG1694102.1|:0.0004089592,Nymphon-striatum-gb|KAG1663791.1|:0.0179866808):0.0186562029):0.0028695119,(Nymphon-striatum-gb|KAG1694104.1|:0.0000010023,Nymphon-striatum-gb|KAG1694105.1|:0.0000010023):0.0000021629):0.0000022960,(Nymphon-striatum-gb|KAG1663789.1|:0.0068954885,(Nymphon-striatum-gb|KAG1663788.1|:0.0000010023,Nymphon-striatum-gb|KAG1663790.1|:0.0000010023):0.0000021589):0.0159283956):0.0224576123,Nymphon-striatum-gb|KAG1663781.1|:0.0225314277):0.6985169173):0.1847589663,((((Blomia-tropicalis-KAI2808467.1:0.6446597452,Dermatophagoides-farinae-KAH7644190.1:0.7814503890):0.3054226222,Sarcoptes-scabiei-KAF7496482.1:0.8720794415):0.3621802226,(Halotydeus-destructor-KAI1299850.1:0.8280006755,Halotydeus-destructor-KAI1295545.1:0.8800998223):0.3820627671):0.1359485006,(Oedothorax-gibbosus-gb|KAG8183784.1|:1.0726541724,(((Oedothorax-gibbosus-gb|KAG8186332.1|:0.0033146815,Oedothorax-gibbosus-gb|KAG8172704.1|:0.0676375071):0.8542773426,Oedothorax-gibbosus-gb|KAG8186330.1|:0.9254909587):0.0972601044,Oedothorax-gibbosus-gb|KAG8183783.1|:0.6172464331):0.3909659230):0.1701329344):0.1241194862):0.0992239336,Lepeophtheirus-salmonis-emb|CAB4064343.1|:1.2416116339):0.1919456382):0.0872987600,(Cotesia-congregata-emb|CAG5097411.1|:0.6310886225,((Ampulex-compressa-gb|KAG7212671.1|:0.2534518274,Vespula-germanica-gb|KAF7414185.1|:0.4404840836):0.0697278450,(Ooceraea-biroi-gb|EZA53303.1|:0.1371614486,(Temnothorax-longispinosus-gb|TGZ32222.1|:0.0699265910,((Acromyrmex-insinuator-gb|KAG5306579.1|:0.0000010023,Acromyrmex-echinatior-gb|EGI60180.1|:0.0000010023):0.0382335505,(Acromyrmex-charruanus-gb|KAG5344392.1|:0.0022751056,Acromyrmex-heyeri-gb|KAG5319794.1|:0.0126810943):0.0277389084):0.1331670581):0.0574351068):0.1760817899):0.2708021616):1.4647820618):0.0554444092,((((Apolygus-lucorum-gb|KAF6215493.1|:0.4789791489,Nezara-viridula-emb|CAH1388393.1|:0.3402618975):0.2198404207,(Diaphorina-citri-gb|KAI5742064.1|:0.0000026242,Diaphorina-citri-gb|KAI5704627.1|:0.0094319950):0.7283953879):0.1199234624,((Diaphorina-citri-gb|KAI5736882.1|:0.0000020652,(Diaphorina-citri-gb|KAI5704272.1|:0.0000024213,Diaphorina-citri-gb|KAI5704273.1|:0.0471936544):0.0042936175):0.0051752974,Diaphorina-citri-gb|KAI5742408.1|:0.1674768681):0.6206330025):0.1791487526,((Apolygus-lucorum-gb|KAF6214444.1|:0.9392012347,((Apolygus-lucorum-gb|KAF6215170.1|:1.5791109619,Nezara-viridula-emb|CAH1388390.1|:1.7423146337):0.0579907485,Nezara-viridula-emb|CAH1388392.1|:1.5455189428):0.4246370011):0.1308089806,((Nezara-viridula-emb|CAH1388386.1|:0.0091379427,Nezara-viridula-emb|CAH1388387.1|:0.0176874260):0.2560066319,(Nezara-viridula-emb|CAH1388389.1|:0.0107224814,Nezara-viridula-emb|CAH1388388.1|:0.0310477609):0.3667476358):0.5636139528):0.2537588637):0.1879853085):0.1436280300,Megalurothrips-usitatus-gb|KAJ1530432.1|:0.9440701307):0.1844471364):0.1594333998,Ephemera-danica-gb|KAF4525946.1|:0.4677584691);
+
+TIME STAMP
+----------
+
+Date and time: Sat Apr 29 23:40:51 2023
+Total CPU time used: 10800.8 seconds (3h:0m:0s)
+Total wall-clock time used: 13347.1 seconds (3h:42m:27s)
+

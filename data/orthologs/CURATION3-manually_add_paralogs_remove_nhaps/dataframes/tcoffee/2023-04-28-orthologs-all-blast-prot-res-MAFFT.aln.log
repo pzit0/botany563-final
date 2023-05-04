@@ -1,0 +1,439 @@
+IQ-TREE multicore version 2.0.3 for Mac OS X 64-bit built Dec 19 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    IBIO-DRW7N0JQY0.lan (SSE4.2, 16 GB RAM)
+Command: iqtree -s 2023-04-28-orthologs-all-blast-prot-res-MAFFT.aln
+Seed:    271492 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Apr 29 15:44:51 2023
+Kernel:  SSE2 - 1 threads (12 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 12 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file 2023-04-28-orthologs-all-blast-prot-res-MAFFT.aln ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 197 sequences with 4662 columns, 3196 distinct patterns
+1523 parsimony-informative, 1197 singleton sites, 1942 constant sites
+                                           Gap/Ambiguity  Composition  p-value
+   1  Cloeon-dipterum-emb|CAB3359964.1|           90.48%    failed      0.00%
+   2  Cloeon-dipterum-emb|CAB3362979.1|           89.96%    failed      0.00%
+   3  Cloeon-dipterum-emb|CAB3360254.1|           87.26%    failed      0.18%
+   4  Cloeon-dipterum-emb|CAB3360255.1|           88.97%    failed      0.38%
+   5  Cloeon-dipterum-emb|CAB3360256.1|           88.35%    failed      1.49%
+   6  Cloeon-dipterum-emb|CAB3364807.1|           88.48%    failed      0.00%
+   7  Cloeon-dipterum-emb|CAB3364808.1|           90.07%    failed      0.00%
+   8  Cloeon-dipterum-emb|CAB3360257.1|           91.06%    failed      0.85%
+   9  Cloeon-dipterum-emb|CAB3360258.1|           90.43%    failed      2.33%
+  10  Tigriopus-californicus-gb|TRY75264.1|       88.10%    failed      0.00%
+  11  Cotesia-congregata-emb|CAG5095999.1|        86.74%    failed      0.70%
+  12  Cotesia-typhae-gb|KAG8042441.1|             90.93%    passed      6.55%
+  13  Cotesia-congregata-emb|CAG5097411.1|        88.65%    failed      0.01%
+  14  Iphiclides-podalirius-emb|CAH2066547.1|     82.75%    failed      0.02%
+  15  Iphiclides-podalirius-emb|CAH2066549.1|     84.86%    failed      0.65%
+  16  Iphiclides-podalirius-emb|CAH2066551.1|     86.49%    failed      0.63%
+  17  Iphiclides-podalirius-emb|CAH2076751.1|     89.00%    failed      0.00%
+  18  Iphiclides-podalirius-emb|CAH2076753.1|     88.82%    failed      0.00%
+  19  Iphiclides-podalirius-emb|CAH2066545.1|     86.77%    failed      0.40%
+  20  Iphiclides-podalirius-emb|CAH2066543.1|     76.86%    failed      0.00%
+  21  Iphiclides-podalirius-emb|CAH2066541.1|     77.63%    failed      0.00%
+  22  Ampulex-compressa-gb|KAG7201324.1|          86.70%    failed      0.02%
+  23  Ampulex-compressa-gb|KAG7212671.1|          87.82%    failed      0.01%
+  24  Brenthis-ino-emb|CAH0726637.1|              86.19%    failed      2.16%
+  25  Brenthis-ino-emb|CAH0714536.1|              88.70%    failed      0.00%
+  26  Brenthis-ino-emb|CAH0714537.1|              88.87%    failed      0.00%
+  27  Brenthis-ino-emb|CAH0726632.1|              88.93%    failed      0.56%
+  28  Brenthis-ino-emb|CAH0726633.1|              88.93%    failed      1.08%
+  29  Brenthis-ino-emb|CAH0726631.1|              88.70%    failed      0.04%
+  30  Blomia-tropicalis-KAI2808467.1              89.64%    failed      0.00%
+  31  Ooceraea-biroi-gb|EZA53303.1|               87.95%    failed      0.22%
+  32  Hyalella-azteca-KAA0203922.1                92.64%    failed      0.00%
+  33  Hyalella-azteca-KAA0201437.1                90.48%    failed      0.00%
+  34  Hyalella-azteca-KAA0184655.1                94.81%    failed      0.01%
+  35  Hyalella-azteca-KAA0184656.1                91.72%    passed     13.19%
+  36  Apolygus-lucorum-gb|KAF6215493.1|           83.72%    failed      0.00%
+  37  Apolygus-lucorum-gb|KAF6214444.1|           88.89%    failed      0.00%
+  38  Apolygus-lucorum-gb|KAF6215470.1|           85.46%    failed      2.10%
+  39  Apolygus-lucorum-gb|KAF6211782.1|           85.56%    failed      0.00%
+  40  Apolygus-lucorum-gb|KAF6215170.1|           88.91%    failed      0.06%
+  41  Apolygus-lucorum-gb|KAF6205445.1|           93.52%    failed      0.00%
+  42  Apolygus-lucorum-gb|KAF6203717.1|           90.80%    failed      0.02%
+  43  Apolygus-lucorum-gb|KAF6201166.1|           90.82%    failed      1.74%
+  44  Apolygus-lucorum-gb|KAF6214425.1|           96.14%    failed      0.03%
+  45  Apolygus-lucorum-gb|KAF6215665.1|           61.05%    failed      0.00%
+  46  Apolygus-lucorum-gb|KAF6206475.1|           96.50%    failed      1.66%
+  47  Apolygus-lucorum-gb|KAF6204691.1|           65.10%    failed      0.00%
+  48  Apolygus-lucorum-gb|KAF6205159.1|           93.09%    failed      0.00%
+  49  Apolygus-lucorum-gb|KAF6215759.1|           94.12%    passed     49.74%
+  50  Apolygus-lucorum-gb|KAF6211031.1|           82.86%    failed      0.00%
+  51  Apolygus-lucorum-gb|KAF6200646.1|           87.28%    failed      0.00%
+  52  Apolygus-lucorum-gb|KAF6216800.1|           93.05%    failed      3.08%
+  53  Apolygus-lucorum-gb|KAF6213293.1|           91.57%    failed      1.03%
+  54  Apolygus-lucorum-gb|KAF6197851.1|           91.31%    failed      0.01%
+  55  Apolygus-lucorum-gb|KAF6212551.1|           90.07%    failed      0.00%
+  56  Apolygus-lucorum-gb|KAF6210436.1|           93.84%    failed      0.01%
+  57  Polypedilum-vanderplanki-gb|KAG5673013.1|   88.76%    failed      0.00%
+  58  Polypedilum-vanderplanki-gb|KAG5673012.1|   88.89%    failed      0.00%
+  59  Polypedilum-vanderplanki-gb|KAG5676603.1|   85.31%    failed      1.84%
+  60  Polypedilum-vanderplanki-gb|KAG5676604.1|   85.29%    failed      1.92%
+  61  Lucilia-cuprina-gb|KAI8130912.1|            82.86%    failed      0.00%
+  62  Lucilia-cuprina-gb|KAI8116404.1|            89.10%    failed      0.01%
+  63  Nezara-viridula-emb|CAH1388393.1|           88.10%    failed      0.00%
+  64  Nezara-viridula-emb|CAH1388386.1|           89.40%    failed      0.00%
+  65  Nezara-viridula-emb|CAH1388389.1|           89.58%    failed      0.00%
+  66  Nezara-viridula-emb|CAH1388388.1|           89.17%    failed      0.01%
+  67  Nezara-viridula-emb|CAH1388387.1|           90.37%    failed      0.00%
+  68  Nezara-viridula-emb|CAH1388367.1|           87.04%    failed      0.00%
+  69  Nezara-viridula-emb|CAH1388392.1|           94.70%    passed      9.75%
+  70  Nezara-viridula-emb|CAH1388390.1|           93.89%    passed     45.09%
+  71  Ceratitis-capitata-emb|CAD6994394.1|        88.01%    failed      0.00%
+  72  Helicoverpa-armigera-gb|PZC78838.1|         89.25%    failed      0.26%
+  73  Helicoverpa-armigera-gb|PZC78839.1|         88.57%    failed      0.32%
+  74  Vespula-vulgaris-gb|KAF7383363.1|           85.99%    failed      0.71%
+  75  Vespula-pensylvanica-gb|KAF7401870.1|       92.21%    passed     10.03%
+  76  Vespula-pensylvanica-gb|KAF7401871.1|       92.54%    passed      8.63%
+  77  Vespula-germanica-gb|KAF7414185.1|          88.35%    failed      0.01%
+  78  Vespula-germanica-gb|KAF7384792.1|          97.85%    failed      2.41%
+  79  Temnothorax-longispinosus-gb|TGZ49087.1|    86.79%    failed      0.26%
+  80  Temnothorax-longispinosus-gb|TGZ32222.1|    89.00%    failed      1.81%
+  81  Dendrolimus-kikuchii-gb|KAJ0181768.1|       83.33%    failed      0.02%
+  82  Dendrolimus-kikuchii-gb|KAJ0175711.1|       88.50%    failed      0.42%
+  83  Dendrolimus-kikuchii-gb|KAJ0181766.1|       88.70%    failed      0.05%
+  84  Dendrolimus-kikuchii-gb|KAJ0181767.1|       89.23%    failed      2.64%
+  85  Lepeophtheirus-salmonis-emb|CAB4064343.1|   92.41%    failed      0.00%
+  86  Acromyrmex-insinuator-gb|KAG5311786.1|      86.79%    failed      0.06%
+  87  Acromyrmex-heyeri-gb|KAG5326993.1|          86.70%    failed      0.11%
+  88  Acromyrmex-insinuator-gb|KAG5306579.1|      88.70%    failed      0.00%
+  89  Acromyrmex-charruanus-gb|KAG5344392.1|      88.97%    failed      0.00%
+  90  Acromyrmex-heyeri-gb|KAG5319794.1|          88.82%    failed      0.04%
+  91  Acromyrmex-echinatior-gb|EGI60180.1|        89.25%    failed      0.08%
+  92  Spodoptera-littoralis-emb|CAB3515165.1|     82.69%    failed      0.00%
+  93  Spodoptera-exigua-emb|CAH0700695.1|         83.42%    failed      0.00%
+  94  Spodoptera-frugiperda-gb|KAF9810122.1|      88.65%    failed      0.08%
+  95  Spodoptera-littoralis-emb|CAB3516635.1|     88.20%    failed      0.17%
+  96  Spodoptera-littoralis-emb|CAB3515166.1|     89.32%    failed      0.56%
+  97  Spodoptera-littoralis-emb|CAB3515167.1|     88.65%    failed      0.70%
+  98  Spodoptera-exigua-emb|CAH0700697.1|         89.30%    failed      2.77%
+  99  Spodoptera-frugiperda-gb|KAF9812089.1|      89.12%    failed      4.64%
+ 100  Spodoptera-exigua-emb|CAH0700698.1|         88.63%    failed      0.44%
+ 101  Spodoptera-frugiperda-gb|KAF9812088.1|      97.73%    failed      0.09%
+ 102  Spodoptera-frugiperda-gb|KAF9812091.1|      88.89%    failed      1.52%
+ 103  Spodoptera-frugiperda-gb|KAF9812090.1|      97.13%    passed      8.79%
+ 104  Nymphon-striatum-gb|KAG1694103.1|           78.40%    failed      0.00%
+ 105  Nymphon-striatum-gb|KAG1694104.1|           78.61%    failed      0.00%
+ 106  Nymphon-striatum-gb|KAG1694105.1|           78.76%    failed      0.00%
+ 107  Nymphon-striatum-gb|KAG1694102.1|           78.38%    failed      0.00%
+ 108  Nymphon-striatum-gb|KAG1663789.1|           88.07%    failed      0.00%
+ 109  Nymphon-striatum-gb|KAG1663788.1|           87.26%    failed      0.00%
+ 110  Nymphon-striatum-gb|KAG1663790.1|           88.44%    failed      0.00%
+ 111  Nymphon-striatum-gb|KAG1663791.1|           88.05%    failed      0.00%
+ 112  Nymphon-striatum-gb|KAG1663781.1|           87.90%    failed      0.00%
+ 113  Nymphon-striatum-gb|KAG1667715.1|           90.35%    failed      0.00%
+ 114  Nymphon-striatum-gb|KAG1700563.1|           91.06%    failed      0.00%
+ 115  Nymphon-striatum-gb|KAG1651158.1|           90.78%    failed      0.12%
+ 116  Nymphon-striatum-gb|KAG1648776.1|           93.67%    failed      0.00%
+ 117  Nymphon-striatum-gb|KAG1694744.1|           90.20%    failed      0.01%
+ 118  Nymphon-striatum-gb|KAG1694747.1|           90.11%    failed      0.01%
+ 119  Nymphon-striatum-gb|KAG1694745.1|           90.37%    failed      0.00%
+ 120  Nymphon-striatum-gb|KAG1694746.1|           90.28%    failed      0.00%
+ 121  Nymphon-striatum-gb|KAG1715537.1|           94.32%    failed      0.07%
+ 122  Nymphon-striatum-gb|KAG1682880.1|           90.93%    failed      0.00%
+ 123  Nymphon-striatum-gb|KAG1680539.1|           85.16%    failed      0.02%
+ 124  Nymphon-striatum-gb|KAG1651553.1|           65.38%    failed      0.00%
+ 125  Nymphon-striatum-gb|KAG1715459.1|           91.59%    failed      0.00%
+ 126  Nymphon-striatum-gb|KAG1651399.1|           76.00%    failed      0.00%
+ 127  Nymphon-striatum-gb|KAG1651400.1|           76.98%    failed      0.00%
+ 128  Nymphon-striatum-gb|KAG1651401.1|           77.18%    failed      0.00%
+ 129  Halotydeus-destructor-KAI1299850.1          93.97%    failed      0.00%
+ 130  Halotydeus-destructor-KAI1295545.1          90.35%    failed      0.00%
+ 131  Idotea-baltica-gb|MCL4143441.1|             91.59%    failed      0.00%
+ 132  Idotea-baltica-gb|MCL4155886.1|             92.00%    failed      0.00%
+ 133  Idotea-baltica-gb|MCL4143305.1|             89.02%    failed      0.00%
+ 134  Idotea-baltica-gb|MCL4116323.1|             92.39%    failed      0.00%
+ 135  Idotea-baltica-gb|MCL4126714.1|             91.89%    failed      0.00%
+ 136  Idotea-baltica-gb|MCL4139599.1|             92.00%    failed      0.00%
+ 137  Idotea-baltica-gb|MCL4129395.1|             91.72%    failed      0.00%
+ 138  Idotea-baltica-gb|MCL4166991.1|             92.28%    failed      0.00%
+ 139  Idotea-baltica-gb|MCL4111552.1|             91.18%    failed      0.00%
+ 140  Idotea-baltica-gb|MCL4133982.1|             91.44%    failed      0.00%
+ 141  Hyalomma-marginatum-emb|CAG7591281.1|       91.63%    failed      0.00%
+ 142  Idotea-baltica-gb|MCL4114534.1|             90.88%    failed      0.00%
+ 143  Nymphon-striatum-gb|KAG1682759.1|           72.39%    failed      0.00%
+ 144  Idotea-baltica-gb|MCL4130398.1|             91.66%    failed      0.00%
+ 145  Idotea-baltica-gb|MCL4122843.1|             91.06%    failed      0.00%
+ 146  Idotea-baltica-gb|MCL4149582.1|             94.98%    failed      0.08%
+ 147  Idotea-baltica-gb|MCL4152715.1|             93.74%    failed      0.00%
+ 148  Daphnia-sinensis-gb|KAI9549733.1|           92.66%    failed      0.00%
+ 149  Cyprideis-torosa-emb|CAD7237718.1|          92.49%    failed      0.00%
+ 150  Idotea-baltica-gb|MCL4170293.1|             95.30%    failed      0.01%
+ 151  Idotea-baltica-gb|MCL4154112.1|             95.88%    failed      0.01%
+ 152  Idotea-baltica-gb|MCL4166653.1|             92.66%    failed      0.00%
+ 153  Idotea-baltica-gb|MCL4109674.1|             91.23%    failed      0.00%
+ 154  Ephemera-danica-gb|KAF4525946.1|            89.34%    failed      0.00%
+ 155  Ephemera-danica-gb|KAF4525624.1|            86.25%    failed      0.00%
+ 156  Ephemera-danica-gb|KAF4529021.1|            90.97%    failed      0.00%
+ 157  Arctia-plantaginis-emb|CAB3231150.1|        83.48%    failed      0.03%
+ 158  Arctia-plantaginis-emb|CAB3231151.1|        86.34%    failed      1.24%
+ 159  Arctia-plantaginis-emb|CAB3223254.1|        88.59%    failed      0.19%
+ 160  Arctia-plantaginis-emb|CAB3249885.1|        96.27%    failed      0.00%
+ 161  Arctia-plantaginis-emb|CAB3231154.1|        88.65%    failed      0.10%
+ 162  Arctia-plantaginis-emb|CAB3249883.1|        88.65%    failed      0.08%
+ 163  Arctia-plantaginis-emb|CAB3249884.1|        88.74%    passed     12.67%
+ 164  Arctia-plantaginis-emb|CAB3231153.1|        88.74%    passed      9.32%
+ 165  Periplaneta-americana-gb|KAJ4436481.1|      86.38%    failed      0.02%
+ 166  Periplaneta-americana-gb|KAJ4439351.1|      88.61%    failed      0.00%
+ 167  Periplaneta-americana-gb|KAJ4436265.1|      90.60%    failed      0.00%
+ 168  Periplaneta-americana-gb|KAJ4436258.1|      86.29%    failed      0.00%
+ 169  Periplaneta-americana-gb|KAJ4436260.1|      92.36%    failed      0.00%
+ 170  Periplaneta-americana-gb|KAJ4429153.1|      92.94%    passed     36.97%
+ 171  Diaphorina-citri-gb|KAI5736882.1|           88.16%    failed      0.00%
+ 172  Diaphorina-citri-gb|KAI5704272.1|           88.16%    failed      0.00%
+ 173  Diaphorina-citri-gb|KAI5704273.1|           88.87%    failed      0.00%
+ 174  Diaphorina-citri-gb|KAI5742064.1|           88.65%    failed      0.00%
+ 175  Diaphorina-citri-gb|KAI5704627.1|           88.85%    failed      0.00%
+ 176  Diaphorina-citri-gb|KAI5704902.1|           84.88%    failed      0.11%
+ 177  Diaphorina-citri-gb|KAI5742900.1|           84.86%    failed      0.18%
+ 178  Diaphorina-citri-gb|KAI5737038.1|           85.03%    failed      0.10%
+ 179  Diaphorina-citri-gb|KAI5742408.1|           98.13%    failed      0.00%
+ 180  Oedothorax-gibbosus-gb|KAG8183784.1|        88.05%    failed      0.13%
+ 181  Oedothorax-gibbosus-gb|KAG8186332.1|        88.80%    failed      0.00%
+ 182  Oedothorax-gibbosus-gb|KAG8183783.1|        89.21%    failed      0.00%
+ 183  Oedothorax-gibbosus-gb|KAG8186330.1|        88.76%    failed      0.04%
+ 184  Oedothorax-gibbosus-gb|KAG8172704.1|        96.01%    failed      0.71%
+ 185  Dermatophagoides-farinae-KAH7644190.1       89.85%    failed      0.00%
+ 186  Sarcoptes-scabiei-KAF7496482.1              89.49%    failed      0.00%
+ 187  Amphibalanus-amphitrite-gb|KAF0289584.1|    87.56%    failed      0.00%
+ 188  Amphibalanus-amphitrite-gb|KAF0289585.1|    96.16%    failed      0.00%
+ 189  Eciton-burchellii-gb|KAH0956584.1|          86.70%    failed      0.19%
+ 190  Penaeus-vannamei-gb|ROT75079.1|             89.55%    failed      0.00%
+ 191  Penaeus-vannamei-gb|ROT78782.1|             93.48%    failed      0.01%
+ 192  Penaeus-vannamei-gb|ROT78781.1|             92.86%    failed      0.00%
+ 193  Megalurothrips-usitatus-gb|KAJ1530432.1|    88.37%    failed      0.00%
+ 194  Megalurothrips-usitatus-gb|KAJ1530721.1|    87.13%    failed      0.00%
+ 195  Megalurothrips-usitatus-gb|KAJ1530995.1|    84.60%    failed      0.00%
+ 196  Helicoverpa-armigera-gb|PZC78836.1|         83.50%    failed      0.00%
+ 197  Helicoverpa-armigera-gb|PZC83667.1|         90.33%    failed      0.00%
+WARNING: 197 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                       88.61%  186 sequences failed composition chi2 test (p-value<5%; df=19)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.159 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -131188.854
+2. Current log-likelihood: -131185.058
+3. Current log-likelihood: -131183.122
+4. Current log-likelihood: -131181.883
+Optimal log-likelihood: -131181.038
+Proportion of invariable sites: 0.014
+Gamma shape alpha: 1.954
+Parameters optimization took 4 rounds (16.155 sec)
+Time for fast ML tree search: 72.082 seconds
+
+NOTE: ModelFinder requires 978 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 4662) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            133475.440   391 267732.881   267804.671   270253.736
+  2  LG+I          133443.297   392 267670.594   267742.768   270197.896
+  3  LG+G4         131181.928   392 263147.857   263220.031   265675.159
+  4  LG+I+G4       131179.313   393 263144.626   263217.185   265678.375
+  5  LG+R2         131620.157   393 264026.314   264098.873   266560.063
+  6  LG+R3         131242.589   395 263275.178   263348.511   265821.822
+  7  LG+R4         131144.692   397 263083.383   263157.495   265642.922
+  8  LG+R5         131092.765   399 262983.530   263058.425   265555.963
+  9  LG+R6         131085.730   401 262973.460   263049.141   265558.787
+ 21  LG+F+R5       131439.418   418 263714.836   263797.392   266409.766
+ 22  LG+F+R6       131430.220   420 263700.439   263783.825   266408.263
+ 34  WAG+R5        131582.938   399 263963.875   264038.770   266536.308
+ 35  WAG+R6        131574.742   401 263951.484   264027.166   266536.811
+ 47  WAG+F+R5      131600.887   418 264037.775   264120.331   266732.704
+ 48  WAG+F+R6      131594.924   420 264029.848   264113.234   266737.672
+ 60  JTT+R5        131999.878   399 264797.756   264872.650   267370.189
+ 61  JTT+R6        131984.863   401 264771.727   264847.409   267357.054
+ 73  JTT+F+R5      132106.317   418 265048.634   265131.190   267743.564
+ 74  JTT+F+R6      132097.966   420 265035.931   265119.317   267743.755
+ 86  JTTDCMut+R5   132016.265   399 264830.529   264905.424   267402.962
+ 87  JTTDCMut+R6   132002.868   401 264807.736   264883.418   267393.063
+ 99  JTTDCMut+F+R5 132098.539   418 265033.078   265115.634   267728.007
+100  JTTDCMut+F+R6 132091.269   420 265022.538   265105.924   267730.362
+112  DCMut+R5      133144.021   399 267086.042   267160.937   269658.475
+113  DCMut+R6      133124.055   401 267050.110   267125.791   269635.437
+125  DCMut+F+R5    132425.243   418 265686.487   265769.042   268381.416
+126  DCMut+F+R6    132416.283   420 265672.566   265755.952   268380.390
+138  VT+R5         131457.653   399 263713.305   263788.200   266285.738
+139  VT+R6         131451.175   401 263704.349   263780.031   266289.677
+151  VT+F+R5       131688.042   418 264212.084   264294.640   266907.014
+152  VT+F+R6       131682.780   420 264205.560   264288.946   266913.384
+164  PMB+R5        131827.513   399 264453.026   264527.921   267025.459
+165  PMB+R6        131821.781   401 264445.561   264521.243   267030.889
+177  PMB+F+R5      132149.921   418 265135.842   265218.398   267830.772
+178  PMB+F+R6      132144.237   420 265128.474   265211.860   267836.298
+190  Blosum62+R5   131762.520   399 264323.039   264397.934   266895.472
+191  Blosum62+R6   131757.739   401 264317.477   264393.159   266902.805
+203  Blosum62+F+R5 132005.072   418 264846.144   264928.700   267541.074
+204  Blosum62+F+R6 132002.305   420 264844.609   264927.995   267552.433
+216  Dayhoff+R5    133141.994   399 267081.987   267156.882   269654.420
+217  Dayhoff+R6    133121.804   401 267045.607   267121.289   269630.934
+229  Dayhoff+F+R5  132423.277   418 265682.553   265765.109   268377.483
+230  Dayhoff+F+R6  132414.092   420 265668.184   265751.570   268376.008
+242  mtREV+R5      137597.946   399 275993.892   276068.787   278566.325
+243  mtREV+R6      137575.057   401 275952.114   276027.795   278537.441
+255  mtREV+F+R5    133227.112   418 267290.224   267372.780   269985.154
+256  mtREV+F+R6    133221.107   420 267282.214   267365.600   269990.038
+268  mtART+R5      138230.732   399 277259.464   277334.358   279831.897
+269  mtART+R6      138159.772   401 277121.544   277197.225   279706.871
+281  mtART+F+R5    134162.107   418 269160.215   269242.771   271855.144
+282  mtART+F+R6    134094.502   420 269029.003   269112.389   271736.827
+294  mtZOA+R5      135615.252   399 272028.504   272103.398   274600.937
+295  mtZOA+R6      135565.954   401 271933.908   272009.590   274519.235
+307  mtZOA+F+R5    132790.859   418 266417.717   266500.273   269112.647
+308  mtZOA+F+R6    132768.147   420 266376.293   266459.679   269084.117
+320  mtMet+R5      137081.276   399 274960.552   275035.447   277532.985
+321  mtMet+R6      137057.495   401 274916.990   274992.672   277502.317
+333  mtMet+F+R5    132955.229   418 266746.458   266829.013   269441.387
+334  mtMet+F+R6    132945.475   420 266730.950   266814.336   269438.773
+346  mtVer+R5      138746.800   399 278291.600   278366.494   280864.033
+347  mtVer+R6      138715.158   401 278232.317   278307.998   280817.644
+359  mtVer+F+R5    134420.126   418 269676.252   269758.808   272371.182
+360  mtVer+F+R6    134411.097   420 269662.194   269745.580   272370.018
+372  mtInv+R5      137653.622   399 276105.243   276180.138   278677.676
+373  mtInv+R6      137634.920   401 276071.840   276147.522   278657.167
+385  mtInv+F+R5    132214.025   418 265264.051   265346.607   267958.980
+386  mtInv+F+R6    132208.379   420 265256.757   265340.143   267964.581
+398  mtMAM+R5      140276.312   399 281350.624   281425.519   283923.057
+399  mtMAM+R6      140213.717   401 281229.434   281305.115   283814.761
+411  mtMAM+F+R5    135596.303   418 272028.607   272111.162   274723.536
+412  mtMAM+F+R6    135564.550   420 271969.099   272052.485   274676.923
+424  HIVb+R5       134451.300   399 269700.600   269775.494   272273.033
+425  HIVb+R6       134441.340   401 269684.681   269760.362   272270.008
+437  HIVb+F+R5     134021.529   418 268879.057   268961.613   271573.987
+438  HIVb+F+R6     134014.020   420 268868.041   268951.427   271575.865
+450  HIVw+R5       139478.485   399 279754.970   279829.864   282327.403
+451  HIVw+R6       139444.555   401 279691.110   279766.792   282276.437
+463  HIVw+F+R5     136974.482   418 274784.964   274867.520   277479.894
+464  HIVw+F+R6     136959.586   420 274759.171   274842.557   277466.995
+476  FLU+R5        134128.224   399 269054.448   269129.342   271626.881
+477  FLU+R6        134117.287   401 269036.574   269112.256   271621.902
+489  FLU+F+R5      133489.444   418 267814.887   267897.443   270509.817
+490  FLU+F+R6      133483.146   420 267806.293   267889.679   270514.117
+502  rtREV+R5      132626.121   399 266050.242   266125.136   268622.674
+503  rtREV+R6      132616.479   401 266034.958   266110.640   268620.285
+515  rtREV+F+R5    132036.957   418 264909.914   264992.469   267604.843
+516  rtREV+F+R6    132029.043   420 264898.085   264981.471   267605.909
+528  cpREV+R5      131988.672   399 264775.344   264850.238   267347.776
+529  cpREV+R6      131983.219   401 264768.437   264844.119   267353.764
+541  cpREV+F+R5    131771.033   418 264378.066   264460.622   267072.995
+542  cpREV+F+R6    131766.496   420 264372.992   264456.378   267080.816
+Akaike Information Criterion:           LG+R6
+Corrected Akaike Information Criterion: LG+R6
+Bayesian Information Criterion:         LG+R5
+Best-fit model: LG+R5 chosen according to BIC
+
+All model information printed to 2023-04-28-orthologs-all-blast-prot-res-MAFFT.aln.model.gz
+CPU time for ModelFinder: 14956.341 seconds (4h:9m:16s)
+Wall-clock time for ModelFinder: 15212.566 seconds (4h:13m:32s)
+
+NOTE: 489 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -131092.765
+Optimal log-likelihood: -131092.720
+Site proportion and rates:  (0.100,0.192) (0.179,0.402) (0.281,0.721) (0.284,1.214) (0.157,2.312)
+Parameters optimization took 1 rounds (15.886 sec)
+Computing ML distances based on estimated model parameters... 4.487 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.014 seconds
+Log-likelihood of BIONJ tree: -132037.460
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 18.915 second
+Computing log-likelihood of 98 initial trees ... 161.524 seconds
+Current best score: -131092.720
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -131084.629
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -131077.803
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -131066.611
+Iteration 10 / LogL: -131079.233 / Time: 0h:13m:31s
+Iteration 20 / LogL: -131100.461 / Time: 0h:22m:37s
+Finish initializing candidate tree set (20)
+Current best tree score: -131066.611 / CPU time: 1317.118
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -131063.366
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -131059.765
+Iteration 30 / LogL: -131064.073 / Time: 0h:31m:19s (1h:40m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -131056.478
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -131047.750
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 38: -131042.667
+Iteration 40 / LogL: -131044.727 / Time: 0h:49m:30s (2h:4m:23s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 48: -131038.615
+Iteration 50 / LogL: -131045.102 / Time: 0h:57m:20s (1h:54m:41s left)
+Iteration 60 / LogL: -131047.517 / Time: 1h:37m:43s (2h:25m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 64: -131038.449
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 65: -131038.253
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 68: -131035.926
+Iteration 70 / LogL: -131038.285 / Time: 1h:46m:14s (2h:30m:53s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 79: -131033.962
+Iteration 80 / LogL: -131043.025 / Time: 1h:54m:6s (2h:23m:0s left)
+Iteration 90 / LogL: -131062.281 / Time: 2h:2m:12s (2h:2m:12s left)
+Iteration 100 / LogL: -131040.333 / Time: 2h:10m:31s (1h:44m:9s left)
+Iteration 110 / LogL: -131034.561 / Time: 2h:18m:29s (1h:27m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 114: -131033.812
+Iteration 120 / LogL: -131052.502 / Time: 2h:27m:4s (1h:56m:10s left)
+Iteration 130 / LogL: -131036.209 / Time: 2h:34m:39s (1h:40m:42s left)
+Iteration 140 / LogL: -131045.683 / Time: 2h:42m:55s (1h:26m:43s left)
+Iteration 150 / LogL: -131036.207 / Time: 2h:51m:2s (1h:13m:28s left)
+Iteration 160 / LogL: -131034.107 / Time: 2h:58m:45s (1h:0m:42s left)
+Iteration 170 / LogL: -131039.409 / Time: 3h:6m:55s (0h:48m:39s left)
+Iteration 180 / LogL: -131034.726 / Time: 3h:14m:56s (0h:37m:1s left)
+UPDATE BEST LOG-LIKELIHOOD: -131033.807
+Iteration 190 / LogL: -131046.048 / Time: 3h:22m:45s (0h:25m:44s left)
+Iteration 200 / LogL: -131049.387 / Time: 3h:30m:38s (0h:14m:49s left)
+Iteration 210 / LogL: -131037.287 / Time: 3h:38m:24s (0h:4m:10s left)
+TREE SEARCH COMPLETED AFTER 215 ITERATIONS / Time: 3h:42m:21s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -131033.807
+Optimal log-likelihood: -131033.802
+Site proportion and rates:  (0.096,0.190) (0.184,0.406) (0.284,0.729) (0.286,1.223) (0.150,2.330)
+Parameters optimization took 1 rounds (5.103 sec)
+BEST SCORE FOUND : -131033.802
+Total tree length: 128.811
+
+Total number of iterations: 215
+CPU time used for tree search: 10755.955 sec (2h:59m:15s)
+Wall-clock time used for tree search: 13301.751 sec (3h:41m:41s)
+Total CPU time used: 10800.790 sec (3h:0m:0s)
+Total wall-clock time used: 13347.139 sec (3h:42m:27s)
+
+Analysis results written to: 
+  IQ-TREE report:                2023-04-28-orthologs-all-blast-prot-res-MAFFT.aln.iqtree
+  Maximum-likelihood tree:       2023-04-28-orthologs-all-blast-prot-res-MAFFT.aln.treefile
+  Likelihood distances:          2023-04-28-orthologs-all-blast-prot-res-MAFFT.aln.mldist
+  Screen log file:               2023-04-28-orthologs-all-blast-prot-res-MAFFT.aln.log
+
+Date and Time: Sat Apr 29 23:40:51 2023

@@ -1,0 +1,14 @@
+Task\ label=nha-bayesian-also-failed-tasks-should...
+Task\ ID=2907181
+Tool=BEAST_TG
+created\ on=2023-05-01 13:29:59.0
+JobHandle=NGBW-JOB-BEAST_TG-694405D12C8847CEA9BA7F51EC058B26
+RunNumber=1
+resource=expanse
+User\ ID=159705
+User\ Name=pzito
+email=pzito@wisc.edu
+Output=(all_results,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=1
+JOBID=22048642

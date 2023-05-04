@@ -1,0 +1,174 @@
+---
+title: "draft"
+output: html_document
+date: "2023-04-18"
+---
+
+```{r}
+setwd("/Users/pzito/Desktop/botany563-final/data/orthologs/CURATION3-manually_add_paralogs_remove_nhaps/dataframes")
+data <- read.csv("orthologs-filtered-NHEless-manual_added.csv") # data before adding paralogs
+library(dplyr)
+library(stringr)
+as_tibble(data)
+```
+## Types// Information about the Dataset 
+```{r}
+nrow(data) # number of sequences 
+table(data$type) # number of types 
+length(unique(data$species)) # how many species 
+table(data$species) # how many paralogs per species
+
+# all crustacean species
+crustacean <- data%>%filter(type=="barnacle"|type=="copepod"|type=="shrimp")%>%select(species)
+crustacean
+nrow(unique(crustacean))
+
+# all chelicerate species 
+chelicerate <- data%>%filter(type=="spider")%>%select(species)
+chelicerate
+nrow(unique(chelicerate))
+
+# all hexapod species 
+hexapod <- data%>%filter(type=="cockroach"|type=="diptera"|type=="ephemera"|type=="hemiptera"|type=="hymenoptera"|type=="lepidoptera"|type=="thysanoptera")%>%select(species)
+hexapod 
+nrow(unique(hexapod))
+```
+
+## for checking each protein too 
+```{r}
+check <- function(species_name){
+  return(data %>% filter(species == species_name) %>% select(species, protein.accession))
+}
+all_species <- sort(unique(data$species))
+
+for(i in 1:length(all_species)){
+  print(check(all_species[i]))
+}
+```
+
+## after manually adding stuff
+```{r}
+data2 <- read.csv("orthologs-filtered-NHEless-manual_added1.csv") # data before adding paralogs
+as_tibble(data2)
+nrow(data2) # number of sequences 
+table(data2$type) # number of types 
+length(unique(data2$species)) # how many species 
+table(data2$species) # how many paralogs per species
+mean(table(data2$species))
+
+# all crustacean species
+crustacean2 <- data2%>%filter(type=="barnacle"|type=="copepod"|type=="shrimp")%>%select(species)
+crustacean2
+nrow(unique(crustacean2))
+
+# all chelicerate species 
+chelicerate2 <- data2%>%filter(type=="spider"|type=="tick")%>%select(species)
+chelicerate2
+nrow(unique(chelicerate2))
+
+# all hexapod species 
+hexapod2 <- data2%>%filter(type=="cockroach"|type=="diptera"|type=="ephemera"|type=="hemiptera"|type=="hymenoptera"|type=="lepidoptera"|type=="thysanoptera")%>%select(species)
+hexapod2 
+table(hexapod2)
+nrow(unique(hexapod2))
+table(data2%>%filter(type=="cockroach"|type=="diptera"|type=="ephemera"|type=="hemiptera"|type=="hymenoptera"|type=="lepidoptera"|type=="thysanoptera")%>%distinct(species, type)%>%select(type))
+```
+
+# write fasta file 
+```{r}
+# for protein sequences 
+sink("2023-04-26-orthologs.fasta")
+for(i in 1:nrow(data2)){
+  cat(data2$fasta.names[i])
+  cat("\n")
+  cat(data2$protein.sequence[i])
+  cat("\n")
+}
+sink()
+
+# for cds sequences 
+sink("2023-04-26-orthologs.fasta")
+for(i in 1:nrow(data2)){
+  cat(data2$fasta.names[i])
+  cat("\n")
+  cat(data2$cds.seq[i])
+  cat("\n")
+}
+```
+
+# non-conservative method 
+and by non-conservative I mean these assemblies have already been filtered by assembly information, but I'm not checking for the conserved domain. for now, I just want to get a fasta file to align and see what it looks like. 
+```{r}
+write_fasta <- function(out_name, df){
+  sink(out_name)
+  for (i in 1:nrow(df)){
+    cat(df$fasta.names[i])
+    cat("\n")
+    cat(df$protein.sequence[i])
+    cat("\n")
+  }
+  sink()
+}
+
+data3 <- read.csv("2023-04-28-orthologs-all-blast-prot-res.csv") # data containing all blast results for paralog search, this has already been filtered for assembly quality, but not for conserved domains
+as_tibble(data3)
+nrow(data3) # number of sequences 
+
+# need to write new fasta names 
+fasta.names <- c()
+for(i in 1:nrow(data3)){
+  species.name <- str_replace(data3[i, "species"], " ", "-")
+  partial.name <- paste(species.name, data3[i, "protein.accession"], sep = "-")
+  fasta.name <- paste(">", partial.name, sep = "")
+  fasta.names <- append(fasta.names, fasta.name)
+}
+data3 <- cbind(data3, fasta.names)
+nrow(data3)
+
+# remove duplicates 
+data3 <- data3[which(data3$protein.accession %in% unique(data3$protein.accession)),]
+nrow(data3)
+
+# export fasta file 
+write_fasta("2023-04-28-orthologs-all-blast-prot-res.fasta", data3)
+
+# remove NHEs again
+library(seqinr)
+library(Biostrings)
+gap_open <- -10
+gap_extent <- -1
+index_list <- c() # save indexes where NHE score is higher than NHA
+
+DmelNHE3 <- readAAStringSet(file = "DmelNHE3_prot.fasta") 
+DmelNHA2 <- readAAStringSet(file = "DmelNHA2_prot.fasta") 
+seqs3 <- readAAStringSet(file = "2023-04-28-orthologs-all-blast-prot-res.fasta") 
+seq_name = data3$fasta.names
+sequence = data3$protein.sequence
+
+for(i in 1:length(sequence)){
+  seq <- AAString(toupper(sequence[i]))
+  NHE_score <- pairwiseAlignment(DmelNHE3, seq, type = "global", substitutionMatrix = "BLOSUM50", gapOpening = gap_open, gapExtension = gap_extent, scoreOnly = TRUE)
+  NHA_score <- pairwiseAlignment(DmelNHA2, seq, type = "global", substitutionMatrix = "BLOSUM50", gapOpening = gap_open, gapExtension = gap_extent, scoreOnly = TRUE)
+  if(NHE_score >= NHA_score){
+    index_list <- append(index_list, i)
+  } else if (NHE_score <= NHA_score & NHA_score < 0){
+    paste(seq_name[i], "passed the test, but it still did not align well with NHA")
+  }
+}
+
+# these are the NHE sequences (maybe)
+seq_name[index_list]
+length(seq_name[index_list])
+
+# this the the cleaned dataframe 
+data3_cleaned <- data3[-which(data3$fasta.names %in% seq_name[index_list]),]
+nrow(data3_cleaned) # number of sequences 
+length(unique(data3$species)) # how many species 
+table(data3$species) # how many paralogs per species
+mean(table(data3$species)) # mean number of paralogs per species
+
+# export 
+write.csv(data3_cleaned, "2023-04-28-orthologs-all-blast-prot-res-noNHE.csv")
+write_fasta("2023-04-28-orthologs-all-blast-prot-res-noNHE.fasta", data3_cleaned)
+```
+
