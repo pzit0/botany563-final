@@ -4,14 +4,79 @@ This file contains the commands, and outputs of finalized data.
 Get URL for git commit: 
 echo "$(git config --get remote.origin.url | sed -e 's/\.git$//g')/commit/$(git rev-parse HEAD)"
 
+## Program Installation 
+### BLAST: 
+Conda install -c bioconda blast
+
+### MAFFT
+(base) pzito@IBIO-DRW7N0JQY0 ~ % conda install -c biocore mafft
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+  environment location: /Users/pzito/anaconda3
+
+  added / updated specs:
+    - mafft
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    mafft-7.245                |                0         2.3 MB  biocore
+    ------------------------------------------------------------
+                                           Total:         2.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  mafft              biocore/osx-64::mafft-7.245-0 
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+                                                                                                                           
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+### biopython
+conda install -c bioconda biopython
+pip3 install biopython
+
+### IQTree 
+conda install -c bioconda iqtree
+
+### R studio
+(Downloaded from website) 
+
+### VSCode 
+(Downloaded from website) 
+
+### MacVIM
+(Downloaded from website) 
+
+### UGENE 
+(Downloaded from website) 
+
+### BEAST 
+(Downloaded from website)
+
 ## Data: 8 paralogs in E. affinis + curated sequences from other species 
 	Currently creating a script to obtain and curate these sequences 
 	They will be both DNA (CDS) and protein sequences
+    most updated dataframe: /Users/pzito/Desktop/botany563-final/data/orthologs/CURATION4-add-outgroups/orthologs-filtered-CONSERVED+outgroups.csv
 
 ## Data Collection: 
 ### Obtining Paralogs in *E. affinis*: 
 BLAST+ partial CDS sequences on transcriptome database 
 alignment with genome data - confirmation 
+path for protein data: 
+/Users/pzito/Desktop/botany563-final/data/paralogs/final-cds-choices/NHA-fam-predicted-protein.fa
+
+path for CDS data: 
+/Users/pzito/Desktop/botany563-final/data/paralogs/final-cds-choices/NHA-fam-2023-CDS.fa
 
 ## Obtaining Orthologs:  
 I will be using BLASTP to find ortholog sequences in other arthropods. 
