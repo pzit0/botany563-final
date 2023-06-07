@@ -1,0 +1,74 @@
+(base) pzito@IBIO-DRW7N0JQY0 CURATION5-no-mito-no-chimeric-add-C.elegans % mafft orthologs_filtered_CONSERVED+outgroups-mito.fasta > orthologs_filtered_CONSERVED+outgroups-mito_MAFFT.fasta
+
+nseq =  86
+distance =  ktuples
+iterate =  0
+cycle =  2
+sparsepickup = 0
+nguidetree = 2
+nthread = 0
+sueff_global = 0.100000
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+tuplesize = 6, dorp = p
+
+
+Making a distance matrix ..
+
+There are 8 ambiguous characters.
+    1 / 86
+done.
+
+Constructing a UPGMA tree ... 
+   80 / 86
+done.
+
+Progressive alignment 1/2... 
+STEP    74 / 85 d
+Reallocating..done. *alloclen = 3556
+STEP    85 / 85 d
+done.
+
+Making a distance matrix from msa.. 
+   80 / 86
+done.
+
+Constructing a UPGMA tree ... 
+   80 / 86
+done.
+
+Progressive alignment 2/2... 
+STEP    73 / 85 d
+Reallocating..done. *alloclen = 3468
+STEP    85 / 85 d
+done.
+
+disttbfast (aa) Version 7.245 alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+
+## Trimming
+Used TrimAI 1.4.1 to trim baddly aligned regions on this web server: https://ngphylogeny.fr/tools/
+
+## IQTree 
+### rooted tree: iqtree -s orthologs-filtered-CONSERVED+outgroups-MAFFT-GBlock.fasta -m TEST -bb 5000 -o H.exemplaris-OQV21679.1 -pre orthologs-filtered-CONSERVED-MAFFT-GBlock-iqtree
+
+### unrooted tree: iqtree -s orthologs_filtered_CONSERVED+CelegansONLY-mito-MAFFT_TrimAI.fasta -m TEST -bb 5000 -pre orthologs_filtered_CONSERVED+CelegansONLY-mito-MAFFT_TrimAI-iqtree
+
+
+
+

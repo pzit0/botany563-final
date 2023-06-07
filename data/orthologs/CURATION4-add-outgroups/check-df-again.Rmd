@@ -74,7 +74,8 @@ ok I seem to not have gotten any NHEs? Weird, but ok. For now I'll just add thes
 
 ok I added back GAU88122.1 into the outgroup-filtered.csv. And I'll now write it as a fasta file. 
 
-```{r, eval = FALSE}
+```{r} 
+# handy dandy function
 write_fasta <- function(out_name, df){
   sink(out_name)
   for (i in 1:nrow(df)){
@@ -85,7 +86,10 @@ write_fasta <- function(out_name, df){
   }
   sink()
 }
+```
 
+
+```{r, eval = FALSE}
 fasta.names <- c()
 for(i in 1:nrow(outgroups)){
   species.name <- str_replace(outgroups[i, "species"], " ", "-")
@@ -179,11 +183,10 @@ ultra_conserved[grep("nha2", ultra_conserved$comments),]%>%select(fasta.names)
 
 
 # checking relaxed dataframe 
-
 ```{r}
 relaxed <- read.csv("orthologs-filtered-ALL+outgroups.csv")
 nrow(relaxed) # number of sequences 
-length(unique(relaxed)) # how many species 
+length(unique(relaxed$species)) # how many species 
 table(relaxed$species) # how many paralogs per species
 mean(table(relaxed$species)) # mean number of paralogs
 ```
@@ -201,5 +204,34 @@ relaxed <- cbind(relaxed, fasta.names)
 
 write_fasta("orthologs-filtered-ALL+outgroups.fasta", relaxed)
 write_fasta("orthologs-filtered-CONSERVED+outgroups.fasta", ultra_conserved)
+```
+
+# taking out mitochondrial + chimeric sequences 
+```{r}
+# find which rows are mitochondrial or chimeric 
+ultra_conserved[grep("mito", ultra_conserved$comments),] # 43, 53, 79
+ultra_conserved[grep("chimeric", ultra_conserved$comments),] #9, 10, 54
+mega_conserved <- ultra_conserved%>%
+  filter(!row_number() %in% c(43, 53, 79, 9, 10, 54))
+
+# check that it worked 
+dim(ultra_conserved)
+dim(mega_conserved)
+mega_conserved[grep("mito", mega_conserved$comments),] # ok looks good 
+mega_conserved[grep("chimeric", mega_conserved$comments),] # yep 
+
+# new information about this database: 
+length(unique(mega_conserved$species)) # how many species 
+table(mega_conserved$species) # how many paralogs per species
+mean(table(mega_conserved$species)) # mean number of paralogs
+```
+
+```{r, eval = FALSE}
+# write stuff out 
+# write new csv
+write.csv(mega_conserved, file = "orthologs_filtered_CONSERVED+outgroups-mito")
+
+# write new fasta 
+write_fasta("orthologs_filtered_CONSERVED+outgroups-mito.fasta", mega_conserved)
 ```
 

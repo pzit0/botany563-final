@@ -1,0 +1,7 @@
+#Batch CD-search tool	NIH/NLM/NCBI
+#cdsid	QM3-qcdsearch-12E25B2A6B84F894-3AEA07DD7C684E4
+#datatype	hitsFull Results(Superfamily only)
+#status	0
+#Start time	2023-05-16T18:23:20	Run time	0:00:00:42
+#status	success
+

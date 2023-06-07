@@ -532,7 +532,8 @@ really worth trying to do this on R). done.</p>
 defined outgroup</h1>
 <p>ok I added back GAU88122.1 into the outgroup-filtered.csv. And I’ll
 now write it as a fasta file.</p>
-<pre class="r"><code>write_fasta &lt;- function(out_name, df){
+<pre class="r"><code># handy dandy function
+write_fasta &lt;- function(out_name, df){
   sink(out_name)
   for (i in 1:nrow(df)){
     cat(df$fasta.names[i])
@@ -541,9 +542,8 @@ now write it as a fasta file.</p>
     cat(&quot;\n&quot;)
   }
   sink()
-}
-
-fasta.names &lt;- c()
+}</code></pre>
+<pre class="r"><code>fasta.names &lt;- c()
 for(i in 1:nrow(outgroups)){
   species.name &lt;- str_replace(outgroups[i, &quot;species&quot;], &quot; &quot;, &quot;-&quot;)
   partial.name &lt;- paste(species.name, outgroups[i, &quot;protein.accession&quot;], sep = &quot;-&quot;)
@@ -800,8 +800,8 @@ ultra_conserved[grep(&quot;nha2&quot;, ultra_conserved$comments),]%&gt;%select(f
 <pre class="r"><code>relaxed &lt;- read.csv(&quot;orthologs-filtered-ALL+outgroups.csv&quot;)
 nrow(relaxed) # number of sequences </code></pre>
 <pre><code>## [1] 296</code></pre>
-<pre class="r"><code>length(unique(relaxed)) # how many species </code></pre>
-<pre><code>## [1] 8</code></pre>
+<pre class="r"><code>length(unique(relaxed$species)) # how many species </code></pre>
+<pre><code>## [1] 48</code></pre>
 <pre class="r"><code>table(relaxed$species) # how many paralogs per species</code></pre>
 <pre><code>## 
 ##     Acromyrmex charruanus     Acromyrmex echinatior         Acromyrmex heyeri 
@@ -852,6 +852,127 @@ relaxed &lt;- cbind(relaxed, fasta.names)
 
 write_fasta(&quot;orthologs-filtered-ALL+outgroups.fasta&quot;, relaxed)
 write_fasta(&quot;orthologs-filtered-CONSERVED+outgroups.fasta&quot;, ultra_conserved)</code></pre>
+</div>
+<div id="taking-out-mitochondrial-chimeric-sequences" class="section level1">
+<h1>taking out mitochondrial + chimeric sequences</h1>
+<pre class="r"><code># find which rows are mitochondrial or chimeric 
+ultra_conserved[grep(&quot;mito&quot;, ultra_conserved$comments),] # 43, 53, 79</code></pre>
+<pre><code>##    assembly.name assembly.status coverage project.accession protein.accession
+## 43      tlon_1.0        Scaffold       85       PRJNA449506        TGZ49087.1
+## 53     Aech_3.10        Scaffold      108        PRJNA62733        EGI60180.1
+## 79       nHd_3.1        Scaffold      113       PRJNA360553        OQV21679.1
+##    protein.length
+## 43            617
+## 53            501
+## 79            661
+##                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         protein.sequence
+## 43                                             mdiemgssrtnkpseelakrrvsisdqvmgidnpafehnrrisassehnsdqgrrksilhhggsaenipqykfdlengringnrkksayslsssirdkieyseelerswlylfcarchgrddtpsweppgwrracpqpfcptyrkfarvlclfllglllwgvvysvigndaapggqlfglaalciaahfggwlislttlpaligmlitglilqnvglvkiegqytvvvsnlrkialviiltragldldptalkrlkvtvpklglipwvveatvvatltkylldlpwvwgfllgsviaavspavvvpclfrlrskgygvakgiptliiavagiddaasvavfgivksvmfshdalwyqilqgpiaiigglgfgimwgwlakyvpekgdpfmvplrvlmllgggllavfgseaielggagplavvaaafvscyfwqqegwdvddnpvatsfeifwmifepilfgvtgtqikinelegktvxlglgclvagivirigatvlvgigsklnlkekvfialswmakatvqaalgpvtldevdkndqqqveyaetvlmmcvlsvlltapagaiiislsgpklltkttapvtppeawktrrpsmrdisiinedpdleetanerkp
+## 53                                                                                                                                                   MQSIFEDEPIASTSADAQANDEQIRENSMQIAEELDENEEHDENTCCHRATFCIPMLREILVTDVIFTFF\nDLQLTWADLFWFATVSGMVLLTWAVLYFLLNDMVLPGGSIFGLFVIVIFSYALGWTLAYIPRLHFPPIFG\nMLLAGVIIRNTDIYNIYDVIGPSTISKIRIFCLTFIMVRAGLQLTTTALRAHPVFVMILSLVPCTVEMLA\nVTVLCKYLLEFPWNWALMTGTIVACMSPVITISCMLSLADQGYGEDKGLLSLLCTAASIDDIHIVALFSI\nWFPFVFSNDDGRTEWWSYIPGGIRDFLLGLIVGIILGFALVFFPHRNHTTPFQKAFYFLWHFVQPILGGV\nIGADIDFRNWPPSRFGLYLTCVLIGIFVRSSTAFLTTIRMPFTWKERLFIAIAWIPKGTLQAALAPLAFE\nQAIKEGDPMKIELALDVVRISVIAIIFLAPLGAIGMMSGGPYLLNKISIEEHRRERELSFVALRPRRRRK\nRKKPNDTITTL
+## 79 msrprlsqasstglpqwrqsrvgslsgtnhliptrfifekiesthsssssnnnnnnqhsdtggtgydvressesgshnnkpsstvvyrstfqifvsaddpdyaapegldgiavlgrrgiklnimgheddeggegessrsicarlqacldrskrsvlhkhntlpddptlpqriwylllcpphgpcavfltkiligllvwltllsllkedalpggnvfalviligaafvggflislirlppllgmlivgfmlrnvpginiagdidpkwssvlrnialtviliraglgldgpalkklsksvlllsflpclaeaasvglashfilgfpwlwafllgfvqgavspavlvpfmlnlqetrlgtkqgiptlliaasslddvlaisgfsvllsvifsqgaalwfnilqgplemlmgltygifigfifwylphrrhddlstlrflfllcgglvgvfgskalgfsgagalgaltaafvaghrwrapgwdhemvkaaqvfaylwtfcqpvlfgligaevvlanvhmetvglalavmfvtilvrmavtvlavsfagltlkerlfvaiawlpkatvqaalgslaldaareikaapdiillgekvvtiavllilitapvgavaiafsaprllqkddsdvsvkpdankiskderslemlernpktaetvkmidvad
+##    scaffold.N50 scaffold.count sequencing.technology                   species
+## 43       514432           3987        IlluminaHiSeq; Temnothorax longispinosus
+## 53      1110580           4339                 FALSE     Acromyrmex echinatior
+## 79       342180           1421 PacBio;IlluminaHiSeq;      Hypsibius exemplaris
+##                    fasta.names        type
+## 43 &gt;T.longispinosus-TGZ49087.1 hymenoptera
+## 53    &gt;A.echinatior-EGI60180.1 hymenoptera
+## 79    &gt;H.exemplaris-OQV21679.1  tardigrade
+##                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       cds.seq
+## 43                                                                                                                                         ATGGATATCGAGATGGGCAGCAGCAGAACGAATAAGCCCAGCGAGGAGTTGGCGAAGAGACGCGTGTCGA\nTCAGCGATCAGGTGATGGGAATCGATAATCCCGCCTTCGAGCATAACCGGCGCATCAGCGCGAGTTCGGA\nGCACAATTCTGATCAGGGCAGGCGGAAGTCGATCCTGCATCACGGCGGCAGCGCGGAGAACATTCCGCAG\nTACAAGTTCGATCTGGAGAACGGCAGGATCAACGGTAACAGAAAGAAATCGGCGTACAGCCTGTCCAGCT\nCGATCAGAGACAAAATCGAGTATTCCGAGGAGCTCGAGAGATCGTGGCTATATCTATTTTGCGCCCGATG\nTCATGGTCGCGACGACACACCGTCGTGGGAGCCGCCAGGATGGAGAAGAGCGTGTCCACAACCGTTCTGT\nCCAACGTACAGGAAATTCGCTCGGGTTCTGTGCCTCTTTCTTTTGGGTCTGCTGCTCTGGGGTGTCGTCT\nATTCGGTGATCGGCAATGACGCCGCCCCGGGTGGCCAGCTGTTTGGATTGGCCGCTCTGTGCATCGCCGC\nGCATTTCGGGGGTTGGCTGATCTCTTTGACCACTCTTCCGGCCTTGATTGGTATGCTGATCACCGGTCTA\nATATTGCAAAATGTCGGACTCGTCAAGATCGAAGGACAGTACACCGTGGTAGTCTCCAATCTACGAAAAA\nTCGCCTTGGTTATCATACTTACCAGAGCAGGTCTGGACCTCGATCCAACCGCTCTGAAAAGATTAAAAGT\nCACCGTACCGAAGCTGGGCTTGATACCGTGGGTGGTGGAAGCTACGGTGGTCGCTACGTTGACGAAATAC\nCTCTTGGATTTGCCCTGGGTGTGGGGTTTTCTCCTCGGAAGCGTCATAGCAGCTGTCTCGCCAGCCGTAG\nTGGTGCCCTGCCTGTTCAGGCTACGTAGCAAGGGCTACGGAGTCGCCAAGGGCATCCCGACGCTGATCAT\nCGCCGTAGCTGGAATCGACGATGCGGCGTCCGTGGCGGTTTTCGGTATCGTGAAGAGCGTCATGTTTTCT\nCACGACGCGTTGTGGTACCAGATTCTTCAGGGGCCTATCGCGATTATCGGCGGTCTGGGATTCGGCATCA\nTGTGGGGCTGGTTGGCCAAATACGTGCCGGAAAAGGGCGACCCCTTCATGGTGCCTCTAAGAGTGCTGAT\nGTTACTCGGGGGTGGCCTGCTGGCGGTTTTCGGCAGCGAGGCAATCGAGCTCGGCGGTGCCGGGCCGCTT\nGCGGTCGTGGCTGCAGCTTTCGTCAGCTGTTACTTTTGGCAGCAAGAAGGCTGGGACGTGGATGATAATC\nCAGTGGCCACATCTTTCGAGATCTTCTGGATGATATTTGAGCCGATCTTGTTCGGCGTTACCGGCACGCA\nGATCAAGATCAACGAGCTCGAAGGAAAAACCGTCTANCTCGGACTAGGCTGTTTGGTTGCCGGTATCGTC\nATCCGTATCGGAGCGACGGTACTGGTCGGGATTGGTTCCAAGCTCAATCTCAAGGAGAAGGTGTTCATCG\nCTCTATCCTGGATGGCTAAGGCGACTGTGCAGGCGGCCCTGGGGCCCGTCACCCTCGACGAGGTCGACAA\nGAACGATCAGCAGCAGGTCGAGTACGCCGAGACGGTGCTGATGATGTGCGTGCTCTCGGTACTTCTGACC\nGCGCCGGCGGGTGCCATCATCATCTCGCTCTCAGGACCGAAGCTGCTGACGAAGACCACCGCGCCGGTCA\nCCCCGCCGGAAGCTTGGAAGACGCGCAGACCGTCGATGCGCGACATCTCGATCATCAATGAGGACCCGGA\nCCTCGAGGAGACCGCGAACGAGAGGAAGCCCTGA
+## 53                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ATGCAATCTATTTTTGAAGATGAACCAATTGCATCCACTTCCGCAGATGCTCAAGCGAATGATGAACAGA\nTACGAGAGAATTCGATGCAGATAGCGGAGGAGCTAGATGAAAATGAAGAACATGATGAAAATACTTGCTG\nCCACCGCGCAACTTTCTGCATCCCGATGTTACGAGAGATTCTTGTGACCGATGTAATCTTCACGTTTTTC\nGATCTACAGCTAACGTGGGCAGATCTGTTCTGGTTCGCAACTGTGAGCGGCATGGTTCTCCTGACCTGGG\nCCGTTTTGTATTTCTTGCTGAATGACATGGTACTACCAGGTGGCAGTATATTTGGCCTTTTCGTCATCGT\nCATTTTTTCTTACGCGCTCGGTTGGACTCTTGCTTACATTCCTCGTCTGCACTTTCCGCCCATTTTTGGT\nATGCTTCTCGCTGGTGTAATAATACGTAATACCGATATCTACAATATATACGATGTGATCGGGCCGAGCA\nCGATCTCCAAGATCAGGATCTTCTGCTTGACCTTCATCATGGTACGTGCCGGCCTGCAGCTGACAACAAC\nCGCTCTAAGGGCGCATCCGGTATTTGTGATGATCCTATCGCTTGTCCCGTGCACTGTCGAGATGTTGGCT\nGTCACTGTCTTATGCAAATATCTTCTCGAATTCCCATGGAATTGGGCTCTCATGACGGGAACGATTGTGG\nCCTGCATGTCTCCTGTAATAACGATCAGCTGTATGCTCAGTTTAGCTGATCAGGGTTATGGAGAAGATAA\nAGGACTCCTCAGTTTGCTGTGTACTGCAGCATCCATTGACGATATCCACATTGTGGCTTTGTTTTCTATC\nTGGTTCCCTTTCGTTTTTAGCAACGATGATGGAAGAACAGAGTGGTGGTCCTATATCCCCGGCGGGATTC\nGAGATTTTCTTCTGGGACTTATAGTAGGAATTATCTTGGGCTTTGCCCTGGTCTTTTTCCCTCATCGCAA\nTCACACAACACCTTTTCAAAAAGCATTTTATTTTTTATGGCATTTCGTACAACCGATTTTAGGAGGTGTG\nATTGGTGCCGACATTGATTTTAGAAACTGGCCTCCATCCAGATTCGGACTTTATCTCACTTGTGTACTCA\nTAGGAATATTTGTGCGCAGTAGTACTGCCTTTTTAACAACGATTCGAATGCCTTTTACATGGAAAGAACG\nACTCTTCATCGCCATAGCTTGGATACCAAAAGGAACTTTGCAGGCAGCATTAGCGCCGTTGGCATTTGAA\nCAAGCTATAAAAGAAGGCGACCCCATGAAAATAGAATTAGCTCTCGACGTGGTGAGGATATCCGTAATTG\nCTATAATATTTCTAGCGCCACTCGGAGCAATCGGCATGATGTCTGGCGGTCCCTATCTCCTAAACAAGAT\nTAGTATTGAGGAACACCGAAGAGAGCGGGAATTGAGCTTTGTCGCTCTACGACCAAGAAGACGTAGAAAA\nAGAAAGAAACCTAATGATACTATTACGACTCTCTGA
+## 79 ATGTCTCGGCCTCGGCTATCACAGGCCTCCTCCACCGGGCTGCCTCAGTGGCGGCAGTCCCGCGTCGGCA\nGTCTCAGCGGGACGAACCACCTCATACCCACGCGTTTCATCTTCGAGAAGATCGAGTCGACGCACTCGTC\nGTCGTCGTCCAACAACAACAACAACAACCAACATTCTGACACTGGCGGCACCGGATATGACGTCAGAGAA\nTCTTCAGAGAGCGGAAGTCACAATAATAAACCGTCGAGTACGGTGGTGTATCGATCGACTTTCCAGATCT\nTCGTCAGCGCCGACGATCCGGACTATGCCGCTCCGGAAGGCCTCGACGGGATCGCAGTATTGGGACGACG\nTGGCATCAAACTCAATATTATGGGACACGAAGATGATGAGGGCGGTGAGGGAGAATCGTCACGGAGCATC\nTGCGCCCGATTACAGGCCTGTTTGGATAGATCCAAGCGGAGTGTGCTACATAAGCACAACACGCTGCCGG\nATGATCCGACCCTTCCTCAGCGGATATGGTACCTGCTGCTGTGCCCGCCGCACGGTCCGTGTGCCGTCTT\nCCTGACCAAAATCCTTATTGGACTGCTGGTGTGGCTCACCCTACTGTCGCTGCTCAAAGAAGACGCCCTG\nCCCGGAGGAAACGTCTTTGCGCTGGTCATACTCATCGGAGCGGCATTTGTTGGCGGGTTCCTAATCTCCC\nTGATTCGGCTGCCACCGCTCCTCGGGATGCTCATCGTCGGTTTTATGTTGCGAAATGTACCCGGGATCAA\nCATCGCCGGCGACATCGACCCCAAATGGTCCAGCGTTCTCCGCAATATTGCCTTGACAGTCATTCTAATT\nCGTGCCGGCTTGGGGTTAGACGGTCCGGCGCTCAAGAAGCTCTCTAAAAGCGTTCTGCTGCTCTCCTTCC\nTGCCGTGTTTGGCGGAAGCGGCCAGTGTCGGATTGGCCTCTCACTTCATCCTGGGATTTCCGTGGTTGTG\nGGCGTTTCTCCTCGGGTTCGTCCAGGGTGCGGTCAGTCCAGCGGTGTTGGTGCCGTTTATGTTAAACCTA\nCAGGAGACCCGGTTAGGAACGAAACAAGGTATTCCGACATTGTTGATTGCGGCGTCCAGTTTGGACGACG\nTTCTGGCTATTTCGGGGTTCAGCGTACTGCTCAGCGTAATCTTTTCTCAAGGTGCCGCTCTATGGTTCAA\nCATTCTGCAAGGACCACTGGAAATGCTTATGGGTTTAACCTACGGCATATTCATCGGATTCATCTTTTGG\nTATCTGCCACATCGCCGTCACGATGATCTGTCAACGTTACGTTTTTTGTTTTTGCTCTGCGGCGGATTGG\nTCGGTGTGTTTGGATCGAAAGCACTGGGCTTCTCGGGAGCCGGTGCGCTGGGTGCGCTGACCGCAGCCTT\nCGTGGCCGGTCACCGTTGGCGAGCCCCTGGATGGGACCACGAAATGGTGAAGGCTGCCCAAGTATTCGCG\nTATCTGTGGACATTTTGCCAGCCTGTATTATTCGGCCTGATCGGGGCGGAAGTCGTATTGGCCAATGTTC\nACATGGAGACAGTTGGATTGGCGTTAGCTGTCATGTTCGTGACGATACTGGTTCGAATGGCCGTTACTGT\nGTTGGCGGTCAGCTTTGCCGGTCTGACCCTCAAAGAACGGCTATTTGTTGCCATTGCTTGGCTTCCTAAG\nGCTACAGTCCAAGCTGCGTTAGGATCGCTGGCTTTGGATGCCGCCAGGGAAATCAAAGCAGCACCCGACA\nTCATACTGCTTGGCGAAAAGGTTGTTACAATCGCAGTTTTGTTGATCCTCATCACGGCTCCAGTCGGGGC\nAGTAGCCATCGCGTTCTCCGCCCCACGTCTACTACAAAAGGACGACTCTGATGTGTCTGTCAAGCCCGAT\nGCGAACAAAATCTCGAAAGATGAGAGGTCGTTGGAGATGCTGGAGCGCAATCCCAAGACTGCAGAGACGG\nTGAAGATGATCGATGTTGCCGATTGA
+##               comments
+## 43 NHA2, mitochondrial
+## 53 NHA2, mitochondrial
+## 79       mitochondrial</code></pre>
+<pre class="r"><code>ultra_conserved[grep(&quot;chimeric&quot;, ultra_conserved$comments),] #9, 10, 54</code></pre>
+<pre><code>##    assembly.name assembly.status coverage project.accession protein.accession
+## 9    CRF-UY_Dcit        Scaffold      100       PRJNA800468      KAI5704902.1
+## 10   CRF-CA_Dcit        Scaffold      119       PRJNA800468      KAI5742900.1
+## 54        Pv_5.2      Chromosome      375       PRJNA660907      KAG5676603.1
+##    protein.length
+## 9             705
+## 10            706
+## 54            685
+##                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          protein.sequence
+## 9   MASDVQRMAEICEKLSPKLSQKEPDILTNEPDHKKHPEHEHKKPSNELAEPKRKVSIASNAIQADIERNR\nKISAASLEAKRNMLMNGGEFNLSPPCNHHHHHNHYRASCDYGKSPLSVISNCDFNERRVSSISNDGIYNY\nENNQSQIERSWWFGLCIKCRQKEVGPGWEPQCWPKVCPHPFCPSYRHVARILALLIIGLLVWGVAYCIMG\nEDAAPGGQLFNIALLSICAHLGGWLFRMFTMPALVGMLLVGIVFENVGLISISKSYHEVESVLRKMALVV\nILTRAGLDLDPPALRRLWSTVLKLGLVPWAVEAISVVIATHYFLNLPWIWAFLTGSIFAAVSPAVVVPCL\nFKLRSKGYGVAKGIPTLVIAVSGMGDATSVAIFGIVHSFMFSEDSLLYNIVLGPSSLIIGLAFGIIWGSL\nAKVVPEKGDPFVVPLRIIMLLGGGLIVIFASEHLGLGGAGPLGVIASAFVSSYSWSKQGWNIEDNPVATA\nFEIFWMIFEPILFGLTGTQFKLSELDPQIVSIAAIIVIGGVVTRILITVLVAVGSSLNLKEKLFVAFSWM\nAKASVQAALGPVALDSTRNSPHEIDRYYAKIVLMICVLSVLLTAPTGAIIVTLGGSKLLNKGKSSIPQTG\nWRRSARPSIRDITIIDEEREDDPEASPEMSRSEGRDNRGVDVIDEEDGESEARSQYPPTPSPKKNSFTNN\nNNHTS
+## 10 MTSMTCVRMAEICEKLSPKLSQKEPDILTNEPDHKKHPEHEHKKPSNELAEPKRKVSIASNAIQADIERN\nRKISAASLEAKRNMLMNGGEFNLSPPCNHHHHHNHYRASCDYGKSPLSVISNCDFNERRVSSISNDGIYN\nYENNQSQIERSWWFGLCIKCRQKEVGPGWEPQCWPKVCPHPFCPSYRHVARILALLIIGLLVWGVAYCIM\nGEDAAPGGQLFNIALLSICAHLGGWLFRMFTMPALVGMLLVGIVFENVGLISISKSYHEVESVLRKMALV\nVILTRAGLDLDPPALRRLWSTVLKLGLVPWAVEAISVVIATHYFLNLPWIWAFLTGSIFAAVSPAVVVPC\nLFKLRSKGYGVAKGIPTLVIAVSGMGDATSVAIFGIVHSFMFSEDSLLYNIVLGPSSLIIGLAFGIIWGS\nLAKVVPEKGDPFVVPLRIIMLLGGGLIVIFASEHLGLGGAGPLGVIASAFVSSYSWSKQGWNIEDNPVAT\nAFEIFWMIFEPILFGLTGTQFKLSELDPQIVSIAAIIVIGGVVTRILITVLVAVGSSLNLKEKLFVAFSW\nMAKASVQAALGPVALDSTRNSPHEIDRYYAKIVLMICVLSVLLTAPTGAIIVTLGGSKLLNKGKSSIPQT\nGWRRSARPSIRDITIIDEEREDDPEASPEMSRSEGRDNRGVDVIDEEDGESEARSQYPPTPSPKKNSFTN\nNNNHTS
+## 54                        MSSPHNNTSGDVSDTTSPVLSPTTEPKRKVSILTDPPSHLAYDNPAFEGPRRKISQQSDQSDNGAVRKKS\nILHNPLTPEQQQHALQQAEPVIQHQPLPTNYEKQNGDHHHHHTRERKQRKHSTTESLYSRHSRSSKKPAA\nESQLEHSWIYALCMRCRVQYNTPSWQPKHWEKVCPYPLCPSYRQFARLVSIILIGVLIYATTYAIIGKAA\nAPGGQLFSLVTLTIAANFGGWLMGLTTLPRLIGMLLTGILMQNIGAVNIDGISHVTAHLRKFALVIILTR\nAGLEMDPEAFKKVWPTIIKLSIVPWTVEAATNATICHFLFDMPLMWCLLLGAIIAAVSPAVVVPCLFRLR\nTKGYGVAKGIPTLIVAVAGICDAISVALFGIISSLMFATGGLSFQISQAPVCIFGGLGFGVLWGCMARVI\nPEKGDAYVVPIRTIMLLCGGLVAVYGSELLHYEGAGPLGVVFAAFTSQYFWIKQGWTLEDSPVGTAFEIF\nWMLFEPILFGITGAAVKINELDPHIVTYGLISLICGAIVRIITTTLVSFGDRLNWKERFFVSMSWMAKAT\nVQAALGPIALKHLSADDPDIHYGEIVLMICILSIVVTAPTGAILISITGKKLLTKTKQTSMPEIPTWRRP\nSIRSIAIEEEEDSDDDERKDPETGHDKNTRQNTLTNSTHNNLHQPIPPFTNNTKM
+##    scaffold.N50 scaffold.count           sequencing.technology
+## 9      22577667            383 PacBioSequelII;IlluminaNovaSeq;
+## 10     22629945            346 PacBioSequelII;IlluminaNovaSeq;
+## 54     35209052            387         IlluminaHiSeq;PacBioRS;
+##                     species                  fasta.names      type
+## 9          Diaphorina citri        &gt;D.citri-KAI5704273.2 hemiptera
+## 10         Diaphorina citri        &gt;D.citri-KAI5742900.1 hemiptera
+## 54 Polypedilum vanderplanki &gt;P.vanderplanki-KAG5676603.1   diptera
+##                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  cds.seq
+## 9     ATGGCTTCAGACGTTCAGAGGATGGCCGAAATTTGCGAGAAGCTCAGCCCCAAGTTGAGTCAGAAGGAAC\nCTGACATACTTACCAATGAGCCGGATCACAAGAAACATCCAGAACACGAACACAAGAAACCATCCAATGA\nGCTCGCAGAACCCAAGAGGAAAGTGAGCATTGCCTCCAACGCCATCCAAGCAGATATCGAGAGGAATAGG\nAAGATCAGTGCAGCCTCTCTGGAAGCCAAGAGGAATATGCTGATGAATGGAGGAGAGTTCAATTTGAGCC\nCCCCGTGCAATCATCATCACCATCATAATCACTACAGAGCTTCTTGTGACTATGGAAAGTCGCCCCTATC\nAGTGATCAGCAATTGTGATTTCAACGAGAGGCGAGTCAGCTCGATTTCCAATGATGGAATCTACAACTAC\nGAGAACAATCAATCTCAAATCGAAAGGTCCTGGTGGTTTGGGCTGTGCATAAAATGTCGCCAGAAAGAGG\nTCGGCCCCGGGTGGGAGCCCCAGTGTTGGCCCAAAGTATGCCCGCACCCCTTCTGCCCATCGTACCGTCA\nCGTGGCCCGCATTTTGGCCCTCCTGATCATCGGCCTGCTGGTGTGGGGCGTGGCCTATTGTATCATGGGG\nGAGGATGCGGCCCCAGGGGGCCAGTTGTTCAATATTGCGCTGCTCAGTATTTGCGCTCACCTGGGTGGAT\nGGCTGTTTCGGATGTTTACGATGCCGGCGCTGGTGGGGATGCTACTGGTTGGGATTGTCTTTGAGAATGT\nTGGCCTCATCAGCATCAGCAAGAGCTACCATGAGGTGGAGTCGGTTCTGAGGAAAATGGCGCTGGTTGTG\nATTTTGACACGAGCGGGTCTCGATCTGGACCCTCCAGCTCTAAGGCGACTATGGAGCACCGTACTCAAGC\nTAGGCCTCGTGCCGTGGGCGGTAGAAGCGATCTCTGTCGTCATCGCTACGCACTATTTTCTCAATCTGCC\nTTGGATCTGGGCCTTCCTGACAGGCTCCATATTCGCGGCCGTGTCTCCCGCTGTGGTGGTTCCCTGTTTG\nTTCAAGCTACGCTCCAAGGGCTATGGGGTCGCCAAGGGGATCCCCACTCTGGTGATAGCCGTATCCGGAA\nTGGGAGACGCTACGTCGGTCGCCATATTCGGTATCGTCCACAGCTTTATGTTCTCCGAAGACTCACTACT\nGTACAACATCGTCCTAGGACCATCCTCTCTAATCATAGGCTTGGCGTTTGGGATCATTTGGGGATCCTTG\nGCCAAAGTTGTTCCCGAAAAAGGCGATCCGTTCGTGGTTCCCCTCCGTATAATCATGCTCCTGGGAGGGG\nGTCTCATTGTAATCTTTGCCAGTGAACATCTGGGTTTAGGAGGTGCTGGACCTCTAGGGGTGATAGCTTC\nCGCATTTGTATCTAGTTACTCCTGGTCCAAACAGGGATGGAATATTGAAGACAACCCCGTTGCGACGGCT\nTTCGAAATTTTCTGGATGATTTTCGAGCCCATCTTGTTTGGACTGACCGGGACTCAGTTCAAACTGAGCG\nAGCTGGATCCTCAAATTGTGTCCATCGCGGCCATCATCGTTATAGGAGGAGTAGTGACCAGGATTCTCAT\nCACAGTTTTGGTGGCTGTCGGATCCAGTCTGAATCTCAAGGAAAAACTGTTCGTCGCTTTCTCCTGGATG\nGCAAAAGCTTCAGTGCAAGCAGCGTTAGGACCCGTGGCTTTGGACTCGACCAGGAACAGTCCTCATGAAA\nTAGATCGGTACTATGCCAAGATTGTCCTGATGATTTGTGTCCTATCCGTCTTGCTGACTGCTCCTACAGG\nGGCCATCATCGTCACTCTGGGAGGGAGCAAGCTTCTGAACAAAGGCAAAAGCTCCATTCCGCAGACCGGA\nTGGCGCCGTTCTGCCCGCCCGTCGATCCGAGACATCACGATCATTGACGAAGAGAGGGAAGACGATCCCG\nAAGCCTCACCCGAGATGAGCCGAAGCGAGGGCCGGGACAATCGGGGCGTTGACGTCATAGACGAAGAAGA\nTGGCGAGAGTGAGGCCCGATCTCAGTACCCGCCGACACCTAGTCCGAAGAAGAACTCGTTCACCAATAAC\nAATAATCATACCAGTTGA
+## 10 ATGACTTCAATGACCTGCGTGAGGATGGCCGAAATTTGCGAGAAACTCAGTCCCAAGTTGAGTCAGAAGG\nAACCTGACATACTTACCAATGAGCCGGATCACAAGAAACATCCAGAACACGAACACAAGAAACCATCCAA\nTGAGCTCGCAGAACCCAAGAGGAAAGTGAGCATTGCCTCCAACGCCATCCAAGCAGATATCGAGAGGAAT\nAGGAAGATCAGTGCAGCCTCTCTGGAAGCCAAGAGGAATATGCTGATGAATGGAGGAGAGTTCAATTTGA\nGCCCCCCGTGCAATCATCACCACCATCATAATCACTACAGAGCTTCTTGTGACTATGGAAAGTCGCCCCT\nATCAGTGATCAGCAACTGTGATTTCAACGAGAGGCGAGTAAGCTCGATTTCCAATGATGGAATCTACAAC\nTACGAGAACAATCAATCTCAAATCGAAAGGTCCTGGTGGTTTGGGCTGTGCATAAAATGTCGCCAGAAAG\nAGGTCGGCCCCGGGTGGGAGCCCCAGTGTTGGCCCAAAGTATGCCCGCACCCCTTCTGCCCATCGTACCG\nTCACGTGGCCCGCATTTTGGCCCTCCTGATCATCGGCCTGCTGGTGTGGGGCGTGGCCTATTGTATCATG\nGGGGAGGATGCGGCCCCAGGAGGCCAGTTGTTCAATATTGCGCTGCTCAGTATTTGCGCTCACCTGGGCG\nGATGGCTGTTTCGGATGTTTACGATGCCGGCGCTGGTGGGGATGCTACTGGTTGGGATTGTCTTTGAGAA\nTGTTGGCCTCATCAGTATCAGCAAGAGCTACCATGAGGTCGAGTCGGTGCTGAGGAAAATGGCGCTGGTT\nGTGATTTTGACACGAGCGGGTCTCGATCTGGACCCTCCAGCTTTAAGGCGACTATGGAGCACCGTACTCA\nAGCTAGGCCTAGTGCCGTGGGCGGTAGAAGCGATCTCTGTCGTCATCGCTACTCACTATTTTCTCAATCT\nGCCTTGGATCTGGGCCTTCCTGACAGGCTCCATATTCGCGGCCGTGTCTCCGGCTGTGGTGGTTCCCTGT\nTTGTTCAAGCTACGCTCCAAGGGCTATGGGGTCGCCAAGGGGATCCCCACTCTGGTGATAGCCGTATCCG\nGAATGGGAGACGCTACGTCGGTCGCCATATTCGGTATCGTCCACAGCTTTATGTTCTCCGAAGACTCACT\nACTGTACAACATCGTCCTAGGACCATCCTCTCTAATCATAGGCTTGGCGTTTGGGATCATTTGGGGATCC\nTTGGCCAAAGTTGTTCCCGAAAAAGGCGATCCGTTCGTGGTTCCCCTCCGTATAATCATGCTCCTGGGAG\nGGGGTCTCATTGTAATCTTTGCCAGTGAACATCTGGGTTTAGGAGGTGCTGGACCTCTAGGGGTGATAGC\nTTCCGCATTTGTATCTAGTTACTCCTGGTCCAAACAGGGATGGAATATTGAAGACAACCCCGTTGCGACG\nGCTTTCGAAATTTTCTGGATGATTTTCGAGCCCATCTTGTTTGGACTGACCGGGACTCAGTTCAAACTGA\nGCGAGCTGGATCCTCAAATTGTGTCCATCGCGGCCATCATCGTTATAGGAGGAGTAGTGACCAGGATTCT\nCATCACAGTTTTGGTGGCTGTCGGATCCAGTCTGAATCTCAAGGAAAAACTGTTCGTCGCTTTCTCCTGG\nATGGCAAAAGCTTCAGTGCAAGCAGCGTTAGGACCCGTGGCTTTGGACTCGACCAGGAACAGTCCTCATG\nAAATAGATCGGTACTATGCCAAGATTGTCCTGATGATTTGTGTCCTATCCGTCTTGCTGACTGCTCCTAC\nAGGGGCCATCATCGTTACTCTGGGAGGGAGCAAGCTTCTGAACAAAGGCAAAAGCTCCATTCCGCAGACC\nGGATGGCGCCGTTCTGCCCGCCCGTCGATCCGAGACATCACGATCATTGACGAAGAGAGGGAAGACGATC\nCCGAAGCCTCACCCGAGATGAGCCGAAGCGAGGGCCGGGACAATCGGGGCGTTGACGTCATAGACGAAGA\nAGATGGCGAGAGTGAGGCTCGATCTCAGTACCCGCCGACACCTAGTCCGAAGAAGAACTCGTTCACGAAT\nAACAATAATCATACCAGTTGA
+## 54                                                                  ATGAGTTCGCCACATAATAATACATCAGGCGATGTTTCGGATACGACTTCTCCAGTATTAAGTCCAACAA\nCTGAACCAAAACGAAAAGTTTCTATACTCACAGATCCACCGTCACATTTAGCTTATGACAATCCTGCATT\nTGAAGGTCCTCGACGGAAAATTTCTCAGCAATCTGATCAATCAGATAATGGAGCGGTTAGAAAGAAAAGT\nATTTTACACAATCCACTGACACCCGAGCAACAACAGCATGCACTTCAACAAGCAGAACCAGTTATACAAC\nACCAACCCTTACCTACAAATTACGAGAAACAGAATGGTGATCATCACCACCATCATACTAGAGAAAGAAA\nGCAACGAAAGCATTCAACAACGGAATCATTGTATTCAAGACACTCTAGGTCATCAAAAAAGCCAGCAGCT\nGAAAGCCAGCTTGAGCATTCATGGATTTATGCATTGTGTATGCGCTGTCGTGTTCAATACAATACACCAT\nCATGGCAACCAAAACATTGGGAGAAAGTTTGTCCTTATCCATTATGCCCATCATATCGTCAATTTGCCAG\nACTTGTCTCAATTATTTTAATCGGAGTTCTTATTTATGCAACGACTTACGCCATCATTGGAAAAGCTGCA\nGCACCCGGTGGACAGCTTTTCTCATTGGTTACACTAACAATTGCAGCCAACTTTGGAGGTTGGTTAATGG\nGACTTACGACTCTTCCTCGACTTATTGGTATGCTTTTAACTGGTATTCTTATGCAAAATATTGGCGCTGT\nAAATATTGATGGAATTAGCCATGTCACAGCACATTTACGAAAATTCGCTCTCGTTATTATTTTAACACGT\nGCTGGTCTTGAAATGGATCCAGAAGCTTTTAAGAAAGTTTGGCCAACTATCATTAAATTAAGTATTGTTC\nCATGGACAGTTGAAGCTGCAACTAATGCAACGATTTGTCATTTTCTCTTCGATATGCCGTTGATGTGGTG\nTCTTCTTCTTGGCGCTATTATTGCTGCTGTCAGTCCAGCCGTCGTTGTACCATGTTTGTTTAGATTAAGA\nACAAAAGGCTATGGTGTTGCTAAAGGCATTCCTACACTGATTGTAGCTGTTGCTGGTATCTGTGATGCGA\nTTTCAGTAGCTTTATTCGGTATTATATCAAGTTTAATGTTCGCTACTGGTGGTCTTTCTTTCCAAATTTC\nACAAGCTCCCGTATGTATTTTTGGTGGTCTGGGTTTCGGTGTACTTTGGGGTTGCATGGCAAGAGTTATT\nCCGGAAAAAGGTGATGCTTACGTTGTACCGATTAGAACGATTATGCTGCTATGTGGTGGCTTAGTTGCTG\nTGTATGGAAGCGAGTTACTTCATTATGAGGGTGCTGGACCATTAGGTGTCGTTTTTGCTGCCTTCACAAG\nTCAGTACTTTTGGATCAAACAAGGTTGGACGCTTGAAGACAGTCCTGTTGGAACGGCTTTTGAAATTTTC\nTGGATGCTTTTCGAACCAATTCTTTTTGGCATTACTGGTGCTGCTGTTAAAATTAACGAGTTAGATCCAC\nATATTGTTACATATGGTTTAATTTCACTCATTTGTGGTGCTATTGTTCGTATTATTACAACTACTCTTGT\nCAGTTTTGGTGACAGATTAAACTGGAAAGAAAGATTCTTCGTTTCAATGTCATGGATGGCGAAGGCAACT\nGTTCAAGCTGCTTTAGGTCCAATCGCACTTAAACATTTAAGCGCTGATGATCCGGATATCCATTATGGTG\nAAATTGTTTTAATGATTTGCATTCTATCAATTGTTGTTACCGCGCCAACTGGAGCAATTTTAATTTCGAT\nTACTGGCAAGAAGCTGTTAACTAAAACAAAGCAAACATCCATGCCAGAAATACCAACATGGCGTCGACCA\nTCAATACGTTCAATTGCAATCGAAGAAGAAGAAGATTCGGATGATGATGAACGAAAGGATCCTGAAACAG\nGACATGATAAAAATACTCGACAAAATACATTGACAAATTCAACACATAACAACCTTCATCAACCAATTCC\nACCATTTACGAATAATACAAAGATGTAA
+##                               comments
+## 9  maybe chimeric gene, NHA + PHA03292
+## 10 maybe chimeric gene, NHA + PHA03292
+## 54  maybe chimeric, NHA + PVAND_006426</code></pre>
+<pre class="r"><code>mega_conserved &lt;- ultra_conserved%&gt;%
+  filter(!row_number() %in% c(43, 53, 79, 9, 10, 54))
+
+# check that it worked 
+dim(ultra_conserved)</code></pre>
+<pre><code>## [1] 83 15</code></pre>
+<pre class="r"><code>dim(mega_conserved)</code></pre>
+<pre><code>## [1] 77 15</code></pre>
+<pre class="r"><code>mega_conserved[grep(&quot;mito&quot;, mega_conserved$comments),] # ok looks good </code></pre>
+<pre><code>##  [1] assembly.name         assembly.status       coverage             
+##  [4] project.accession     protein.accession     protein.length       
+##  [7] protein.sequence      scaffold.N50          scaffold.count       
+## [10] sequencing.technology species               fasta.names          
+## [13] type                  cds.seq               comments             
+## &lt;0 rows&gt; (or 0-length row.names)</code></pre>
+<pre class="r"><code>mega_conserved[grep(&quot;chimeric&quot;, mega_conserved$comments),] # yep </code></pre>
+<pre><code>##  [1] assembly.name         assembly.status       coverage             
+##  [4] project.accession     protein.accession     protein.length       
+##  [7] protein.sequence      scaffold.N50          scaffold.count       
+## [10] sequencing.technology species               fasta.names          
+## [13] type                  cds.seq               comments             
+## &lt;0 rows&gt; (or 0-length row.names)</code></pre>
+<pre class="r"><code># new information about this database: 
+length(unique(mega_conserved$species)) # how many species </code></pre>
+<pre><code>## [1] 34</code></pre>
+<pre class="r"><code>table(mega_conserved$species) # how many paralogs per species</code></pre>
+<pre><code>## 
+##   Amphibalanus amphitrite         Ampulex compressa         Anopheles gambiae 
+##                         1                         2                         1 
+##          Apolygus lucorum        Arctia plantaginis              Brenthis ino 
+##                         2                         7                         5 
+##        Ceratitis capitata           Cloeon dipterum        Cotesia congregata 
+##                         1                         5                         2 
+##         Cotesia glomerata      Dendrolimus kikuchii          Diaphorina citri 
+##                         1                         4                         4 
+##   Drosophila melanogaster         Eciton burchellii           Ephemera danica 
+##                         2                         1                         1 
+##        Eriocheir sinensis         Glossina fuscipes      Helicoverpa armigera 
+##                         1                         1                         4 
+##      Hypsibius exemplaris     Iphiclides podalirius   Lepeophtheirus salmonis 
+##                         1                         6                         1 
+##           Lucilia cuprina   Megalurothrips usitatus           Nezara viridula 
+##                         2                         1                         2 
+##       Oedothorax gibbosus            Ooceraea biroi              Oppia Nitens 
+##                         3                         2                         3 
+##     Periplaneta americana  Polypedilum vanderplanki Ramazzottius varieornatus 
+##                         3                         1                         3 
+##     Spodoptera littoralis Temnothorax longispinosus    Tigriopus californicus 
+##                         1                         1                         1 
+##          Vespula vulgaris 
+##                         1</code></pre>
+<pre class="r"><code>mean(table(mega_conserved$species)) # mean number of paralogs</code></pre>
+<pre><code>## [1] 2.264706</code></pre>
+<pre class="r"><code># write stuff out 
+# write new csv
+write.csv(mega_conserved, file = &quot;orthologs_filtered_CONSERVED+outgroups-mito&quot;)
+
+# write new fasta 
+write_fasta(&quot;orthologs_filtered_CONSERVED+outgroups-mito.fasta&quot;, mega_conserved)</code></pre>
 </div>
 
 

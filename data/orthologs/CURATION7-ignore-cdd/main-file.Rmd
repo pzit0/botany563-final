@@ -1,0 +1,378 @@
+---
+title: "la-la-la"
+author: "Patricia Zito"
+date: "2023-05-22"
+output: html_document
+---
+
+What I’m doing today (May 19, 2023) 
+Getting more species: Blast with these parameters (screenshots) 
+out file: 6FC8T70X016-Alignment-HitTable.csv
+
+Now running it through the ncbi_parser.py script 
+deleted: Tropilaelaps mercedesae OQR69610.1 
+deleted: Tropilaelaps mercedesae OQR69123.1
+out file: no-hexapods-*
+
+Now looking for paralogs. These are the species I’m adding: 
+Sarcoptes scabiei
+Blomia tropicalis
+Dermatophagoides farinae
+Halotydeus destructor 
+Tyrophagus putrescentiae
+Centruroides sculpturatus
+Portunus trituberculatus
+Uloborus diversus
+Panonychus citri
+Pollicipes pollicipes
+
+Commands: 
+(base) pzito@IBIO-DRW7N0JQY0 orthologs % blastp -query Sarcoptes-scabiei.fasta -db nr -remote -evalue 0.005 -entrez_query "Sarcoptes scabiei [organism]" -outfmt 6 -out Sarcoptes-scabiei.blastn
+Warning: (302.10) [blastp] [SOCK::gethostbyaddr]  Got "localhost" for local host address
+(base) pzito@IBIO-DRW7N0JQY0 orthologs % blastp -query Blomia-tropicalis.fasta -db nr -remote -evalue 0.005 -entrez_query "Blomia tropicalis [organism]" -outfmt 6 -out Blomia-tropicalis.blastp
+Warning: (302.10) [blastp] [SOCK::gethostbyaddr]  Got "localhost" for local host address
+(base) pzito@IBIO-DRW7N0JQY0 orthologs % blastp -query Dermatophagoides-farinae.fasta -db nr -remote -evalue 0.005 -entrez_query "Dermatophagoides farinae [organism]" -outfmt 6 -out Dermatophagoides-farinae.blastp
+Warning: (302.10) [blastp] [SOCK::gethostbyaddr]  Got "localhost" for local host address
+(base) pzito@IBIO-DRW7N0JQY0 orthologs % blastp -query Halotydeus-destructor.fasta -db nr -remote -evalue 0.005 -entrez_query "Halotydeus destructor [organism]" -outfmt 6 -out Halotydeus-destructor.blastp 
+Warning: (302.10) [blastp] [SOCK::gethostbyaddr]  Got "localhost" for local host address
+(base) pzito@IBIO-DRW7N0JQY0 orthologs % blastp -query Tyrophagus-putrescentiae.fasta -db nr -remote -evalue 0.005 -entrez_query "Tyrophagus putrescentiae [organism]" -outfmt 6 -out Tyrophagus-putrescentiae.blastp
+Warning: (302.10) [blastp] [SOCK::gethostbyaddr]  Got "localhost" for local host address
+(base) pzito@IBIO-DRW7N0JQY0 orthologs % blastp -query Centruroides-sculpturatus.fasta -db nr -remote -evalue 0.005 -entrez_query "Centruroides sculpturatus [organism]" -outfmt 6 -out Centruroides-sculpturatus.blastp
+(base) pzito@IBIO-DRW7N0JQY0 orthologs % blastp -query Portunus-trituberculatus.fasta -db nr -remote -evalue 0.005 -entrez_query "Portunus trituberculatus [organism]" -outfmt 6 -out Portunus-trituberculatus.blastp
+(base) pzito@IBIO-DRW7N0JQY0 orthologs % blastp -query Panonychus-citri.fasta -db nr -remote -evalue 0.005 -entrez_query "Panonychus citri [organism]" -outfmt 6 -out Panonychus-citri.blastp
+(base) pzito@IBIO-DRW7N0JQY0 orthologs % blastp -query Pollicipes-pollicipes.fasta -db nr -remote -evalue 0.005 -entrez_query "Pollicipes pollicipes [organism]" -outfmt 6 -out Pollicipes-pollicipes.blastp
+
+Now adding all paralogs manually on the non-conserved dataframe. 
+Copied from: orthologs-filtered-ALL+outgroups.csv 
+
+Added all the sub-phyla and order information. Maybe now I should delete the duplicates. Ok making a new R file.
+
+### start
+```{r, include = FALSE}
+library(dplyr)
+library(tidyverse)
+library(seqinr)
+library(Biostrings)
+library(ape)
+library(DescTools) # when prompted, say NO. otherwise will cause error 1. 
+library(msaR)
+
+setwd("/Users/pzito/Desktop/botany563-final/data/orthologs/CURATION7-ignore-cdd")
+```
+
+### 1. Remove Duplicates! 
+```{r}
+data <- read.csv("orthologs-filtered-ALL+outgroups.csv")
+dim(data)
+duplicates <- duplicated(data$protein.accession)
+data2 <- data[!duplicates,]
+dim(data2)
+```
+
+got rid of 89 duplicates! wowowowow!                
+
+```{r, eval = FALSE}
+write.csv(data2, file="orthologs-filtered-ALL+outgroups-duplicates.csv")
+```
+
+### 2. Remove potential NHE sequences!  
+get the drosophila sequences because I'm tired of having the same fasta copies on all my folders
+```{r}
+library(rentrez)
+nha2 <- entrez_fetch(db="protein", id="NP_001247251.1", rettype="fasta")
+nha2
+nhe3 <- entrez_fetch(db="protein", id="AAF13702.1", rettype="fasta")
+nhe3
+# one of the issues here is that this comes with the original header
+# when I transform this into an AAString object, it understands the header as part of the sequence 
+# so I have to remove that because it won't be alignable 
+
+# 1st: remove all spaces "\n"
+nha2 <- gsub(pattern="\n", replacement="", nha2)
+nha2
+nhe3 <- gsub(pattern="\n", replacement="", nhe3)
+nhe3
+
+# 2nd: remove the header and turn these into XString()
+start_nha2 <- nchar(">NP_001247251.1 Na[+]/H[+] hydrogen antiporter 2, isoform B [Drosophila melanogaster]")
+start_nhe3 <- nchar(">AAF13702.1 sodium-hydrogen exchanger NHE3 [Drosophila melanogaster]")
+Dmelnha2 <- AAString(nha2, start = start_nha2+1)
+Dmelnhe3 <- AAString(substr(nhe3, 69, 755))
+
+# ok let's see how they look! 
+Dmelnha2
+Dmelnhe3
+
+# align sequences
+remove_NHE <- function(df){
+  gap_open <- -10
+  gap_extent <- -1
+  index_list <- c()
+  NHA.scores <- c()
+  NHE.scores <- c()
+
+  seq_name = df$protein.accession
+  sequence = df$protein.sequence
+  
+  for(i in 1:length(sequence)){
+    removed <- gsub("\n", "", toupper(sequence[i])) # remove skip lines 
+    seq <- AAString(gsub("`", "", removed)) # remove this weird thing that one of the sequences have
+    NHE_score <- pairwiseAlignment(Dmelnhe3, seq, type = "global", substitutionMatrix = "BLOSUM50", gapOpening = gap_open, gapExtension = gap_extent, scoreOnly = TRUE)
+    NHE.scores <- append(NHE.scores, NHE_score)
+    NHA_score <- pairwiseAlignment(Dmelnha2, seq, type = "global", substitutionMatrix = "BLOSUM50", gapOpening = gap_open, gapExtension = gap_extent, scoreOnly = TRUE)
+    NHA.scores <- append(NHA.scores, NHA_score)
+  }
+  df2 <- df[-which(data2$protein.accession %in% seq_name[index_list]),]
+  df2 <- cbind(df, NHA.scores, NHE.scores)
+  return(df2)
+}
+
+data3 <- remove_NHE(data2) # ok the code flagged down a couple of sequences with really bad alignments
+dim(data3)
+
+# before filtering 
+hist(data3$NHA.scores)
+hist(data3$NHE.scores)
+
+# after filtering 
+data4 <- data3 %>% filter(NHA.scores > NHE.scores) # if the NHE score was higher
+dim(data4)
+mean(data4$NHA.scores)
+hist(data4$NHA.scores)
+hist(data4$NHE.scores)
+```
+
+```{r, eval = FALSE}
+write.csv(data4, file="orthologs-filtered-ALL+outgroups-duplicates-NHE1.csv")
+```
+
+
+### 3. get positions of these sequences! 
+I'll be doing this manually because rentrez is incapable of doing it :) 
+also adding the CDS sequences, start, end and number of exons. 
+all of this will be available on the "orthologs-filtered-ALL+outgroups-duplicates-NHE1.csv" file. 
+
+### 3.1 adding the last bit of species? 
+I'm looking to see if there are any more Daphnea species that could have NHA. 
+right now blasting back the only Daphnea sinensis sequence present in the dataset. 
+
+command Daphnia: 
+(base) pzito@IBIO-DRW7N0JQY0 extra-blasts % blastp -query Daphnea-sisensis.fasta -db nr -remote -evalue 0.005 -entrez_query "Daphnia [organism]" -outfmt 6 -out Daphnea.blastn
+
+result: 
+only the only we already have. and now that I look at it, the NHA score isn't that good (-106). It's higher than NHE, but it definitely doesn't look too good. 
+
+### 4. see which "paralogs" are actually just different transcripts 
+Genbank has a lot of different protein entries. taking the direct results from the ncbi search will overestimate the number of paralog sequences in species. To check whether these are paralogues and not different transcripts, I'll be checking to see if there are overlaps between CDS positions the sequences. If there is, I'll have to align them and collapse them (obtain consensus). 
+
+```{r}
+data5 <- read.csv("orthologs-filtered-ALL+outgroups-duplicates-NHE1.csv", header = TRUE)
+
+# see what it looks like so far 
+nrow(data5) # number of sequences 
+length(unique(data5$species)) # number of species
+unique(data5$subphyla)
+unique(data5[which(data5$subphyla=="(hexapoda)"),]$species) # all hexapods species 
+unique(data5[which(data5$subphyla=="(chelicerata)"),]$species) # all chelicerates species
+unique(data5[which(data5$subphyla=="(crustacea)"),]$species) # all crustacean species 
+unique(data5[which(data5$subphyla=="(tardigrada)"),]$species) # all tardigrada species 
+```
+
+first find which species and which sequences there is an overlap: 
+
+```{r}
+all_species <- unique(data5$species)
+for(i in 1:length(all_species)){
+  print(all_species[i]) # tell me which one we're looking at 
+  df <- data5[which(data5$species == all_species[i]),] # subset for each species
+  overlapped <- c()
+  if(nrow(df)>1){
+    comb <- combn(df$protein.accession, m=2) # all combination of sequence pairs 
+    for(col in 1:ncol(comb)){
+      row1 <- df[which(df$protein.accession==comb[1, col]),]
+      row2 <- df[which(df$protein.accession==comb[2, col]),]
+      no_NA <- !is.na(row1$CDS.start) # discard if NA (this came from mRNA and it's impossible to check)
+      same_scaff <- row1$scaffold==row2$scaffold # if they're in the same scaffold 
+      overlap <- range(row1$CDS.start, row1$CDS.end) %overlaps% range(row2$CDS.start, row2$CDS.end) # if they have overlap
+      if(no_NA && same_scaff && overlap){
+        overlapped <- append(overlapped, col)    
+      } 
+    }
+  }
+  if(length(overlapped)>0){
+    print("OVERLAPPED!")
+    print(comb[,overlapped]) # show which pairs of sequences had overlap 
+  }
+}
+```
+
+Looking at these results, it seems that: 
+
+Cloeon dipterum: 
+paralog1: CAB3360254.1, CAB3360255.1, CAB3360256.1, CAB3360257.1, CAB3360258.1.  
+
+Iphiclides podalirius:  
+paralog1:CAH2066547.1, CAH2066549.1, CAH2066551.1, CAH2076751.1. 
+paralog2: CAH2066545.1, CAH2066543.1, CAH2066541.1. 
+
+Brenthis ino:  
+paralog1: CAH0714536.1, CAH0714537.1. 
+paralog2: CAH0726632.1, CAH0726633.1. 
+
+Polypedilum vanderplanki:  
+paralog1: KAG5673013.1, KAG5673012.1. 
+paralog2: KAG5676603.1, KAG5676604.1.  
+
+Nezara viridula:  
+paralog1: CAH1388386.1, CAH1388387.1. 
+paralog2: CAH1388389.1, CAH1388388.1. 
+
+Nymphon striatum:  
+paralog1: KAG1694103.1, KAG1694104.1, KAG1694105.1, KAG1694102.1, KAG1663788.1, KAG1663791.1, KAG1663790.1. 
+
+Arctia plataginis:    
+paralog1: CAB3231150.1, CAB3231151.1.  
+
+Diaphorina citri:  
+paralog1: KAI5736882.1, KAI5704272.1.  
+
+Amphibalanus amphitrite:     
+paralog1: KAF0289584.1, KAF0289585.1. 
+
+Ramazzottius varieornatus:  
+paralog1: GAV01214.1, GAV01215.1. 
+paralog2: GAV01898.1, GAV01897.1. 
+
+Portunus trituberculatus:  
+paralog1: XP_045108651.1, XP_045108640.1, XP_045108649.1, XP_045108645.1, XP_045108401.1, XP_045108402.1. 
+
+Uloborus diversus:  
+paralog1: XP_054710118.1, XP_054710123.1. 
+
+ok let's see if I can align these in here: (just for visualization, actual consensus will be extracted from geneious or something)
+
+```{r}
+# aux function
+write_fasta <- function(df, out_name){
+  sink(out_name)
+  for (i in 1:nrow(df)){
+    cat(df$fasta.names[i])
+    cat("\n")
+    cat(df$CDS.sequence[i])
+    cat("\n")
+  }
+  sink()
+  }
+```
+
+I'll be honest I tried using the msaConsensusSequence() function but it returned a sequence with a bunch of gaps, also it's nested. So I don't think it's worth getting it from R, I'll just have them aligned on the terminal and get the consensus from there. Then I will also create a new csv file and update it manually. :( 
+
+```{r}
+# create fasta names for the function 
+fasta.names <- c()
+for(i in 1:nrow(data5)){
+  species <- str_replace(data[i, "species"], " ", "-")
+  fasta.name <- paste(paste(">", species, sep = ""), data[i, "protein.accession"], sep = "-")
+  fasta.names <- append(fasta.names, fasta.name)
+}
+data5 <- cbind(data5, fasta.names)
+head(data5[,c("fasta.names", "species", "protein.accession", "comments")])
+```
+
+```{r}
+# Cloeons dipterum: 
+cloeons1 <- data5[which(data5$protein.accession %in% c("emb|CAB3360254.1|", "emb|CAB3360255.1|", "emb|CAB3360256.1|", "emb|CAB3360257.1|", "emb|CAB3360258.1|")),]
+
+# Iphiclides podalirius: 
+iphiclides1 <- data5[which(data5$protein.accession %in% c("emb|CAH2066547.1|", "emb|CAH2066549.1|", "emb|CAH2066551.1|", "emb|CAH2076751.1|")),]
+iphiclides2 <- data5[which(data5$protein.accession %in% c("emb|CAH2066545.1|", "emb|CAH2066543.1|", "emb|CAH2066541.1|")),]
+
+# Brenthis ino:
+brenthis1 <- data5[which(data5$protein.accession %in% c("emb|CAH0714536.1|", "emb|CAH0714537.1|")),]
+brenthis2 <- data5[which(data5$protein.accession %in% c("emb|CAH0726632.1|", "emb|CAH0726633.1|")),]
+
+# Polypedilum vanderplanki:
+polypedilum1 <- data5[which(data5$protein.accession %in% c("gb|KAG5673013.1|", "gb|KAG5673012.1|")),]
+polypedilum2 <- data5[which(data5$protein.accession %in% c("gb|KAG5676603.1|", "gb|KAG5676604.1|")),]
+
+# Nezara viridula:
+nezara1 <- data5[which(data5$protein.accession %in% c("emb|CAH1388386.1|", "emb|CAH1388387.1|")),]
+nezara2 <- data5[which(data5$protein.accession %in% c("emb|CAH1388389.1|", "emb|CAH1388388.1|")),]
+
+# Nymphon striatum: 
+nymphon1 <- data5[which(data5$protein.accession %in% c("gb|KAG1694103.1|", "gb|KAG1694104.1|", "gb|KAG1694105.1|", "gb|KAG1694102.1|")),]
+nymphon2 <- data5[which(data5$protein.accession %in% c("gb|KAG1694102.1|", "gb|KAG1663788.1|", "gb|KAG1663788.1|", "gb|KAG1663791.1|", "gb|KAG1663790.1|")),]  
+
+# Arctia plataginis: 
+arctia1 <- data5[which(data5$protein.accession %in% c("emb|CAB3231150.1|", "emb|CAB3231151.1|")),]  
+
+# Diaphorina citri: 
+diaphorina1 <- data5[which(data5$protein.accession %in% c("gb|KAI5736882.1|", "gb|KAI5704272.1|")),] 
+
+# Amphibalanus amphitrite:
+amphibalanus1 <- data5[which(data5$protein.accession %in% c("gb|KAF0289584.1|", "gb|KAF0289585.1|")),]
+
+# Ramazzottius varieornatus: 
+ramazzottius1 <- data5[which(data5$protein.accession %in% c("GAV01214.1", "GAV01215.1")),]
+ramazzottius2 <- data5[which(data5$protein.accession %in% c("GAV01898.1", "GAV01897.1")),]
+
+# Portunus trituberculatus
+portunus1 <- data5[which(data5$protein.accession %in% c("XP_045108651.1", "XP_045108640.1", "XP_045108651.1", "XP_045108649.1", "XP_045108645.1")),]
+portunus2 <- data5[which(data5$protein.accession %in% c("XP_045108403.1", "XP_045108401.1", "XP_045108402.1")),]
+
+# Uloborus diversus:  
+uloborus1 <- data5[which(data5$protein.accession %in% c("XP_054710118.1", "XP_054710123.1")),]
+
+# which rows I have to remove: 
+which(data5$protein.accession %in% c("emb|CAB3360254.1|", "emb|CAB3360255.1|", "emb|CAB3360256.1|", "emb|CAB3360257.1|", "emb|CAB3360258.1|", "emb|CAH2066547.1|", "emb|CAH2066549.1|", "emb|CAH2066551.1|", "emb|CAH2076751.1|", "emb|CAH2066545.1|", "emb|CAH2066543.1|", "emb|CAH2066541.1|", "emb|CAH0714536.1|", "emb|CAH0714537.1|", "emb|CAH0726632.1|", "emb|CAH0726633.1|", "gb|KAG5673013.1|", "gb|KAG5673012.1|", "gb|KAG5676603.1|", "gb|KAG5676604.1|", "gb|KAG1694103.1|", "gb|KAG1694104.1|", "gb|KAG1694105.1|", "gb|KAG1694102.1|", "gb|KAG1694102.1|", "gb|KAG1663788.1|", "gb|KAG1663788.1|", "gb|KAG1663791.1|", "gb|KAG1663790.1|", "emb|CAB3231150.1|", "emb|CAB3231151.1|", "gb|KAI5736882.1|", "gb|KAI5704272.1|", "gb|KAF0289584.1|", "gb|KAF0289585.1|", "GAV01214.1", "GAV01215.1","GAV01898.1", "GAV01897.1", "XP_045108651.1", "XP_045108640.1", "XP_045108651.1", "XP_045108649.1", "XP_045108645.1", "XP_045108403.1", "XP_045108401.1", "XP_045108402.1", "XP_054710118.1", "XP_054710123.1"))+1 # stop at Nymphon  
+```
+
+okay looking at the alignments, this is what we're going with:  
+
+Amphibalanus: KAF089584.1. 
+Arctia: CAB3231150.1. 
+Brenthis1: CAH0714536.1. 
+Brenthis2: CAH0726633.1. 
+Cloeons: mix. 
+Diaphorina: any. 
+Iphiclides1: CAH2066547.1. 
+Iphiclides2: CAH2066541.1. 
+Nezara1: CAH1388386.1. 
+Nezara2: CAH1388388.1. 
+Nymphon: mix. 
+Polypedilum1: KAG5673013.1. 
+Polypedilum2: KAG5676604.1. 
+Portunus1: XP_045108640.1. 
+Portunus2: XP_045108401.1. 
+Ramazzottius1: mix. 
+Ramazzottius2: mix. 
+Uloborus: XP_054710118.1. 
+
+I'm sort of scared of doing the mixes because they might have gaps in weird places, or when I add odd nucleotides, and I might be introducing frameshifts. I'd rather use the longest transcript but oh well. Let me see if I can get any confirmation. okay sounds good. 
+
+```{r}
+data6 <- read.csv("orthologs-filtered-ALL+outgroups-duplicates-NHE-collapsed.csv")
+fasta.names <- c()
+for(i in 1:nrow(data6)){
+  species <- str_replace(data[i, "species"], " ", "-")
+  fasta.name <- paste(paste(">", species, sep = ""), data[i, "protein.accession"], sep = "-")
+  fasta.names <- append(fasta.names, fasta.name)
+}
+data6 <- cbind(data6, fasta.names)
+head(data6[,c("fasta.names", "species", "protein.accession", "comments")])
+```
+  
+```{r, eval = FALSE}
+write_fasta(data6, out_name = "orthologs-filtered-ALL+outgroups-duplicates-NHE-collapsed.fasta")
+unique(data6$subphyla)
+
+write_fasta(data6[which(data6$subphyla == "(hexapoda)"),], out = "hexapods.fasta")
+write_fasta(data6[which(data6$subphyla == "(crustacea)"),], out = "crustaceans.fasta")
+write_fasta(data6[which(data6$subphyla == "(chelicerata)"),], out = "chelicerates.fasta")
+write_fasta(data6[which(data6$subphyla == "(tardigrada)"),], out = "tardigrades.fasta")
+```
+  
+
+
+--- 
+

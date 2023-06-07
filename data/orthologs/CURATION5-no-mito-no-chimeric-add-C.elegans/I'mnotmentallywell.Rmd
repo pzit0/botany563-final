@@ -1,0 +1,108 @@
+---
+title: "I-literally-can't-take-this-anymore"
+author: "Patricia Zito"
+date: "2023-05-11"
+output: html_document
+---
+
+### This is literally at least the 10th time I've done this I'm so done with everything right now I want to ugly cry and punch Hendel Albatorrez I hope you burn in hell 
+```{r}
+setwd("/Users/pzito/Desktop/botany563-final/data/orthologs/CURATION5-no-mito-no-chimeric-add-C.elegans")
+data <- read.csv("orthologs_filtered_CONSERVED+outgroups-mito.csv")
+
+library(dplyr)
+library(stringr)
+```
+
+## write new fasta names 
+```{r}
+fasta.names <- c()
+for(i in 1:nrow(data)){
+  species <- str_replace(data[i, "species"], " ", "-")
+  fasta.name <- paste(paste(">", species, sep = ""), data[i, "protein.accession"], sep = "-")
+  fasta.names <- append(fasta.names, fasta.name)
+}
+data <- cbind(data, fasta.names)
+
+head(data[,c("fasta.names", "species", "protein.accession", "comments")])
+dim(data)
+```
+
+## remove c.elegans 
+```{r}
+colnames(data)
+as_tibble(data)
+data2 <- data %>% filter(species!="Caenorhabditis elegans")
+dim(data2)
+```
+
+## function
+```{r}
+write_fasta <- function(df, type, out_name){
+  sink(out_name)
+  if(type == "protein"){
+    for (i in 1:nrow(df)){
+      cat(df$fasta.names[i])
+      cat("\n")
+      cat(df$protein.sequence[i])
+      cat("\n")
+    }} else if(type == "cds"){
+      for (i in 1:nrow(df)){
+        cat(df$fasta.names[i])
+        cat("\n")
+        cat(df$cds.seq[i])
+        cat("\n")
+      }} else {
+      print("type must be either protein or cds")
+    }
+  sink()
+  }
+```
+
+
+## write new fasta and csv files
+need a new csv file because new fasta names 
+```{r, eval = FALSE}
+write.csv(data2, file = "orthologs_filtered_CONSERVED+tardigradesONLY-mito.csv")
+write_fasta(data2, type="protein", "orthologs_filtered_CONSERVED+tardigradesONLY-mito-PROTEIN.fasta")
+write_fasta(data2, type="cds", "orthologs_filtered_CONSERVED+tardigradesONLY-mito-CDS.fasta")
+```
+
+
+## side project: where is the extra insertion in NHA3 coming from? 
+```{r}
+# ranges 
+nha1 <- seq(49671173, 49673572)
+nha2 <- seq(49693946, 49697365)
+nha3 <- seq(49719723, 49724026)
+nha4 <- seq(49754150, 49757575)
+nha5 <- seq(49764468, 49768153)
+nha6 <- seq(49775192, 49777995)
+nha7 <- seq(49811569, 49809476)
+nha8 <- seq(66735544, 66744226)
+
+# now check the results
+res_starts <- c(49719729, 49755188, 49810002, 49766737, 49776157, 49723838, 49720746, 49720874, 49719414, 49723297)
+
+for(i in 1:length(res_starts)){
+  print(res_starts[i])
+  if(res_starts[i] %in% nha1){
+    print("contained within nha1")
+  } else if(res_starts[i] %in% nha2){
+    print("contained within nha2")
+  } else if(res_starts[i] %in% nha3){
+    print("contained within nha3")
+  } else if(res_starts[i] %in% nha4){
+    print("contained within nha4")
+  } else if(res_starts[i] %in% nha5){
+    print("contained within nha5")
+  } else if(res_starts[i] %in% nha6){
+    print("contained within nha6")
+  } else if(res_starts[i] %in% nha7){
+    print("contained within nha7")
+  } else if(res_starts[i] %in% nha8){
+    print("contained within nha8")
+  } else {
+    print("not contained in any of the nhas")
+  }
+}

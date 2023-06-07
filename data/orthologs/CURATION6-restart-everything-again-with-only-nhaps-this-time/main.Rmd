@@ -1,0 +1,79 @@
+---
+title: "checking-batchCDD"
+author: "Patricia Zito"
+date: "2023-05-16"
+output: html_document
+---
+
+# Parse through table
+this data comes from the CURATION4 process. All of these proteins accessions have already been filtered for their genome assembly quality, and I have already collected all paralogs. And I will now only retain the sequences that contain the "nhap" superfamily 
+```{r}
+library(dplyr)
+setwd("/Users/pzito/Desktop/botany563-final/data/orthologs/CURATION6-restart-everything-again-with-only-nhaps-this-time")
+data <- read.csv(file = "body-hitdata.txt", sep = "\t", header = FALSE)
+colnames(data) <- c("Query", "Hit type", "PSSM-ID", "From", "To", "E-Value", "Bitscore", "Accession", "Short name", "Incomplete", "Superfamily", "Definition")
+
+head(data)
+dim(data)
+unique(data$`Short name`) # all this junk came from blast! wow 
+table(data$`Short name`) # look at frequencies
+```
+
+### Actually filtering through the data 
+```{r}
+data <- as_tibble(data)
+nha_data <- data %>% filter(`Short name` == "NhaP superfamily" | `Short name` == "NhaA superfamily" | `Short name` == "NhaP2 superfamily")
+dim(nha_data)
+head(nha_data)
+```
+
+### get accession numbers 
+```{r, eval = FALSE}
+get_acc <- function(table){
+  # input is the Hittable from the batch-CD 
+  # output is a vector containing just the accession numbers 
+  out <- c()
+  query <- table$Query # this is the column that contains the og acc numbers
+  for(i in 1:length(query)){ 
+    str <- str_split_1(query[i], pattern = "") # extract full string
+    # now get only the accession number 
+    acc <- str("")
+    start <- FALSE 
+    for(j in 1:length(str)){
+      if(start == FALSE){
+        if(str[j] == "|")
+          start = TRUE
+      } else if(start == TRUE & str[j] != "|"){
+        acc <- paste(acc, str[j], sep = "")
+      } else if(str[j] == "|"){
+        start = FALSE
+      } 
+    }
+    out <- append(out, acc)
+  }
+  return(out)
+}
+
+##### AUX ##### 
+is.upper <- function(chr){
+  return(str_detect(chr,"[[:upper:]]"))
+}
+
+is.number <- function(chr){
+  return(str_dectec(chr, "[[:0-9:]]"))
+}
+
+#### TESTING ####
+# plan: parse through this test and extract specific patterns 
+# e.g. 
+query <- nha_good$Query
+test <- query[1]
+
+```
+
+
+### Export this 
+```{r, eval = FALSE}
+write.csv(nha_data, file = "all_prot_nhap_domain.csv")
+```
+
